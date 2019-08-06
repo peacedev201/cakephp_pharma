@@ -1,0 +1,808 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "V0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "General"
+msgstr "V0002일반사항"
+
+msgid "Features"
+msgstr "V0003추천"
+
+msgid "Security"
+msgstr "V0004보안"
+
+msgid "Custom Blocks"
+msgstr "V0005사용자 설정 Blocks"
+
+msgid "Intergration"
+msgstr "V0006통합"
+
+msgid "Logo & OG Image"
+msgstr "V0007로고 및 OG 이미지"
+
+msgid "Mail"
+msgstr "V0008메일"
+
+msgid "System Mode"
+msgstr "V0009시스템 모드"
+
+msgid "Billing"
+msgstr "V0010청구"
+
+msgid "Subscription"
+msgstr "V0011사용신청"
+
+msgid "Cron"
+msgstr "V0012크론"
+
+msgid "Blog"
+msgstr "V0013블로그"
+
+msgid "Topic"
+msgstr "V0014토픽"
+
+msgid "Photo"
+msgstr "V0015사진"
+
+msgid "Video"
+msgstr "V0016동영상"
+
+msgid "Page"
+msgstr "V0017페이지"
+
+msgid "Event"
+msgstr "V0018이벤트"
+
+msgid "Group"
+msgstr "V0019그룹"
+
+msgid "Social Integration"
+msgstr "V0020소셜 통합"
+
+msgid "Facebook Integration"
+msgstr "V0021페이스북 통합"
+
+msgid "Google Integration"
+msgstr "V0022구글 통합"
+
+msgid "Site Map"
+msgstr "V0023사이트맵"
+
+msgid "SEO Settings & Rules"
+msgstr "V0024SEO 설정 및 규칙"
+
+msgid "Activity Feed Settings"
+msgstr "V0025Activity 피드 설정"
+
+msgid "Storage System"
+msgstr "V0026저장시스템"
+
+msgid "Site Name"
+msgstr "V0027사이트명"
+
+msgid "Site Email"
+msgstr "V0028사이트이메일"
+
+msgid "Site Keywords"
+msgstr "V0029사이트 키워드"
+
+msgid "Site Description"
+msgstr "V0030사이트 소개"
+
+msgid "Everyone"
+msgstr "V0031모두"
+
+msgid "Friends & Me"
+msgstr "V0032친구 및 나"
+
+msgid "Default Home Feed"
+msgstr "V0033기본 홈 피드"
+
+msgid "Note"
+msgstr "V0034노트"
+
+msgid "Enable reCaptcha"
+msgstr "V0035reCaptcha활성화"
+
+msgid "You must enter recaptcha public and private key if you<br>enable this. Click <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">this</a> for more details"
+msgstr "V0036이 것을 홀성화하시려면 recaptcha 값(공개, 개인)을<br>입력하셔야합니다.<a href=\"http://www.google.com/recaptcha\" target=\"_blank\">클릭하시면</a> 세부사항을 보실 수 있습니다."
+
+msgid "reCaptcha Public Key"
+msgstr "V0037reCaptcha 공개 키"
+
+msgid "reCaptcha Private Key"
+msgstr "V0038reCaptcha 개인 키"
+
+msgid "Require Email Validation"
+msgstr "V0039이메일 인증이 필요합니다."
+
+msgid "Homepage Guest Message"
+msgstr "V0040홈페이지 방문고객 메세지"
+
+msgid "Header Block Code"
+msgstr "V0041헤더 Block Code"
+
+msgid "Footer Block Code"
+msgstr "V0042푸터 Block Code"
+
+msgid "Homepage Member Message"
+msgstr "V0043홈페이지 회원 메세지"
+
+msgid "Allow Users To Select Theme"
+msgstr "V0044사용자 화면Theme 선택 허용"
+
+msgid "Allow Guests To Search"
+msgstr "V0045방문자의 검색허용"
+
+msgid "Photo theater mode"
+msgstr "V0046Photo theater mode"
+
+msgid "Enable follow function"
+msgstr "V0047팔로우 기능 허용"
+
+msgid "Default Theme"
+msgstr "V0048기본 화면Theme"
+
+msgid "Force Login"
+msgstr "V0049Force Login"
+
+msgid "Check this to force users to login to view the site"
+msgstr "V0050해당 사항을 클릭하여 사용자가 로그인을 하여야만 사이트를 볼 수 있게합니다."
+
+msgid "Homepage Block Code"
+msgstr "V0051홈페이지 블록 코드"
+
+msgid "Ban IP Addresses"
+msgstr "V0052차단 IP 주소"
+
+msgid "Enter xyz.xyz.xyz.xyz to ban the exact ip address<br>Or xyz.xyz.xyz to ban ip addresses that start with xyz.xyz.xyz<br>One ip address per line"
+msgstr "V0053특정 IP주소 차단시에는 xyz.xyz.xyz.xyz 형태로 입력하시고,<br>xyz.xyz.xyz 로 시작하는 주소 차단시에는 xyz.xyz.xyz 형태로 입력.<br>한 행에 IP주소 하나씩 입력하십시오."
+
+msgid "Ban Email Addresses"
+msgstr "V0054차단 이메일 주소"
+
+msgid "Enter xyz@abc.com to ban the exact email address<br>Or abc@* to ban email addresses that start with abc@<br>Or *@abc.com to ban email addresses that end with @abc.com<br>One email address per line"
+msgstr "V0055특정 이메일 주소 차단시에는 xyz@abc.com 형태로 입력하십시요.<br>또는 abc@* 형태로 입력하시면, abc@ 로 시작하는 주소들이 차단됩니다.<br>Or *@abc.com 형태로 입력시에는 @abc.com로 끝나는 이메일이 차단됩니다.<br>한 행당 한 이메일주소를 입력하십시요."
+
+msgid "Enable Activities Feed Selection"
+msgstr "V0056활동 피드 선택 활성화"
+
+msgid "Take Site Offline"
+msgstr "V0057사이트 오프라인 표시"
+
+msgid "Offline Message"
+msgstr "V0058오프라인 메시지"
+
+msgid "Only Me"
+msgstr "V0059나에게만"
+
+msgid "Default Profile Privacy"
+msgstr "V0060프로필 기본 공개설정"
+
+msgid "Popular Items Interval"
+msgstr "V0061인기 품목 간격"
+
+msgid "Display popular items within X days"
+msgstr "V0062인기 아이템을 X 일동안 진열"
+
+msgid "Default Language"
+msgstr "V0063기본 언어"
+
+msgid "Disable Registration"
+msgstr "V0064등록 차단"
+
+msgid "Allow invite friend to join site"
+msgstr "V0065친구 초대 허용"
+
+msgid "12-hour"
+msgstr "V006612-시간"
+
+msgid "24-hour"
+msgstr "V006724-시간"
+
+msgid "Time Format"
+msgstr "V0068시간표시형식"
+
+msgid "Date Format"
+msgstr "V0069날짜표시형식"
+
+msgid "<a target=\"_blank\" href=\"http://php.net/manual/en/function.strftime.php\">Refer to PHP date function for more information about<br>date format. Click this for more details</a>"
+msgstr "V0070<a target=\"_blank\" href=\"http://php.net/manual/en/function.strftime.php\">날짜표시에 대한 자세한 내용은 PHP 날짜표시형식을 참조하십시요.<br>자세한 사항은 여기를 클릭하십시요.</a>"
+
+msgid "Upload New Logo"
+msgstr "V0071신규 로고 업로드"
+
+msgid "Upload New Og Image"
+msgstr "V0072신규 Og 이미지 업로드"
+
+msgid "Remove Admin Link"
+msgstr "V0073관리자 링크 제거"
+
+msgid "Check this box to remove Admin link from user menu"
+msgstr "V0074사용자 메뉴에서 관리자 링크를 삭제하시려면 이 박스에 체크표시하십시오."
+
+msgid "Allow Users To Select Language"
+msgstr "V0075사용자에세 언어선택을 허용합니다."
+
+msgid "Analytics Code"
+msgstr "V0076애널리틱스 코드"
+
+msgid "Enter your analytics code here<br>Click <a href=\"http://www.google.com/analytics/\" target=\"_blank\">this</a> to visit Google Analytics"
+msgstr "V0077회원님의 애널리틱스코드를 입력하십시요.<br>여기<a href=\"http://www.google.com/analytics/\" target=\"_blank\">를 클릭하면</a> 구글 애널리틱스로 이동합니다."
+
+msgid "Registration Notification"
+msgstr "V0078등록 알리미"
+
+msgid "Check this to enable the system to send a notification email to the site email whenever a new user signs up"
+msgstr "V0079신규 회원등록시마다 사이트 이메일로 알림메일을 보내려면, 여기에 체크하십시요."
+
+msgid "Hide Activities Feed From Guests"
+msgstr "V0080방문자들의 Activities피드 숨기기"
+
+msgid "Allow Username Change"
+msgstr "V0081사용자 별명 이름 변경 허용"
+
+msgid "Restricted Usernames"
+msgstr "V0082제한된 사용자 별명"
+
+msgid "Enter usernames that you do not want users to register with. One username per line"
+msgstr "V0083등록이 허용되지 않는 사용자 별명을 입력하십시요. 한 줄에 하나의 사용자별명 입력"
+
+msgid "Enable Registration Code"
+msgstr "V0084등록코드 활성화"
+
+msgid "Check this box to force users to enter the correct registration code defined below in order to register"
+msgstr "V0085등록시, 사용자에게 아래에 정의된 등록코드를 사용하도록 하려면 해야 이 박스에 체크하십시요."
+
+msgid "Registration Code"
+msgstr "V0086등록코드"
+
+msgid "Google Developer Key"
+msgstr "V0087구글 개발자 코드"
+
+msgid "Use for youtube API and Google Map API. For more info please go to <a href=\"https://community.moosocial.com/topics/view/1337\">link</a>"
+msgstr "V0088유튜브 API 와 구글 지도 API에 사용합니다. 더 자세한 사항은 <a href=\"https://community.moosocial.com/topics/view/1337\">링크를 방문하십시요.</a>"
+
+msgid "Default Timezone"
+msgstr "V0089기본 시간대"
+
+msgid "Enable Timezone Selection"
+msgstr "V0090시간대 설정을 허용합니다."
+
+msgid "If your users live in different timezones then enable this"
+msgstr "V0091대상 회원이 각기 다른 지역(시간대)에 거주하는 경우, 이를 활성화하십시요."
+
+msgid "Require timezone"
+msgstr "V0092시간대 설정 필요"
+
+msgid "Require Birthday"
+msgstr "V0093생년월일 필수 입력"
+
+msgid "Show birthday field at sign up form"
+msgstr "V0094등록양식에 생년월일 필드 표시"
+
+msgid "Enable Spam Challenge"
+msgstr "V0095스팸대응 활성화"
+
+msgid "Check this box to force users to answer a<br>challenge question in order to register<br>Click <a href=\"/admin/spam_challenges\">here</a> to manage challenge questions/answers"
+msgstr "V0096이 박스를 체크하면, 회원등록시 스팸대응질문에 답변을<br>해야 등록이 가능합니다.<br><a href=\"/admin/spam_challenges\">여기</a>를 클릭하면 스팸대응 질문 및 답변을 관리할 수 있습니다."
+
+msgid "Show \"Powered by\" link"
+msgstr "V0097 \"Powered by\" 링크 보기"
+
+msgid "Allow Name Change"
+msgstr "V0098이름 변경 허용"
+
+msgid "Check this to allow users to change name"
+msgstr "V0099회원의 이름변경을 허용합니다."
+
+msgid "Registration Message"
+msgstr "V0100등록메세지"
+
+msgid "Enable SSL Mode"
+msgstr "V0101SSL 모드 활성화"
+
+msgid "Production"
+msgstr "V0102프로닥션"
+
+msgid "Development 1"
+msgstr "V0103개발모드 1"
+
+msgid "Development 2"
+msgstr "V0104개발모드 2"
+
+msgid "Production Mode: No error messages, errors, or warnings shown. Flash messages redirect.Development Mode: 1: Errors and warnings shown, model caches refreshed, flash messages halted. 2: As in 1, but also with full debug messages and SQL output."
+msgstr "V0105프로닥션모드: 에러메세지, 에러, 또는 경고 등을 표시하지 않음. 플래쉬메세지는 redirect. 개발모드: 1: 에러 및 경고메세지 표시, model caches refreshed, flash messages halted. 개발모드 2: 개발모드 1과 동일하나, 전체 디버그 메세지 및 SQL output을 같이 표시."
+
+msgid "Notification Interval"
+msgstr "V0106알림 통보시간 간격"
+
+msgid "Refresh notification within X seconds"
+msgstr "V0107알림통보를 X 초 마다 갱신"
+
+msgid "Version"
+msgstr "V0108버젼"
+
+msgid "Approve Users"
+msgstr "V0109회원승인"
+
+msgid "Enable this if you want to approve users before they can do activities on the site."
+msgstr "V0110신규 회원이 가입승인을 받아야, 사이트를 사용할 수 있게 설정하려면 이 기능을 활성화하십시요."
+
+msgid "Disable"
+msgstr "V0111불활성화"
+
+msgid "Enable"
+msgstr "V0112활성화"
+
+msgid "Enable Blog Plugin"
+msgstr "V0113블로그 플러그인 활성화"
+
+msgid "Trigger Access Key"
+msgstr "V0114액세스 키를 작동시킵니다"
+
+msgid "Used to prevent unauthorized running of the task scheduler."
+msgstr "V0115작업 스케쥴러의 임의 사용을 차단시키려는 경우 사용."
+
+msgid "Concurrent Processes"
+msgstr "V0116동시 처리 프로세스"
+
+msgid "The maximum number of concurrent processes running tasks that are allowed."
+msgstr "V0117동시 작업 실행 프로세스 최대 허용 수."
+
+msgid "Tasks Run per Request"
+msgstr "V0118요청당 실행 작업"
+
+msgid "The maximum number of tasks that are run during each request. If a task is determined to have done nothing, it may not count towards this number."
+msgstr "V0119요청 건당 실행할 수 있는 작업 최대 건수. 작업내용상 아무것도 진행되지 않았다면, 작업건수에 가산되지 않을 수도 있습니다."
+
+msgid "Time per Request"
+msgstr "V0120요청건당 처리시간"
+
+msgid "The maximum time allowed per request. This number will be automatically scaled if ini_get() can read max_execution_time from php.ini."
+msgstr "V0121요청건당 허용되는 처리시간. 이 숫자는 ini_get() 기능이 php.ini에서  max_execution_time 을 읽어들이면 자동적으로  조정됩니다.."
+
+msgid "Process Timeout"
+msgstr "V0122프로세스 제한시간"
+
+msgid "The maximum time before a task is considered to have died. The task will then be reset and freed to execute again."
+msgstr "V0123작업이 작동중지 하기까지의 최대 시간. 작업이 재설정되고 재실행됩니다."
+
+msgid "Concurrent Jobs"
+msgstr "V0124동시 작업"
+
+msgid "The maximum number of concurrently running jobs. This setting is limited by \"Concurrent Processes\""
+msgstr "V0125동시 실행 작업의 최대 수. 해당 설정은 \"Concurrent Processes\" 으로 제한됨"
+
+msgid "Javascript Enable"
+msgstr "V0126Javascript 활성화"
+
+msgid "Cron job auto call when user go to site"
+msgstr "V0127사용자가 사이트로 이동시 cron 작업 자동 실행"
+
+msgid "Item per pages"
+msgstr "V0128페이지당 항목"
+
+msgid "Enable Topic Plugin"
+msgstr "V0129토픽 플러그인 활성화"
+
+msgid "The number of blogs to display per page"
+msgstr "V0130페이지당 표시 할 블로그 수The number of blogs to display per page"
+
+msgid "Photo item per pages"
+msgstr "V0131페이지당 사진 항목"
+
+msgid "Album item per pages"
+msgstr "V0132페이지당 앨범 항목"
+
+msgid "Max upload size (Mb)"
+msgstr "V0133최대 업로드 크기 (Mb)"
+
+msgid "Enable Photo Plugin"
+msgstr "V0134사진 플러그인 활성화"
+
+msgid "Enable Video Plugin"
+msgstr "V0135비디오 플러그인 활성화"
+
+msgid "Enable Page Plugin"
+msgstr "V0136페이지 플러그인 활성화"
+
+msgid "Enable Event Plugin"
+msgstr "V0137이벤트 플러그인 활성화"
+
+msgid "Enable Group Plugin"
+msgstr "V0138그룹 플러그인 활성화"
+
+msgid "From Name"
+msgstr "V0139이름으로"
+
+msgid "Enter the name you want the emails from the system to come from in the field below."
+msgstr "V0140아래 입력란에 시스템의 전자 메일 이름을 입력하십시요."
+
+msgid "From Address"
+msgstr "V0141주소로"
+
+msgid "Enter the email address you want the emails from the system to come from in the field below."
+msgstr "V0142아래 입력란에 시스템 전자 메일 주소를 입력하십시요."
+
+msgid "Use the built-in mail() function"
+msgstr "V0143 () 이메일 기능 사용"
+
+msgid "Send emails through an SMTP server"
+msgstr "V0144 SMTP 서버를 통하여 이메일 발송"
+
+msgid "Send through SMTP"
+msgstr "V0145 SMTP를 통하여 발송"
+
+msgid "Emails typically get sent through the web server using the PHP mail() function. Alternatively you can have emails sent out using SMTP, usually requiring a username and password, and optionally using an external mail server."
+msgstr "V0146 이메일은 일반적으로 PHP mail () 기능을 사용하여 웹 서버를 통해 발송됩니다. 또는 SMTP를 사용하여 전자 메일을 보낼 수 있으며 일반적으로 ID와 비밀번호가 필요하며 외부 이메일 서버를 사용할 수도 있습니다."
+
+msgid "SMTP Host"
+msgstr "V0147SMTP 호스트"
+
+msgid "In some cases, you might need to include ssl:// in the hostname"
+msgstr "V0148일부 경우에, ssl:// in the hostname 포함하여야합니다"
+
+msgid "SMTP Username"
+msgstr "V0149SMTP 사용자명"
+
+msgid "SMTP Password"
+msgstr "V0150SMTP 비밀번호"
+
+msgid "SMTP Port"
+msgstr "V0151SMTP 포트"
+
+msgid "Default: 25. Also commonly on port 465 (SMTP over SSL) or port 587."
+msgstr "V0152기본값: 25. 465 포트 (SMTP over SSL) 또는 587 포트 사용."
+
+msgid "Yes, enable email queue"
+msgstr "V0153예, 이메일 대기열을 사용합니다"
+
+msgid "No, always send emails immediately"
+msgstr "V0154아니요, 항상 이메일을 즉시 보냅니다"
+
+msgid "Email Queue"
+msgstr "V0155이메일 대기열"
+
+msgid "Utilizing an email queue, you can allow your website to throttle the emails being sent out to prevent overloading the mail server."
+msgstr "V0156이메일 대기열을 활용하여 이메일 서버가 과부화되지 않도록 웹 사이트에서 발송되는 이메일을 차단하도록 허용 할 수 있습니다."
+
+msgid "None"
+msgstr "V0157없음"
+
+msgid "TLS"
+msgstr "V0158TLS"
+
+msgid "SSL"
+msgstr "V0159SSL"
+
+msgid "Use SSL or TLS?"
+msgstr "V0160U SSL 또는 TLS를(을) 사용 하시겠습니까?"
+
+msgid "Mail Count"
+msgstr "V0161메일 수"
+
+msgid "The number of emails to send out each time the Background Mailer task is run."
+msgstr "V0162Background Mailer 작업이 실행될 때마다 보낼 이메일수."
+
+msgid "Facebook App Api"
+msgstr "V0163페이스북 앱 Api"
+
+msgid "Facebook App Secret"
+msgstr "V0164페이스북 앱 Secret"
+
+msgid "Scope"
+msgstr "V0165범위"
+
+msgid "Return Url"
+msgstr "V0166되돌아가기 Url"
+
+msgid "5.0.0"
+msgstr "V01675.0.0"
+
+msgid "3.2.3"
+msgstr "V01683.2.3"
+
+msgid "SDK version"
+msgstr "V0169SDK 버전"
+
+msgid "You must enter FB application ID and secret if you enable this"
+msgstr "V0170페이스북 어플리케이션 ID 및 secret을 입력하셔야 해당 기능을 사용하실 수 있습니다."
+
+msgid "Google App Api"
+msgstr "V0171구글 앱 Api"
+
+msgid "Google Client secret"
+msgstr "V0172구글 클라이언트 secret"
+
+msgid "You must enter Google application ID and secret if you enable this"
+msgstr "V0173구글 어플리케이션 ID 및 secret을 입력하셔야 해당 기능을 사용하실 수 있습니다."
+
+msgid "Allow Profile Picture upload during SignUp"
+msgstr "V0174회원가입시 프로필 사진 업로드 허용"
+
+msgid "Allow and require Profile Picture upload during SignUp"
+msgstr "V0175회원가입시 프로필 사진 업로드 혀용 및 필요로 합니다."
+
+msgid "Auto add friend with"
+msgstr "V0176자동으로 친구 추가"
+
+msgid "Auto Load More"
+msgstr "V0177자동 더 보기"
+
+msgid "Enable discount coupon"
+msgstr "V0178할인 쿠폰 활성화"
+
+msgid "if this option is enable, you can create discount coupon and send it to your members to use when paying for paid products or services."
+msgstr "V0179해당 옵션 활성화시 할인 쿠폰을 생성하고 회원에게 발송하여 유료 제품 및 서비스를 구매시 사용할 수 있게 합니다."
+
+msgid "Show birthday on profile popup"
+msgstr "V0180프로필 팝업에 생일 보기"
+
+msgid "Show gender on profile popup"
+msgstr "V0181프로핍 팝업에 성별 보기"
+
+msgid "Show joined since on profile popup"
+msgstr "V0182프로필 팝업에 가입 날짜 보기"
+
+msgid "Show username field at sign up form"
+msgstr "V0183등록양식에 사용자명 필드 보기"
+
+msgid "Require username"
+msgstr "V0184사용자명이 필요합니다."
+
+msgid "Show about field at sign up form"
+msgstr "V0185등록양식에 자기소개 필드 보기"
+
+msgid "Require about"
+msgstr "V0186자기소개가 필요합니다."
+
+msgid "Send email and notification to users if they have not read private message in (minutes)"
+msgstr "V0187개인 메세지 (분) 미확인시 사용자에게 이메일 및 알림을 발송합니다."
+
+msgid "Enter 0 to disable this"
+msgstr "V0188비활성화 하려면 0을 입력하십시요."
+
+msgid "Required JS timeout (seconds)"
+msgstr "V0189 필요한 Javascript 타임아웃 (초)"
+
+msgid "This setting is for developers, please do not change"
+msgstr "V0190해당 설정은 개발자용입니다. 변경하지 마십시요."
+
+msgid "Enable Blog Hashtag"
+msgstr "V0191블로그 해쉬태그 활성화"
+
+msgid "Enable Topic Hashtag"
+msgstr "V0192토픽 해쉬태그 활성화"
+
+msgid "Enable Photo Hashtag"
+msgstr "V0193사진 해쉬태그 활성화"
+
+msgid "Enable Video Hashtag"
+msgstr "V0194비디오 해쉬태그 활성화"
+
+msgid "Enable Event Hashtag"
+msgstr "V0195이벤트 해쉬태그 활성화"
+
+msgid "Enable Group Hashtag"
+msgstr "V0196그룹 해쉬태그 활성화"
+
+msgid "Notification for group's activities"
+msgstr "V0197그룹 활동 알림"
+
+msgid "Enable Subscription Packages"
+msgstr "V0198구독 패키지 활성화"
+
+msgid "Select plan basic theme"
+msgstr "V0199요금제 기본 테마 선택"
+
+msgid "Select plan compare table theme"
+msgstr "V0200요금제 비교표 테마 선택"
+
+msgid "Select theme"
+msgstr "V0201테마 선택"
+
+msgid "Select Theme Subscription Packages"
+msgstr "V0202테마 구독 패키지 선택"
+
+msgid "Enable Cookies"
+msgstr "V0203쿠키 허용"
+
+msgid "You must enter deny url if you<br>enable this."
+msgstr "V0204거절 url을 입력하셔야<br>를(을) 활성화 하실 수 있습니다."
+
+msgid "Deny Url"
+msgstr "V0205거절 Url"
+
+msgid "Please include protocol http:// or https://"
+msgstr "V0206 http:// 또는 https:// 를(을) 사용하십시요."
+
+msgid "Hide dislike"
+msgstr "V0207'싫어요' 숨기기"
+
+msgid "Allow sending message to non-friend"
+msgstr "V0208친구등록이 안된 사용자에게 메세지 보내기 허용"
+
+msgid "Check if users are allowed to send message to non-friend. Individual users can set option whether or not to only receive message from friend in profile setting. Otherwise, If unchecked, users can send message to friends only."
+msgstr "V0209친구등록 되지 않은 회원에게 메세지를 보낼 수 있는지 확인. 친구에게서만 메세지를 받을지 프로필 설정에서 설정할 수 있습니다. 선택하지 않으면 친구에게만 메세지를 보낼 수 있습니다."
+
+msgid "Recent comment"
+msgstr "V0210최근 댓글"
+
+msgid "Chronological"
+msgstr "V0211시간순으로"
+
+msgid "Comment sort style"
+msgstr "V0212댓글 정렬: 스타일"
+
+msgid "Recent comment : New comments go to the top. Chronological : All comments with newest comments at the bottom."
+msgstr "V0213최근 댓글: 새 댓글이 맨 위로. 시간순으로: 가장 최근 덧글이 있는 댓글 맨 아래로."
+
+msgid "Require gender"
+msgstr "V0214성별이 필요합니다."
+
+msgid "Show gender field at sign up form"
+msgstr "V0215등록양식에 성별 필드를 보기"
+
+msgid "Enable \"Unspecified\" Gender"
+msgstr "V0216 \"Unspecified\" 성별을 활성화"
+
+msgid "Members will be able to select \"Unspecified\" as their gender during signup or edit their profile"
+msgstr "V0217 맴버들은 회원가입 및 프로필 수정에서 성별을 \"Unspecified\"로 선택할 수 있습니다."
+
+msgid "Enable Profile pop-up"
+msgstr "V0218프로필 팝업 활성화"
+
+msgid "Min age Restriction"
+msgstr "V0219최소 연령 제한"
+
+msgid "Min age to be able to create an account. Enter \"0\" to disable this Restriction."
+msgstr "V0220계정 생성가능 최소 연령 재한. 해당 제한을 비활성화 하려면 \"0\" 을(를) 입력하십시요."
+
+msgid "Max age Restriction"
+msgstr "V0221최대 연령 제한"
+
+msgid "Max age to be able to create an account. Enter \"0\" to disable this Restriction."
+msgstr "V0222계정 생성 가능 최대 연령 제한. 해당 제한을 비활성화 하려면 \"0\" 을(를) 입력하십시요."
+
+msgid "Auto disable accounts that do not match above min age restriction or has reached max age restriction"
+msgstr "V0223최소 연령 제한에 못 미치거나 최대 연령 제한에 도달한 계정을 자동 비활성화합니다."
+
+msgid "If this option is checked, accounts that do not match with new min age restriction or has reached new max age restriction changed by you above will be auto disabled once they sign in again."
+msgstr "V0224이 옵션을 선택하면, 새로운 최소 연령 제한과 일치하지 않거나 위에 설정된 새로운 최대 연령 제한에 도달한 계정은 재로그인시 자동으로 사용이 중지됩니다."
+
+msgid "Enable category toggle"
+msgstr "V0225카테고리 토글 활성화"
+
+msgid "Site domain"
+msgstr "V0226사이트 도메인"
+
+msgid "This is your current registered domain. If you changed to new domain you need to update this information"
+msgstr "V0227현재 등록된 도메인입니다. 새로운 도메인으로 변경하셨다면 이 정보를 업데이트 해야합니다."
+
+msgid "Display profile type on the main user profile tab"
+msgstr "V0228메인 사용자 프로필 탭에 프로필 종류를 표시합니다."
+
+msgid "By pass force login for user"
+msgstr "V0229강제 로그인 우회"
+
+msgid "Allow Users To Change profile type"
+msgstr "V0230사용자가 프로필 종류를 변경할 수 있게 허용"
+
+msgid "Access Key ID"
+msgstr "V0231액세스 키 ID"
+
+msgid "If you don't have access keys, you can create them by using the AWS Management Console."
+msgstr "V0232액세스 키가 없다면 AWM Management Console을 사용하여 생성할 수 있습니다."
+
+msgid "Secret Access Key"
+msgstr "V0233Secret 액세스 키"
+
+msgid "Bucket Name"
+msgstr "V0234Bucket 이름"
+
+msgid "If the bucket does not exist, we will attempt to create it. Please note the following restrictions on bucket names: must start and end with a number or letter,must only contain lowercase letters, numbers, and dashes [a-z0-9-],must be between 3 and 255 characters long"
+msgstr "V0235Bucket이 존재하지 않을시, 생성하려고 시도합니다. bucket 이름 설정시 다음 제한사항을 확인하십시요: 숫자 또는 알파벳으로 시작하고 끝나야하며 소문자, 숫자, 대시 [a-z0-9-]을(를) 사용해야하며 3자에서 255자 사이여야합니다.
+
+msgid "US East (N. Virginia)"
+msgstr "V0236미국 동부 (N. Virginia)"
+
+msgid "US East (Ohio)"
+msgstr "V0237미국 동부 (Ohio)"
+
+msgid "US West (N. California)"
+msgstr "V0238미국 서부 (N. California)"
+
+msgid "US West (Oregon)"
+msgstr "V0239미국 서부 (Oregon)"
+
+msgid "Asia Pacific (Mumbai)"
+msgstr "V0240아시아 태평양 (Mumbai)"
+
+msgid "Asia Pacific (Seoul)"
+msgstr "V0241아시아 태평양 (Seoul)"
+
+msgid "Asia Pacific (Singapore)"
+msgstr "V0242아시아 태평양 (Singapore)"
+
+msgid "Asia Pacific (Sydney)"
+msgstr "V0243아시아 태평양 (Sydney)"
+
+msgid "Asia Pacific (Tokyo)"
+msgstr "V0244아시아 태평양 (Tokyo)"
+
+msgid "EU (Frankfurt)"
+msgstr "V0245유렵 (Frankfurt)"
+
+msgid "EU (Ireland)"
+msgstr "V0246유렵 (Ireland)"
+
+msgid "South America (São Paulo)"
+msgstr "V0247남미 (São Paulo)"
+
+msgid "Region"
+msgstr "V0248지역"
+
+msgid "The region in which your bucket resides . Be cafeful to specify this accurtely,as you are likely to see strange or broken behavior if the region is set wrong."
+msgstr "V0249Bucket이 있는 지역. 지역을 잘 못 설정할 경우 오류가 발생할 수 있으니 정확히 설정하십시요."
+
+msgid "Use a CNAME"
+msgstr "V0250 CNAME을(를) 사용하십시요."
+
+msgid "Serve files from a cusom domain by using an appropriately named bucket, e.g. mybucket.mydomain.com"
+msgstr "V0251알맞은 bucket 이름을 사용하여 도메인의 파일을 공급하여야 합니다. 예: mybucket.mydomain.com"
+
+msgid "Always serve files from Amazon S3 via HTTPS"
+msgstr "V0252HTTPS를 통해 아마존 S3 파일을 공급하십시요."
+
+msgid "Forces S3 File System to always generate HTTPS URLs for files in your bucket, e.g. 'https://mybucket.s3.amazonaws.com/file.jpg'. Without this setting enabled,URLs for your files will use the same scheme as the page they are served from."
+msgstr "V0253 Bucket 안에 있는 파일을 항상 HTTPS URL을(를) 사용하여 생성하도록 설정, 예: 'https://mybucket.s3.amazonaws.com/file.jpg'. 이 설정을 활성화하지 않으면, 파일의 URL이 처음 공급되는 페이지의 방식으로 출력됩니다."
+
+msgid "Current Storage"
+msgstr "V0254 현재 저장 공간"
+
+msgid "Customizing Amazon S3 URLs with CNAMEs"
+msgstr "V0255 CNAME으로 아마존 S3 URL 사용자 정의 "
+
+msgid "Depending on your needs, you might not want s3.amazonaws.com to appear on your website or service. For example, if you host your website images on Amazon S3, you might prefer http://images.moosite.net/ instead of http://s3.amazonaws.com/imgages.For more information , see http://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html"
+msgstr "V0256필요에 따라, s3.amazonaws.com이 웹 사이트나 서비스에 보이지 않으실겁니다. 예를 들어, 아마존 S3에서 웹 사이트 사진을 호스트할 경우 http://s3.amazonaws.com/imgages 보다 http://images.moosite.net/ 을(를) 선호하실 수 있습니다. 자세한 사항은 http://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html 참조 하십시요."
+
+msgid "Do not rewrite CSS/JS file paths"
+msgstr "V0257 CSS/JS 파일 경로를 변경하지 마십시요."
+
+msgid "If this box is checked, the CSS/JS file paths will not be replaced on the page with their CDN path. Notice that the CDN path is only to be used in Production mode."
+msgstr "V0258 이 확인란을 선택할 경우, CDN 경로가 있는 페이지에서 CSS/JS 파일 경로가 대체되지 않을 것입니다. Production 모드에서만 CDN 경로가 사용되는 것을 주의하십시요."
+
+msgid "Enable CloudFront"
+msgstr "V0259 CloudFront 활성화"
+
+msgid "CDN Mapping"
+msgstr "V0260CDN Mapping"
+
+msgid "Be sure to add the protocol in front of the domain name. For example, http://my.cloudfrontcdndomain.net will work but my.cloudfrontcdndomain.net may cause problems. Be sure to use HTTPS."
+msgstr "V0261 도메인 이름 앞에 프로토콜을 추가하십시요. 예를들어, http://my.cloudflare.com 은(는) 작동할 수 있지만 my.cloudflare.com 은(는) 문제가 발생할 수 있습니다. HTTPS 을(를) 사용하십시요."
+
+msgid "Enable CDN"
+msgstr "V0262 CDN 활성화"
+
+msgid "Be sure to add the protocol in front of the domain name. For example, http://my.cloudflare.com will work but my.cloudflare.com may cause problems. Be sure to use HTTPS."
+msgstr "V0263 도메인 이름 앞에 프로토콜을 추가하십시요. 예를들어, http://my.cloudflare.com 은(는) 작동할 수 있지만 my.cloudflare.com 은(는) 문제가 발생할 수 있습니다. HTTPS 을(를) 사용하십시요."
+
+msgid "Delete image when it is added to Amazon S3"
+msgstr "V0264 아마존 S3에 추가된 사진을 삭제"
+
+msgid "By pass force login"
+msgstr "V0265 강제 로그인 우회"
+
+msgid "Friend limitation is 5000 so that system will auto add friends until it reached this limitation."
+msgstr "V0266 친구 추가는 5000명이 제한입니다. 이 제한에 도달할 할 때까지 시스템이 자동으로 친구를 추가합니다."
+

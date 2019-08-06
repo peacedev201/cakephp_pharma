@@ -1,0 +1,1012 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: FeedbackPlugin.php:465
+#: Controller/FeedbacksController.php:54;122
+#: Lib/FeedbackListener.php:140;234;475
+#: View/Feedbacks/admin_index.ctp:3;11
+#: View/Feedbacks/index.ctp:28
+msgid "Feedback"
+msgstr ""
+
+#: FeedbackPlugin.php:466
+#: Controller/FeedbackCategoriesController.php:31
+#: View/Elements/nav_feedback.ctp:11
+#: View/FeedbackCategories/admin_index.ctp:3;10
+#: View/Widgets/feedback/nav_feedback.ctp:11
+msgid "Categories"
+msgstr ""
+
+#: FeedbackPlugin.php:467
+#: View/FeedbackSeverities/admin_index.ctp:3;10
+msgid "Severities"
+msgstr ""
+
+#: FeedbackPlugin.php:468
+#: View/FeedbackStatistics/admin_index.ctp:3
+#: View/FeedbackStatuses/admin_index.ctp:3;17
+msgid "Statuses"
+msgstr ""
+
+#: FeedbackPlugin.php:469
+#: View/FeedbackBlockusers/admin_index.ctp:3;10
+msgid "Block Users"
+msgstr ""
+
+#: FeedbackPlugin.php:470
+#: View/FeedbackBlockips/admin_index.ctp:3;10
+msgid "Block IP Addresses"
+msgstr ""
+
+#: FeedbackPlugin.php:471
+#: View/FeedbackStatistics/admin_index.ctp:10
+msgid "Statistics"
+msgstr ""
+
+#: FeedbackPlugin.php:472
+#: View/FeedbackSettings/admin_index.ctp:29;44
+msgid "Settings"
+msgstr ""
+
+#: Controller/FeedbackBlockipsController.php:33
+msgid "Feedback Block ips"
+msgstr ""
+
+#: Controller/FeedbackBlockipsController.php:58
+#: Controller/FeedbackCategoriesController.php:66
+#: Controller/FeedbackSeveritiesController.php:75
+#: Controller/FeedbackStatusesController.php:67
+msgid "Successfully created"
+msgstr ""
+
+#: Controller/FeedbackBlockipsController.php:64;89
+#: Controller/FeedbackBlockusersController.php:72
+#: Controller/FeedbackCategoriesController.php:71;89
+#: Controller/FeedbackSeveritiesController.php:81;100
+#: Controller/FeedbackStatusesController.php:73;92
+#: Controller/FeedbacksController.php:731;796;844
+msgid "Successfully updated"
+msgstr ""
+
+#: Controller/FeedbackBlockipsController.php:85;99
+#: Controller/FeedbackCategoriesController.php:85;99
+#: Controller/FeedbackSeveritiesController.php:96;110
+#: Controller/FeedbackStatusesController.php:88;102
+#: Controller/FeedbacksController.php:679
+msgid "This category does not exist"
+msgstr ""
+
+#: Controller/FeedbackBlockipsController.php:102
+#: Controller/FeedbackCategoriesController.php:102
+#: Controller/FeedbackSeveritiesController.php:113
+#: Controller/FeedbackStatusesController.php:105
+#: Controller/FeedbacksController.php:595
+msgid "Successfully deleted"
+msgstr ""
+
+#: Controller/FeedbackBlockusersController.php:53
+msgid "Feedback Block Users"
+msgstr ""
+
+#: Controller/FeedbackSettingsController.php:51
+msgid "Feedback Settings"
+msgstr ""
+
+#: Controller/FeedbackSeveritiesController.php:42
+msgid "Feedback Severities"
+msgstr ""
+
+#: Controller/FeedbackStatisticsController.php:33
+msgid "Feedback Statistics"
+msgstr ""
+
+#: Controller/FeedbackStatusesController.php:33
+#: View/Elements/nav_feedback.ctp:21
+#: View/Feedbacks/admin_ajax_add_status.ctp:33
+#: View/Feedbacks/admin_index.ctp:57
+#: View/Feedbacks/ajax_add_status.ctp:68
+#: View/Widgets/feedback/nav_feedback.ctp:21
+msgid "Status"
+msgstr ""
+
+#: Controller/FeedbackVotesController.php:14
+msgid "Please login to continue"
+msgstr ""
+
+#: Controller/FeedbackVotesController.php:33;50
+#: View/Elements/lists/categories_list.ctp:33
+#: View/Elements/lists/feedbacks_list.ctp:45
+#: View/Feedbacks/ajax_create.ctp:225
+#: View/Feedbacks/view.ctp:162
+msgid "Vote"
+msgstr ""
+
+#: Controller/FeedbackVotesController.php:40
+#: View/Elements/lists/categories_list.ctp:31
+#: View/Elements/lists/feedbacks_list.ctp:43
+#: View/Feedbacks/ajax_create.ctp:223
+#: View/Feedbacks/view.ctp:160
+msgid "Unvote"
+msgstr ""
+
+#: Controller/FeedbackVotesController.php:54
+#: View/Feedbacks/admin_index.ctp:58
+msgid "Votes"
+msgstr ""
+
+#: Controller/FeedbacksController.php:61;169;424;768;887
+#: View/Feedbacks/admin_ajax_add_status.ctp:51
+#: View/Feedbacks/ajax_add_status.ctp:93
+#: View/Feedbacks/ajax_create.ctp:54
+msgid "You dont't have permission."
+msgstr ""
+
+#: Controller/FeedbacksController.php:236
+msgid "This feedback does not exist"
+msgstr ""
+
+#: Controller/FeedbacksController.php:429
+msgid "You have reached limit for posting feedback"
+msgstr ""
+
+#: Controller/FeedbacksController.php:434
+msgid "Please wait %s for next post"
+msgstr ""
+
+#: Controller/FeedbacksController.php:472
+msgid "Invalid security code"
+msgstr ""
+
+#: Controller/FeedbacksController.php:547
+msgid "Your Feedback was successfully posted. Please wait for publication approval from Admin"
+msgstr ""
+
+#: Controller/FeedbacksController.php:551
+msgid "Feedback has been successfully updated"
+msgstr ""
+
+#: Controller/FeedbacksController.php:562
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: Controller/FeedbacksController.php:571;613
+msgid "Please select Feedback to delete!"
+msgstr ""
+
+#: Controller/FeedbacksController.php:608;620
+msgid "You dont't have permission to delete this feedback."
+msgstr ""
+
+#: Controller/FeedbacksController.php:647
+msgid "Feedback has been deleted"
+msgstr ""
+
+#: Controller/FeedbacksController.php:669
+msgid "You don't have permission to do this"
+msgstr ""
+
+#: Lib/FeedbackListener.php:157
+#: View/Feedbacks/edit.ctp:3
+#: View/Feedbacks/index.ctp:3
+#: View/Feedbacks/view.ctp:4
+msgid "Can not upload file more than "
+msgstr ""
+
+#: Lib/FeedbackListener.php:158
+#: View/Feedbacks/add_image.ctp:22
+#: View/Feedbacks/edit.ctp:4
+#: View/Feedbacks/index.ctp:4
+#: View/Feedbacks/view.ctp:5
+msgid "Drag or click here to upload photo"
+msgstr ""
+
+#: Lib/FeedbackListener.php:159
+#: View/Feedbacks/edit.ctp:5
+#: View/Feedbacks/index.ctp:5
+#: View/Feedbacks/view.ctp:6
+msgid "Click or Drap your file here"
+msgstr ""
+
+#: Lib/FeedbackListener.php:160
+#: View/Feedbacks/admin_index.ctp:134
+#: View/Feedbacks/view.ctp:105;107
+msgid "Are you sure you want to delete this feedback?"
+msgstr ""
+
+#: Lib/FeedbackListener.php:161
+#: View/Feedbacks/admin_index.ctp:151
+msgid "Are you sure you want to delete these feedbacks?"
+msgstr ""
+
+#: Lib/FeedbackListener.php:382;419
+msgid "Feedbacks"
+msgstr ""
+
+#: Lib/FeedbackListener.php:497;498
+#: View/Elements/activity/text/feedback_create.ctp:1
+msgid "created a new feedback"
+msgstr ""
+
+#: Lib/FeedbackListener.php:529;530
+msgid "shared %s's feedback"
+msgstr ""
+
+#: Model/FeedbackBlockip.php:17
+msgid "IP address is required"
+msgstr ""
+
+#: View/Elements/nav_detail_feedback.ctp:2
+#: View/Widgets/feedback/nav_detail_feedback.ctp:2
+msgid "Feedback Creator"
+msgstr ""
+
+#: View/Elements/nav_detail_feedback.ctp:15;16
+msgid "Cancel Request"
+msgstr ""
+
+#: View/Elements/nav_detail_feedback.ctp:25
+#: View/Widgets/feedback/nav_detail_feedback.ctp:14
+msgid "Send %s a friend request"
+msgstr ""
+
+#: View/Elements/nav_detail_feedback.ctp:25
+#: View/Widgets/feedback/nav_detail_feedback.ctp:14
+msgid "Add as Friend"
+msgstr ""
+
+#: View/Elements/nav_detail_feedback.ctp:44
+#: View/Feedbacks/admin_ajax_edit.ctp:67;70
+#: View/Feedbacks/ajax_create.ctp:152;155
+#: View/Feedbacks/edit.ctp:44
+#: View/Widgets/feedback/nav_detail_feedback.ctp:30
+msgid "Tags"
+msgstr ""
+
+#: View/Elements/nav_feedback.ctp:2
+#: View/Widgets/feedback/nav_feedback.ctp:2
+msgid "Browse"
+msgstr ""
+
+#: View/Elements/nav_feedback.ctp:5
+#: View/Widgets/feedback/nav_feedback.ctp:5
+msgid "All Feedback"
+msgstr ""
+
+#: View/Elements/nav_feedback.ctp:7
+#: View/Widgets/feedback/nav_feedback.ctp:7
+msgid "My Feedback"
+msgstr ""
+
+#: View/Elements/nav_feedback.ctp:8
+#: View/Widgets/feedback/nav_feedback.ctp:8
+msgid "Friends' Feedback"
+msgstr ""
+
+#: View/Elements/nav_feedback.ctp:32
+#: View/Widgets/feedback/nav_feedback.ctp:32
+msgid "Enter keyword to search"
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:28
+#: View/Elements/activity/content/feedback_create.ctp:16
+#: View/Elements/activity/content/feedback_create_share.ctp:25
+#: View/Elements/activity/content/feedback_item_detail_share.ctp:17
+#: View/Elements/activity/share/feedback_create.ctp:21
+#: View/Elements/activity/share/feedback_item_detail.ctp:8
+#: View/Elements/lists/categories_list.ctp:18
+#: View/Elements/lists/feedbacks_list.ctp:22
+#: View/Feedbacks/ajax_create.ctp:209
+#: View/Feedbacks/view.ctp:40
+#: View/Widgets/feedback/most_voted_feedback.ctp:16
+msgid "votes"
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:28
+#: View/Elements/activity/content/feedback_create.ctp:16
+#: View/Elements/activity/content/feedback_create_share.ctp:25
+#: View/Elements/activity/content/feedback_item_detail_share.ctp:17
+#: View/Elements/activity/share/feedback_create.ctp:21
+#: View/Elements/activity/share/feedback_item_detail.ctp:8
+#: View/Elements/lists/categories_list.ctp:18
+#: View/Elements/lists/feedbacks_list.ctp:22
+#: View/Feedbacks/ajax_create.ctp:209
+#: View/Feedbacks/view.ctp:40
+#: View/Widgets/feedback/most_voted_feedback.ctp:16
+msgid "vote"
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:30
+#: View/Elements/lists/categories_list.ctp:20
+#: View/Elements/lists/feedbacks_list.ctp:24
+#: View/Feedbacks/admin_index.ctp:62
+#: View/Feedbacks/ajax_create.ctp:211
+#: View/Widgets/feedback/most_voted_feedback.ctp:18
+msgid "Featured"
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:40
+#: View/Elements/lists/categories_list.ctp:42
+msgid " views"
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:41
+#: View/Elements/lists/categories_list.ctp:43
+msgid " comments"
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:42
+#: View/Elements/lists/categories_list.ctp:44
+msgid " pictures"
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:43
+#: View/Elements/lists/categories_list.ctp:45
+#: View/Elements/lists/feedbacks_list.ctp:56
+#: View/Feedbacks/ajax_create.ctp:235
+msgid "Posted by "
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:44
+#: View/Elements/lists/categories_list.ctp:46
+#: View/Elements/lists/feedbacks_list.ctp:57
+#: View/Feedbacks/ajax_create.ctp:236
+msgid "about "
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:48
+#: View/Elements/lists/categories_list.ctp:50
+#: View/Elements/lists/feedbacks_list.ctp:80
+#: View/Feedbacks/ajax_create.ctp:259
+#: View/Widgets/feedback/most_voted_feedback.ctp:33
+msgid "Category: "
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:56
+#: View/Elements/lists/categories_list.ctp:59
+#: View/Elements/lists/feedbacks_list.ctp:88
+#: View/Feedbacks/ajax_create.ctp:266
+#: View/Feedbacks/view.ctp:175
+msgid "Status: "
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:79
+#: View/Elements/lists/categories_list.ctp:82
+msgid "Load More"
+msgstr ""
+
+#: View/Elements/search_feedback_list.ctp:83
+#: View/Elements/lists/categories_list.ctp:77
+#: View/Elements/lists/feedbacks_list.ctp:157
+msgid "No more results found"
+msgstr ""
+
+#: View/Elements/activity/text/feedback_item_detail_share.ctp:5
+msgid "feedback"
+msgstr ""
+
+#: View/Elements/lists/feedbacks_list.ctp:28
+#: View/Feedbacks/view.ctp:43
+msgid "Pending publication"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:24
+msgid "Add New Ip"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:32;34
+#: View/FeedbackBlockips/admin_index.ctp:37
+msgid "IP Address"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:38
+#: View/FeedbackBlockusers/admin_index.ctp:49
+msgid "Feedback Posting"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:57
+#: View/FeedbackCategories/admin_ajax_create.ctp:78
+#: View/FeedbackSeverities/admin_ajax_create.ctp:72
+#: View/FeedbackStatuses/admin_ajax_create.ctp:92
+#: View/Feedbacks/admin_ajax_add_status.ctp:57
+#: View/Feedbacks/admin_ajax_edit.ctp:113
+#: View/Feedbacks/ajax_add_status.ctp:84
+#: View/Feedbacks/ajax_thanks.ctp:20
+msgid "Close"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:58
+#: View/FeedbackCategories/admin_ajax_create.ctp:79
+#: View/FeedbackSeverities/admin_ajax_create.ctp:73
+#: View/FeedbackStatuses/admin_ajax_create.ctp:93
+#: View/Feedbacks/admin_ajax_add_status.ctp:58
+#: View/Feedbacks/admin_ajax_edit.ctp:114
+#: View/Feedbacks/ajax_add_status.ctp:83
+msgid "Save"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_index.ctp:2
+#: View/FeedbackBlockusers/admin_index.ctp:2
+#: View/FeedbackCategories/admin_index.ctp:2
+#: View/FeedbackSettings/admin_index.ctp:28
+#: View/FeedbackSeverities/admin_index.ctp:2
+#: View/FeedbackStatistics/admin_index.ctp:2
+#: View/FeedbackStatuses/admin_index.ctp:2
+#: View/Feedbacks/admin_index.ctp:2
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_index.ctp:28
+#: View/FeedbackCategories/admin_index.ctp:28
+#: View/FeedbackSeverities/admin_index.ctp:28
+#: View/FeedbackStatuses/admin_index.ctp:35
+msgid "Add New"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_index.ctp:38
+msgid "Option"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_index.ctp:47
+#: View/FeedbackCategories/admin_index.ctp:58
+#: View/FeedbackSeverities/admin_index.ctp:60
+#: View/FeedbackStatuses/admin_index.ctp:65
+#: View/Feedbacks/admin_index.ctp:131
+msgid "Edit"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_index.ctp:50
+#: View/FeedbackCategories/admin_index.ctp:61
+#: View/FeedbackSeverities/admin_index.ctp:63
+#: View/FeedbackStatuses/admin_index.ctp:68
+#: View/Feedbacks/admin_index.ctp:134;149
+#: View/Feedbacks/ajax_create.ctp:139
+#: View/Feedbacks/edit.ctp:97
+msgid "Delete"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_index.ctp:50
+msgid "Are you sure you want to delete this ip?"
+msgstr ""
+
+#: View/FeedbackBlockips/admin_index.ctp:64
+msgid "No block ip addresses"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:31
+#: View/Feedbacks/admin_index.ctp:32
+msgid "Search by title"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:37
+#: View/Feedbacks/admin_index.ctp:38
+msgid "Search"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:47
+#: View/FeedbackCategories/admin_index.ctp:37
+#: View/FeedbackSeverities/admin_index.ctp:37
+#: View/FeedbackStatuses/admin_index.ctp:44
+#: View/Feedbacks/admin_index.ctp:52
+msgid "ID"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:48
+msgid "User Name"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:50
+#: View/Feedbacks/ajax_create.ctp:111
+msgid "Email"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:51
+msgid "Roles"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:52
+msgid "Create"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:67
+#: View/FeedbackCategories/admin_index.ctp:52
+#: View/FeedbackSettings/admin_index.ctp:6
+#: View/FeedbackSeverities/admin_index.ctp:54
+#: View/FeedbackStatuses/admin_index.ctp:59
+#: View/Feedbacks/admin_index.ctp:113;122
+msgid "Disable"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:69
+#: View/FeedbackCategories/admin_index.ctp:54
+#: View/FeedbackSettings/admin_index.ctp:7
+#: View/FeedbackSeverities/admin_index.ctp:56
+#: View/FeedbackStatuses/admin_index.ctp:61
+#: View/Feedbacks/admin_index.ctp:115;124
+msgid "Enable"
+msgstr ""
+
+#: View/FeedbackBlockusers/admin_index.ctp:86
+msgid "No block users"
+msgstr ""
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:24
+msgid "Add New Category"
+msgstr ""
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:32;34
+#: View/FeedbackCategories/admin_index.ctp:38
+#: View/FeedbackSeverities/admin_ajax_create.ctp:32;34
+#: View/FeedbackSeverities/admin_index.ctp:38
+#: View/FeedbackStatuses/admin_ajax_create.ctp:40;42
+#: View/FeedbackStatuses/admin_index.ctp:45
+msgid "Name"
+msgstr ""
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:36
+#: View/FeedbackSeverities/admin_ajax_create.ctp:36
+#: View/FeedbackStatuses/admin_ajax_create.ctp:44
+msgid "You can add translation language after creating category"
+msgstr ""
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:46;47
+#: View/FeedbackCategories/admin_ajax_translate.ctp:21
+#: View/FeedbackSeverities/admin_ajax_create.ctp:46;47
+#: View/FeedbackSeverities/admin_ajax_translate.ctp:21
+#: View/FeedbackStatuses/admin_ajax_create.ctp:54;55
+#: View/FeedbackStatuses/admin_ajax_translate.ctp:21
+msgid "Translation"
+msgstr ""
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:55;57
+#: View/FeedbackCategories/admin_index.ctp:39
+#: View/Feedbacks/admin_ajax_edit.ctp:61;63
+#: View/Feedbacks/ajax_create.ctp:76
+#: View/Feedbacks/edit.ctp:38
+msgid "Description"
+msgstr ""
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:61
+#: View/FeedbackCategories/admin_index.ctp:40
+#: View/FeedbackSeverities/admin_ajax_create.ctp:55
+#: View/FeedbackSeverities/admin_index.ctp:41
+#: View/FeedbackStatuses/admin_ajax_create.ctp:75
+#: View/FeedbackStatuses/admin_index.ctp:47
+#: View/Feedbacks/admin_index.ctp:64
+msgid "Active"
+msgstr ""
+
+#: View/FeedbackCategories/admin_index.ctp:41
+#: View/FeedbackSeverities/admin_index.ctp:42
+#: View/FeedbackStatuses/admin_index.ctp:48
+#: View/Feedbacks/admin_index.ctp:65
+msgid "Options"
+msgstr ""
+
+#: View/FeedbackCategories/admin_index.ctp:61
+msgid "Are you sure you want to delete this category?"
+msgstr ""
+
+#: View/FeedbackCategories/admin_index.ctp:74
+msgid "No categories"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:2
+msgid "Customize feedback button position"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:3
+msgid "Left side of screen"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:4
+msgid "Right side of screen"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:5
+msgid "Feedback enabled"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:8
+msgid "Enable feedback button on desktop"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:9
+msgid "Yes"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:10
+#: View/Feedbacks/admin_index.ctp:89;97
+msgid "No"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:11
+msgid "Send mail to emails"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:12
+msgid "Enable captcha"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:13
+msgid "Enable Feedback Hashtag"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:14
+msgid "How many minutes should a user wait before they can submit another feedback?"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:15
+msgid "Maximum feedback user can create"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:16
+msgid "Feedback per pages"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:17
+msgid "The number of feedbacks to display per page"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:18
+msgid "Customize feedback button hover color"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:19
+msgid "Customize feedback button text color"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:20
+msgid "Customize feedback button text hover color"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:21
+msgid "Customize feedback button color"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:22
+msgid "By pass force login"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:23
+msgid "Enable feedback button on mobile"
+msgstr ""
+
+#: View/FeedbackSettings/admin_index.ctp:24
+msgid "Enable display activity feed"
+msgstr ""
+
+#: View/FeedbackSeverities/admin_ajax_create.ctp:23
+msgid "Add New Severity"
+msgstr ""
+
+#: View/FeedbackSeverities/admin_index.ctp:39
+#: View/Feedbacks/admin_index.ctp:54
+msgid "Creator"
+msgstr ""
+
+#: View/FeedbackSeverities/admin_index.ctp:40
+msgid "Number of Times Used"
+msgstr ""
+
+#: View/FeedbackSeverities/admin_index.ctp:63
+msgid "Are you sure you want to delete this severity?"
+msgstr ""
+
+#: View/FeedbackSeverities/admin_index.ctp:76
+msgid "No serverities"
+msgstr ""
+
+#: View/FeedbackStatistics/admin_index.ctp:13
+msgid "Below are some valuable statistics for the Feedback submitted on this site"
+msgstr ""
+
+#: View/FeedbackStatistics/admin_index.ctp:19
+msgid "Total Feedback"
+msgstr ""
+
+#: View/FeedbackStatistics/admin_index.ctp:23
+msgid "Total Member Feedback"
+msgstr ""
+
+#: View/FeedbackStatistics/admin_index.ctp:27
+msgid "Total Anonymous Feedback"
+msgstr ""
+
+#: View/FeedbackStatistics/admin_index.ctp:31
+msgid "Total Comments"
+msgstr ""
+
+#: View/FeedbackStatistics/admin_index.ctp:35
+msgid "Total Votes"
+msgstr ""
+
+#: View/FeedbackStatuses/admin_ajax_create.ctp:32
+msgid "Add New Status"
+msgstr ""
+
+#: View/FeedbackStatuses/admin_ajax_create.ctp:63
+msgid "Pick a Color"
+msgstr ""
+
+#: View/FeedbackStatuses/admin_ajax_create.ctp:65
+msgid "Color"
+msgstr ""
+
+#: View/FeedbackStatuses/admin_ajax_create.ctp:69;71
+#: View/FeedbackStatuses/admin_index.ctp:46
+msgid "Default Comment"
+msgstr ""
+
+#: View/FeedbackStatuses/admin_index.ctp:68
+msgid "Are you sure you want to delete this status?"
+msgstr ""
+
+#: View/FeedbackStatuses/admin_index.ctp:81
+msgid "No statuses"
+msgstr ""
+
+#: View/Feedbacks/add_image.ctp:62
+msgid "Upload Photos"
+msgstr ""
+
+#: View/Feedbacks/add_image.ctp:69
+#: View/Feedbacks/ajax_create.ctp:129
+msgid "Upload Queued Files"
+msgstr ""
+
+#: View/Feedbacks/add_image.ctp:72
+msgid "Go To Feedback"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_add_status.ctp:24
+#: View/Feedbacks/admin_index.ctp:105
+#: View/Feedbacks/view.ctp:55
+msgid "Add Status"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_add_status.ctp:39
+#: View/Feedbacks/ajax_add_status.ctp:73
+msgid "Comment"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_edit.ctp:48
+msgid "Edit feedback"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_edit.ctp:55;57
+#: View/Feedbacks/admin_index.ctp:53
+#: View/Feedbacks/ajax_create.ctp:71;72
+#: View/Feedbacks/edit.ctp:33
+msgid "Title"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_edit.ctp:78
+#: View/Feedbacks/admin_index.ctp:55
+#: View/Feedbacks/ajax_create.ctp:83
+#: View/Feedbacks/edit.ctp:51
+msgid "Category"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_edit.ctp:86
+#: View/Feedbacks/admin_index.ctp:56
+#: View/Feedbacks/ajax_create.ctp:90
+#: View/Feedbacks/edit.ctp:58
+msgid "Severity"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_edit.ctp:93
+#: View/Feedbacks/ajax_create.ctp:97
+#: View/Feedbacks/edit.ctp:66
+msgid "Feedback Visibility"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_edit.ctp:96
+#: View/Feedbacks/ajax_create.ctp:100
+#: View/Feedbacks/edit.ctp:69
+msgid "Everyone"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_edit.ctp:97
+#: View/Feedbacks/ajax_create.ctp:101
+#: View/Feedbacks/edit.ctp:70
+msgid "Friends Only"
+msgstr ""
+
+#: View/Feedbacks/admin_ajax_edit.ctp:98
+#: View/Feedbacks/ajax_create.ctp:102
+#: View/Feedbacks/edit.ctp:71
+msgid "Only Me"
+msgstr ""
+
+#: View/Feedbacks/admin_index.ctp:60
+msgid "Published"
+msgstr ""
+
+#: View/Feedbacks/admin_index.ctp:63
+msgid "Date"
+msgstr ""
+
+#: View/Feedbacks/admin_index.ctp:148
+msgid "With selected..."
+msgstr ""
+
+#: View/Feedbacks/admin_index.ctp:167
+msgid "No feedbacks"
+msgstr ""
+
+#: View/Feedbacks/ajax_add_status.ctp:58
+msgid "Add status"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:3
+#: View/Feedbacks/index.ctp:6
+msgid "Drag or click here to upload files"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:49
+#: View/Feedbacks/edit.ctp:27
+#: View/Feedbacks/view.ctp:98
+msgid "Edit Feedback"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:49
+#: View/Feedbacks/browse.ctp:7
+#: View/Feedbacks/index.ctp:30
+msgid "Create New Feedback"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:62
+msgid "To be able to display your Feedback publicly, please %s first"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:62
+msgid "login"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:66
+msgid "Share with us your ideas, questions, problems and feedback."
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:116
+msgid "Full name"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:123
+#: View/Feedbacks/edit.ctp:81
+msgid "Images"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:185
+msgid "Save Feedback"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:187
+#: View/Feedbacks/edit.ctp:112
+msgid "Post Feedback"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:190
+msgid "or"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:192
+msgid "cancel"
+msgstr ""
+
+#: View/Feedbacks/ajax_create.ctp:296
+msgid "Go to Feedback Forum"
+msgstr ""
+
+#: View/Feedbacks/ajax_thanks.ctp:2
+msgid "Thank you for your Feedback"
+msgstr ""
+
+#: View/Feedbacks/ajax_thanks.ctp:7
+msgid "Your Feedback was successfully posted."
+msgstr ""
+
+#: View/Feedbacks/ajax_thanks.ctp:9
+msgid "Please wait for publication approval from Admin."
+msgstr ""
+
+#: View/Feedbacks/ajax_thanks.ctp:16
+msgid "View feedback"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:68;70;81;83
+msgid "Are you sure you want to %s this feedback?"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:68;70
+msgid "unapprove"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:68;70
+msgid "approve"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:73
+msgid "Unpublish Feedback"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:75
+msgid "Publish Feedback"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:81;83
+msgid "unfeature"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:81;83
+msgid "feature"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:86
+msgid "Unfeature Feedback"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:88
+msgid "Feature Feedback"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:109
+msgid "Delete Feedback"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:114
+msgid "Report Feedback"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:122
+msgid "Posted in "
+msgstr ""
+
+#: View/Feedbacks/view.ctp:127
+msgid "Posted "
+msgstr ""
+
+#: View/Feedbacks/view.ctp:134
+msgid "Shared with: Everyone"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:138
+msgid "Shared with: Friends Only"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:142
+msgid "Shared with: Only Me"
+msgstr ""
+
+#: View/Feedbacks/view.ctp:193
+msgid "Attached Images"
+msgstr ""
+
+#: View/Widgets/feedback/most_voted_feedback.ctp:4
+msgid "Most Voted Feedback"
+msgstr ""
+
+#: View/Widgets/feedback/most_voted_feedback.ctp:28
+msgid "%s views"
+msgstr ""
+
+#: View/Widgets/feedback/most_voted_feedback.ctp:28
+msgid "%s view"
+msgstr ""
+
+msgid "Search Feedback"
+msgstr ""
+
+msgid "created a new feedback"
+msgstr ""

@@ -1,0 +1,1506 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ForumPlugin.php:457
+#: View/Forums/admin_index.ctp:16;18
+#: View/Forums/admin_sub.ctp:16;18
+msgid "Forums Manager"
+msgstr ""
+
+#: ForumPlugin.php:458
+#: View/ForumReports/admin_index.ctp:16
+msgid "Reports"
+msgstr ""
+
+#: ForumPlugin.php:459
+#: Controller/ForumSettingsController.php:5
+#: View/ForumSettings/admin_index.ctp:22
+msgid "Settings"
+msgstr ""
+
+#: Controller/ForumCategoriesController.php:52
+msgid "Forum name can not empty"
+msgstr ""
+
+#: Controller/ForumCategoriesController.php:58
+#: Controller/ForumsController.php:218
+msgid "Please select icon for forum"
+msgstr ""
+
+#: Controller/ForumCategoriesController.php:70
+msgid "Forum category has been successfully saved"
+msgstr ""
+
+#: Controller/ForumCategoriesController.php:113
+#: Controller/ForumsController.php:64;73
+msgid "Are you sure you want to delete? All of topics inside of this forum will also be deleted"
+msgstr ""
+
+#: Controller/ForumCategoriesController.php:120
+msgid "Before deleting a forum category, please delete all forums in the forum category"
+msgstr ""
+
+#: Controller/ForumCategoriesController.php:134
+msgid "Forum category has been deleted!"
+msgstr ""
+
+#: Controller/ForumCategoriesController.php:143
+msgid "Cannot delete Forum Category"
+msgstr ""
+
+#: Controller/ForumCategoriesController.php:151
+msgid "Not available"
+msgstr ""
+
+#: Controller/ForumPinsController.php:55;132
+msgid "Topic has been pinned"
+msgstr ""
+
+#: Controller/ForumPinsController.php:63
+msgid "Gateway invalid"
+msgstr ""
+
+#: Controller/ForumPinsController.php:152
+msgid "Topic has been unpinned"
+msgstr ""
+
+#: Controller/ForumReportsController.php:30
+msgid "Duplicated report"
+msgstr ""
+
+#: Controller/ForumReportsController.php:44;47
+msgid "Thank you! Your report has been submitted"
+msgstr ""
+
+#: Controller/ForumReportsController.php:64
+msgid "Forum Reports"
+msgstr ""
+
+#: Controller/ForumReportsController.php:77
+msgid "Reports have been deleted"
+msgstr ""
+
+#: Controller/ForumSettingsController.php:15
+msgid "Please select a value that is no less than 0."
+msgstr ""
+
+#: Controller/ForumSettingsController.php:30
+msgid "Successfully updated"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:21
+msgid "This forum has been locked"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:76
+msgid "This topic has been locked"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:116
+msgid "All topics"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:120
+msgid "Forum Topics Started"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:126
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:156
+msgid "Forum Replies Created"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:202
+#: View/Elements/menu_welcome.ctp:1
+msgid "My Forum Topics"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:408;784;862
+msgid "Invalid security code"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:765;814
+msgid "Recipient is required"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:820
+msgid "Your invitations have been sent."
+msgstr ""
+
+#: Controller/ForumTopicsController.php:820
+msgid "Invite more friends"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:1018;1301
+msgid "An error has occurred"
+msgstr ""
+
+#: Controller/ForumTopicsController.php:1169
+msgid "Entry has been deleted"
+msgstr ""
+
+#: Controller/ForumUploadController.php:51
+msgid "Please upload image size %s x %s"
+msgstr ""
+
+#: Controller/ForumUploadController.php:59
+msgid "Can not get size from image"
+msgstr ""
+
+#: Controller/ForumsController.php:22;33
+#: Lib/ForumListener.php:546;580
+#: View/Elements/menu.ctp:4
+#: View/Elements/my_forum_subscribe.ctp:11
+#: View/Widgets/forum/home.ctp:39
+msgid "Forums"
+msgstr ""
+
+#: Controller/ForumsController.php:57
+msgid "Please delete sub-forum first."
+msgstr ""
+
+#: Controller/ForumsController.php:106
+msgid "Forum has been deleted"
+msgstr ""
+
+#: Controller/ForumsController.php:205
+msgid "Forum title can not empty"
+msgstr ""
+
+#: Controller/ForumsController.php:211
+msgid "Description can not empty"
+msgstr ""
+
+#: Controller/ForumsController.php:251
+msgid "Forum has been successfully saved"
+msgstr ""
+
+#: Controller/ForumsController.php:487
+msgid "Forum has been successfully opened"
+msgstr ""
+
+#: Lib/ForumListener.php:64;65
+#: View/Elements/activity/text/forum_topic_create.ctp:2
+msgid "created a forum topic"
+msgstr ""
+
+#: Lib/ForumListener.php:97;98
+msgid "shared %s's forum topic"
+msgstr ""
+
+#: Lib/ForumListener.php:138
+msgid "reply a forum topic"
+msgstr ""
+
+#: Lib/ForumListener.php:139
+#: View/Elements/activity/text/forum_topic_reply.ctp:7
+msgid "just replied on %s's topic: %s"
+msgstr ""
+
+#: Lib/ForumListener.php:375
+#: View/ForumTopics/view.ctp:69;229
+#: View/Forums/view.ctp:51
+#: View/mooApp/ForumTopics/view.ctp:122;276
+#: View/mooApp/Forums/view.ctp:127
+msgid "Subscribe"
+msgstr ""
+
+#: Lib/ForumListener.php:376
+#: View/ForumTopics/view.ctp:67;229
+#: View/Forums/view.ctp:49
+#: View/mooApp/ForumTopics/view.ctp:122;274
+msgid "Unsubscribe"
+msgstr ""
+
+#: Lib/ForumListener.php:377
+#: View/ForumTopics/create.ctp:4
+#: View/mooApp/ForumTopics/create.ctp:4
+msgid "Drag or click here to upload photo"
+msgstr ""
+
+#: Lib/ForumListener.php:378
+#: View/ForumTopics/create.ctp:5
+#: View/mooApp/ForumTopics/create.ctp:5
+msgid "Drag or click here to upload files"
+msgstr ""
+
+#: Lib/ForumListener.php:379
+#: View/Elements/lists/list_replies.ctp:126
+#: View/ForumReports/admin_index.ctp:29;30;113
+#: View/ForumTopics/create.ctp:6
+#: View/ForumTopics/view.ctp:133
+#: View/Forums/admin_index.ctp:161;230
+#: View/Forums/admin_sub.ctp:165
+#: View/mooApp/Elements/lists/list_replies.ctp:115
+#: View/mooApp/ForumTopics/create.ctp:6
+#: View/mooApp/ForumTopics/view.ctp:54
+msgid "Delete"
+msgstr ""
+
+#: Lib/ForumListener.php:380
+#: View/ForumTopics/view.ctp:129
+#: View/Forums/admin_create.ctp:232
+#: View/mooApp/ForumTopics/view.ctp:50
+msgid "Lock"
+msgstr ""
+
+#: Lib/ForumListener.php:381
+#: View/ForumTopics/view.ctp:129
+#: View/Forums/admin_create.ctp:231
+#: View/mooApp/ForumTopics/view.ctp:50
+msgid "Open"
+msgstr ""
+
+#: Lib/ForumListener.php:382
+msgid "This forum is marked as locked for new topic"
+msgstr ""
+
+#: Lib/ForumListener.php:383
+msgid "Are you sure you wan to unpin this topic?"
+msgstr ""
+
+#: Lib/ForumListener.php:384
+#: Model/ForumPin.php:validation for field time
+msgid "Day only allow numbers"
+msgstr ""
+
+#: Lib/ForumListener.php:385
+#: Model/ForumPin.php:validation for field time
+msgid "Day is required"
+msgstr ""
+
+#: Lib/ForumListener.php:386
+msgid "You must select at least an item"
+msgstr ""
+
+#: Lib/ForumListener.php:387
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: Lib/ForumListener.php:420
+msgid "Forum Topic"
+msgstr ""
+
+#: Lib/ForumListener.php:439;470;680
+#: View/Elements/setting.ctp:2
+#: View/ForumSettings/admin_index.ctp:9
+#: View/Forums/admin_index.ctp:15
+#: View/Forums/admin_sub.ctp:15
+#: View/Forums/index.ctp:41
+#: View/Forums/view.ctp:125
+#: View/mooApp/Forums/index.ctp:41
+#: View/mooApp/Forums/view.ctp:71
+msgid "Forum"
+msgstr ""
+
+#: Lib/ForumListener.php:485
+msgid "Find Forum Topic"
+msgstr ""
+
+#: Lib/ForumListener.php:492;667
+#: View/Elements/activity/text/forum_topic_create_share.ctp:19
+#: View/Elements/activity/text/forum_topic_item_detail_share.ctp:9
+#: View/Elements/activity/text/forum_topic_reply.ctp:5
+#: View/Elements/lists/forum_list.ctp:52;64
+#: View/Elements/lists/forum_users_list.ctp:77;132
+#: View/Elements/lists/list_replies.ctp:51;56
+#: View/Elements/lists/my_list_replies.ctp:29;34
+#: View/Elements/lists/search_topic_list.ctp:42;47
+#: View/Elements/lists/topic_list.ctp:40;42;73;80
+#: View/ForumTopics/ajax_show_history.ctp:27;31
+#: View/ForumTopics/view.ctp:49;180;188
+#: View/Forums/view.ctp:23
+#: View/Helper/ForumHelper.php:274
+#: View/mooApp/Elements/lists/list_replies.ctp:51;56
+#: View/mooApp/ForumTopics/view.ctp:78
+msgid "Deleted Account"
+msgstr ""
+
+#: Lib/ForumListener.php:495
+msgid "Posted by"
+msgstr ""
+
+#: Lib/ForumListener.php:611
+msgid "Forum's Topic"
+msgstr ""
+
+#: View/Elements/menu.ctp:5
+msgid "All Topic"
+msgstr ""
+
+#: View/Elements/menu_profile.ctp:1
+msgid "Forum Topics"
+msgstr ""
+
+#: View/Elements/my_forum_subscribe.ctp:5
+msgid "Subscribed Forums"
+msgstr ""
+
+#: View/Elements/my_forum_subscribe.ctp:12
+#: View/Forums/index.ctp:42
+#: View/Forums/view.ctp:126
+#: View/Widgets/forum/home.ctp:40
+#: View/Widgets/forum/most_member.ctp:14
+#: View/mooApp/Forums/index.ctp:42
+#: View/mooApp/Forums/view.ctp:72
+msgid "Topics"
+msgstr ""
+
+#: View/Elements/my_forum_subscribe.ctp:13
+#: View/Elements/my_topic_subscribe.ctp:8
+#: View/Elements/lists/topic_list_m.ctp:13
+#: View/Forums/index.ctp:43
+#: View/Forums/view.ctp:127
+#: View/Widgets/forum/home.ctp:41
+#: View/Widgets/forum/most_member.ctp:15
+#: View/Widgets/forum/most_popular.ctp:23
+#: View/Widgets/forum/most_view.ctp:23
+#: View/mooApp/Forums/index.ctp:43
+#: View/mooApp/Forums/view.ctp:73
+msgid "Replies"
+msgstr ""
+
+#: View/Elements/my_forum_subscribe.ctp:14
+#: View/Forums/index.ctp:44
+#: View/Forums/view.ctp:128
+#: View/mooApp/Forums/index.ctp:44
+#: View/mooApp/Forums/view.ctp:74
+msgid "Last Post"
+msgstr ""
+
+#: View/Elements/my_forum_subscribe.ctp:19
+#: View/Elements/lists/forum_list.ctp:77
+#: View/Elements/lists/list_replies.ctp:153
+#: View/Elements/lists/my_list_replies.ctp:55
+#: View/Elements/lists/search_topic_list.ctp:63
+#: View/Elements/lists/topic_list.ctp:93
+#: View/mooApp/Elements/lists/forum_list.ctp:67
+#: View/mooApp/Elements/lists/list_replies.ctp:142
+#: View/mooApp/Elements/lists/topic_list.ctp:72
+msgid "No more results found"
+msgstr ""
+
+#: View/Elements/my_topic_subscribe.ctp:2
+msgid "Subscribed Topics"
+msgstr ""
+
+#: View/Elements/my_topic_subscribe.ctp:6
+#: View/Elements/lists/search_topic_list.ctp:18
+#: View/Elements/lists/topic_list_m.ctp:10
+#: View/ForumReports/admin_index.ctp:91
+msgid "Topic"
+msgstr ""
+
+#: View/Elements/my_topic_subscribe.ctp:7
+msgid "Voices"
+msgstr ""
+
+#: View/Elements/my_topic_subscribe.ctp:9
+#: View/Elements/lists/topic_list_m.ctp:14
+msgid "Last Reply"
+msgstr ""
+
+#: View/Elements/reply_form.ctp:24
+#: View/mooApp/Elements/reply_form.ctp:24
+msgid "Post a reply"
+msgstr ""
+
+#: View/Elements/reply_form.ctp:30
+#: View/mooApp/Elements/reply_form.ctp:30
+msgid "This topic is marked as locked to new reply, however your posting capabilities still allow to do so"
+msgstr ""
+
+#: View/Elements/reply_form.ctp:35
+#: View/ForumTopics/create.ctp:75
+#: View/ForumTopics/reply.ctp:38
+#: View/mooApp/Elements/reply_form.ctp:35
+#: View/mooApp/ForumTopics/create.ctp:75
+#: View/mooApp/ForumTopics/reply.ctp:38
+msgid "To tag member, please click on icon %s at the editor header"
+msgstr ""
+
+#: View/Elements/reply_form.ctp:39
+#: View/ForumTopics/create.ctp:78
+#: View/ForumTopics/reply.ctp:41
+#: View/mooApp/Elements/reply_form.ctp:39
+#: View/mooApp/ForumTopics/create.ctp:78
+#: View/mooApp/ForumTopics/reply.ctp:41
+msgid "Upload Files"
+msgstr ""
+
+#: View/Elements/reply_form.ctp:42
+#: View/ForumTopics/create.ctp:81
+#: View/ForumTopics/reply.ctp:44
+#: View/mooApp/Elements/reply_form.ctp:42
+#: View/mooApp/ForumTopics/create.ctp:81
+#: View/mooApp/ForumTopics/reply.ctp:44
+msgid "Image Upload"
+msgstr ""
+
+#: View/Elements/reply_form.ctp:50
+#: View/ForumTopics/create.ctp:104
+#: View/ForumTopics/reply.ctp:51
+#: View/mooApp/Elements/reply_form.ctp:50
+#: View/mooApp/ForumTopics/create.ctp:104
+#: View/mooApp/ForumTopics/reply.ctp:51
+msgid "Attachements"
+msgstr ""
+
+#: View/Elements/reply_form.ctp:61
+#: View/ForumTopics/reply.ctp:79
+#: View/mooApp/Elements/reply_form.ctp:61
+#: View/mooApp/ForumTopics/reply.ctp:79
+msgid "Send me notifications when other members reply to this topic"
+msgstr ""
+
+#: View/Elements/reply_form.ctp:78
+#: View/ForumTopics/reply.ctp:87
+#: View/mooApp/Elements/reply_form.ctp:78
+#: View/mooApp/ForumTopics/reply.ctp:87
+msgid "Post"
+msgstr ""
+
+#: View/Elements/setting.ctp:6
+msgid "When people posted a new topic in forum that I subscribed to"
+msgstr ""
+
+#: View/Elements/setting.ctp:10
+msgid "When people reply to my forum topic I subscribed to"
+msgstr ""
+
+#: View/Elements/activity/content/forum_topic_create_share.ctp:21
+#: View/Elements/activity/share/forum_topic_create.ctp:8
+msgid "created a new topic"
+msgstr ""
+
+#: View/Elements/activity/text/forum_topic_create_share.ctp:6
+msgid "shared"
+msgstr ""
+
+#: View/Elements/activity/text/forum_topic_create_share.ctp:17
+msgid "post"
+msgstr ""
+
+#: View/Elements/activity/text/forum_topic_item_detail_share.ctp:7;9
+msgid "forum topic"
+msgstr ""
+
+#: View/Elements/blocks/tags_item_block.ctp:14
+msgid "Nothing found"
+msgstr ""
+
+#: View/Elements/lists/file_list.ctp:6
+msgid "Download Attachment"
+msgstr ""
+
+#: View/Elements/lists/forum_list.ctp:62;64
+#: View/mooApp/Elements/lists/forum_list.ctp:57
+msgid "By: "
+msgstr ""
+
+#: View/Elements/lists/forum_list.ctp:70
+#: View/mooApp/Elements/lists/forum_list.ctp:60
+msgid "No Topic"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:4
+#: View/mooApp/Elements/lists/list_replies.ctp:4
+msgid "Url has been copied to clipboard"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:45
+#: View/Elements/lists/my_list_replies.ctp:23
+#: View/Forums/admin_create.ctp:243
+#: View/Forums/admin_index.ctp:189
+#: View/Forums/admin_sub.ctp:144
+#: View/mooApp/Elements/lists/list_replies.ctp:45
+msgid "Moderator"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:85
+#: View/mooApp/Elements/lists/list_replies.ctp:85
+msgid "Thanks"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:94
+#: View/mooApp/Elements/lists/list_replies.ctp:94
+msgid "People Who Thank This"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:101
+#: View/ForumTopics/view.ctp:259
+#: View/mooApp/Elements/lists/list_replies.ctp:101
+#: View/mooApp/ForumTopics/view.ctp:146
+msgid "Quote"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:112;113
+#: View/ForumReports/ajax_create.ctp:10;33
+#: View/ForumTopics/view.ctp:149;150
+#: View/mooApp/Elements/lists/list_replies.ctp:105
+#: View/mooApp/ForumReports/ajax_create.ctp:14;37
+#: View/mooApp/ForumTopics/view.ctp:58
+msgid "Report"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:123
+#: View/ForumTopics/view.ctp:132
+#: View/Forums/admin_index.ctp:158;229
+#: View/Forums/admin_sub.ctp:164
+#: View/mooApp/Elements/lists/list_replies.ctp:112
+#: View/mooApp/ForumTopics/view.ctp:53
+msgid "Edit"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:130
+#: View/mooApp/Elements/lists/list_replies.ctp:119
+msgid "Get link"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:139
+#: View/ForumTopics/view.ctp:271
+#: View/mooApp/Elements/lists/list_replies.ctp:128
+#: View/mooApp/ForumTopics/view.ctp:158
+msgid "Show edit history"
+msgstr ""
+
+#: View/Elements/lists/list_replies.ctp:140
+#: View/ForumTopics/view.ctp:272
+#: View/mooApp/Elements/lists/list_replies.ctp:129
+#: View/mooApp/ForumTopics/view.ctp:159
+msgid "Edit history"
+msgstr ""
+
+#: View/Elements/lists/my_list_replies.ctp:8
+#: View/Elements/lists/search_topic_list.ctp:14
+#: View/ForumReports/admin_index.ctp:89
+msgid "In reply to"
+msgstr ""
+
+#: View/Elements/lists/search_topic_list.ctp:36
+#: View/Elements/lists/topic_list.ctp:47
+#: View/mooApp/Elements/lists/topic_list.ctp:39
+msgid "(Moderator)"
+msgstr ""
+
+#: View/Elements/lists/search_topic_list_m.ctp:3
+msgid "Author"
+msgstr ""
+
+#: View/Elements/lists/search_topic_list_m.ctp:4
+msgid "Search Results"
+msgstr ""
+
+#: View/Elements/lists/topic_list.ctp:24
+#: View/mooApp/Elements/lists/topic_list.ctp:24
+msgid "Locked topic"
+msgstr ""
+
+#: View/Elements/lists/topic_list.ctp:34
+#: View/Widgets/forum/most_popular.ctp:16
+#: View/Widgets/forum/most_view.ctp:16
+#: View/Widgets/forum/recent_topic.ctp:16
+#: View/mooApp/Elements/lists/topic_list.ctp:34
+msgid "Started by"
+msgstr ""
+
+#: View/Elements/lists/topic_list.ctp:85
+#: View/mooApp/Elements/lists/topic_list.ctp:64
+msgid "No Replies"
+msgstr ""
+
+#: View/Elements/lists/topic_list_m.ctp:12
+#: View/Widgets/forum/most_popular.ctp:22
+#: View/Widgets/forum/most_view.ctp:22
+msgid "Participants"
+msgstr ""
+
+#: View/Elements/notification/add_moderator.ctp:1
+msgid "added you as admin of \"%s\""
+msgstr ""
+
+#: View/Elements/notification/create_topic.ctp:1
+msgid "posted a new topic into \"%s\""
+msgstr ""
+
+#: View/Elements/notification/forum_topic_invite.ctp:1
+msgid "invited you to join \"%s\""
+msgstr ""
+
+#: View/Elements/notification/reply_topic.ctp:1
+msgid "replied on topic \"%s\""
+msgstr ""
+
+#: View/Elements/notification/tag_member_create_topic.ctp:1
+msgid "mentioned you in topic \"%s\""
+msgstr ""
+
+#: View/Elements/notification/tag_member_reply_topic.ctp:1
+msgid "mentioned you in reply of topic \"%s\""
+msgstr ""
+
+#: View/Elements/notification/thank_reply.ctp:1
+msgid "said thanks to your reply on \"%s\""
+msgstr ""
+
+#: View/ForumCategories/admin_ajax_translate.ctp:29
+msgid "Translation"
+msgstr ""
+
+#: View/ForumCategories/admin_ajax_translate.ctp:46
+#: View/ForumCategories/admin_create.ctp:124
+#: View/Forums/admin_create.ctp:148
+msgid "Enter text"
+msgstr ""
+
+#: View/ForumCategories/admin_ajax_translate.ctp:60
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:48
+msgid "Close"
+msgstr ""
+
+#: View/ForumCategories/admin_ajax_translate.ctp:61
+msgid "Save Change"
+msgstr ""
+
+#: View/ForumCategories/admin_create.ctp:114
+msgid "Add New"
+msgstr ""
+
+#: View/ForumCategories/admin_create.ctp:122
+#: View/ForumReports/admin_index.ctp:54
+msgid "Name"
+msgstr ""
+
+#: View/ForumCategories/admin_create.ctp:127
+msgid "You can add translation language after creating category"
+msgstr ""
+
+#: View/ForumCategories/admin_create.ctp:138
+msgid "Icon"
+msgstr ""
+
+#: View/ForumCategories/admin_create.ctp:152
+msgid "Recommended size: 32 x 32"
+msgstr ""
+
+#: View/ForumCategories/admin_create.ctp:172
+msgid "Order"
+msgstr ""
+
+#: View/ForumCategories/admin_create.ctp:175
+msgid "Enter Number"
+msgstr ""
+
+#: View/ForumCategories/admin_create.ctp:186
+#: View/ForumTopics/create.ctp:169
+#: View/Forums/admin_create.ctp:254
+#: View/mooApp/ForumTopics/create.ctp:169
+msgid "Save"
+msgstr ""
+
+#: View/ForumCategories/admin_create.ctp:187
+#: View/ForumTopics/create.ctp:177
+#: View/ForumTopics/pin.ctp:25
+#: View/ForumTopics/reply.ctp:88
+#: View/Forums/admin_create.ctp:255
+#: View/mooApp/ForumTopics/create.ctp:177
+#: View/mooApp/ForumTopics/pin.ctp:25
+#: View/mooApp/ForumTopics/reply.ctp:88
+msgid "Cancel"
+msgstr ""
+
+#: View/ForumPins/gateway.ctp:4
+msgid "Select Payment Gateway"
+msgstr ""
+
+#: View/ForumPins/gateway.ctp:6
+msgid "Pin topic for %s days"
+msgstr ""
+
+#: View/ForumPins/gateway.ctp:19
+msgid "Pay with"
+msgstr ""
+
+#: View/ForumPins/success.ctp:3
+msgid "Thank you, Your payment has been processed. You will shortly receive an email confirmation"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:8
+#: View/ForumSettings/admin_index.ctp:8
+#: View/Forums/admin_index.ctp:14
+#: View/Forums/admin_sub.ctp:14
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:9
+msgid "Reports Manager"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:20
+msgid "Manage Reports"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:24
+msgid "Actions"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:57
+#: View/ForumReports/ajax_create.ctp:21
+#: View/mooApp/ForumReports/ajax_create.ctp:25
+msgid "Reason"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:60
+msgid "Reporter"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:63
+msgid "Create Date"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:107;109
+msgid "View"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:127
+#: View/ForumTopics/index.ctp:30;60
+#: View/ForumTopics/search.ctp:23
+#: View/ForumTopics/view.ctp:300;328
+#: View/Forums/view.ctp:89;108
+#: View/mooApp/ForumTopics/view.ctp:186;210
+#: View/mooApp/Forums/view.ctp:35;54
+msgid "First"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:128
+#: View/ForumTopics/index.ctp:31;61
+#: View/ForumTopics/view.ctp:301;329
+#: View/Forums/view.ctp:90;109
+#: View/mooApp/ForumTopics/view.ctp:187;211
+#: View/mooApp/Forums/view.ctp:36;55
+msgid "Previous"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:130
+#: View/ForumTopics/index.ctp:33;63
+#: View/ForumTopics/search.ctp:26
+#: View/ForumTopics/view.ctp:303;331
+#: View/Forums/view.ctp:92;111
+#: View/mooApp/ForumTopics/view.ctp:189;213
+#: View/mooApp/Forums/view.ctp:38;57
+msgid "Next"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:131
+#: View/ForumTopics/index.ctp:34;64
+#: View/ForumTopics/search.ctp:27
+#: View/ForumTopics/view.ctp:304;332
+#: View/Forums/view.ctp:93;112
+#: View/mooApp/ForumTopics/view.ctp:190;214
+#: View/mooApp/Forums/view.ctp:39;58
+msgid "Last"
+msgstr ""
+
+#: View/ForumReports/admin_index.ctp:138
+msgid "No Reports"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:2
+msgid "Forum Enable"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:10
+msgid "Forum Settings"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:31
+msgid "Enable Forum Plugin"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:46
+msgid "Enable topic pin for user?"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:50;81;199;212
+msgid "Yes"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:50;81;199;212
+msgid "No"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:60
+msgid "Pin topic to top price per day"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:77
+msgid "Show expand and collapse?"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:91
+msgid "Locked forum background color"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:106
+msgid "Pinned forum background color"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:121
+msgid "Locked topic text color"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:136
+msgid "Allowed file extentions"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:151
+msgid "Number topics per page"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:166
+msgid "Number replies per page"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:181
+msgid "Mention notification limit"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:181
+msgid "If you enter 10 for example, only first 10 members who are mentioned in a reply of a topic will get notification."
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:195
+msgid "Enable Google reCaptcha on reply form"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:208
+msgid "Enable Google reCaptcha on create new topic form"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:222
+msgid "Enable plugin hashtag"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:226
+msgid "Enable"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:226
+msgid "Disable"
+msgstr ""
+
+#: View/ForumSettings/admin_index.ctp:236
+msgid "By pass force login"
+msgstr ""
+
+#: View/ForumTopics/ajax_invite.ctp:16
+#: View/mooApp/ForumTopics/ajax_invite.ctp:16
+msgid "Invite Friends to Join"
+msgstr ""
+
+#: View/ForumTopics/ajax_invite.ctp:27
+#: View/mooApp/ForumTopics/ajax_invite.ctp:27
+msgid "Type"
+msgstr ""
+
+#: View/ForumTopics/ajax_invite.ctp:31;39
+#: View/mooApp/ForumTopics/ajax_invite.ctp:31;39
+msgid "Friends"
+msgstr ""
+
+#: View/ForumTopics/ajax_invite.ctp:31;50
+#: View/mooApp/ForumTopics/ajax_invite.ctp:31;50
+msgid "Emails"
+msgstr ""
+
+#: View/ForumTopics/ajax_invite.ctp:55
+#: View/mooApp/ForumTopics/ajax_invite.ctp:55
+msgid "Not on your friends list? Enter their emails below (separated by commas)<br />Limit 10 email addresses per request"
+msgstr ""
+
+#: View/ForumTopics/ajax_invite.ctp:69
+#: View/mooApp/ForumTopics/ajax_invite.ctp:69
+msgid "Send Invitations"
+msgstr ""
+
+#: View/ForumTopics/ajax_show_history.ctp:9
+msgid "Edit History"
+msgstr ""
+
+#: View/ForumTopics/ajax_tag_member.ctp:3
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:3
+msgid "Tag member"
+msgstr ""
+
+#: View/ForumTopics/ajax_tag_member.ctp:12
+#: View/Forums/admin_create.ctp:12
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:12
+msgid "Enter one or more users"
+msgstr ""
+
+#: View/ForumTopics/ajax_tag_member.ctp:13
+#: View/Forums/admin_create.ctp:13
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:13
+msgid "No results"
+msgstr ""
+
+#: View/ForumTopics/ajax_tag_member.ctp:41
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:41
+msgid "Tag member into your reply"
+msgstr ""
+
+#: View/ForumTopics/ajax_tag_member.ctp:48
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:49
+msgid "Insert into reply"
+msgstr ""
+
+#: View/ForumTopics/browse.ctp:9;10
+#: View/ForumTopics/index.ctp:14;15
+#: View/ForumTopics/search.ctp:16
+#: View/ForumTopics/view.ctp:92;93
+#: View/Forums/view.ctp:64;65
+#: View/Widgets/forum/search_topic.ctp:6
+#: View/mooApp/ForumTopics/view.ctp:22;24
+#: View/mooApp/Forums/view.ctp:10
+msgid "Search"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:32
+#: View/mooApp/ForumTopics/create.ctp:32
+msgid "Edit topic"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:34
+#: View/ForumTopics/reply.ctp:22
+#: View/mooApp/ForumTopics/create.ctp:34
+#: View/mooApp/ForumTopics/reply.ctp:22
+msgid "Edit reply"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:37
+#: View/mooApp/ForumTopics/create.ctp:37
+msgid "Create new topic"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:42
+#: View/mooApp/ForumTopics/create.ctp:42
+msgid "This forum is marked as closed to new topic, however your posting capabilities still allow you to do so."
+msgstr ""
+
+#: View/ForumTopics/create.ctp:61
+#: View/mooApp/ForumTopics/create.ctp:61
+msgid "Title"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:71
+#: View/ForumTopics/reply.ctp:34
+#: View/Forums/admin_create.ctp:153
+#: View/mooApp/ForumTopics/create.ctp:71
+#: View/mooApp/ForumTopics/reply.ctp:34
+msgid "Description"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:88
+#: View/mooApp/ForumTopics/create.ctp:88
+msgid "Thumbnail"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:113
+#: View/ForumTopics/reply.ctp:60
+#: View/mooApp/ForumTopics/create.ctp:113
+#: View/mooApp/ForumTopics/reply.ctp:60
+msgid "delete"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:127
+#: View/mooApp/ForumTopics/create.ctp:127
+msgid "Tags"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:130
+#: View/mooApp/ForumTopics/create.ctp:130
+msgid "Separated by commas or space"
+msgstr ""
+
+#: View/ForumTopics/create.ctp:140
+#: View/mooApp/ForumTopics/create.ctp:140
+msgid "Send me notification when other members reply to this topic"
+msgstr ""
+
+#: View/ForumTopics/index.ctp:24
+msgid "Viewing %s replies"
+msgstr ""
+
+#: View/ForumTopics/index.ctp:24;26;57
+#: View/ForumTopics/search.ctp:22
+#: View/ForumTopics/view.ctp:297;325
+#: View/Forums/view.ctp:86;105
+#: View/mooApp/ForumTopics/view.ctp:183;207
+#: View/mooApp/Forums/view.ctp:32;51
+msgid " through %s (of %s total)"
+msgstr ""
+
+#: View/ForumTopics/index.ctp:26;57
+#: View/mooApp/Forums/view.ctp:32
+msgid "Viewing %s topics"
+msgstr ""
+
+#: View/ForumTopics/index.ctp:31;61
+#: View/ForumTopics/search.ctp:24
+#: View/ForumTopics/view.ctp:301;329
+#: View/Forums/view.ctp:90;109
+#: View/mooApp/ForumTopics/view.ctp:187;211
+#: View/mooApp/Forums/view.ctp:36;55
+msgid "Prev"
+msgstr ""
+
+#: View/ForumTopics/pin.ctp:5
+#: View/mooApp/ForumTopics/pin.ctp:5
+msgid "Pin topic on top"
+msgstr ""
+
+#: View/ForumTopics/pin.ctp:14
+#: View/mooApp/ForumTopics/pin.ctp:14
+msgid "Price per day"
+msgstr ""
+
+#: View/ForumTopics/pin.ctp:18
+#: View/mooApp/ForumTopics/pin.ctp:18
+msgid "How many days do you want to pin?"
+msgstr ""
+
+#: View/ForumTopics/pin.ctp:20
+#: View/mooApp/ForumTopics/pin.ctp:20
+msgid "Total price"
+msgstr ""
+
+#: View/ForumTopics/pin.ctp:24
+#: View/mooApp/ForumTopics/pin.ctp:24
+msgid "Pin now"
+msgstr ""
+
+#: View/ForumTopics/search.ctp:12
+msgid "Search results for "
+msgstr ""
+
+#: View/ForumTopics/search.ctp:22
+msgid "Viewing %s results"
+msgstr ""
+
+#: View/ForumTopics/signature.ctp:4
+#: View/mooApp/ForumTopics/signature.ctp:4
+msgid "Edit Signature"
+msgstr ""
+
+#: View/ForumTopics/signature.ctp:6
+#: View/mooApp/ForumTopics/signature.ctp:6
+msgid "Your changes have been saved"
+msgstr ""
+
+#: View/ForumTopics/signature.ctp:17
+#: View/mooApp/ForumTopics/signature.ctp:17
+msgid "Edit your signature using the editor below, and click on \"Save Signature\" to save changes."
+msgstr ""
+
+#: View/ForumTopics/signature.ctp:19
+#: View/mooApp/ForumTopics/signature.ctp:19
+msgid "Auto insert into my reply"
+msgstr ""
+
+#: View/ForumTopics/signature.ctp:31
+#: View/mooApp/ForumTopics/signature.ctp:31
+msgid "Save Signature"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:24
+#: View/mooApp/ForumTopics/view.ctp:236
+msgid "Topic Info"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:31
+#: View/mooApp/ForumTopics/view.ctp:244
+msgid "In"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:49
+#: View/mooApp/ForumTopics/view.ctp:262
+msgid "Last reply from"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:53
+#: View/Forums/view.ctp:27
+#: View/mooApp/ForumTopics/view.ctp:266
+#: View/mooApp/Forums/view.ctp:104
+msgid "Last activity"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:80;237
+#: View/Widgets/forum/my_contribution.ctp:8
+#: View/mooApp/ForumTopics/view.ctp:130;287
+msgid "Favorite"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:89
+msgid "Reply search"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:99
+msgid "Topic tags"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:123
+#: View/mooApp/ForumTopics/view.ctp:44
+msgid "UnPin"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:125
+#: View/mooApp/ForumTopics/view.ctp:46
+msgid "Pin"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:137;241
+msgid "Share"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:162;163;252;253
+#: View/mooApp/ForumTopics/view.ctp:62;139;140
+msgid "Invite Friends"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:262
+#: View/mooApp/ForumTopics/view.ctp:149
+msgid "Post reply"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:289
+#: View/mooApp/ForumTopics/view.ctp:175
+msgid "Search results for \"%s\" keyword"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:314
+#: View/mooApp/ForumTopics/view.ctp:198
+msgid "View all replies"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:345
+msgid "Login or register to post your reply"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:348
+#: View/mooApp/ForumTopics/view.ctp:227
+msgid "This topic is marked as locked to new reply"
+msgstr ""
+
+#: View/ForumTopics/view.ctp:35
+#: View/Forums/view.ctp:17
+msgid "%s reply"
+msgid_plural ""
+msgstr[0] "%s reply"
+msgstr[1] ""
+
+#: View/ForumTopics/view.ctp:39
+msgid "%s view"
+msgid_plural ""
+msgstr[0] "%s view"
+msgstr[1] ""
+
+#: View/ForumTopics/view.ctp:43
+msgid "%s participant"
+msgid_plural ""
+msgstr[0] "%s participant"
+msgstr[1] ""
+
+#: View/ForumTopics/view.ctp:197
+#: View/mooApp/ForumTopics/view.ctp:90
+msgid "Pinned %s day by"
+msgid_plural ""
+msgstr[0] "Pinned %s day by"
+msgstr[1] ""
+
+#: View/ForumTopics/view.ctp:297;325
+#: View/mooApp/ForumTopics/view.ctp:183;207
+msgid "Viewing %s reply"
+msgid_plural ""
+msgstr[0] "Viewing %s reply"
+msgstr[1] ""
+
+#: View/Forums/admin_create.ctp:29
+msgid "Select"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:137
+msgid "Edit forum"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:137
+msgid "Add New forum"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:146
+msgid "Forum title"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:161
+msgid "Parent forum"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:162
+msgid "Forum Category"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:184
+msgid "Thumb Image"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:212
+msgid "Recommended size: 48 x 48"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:216
+msgid "Status"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:216
+msgid "Lock means that noone can post new topic into forum except for moderators and site admin"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:237
+msgid "Visibility"
+msgstr ""
+
+#: View/Forums/admin_create.ctp:237
+msgid "Configure view permission for each user roles. Uncheck if you want to disable this forum from all members"
+msgstr ""
+
+#: View/Forums/admin_index.ctp:125
+msgid "Add New Forum Category"
+msgstr ""
+
+#: View/Forums/admin_index.ctp:156
+msgid "Add forum"
+msgstr ""
+
+#: View/Forums/admin_index.ctp:189
+#: View/Forums/admin_sub.ctp:144
+msgid "Add"
+msgstr ""
+
+#: View/Forums/admin_index.ctp:199
+#: View/Forums/admin_sub.ctp:153
+msgid "remove"
+msgstr ""
+
+#: View/Forums/admin_index.ctp:207
+msgid "Sub-forum"
+msgstr ""
+
+#: View/Forums/admin_index.ctp:211
+msgid "None"
+msgstr ""
+
+#: View/Forums/admin_index.ctp:225
+#: View/Forums/admin_sub.ctp:162
+msgid "Move up"
+msgstr ""
+
+#: View/Forums/admin_index.ctp:246
+#: View/Forums/admin_sub.ctp:181
+msgid "No forums found"
+msgstr ""
+
+#: View/Forums/admin_sub.ctp:74
+msgid "Sub forums of <b>%s</b>"
+msgstr ""
+
+#: View/Forums/admin_sub.ctp:82
+msgid "Back"
+msgstr ""
+
+#: View/Forums/admin_sub.ctp:92
+msgid "Add New Sub Forum"
+msgstr ""
+
+#: View/Forums/index.ctp:36
+#: View/Widgets/forum/home.ctp:33
+#: View/mooApp/Forums/index.ctp:36
+msgid "No Forum"
+msgstr ""
+
+#: View/Forums/view.ctp:10
+#: View/mooApp/Forums/view.ctp:85
+msgid "Forum Info"
+msgstr ""
+
+#: View/Forums/view.ctp:23
+#: View/mooApp/Forums/view.ctp:100
+msgid "Last post by"
+msgstr ""
+
+#: View/Forums/view.ctp:33
+#: View/mooApp/Forums/view.ctp:110
+msgid "Moderators"
+msgstr ""
+
+#: View/Forums/view.ctp:61
+msgid "Forum Search"
+msgstr ""
+
+#: View/Forums/view.ctp:77
+#: View/mooApp/Forums/view.ctp:22
+msgid "Create New Topic"
+msgstr ""
+
+#: View/Forums/view.ctp:120
+#: View/mooApp/Forums/view.ctp:66
+msgid "Sub-forums"
+msgstr ""
+
+#: View/Forums/view.ctp:14
+msgid "%s topic"
+msgid_plural ""
+msgstr[0] "%s topic"
+msgstr[1] ""
+
+#: View/Forums/view.ctp:86;105
+#: View/mooApp/Forums/view.ctp:51
+msgid "Viewing %s topic"
+msgid_plural ""
+msgstr[0] "Viewing %s topic"
+msgstr[1] ""
+
+#: View/Helper/ForumHelper.php:45
+msgid "Locked forum, member can't post topic except moderators and site admin"
+msgstr ""
+
+#: View/Helper/ForumHelper.php:57
+msgid "No one can access the forum because of permission settings"
+msgstr ""
+
+#: View/Helper/ForumHelper.php:67
+msgid "Pin topic with %s %s for %s days"
+msgstr ""
+
+#: View/Helper/ForumHelper.php:261
+msgid "said"
+msgstr ""
+
+#: View/Helper/ForumHelper.php:262
+msgid "From"
+msgstr ""
+
+#: View/Widgets/forum/home.ctp:42
+msgid "Latest Post"
+msgstr ""
+
+#: View/Widgets/forum/most_member.ctp:3
+msgid "Most active members"
+msgstr ""
+
+#: View/Widgets/forum/most_popular.ctp:4
+msgid "Most popular topics"
+msgstr ""
+
+#: View/Widgets/forum/most_view.ctp:4
+msgid "Most viewed topics"
+msgstr ""
+
+#: View/Widgets/forum/most_view.ctp:24
+msgid "Views"
+msgstr ""
+
+#: View/Widgets/forum/my_contribution.ctp:5
+msgid "Topic Started"
+msgstr ""
+
+#: View/Widgets/forum/my_contribution.ctp:6
+msgid "Replies Created"
+msgstr ""
+
+#: View/Widgets/forum/my_contribution.ctp:7
+msgid "Signature"
+msgstr ""
+
+#: View/Widgets/forum/my_contribution.ctp:9
+msgid "Subscription"
+msgstr ""
+
+#: View/Widgets/forum/recent_topic.ctp:4
+msgid "Recent topics"
+msgstr ""
+
+#: View/mooApp/Elements/lists/forum_list.ctp:31
+msgid "topic"
+msgstr ""
+
+#: View/mooApp/Elements/lists/forum_list.ctp:31
+#: View/mooApp/Forums/view.ctp:91
+msgid "topics"
+msgstr ""
+
+#: View/mooApp/Elements/lists/forum_list.ctp:31
+msgid "reply"
+msgstr ""
+
+#: View/mooApp/Elements/lists/forum_list.ctp:31
+#: View/mooApp/ForumTopics/view.ctp:248
+#: View/mooApp/Forums/view.ctp:94
+msgid "replies"
+msgstr ""
+
+#: View/mooApp/ForumTopics/view.ctp:252
+msgid "views"
+msgstr ""
+
+#: View/mooApp/ForumTopics/view.ctp:256
+msgid "participants"
+msgstr ""
+
+#: View/mooApp/Forums/view.ctp:8
+msgid "Search Forum"
+msgstr ""
+
+#: View/mooApp/Forums/view.ctp:125
+msgid "Subscribed"
+msgstr ""
+
+#: Model/Forum.php:validation for field name
+msgid "Forum's name is required"
+msgstr ""
+
+#: Model/Forum.php:validation for field description
+#: Model/ForumTopic.php:validation for field description
+msgid "Description is required"
+msgstr ""
+
+#: Model/ForumCategory.php:validation for field name
+msgid "Category's name is required"
+msgstr ""
+
+#: Model/ForumReport.php:validation for field reason
+msgid "Reason is required"
+msgstr ""
+
+#: Model/ForumTopic.php:validation for field title
+msgid "Title is required"
+msgstr ""
+
+msgid "_EMAIL_FORUM_TOPIC_INVITE_NONE_MEMBER_TITLE_"
+msgstr "Email forum topic invite none member title"
+
+msgid "_EMAIL_FORUM_PING_TOPIC_TITLE_"
+msgstr "Email forum pin topic title"
+

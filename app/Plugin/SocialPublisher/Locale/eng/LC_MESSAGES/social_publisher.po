@@ -1,0 +1,50 @@
+msgid "Auto Share on"
+msgstr ""
+
+msgid "Auto Share on FB/Twitter"
+msgstr ""
+
+msgid "facebook"
+msgstr ""
+
+msgid "twitter"
+msgstr ""
+
+msgid "Connected as "
+msgstr ""
+
+msgid "to disconnect."
+msgstr ""
+
+msgid "Publish Providers"
+msgstr ""
+
+msgid "Actives"
+msgstr ""
+
+msgid "Social Publisher Setting"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Social Publisher"
+msgstr ""
+
+msgid "Facebook"
+msgstr ""
+
+msgid "Twitter"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Social Publisher Settings"
+msgstr ""
+
+msgid "Share on FB/Twitter"
+msgstr ""

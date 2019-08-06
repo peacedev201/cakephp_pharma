@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Sms Verify</name>
+    <key>SmsVerify</key>
+    <version>1.2</version>
+    <description>Sms Verify</description>
+    <author>mooSocial - Tung.NV</author>
+    <website>https://moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+<settings><setting><label>Enable Sms Verify</label><name>sms_verify_enable</name><description></description><type>radio</type><values><value><name>Enable</name><value>1</value><select>1</select></value><value><name>Disable</name><value>0</value><select>0</select></value></values></setting><setting><label>Enable captcha</label><name>sms_verify_enable_captcha</name><description></description><type>checkbox</type><values><value><name></name><value>1</value><select>1</select></value></values></setting><setting><label>By pass sms verify for all existing members</label><name>sms_verify_pass_verify</name><description>Please check this option if you want all members who signed up before this plugin is installed can continue using site without go thru sms verification process</description><type>checkbox</type><values><value><name></name><value>1</value><select>1</select></value></values></setting></settings></info>

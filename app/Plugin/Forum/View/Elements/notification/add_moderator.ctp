@@ -1,0 +1,1 @@
+<?php echo __d('forum', 'added you as admin of "%s"', $notification['Notification']['params']);?>

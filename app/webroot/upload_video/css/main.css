@@ -1,0 +1,132 @@
+#videoPcFeed {
+    margin-left: 0;
+    width: 40px;
+    border-right: 1px solid #ccc;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#videoPcFeed .qq-uploader .qq-upload-button .upload-section {
+    padding: 5px;
+    font-size: initial;
+    height: auto;
+}
+
+#videoPcFeed .upload-section i {
+    margin: 0 0 4px 0;
+    font-size: 24px;
+
+}
+
+#videoPcFeed .qq-upload-drop-area, 
+#videoPcFeed .qq-upload-button {
+    background: none;
+}
+
+#video_pc_feed_preview #video_upload_preview .video_thumb .spinner {
+    left: 82px !important;
+    top: 72px !important;
+}
+
+#video_pc_feed_preview #video_upload_preview .right {
+    margin-left: 184px;
+}
+
+#video_pc_feed_preview #video_upload_preview .video_thumb {
+    width: 164px;
+    height: 144px;
+    background: #000;
+    line-height: 138px;
+    text-align: center;
+    color: #9b9b9b;
+    font-size: 40px;
+    position: relative;
+}
+
+#video_pc_feed_preview #video_upload_preview .video_thumb img {
+    width: 100%;
+}
+
+#video_pc_feed_preview #video_upload_preview .right select,
+#video_pc_feed_preview #video_upload_preview .right input {
+    width: 100%;
+    height: 32px;
+}
+
+#video_pc_feed_preview #video_upload_preview.video_thumb_target .right textarea {
+    min-height: 104px !important;
+}
+
+#video_pc_feed_preview #video_upload_preview .right textarea {
+    min-height: 64px !important;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#video_pc_feed_preview #video_upload_preview .right > div {
+    margin-bottom: 8px;
+}
+
+#video_pc_feed_preview #video_upload_preview .right input#title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.video-upload-render video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+#triggerUpload.video-upload {
+    margin: 0;
+    box-shadow: none;
+}
+
+.video-thumbnail {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.video-thumbnail:before {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: "\f01d";
+    font-family: FontAwesome;
+    font-size: 100px;
+    color: #fff;
+    opacity: .8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+    #videoPcFeed.moo-app-video-upload {
+        border: none;
+    }
+    
+    #videoPcFeed.moo-app-video-upload .upload-section i{
+        color: #757575;
+    }
+}
+
+.close-upload-video {
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    color: gray;
+}
+
+.video-upload-render {
+    
+}

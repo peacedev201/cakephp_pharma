@@ -1,0 +1,72 @@
+ul.activity-log-list > li{
+    padding: 15px 10px;
+    border-top: 1px solid #cccccc;
+}
+.log-section{
+    position: relative;
+}
+.log-item{
+    text-align: left;
+    padding-right: 10px;
+}
+.log-item img{
+    max-width: 150px;
+}
+.log-item .div_single{
+    background: none;
+    text-align: left;
+}
+.log-action{
+    padding-left: 5px!important;
+}
+.log-action-mobile{
+    padding-left: 5px!important;
+    display: none;
+}
+.log-action-mobile i{
+    vertical-align: middle;
+    font-size: 14px;
+    color: #888;
+}
+.log-info{
+    padding-right: 15px!important;
+}
+.log-info .date{
+    font-size: 11px;
+    display: inline-block;
+}
+.log-action a, .log-action-mobile a{
+    color: inherit;
+}
+.item-action a{
+    color: inherit;
+}
+.log-item .user-list-index img{
+    max-width: inherit;
+}
+.log-item .user-list-index{
+    width: 30% !important;
+}
+.log-item .feedlist_item_content{
+    width: calc(100% - 36px);
+}
+@media (max-width: 992px){
+    .log-action{
+        margin-top: 7px;
+    }
+    .log-filter{
+        padding: 0px 10px;
+    }
+    .activity-log-list>li{
+        margin: 0px;
+    }
+}
+
+@media (max-width: 990px){
+    .log-action-mobile{
+        display: inline-block;
+    }
+    .log-action{
+        display: none;
+    }
+}

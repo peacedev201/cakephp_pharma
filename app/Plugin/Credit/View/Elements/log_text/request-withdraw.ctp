@@ -1,0 +1,1 @@
+<?php echo __d('credit','Admin approved your withdrawal request'); ?>

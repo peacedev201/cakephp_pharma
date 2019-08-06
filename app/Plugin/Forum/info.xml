@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Forum</name>
+    <key>Forum</key>
+    <version>1.0</version>
+    <description>Forum</description>
+    <author>mooSocial</author>
+    <website>https://moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <settings>
+        <setting>
+            <label>Forum Enable</label>
+            <name>forum_enabled</name>
+            <description></description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Enable topic pin for user?</label>
+            <name>forum_enable_user_pin_topic</name>
+            <description></description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Pin topic to top price per day ($)</label>
+            <name>forum_price_pin_per_day</name>
+            <description></description>
+            <type>text</type>
+            <values>10</values>
+        </setting>
+        <setting>
+            <label>Show expand and collapse?</label>
+            <name>forum_show_expand</name>
+            <description></description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+        <setting>
+            <label>Locked forum background color</label>
+            <name>forum_locked_bg_color</name>
+            <description></description>
+            <type>text</type>
+            <values></values>
+        </setting>
+        <setting>
+            <label>Pinned forum background color</label>
+            <name>forum_pined_bg_color</name>
+            <description></description>
+            <type>text</type>
+            <values></values>
+        </setting>
+        <setting>
+            <label>Locked topic text color</label>
+            <name>forum_topic_locked_text_color</name>
+            <description></description>
+            <type>text</type>
+            <values></values>
+        </setting>
+        <setting>
+            <label>Allowed file extentions</label>
+            <name>forum_allowed_extentions</name>
+            <description></description>
+            <type>text</type>
+            <values>png,jpg,gif,zip,docx,xlsl,pptx,pdf</values>
+        </setting>
+        <setting>
+            <label>Number topics per page</label>
+            <name>forum_number_topic_per_page</name>
+            <description></description>
+            <type>text</type>
+            <values>20</values>
+        </setting>
+        <setting>
+            <label>Enable plugin hashtag</label>
+            <name>forum_enable_hashtag</name>
+            <description></description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>By pass force login</label>
+            <name>forum_by_pass_force_login</name>
+            <description></description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Mention notification limit</label>
+            <name>forum_limit_notification_mention</name>
+            <description></description>
+            <type>text</type>
+            <values>10</values>
+        </setting>
+        <setting>
+            <label>Number replies per page</label>
+            <name>forum_number_reply_per_page</name>
+            <description></description>
+            <type>text</type>
+            <values>12</values>
+        </setting>
+        <setting>
+            <label>Enable Google reCaptcha on reply form</label>
+            <name>forum_enable_reply_captcha</name>
+            <description></description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+        <setting>
+            <label>Enable Google reCaptcha on create new topic form</label>
+            <name>forum_enable_create_topic_captcha</name>
+            <description></description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+    </settings>
+</info>

@@ -1,0 +1,199 @@
+.button {
+    padding: 0 10px !important;
+}
+a.button ,
+button.button ,
+.create_brach.button ,
+#cancelBusinessButton.button ,
+#adminForm .button ,
+#formBranch .button ,
+.bus-view-detail .button {
+    background: #e5e5e5 ;
+    color: #247BBA ;
+}
+.button.btn_checkin:focus, .button.btn_checkin:active, .button.btn_checkin:hover, .button.btn_checkin {
+    background: #f5a623 none repeat scroll 0 0;
+    border: 1px solid #f5a623;
+    color: #fff;
+}
+.btn.btn-action {
+    padding: 0 10px !important;
+}
+.box2 ,
+.box-bu-category ,
+.box2.filter_block.bus_detail_tab {
+    padding: 16px !important;
+}
+.bu-description .truncate {
+    max-height: 145px;
+}
+.btn.btn-action#btn_global_search {
+    padding:0 10px !important;
+}
+#distance_type {
+    padding: 5px 6px 6px 6px;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+.mo_breadcrumb h1.text-all-bu {
+    display: block;
+    float: left;
+}
+.dashboard_action > a {
+    /*padding: 5px !important;*/
+}
+.permission-manager input[type="checkbox"] {
+    position: absolute;
+    margin-top: 3px;
+}
+.permission-manager label {
+    padding-left: 20px;
+}
+.permission-manager li {
+    position: relative;
+    margin-bottom: 10px;
+}
+.profile_plg_menu .dropdown-menu {
+    width: auto !important;
+}
+#formBusiness input[type="checkbox"] {
+    position: absolute;
+    margin-top: 12px;
+}
+#formBusiness label {
+    padding-left: 20px;
+}
+button#createBusinessButton.btn.btn-action {
+    padding: 0 10px !important;
+    height: 35px;
+    line-height: 35px;
+}
+.create_form #formBusinessPhotos .qq-upload-button {
+    height: auto !important;
+}
+.button.topButton  {
+    background-color: #e5e5e5;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    font-size: 12px;
+    height: 25.6px;
+    line-height: 26px;
+    padding: 0px 12.48px;
+    color: #247BBA;
+    margin: 0;
+    text-decoration: none !important;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: normal;
+}
+#center .box2 h3 {
+    background: none;
+}
+#mobile_search + .box2 > h3 ,
+.box2.search-friend > h3 ,
+.box2.box-bu-category > h3 {
+    display: none;
+}
+#images-uploader .button ,
+#formBusinessPhotos .button {
+    background: #e5e5e5;
+    color: #247BBA;
+    border-color: transparent;
+    text-shadow : none;
+}
+.create_form #formBranch label {
+    font-size: 14px;
+    display: inline-block;
+}
+.featured_verify .nav-tabs > li > a {
+    padding:10px;
+}
+.bus_branch_head {
+    padding-right: 20px;
+}
+#mobile_menu_detail_info.profile_plg_menu > div > ul > li span {
+    padding: 0 !important;
+}
+#content-wrapper .box2 {
+    background: #fff;
+}
+#box_claim .claim_bus_block > h3 ,
+#box_payment .bus_payment_method > h3 ,
+#box_hours .bus_open_hrs > h3 ,
+#box_raring .review_wd >  h3 {
+    display: none;
+}
+.activity_feed_content_text {
+    padding:10px 0 ;
+}
+.activity_feed_content_text .activity_item {
+    padding: 10px;
+}
+.activity_feed_content_text .activity_item .activity_right {
+    padding: 0;
+}
+.business-feed-review {
+    padding: 10px;
+}
+.bu-manage-photo.mo_breadcrumb ,
+#formBusiness .mo_breadcrumb {
+    display: none;
+}
+.business-page  .profile_plg_menu > div > ul > li a {
+    padding:0 !important;
+}
+#triggerUpload {
+    margin-left: 0;
+    margin-bottom: 10px;
+    box-shadow: none;
+}
+#reportForm label.mdl-textfield__label {
+    display: none;
+}
+[id^="page_business-"] .btn, [id^="page_business_"] .btn {
+    height: 30px;
+    line-height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+[id^="page_business_"] input.btn.btn-action.btnGateway {
+    height: 30px;
+    line-height: 30px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.profile_plg_menu.bus-menu-detial > div > ul > li{
+    border-left: none !important;
+    border-right: none !important;
+}
+.profile_plg_menu  li.dropdown.open > ul > li a {
+    font-weight: 500;
+    color: #000;
+}
+.profile_plg_menu  li.dropdown.open > ul > li.current a {
+    font-weight: 700;
+}
+.gm-style-iw {
+    width: 100% !important;
+}
+.simple-modal-footer .btn.btn-action {
+    height: auto;
+}
+a#btnContact {
+    height: 25px;
+    line-height: 25px;
+}
+.bus-detail-breadcrumb-cover .list_option button {
+    padding: 0 3px !important;
+    min-width: 20px;
+}
+.bus-detail-breadcrumb-cover {
+    padding-right: 40px !important;
+}
+#cover_upload{
+    width: auto !important;
+    text-align: right;
+}

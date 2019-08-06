@@ -1,0 +1,3813 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "g0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: BusinessPlugin.php:765
+#: View/Business/admin_index.ctp:4;15
+msgid "Manage Businesses"
+msgstr "g0002 회사관리"
+
+#: BusinessPlugin.php:766
+#: Controller/BusinessSettingsController.php:17
+#: View/BusinessSettings/admin_index.ctp:33;40
+msgid "Business Settings"
+msgstr "g0003 회사설정"
+
+#: BusinessPlugin.php:767
+#: View/BusinessLocations/admin_index.ctp:10
+#: View/BusinessLocations/admin_state.ctp:10
+#: View/Elements/mobile_menu.ctp:28
+#: View/Widgets/business/breadcrumb.ctp:24
+#: View/Widgets/business/popular_locations.ctp:3
+msgid "Locations"
+msgstr "g0004 회사위치"
+
+#: BusinessPlugin.php:768
+#: View/BusinessCategories/admin_index.ctp:17
+#: View/Widgets/business/breadcrumb.ctp:35
+#: View/Widgets/business/top_categories.ctp:3
+msgid "Categories"
+msgstr "g0005 회사분류"
+
+#: BusinessPlugin.php:769
+#: View/BusinessTypes/admin_index.ctp:6;12
+msgid "Business Types"
+msgstr "g0006 회사유형"
+
+#: BusinessPlugin.php:770
+#: View/BusinessPackages/admin_index.ctp:12
+#: View/BusinessTransactions/admin_index.ctp:55
+msgid "Packages"
+msgstr "g0007 패키지"
+
+#: BusinessPlugin.php:771
+#: View/BusinessTransactions/admin_index.ctp:5;15
+msgid "Transactions"
+msgstr "g0008 결제내역"
+
+#: BusinessPlugin.php:772
+#: Controller/BusinessClaimsController.php:43
+#: View/BusinessClaims/admin_index.ctp:15;21
+msgid "Claim Requests"
+msgstr "g0009 클레임제기"
+
+#: BusinessPlugin.php:773
+#: Controller/BusinessVerifiesController.php:67
+#: View/BusinessVerifies/admin_index.ctp:15;21
+msgid "Verification Requests"
+msgstr "g0010 확인요청"
+
+#: Controller/BusinessAdminController.php:56
+msgid "Please select an user"
+msgstr "g0011 회원을 선택하여 주십시요"
+
+#: Controller/BusinessAdminController.php:60
+msgid "This user has already set as admin"
+msgstr "g0012 해당 회원은 이미 관리자로 설정되었습니다"
+
+#: Controller/BusinessAdminController.php:88
+msgid "Can not add admin, please try again"
+msgstr "g0013 관리자로 추가할 수 없습니다. 다시 시도해 주십시요"
+
+#: Controller/BusinessAdminController.php:107
+msgid "Admin has been removed"
+msgstr "g0014 관리자가 삭제되었습니다."
+
+#: Controller/BusinessAdminController.php:109
+msgid "Can not remove admin, please try again"
+msgstr "g0015 관리자를 삭제할 수 없습니다. 다시 시도해 주십시요"
+
+#: Controller/BusinessAdminController.php:125
+msgid "You don 't have permission to add permission"
+msgstr "g0016 권한설정 권한이 없습니다"
+
+#: Controller/BusinessAdminController.php:129
+msgid "Please select at least a permission"
+msgstr "g0017 권한을 선택하십시요.(최소 1건)"
+
+#: Controller/BusinessAdminController.php:140
+#: Controller/BusinessBranchController.php:194
+#: Controller/BusinessClaimsController.php:149;366
+#: Controller/BusinessController.php:781
+msgid "Successfully saved"
+msgstr "g0018 저장 완료"
+
+#: Controller/BusinessAdminController.php:142
+msgid "Something went wrong, please try again"
+msgstr "g0019 문제가 발생했습니다. 다시 시도하십시요"
+
+#: Controller/BusinessBranchController.php:51
+#: Controller/BusinessController.php:608
+msgid "Please input category"
+msgstr "g0020 카테고리를 입력하십시요"
+
+#: Controller/BusinessBranchController.php:189
+msgid "Sub page has been successfully saved and pending for approval."
+msgstr "g0021 하위 페이지 저장 완료. 승인 대기중"
+
+#: Controller/BusinessBranchController.php:198
+msgid "Can not save branch, please try again"
+msgstr "g0022 branch를 저장할 수 없습니다. 다시 시도하십시요"
+
+#: Controller/BusinessBranchController.php:367
+#: Controller/BusinessController.php:363
+msgid "Sub page not found"
+msgstr "g0023 하위 페이지를 찾을 수 없습니다"
+
+#: Controller/BusinessBranchController.php:389
+msgid "Sub page has been deleted"
+msgstr "g0024 하위 페이지가 삭제되었습니다"
+
+#: Controller/BusinessBranchController.php:391
+msgid "Can not delete branch, please try again"
+msgstr "g0025 branch를 삭제할 수 없습니다. 다시 시도하십시요"
+
+#: Controller/BusinessCategoriesController.php:23;195
+msgid "Category not found"
+msgstr "g0026 카테고리를 찾을 수 없습니다"
+
+#: Controller/BusinessCategoriesController.php:52
+msgid "Categories Manager"
+msgstr "g0027 카테고리 관리자"
+
+#: Controller/BusinessCategoriesController.php:91
+msgid "Parent category not found"
+msgstr "g0028 상위 카테고리를 찾을 수 없습니다"
+
+#: Controller/BusinessCategoriesController.php:113
+msgid "Category has been successfully saved"
+msgstr "g0029 카테고리 저장 완료"
+
+#: Controller/BusinessCategoriesController.php:127
+msgid "Please delete sub category first"
+msgstr "g0030 하위 카테고리를 먼저 삭제해주십시요"
+
+#: Controller/BusinessCategoriesController.php:133
+msgid "Can not delete this category. Category contains businesses"
+msgstr "g0031 해당 카테고리는 삭제할 수 없습니다. 카테고리에 회사가 포함되어있습니다"
+
+#: Controller/BusinessCategoriesController.php:137
+msgid "Category has been deleted"
+msgstr "g0032 카테고리가 삭제되었습니다"
+
+#: Controller/BusinessCategoriesController.php:147
+#: Controller/BusinessLocationsController.php:102
+#: Controller/BusinessPackagesController.php:108
+#: Controller/BusinessTypesController.php:80
+msgid "Order saved"
+msgstr "g0033 주문 저장 완료"
+
+#: Controller/BusinessCheckinController.php:42
+#: Controller/BusinessClaimsController.php:53;71;112;119;158;163;175;180;207;214;225
+#: Controller/BusinessController.php:100;162;230;249;368;528;960;1067;1398;1549;1593;1598
+#: Controller/BusinessFollowController.php:29;141;168
+#: Controller/BusinessPaymentController.php:114;120
+#: Controller/BusinessPhotoController.php:137
+#: Controller/BusinessReviewController.php:68
+#: Controller/BusinessVerifiesController.php:102;159
+msgid "Business not found"
+msgstr "g0034 회사를 찾을 수 없습니다"
+
+#: Controller/BusinessCheckinController.php:46
+msgid "Content can not be empty"
+msgstr "g0035 내용은 비워 둘 수 없습니다"
+
+#: Controller/BusinessCheckinController.php:121
+msgid "Successfully checked in"
+msgstr "g0036 체크인 완료"
+
+#: Controller/BusinessCheckinController.php:125
+msgid "Can not check in, please try again!"
+msgstr "g0037 체크인을 할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessClaimsController.php:30
+msgid "Business Claims"
+msgstr "g0038 사업 요구"
+
+#: Controller/BusinessClaimsController.php:233
+msgid "Please select at least a category"
+msgstr "g0039 하나 이상의 카테고리를 선택하십시요"
+
+#: Controller/BusinessController.php:52
+#: View/BusinessVerifies/admin_index.ctp:32;116
+#: View/Elements/misc/business_item.ctp:129
+#: View/Helper/BusinessHelper.php:757;775;788;797
+msgid "Pending"
+msgstr "g0040 대기중"
+
+#: Controller/BusinessController.php:53
+#: View/BusinessVerifies/admin_index.ctp:118
+msgid "Approve"
+msgstr "g0041 승인"
+
+#: Controller/BusinessController.php:54
+#: View/BusinessVerifies/admin_index.ctp:120
+#: View/Elements/misc/business_item.ctp:132
+msgid "Rejected"
+msgstr "g0042 거절"
+
+#: Controller/BusinessController.php:58
+msgid "Manage Businesss"
+msgstr "g0043 회사 관리"
+
+#: Controller/BusinessController.php:93
+msgid "Successfully deleted"
+msgstr "g0044 삭제 완료"
+
+#: Controller/BusinessController.php:152
+msgid "Successfully change status"
+msgstr "g0045 상태 번경 완료"
+
+#: Controller/BusinessController.php:154
+msgid "Cannot change status! Please try again"
+msgstr "g0046 상태를 변경할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessController.php:200
+msgid "Successfully updated"
+msgstr "g0047 업데이트 완료"
+
+#: Controller/BusinessController.php:202
+msgid "Something went wrong! Please try again"
+msgstr "g0048 문제가 발생했습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessController.php:238
+msgid "This business has been set un-featured"
+msgstr "g0049 이 회사를 un-feature 하였습니다"
+
+#: Controller/BusinessController.php:240;286
+msgid "Can not set featured, please try again."
+msgstr "g0050 featured로 설정할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessController.php:253
+msgid "Invalid day number"
+msgstr "g0051 유효하지 않은 날짜"
+
+#: Controller/BusinessController.php:284
+msgid "This business has been set featured"
+msgstr "g0052 이 회사는 featured로 설정하였습니다"
+
+#: Controller/BusinessController.php:314;322;334;1495;1588
+msgid "Please login to continue"
+msgstr "g0053 계속하시려면 로그인하십시요"
+
+#: Controller/BusinessController.php:356
+msgid "You don't have permission to view business."
+msgstr "g0054 회사를 볼 수 있는 권한이 없습니다"
+
+#: Controller/BusinessController.php:431;432
+msgid "%s - %s %s"
+msgstr "g0055 %s - %s %s"
+
+#: Controller/BusinessController.php:431;432;1221
+msgid "in "
+msgstr "g0056 안에"
+
+#: Controller/BusinessController.php:561
+msgid "Please log in to continue"
+msgstr "g0057 계속 하시려면 로그인해주십시요"
+
+#: Controller/BusinessController.php:565;592
+msgid "You don't have permission to create business."
+msgstr "g0058 회사를 만들 권한이 없습니다"
+
+#: Controller/BusinessController.php:584
+msgid "Add new Business"
+msgstr "g0059 새 회사 추가"
+
+#: Controller/BusinessController.php:612
+#: Model/Business.php:validation for field client_name
+msgid "Please select business type"
+msgstr "g0060 회사 종류를 선택해주십시요"
+
+#: Controller/BusinessController.php:785
+msgid "Can not save business, please try again"
+msgstr "g0061 회사를 저장할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessController.php:938
+msgid "Please input address"
+msgstr "g0062 주소를 입력해주십시요"
+
+#: Controller/BusinessController.php:964;1071
+msgid "You don 't have permission to change business status"
+msgstr "g0063 사업 상태를 변경할 권한이 없습니다"
+
+#: Controller/BusinessController.php:994
+msgid "This business has been verified"
+msgstr "g0064 해당 회사는 인증되었습니다"
+
+#: Controller/BusinessController.php:996
+msgid "This business has been unverified"
+msgstr "g0065 해당 회사는 인증 해제되었습니다"
+
+#: Controller/BusinessController.php:1031
+msgid "This business has been %s"
+msgstr "g0066 해당 회사는 %s 되었습니다"
+
+#: Controller/BusinessController.php:1034
+msgid "Cannot change status, please try again"
+msgstr "g0067 상태를 변경할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessController.php:1075
+msgid "Reason can be empty"
+msgstr "g0068 사유는 비워 둘 수 있습니다"
+
+#: Controller/BusinessController.php:1109
+msgid "This business has been rejected"
+msgstr "g0069 이 회사는 거절되었습니다"
+
+#: Controller/BusinessController.php:1113
+msgid "Somwthing went wrong! Please try again"
+msgstr "g0070 문제가 발생했습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessController.php:1194
+msgid "Invalid search"
+msgstr "g0071 잘못된 검색"
+
+#: Controller/BusinessController.php:1199
+#: View/Elements/search_form.ctp:50
+msgid "Distance"
+msgstr "g0072 거리"
+
+#: Controller/BusinessController.php:1200
+#: View/Elements/mobile_menu_detail_info.ctp:23
+msgid "Rating"
+msgstr "g0073 등급"
+
+#: Controller/BusinessController.php:1201
+msgid "Added date"
+msgstr "g0074 추가된 날짜"
+
+#: Controller/BusinessController.php:1221
+msgid "Business Search results %s %s"
+msgstr "g0075 회사 검색 기록 %s %s"
+
+#: Controller/BusinessController.php:1221
+#: View/Business/search.ctp:23
+msgid "for "
+msgstr "g0076 위해"
+
+#: Controller/BusinessController.php:1283
+msgid "Please input keyword"
+msgstr "g0077 키워드를 입력하십시요"
+
+#: Controller/BusinessController.php:1287
+msgid "Keyword length must be greater than 2"
+msgstr "g0078 키워드 글자수는 2 이상이어야합니다"
+
+#: Controller/BusinessController.php:1335
+msgid "success"
+msgstr "g0079 성공"
+
+#: Controller/BusinessController.php:1346
+msgid "You don't have permission to delete this business or business not found"
+msgstr "g0080 해당 회사를 삭제할 수 있는 권한이 없거나 해당 회사를 찾을 수 없습니다"
+
+#: Controller/BusinessController.php:1352
+msgid "Business has been deleted"
+msgstr "g0081 회사를 삭제했습니다"
+
+#: Controller/BusinessController.php:1354
+msgid "Can not delete business, please try again"
+msgstr "g0082 회사를 삭제할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessController.php:1363
+#: Model/Business.php:1782
+msgid "Business not found or you don't have permission"
+msgstr "g0083 회사를 찾을 수 없거나 권한이 없습니다"
+
+#: Controller/BusinessController.php:1387
+msgid "Sucessfully submited"
+msgstr "g0084 제출 완료"
+
+#: Controller/BusinessController.php:1389
+msgid "Can not submit, please try again."
+msgstr "g0085 제출할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessController.php:1402
+msgid "Name can not be empty"
+msgstr "g0086 이름은 비워 둘 수 없습니다"
+
+#: Controller/BusinessController.php:1406
+#: Model/Business.php:validation for field email
+msgid "Invalid email"
+msgstr "g0087 잘못된 이메일"
+
+#: Controller/BusinessController.php:1410
+msgid "Message can not be empty"
+msgstr "g0088 메세지는 비워 둘 수 없습니다"
+
+#: Controller/BusinessController.php:1425
+msgid "Invalid security code"
+msgstr "g0089 잘못된 보안 코드"
+
+#: Controller/BusinessController.php:1452
+msgid "Your message has been sent"
+msgstr "g0090 메세지를 보냈습니다"
+
+#: Controller/BusinessController.php:1454
+msgid "Can not send message, please try again."
+msgstr "g0091 메세지를 보낼 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessController.php:1510
+msgid "Successfully added"
+msgstr "g0092 추가 완료"
+
+#: Controller/BusinessController.php:1511
+#: View/Elements/misc/business_favourite.ctp:6
+msgid "Remove from favorite"
+msgstr "g0093 즐겨찾기에서 제거"
+
+#: Controller/BusinessController.php:1515
+msgid "Can not add to favorite, please try again!"
+msgstr "g0094 즐겨찾기에 추가할 수 없습니다. 다시 시도하십시요"
+
+#: Controller/BusinessController.php:1521
+msgid "Successfully removed"
+msgstr "g0095 제거 완료"
+
+#: Controller/BusinessController.php:1522
+#: View/Elements/misc/business_favourite.ctp:2
+msgid "Add to favorite"
+msgstr "g0096 즐겨찾기에 추가"
+
+#: Controller/BusinessController.php:1526
+msgid "Can not remove from favorite, please try again!"
+msgstr "g0097 즐겨찾기에서 제거할 수 없습니다. 다시 시도하십시요"
+
+#: Controller/BusinessController.php:1545
+#: Controller/BusinessFollowController.php:25
+#: Controller/BusinessReviewController.php:307
+#: View/Elements/checkin_dialog.ctp:125
+msgid "Login or register to continue"
+msgstr "g0098 계속하시려면 로그인 또는 회원가입을 하십시요"
+
+#: Controller/BusinessController.php:1710
+msgid "Page not found"
+msgstr "g0099 페이지를 찾을 수 없습니다"
+
+#: Controller/BusinessController.php:1735
+msgid "Send Verification"
+msgstr "g0100 인증 전송"
+
+#: Controller/BusinessController.php:1757
+msgid "Edit Business"
+msgstr "g0101 회사 편집"
+
+#: Controller/BusinessController.php:1767
+#: Controller/BusinessPackagesController.php:118
+msgid "Business can not upgrade package"
+msgstr "g0102 회사는 패키지를 업그레이드할 수 없습니다"
+
+#: Controller/BusinessController.php:1783
+msgid "Business can not set feature"
+msgstr "g0103 회사는 즐겨찾기에 등록할 수 없습니다"
+
+#: Controller/BusinessController.php:1802
+msgid "Manage Photos"
+msgstr "g0104 사진 관리"
+
+#: Controller/BusinessController.php:1814
+msgid "Manage branches"
+msgstr "g0105 branch 관리"
+
+#: Controller/BusinessController.php:1855
+#: View/Elements/mobile_dashboard_menu.ctp:67
+#: View/Widgets/business/dashboard_menu.ctp:64
+msgid "Manage Admins"
+msgstr "g0106 관리자 관리"
+
+#: Controller/BusinessController.php:1863
+#: View/Elements/mobile_dashboard_menu.ctp:74
+#: View/Widgets/business/dashboard_menu.ctp:71
+msgid "Permissions Manager"
+msgstr "g0107 권한 관리"
+
+#: Controller/BusinessFollowController.php:40
+msgid "You are banned on this business."
+msgstr "g0108 해당 회사에서 차단되었습니다"
+
+#: Controller/BusinessFollowController.php:47
+#: View/Elements/widgets/detail_info.ctp:119
+msgid "Follow"
+msgstr "g0109 팔로우"
+
+#: Controller/BusinessFollowController.php:52
+#: View/Elements/misc/business_item.ctp:70
+#: View/Elements/widgets/detail_info.ctp:121
+msgid "Unfollow"
+msgstr "g0110 언팔로우"
+
+#: Controller/BusinessFollowController.php:75
+#: Controller/BusinessLocationsController.php:149
+#: Controller/BusinessReviewController.php:326
+msgid "Success"
+msgstr "g0111 성공"
+
+#: Controller/BusinessFollowController.php:149
+msgid "You can not ban admin"
+msgstr "g0112 관리자는 차단할 수 없습니다"
+
+#: Controller/BusinessFollowController.php:159;182
+msgid "User has been banned"
+msgstr "g0113 사용자를 차단하였습니다"
+
+#: Controller/BusinessLocationsController.php:26
+msgid "Location Manager"
+msgstr "g0114 장소 관리자"
+
+#: Controller/BusinessLocationsController.php:34
+msgid "State/Province/City Manager"
+msgstr "g0115 시/구/동 관리자"
+
+#: Controller/BusinessLocationsController.php:82
+msgid "Location has been successfully saved"
+msgstr "g0116 장소 저장 완료"
+
+#: Controller/BusinessLocationsController.php:89
+msgid "Location has been deleted"
+msgstr "g0117 장소가 삭제되었습니다"
+
+#: Controller/BusinessLocationsController.php:91
+msgid "Can not delete this location. Location contains businesses"
+msgstr "g0118 해당 장소는 삭제할 수 없습니다. 해당 장소에 회사가 포함되어있습니다"
+
+#: Controller/BusinessLocationsController.php:119
+msgid "Succesfully updated"
+msgstr "g0119 업데이트 완료"
+
+#: Controller/BusinessLocationsController.php:138
+msgid "Please enter location"
+msgstr "g0120 장소를 입력하십시요"
+
+#: Controller/BusinessLocationsController.php:142
+msgid "Location not found! Please select or enter another location."
+msgstr "g0121 장소를 찾을 수 없습니다. 다른 장소를 선택하거나 입력하십시요"
+
+#: Controller/BusinessLocationsController.php:196
+msgid "Location not found"
+msgstr "g0122 장소를 찾을 수 없습니다"
+
+#: Controller/BusinessPackagesController.php:17
+msgid "Business Packages Manager"
+msgstr "g0123 회사 패키지 관리"
+
+#: Controller/BusinessPackagesController.php:74
+msgid "Billing duration must be above time duration of each cycle"
+msgstr "g0124 결제 기간은 각 주기의 지속 시간보다 길어야합니다"
+
+#: Controller/BusinessPackagesController.php:81
+msgid "Package has been successfully saved"
+msgstr "g0125 패키지 저장 완료"
+
+#: Controller/BusinessPackagesController.php:89
+msgid "Business Package deleted"
+msgstr "g0126 회사 패키지가 삭제되었습니다"
+
+#: Controller/BusinessPackagesController.php:93
+msgid "Can not delete default package!"
+msgstr "g0127 기본 패키지는 삭제할 수 없습니다"
+
+#: Controller/BusinessPackagesController.php:95
+msgid "Can not delete this package. Package contains businesses"
+msgstr "g0128 해당 패키지는 삭제할 수 없습니다. 패키지에 회사가 포함되어있습니다"
+
+#: Controller/BusinessPaymentController.php:51;82
+msgid "Gateway invalid"
+msgstr "g0129 잘못된 게이트웨이"
+
+#: Controller/BusinessPaymentController.php:136
+#: View/BusinessPayment/success.ctp:3
+msgid "Thank you, Your payment has been processed. You will shortly receive an email confirmation"
+msgstr "g0130 감사합니다. 결제가 완료되었습니다. 확인 이메일을 발송합니다"
+
+#: Controller/BusinessPaymentController.php:141
+msgid "Your payment process has been canceled"
+msgstr "g0131 결제를 취소하였습니다"
+
+#: Controller/BusinessPhotoController.php:56
+msgid "Photos have been saved"
+msgstr "g0132 사진 저장 완료"
+
+#: Controller/BusinessPhotoController.php:141
+msgid "Please select at least a photo"
+msgstr "g0133 한장 이상의 사진을 선택해주십시요"
+
+#: Controller/BusinessPhotoController.php:149
+msgid "Seleted photos have been deleted"
+msgstr "g0134 선택한 사진이 삭제되었습니다"
+
+#: Controller/BusinessReviewController.php:64
+#: View/Elements/review.ctp:6
+msgid "Login or register to post your review"
+msgstr "g0135 리뷰 작성은 로그인 또는 회원가입을 하셔야합니다"
+
+#: Controller/BusinessReviewController.php:80;229;311
+msgid "Review not found"
+msgstr "g0136 리뷰를 찾을 수 없습니다"
+
+#: Controller/BusinessReviewController.php:165
+msgid "Your reply has been posted"
+msgstr "g0137 답글을 게시하였습니다"
+
+#: Controller/BusinessReviewController.php:165
+msgid "Your review has been posted"
+msgstr "g0138 리뷰를 게시하였습니다"
+
+#: Controller/BusinessReviewController.php:192
+msgid "Can not post review, please try again"
+msgstr "g0139 리뷰를 게시할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessReviewController.php:253
+msgid "Your response has been deleted."
+msgstr "g0140 회원님의 답글이 삭제되었습니다"
+
+#: Controller/BusinessReviewController.php:259
+msgid "Your review has been deleted."
+msgstr "g0141 회원님의 리뷰가 삭제되었습니다"
+
+#: Controller/BusinessReviewController.php:264
+msgid "Can not delete review, please try again"
+msgstr "g0142 리뷰를 삭제할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/BusinessReviewController.php:347
+msgid "Review or reply not found"
+msgstr "g0143 리뷰 또는 답글을 찾을 수 없습니다"
+
+#: Controller/BusinessReviewController.php:351
+msgid "Reason can not be empty"
+msgstr "g0144 사유는 비워 둘 수 없습니다"
+
+#: Controller/BusinessReviewController.php:362
+msgid "Duplicated report"
+msgstr "g0145 중복된 신고"
+
+#: Controller/BusinessReviewController.php:371
+msgid "reported a BusinessReview"
+msgstr "g0146 회사 리뷰 신고 완료"
+
+#: Controller/BusinessReviewController.php:386
+msgid "Thank you! Your report has been submitted"
+msgstr "g0147 신가가 접수되었습니다. 감사합니다"
+
+#: Controller/BusinessReviewController.php:409
+msgid "Access denied"
+msgstr "g0148 접근 거부"
+
+#: Controller/BusinessTransactionsController.php:84
+msgid "Business Transaction Manager"
+msgstr "g0149 사업 결제내역 관리자"
+
+#: Controller/BusinessTypesController.php:23
+msgid "Business Types Manager"
+msgstr "g0150 사업 종류 관리자"
+
+#: Controller/BusinessTypesController.php:52
+msgid "Business Type has been successfully saved"
+msgstr "g0151 사업 종류 저장 완료"
+
+#: Controller/BusinessTypesController.php:63
+msgid "Can not delete this type. Type contains businesses"
+msgstr "g0152 해당 종류는 삭제할 수 없습니다. 해당 종류는 회사가 포함되어있습니다"
+
+#: Controller/BusinessTypesController.php:66
+msgid "Business Type deleted"
+msgstr "g0153 사업 종류가 삭제되었습니다"
+
+#: Controller/BusinessTypesController.php:68
+msgid "Can not delete this business type. Business type contains businesses"
+msgstr "g0154 해당 사업 종류는 삭제할 수 없습니다. 해당 종류는 회사가 포함되어있습니다"
+
+#: Controller/BusinessVerifiesController.php:14
+msgid "Business Verifies"
+msgstr "g0155 회사 인증"
+
+#: Controller/BusinessVerifiesController.php:88
+msgid "Verification request deleted"
+msgstr "g0156 인증 요청이 삭제되었습니다"
+
+#: Controller/BusinessVerifiesController.php:112
+msgid "Phone number is required"
+msgstr "g0157 전화번호 필수"
+
+#: Controller/BusinessVerifiesController.php:149;212
+msgid "Your verification request has been successfully sent."
+msgstr "g0158 인증 요청을 전송하였습니다"
+
+#: Lib/BusinessListener.php:85
+#: View/Business/search.ctp:28
+#: View/Elements/all_businesses.ctp:10
+#: View/Elements/misc/business_activity_item.ctp:72
+#: View/Elements/widgets/detail_info.ctp:179
+msgid "Show map"
+msgstr "g0159 지도 보기"
+
+#: Lib/BusinessListener.php:86
+msgid "Hide map"
+msgstr "g0160 지도 숨기기"
+
+#: Lib/BusinessListener.php:87
+msgid "Are you sure you want to remove?"
+msgstr "g0161 정말로 제거하시겠습니까?"
+
+#: Lib/BusinessListener.php:88
+msgid "Are you sure you want to delete your review?"
+msgstr "g0162 회원님의 리뷰를 삭제하시겠습니까?"
+
+#: Lib/BusinessListener.php:89;101
+msgid "Confirm"
+msgstr "g0163 확인"
+
+#: Lib/BusinessListener.php:90;102
+#: View/Elements/misc/ajax_share.ctp:105
+msgid "Remove Tags"
+msgstr "g0164 태그 삭제"
+
+#: Lib/BusinessListener.php:91;103
+msgid "You wont be tagged in  this post anymore. It may appear in other places like New Feed or search."
+msgstr "g0165 해당 게시글에 더 이상 태그되지 않습니다. 뉴피드나 검색에서는 나타날 수 있습니다"
+
+#: Lib/BusinessListener.php:92;104
+#: View/Elements/checkin_dialog.ctp:128
+msgid "Ok"
+msgstr "g0166 Ok"
+
+#: Lib/BusinessListener.php:93;105
+#: View/Elements/admin_reject_dialog.ctp:32
+#: View/Elements/checkin_dialog.ctp:116
+#: View/Elements/edit_business.ctp:447
+#: View/Elements/reject_dialog.ctp:24
+#: View/Elements/report_review_dialog.ctp:23
+#: View/Elements/review_dialog.ctp:112
+#: View/Elements/dashboard/create_branch.ctp:378
+#: View/Helper/BusinessHelper.php:763;801
+msgid "Cancel"
+msgstr "g0167 취소"
+
+#: Lib/BusinessListener.php:94;100;106
+#: View/BusinessCategories/admin_index.ctp:7
+msgid "Please Confirm"
+msgstr "g0168 확인해주십시요"
+
+#: Lib/BusinessListener.php:95;107
+msgid "Are you sure you want to remove this activity?"
+msgstr "g0169 해당 활동을 삭제하시겠습니까?"
+
+#: Lib/BusinessListener.php:96
+#: View/BusinessCategories/admin_index.ctp:5
+msgid "Can not upload file more than "
+msgstr "g0170 개 이상의 파일을 업로드 할 수 없습니다"
+
+#: Lib/BusinessListener.php:97
+#: View/BusinessCategories/admin_index.ctp:6
+msgid "Drag or click here to upload photo"
+msgstr "g0171 드래그 또는 여기를 클릭하여 사진을 업로드"
+
+#: Lib/BusinessListener.php:98
+msgid "Drag or click here to upload documents"
+msgstr "g0172 드래그 또는 여기를 클릭하여 문서 업로드"
+
+#: Lib/BusinessListener.php:108
+#: View/Elements/dashboard/business_verify.ctp:7
+msgid "Maximum number documents for verification request is %s"
+msgstr "g0173 인증 요청을 위한 최대 문서 수: %s"
+
+#: Lib/BusinessListener.php:109
+msgid "Are your sure you want to approve this business?"
+msgstr "g0174 해당 회사를 승인하시겠습니까?"
+
+#: Lib/BusinessListener.php:110
+msgid "Are your sure you want to verify this business?"
+msgstr "g0175 해당 회사를 인증하시겠습니까?"
+
+#: Lib/BusinessListener.php:111
+msgid "Are your sure you want to unverify this business?"
+msgstr "g0176 해당 회사를 인증해제하시겠습니까?"
+
+#: Lib/BusinessListener.php:112
+msgid "Show reviews"
+msgstr "g0177 리뷰 보기"
+
+#: Lib/BusinessListener.php:113
+msgid "Hide reviews"
+msgstr "g0178 리뷰 숨기기"
+
+#: Lib/BusinessListener.php:114
+#: View/Elements/lists/my_review_list.ctp:33
+msgid "No reviews found"
+msgstr "g0179 리뷰를 찾을 수 없습니다"
+
+#: Lib/BusinessListener.php:115
+msgid "Are you sure you want to remove this business?"
+msgstr "g0180 해당 회사를 삭제하시겠습니까?"
+
+#: Lib/BusinessListener.php:116
+msgid "Are you sure you want to remove this branch?"
+msgstr "g0181 해당 branch를 삭제하시겠습니까?"
+
+#: Lib/BusinessListener.php:117
+msgid "Are you sure you want to accept this claim request? Products link to this business if any will be removed after this action is done!"
+msgstr "g0182 해당 요구사항을 수락하시겠습니까? 해당 회사에 상품이 링크됩니다"
+
+#: Lib/BusinessListener.php:118
+msgid "Are you sure you want to reject this claim request?"
+msgstr "g0183 해당 요구사항을 거절하시겠습니까?"
+
+#: Lib/BusinessListener.php:119
+msgid "Are you sure you want to remove this claim request?"
+msgstr "g0184 해당 요구사항을 제거하시겠습니까?"
+
+#: Lib/BusinessListener.php:120
+msgid "Characters remaining:"
+msgstr "g0185 남은 글자 수:"
+
+#: Lib/BusinessListener.php:121
+#: View/Elements/lists/follower_list.ctp:38
+msgid "Un-ban"
+msgstr "g0186 차단 해제"
+
+#: Lib/BusinessListener.php:122
+#: View/Elements/lists/follower_list.ctp:42
+msgid "Ban"
+msgstr "g0187 차단"
+
+#: Lib/BusinessListener.php:123
+msgid "Are you sure you want to remove this favourite business?"
+msgstr "g0188 해당 즐겨찾기에 추가된 회사를 제거하시겠습니까?"
+
+#: Lib/BusinessListener.php:124
+msgid "Are you sure you want to unfollow this business?"
+msgstr "g0189 해당 회사를 언팔로우하시겠습니가?"
+
+#: Lib/BusinessListener.php:236;251
+#: View/Elements/menu_profile.ctp:4
+#: View/Elements/mobile_menu.ctp:42
+msgid "Businesses"
+msgstr "g0190 회사"
+
+#: Lib/BusinessListener.php:581
+msgid "Businesss"
+msgstr "g0191 회사"
+
+#: Model/Business.php:440
+#: View/Helper/BusinessHelper.php:1521
+msgid "Monday"
+msgstr "g0192 월요일"
+
+#: Model/Business.php:441
+#: View/Helper/BusinessHelper.php:1524
+msgid "Tuesday"
+msgstr "g0193 화요일"
+
+#: Model/Business.php:442
+#: View/Helper/BusinessHelper.php:1527
+msgid "Wednesday"
+msgstr "g0194 수요일"
+
+#: Model/Business.php:443
+#: View/Helper/BusinessHelper.php:1530
+msgid "Thursday"
+msgstr "g0195 목요일"
+
+#: Model/Business.php:444
+#: View/Helper/BusinessHelper.php:1533
+msgid "Friday"
+msgstr "g0196 금요일"
+
+#: Model/Business.php:445
+#: View/Helper/BusinessHelper.php:1536
+msgid "Saturday"
+msgstr "g0197 토요일"
+
+#: Model/Business.php:446
+#: View/Helper/BusinessHelper.php:1539
+msgid "Sunday"
+msgstr "g0198 일요일"
+
+#: Model/Business.php:1777
+msgid "This item is currently not visible. You must %s your business page %s or get %s from site admin."
+msgstr "g0199 해당 상품은 현재 이용하실 수 없습니다. 회원님의 관련업체 페이지를 %s 하거나 관리자에게 %s 받아야합니다"
+
+#: Model/Business.php:1788
+msgid "Can manage photos"
+msgstr "g0200 사진을 관리 할 수 있습니다"
+
+#: Model/Business.php:1789
+msgid "Can ban and manage banned members"
+msgstr "g0201 차단된 맴버를 관리할 수 있습니다"
+
+#: Model/Business.php:1790
+msgid "Can Response to a review"
+msgstr "g0202 리뷰에 답글을 남길 수 있습니다"
+
+#: Model/Business.php:1791
+msgid "Can manage and create sub-page"
+msgstr "g0203 하위 페이지를 관리 및 생성할 수 있습니다"
+
+#: Model/Business.php:1792
+msgid "Can upgrade page"
+msgstr "g0204 페이지를 업그레이드 할 수 있습니다"
+
+#: Model/Business.php:1793
+msgid "Can featured page"
+msgstr "g0205 페이지를 즐겨찾기에 추가할 수 있습니다"
+
+#: Model/Business.php:1794
+#: View/BusinessPackages/admin_create.ctp:261
+#: View/Elements/dashboard/business_upgrade.ctp:22;114
+msgid "Can send verification request"
+msgstr "g0206 인증 요청을 보낼 수 있습니다"
+
+#: Model/Business.php:1795
+msgid "Can edit page details"
+msgstr "g0207 페이지 세부 정보를 편집할 수 있습니다"
+
+#: Model/Business.php:1796
+#: View/BusinessPackages/admin_create.ctp:245
+#: View/Elements/dashboard/business_upgrade.ctp:12;104
+msgid "Can manage admins"
+msgstr "g0208 관리자를 관리할 수 있습니다"
+
+#: Model/BusinessCategory.php:75
+msgid "Please select sub category"
+msgstr "g0209 하위 카테고리를 선택해주십시요"
+
+#: View/Business/admin_featured_dialog.ctp:3
+msgid "Feature business"
+msgstr "g0210 회사 즐겨찾기에 추가"
+
+#: View/Business/admin_featured_dialog.ctp:11
+msgid "How many days do you want to make this business as featured business?"
+msgstr "g0211 해당 회사를 즐겨찾기에 며칠동안 추가하시겠습니까?"
+
+#: View/Business/admin_featured_dialog.ctp:13
+msgid "Enter day number"
+msgstr "g0212 날짜 입력"
+
+#: View/Business/admin_featured_dialog.ctp:22
+#: View/Business/view_map.ctp:29
+#: View/BusinessCategories/admin_create.ctp:67
+#: View/BusinessLocations/admin_create.ctp:37
+#: View/BusinessLocations/admin_create_state.ctp:37
+#: View/BusinessPackages/admin_create.ctp:324
+#: View/BusinessTypes/admin_create.ctp:52
+msgid "Close"
+msgstr "g0213 닫기"
+
+#: View/Business/admin_featured_dialog.ctp:24
+msgid "Featured now"
+msgstr "g0214 즐겨찾기에 추가됨"
+
+#: View/Business/admin_index.ctp:3
+#: View/BusinessCategories/admin_index.ctp:11
+#: View/BusinessClaims/admin_index.ctp:14
+#: View/BusinessLocations/admin_index.ctp:4
+#: View/BusinessLocations/admin_state.ctp:4
+#: View/BusinessPackages/admin_index.ctp:5
+#: View/BusinessSettings/admin_index.ctp:32
+#: View/BusinessTransactions/admin_index.ctp:4
+#: View/BusinessTypes/admin_index.ctp:5
+#: View/BusinessVerifies/admin_index.ctp:14
+msgid "Plugins Manager"
+msgstr "g0215 플러그인 관리잔"
+
+#: View/Business/admin_index.ctp:12
+msgid "Are you sure?"
+msgstr "g0216 정말 하시겠습니까?"
+
+#: View/Business/admin_index.ctp:23
+#: View/BusinessCategories/admin_index.ctp:59
+#: View/BusinessVerifies/admin_index.ctp:32
+#: View/Elements/follower.ctp:7
+msgid "All"
+msgstr "g0217 모두"
+
+#: View/Business/admin_index.ctp:35
+#: View/BusinessClaims/admin_index.ctp:35
+#: View/BusinessVerifies/admin_index.ctp:44
+msgid "Search by name"
+msgstr "g0218 이름으로 검색"
+
+#: View/Business/admin_index.ctp:41
+#: View/BusinessCategories/admin_index.ctp:72
+#: View/BusinessClaims/admin_index.ctp:41
+#: View/BusinessTransactions/admin_index.ctp:51;90
+#: View/BusinessVerifies/admin_index.ctp:50
+#: View/Elements/claim_search_dialog.ctp:22
+#: View/Elements/follower.ctp:16
+#: View/Elements/mobile_menu.ctp:16
+#: View/Elements/search_form.ctp:31;66
+msgid "Search"
+msgstr "g0219 검색"
+
+#: View/Business/admin_index.ctp:62
+#: View/BusinessCategories/admin_index.ctp:94
+#: View/BusinessClaims/admin_index.ctp:55
+#: View/BusinessLocations/admin_index.ctp:49
+#: View/BusinessLocations/admin_state.ctp:48
+#: View/BusinessPackages/admin_index.ctp:51
+#: View/BusinessTypes/admin_index.ctp:50
+#: View/BusinessVerifies/admin_index.ctp:64
+msgid "ID"
+msgstr "g0220 아이디"
+
+#: View/Business/admin_index.ctp:65
+#: View/BusinessClaims/admin_index.ctp:58
+#: View/BusinessVerifies/admin_index.ctp:65
+msgid "Business Name"
+msgstr "g0221 회사명"
+
+#: View/Business/admin_index.ctp:68
+msgid "Owner"
+msgstr "g0222 소유자"
+
+#: View/Business/admin_index.ctp:71
+#: View/BusinessPackages/admin_create.ctp:25
+#: View/BusinessTransactions/admin_index.ctp:99
+msgid "Package"
+msgstr "g0223 패키지"
+
+#: View/Business/admin_index.ctp:74
+#: View/BusinessVerifies/admin_index.ctp:71
+msgid "Date"
+msgstr "g0224 날짜"
+
+#: View/Business/admin_index.ctp:77
+#: View/BusinessTransactions/admin_index.ctp:73;103
+#: View/BusinessVerifies/admin_index.ctp:76
+msgid "Status"
+msgstr "g0225 상태"
+
+#: View/Business/admin_index.ctp:80;149
+#: View/Elements/misc/business_item.ctp:86
+#: View/Elements/widgets/detail_info.ctp:53
+msgid "Featured"
+msgstr "g0226 즐겨찾기"
+
+#: View/Business/admin_index.ctp:83;161
+#: View/BusinessVerifies/admin_index.ctp:77;131
+#: View/Elements/widgets/detail_info.ctp:58
+msgid "Verify"
+msgstr "g0227 인증"
+
+#: View/Business/admin_index.ctp:86
+msgid "Options"
+msgstr "g0228 옵션"
+
+#: View/Business/admin_index.ctp:112
+#: View/BusinessVerifies/admin_index.ctp:91
+#: View/Elements/widgets/detail_info.ctp:138
+msgid "Parent page"
+msgstr "g0229 상위 페이지"
+
+#: View/Business/admin_index.ctp:144
+msgid "Are you sure you want to un-featured this business?"
+msgstr "g0230 해당 회사를 즐겨찾기에서 해제하시겠습니까?"
+
+#: View/Business/admin_index.ctp:145
+msgid "Un-featured"
+msgstr "g0231 즐겨찾기 해제"
+
+#: View/Business/admin_index.ctp:156
+#: View/BusinessVerifies/admin_index.ctp:126
+msgid "Are you sure you want to unverify this business?"
+msgstr "g0232 해당 회사를 인증 해제하시겠습니까?"
+
+#: View/Business/admin_index.ctp:157
+#: View/BusinessVerifies/admin_index.ctp:127
+#: View/Elements/widgets/detail_info.ctp:60
+msgid "Unverify"
+msgstr "g0233 인증 해제"
+
+#: View/Business/admin_index.ctp:160
+#: View/BusinessVerifies/admin_index.ctp:130
+msgid "Are you sure you want to verify this business?"
+msgstr "g0234 해당 회사를 인증하시겠습니까?"
+
+#: View/Business/admin_index.ctp:167;183
+#: View/BusinessVerifies/admin_index.ctp:139;143
+#: View/Elements/review_dialog.ctp:92
+#: View/Elements/dashboard/branches.ctp:43
+#: View/Elements/lists/follower_list.ctp:70
+#: View/Elements/misc/business_item.ctp:36
+msgid "Delete"
+msgstr "g0235 삭제"
+
+#: View/Business/admin_index.ctp:167
+msgid "Are you sure you want to delete this business?"
+msgstr "g0236 해당 회사를 삭제하시겠습니까?"
+
+#: View/Business/admin_index.ctp:182
+msgid "Are you sure you want to delete?"
+msgstr "g0237 정말로 삭제하시겠습니까?"
+
+#: View/Business/admin_index.ctp:195
+#: View/Business/search.ctp:58
+#: View/BusinessClaims/admin_index.ctp:92
+#: View/BusinessPackages/admin_index.ctp:116
+#: View/BusinessTransactions/admin_index.ctp:160
+#: View/BusinessTypes/admin_index.ctp:91
+#: View/BusinessVerifies/admin_index.ctp:162
+#: View/Elements/all_businesses.ctp:23
+msgid "First"
+msgstr "g0238 첫번째"
+
+#: View/Business/admin_index.ctp:196
+#: View/Business/search.ctp:59
+#: View/BusinessCategories/admin_index.ctp:178
+#: View/BusinessClaims/admin_index.ctp:93
+#: View/BusinessLocations/admin_index.ctp:125
+#: View/BusinessLocations/admin_state.ctp:82
+#: View/BusinessPackages/admin_index.ctp:117
+#: View/BusinessTransactions/admin_index.ctp:161
+#: View/BusinessTypes/admin_index.ctp:92
+#: View/BusinessVerifies/admin_index.ctp:163
+#: View/Elements/all_businesses.ctp:24
+msgid "Previous"
+msgstr "g0239 이전의"
+
+#: View/Business/admin_index.ctp:198
+#: View/Business/search.ctp:61
+#: View/BusinessCategories/admin_index.ctp:180
+#: View/BusinessClaims/admin_index.ctp:95
+#: View/BusinessLocations/admin_index.ctp:127
+#: View/BusinessLocations/admin_state.ctp:84
+#: View/BusinessPackages/admin_index.ctp:119
+#: View/BusinessTransactions/admin_index.ctp:163
+#: View/BusinessTypes/admin_index.ctp:94
+#: View/BusinessVerifies/admin_index.ctp:165
+#: View/Elements/all_businesses.ctp:26
+msgid "Next"
+msgstr "g0240 다음"
+
+#: View/Business/admin_index.ctp:199
+#: View/Business/search.ctp:62
+#: View/BusinessClaims/admin_index.ctp:96
+#: View/BusinessPackages/admin_index.ctp:120
+#: View/BusinessTransactions/admin_index.ctp:164
+#: View/BusinessTypes/admin_index.ctp:95
+#: View/BusinessVerifies/admin_index.ctp:166
+#: View/Elements/all_businesses.ctp:27
+msgid "Last"
+msgstr "g0241 마지막"
+
+#: View/Business/admin_index.ctp:206
+msgid "No Businesses"
+msgstr "g0242 회사를 찾을 수 없습니다"
+
+#: View/Business/favourites.ctp:27
+#: View/Elements/mobile_my_menu.ctp:15
+#: View/Elements/my_favourites.ctp:3
+#: View/Widgets/business/menu.ctp:18
+msgid "My Favorite Businesses"
+msgstr "g0243 나의 즐겨찾는 회사"
+
+#: View/Business/load_map.ctp:18;68
+#: View/Elements/misc/branch_item.ctp:185
+msgid "Get directions"
+msgstr "g0244 길찾기"
+
+#: View/Business/load_map.ctp:25
+msgid "Driving"
+msgstr "g0245 내비게이션"
+
+#: View/Business/load_map.ctp:30
+msgid "Public Transit"
+msgstr "g0246 대중교통"
+
+#: View/Business/load_map.ctp:35
+msgid "Walking"
+msgstr "g0247 걷기"
+
+#: View/Business/load_map.ctp:40
+msgid "Cycling"
+msgstr "g0248 자전거"
+
+#: View/Business/load_map.ctp:46
+msgid "Start from"
+msgstr "g0249 에서 출발하다"
+
+#: View/Business/load_map.ctp:56
+msgid "Destination"
+msgstr "g0250 목적지"
+
+#: View/Business/load_map.ctp:156
+msgid "We didn't recognize one of your addresses. Please enter at least a city or a postal code."
+msgstr "g0251 회원님의 주소를 인식할 수 없습니다. 도시 또는 우편번호를 입력해주십시요"
+
+#: View/Business/my.ctp:32
+msgid "My businesses"
+msgstr "g0252 나의 업체"
+
+#: View/Business/my.ctp:35
+msgid "Create your business"
+msgstr "g0253 업체 생성"
+
+#: View/Business/pending.ctp:4
+msgid "Your business page has been submitted to admin for approval. Click on \"dashboard\" button to go to dashboard to add more details for your business page"
+msgstr "g0254 회원님의 업체 페이지가 승인을 위해 관리자에게 제출되었습니다. \"대쉬보드\" 버튼을 클릭하여 회원님의 업체 페이지에 세부 사항을 추가하십시요
+
+#: View/Business/pending.ctp:6
+#: View/Widgets/business/dashboard_menu.ctp:37
+msgid "Dashboard"
+msgstr "g0255 대쉬보드"
+
+#: View/Business/search.ctp:23
+msgid "Businesses %s %s"
+msgstr "g0256 업체 %s %s"
+
+#: View/Business/search.ctp:23
+msgid "near "
+msgstr "g0257 가까이"
+
+#: View/Business/search.ctp:67
+#: View/Elements/top_business.ctp:102
+#: View/Elements/lists/business_list.ctp:39
+#: View/Elements/lists/my_business_list.ctp:36
+#: View/Elements/lists/my_favourite_list.ctp:36
+#: View/Elements/lists/my_following_list.ctp:36
+msgid "No businesses found"
+msgstr "g0258 회사를 찾을 수 없습니다"
+
+#: View/Business/view_map.ctp:4
+msgid "Get Directions"
+msgstr "g0259 길찾기"
+
+#: View/Business/view_map.ctp:6
+#: View/Elements/mobile_menu.ctp:35
+msgid "Map"
+msgstr "g0260 지도"
+
+#: View/Business/view_parking.ctp:2
+msgid "Get Parking"
+msgstr "g0261 주차장 찾기"
+
+#: View/BusinessCategories/admin_ajax_translate.ctp:3
+#: View/BusinessCategories/admin_create.ctp:34;35
+#: View/BusinessTypes/admin_create.ctp:30;31
+#: View/BusinessTypes/admin_translate.ctp:3
+msgid "Translation"
+msgstr "g0262 번역"
+
+#: View/BusinessCategories/admin_create.ctp:7
+msgid "Add New Category"
+msgstr "g0263 새 카테고리 추가"
+
+#: View/BusinessCategories/admin_create.ctp:9
+msgid "Edit Category"
+msgstr "g0264 카테고리 편집"
+
+#: View/BusinessCategories/admin_create.ctp:11
+msgid "Please fill out the form below to create a new category business"
+msgstr "g0265 아래의 양식을 작성후 새 업체 카테고리를 생성하십시요"
+
+#: View/BusinessCategories/admin_create.ctp:19
+#: View/BusinessCategories/admin_index.ctp:97
+#: View/BusinessLocations/admin_create.ctp:16
+#: View/BusinessLocations/admin_create_state.ctp:17
+#: View/BusinessLocations/admin_index.ctp:51
+#: View/BusinessLocations/admin_state.ctp:49
+#: View/BusinessPackages/admin_index.ctp:52
+#: View/BusinessTypes/admin_create.ctp:14
+#: View/BusinessTypes/admin_index.ctp:51
+msgid "Name"
+msgstr "g0266 이름"
+
+#: View/BusinessCategories/admin_create.ctp:21
+#: View/BusinessLocations/admin_create.ctp:18
+#: View/BusinessLocations/admin_create_state.ctp:19
+msgid "Enter text"
+msgstr "g0267 텍스트 입력"
+
+#: View/BusinessCategories/admin_create.ctp:24
+msgid "You can add translation language after creating category"
+msgstr "g0268 카테고리 생성후 번환 언어를 추가할 수 있습니다"
+
+#: View/BusinessCategories/admin_create.ctp:43
+msgid "Parent Category"
+msgstr "g0269 상위 카테고리"
+
+#: View/BusinessCategories/admin_create.ctp:53
+#: View/BusinessCategories/admin_index.ctp:60;99
+#: View/BusinessPackages/admin_create.ctp:311
+#: View/BusinessPackages/admin_index.ctp:58
+#: View/BusinessTypes/admin_create.ctp:39
+#: View/BusinessTypes/admin_index.ctp:52
+msgid "Enable"
+msgstr "g0270 활성화"
+
+#: View/BusinessCategories/admin_create.ctp:58
+msgid "If you enable/disable this category, all of child categories will be auto changed."
+msgstr "g0271 해당 카테고리를 활성화/비활성화시 모든 하위 카테고리에 적용됩니다"
+
+#: View/BusinessCategories/admin_create.ctp:68
+#: View/BusinessLocations/admin_create.ctp:38
+#: View/BusinessLocations/admin_create_state.ctp:38
+#: View/BusinessPackages/admin_create.ctp:325
+#: View/BusinessTypes/admin_create.ctp:53
+#: View/Elements/edit_business.ctp:443
+#: View/Elements/review_dialog.ctp:106
+#: View/Elements/dashboard/business_photos.ctp:30
+#: View/Elements/dashboard/create_branch.ctp:375
+#: View/Elements/dashboard/permissions.ctp:40
+msgid "Save"
+msgstr "g0272 저장"
+
+#: View/BusinessCategories/admin_index.ctp:12
+msgid "Manage Categories"
+msgstr "g0273 카테고리 관리"
+
+#: View/BusinessCategories/admin_index.ctp:28
+msgid "Path:"
+msgstr "g0274 길:"
+
+#: View/BusinessCategories/admin_index.ctp:46
+msgid "Add New"
+msgstr "g0275 새로 추가"
+
+#: View/BusinessCategories/admin_index.ctp:49
+#: View/BusinessLocations/admin_index.ctp:28
+#: View/BusinessLocations/admin_state.ctp:27
+#: View/BusinessPackages/admin_index.ctp:29
+#: View/BusinessTypes/admin_index.ctp:28
+msgid "Save order"
+msgstr "g0276 주문 저장"
+
+#: View/BusinessCategories/admin_index.ctp:61
+msgid "Disable"
+msgstr "g0277 비활성화"
+
+#: View/BusinessCategories/admin_index.ctp:62
+msgid "Created by admin"
+msgstr "g0278 관리자가 생성"
+
+#: View/BusinessCategories/admin_index.ctp:63
+msgid "Created by user"
+msgstr "g0279 회원이 생성"
+
+#: View/BusinessCategories/admin_index.ctp:83
+#: View/BusinessLocations/admin_index.ctp:39
+#: View/BusinessLocations/admin_state.ctp:38
+#: View/BusinessPackages/admin_index.ctp:40
+#: View/BusinessTypes/admin_index.ctp:39
+msgid "You can enable Spam Challenge to force user to answer a challenge question in order to register."
+msgstr "g0280 Spam Challenge를 활성화하여 사용자가 회원가입시 Challenge 질문에 답변하게 활성화할 수 있습니다"
+
+#: View/BusinessCategories/admin_index.ctp:84
+#: View/BusinessLocations/admin_index.ctp:40
+#: View/BusinessLocations/admin_state.ctp:39
+#: View/BusinessPackages/admin_index.ctp:41
+#: View/BusinessTypes/admin_index.ctp:40
+msgid "To enable this feature, click System Settings -> Security -> Enable Spam Challenge"
+msgstr "g0281 해당 기능을 활성화하려면, 시스템 설정 -> 보안 -> Spam Challenge 활성화를 클릭하십시요"
+
+#: View/BusinessCategories/admin_index.ctp:96
+msgid "Icon"
+msgstr "g0282 아이콘"
+
+#: View/BusinessCategories/admin_index.ctp:98
+#: View/BusinessLocations/admin_index.ctp:53
+#: View/BusinessLocations/admin_state.ctp:51
+#: View/BusinessPackages/admin_index.ctp:59
+#: View/BusinessTypes/admin_index.ctp:53
+msgid "Order"
+msgstr "g0283 주문"
+
+#: View/BusinessCategories/admin_index.ctp:100
+msgid "User Create"
+msgstr "g0284 사용자 생성"
+
+#: View/BusinessCategories/admin_index.ctp:101
+#: View/BusinessClaims/admin_index.ctp:59
+#: View/BusinessLocations/admin_index.ctp:54
+#: View/BusinessLocations/admin_state.ctp:52
+#: View/BusinessPackages/admin_index.ctp:60
+#: View/BusinessTypes/admin_index.ctp:54
+msgid "Actions"
+msgstr "g0285 활동"
+
+#: View/BusinessCategories/admin_index.ctp:125;126
+#: View/BusinessLocations/admin_index.ctp:78;79
+#: View/Elements/dashboard/branches.ctp:38
+#: View/Elements/misc/branch_item.ctp:30
+#: View/Elements/misc/business_item.ctp:31
+#: View/Elements/widgets/detail_info.ctp:83
+msgid "Edit"
+msgstr "g0286 편집"
+
+#: View/BusinessCategories/admin_index.ctp:140;141
+msgid "Add Sub Category"
+msgstr "g0287 하위 카테고리 추가"
+
+#: View/BusinessCategories/admin_index.ctp:147
+msgid "Manage Sub Categories"
+msgstr "g0288 하위 카테고리 관리"
+
+#: View/BusinessCategories/admin_index.ctp:170;171
+#: View/BusinessLocations/admin_index.ctp:117
+#: View/BusinessPackages/admin_index.ctp:103
+#: View/BusinessTypes/admin_index.ctp:78
+msgid "Yes"
+msgstr "g0289 예"
+
+#: View/BusinessCategories/admin_index.ctp:170;171
+#: View/BusinessLocations/admin_index.ctp:117
+#: View/BusinessPackages/admin_index.ctp:103
+#: View/BusinessTypes/admin_index.ctp:78
+msgid "No"
+msgstr "g0290 아니요"
+
+#: View/BusinessCategories/admin_index.ctp:172
+msgid "Are you sure you want to delete this category?"
+msgstr "g0291 해당 카테고리를 삭제하시겠습니까?"
+
+#: View/BusinessCategories/admin_index.ctp:183
+msgid "No results found"
+msgstr "g0292 검색 결과가 없습니다"
+
+#: View/BusinessCategories/categories.ctp:4
+msgid "Business Categories"
+msgstr "g0293 업체 카테고리"
+
+#: View/BusinessCategories/categories.ctp:10
+msgid "Category by alphabet"
+msgstr "g0294 가나다순으로 정렬"
+
+#: View/BusinessCategories/categories.ctp:13
+msgid "A"
+msgstr "가"
+
+#: View/BusinessCategories/categories.ctp:14
+msgid "B"
+msgstr "나"
+
+#: View/BusinessCategories/categories.ctp:15
+msgid "C"
+msgstr "다"
+
+#: View/BusinessCategories/categories.ctp:16
+msgid "D"
+msgstr "라"
+
+#: View/BusinessCategories/categories.ctp:17
+msgid "E"
+msgstr "마"
+
+#: View/BusinessCategories/categories.ctp:18
+msgid "F"
+msgstr "바"
+
+#: View/BusinessCategories/categories.ctp:19
+msgid "G"
+msgstr "사"
+
+#: View/BusinessCategories/categories.ctp:20
+msgid "H"
+msgstr "아"
+
+#: View/BusinessCategories/categories.ctp:21
+msgid "I"
+msgstr "자"
+
+#: View/BusinessCategories/categories.ctp:22
+msgid "J"
+msgstr "차"
+
+#: View/BusinessCategories/categories.ctp:23
+msgid "K"
+msgstr "카"
+
+#: View/BusinessCategories/categories.ctp:24
+msgid "L"
+msgstr "타"
+
+#: View/BusinessCategories/categories.ctp:25
+msgid "M"
+msgstr "파"
+
+#: View/BusinessCategories/categories.ctp:26
+msgid "N"
+msgstr "하"
+
+#: View/BusinessCategories/categories.ctp:27
+msgid "O"
+msgstr "O"
+
+#: View/BusinessCategories/categories.ctp:28
+msgid "P"
+msgstr "P"
+
+#: View/BusinessCategories/categories.ctp:29
+msgid "Q"
+msgstr "Q"
+
+#: View/BusinessCategories/categories.ctp:30
+msgid "R"
+msgstr "R"
+
+#: View/BusinessCategories/categories.ctp:31
+msgid "S"
+msgstr "S"
+
+#: View/BusinessCategories/categories.ctp:32
+msgid "T"
+msgstr "T"
+
+#: View/BusinessCategories/categories.ctp:33
+msgid "U"
+msgstr "U"
+
+#: View/BusinessCategories/categories.ctp:34
+msgid "V"
+msgstr "V"
+
+#: View/BusinessCategories/categories.ctp:35
+msgid "W"
+msgstr "W"
+
+#: View/BusinessCategories/categories.ctp:36
+msgid "X"
+msgstr "X"
+
+#: View/BusinessCategories/categories.ctp:37
+msgid "Y"
+msgstr "Y"
+
+#: View/BusinessCategories/categories.ctp:38
+msgid "Z"
+msgstr "Z"
+
+#: View/BusinessClaims/admin_index.ctp:56
+msgid "Claimed By"
+msgstr "g0321 청구됨"
+
+#: View/BusinessClaims/admin_index.ctp:57
+msgid "Claimed Date"
+msgstr "g0322 청구 날짜"
+
+#: View/BusinessClaims/admin_index.ctp:75
+msgid "View"
+msgstr "g0323 보기"
+
+#: View/BusinessClaims/index.ctp:8
+msgid "Please confirm you're the business owner"
+msgstr "g0324 회원님이 업체 소유자임을 확인해주십시요"
+
+#: View/BusinessClaims/index.ctp:13
+msgid "By clicking on the button below, you agree that:"
+msgstr "g0325 아래 버튼을 클릭하여 동의합니다: "
+
+#: View/BusinessClaims/index.ctp:14
+msgid "1. You are the business owner or have permission to manage and update this business listing."
+msgstr "g0326 1. 해당 업체 목록을 관리 및 업데이트하는 권한이 있거나 해당 업체 소유자이어야합니다"
+
+#: View/BusinessClaims/index.ctp:15
+msgid "2. Your business listing and any amendments you make to it are subject to site's Terms and conditions. Please read them carefully."
+msgstr "g0327 2. 업체 목록 및 변경사항은 이용 약관에 적용을 받습니다. 주의 깊에 읽으십시요"
+
+#: View/BusinessClaims/index.ctp:16
+msgid "3. You are authorized to provide, and grant us permission to display. all information and content you provide."
+msgstr "g0328 3. 귀하가 제공하는 모든 정보와 콘텐츠를 Pharmatalk에 제공할 권한이 있습니다"
+
+#: View/BusinessClaims/index.ctp:17
+msgid "You will be taken to the dashboard page where you can change or add more information for your business. Your changes will appear on site within 24 hours."
+msgstr "g0329 대쉬보드 페이지에 이동하여 업체에 대한 추가 정보를 변경하거나 추가 할 수 있습니다. 변경 사항은 24시간 이내에 사이트에 표시됩니다"
+
+#: View/BusinessClaims/index.ctp:19
+msgid "Claim this Business"
+msgstr "g0330 해당 업체 요청"
+
+#: View/BusinessLocations/admin_create.ctp:4
+msgid "Add New Country"
+msgstr "g0331 새로운 국가 추가"
+
+#: View/BusinessLocations/admin_create.ctp:6
+msgid "Edit Country"
+msgstr "g0332 국가 편집"
+
+#: View/BusinessLocations/admin_create.ctp:8
+msgid "Please fill out the form below to create a new country"
+msgstr "g0333 아래 양식을 작성하여 새 국가를 생성하십시요"
+
+#: View/BusinessLocations/admin_create.ctp:23
+#: View/BusinessLocations/admin_create_state.ctp:24
+#: View/BusinessLocations/admin_index.ctp:52
+#: View/BusinessLocations/admin_state.ctp:50
+msgid "Enabled"
+msgstr "g0334 활성화"
+
+#: View/BusinessLocations/admin_create.ctp:28
+msgid "If you enable/disable this location, all of child locations will be auto changed."
+msgstr "g0335 해당 지역을 활성화/비활성화시 하위 지역에 자동으로 적용됩니다"
+
+#: View/BusinessLocations/admin_create_state.ctp:4
+msgid "Add New State/City/Provice"
+msgstr "g0336 새로운 시/구/동 추가"
+
+#: View/BusinessLocations/admin_create_state.ctp:6
+msgid "Edit State/City/Provice"
+msgstr "g0337 시/구/동 편집"
+
+#: View/BusinessLocations/admin_create_state.ctp:8
+msgid "Please fill out the form below to create a new state/city/provice"
+msgstr "g0338 아래 양식을 작성하여 새로운 시/구/동을 생성하십시요"
+
+#: View/BusinessLocations/admin_index.ctp:5
+#: View/BusinessLocations/admin_state.ctp:5
+msgid "Manage Locations"
+msgstr "g0339 지역 관리"
+
+#: View/BusinessLocations/admin_index.ctp:25
+msgid "Add New Location"
+msgstr "g0340 새로운 지역 추가"
+
+#: View/BusinessLocations/admin_index.ctp:92;93
+msgid "Add State/City/Province"
+msgstr "g0341 시/구/동 추가"
+
+#: View/BusinessLocations/admin_index.ctp:99
+msgid "Manage States/Cities/Provinces"
+msgstr "g0342 시/구/동 관리"
+
+#: View/BusinessLocations/admin_index.ctp:119
+#: View/BusinessLocations/admin_state.ctp:76
+msgid "Are you sure you want to delete this location? <br/> All the business within it will also be deleted. This cannot be undone!"
+msgstr "g0343 해당 지역을 삭제하시겠습니까? <br/> 해당 지역내의 모든 업체가 삭제됩니다. 되돌릴 수 없는 작업입니다"
+
+#: View/BusinessLocations/admin_state.ctp:24
+msgid "Add New State/City/Province"
+msgstr "g0344 새로운 시/구/동 추가"
+
+#: View/BusinessLocations/locations.ctp:4
+msgid "Business Locations"
+msgstr "g0345 업체 지역"
+
+#: View/BusinessPackages/admin_create.ctp:5
+#: View/BusinessPackages/admin_index.ctp:26
+msgid "Add New Package"
+msgstr "g0346 새로운 패키지 추가"
+
+#: View/BusinessPackages/admin_create.ctp:7
+msgid "Edit Package"
+msgstr "g0347 패키지 수정"
+
+#: View/BusinessPackages/admin_create.ctp:17
+msgid "Trial package"
+msgstr "g0348 평가용 패키지"
+
+#: View/BusinessPackages/admin_create.ctp:30
+msgid "Select package for trial"
+msgstr "g0349 평가판 패키지를 선택하십시요"
+
+#: View/BusinessPackages/admin_create.ctp:36;51
+msgid "Package Type"
+msgstr "g0350 패키지 종류"
+
+#: View/BusinessPackages/admin_create.ctp:40;55
+#: View/BusinessPackages/admin_index.ctp:66
+msgid "One Time"
+msgstr "g0351 1회용"
+
+#: View/BusinessPackages/admin_create.ctp:41;56
+#: View/BusinessPackages/admin_index.ctp:66
+msgid "Recurring"
+msgstr "g0352 순환"
+
+#: View/BusinessPackages/admin_create.ctp:67
+msgid "Title"
+msgstr "g0353 제목"
+
+#: View/BusinessPackages/admin_create.ctp:75;140
+msgid "Recurring Price"
+msgstr "g0354 정액제 요금"
+
+#: View/BusinessPackages/admin_create.ctp:75;129
+msgid "The amount will be charged each billing cycle for recurring plans"
+msgstr "g0355 정액제 요금 사용시 각 결제주기마다 요금이 청구됩니다"
+
+#: View/BusinessPackages/admin_create.ctp:87;150
+#: View/BusinessPackages/admin_index.ctp:55
+#: View/Elements/dashboard/business_upgrade.ctp:76
+msgid "Billing Cycle"
+msgstr "g0356 결제주기"
+
+#: View/BusinessPackages/admin_create.ctp:87;150
+msgid "Time duration of each billing cycle"
+msgstr "g0357 각 결제주기의 기간"
+
+#: View/BusinessPackages/admin_create.ctp:101;167;200;231
+#: View/BusinessPackages/admin_index.ctp:67
+msgid "Days"
+msgstr "g0358 일"
+
+#: View/BusinessPackages/admin_create.ctp:102;168;201;232
+#: View/BusinessPackages/admin_index.ctp:67
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Week"
+msgstr "g0359 주"
+
+#: View/BusinessPackages/admin_create.ctp:103;169;202;233
+#: View/BusinessPackages/admin_index.ctp:67
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Month"
+msgstr "g0360 월"
+
+#: View/BusinessPackages/admin_create.ctp:104;170;203;234
+#: View/BusinessPackages/admin_index.ctp:67
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Year"
+msgstr "g0361 년"
+
+#: View/BusinessPackages/admin_create.ctp:105;171;204;235
+#: View/BusinessPackages/admin_index.ctp:67
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Forever"
+msgstr "g0362 영구히"
+
+#: View/BusinessPackages/admin_create.ctp:116;129
+#: View/BusinessPackages/admin_index.ctp:54
+#: View/BusinessPayment/feature.ctp:37
+msgid "Price"
+msgstr "g0363 요금"
+
+#: View/BusinessPackages/admin_create.ctp:183
+#: View/BusinessPackages/admin_index.ctp:56
+#: View/Elements/dashboard/business_upgrade.ctp:86
+msgid "Duration"
+msgstr "g0364 기간"
+
+#: View/BusinessPackages/admin_create.ctp:183
+msgid "Maximum duration of this plan. For one-time plans, the plan will expire after the period of time set here. For recurring plans, the user will be billed at the above billing cycles for the period of time specified here"
+msgstr "g0365 해당 요금제의 최대 기간. 일회용 요금제는 기간이 지나면 만료됩니다. 정액제 요금제는 지정된 기간동안 각 결제주기마다 요금이 청구됩니다."
+
+#: View/BusinessPackages/admin_create.ctp:214
+#: View/BusinessPackages/admin_index.ctp:57
+msgid "Expiration Reminder"
+msgstr "g0366 만료 알림"
+
+#: View/BusinessPackages/admin_create.ctp:214
+msgid "Specifies time before expiration to send renewal reminder"
+msgstr "g0367 갱신 알림을 보내려면 만료일 전의 시간을 지정합니다"
+
+#: View/BusinessPackages/admin_create.ctp:253
+#: View/Elements/dashboard/business_upgrade.ctp:17;109
+msgid "Can response a review"
+msgstr "g0368 리뷰에 답글을 쓸 수 있습니다"
+
+#: View/BusinessPackages/admin_create.ctp:269
+#: View/Elements/dashboard/business_upgrade.ctp:27;119
+msgid "Enable contact us form"
+msgstr "g0369 고색센터 양식 활성화"
+
+#: View/BusinessPackages/admin_create.ctp:277
+#: View/Elements/dashboard/business_upgrade.ctp:32;124
+msgid "Enable follow"
+msgstr "g0370 팔로우 활성화"
+
+#: View/BusinessPackages/admin_create.ctp:285
+#: View/Elements/dashboard/business_upgrade.ctp:37;129
+msgid "Enable Checkin"
+msgstr "g0371 체크인 활성화"
+
+#: View/BusinessPackages/admin_create.ctp:293
+#: View/Elements/dashboard/business_upgrade.ctp:42;134
+msgid "Enable favorite"
+msgstr "g0372 즐겨찾기 활성화"
+
+#: View/BusinessPackages/admin_create.ctp:302
+msgid "Most Popular"
+msgstr "g0373 가장 인기있는"
+
+#: View/BusinessPackages/admin_index.ctp:6
+msgid "Business Packages"
+msgstr "g0374 업체 패키지"
+
+#: View/BusinessPackages/admin_index.ctp:53
+msgid "Type"
+msgstr "g0375 종류"
+
+#: View/BusinessPackages/admin_index.ctp:105
+msgid "Are you sure you want to delete this package? All the items within it will also be deleted. This cannot be undone!"
+msgstr "g0376 해당 패키지를 삭제하시겠습니까? 패캐지내의 모든 내용도 삭제됩니다. 되돌릴 수 없는 작업입니다."
+
+#: View/BusinessPackages/admin_index.ctp:127
+msgid "There are no package found!"
+msgstr "g0377 패키지를 찾을 수 없습니다"
+
+#: View/BusinessPayment/cancel.ctp:3
+msgid "Your payment has been canceled!"
+msgstr "g0378 결제가 취소되었습니다"
+
+#: View/BusinessPayment/feature.ctp:15
+msgid "How many days do you want feature your business?"
+msgstr "g0379 회원님의 업체를 며칠동안 추천하시겠습니까?"
+
+#: View/BusinessPayment/feature.ctp:30
+msgid "Submit"
+msgstr "g0380 제줄"
+
+#: View/BusinessPayment/feature.ctp:39
+msgid "(%s per day)"
+msgstr "g0381 (하루에 %s)"
+
+#: View/BusinessPayment/feature.ctp:45
+#: View/Elements/dashboard/business_feature.ctp:25
+msgid "Feature it now"
+msgstr "g0382 추천하기"
+
+#: View/BusinessPayment/index.ctp:12
+msgid "Featured business for %s days"
+msgstr "g0383 업체를 %s 일동안 추천하였습니다"
+
+#: View/BusinessReview/detail.ctp:34
+msgid "Your review for %s is now live!"
+msgstr "g0384 %s에 대한 회원님의 리뷰가 현재 게시중입니다"
+
+#: View/BusinessReview/detail.ctp:54
+#: View/Elements/mobile_menu_detail.ctp:15
+#: View/Elements/review.ctp:2
+#: View/Widgets/business/menu_detail.ctp:21
+msgid "Reviews"
+msgstr "g0385 리뷰"
+
+#: View/BusinessReview/detail.ctp:61
+msgid "Friends"
+msgstr "g0386 친구"
+
+#: View/BusinessReview/detail.ctp:79
+#: View/Elements/activity/text/business_review_share.ctp:5
+#: View/Elements/misc/rating_item.ctp:15
+msgid "review"
+msgstr "g0387 리뷰"
+
+#: View/BusinessReview/detail.ctp:79
+#: View/Elements/misc/rating_item.ctp:15
+msgid "reviews"
+msgstr "g0388 리뷰"
+
+#: View/BusinessReview/detail.ctp:88
+msgid "check-ins"
+msgstr "g0389 체크인"
+
+#: View/BusinessReview/detail.ctp:88
+msgid "check-in"
+msgstr "g0390 체크인"
+
+#: View/BusinessReview/detail.ctp:110
+msgid "Share your Review"
+msgstr "g0391 리뷰 공유"
+
+#: View/BusinessReview/detail.ctp:120
+#: View/Elements/review_dialog.ctp:15
+msgid "Edit review"
+msgstr "g0392 리뷰 편집"
+
+#: View/BusinessReview/detail.ctp:125
+msgid "Delete review"
+msgstr "g0393 리뷰 삭제"
+
+#: View/BusinessReview/detail.ctp:139
+msgid "Copy"
+msgstr "g0394 복사"
+
+#: View/BusinessReview/my.ctp:11
+msgid "My reviews"
+msgstr "g0395 나의 리뷰"
+
+#: View/BusinessSettings/admin_index.ctp:2
+msgid "Can view business"
+msgstr "g0396 업체를 열람하실 수 있습니다"
+
+#: View/BusinessSettings/admin_index.ctp:3
+msgid "Can create business"
+msgstr "g0397 업체를 생성하실 수 있습니다"
+
+#: View/BusinessSettings/admin_index.ctp:4
+msgid "Claimable Page Creators"
+msgstr "g0398 Claimable 페이지 creators"
+
+#: View/BusinessSettings/admin_index.ctp:5
+msgid "Business top category items"
+msgstr "g0399 업체 상위 카테고리 항목"
+
+#: View/BusinessSettings/admin_index.ctp:6
+msgid "Business feeds item per page"
+msgstr "g0400 한 페이지당 업체 피드 항복"
+
+#: View/BusinessSettings/admin_index.ctp:7
+msgid "Business follow item per page"
+msgstr "g0401 한 페이지당 업체 팔로우 항목"
+
+#: View/BusinessSettings/admin_index.ctp:8
+msgid "Business search item per page"
+msgstr "g0402 한 페이지당 업체 검색 항목"
+
+#: View/BusinessSettings/admin_index.ctp:9
+msgid "Business review per page"
+msgstr "g0403 한 페이지당 업체 리뷰"
+
+#: View/BusinessSettings/admin_index.ctp:10
+msgid "Business search default distance"
+msgstr "g0404 업체 검색 기본 거리"
+
+#: View/BusinessSettings/admin_index.ctp:11
+msgid "Business photo per page"
+msgstr "g0405 한 페이지당 업체 사진"
+
+#: View/BusinessSettings/admin_index.ctp:12
+msgid "Number of top business by location"
+msgstr "g0406 지역별 최고 업체의 수"
+
+#: View/BusinessSettings/admin_index.ctp:13
+msgid "Number of popular location"
+msgstr "g0407 인기 있는 지역의 수"
+
+#: View/BusinessSettings/admin_index.ctp:14
+msgid "Featured price per day"
+msgstr "g0408 1일당 요금"
+
+#: View/BusinessSettings/admin_index.ctp:15
+#: View/Widgets/business/breadcrumb.ctp:7
+msgid "Business"
+msgstr "g0409 업체"
+
+#: View/BusinessSettings/admin_index.ctp:16
+msgid "Auto approve new item"
+msgstr "g0410 새 항목 자동 승인"
+
+#: View/BusinessSettings/admin_index.ctp:17
+msgid "Number of featured items"
+msgstr "g0411 추천 상품 개수"
+
+#: View/BusinessSettings/admin_index.ctp:18
+msgid "Business People Check-in Items"
+msgstr "g0412 업체의 회원 체크인 항목"
+
+#: View/BusinessSettings/admin_index.ctp:19
+msgid "Business follower item per page"
+msgstr "g0413 한 페이지당 업체의 팔로워 항목"
+
+#: View/BusinessSettings/admin_index.ctp:20
+msgid "Business Same Categories Items"
+msgstr "g0414 업체의 같은 카테고리 항목"
+
+#: View/BusinessSettings/admin_index.ctp:21
+msgid "Recent Reviews Items"
+msgstr "g0415 최근 리뷰 항목"
+
+#: View/BusinessSettings/admin_index.ctp:22
+msgid "Reviews of Day Items"
+msgstr "g0416 리뷰 날짜 항목"
+
+#: View/BusinessSettings/admin_index.ctp:23
+msgid "Auto approve business"
+msgstr "g0417 업체 자동 승인"
+
+#: View/BusinessSettings/admin_index.ctp:24
+msgid "Auto approve sub page"
+msgstr "g0418 하위 페이지 자동 승인"
+
+#: View/BusinessSettings/admin_index.ctp:25
+msgid "Business sub page per page"
+msgstr "g0419 한 페이지당 업체의 하위 페이지"
+
+#: View/BusinessSettings/admin_index.ctp:26
+msgid "Enable Business Hashtag"
+msgstr "g0420 업체 해쉬태그 활성화"
+
+#: View/BusinessSettings/admin_index.ctp:27
+msgid "By pass force login"
+msgstr "g0421 강제로그인 우회"
+
+#: View/BusinessTransactions/admin_index.ctp:64;100
+msgid "Gateway"
+msgstr "g0422 게이트웨이"
+
+#: View/BusinessTransactions/admin_index.ctp:82
+msgid "Start date"
+msgstr "g0423 시작일"
+
+#: View/BusinessTransactions/admin_index.ctp:86
+msgid "End date"
+msgstr "g0424 종료일"
+
+#: View/BusinessTransactions/admin_index.ctp:97
+msgid "Payer"
+msgstr "g0425 납부자"
+
+#: View/BusinessTransactions/admin_index.ctp:98
+msgid "Pay Type"
+msgstr "g0426 지불 유형"
+
+#: View/BusinessTransactions/admin_index.ctp:101
+msgid "Amount"
+msgstr "g0427 금액"
+
+#: View/BusinessTransactions/admin_index.ctp:102
+msgid "Transaction Id"
+msgstr "g0428 결제내역 아이디"
+
+#: View/BusinessTransactions/admin_index.ctp:104
+msgid "Created date"
+msgstr "g0429 날짜 생성하였습니다"
+
+#: View/BusinessTransactions/admin_index.ctp:116
+msgid "deleted user"
+msgstr "g0430 회원을 삭제했습니다"
+
+#: View/BusinessTransactions/admin_index.ctp:125
+msgid "days"
+msgstr "g0431 일"
+
+#: View/BusinessTransactions/admin_index.ctp:147
+msgid "No transaction found"
+msgstr "g0432 결제내역을 찾을 수 없습니다"
+
+#: View/BusinessTypes/admin_create.ctp:4
+#: View/BusinessTypes/admin_index.ctp:25
+msgid "Add New Business Type"
+msgstr "g0433 새 업체 종류 추가"
+
+#: View/BusinessTypes/admin_create.ctp:6
+msgid "Edit Business Type"
+msgstr "g0434 업체 종류 편집"
+
+#: View/BusinessTypes/admin_create.ctp:20
+msgid "You can add translation language after adding new business type"
+msgstr "g0435 새 업체 종류를 추가하면 번역 언어를 추가할 수 있습니다"
+
+#: View/BusinessTypes/admin_index.ctp:80
+msgid "Are you sure you want to delete this business type?"
+msgstr "g0436 해당 업체 종류를 삭제하시겠습니까?"
+
+#: View/BusinessTypes/admin_index.ctp:102
+msgid "There are no business type found!"
+msgstr "g0437 업체 종류를 찾을 수 없습니다"
+
+#: View/BusinessVerifies/admin_index.ctp:32
+msgid "Verified"
+msgstr "g0438 인증됨"
+
+#: View/BusinessVerifies/admin_index.ctp:66
+msgid "Phone number"
+msgstr "g0439 전화번호"
+
+#: View/BusinessVerifies/admin_index.ctp:67
+msgid "Document"
+msgstr "g0440 문서"
+
+#: View/BusinessVerifies/admin_index.ctp:68
+msgid "Sent By"
+msgstr "g0441 님이 전송"
+
+#: View/BusinessVerifies/admin_index.ctp:73
+msgid "Request Date"
+msgstr "g0442 요청 날짜"
+
+#: View/BusinessVerifies/admin_index.ctp:78
+msgid "Action"
+msgstr "g0443 작동"
+
+#: View/BusinessVerifies/admin_index.ctp:138
+msgid "Are you sure you want to reject and delete this request?"
+msgstr "g0444 해당 요청을 거절하고 삭제하시겠습니까?"
+
+#: View/BusinessVerifies/admin_index.ctp:142
+msgid "Are you sure you want to delete this request?"
+msgstr "g0445 해당 요청을 삭제하시겠습니까?"
+
+#: View/Elements/admin_reject_dialog.ctp:2
+#: View/Elements/reject_dialog.ctp:2
+msgid "Reject business"
+msgstr "g0446 업체 거절"
+
+#: View/Elements/admin_reject_dialog.ctp:10
+#: View/Elements/reject_dialog.ctp:10
+msgid "Please enter reason why you want to reject this business"
+msgstr "g0447 해당 업체를 거절하는 사유를 입력하십시요"
+
+#: View/Elements/admin_reject_dialog.ctp:29
+#: View/Elements/edit_business.ctp:45;52
+#: View/Elements/reject_dialog.ctp:21
+msgid "Reject"
+msgstr "g0448 거절"
+
+#: View/Elements/advanced_search_dialog.ctp:9
+msgid "Advanced Search"
+msgstr "g0449 고급 검색"
+
+#: View/Elements/advanced_search_dialog.ctp:22
+#: View/Elements/search_form.ctp:37
+msgid "Find"
+msgstr "g0450 찾기"
+
+#: View/Elements/advanced_search_dialog.ctp:25
+#: View/Elements/search_form.ctp:44
+msgid "Search address"
+msgstr "g0451 주소 검색"
+
+#: View/Elements/advanced_search_dialog.ctp:28
+#: View/Elements/select_location_dialog.ctp:29
+msgid "Go"
+msgstr "g0452 바로가기"
+
+#: View/Elements/advanced_search_dialog.ctp:37
+msgid "Category name"
+msgstr "g0453 카테고리 이름"
+
+#: View/Elements/advanced_search_dialog.ctp:46
+msgid "Listing content"
+msgstr "g0454 콘텐츠 목록"
+
+#: View/Elements/advanced_search_dialog.ctp:51
+msgid "(category name, listing name, listing description, business type and company number)"
+msgstr "g0455 (카테고리 이름, 목록 이름, 목록 상세설명, 회사 종류, 기업 번호"
+
+#: View/Elements/advanced_search_dialog.ctp:66
+msgid "Location"
+msgstr "g0456 장소"
+
+#: View/Elements/advanced_search_dialog.ctp:89
+msgid "%s miles"
+msgstr "g0457 %s 마일"
+
+#: View/Elements/all_businesses.ctp:2
+#: View/Widgets/business/latest.ctp:4
+#: View/Widgets/business/menu.ctp:5
+msgid "All Businesses"
+msgstr "g0458 모든 업체"
+
+#: View/Elements/all_businesses.ctp:5
+#: View/Widgets/business/latest.ctp:6
+msgid "Add Business"
+msgstr "g0459 업체신규등록"
+
+#: View/Elements/branch.ctp:2
+msgid "Sub Page"
+msgstr "g0460 하위 페이지"
+
+#: View/Elements/branch.ctp:5
+msgid "Add Sub Page"
+msgstr "g0461 하위 페이지 추가"
+
+#: View/Elements/checkin.ctp:2
+#: View/Elements/mobile_menu_detail.ctp:31
+#: View/Widgets/business/menu_detail.ctp:29
+msgid "Check-ins"
+msgstr "g0462 체크인"
+
+#: View/Elements/checkin_dialog.ctp:7
+#: View/Widgets/business/people_checkin.ctp:5
+msgid "Check-In"
+msgstr "g0463 체크인"
+
+#: View/Elements/checkin_dialog.ctp:30
+msgid "What are you doing at %s?"
+msgstr "g0464 %s에서 무엇을 하십니까?"
+
+#: View/Elements/checkin_dialog.ctp:37
+msgid "Who are you with ?"
+msgstr "g0465 누구와 함께 계십니까?"
+
+#: View/Elements/checkin_dialog.ctp:113
+#: View/Elements/checkin_list_dialog.ctp:9
+msgid "Check In"
+msgstr "g0466 체크인"
+
+#: View/Elements/claim_search_dialog.ctp:2
+msgid "Claim Your Business "
+msgstr "g0467 회원님의 업체를 요구하십시요"
+
+#: View/Elements/claim_search_dialog.ctp:9
+msgid "Please search your business using the search box below and claim if you are the owner."
+msgstr "g0468 아래의 검색창을 사용하여 업체를 검색하고 귀하가 소유자인 경우 소유권을 주장하십시요"
+
+#: View/Elements/claim_search_dialog.ctp:20
+msgid "Your business name"
+msgstr "g0469 회원님의 업체 이름"
+
+#: View/Elements/contact_form.ctp:8
+msgid "Your name"
+msgstr "g0470 회원님의 성명"
+
+#: View/Elements/contact_form.ctp:18
+msgid "Your email"
+msgstr "g0471 회원님의 이메일"
+
+#: View/Elements/contact_form.ctp:30
+#: View/Elements/dashboard/business_verify.ctp:6
+msgid "Message"
+msgstr "g0472 메세지"
+
+#: View/Elements/contact_form.ctp:56
+msgid "Send"
+msgstr "g0473 발신"
+
+#: View/Elements/edit_business.ctp:18
+msgid "%s is in progress of editting the business, it's not ready to accept/reject now."
+msgstr "g0474 %s 이(가) 업체를 편집중입니다. 지금은 수락하거나 거절할 수 없습니다"
+
+#: View/Elements/edit_business.ctp:37
+msgid "Please review the changes made by %s below. If everything is okay, please hit the \"Accept this claim request\" button to publish the changes and transfer to owner of this business page to %s, all other claimed request will be auto deteted. %sClick here%s to view other claimed request for this business."
+msgstr "g0475 %s 이(가) 변경한 사항을 검토하십시요. 모두 동의하신다면 \"해당 요구사항 수락"\ 버튼을 클릭하여 변경 사항을 적용하십시요. 다른 요청된 모든 요구사항은 자동 삭제됩니다. %s 여기를 클릭 %s 하여 해당 업체와 관련된 다른 요구사항을 보십시요"
+
+#: View/Elements/edit_business.ctp:42;49
+msgid "Accept this claim request"
+msgstr "g0476 해당 요구사항 수락"
+
+#: View/Elements/edit_business.ctp:58
+msgid "Your changes need around 24hrs to be reviewed and approved. Once it's approved, the changes will be published and you will become the owner of this business page. This listing can not be claimed again."
+msgstr "g0477 변경 사항을 검토하고 승인하는데 약 24시간이 필요합니다. 승인되면 변경 사항이 적용되고 해당 업체 페이지의 소유자가됩니다. 이 목록은 다시 열람할 수 없습니다"
+
+#: View/Elements/edit_business.ctp:60
+msgid "Important: If you updated the below info, you need to hit \"Submit for reviewing\" button to notify admin to let them know that new info is added and ready to review again."
+msgstr "g0478 중요 사항: 아래의 정보를 업데이트한 경우 \"검토를 위해 제출"\ 버튼을 눌러 새로운 정보가 추가된것을 관리자에게 알리며 검토할 수 있게 합니다"
+
+#: View/Elements/edit_business.ctp:64
+msgid "Submit for reviewing"
+msgstr "g0479 검토를 위해 제출"
+
+#: View/Elements/edit_business.ctp:66
+msgid "Remove claim request"
+msgstr "g0480 claim 요청 제거"
+
+#: View/Elements/edit_business.ctp:86
+msgid "Claim Business"
+msgstr "g0481 업체 요청"
+
+#: View/Elements/edit_business.ctp:88
+msgid "Add new business"
+msgstr "g0482 새 업체 추가"
+
+#: View/Elements/edit_business.ctp:90
+#: View/Elements/mobile_dashboard_menu.ctp:40
+msgid "Edit business"
+msgstr "g0483 업체 편집"
+
+#: View/Elements/edit_business.ctp:101
+#: View/Elements/mobile_menu.ctp:22
+#: View/Elements/dashboard/create_branch.ctp:49
+#: View/Elements/widgets/detail_info.ctp:147
+#: View/Widgets/business/breadcrumb.ctp:68
+msgid "Category"
+msgstr "g0484 카테고리"
+
+#: View/Elements/edit_business.ctp:113
+#: View/Elements/dashboard/create_branch.ctp:61
+#: View/Elements/widgets/detail_info.ctp:160
+msgid "Business Type"
+msgstr "g0485 업체 종류"
+
+#: View/Elements/edit_business.ctp:128
+msgid "Company Name"
+msgstr "g0486 회사 이름"
+
+#: View/Elements/edit_business.ctp:141
+#: View/Elements/dashboard/create_branch.ctp:89
+#: View/Elements/widgets/detail_info.ctp:165
+msgid "Company Number"
+msgstr "g0487 기업 번호"
+
+#: View/Elements/edit_business.ctp:153
+msgid "About Company"
+msgstr "g0488 회사 소개"
+
+#: View/Elements/edit_business.ctp:168
+msgid "Company Logo"
+msgstr "g0489 회사 로고"
+
+#: View/Elements/edit_business.ctp:189
+msgid "Head office information"
+msgstr "g0490 본사 정보"
+
+#: View/Elements/edit_business.ctp:193
+msgid "You can add more locations at Dashboard later after the page is created"
+msgstr "g0491 페이지 생성후 대쉬보드에 장소를 더 추가할 수 있습니다"
+
+#: View/Elements/edit_business.ctp:201
+#: View/Elements/dashboard/branches.ctp:28
+#: View/Elements/dashboard/create_branch.ctp:136
+#: View/Elements/widgets/detail_info.ctp:170
+msgid "Address"
+msgstr "g0492 주소"
+
+#: View/Elements/edit_business.ctp:212
+#: View/Elements/dashboard/create_branch.ctp:147
+msgid "View map"
+msgstr "g0493 지도 보기"
+
+#: View/Elements/edit_business.ctp:222
+#: View/Elements/dashboard/create_branch.ctp:157
+msgid "Email"
+msgstr "g0494 이메일"
+
+#: View/Elements/edit_business.ctp:235
+#: View/Elements/dashboard/create_branch.ctp:170
+msgid "Phone"
+msgstr "g0495 전화"
+
+#: View/Elements/edit_business.ctp:246
+#: View/Elements/dashboard/create_branch.ctp:181
+#: View/Elements/widgets/detail_info.ctp:196
+msgid "Fax"
+msgstr "g0496 팩스"
+
+#: View/Elements/edit_business.ctp:257
+#: View/Elements/dashboard/create_branch.ctp:192
+#: View/Elements/widgets/detail_info.ctp:206
+msgid "Website"
+msgstr "g0497 웹사이트"
+
+#: View/Elements/edit_business.ctp:268
+#: View/Elements/dashboard/create_branch.ctp:203
+msgid "Facebook page"
+msgstr "g0498 페이스북 페이지"
+
+#: View/Elements/edit_business.ctp:279
+#: View/Elements/dashboard/create_branch.ctp:214
+msgid "Twitter page"
+msgstr "g0499 트위터 페이지"
+
+#: View/Elements/edit_business.ctp:290
+#: View/Elements/dashboard/create_branch.ctp:225
+msgid "Linkedin page"
+msgstr "g0500 링크드인 페이지"
+
+#: View/Elements/edit_business.ctp:301
+#: View/Elements/dashboard/create_branch.ctp:236
+msgid "Youtube page"
+msgstr "g0501 유튜브 페이지"
+
+#: View/Elements/edit_business.ctp:312
+#: View/Elements/dashboard/create_branch.ctp:247
+msgid "Instagram page"
+msgstr "g0502 인스타그램 페이지"
+
+#: View/Elements/edit_business.ctp:323
+#: View/Elements/dashboard/create_branch.ctp:258
+msgid "Business hours"
+msgstr "g0503 영업 시간"
+
+#: View/Elements/edit_business.ctp:332
+#: View/Elements/dashboard/create_branch.ctp:267
+msgid "Check this if your company always open"
+msgstr "g0504 회원님의 업체가 항상 열려있으면 여기를 체크하십시요"
+
+#: View/Elements/edit_business.ctp:400
+#: View/Elements/dashboard/create_branch.ctp:325
+msgid "Timezone"
+msgstr "g0505 시간대"
+
+#: View/Elements/edit_business.ctp:413
+#: View/Elements/dashboard/create_branch.ctp:336
+#: View/Elements/misc/branch_item.ctp:130
+msgid "We accept"
+msgstr "g0506 수락하다"
+
+#: View/Elements/follower.ctp:3
+#: View/Elements/mobile_menu_detail.ctp:34
+#: View/Widgets/business/menu_detail.ctp:32
+msgid "Followers"
+msgstr "g0507 팔로워"
+
+#: View/Elements/follower.ctp:8
+msgid "Banned members"
+msgstr "g0508 차단 맴버"
+
+#: View/Elements/follower.ctp:9
+msgid "Followed members"
+msgstr "g0509 팔로우중인 맴버"
+
+#: View/Elements/follower.ctp:14
+#: View/Elements/search_form.ctp:36
+msgid "Keyword"
+msgstr "g0510 키워드"
+
+#: View/Elements/menu_welcome.ctp:4
+#: View/Elements/mobile_my_menu.ctp:9
+#: View/Elements/my_businesses.ctp:3
+#: View/Elements/profile_business_tabs.ctp:6
+#: View/Widgets/business/menu.ctp:9
+msgid "My Businesses"
+msgstr "g0511 나의 업체"
+
+#: View/Elements/mobile_dashboard_menu.ctp:10
+#: View/Widgets/business/dashboard_menu.ctp:11
+msgid "Current Package"
+msgstr "g0512 현재 패키지"
+
+#: View/Elements/mobile_dashboard_menu.ctp:15
+#: View/Widgets/business/dashboard_menu.ctp:16
+msgid "Your page is pending for approval!"
+msgstr "g0513 회원님의 페이지는 승인 대기중입니다"
+
+#: View/Elements/mobile_dashboard_menu.ctp:20
+#: View/Widgets/business/dashboard_menu.ctp:21
+msgid "Submit for reviewing again"
+msgstr "g0514 검토를 위해 다시 제출하십시요"
+
+#: View/Elements/mobile_dashboard_menu.ctp:25
+#: View/Widgets/business/dashboard_menu.ctp:26
+msgid "Upgrade my page"
+msgstr "g0515 나의 페이지 업그레이드"
+
+#: View/Elements/mobile_dashboard_menu.ctp:30
+#: View/Widgets/business/dashboard_menu.ctp:31
+msgid "Feature my business"
+msgstr "g0516 나의 업체 즐겨찾기에 추가"
+
+#: View/Elements/mobile_dashboard_menu.ctp:47
+#: View/Elements/mobile_menu_detail.ctp:12
+#: View/Elements/dashboard/create_branch.ctp:361
+#: View/Widgets/business/menu_detail.ctp:18
+msgid "Photos"
+msgstr "g0517 사진"
+
+#: View/Elements/mobile_dashboard_menu.ctp:53
+#: View/Elements/mobile_menu_detail.ctp:20
+msgid "More"
+msgstr "g0518 더보기"
+
+#: View/Elements/mobile_dashboard_menu.ctp:59
+#: View/Widgets/business/dashboard_menu.ctp:56
+msgid "Manage sub pages"
+msgstr "g0519 하위 페이지 관리"
+
+#: View/Elements/mobile_dashboard_menu.ctp:81
+#: View/Widgets/business/dashboard_menu.ctp:78
+msgid "Send Verification Request"
+msgstr "g0520 인증 요청 보내기"
+
+#: View/Elements/mobile_menu_detail.ctp:9
+#: View/Widgets/business/menu_detail.ctp:15
+msgid "Details"
+msgstr "g0521 회사개요"
+
+#: View/Elements/mobile_menu_detail.ctp:26
+#: View/Widgets/business/menu_detail.ctp:25
+msgid "Sub Pages"
+msgstr "g0522 하위 페이지"
+
+#: View/Elements/mobile_menu_detail.ctp:38
+#: View/Widgets/business/menu_detail.ctp:36
+msgid "Contact"
+msgstr "g0523 연락처"
+
+#: View/Elements/mobile_menu_detail_info.ctp:8
+msgid "Claim"
+msgstr "g0524 요청"
+
+#: View/Elements/mobile_menu_detail_info.ctp:16
+msgid "Social"
+msgstr "g0525 소셜"
+
+#: View/Elements/mobile_menu_detail_info.ctp:29
+msgid "Hours"
+msgstr "g0526 영업시간"
+
+#: View/Elements/mobile_menu_detail_info.ctp:36
+msgid "Payment"
+msgstr "g0527 결제"
+
+#: View/Elements/mobile_my_menu.ctp:12
+#: View/Elements/my_following.ctp:3
+#: View/Widgets/business/menu.ctp:15
+msgid "My Following Businesses"
+msgstr "g0528 나의 팔로우중인 업체"
+
+#: View/Elements/my_review.ctp:2
+#: View/Widgets/business/menu.ctp:12
+msgid "My Reviews"
+msgstr "g0529 나의 리뷰"
+
+#: View/Elements/myfollow.ctp:5
+msgid "My followed businesses"
+msgstr "g0530 나의 팔로우중인 업체"
+
+#: View/Elements/photo.ctp:2
+msgid "Photo"
+msgstr "g0531 사진"
+
+#: View/Elements/photo.ctp:5
+msgid "Add Photo"
+msgstr "g0532 사진 추가"
+
+#: View/Elements/profile.ctp:3
+#: View/Elements/profile_business_tabs.ctp:13
+msgid "Following"
+msgstr "g0533 팔로잉"
+
+#: View/Elements/profile.ctp:8
+#: View/Elements/profile_business_tabs.ctp:18
+msgid "Favourites"
+msgstr "g0534 즐겨찾기"
+
+#: View/Elements/report_review_dialog.ctp:2
+msgid "Report Review"
+msgstr "g0535 리뷰 신고"
+
+#: View/Elements/report_review_dialog.ctp:9
+msgid "Please enter reason why you want to report this review"
+msgstr "g0536 해당 리뷰를 신고하는 사유를 입력하십시요"
+
+#: View/Elements/report_review_dialog.ctp:20
+#: View/Elements/misc/my_review_item.ctp:108
+#: View/Elements/misc/review_item.ctp:51
+msgid "Report"
+msgstr "g0537 신고"
+
+#: View/Elements/review.ctp:10
+#: View/Elements/misc/rating_item.ctp:43
+msgid "Write review"
+msgstr "g0538 리뷰 쓰기"
+
+#: View/Elements/review_dialog.ctp:9
+msgid "Edit reply"
+msgstr "g0539 답글 수정"
+
+#: View/Elements/review_dialog.ctp:11
+msgid "Write a reply"
+msgstr "g0540 답글 쓰기"
+
+#: View/Elements/review_dialog.ctp:17
+msgid "Write a review"
+msgstr "g0541 리뷰 쓰기"
+
+#: View/Elements/review_dialog.ctp:61
+msgid "Your reply"
+msgstr "g0542 회원님의 답글"
+
+#: View/Elements/review_dialog.ctp:63
+msgid "Your review"
+msgstr "g0543 회원님의 리뷰"
+
+#: View/Elements/review_dialog.ctp:78
+#: View/Elements/misc/upload_photo.ctp:6
+msgid "Upload Queued Files"
+msgstr "g0544 대기열에 있는 파일 업로드"
+
+#: View/Elements/review_dialog.ctp:108
+msgid "Post"
+msgstr "g0545 게시"
+
+#: View/Elements/search_form.ctp:41
+msgid "Near"
+msgstr "g0546 근처"
+
+#: View/Elements/search_form.ctp:58
+msgid "mile"
+msgstr "마일"
+
+#: View/Elements/search_form.ctp:58
+msgid "km"
+msgstr "km"
+
+#: View/Elements/select_location_dialog.ctp:2
+msgid "Discover something new in your city!"
+msgstr "g0549 회원님의 도시에서 새로운 무언가를 발견하십시요!"
+
+#: View/Elements/select_location_dialog.ctp:26
+msgid "Please enter your city or select one from above"
+msgstr "g0550 회원님의 도시를 입력하시거나 위에서 하나를 선택하십시요"
+
+#: View/Elements/top_business.ctp:18
+msgid "All categories"
+msgstr "g0551 모든 카테고리"
+
+#: View/Elements/top_business.ctp:23
+msgid "See more"
+msgstr "g0552 더보기"
+
+#: View/Elements/top_business.ctp:50
+#: View/Elements/misc/business_activity_item.ctp:59
+#: View/Elements/misc/business_item.ctp:114
+#: View/Elements/misc/my_review_item.ctp:65
+msgid "%s reviews"
+msgstr "g0553 댓글: %s건"
+
+#: View/Elements/activity/content/business_branch_share.ctp:16
+#: View/Elements/activity/content/business_create_share.ctp:16
+#: View/Elements/activity/text/business_create.ctp:6
+msgid " created a new business"
+msgstr "g0554 새 업체를 생성"
+
+#: View/Elements/activity/content/business_photo_share.ctp:18
+#: View/Elements/activity/text/business_photo.ctp:8
+msgid " added %s photos for "
+msgstr "g0555 %s의 사진을 추가"
+
+#: View/Elements/activity/content/business_photo_share.ctp:18
+#: View/Elements/activity/text/business_photo.ctp:8
+msgid " added %s photo for "
+msgstr "g0556 %s의 사진을 추가"
+
+#: View/Elements/activity/content/business_review_share.ctp:31
+#: View/Elements/activity/text/business_review.ctp:6
+#: View/Widgets/business/recent_reviews.ctp:18
+#: View/Widgets/business/reviews_of_day.ctp:18
+msgid "wrote a review for"
+msgstr "g0557 리뷰를 작성"
+
+#: View/Elements/activity/text/business_branch.ctp:6
+msgid " created a new sub page for "
+msgstr "g0558 새 하위 페이지를 생성"
+
+#: View/Elements/activity/text/business_branch_share.ctp:5
+#: View/Elements/activity/text/business_create_share.ctp:5
+#: View/Elements/activity/text/business_photo_share.ctp:5
+#: View/Elements/activity/text/business_review_share.ctp:5
+#: View/Elements/activity/text/business_share.ctp:7
+msgid "shared %s's %s"
+msgstr "g0559 %s의 %s 공유"
+
+#: View/Elements/activity/text/business_branch_share.ctp:5
+#: View/Elements/activity/text/business_create_share.ctp:5
+#: View/Elements/activity/text/business_photo_share.ctp:5
+msgid "post"
+msgstr "g0560 게시"
+
+#: View/Elements/activity/text/business_business.ctp:4
+msgid " added a new business: "
+msgstr "g0561 새 업체 추가"
+
+#: View/Elements/activity/text/business_checkin.ctp:8
+msgid " at "
+msgstr "g0562 에서"
+
+#: View/Elements/activity/text/business_create.ctp:6
+msgid " created a new sub page"
+msgstr "g0563 새 하위 페이지 생성"
+
+#: View/Elements/activity/text/business_share.ctp:7
+msgid "business"
+msgstr "g0564 업체"
+
+#: View/Elements/activity/text/business_verify.ctp:6
+msgid " verified this business: "
+msgstr "g0565 해당 업체가 인증되었습니다"
+
+#: View/Elements/dashboard/admins.ctp:15
+msgid "Below you can see all the users who can administer your page. You can add any registered users as admins of this page and remove existing ones.\n    Please note, that users selected by you for this page will get almost authority (similar to yours) to manage this page. Thus you should be careful while choosing your admins.\n    "
+msgstr "g0566 회원님의 페이지를 관리할 수 있는 모든 사용자를 볼 수 있습니다. 등록된 모든 사용자를 관리자로 추가할 수 있으며 기존 관리자를 제거할 수 있습니다. \ n이 페이지에 대해 귀하가 선택한 사용자는 이 페이지를 관리할 수 있는 권한이 생깁니다. 따라서 관리자 선택시 주의하십시요. \ n"
+
+#: View/Elements/dashboard/admins.ctp:20
+msgid "Click %s to manage permission of your page admin."
+msgstr "g0567 %s 을(를) 클릭하여 페이지 관리자 권한을 관리하십시요"
+
+#: View/Elements/dashboard/admins.ctp:20
+msgid "here"
+msgstr "g0568 여기"
+
+#: View/Elements/dashboard/admins.ctp:34
+msgid "Add as admin"
+msgstr "g0569 관리자로 추가"
+
+#: View/Elements/dashboard/branches.ctp:13
+msgid "Create a new sub page"
+msgstr "g0570 새 하위 페이지 생성"
+
+#: View/Elements/dashboard/branches.ctp:27
+#: View/Elements/widgets/detail_info.ctp:186
+msgid "Tel"
+msgstr "g0571 전화번호"
+
+#: View/Elements/dashboard/branches.ctp:54
+#: View/Elements/lists/admin_list.ctp:18
+#: View/Elements/lists/checkin_list.ctp:54
+#: View/Elements/lists/follower_list.ctp:115
+#: View/Elements/lists/photos_list.ctp:27
+#: View/Elements/lists/review_list.ctp:25
+#: View/Elements/lists/search_list.ctp:35
+#: View/Widgets/business/latest.ctp:16
+msgid "No more results found"
+msgstr "g0572 더 이상 결과가 없습니다"
+
+#: View/Elements/dashboard/business_feature.ctp:5
+msgid "number of days must be interger and greater than 0"
+msgstr "g0573 일수는 정수이여야하며 0보다 커야합니다"
+
+#: View/Elements/dashboard/business_feature.ctp:6
+msgid "Please add number of days you want to feature"
+msgstr "g0574 추천할 일수를 추가하십시요"
+
+#: View/Elements/dashboard/business_feature.ctp:13
+msgid "Featured my business"
+msgstr "g0575 나의 업체를 추천하였습니다"
+
+#: View/Elements/dashboard/business_feature.ctp:18
+msgid "Your page is featured page now. I will expire on %s"
+msgstr "g0576 회원님의 페이지는 추천 페이지로 변경되었습니다. %s일 후에 만료됩니다"
+
+#: View/Elements/dashboard/business_feature.ctp:20
+msgid "Place this page on top of the list and highlight in the category it belong to"
+msgstr "g0577 이 페이지를 목록 상단에 놓고 해당 페이지가 속해 있는 카테고리를 강조합니다"
+
+#: View/Elements/dashboard/business_feature.ctp:21
+msgid "Place this business on the slideshow."
+msgstr "g0578 해당 업체를 슬라이드쇼에 넣습니다"
+
+#: View/Elements/dashboard/business_feature.ctp:27
+msgid "Buy more featured days"
+msgstr "g0579 추천 일수 더 구매하기"
+
+#: View/Elements/dashboard/business_photos.ctp:19
+#: View/Widgets/business/dashboard_menu.ctp:49
+msgid "Manage photos"
+msgstr "g0580 사진 관리"
+
+#: View/Elements/dashboard/business_upgrade.ctp:3
+msgid "Your current package is "
+msgstr "g0581 회원님의 현재 패키지는"
+
+#: View/Elements/dashboard/business_upgrade.ctp:49
+msgid "Upgrade"
+msgstr "g0582 업그레이드"
+
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Day"
+msgstr "g0583 일"
+
+#: View/Elements/dashboard/business_upgrade.ctp:74
+msgid "One Time Payment"
+msgstr "g0584 일시불"
+
+#: View/Elements/dashboard/business_upgrade.ctp:146
+msgid "Free Trial"
+msgstr "g0585 무료 시험"
+
+#: View/Elements/dashboard/business_upgrade.ctp:153
+msgid "Upgrade Now"
+msgstr "g0586 지금 업그레이드"
+
+#: View/Elements/dashboard/business_upgrade.ctp:160
+msgid "No Package found"
+msgstr "g0587 패키지를 찾을 수 없습니다"
+
+#: View/Elements/dashboard/business_verify.ctp:2
+msgid "Your business has been verified."
+msgstr "g0588 회원님의 업체가 인증되었습니다"
+
+#: View/Elements/dashboard/business_verify.ctp:22
+msgid "Request a Verified Badge "
+msgstr "g0589 인증된 뱃지 요청"
+
+#: View/Elements/dashboard/business_verify.ctp:27
+msgid "Verify by Phone"
+msgstr "g0590 전화로 인증"
+
+#: View/Elements/dashboard/business_verify.ctp:30
+msgid "Verify by Documents"
+msgstr "g0591 문서로 인증"
+
+#: View/Elements/dashboard/business_verify.ctp:47
+msgid "Please type business phone number below, one of our advisors will call to verify."
+msgstr "g0592 업체 전화번호를 입력하십시요. 담당자가 회원님에게 연락하여 확인 할 것입니다"
+
+#: View/Elements/dashboard/business_verify.ctp:59
+msgid "Send request"
+msgstr "g0593 요청 발신"
+
+#: View/Elements/dashboard/business_verify.ctp:70
+msgid "Please upload the documents, one of our advisors will contact you to verify."
+msgstr "g0594 문서를 업로드하십시요. 담당자가 회원님에게 연락하여 확인 할 것입니다"
+
+#: View/Elements/dashboard/business_verify.ctp:78
+msgid "Upload Queued Documents"
+msgstr "g0595 대기열에 있는 문서 업로드"
+
+#: View/Elements/dashboard/business_verify.ctp:80
+msgid "Submit Documents"
+msgstr "g0596 문서 제출"
+
+#: View/Elements/dashboard/create_branch.ctp:36
+msgid "Add new sub page"
+msgstr "g0597 새 하위 페이지 추가"
+
+#: View/Elements/dashboard/create_branch.ctp:38
+msgid "Edit sub page"
+msgstr "g0598 하위 페이지 편집"
+
+#: View/Elements/dashboard/create_branch.ctp:76
+msgid "Sub Page Name"
+msgstr "g0599 하위 페이지 이름"
+
+#: View/Elements/dashboard/create_branch.ctp:100
+#: View/Elements/widgets/detail_info.ctp:216
+msgid "Description"
+msgstr "g0600 명세"
+
+#: View/Elements/dashboard/create_branch.ctp:114
+msgid "Logo"
+msgstr "g0601 로고"
+
+#: View/Elements/dashboard/pending_business.ctp:2
+msgid "Please continue after your page is approved!"
+msgstr "g0602 회원님의 페이지가 승인되면 계속하십시요"
+
+#: View/Elements/dashboard/permissions.ctp:16
+msgid "You can manage permissions that admins can do here"
+msgstr "g0603 권한을 관리 할 수 있습니다"
+
+#: View/Elements/lists/branch_list.ctp:42
+#: View/Elements/misc/branch_item.ctp:212
+msgid "No sub pages found"
+msgstr "g0604 하위 페이지를 찾을 수 없습니다"
+
+#: View/Elements/lists/checkin_list.ctp:32
+msgid " checked in"
+msgstr "g0605 체크인"
+
+#: View/Elements/lists/checkin_list.ctp:38
+#: View/Elements/misc/review_item.ctp:73
+msgid "Just now"
+msgstr "g0606 방금전"
+
+#: View/Elements/lists/follower_list.ctp:30
+msgid "friends"
+msgstr "g0607 친구"
+
+#: View/Elements/lists/follower_list.ctp:30
+msgid "friend"
+msgstr "g0608 친구"
+
+#: View/Elements/lists/follower_list.ctp:32
+msgid "photos"
+msgstr "g0609 사진"
+
+#: View/Elements/lists/follower_list.ctp:32
+msgid "photo"
+msgstr "g0610 사진"
+
+#: View/Elements/lists/follower_list.ctp:56
+msgid "Cancel a friend request"
+msgstr "g0611 친구 요청 취소"
+
+#: View/Elements/lists/follower_list.ctp:57
+msgid "Cancel Request"
+msgstr "g0612 요청 취소"
+
+#: View/Elements/lists/follower_list.ctp:65;66
+msgid "Respond to Friend Request"
+msgstr "g0613 친구 요청에 응답"
+
+#: View/Elements/lists/follower_list.ctp:69
+msgid "Accept"
+msgstr "g0614 수락"
+
+#: View/Elements/lists/follower_list.ctp:82
+msgid "Send %s a friend request"
+msgstr "g0615 %s에게 친구 요청 보내기"
+
+#: View/Elements/lists/follower_list.ctp:83
+msgid "Add as Friend"
+msgstr "g0616 친구로 추가"
+
+#: View/Elements/lists/follower_list.ctp:98;99
+#: View/Elements/misc/admin_item.ctp:14
+msgid "Remove"
+msgstr "g0617 제거"
+
+#: View/Elements/misc/ajax_share.ctp:54;70
+msgid "Turn on notifications"
+msgstr "g0618 알림 켜기"
+
+#: View/Elements/misc/ajax_share.ctp:54;70
+msgid "Stop Notifications"
+msgstr "g0619 알림 끄기"
+
+#: View/Elements/misc/ajax_share.ctp:96;97
+msgid "Tag Friends"
+msgstr "g0620 친구 태그"
+
+#: View/Elements/misc/ajax_share.ctp:112
+msgid "Edit Post"
+msgstr "g0621 게시글 수정"
+
+#: View/Elements/misc/ajax_share.ctp:119
+msgid "Delete Post"
+msgstr "g0622 게시글 삭제"
+
+#: View/Elements/misc/ajax_share.ctp:152;385;487;601
+msgid "Show edit history"
+msgstr "g0623 편집 기록 보기"
+
+#: View/Elements/misc/ajax_share.ctp:177
+msgid "via mobile"
+msgstr "g0624 핸드폰으로"
+
+#: View/Elements/misc/ajax_share.ctp:184;236;395;510
+msgid "Like"
+msgstr "g0625 좋아요"
+
+#: View/Elements/misc/ajax_share.ctp:193;245;404;519;633
+msgid "People Who Like This"
+msgstr "g0626 좋아요를 누른 회원"
+
+#: View/Elements/misc/ajax_share.ctp:201;253;412;527
+msgid "Dislike"
+msgstr "g0627 싫어요"
+
+#: View/Elements/misc/ajax_share.ctp:210;262;421;536;647
+msgid "People Who Dislike This"
+msgstr "g0628 싫어요를 누른 회원"
+
+#: View/Elements/misc/ajax_share.ctp:228;279;304
+msgid "Comment"
+msgstr "g0629 댓글"
+
+#: View/Elements/misc/ajax_share.ctp:298
+msgid "Write a comment..."
+msgstr "g0630 댓글 쓰기..."
+
+#: View/Elements/misc/ajax_share.ctp:317
+msgid "Please login or register"
+msgstr "g0631 로그인 또는 회원가입 하십시요"
+
+#: View/Elements/misc/ajax_share.ctp:349;463;577
+msgid "Edit Comment"
+msgstr "g0632 댓글 수정"
+
+#: View/Elements/misc/ajax_share.ctp:355;469;583
+msgid "Delete Comment"
+msgstr "g0633 댓글 삭제"
+
+#: View/Elements/misc/ajax_share.ctp:434
+msgid "View all comments"
+msgstr "g0634 모든 댓글 보기"
+
+#: View/Elements/misc/ajax_share.ctp:549;660
+msgid "View all %s comments"
+msgstr "g0635 %s의 모든 댓글 보기"
+
+#: View/Elements/misc/branch_item.ctp:39
+msgid "Website:"
+msgstr "g0636 웹사이트"
+
+#: View/Elements/misc/branch_item.ctp:48
+msgid "Tel:"
+msgstr "g0637 전화번호:"
+
+#: View/Elements/misc/branch_item.ctp:50;59
+#: View/Elements/widgets/detail_info.ctp:189;199
+msgid "view"
+msgstr "g0638 보기"
+
+#: View/Elements/misc/branch_item.ctp:57
+msgid "Fax:"
+msgstr "g0639 팩스:"
+
+#: View/Elements/misc/branch_item.ctp:68
+msgid "Find us on:"
+msgstr "g0640 찾기:"
+
+#: View/Elements/misc/branch_item.ctp:123
+msgid "Hide Payments"
+msgstr "g0641 결제 숨기기"
+
+#: View/Elements/misc/branch_item.ctp:123
+msgid "Show Payments"
+msgstr "g0642 결제 보기"
+
+#: View/Elements/misc/branch_item.ctp:124;127
+msgid "Payment methods"
+msgstr "g0643 결제 수단"
+
+#: View/Elements/misc/branch_item.ctp:140
+msgid "Working Hours"
+msgstr "g0644 영업시간"
+
+#: View/Elements/misc/branch_item.ctp:145
+#: View/Elements/widgets/open_hours.ctp:8
+msgid "Open 24/7"
+msgstr "g0645 24시간 영업"
+
+#: View/Elements/misc/branch_item.ctp:171
+#: View/Elements/widgets/open_hours.ctp:33
+msgid "Open now"
+msgstr "g0646 지금 열기"
+
+#: View/Elements/misc/business_activity_item.ctp:59
+#: View/Elements/misc/business_item.ctp:114
+#: View/Elements/misc/my_review_item.ctp:65
+msgid "%s review"
+msgstr "g0647 %s의 리뷰"
+
+#: View/Elements/misc/business_item.ctp:16
+#: View/Elements/misc/my_review_item.ctp:40
+msgid "Sub page of"
+msgstr "g0648 하위 페이지의"
+
+#: View/Elements/misc/business_item.ctp:53
+msgid "Remove favorite"
+msgstr "g0649 즐겨찾기 제거"
+
+#: View/Elements/misc/business_item.ctp:126
+msgid "Approved"
+msgstr "g0650 승인"
+
+#: View/Elements/misc/business_item.ctp:142
+msgid "Claim Request Sent"
+msgstr "g0651 요청을 보냈습니다"
+
+#: View/Elements/misc/my_review_item.ctp:20
+#: View/Elements/misc/review_item.ctp:21
+msgid "Edit Review"
+msgstr "g0652 리뷰 수정"
+
+#: View/Elements/misc/my_review_item.ctp:25
+#: View/Elements/misc/review_item.ctp:32
+msgid "Delete Review"
+msgstr "g0653 리뷰 삭제"
+
+#: View/Elements/misc/my_review_item.ctp:120
+#: View/Elements/misc/review_item.ctp:104
+msgid "Company response:"
+msgstr "g0654 업체 답글:"
+
+#: View/Elements/misc/review_item.ctp:23
+msgid "Edit Reply"
+msgstr "g0655 답글 수정"
+
+#: View/Elements/misc/review_item.ctp:34
+msgid "Delete Reply"
+msgstr "g0656 답글 삭제"
+
+#: View/Elements/misc/review_item.ctp:42
+msgid "Reply"
+msgstr "g0657 답글"
+
+#: View/Elements/misc/review_item.ctp:89
+msgid "People who like this"
+msgstr "g0658 좋아요를 누른 회원"
+
+#: View/Elements/misc/upload_photo.ctp:19;40
+msgid "Caption"
+msgstr "g0659 캡션"
+
+#: View/Elements/notification/business_add_admin.ctp:1
+msgid " made you as admin of business \"%s\""
+msgstr "g0660 회원님을 \"%s\ 업체의 관리자로 만들었습니다"
+
+#: View/Elements/notification/business_add_photos.ctp:1
+msgid " added photos on %s"
+msgstr "g0661 %s에 사진을 추가하였습니다"
+
+#: View/Elements/notification/business_added.ctp:1
+msgid " posted a new business, please approve."
+msgstr "g0662 새 업체를 추가하였습니다. 승인해주십시요"
+
+#: View/Elements/notification/business_approved.ctp:1
+msgid " approved your business"
+msgstr "g0663 회원님의 업체를 승인하였습니다"
+
+#: View/Elements/notification/business_approved_subpage.ctp:1
+msgid " approved your sub page"
+msgstr "g0664 회원님의 하위 페이지를 승인하였습니다"
+
+#: View/Elements/notification/business_checkin_tag.ctp:1
+msgid " checked-in with you at \"%s\""
+msgstr "g0665 \"%s\에 체크인했습니다"
+
+#: View/Elements/notification/business_claim.ctp:1
+msgid " sents a claim request. Please review."
+msgstr "g0666 claim 요청을 보냈습니다. 검토해주십시요"
+
+#: View/Elements/notification/business_claim_remove_product.ctp:1
+msgid " your page \"%s\" has been claimed. Products are deleted."
+msgstr "g0667 회원님의 페이지 \"%s\가 요청되었습니다. 상품이 삭제되었습니다"
+
+#: View/Elements/notification/business_claim_request.ctp:1
+msgid "updated his claimed listing, please review"
+msgstr "g0668 요청 목록을 업데이트하였습니다. 검토해주십시요"
+
+#: View/Elements/notification/business_claim_request_approved.ctp:1
+msgid " approved your claim request for \"%s\""
+msgstr "g0669 \"%s\요청을 승낙하였습니다"
+
+#: View/Elements/notification/business_claim_request_reject.ctp:1
+msgid " reject your claim request for \"%s\""
+msgstr "g0670 \"%s\요청을 거절하였습니다"
+
+#: View/Elements/notification/business_create_branch.ctp:1
+msgid " added a new sub page on %s"
+msgstr "g0671 %s에 새 하위 페이지를 추가하였습니다"
+
+#: View/Elements/notification/business_featured.ctp:1
+msgid " featured your business %s"
+msgstr "g0672 회원님읜 업체 %s 을(를) 추천하였습니다"
+
+#: View/Elements/notification/business_follow.ctp:1
+#: View/Elements/notification/business_follow_follow.ctp:1
+msgid " started following \"%s\""
+msgstr "g0673 \"%s\"을 팔로우하였습니다"
+
+#: View/Elements/notification/business_follow_review.ctp:1
+msgid " reviewed %s"
+msgstr "g0674 %s 을(를) 검토하였습니다"
+
+#: View/Elements/notification/business_reject_verify.ctp:1
+msgid "your verification request for %s is rejected by admin"
+msgstr "g0675 %s의 인증 요청이 관리자에 의해 거절되었습니다"
+
+#: View/Elements/notification/business_rejected.ctp:1
+msgid " rejected your business"
+msgstr "g0676 회원님의 업체를 거절하였습니다"
+
+#: View/Elements/notification/business_rejected_subpage.ctp:1
+msgid " rejected your sub page"
+msgstr "g0677 회원님의 하위 페이지를 거절하였습니다"
+
+#: View/Elements/notification/business_reply.ctp:1
+msgid " replied to your review"
+msgstr "g0678 회원님의 리뷰에 답글을 남겼습니다"
+
+#: View/Elements/notification/business_review.ctp:1
+msgid " reviewed business %s"
+msgstr "g0679 %s 업체를 검토하였습니다"
+
+#: View/Elements/notification/business_review_report.ctp:1
+msgid " reported a business review"
+msgstr "g0680 업체 리뷰를 신고하였습니다"
+
+#: View/Elements/notification/business_review_subpage.ctp:1
+msgid " reviewed sub page %s"
+msgstr "g0681 하위 페이지 %s 을(를) 검토하였습니다"
+
+#: View/Elements/notification/business_sub_page_pending.ctp:1
+msgid " posted a new sub page, please approve."
+msgstr "g0682 새 하위 페이지를 게시하였습니다. 승낙하십시요"
+
+#: View/Elements/notification/business_submit_for_reviewing.ctp:1
+msgid " just updated his business, please review."
+msgstr "g0683 업체를 방금전 업데이트하였습니다. 검토해주십시요"
+
+#: View/Elements/notification/business_unverify.ctp:1
+msgid " unverified your business"
+msgstr "g0684 회원님의 업체를 인증 해제하였습니다"
+
+#: View/Elements/notification/business_verify.ctp:1
+msgid " verified your business"
+msgstr "g0685회원님의 업체를 인증하였습니다"
+
+#: View/Elements/notification/business_wall_post.ctp:1
+msgid " posted a status on "
+msgstr "g0686 상태를 게시했습니다"
+
+#: View/Elements/widgets/claim.ctp:5
+msgid "Is this your business?"
+msgstr "g0687 회원님의 업체입니까?"
+
+#: View/Elements/widgets/claim.ctp:7
+msgid "If this is your business, you can claim the listing and add extra information."
+msgstr "g0688 회원님의 업체일 경우 목록을 요청하고 추가 정보를 입력할 수 있습니다"
+
+#: View/Elements/widgets/claim.ctp:9
+msgid "Claim it now"
+msgstr "g0689 지금 요청하기"
+
+#: View/Elements/widgets/detail_info.ctp:76;77
+msgid "Report Business"
+msgstr "g0690 업체 신고"
+
+#: View/Elements/widgets/detail_info.ctp:76;77
+msgid "Report Page"
+msgstr "g0691 페이지 신고"
+
+#: View/Elements/widgets/detail_info.ctp:91
+msgid "Delete Business"
+msgstr "g0692 업체 삭제"
+
+#: View/Elements/widgets/detail_info.ctp:95
+msgid "Delete Page"
+msgstr "g0693 페이지 삭제"
+
+#: View/Elements/widgets/detail_info.ctp:103
+msgid "Share"
+msgstr "g0694 공유"
+
+#: View/Elements/widgets/detail_info.ctp:113
+msgid "Check-in"
+msgstr "g0695 체크인"
+
+#: View/Elements/widgets/detail_info.ctp:131
+msgid "Contact us"
+msgstr "g0696 고객센터"
+
+#: View/Elements/widgets/detail_info.ctp:174
+msgid "Directions "
+msgstr "g0697 방향"
+
+#: View/Elements/widgets/detail_info.ctp:218
+msgid "Show More"
+msgstr "g0698 더보기"
+
+#: View/Elements/widgets/detail_info.ctp:218
+msgid "Show Less"
+msgstr "g0699 간략히"
+
+#: View/Elements/widgets/detail_section.ctp:51
+msgid "Share what's new"
+msgstr "g0700 새소식 공유"
+
+#: View/Elements/widgets/open_hours.ctp:5
+msgid "Business Hours"
+msgstr "g0701 영업시간"
+
+#: View/Elements/widgets/open_hours.ctp:41
+msgid "Closed now"
+msgstr "g0702 현재 폐쇄"
+
+#: View/Elements/widgets/payment_gateways.ctp:3
+msgid "Payment Methods"
+msgstr "g0703 결제 수단"
+
+#: View/Elements/widgets/rating.ctp:15
+msgid "Reviews & Rating"
+msgstr "g0704 리뷰 & 별점"
+
+#: View/Elements/widgets/social_link.ctp:4
+msgid "Find us on"
+msgstr "g0705 찾기"
+
+#: View/Helper/BusinessHelper.php:174
+msgid "Featured Business with %s %s for %s days"
+msgstr "g0706 %s일동안 %s %s 업체 추천"
+
+#: View/Helper/BusinessHelper.php:182
+msgid "Featured Price"
+msgstr "g0707 특정 가격"
+
+#: View/Helper/BusinessHelper.php:208
+msgid "Package Price"
+msgstr "g0708 패키지 가격"
+
+#: View/Helper/BusinessHelper.php:224
+msgid "for"
+msgstr "g0709 위해"
+
+#: View/Helper/BusinessHelper.php:226;233
+msgid "free for"
+msgstr "g0710 무료"
+
+#: View/Helper/BusinessHelper.php:231
+msgid "for each"
+msgstr "g0711 각각"
+
+#: View/Helper/BusinessHelper.php:231
+msgid "in"
+msgstr "g0712 안에"
+
+#: View/Helper/BusinessHelper.php:243
+msgid "forever"
+msgstr "g0713 영구히"
+
+#: View/Helper/BusinessHelper.php:245
+msgid "day(s)"
+msgstr "g0714 일"
+
+#: View/Helper/BusinessHelper.php:247
+msgid "week(s)"
+msgstr "g0715 주"
+
+#: View/Helper/BusinessHelper.php:249
+msgid "month(s)"
+msgstr "g0716 월"
+
+#: View/Helper/BusinessHelper.php:251
+msgid "year(s)"
+msgstr "g0717 년"
+
+#: View/Helper/BusinessHelper.php:755;773;796
+msgid "Initial"
+msgstr "g0718 이니셜"
+
+#: View/Helper/BusinessHelper.php:756;774
+msgid "Active"
+msgstr "g0719 활성화"
+
+#: View/Helper/BusinessHelper.php:758
+msgid "Reversed"
+msgstr "g0720 반대의"
+
+#: View/Helper/BusinessHelper.php:759;776;798
+msgid "Expired"
+msgstr "g0721 만료되었습니다"
+
+#: View/Helper/BusinessHelper.php:760;777;799
+msgid "Refunded"
+msgstr "g0722 환불되었습니다"
+
+#: View/Helper/BusinessHelper.php:761;778;787;800
+msgid "Failed"
+msgstr "g0723 실패했습니다"
+
+#: View/Helper/BusinessHelper.php:762
+msgid "Free"
+msgstr "g0724 무료"
+
+#: View/Helper/BusinessHelper.php:764;780
+msgid "Process"
+msgstr "g0725 진행"
+
+#: View/Helper/BusinessHelper.php:765;781;802
+msgid "Inactive"
+msgstr "g0726 비활성화"
+
+#: View/Helper/BusinessHelper.php:779
+msgid "Cancel Recurring"
+msgstr "g0727 자동 결제 취소"
+
+#: View/Helper/BusinessHelper.php:786;803
+msgid "Paid"
+msgstr "g0728 지불했습니다"
+
+#: View/Helper/BusinessHelper.php:842
+msgid "Featured Day"
+msgstr "g0729 추천일"
+
+#: View/Helper/BusinessHelper.php:843
+msgid "Business Package"
+msgstr "g0730 업체 패키지"
+
+#: View/Helper/BusinessHelper.php:1158
+msgid "Rating & Reviews"
+msgstr "g0731 별점 & 리뷰"
+
+#: View/Helper/BusinessHelper.php:1161
+msgid "Add business sub pages"
+msgstr "g0732 업체 하위 페이지 추가"
+
+#: View/Widgets/business/breadcrumb.ctp:12
+msgid "Add New Business"
+msgstr "g0733 새 업체 추가"
+
+#: View/Widgets/business/breadcrumb.ctp:18;53
+msgid "Home"
+msgstr "g0734 홈"
+
+#: View/Widgets/business/breadcrumb.ctp:46
+msgid "Search results"
+msgstr "g0735 검색 결과"
+
+#: View/Widgets/business/business_same_cat.ctp:5
+msgid "People also viewed"
+msgstr "g0736 다른 회원이 열람한"
+
+#: View/Widgets/business/dashboard_menu.ctp:42
+msgid "Edit business info"
+msgstr "g0737 업체 정보 수정"
+
+#: View/Widgets/business/featured.ctp:6
+msgid "Featured Businesses"
+msgstr "g0738 추천 업체"
+
+#: View/Widgets/business/people_checkin.ctp:5
+msgid "Check-Ins"
+msgstr "g0739 체크인"
+
+#: View/Widgets/business/people_checkin.ctp:29
+msgid "View all"
+msgstr "g0740 모두 보기"
+
+#: View/Widgets/business/popular_locations.ctp:17
+#: View/Widgets/business/top_categories.ctp:19
+msgid "Show more"
+msgstr "g0741 더보기"
+
+#: View/Widgets/business/recent_reviews.ctp:4
+msgid "Recent Reviews"
+msgstr "g0742 최근 리뷰"
+
+#: View/Widgets/business/reviews_of_day.ctp:4
+msgid "Review of the Day"
+msgstr "g0743 오늘의 리뷰"
+
+#: Model/Business.php:validation for field name
+msgid "Please provide name"
+msgstr "g0744 이름을 입력하십시요"
+
+#: Model/Business.php:validation for field logo
+msgid "Please upload logo"
+msgstr "g0745 로고를 업로드하십시요"
+
+#: Model/Business.php:validation for field address
+msgid "Please provide address"
+msgstr "g0746 주솔르 입력하십시요"
+
+#: Model/BusinessAdmin.php:validation for field user_id
+msgid "Please select user"
+msgstr "g0747 사용자를 선택하십시요"
+
+#: Model/BusinessCategory.php:validation for field name
+#: Model/BusinessLocation.php:validation for field name
+#: Model/BusinessType.php:validation for field name
+msgid "Name is required"
+msgstr "g0748 이름은 필수입니다"
+
+#: Model/BusinessCategory.php:validation for field name
+#: Model/BusinessLocation.php:validation for field name
+msgid "This name is already exist"
+msgstr "g0749 해당 이름은 이미 존재합니다"
+
+#: Model/BusinessPackage.php:validation for field name
+msgid "Package Title is required."
+msgstr "g0750 패키지 제목은 필수입니다"
+
+#: Model/BusinessPackage.php:validation for field price
+msgid "Price is required, Please enter number."
+msgstr "g0751 가격은 필수입니다. 숫자를 입력하십시요"
+
+#: Model/BusinessPackage.php:validation for field price
+msgid "Price is invalid, Please enter number."
+msgstr "g0752 잘못된 가격입니다. 숫자를 입력하십시요"
+
+#: Model/BusinessPackage.php:validation for field duration
+msgid "Duration is required, Please enter number."
+msgstr "g0753 기간은 필수입니다. 숫자를 입력하십시요"
+
+#: Model/BusinessPackage.php:validation for field duration
+msgid "Duration must be a valid integer greater than 0"
+msgstr "g0754 기간은 유요한 정수이어야하며 0보다 커야합니다"
+
+#: Model/BusinessPackage.php:validation for field expiration_reminder
+msgid "Expiration Reminder is required, Please enter number."
+msgstr "g0755 만료 알림은 필수입니다. 숫자를 입력하십시요"
+
+#: Model/BusinessPackage.php:validation for field expiration_reminder
+msgid "Expiration reminder must be a valid integer greater than 0"
+msgstr "g0756 만료 알림은 유요한 정수이어야하며 0보다 커야합니다"
+
+#: Model/BusinessPaid.php:validation for field price
+msgid "Price is not valid"
+msgstr "g0757 잘못된 가격입니다"
+
+#: Model/BusinessPaid.php:validation for field recurring_price
+msgid "Recurring price is not valid"
+msgstr "g0758 자동 결제 금액이 잘못되었습니다"
+
+#: Model/BusinessPaid.php:validation for field recurring
+msgid "Recurring must be a valid interger greater than 0"
+msgstr "g0759 자동 결제 금액은 정수이어야하며 0보다 커야합니다"
+
+#: Model/BusinessReview.php:validation for field rating
+msgid "Please select rating"
+msgstr "g0760 평가등급을 지정해주십시요"
+
+#: Model/BusinessReview.php:validation for field content
+msgid "Please input your review"
+msgstr "g0761 리뷰를 작성해주십시요"
+
+msgid "_EMAIL_BUSINESS_VERIFY_DOCUMENTS_TITLE_"
+msgstr "g0762 업체 문서 인증"
+
+msgid "_EMAIL_BUSINESS_VERIFY_DOCUMENTS_DESCRIPTION_"
+msgstr "g0763 문서로된 요청 이메일을 관리자가 받습니다"
+
+msgid "_EMAIL_BUSINESS_VERIFY_PHONE_TITLE_"
+msgstr "g0764 업체 전화 인증"
+
+msgid "_EMAIL_BUSINESS_VERIFY_PHONE_DESCRIPTION_"
+msgstr "g0765 전화를 통한 요청 이메일을 관리자가 받습니다"
+
+msgid "_EMAIL_BUSINESS_CLAIM_REQUEST_TITLE_"
+msgstr "g0766 사업 claim 요청"
+
+msgid "_EMAIL_BUSINESS_CLAIM_REQUEST_DESCRIPTION_"
+msgstr "g0767 관리자는 사업 claim 요청을 이메일로 받습니다"
+
+msgid "_EMAIL_BUSINESS_REJECT_TITLE_"
+msgstr "g0768 업체 거절"
+
+msgid "_EMAIL_BUSINESS_REJECT_DESCRIPTION_"
+msgstr "g0769 업체 관리자가 거절 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_REJECT_TITLE_"
+msgstr "g0770 업체 하위 페이지 거절"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_REJECT_DESCRIPTION_"
+msgstr "g0771 사용자가 거절 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_CONTACT_TITLE_"
+msgstr "g0772 업체 연락처 발신"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "g0773 업체 관리자가 연락처 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "g0774 업체 관리자가 연락처 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "g0775 업체 관리자가 연락처 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_FEATURE_TITLE_"
+msgstr "g0776 추천 업체 만료"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_FEATURE_DESCRIPTION_"
+msgstr "g0777 추천 업체 만료 이메일"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_TITLE_"
+msgstr "g0778 업체 만료"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_DESCRIPTION_"
+msgstr "g0779 업체 만료 이메일"
+
+msgid "_EMAIL_BUSINESS_REMINDER_FEATURED_PACKAGE_TITLE_"
+msgstr "g0780 업체 알림 기능"
+
+msgid "_EMAIL_BUSINESS_REMINDER_FEATURED_PACKAGE_DESCRIPTION_"
+msgstr "g0781 압체 알림 기능 이메일"
+
+msgid "_EMAIL_BUSINESS_REMINDER_BUSINESS_PACKAGE_TITLE_"
+msgstr "g0782 업체 알림"
+
+msgid "_EMAIL_BUSINESS_REMINDER_BUSINESS_PACKAGE_DESCRIPTION_"
+msgstr "g0783 업체 알림 이메일"
+
+msgid "_EMAIL_BUSINESS_SUCCESS_PACKAGE_TITLE_"
+msgstr "g0784 업체 패키지 성공"
+
+msgid "_EMAIL_BUSINESS_SUCCESS_PACKAGE_DESCRIPTION_"
+msgstr "g0785 업체 패키지 성공 이메일"
+
+msgid "_EMAIL_BUSINESS_APPROVE_TITLE_"
+msgstr "g0786 업체가 승인되었습니다"
+
+msgid "_EMAIL_BUSINESS_APPROVE_DESCRIPTION_"
+msgstr "g0787 업체 승인 이메일입니다"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_APPROVE_TITLE_"
+msgstr "g0788 업체 하위 페이지가 승인되었습니다"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_APPROVE_DESCRIPTION_"
+msgstr "g0789 하위 페이지 승인 이메일입니다"
+
+msgid " busines check in"
+msgstr "g0790 회사체크인"
+
+msgid " busines review"
+msgstr "g0791 회사 리뷰"
+
+msgid " busines verify"
+msgstr "g0792 회사 인증"
+
+msgid "12:00 am (midnight)"
+msgstr "g0793 오전 12:00(자정)"
+
+msgid "12:30 am"
+msgstr "g0794 오전 12:30"
+
+msgid "1:00 am"
+msgstr "g0795 오전 1:00"
+
+msgid "1:30 am"
+msgstr "g0796 오전 1:30"
+
+msgid "2:00 am"
+msgstr "g0797 오전 2:00"
+
+msgid "2:30 am"
+msgstr "g0798 오전 2:30"
+
+msgid "3:00 am"
+msgstr "g0799 오전 3:00"
+
+msgid "3:30 am"
+msgstr "g0800 오전 3:30"
+
+msgid "4:00 am"
+msgstr "g0801 오전 4:00"
+
+msgid "4:30 am"
+msgstr "g0802 오전 4:30"
+
+msgid "5:00 am"
+msgstr "g0803 오전 5:00"
+
+msgid "5:30 am"
+msgstr "g0804 오전 5:30"
+
+msgid "6:00 am"
+msgstr "g0805 오전 6:00"
+
+msgid "6:30 am"
+msgstr "g0806 오전 6:30"
+
+msgid "7:00 am"
+msgstr "g0807 오전 7:00"
+
+msgid "7:30 am"
+msgstr "g0808 오전 7:30"
+
+msgid "8:00 am"
+msgstr "g0809 오전 8:00"
+
+msgid "8:30 am"
+msgstr "g0810 오전 8:30"
+
+msgid "9:00 am"
+msgstr "g0811 오전 9:00"
+
+msgid "9:30 am"
+msgstr "g0812 오전 9:30"
+
+msgid "10:00 am"
+msgstr "g0813 오전 10:00m"
+
+msgid "10:30 am"
+msgstr "g0814 오전 10:30"
+
+msgid "11:00 am"
+msgstr "g0815 오전 11:00"
+
+msgid "11:30 am"
+msgstr "g0816 오전 11:30"
+
+msgid "12:00 pm (noon)"
+msgstr "g0817 오후 12:00(정오)"
+
+msgid "12:30 pm"
+msgstr "g0818 오후 12:30"
+
+msgid "1:00 pm"
+msgstr "g0819 오후 1:00"
+
+msgid "1:30 pm"
+msgstr "g0820 오후 1:30"
+
+msgid "2:00 pm"
+msgstr "g0821 오후 2:00"
+
+msgid "2:30 pm"
+msgstr "g0822 오후 2:30"
+
+msgid "3:00 pm"
+msgstr "g0823 오후 3:00"
+
+msgid "3:30 pm"
+msgstr "g0824 오후 3:30"
+
+msgid "4:00 pm"
+msgstr "g0825 오후 4:00"
+
+msgid "4:30 pm"
+msgstr "g0826 오후 4:30"
+
+msgid "5:00 pm"
+msgstr "g0827 오후 5:00"
+
+msgid "5:30 pm"
+msgstr "g0828 오후 5:30"
+
+msgid "6:00 pm"
+msgstr "g0829 오후 6:00"
+                         
+msgid "6:30 pm"
+msgstr "g0830 오후 6:30"
+
+msgid "7:00 pm"
+msgstr "g0831 오후 7:00"
+
+msgid "7:30 pm"
+msgstr "g0832 오후 7:30"
+
+msgid "8:00 pm"
+msgstr "g0833 오후 8:00"
+
+msgid "8:30 pm"
+msgstr "g0834 오후 8:30"
+
+msgid "9:00 pm"
+msgstr "g0835 오후 9:00"
+
+msgid "9:30 pm"
+msgstr "g0836 오후 9:30"
+
+msgid "10:00 pm"
+msgstr "g0837 오후 10:00"
+
+msgid "10:30 pm"
+msgstr "g0838 오후 10:30"
+
+msgid "11:00 pm"
+msgstr "g0839 오후 11:00"
+
+msgid "11:30 pm"
+msgstr "g0840 오후 11:30"
+
+msgid "12:00 am (midnight next day)"
+msgstr "g0841 12:00 am (다음날 자정)"
+
+msgid "12:30 am (next day)"
+msgstr "g0842 12:30 am (다음날)"
+
+msgid "1:00 am (next day)"
+msgstr "g0843 1:00 am (다음날)"
+
+msgid "1:30 am (next day)"
+msgstr "g0844 1:30 am (다음날)"
+
+msgid "2:00 am (next day)"
+msgstr "g0845 2:00 am (다음날)"
+
+msgid "2:30 am (next day)"
+msgstr "g0846 2:30 am (다음날)"
+
+msgid "3:00 am (next day)"
+msgstr "g0847 3:00 am (다음날)"
+
+msgid "3:30 am (next day)"
+msgstr "g0848 3:30 am (다음날)"
+
+msgid "4:00 am (next day)"
+msgstr "g0849 4:00 am (다음날)"
+
+msgid "4:30 am (next day)"
+msgstr "g0850 4:30 am (다음날)"
+
+msgid "5:00 am (next day)"
+msgstr "g0851 5:00 am (다음날)"
+
+msgid "5:30 am (next day)"
+msgstr "g0852 5:30 am (다음날)"
+
+msgid "6:00 am (next day)"
+msgstr "g0853 6:00 am (다음날)"
+
+msgid "Can manage products"
+msgstr "g0854 상품을 관리할 수 있습니다"
+
+msgid "Business Cover Picture"
+msgstr "g0855 업체 커버 사진"
+
+msgid "Optimal size 870x312px"
+msgstr "g0856 최적 크기 870x312px"
+
+msgid "Save Cover Picture"
+msgstr "g0857 커버 사진 저장"
+
+msgid "Products"
+msgstr "g0858 상품"
+
+msgid "Product"
+msgstr "g0859 상품"
+
+msgid "Add Product"
+msgstr "g0860 상품 추가"
+
+msgid "Grid"
+msgstr "g0861 그리드"
+
+msgid "List"
+msgstr "g0862 목록"
+
+msgid "Edit Cover Picture"
+msgstr "g0863 커버 사진 수정"
+
+msgid "Edit Cover"
+msgstr "g0864 커버 수정"
+
+msgid "Change to default photo"
+msgstr "g0865 기본 사진으로 변경"
+
+msgid "Respond Request"
+msgstr "g0866 답변 요청"
+
+msgid "Unverified"
+msgstr "g0867 인증 해제"
+
+msgid "UTC"
+msgstr "g0868 세계표준시"
+
+msgid "(next day)"
+msgstr "g0869 (다음날)"
+
+msgid "Mon"
+msgstr "g0870 월요일"
+
+msgid "Tue"
+msgstr "g0871 화요일"
+
+msgid "Wed"
+msgstr "g0872 수요일"
+
+msgid "Thu"
+msgstr "g0873 목요일"
+
+msgid "Fri"
+msgstr "g0874 금요일"
+
+msgid "Sat"
+msgstr "g0875 토요일"
+
+msgid "Sun"
+msgstr "g0876 일요일"

@@ -1,0 +1,74 @@
+<?php 
+define('BUSINESS_TEMP_FILE_PATH', 'uploads' . DS . 'tmp');
+define('BUSINESS_FILE_PATH', 'uploads' . DS . 'businesses');
+define('BUSINESS_FILE_URL', 'uploads/businesses/');
+define('BUSINESS_COVER_FILE_PATH', 'uploads' . DS . 'businesses' . DS . 'covers');
+define('BUSINESS_COVER_FILE_URL', 'uploads/businesses/covers/');
+define('BUSINESS_FILE_FOLDER', 'businesses/');
+define('BUSINESS_EXT_PHOTO', 'jpg,jpeg,png,gif');
+define('BUSINESS_IMAGE_SEO_WIDTH', 600);
+define('BUSINESS_IMAGE_SEO_HEIGHT', 600);
+define('BUSINESS_IMAGE_SMALL_WIDTH', 250);
+define('BUSINESS_IMAGE_SMALL_HEIGHT', 250);
+define('BUSINESS_IMAGE_THUMB_WIDTH', 60);
+define('BUSINESS_IMAGE_THUMB_HEIGHT', 60);
+define('BUSINESS_COVER_IMAGE_WIDTH', 870);
+define('BUSINESS_COVER_IMAGE_HEIGHT', 312);
+define('BUSINESS_STATUS_PENDING', 'pending');
+define('BUSINESS_STATUS_APPROVED', 'approved');
+define('BUSINESS_STATUS_REJECTED', 'rejected');
+define('BUSINESS_STATUS_VERIFY', 'verify');
+define('BUSINESS_STATUS_UNVERIFY', 'unverify');
+define('BUSINESS_ONE_TIME', 1);
+define('BUSINESS_RECURRING', 2);
+define('BUSINESS_DEFAULT_LOCATION_NAME', 'default_location_name');
+define('BUSINESS_DEFAULT_LOCATION_ID', 'default_location_id');
+define('BUSINESS_SEARCH_BY_RATING', 'rating');
+define('BUSINESS_SEARCH_BY_DATE', 'date');
+define('BUSINESS_SEARCH_BY_DISTANCE', 'distance');
+define('BUSINESS_PAID_TYPE', 'featured_package');
+define('BUSINESS_SEARCH_KEYWORD', 'search_keyword');
+define('BUSINESS_SEARCH_KEYWORD_LOCATION', 'search_keyword_location');
+
+define('BUSINESS_ACTIVITY_TYPE_USER', 'user');
+define('BUSINESS_ACTIVITY_TYPE', 'Business_Business');
+define('BUSINESS_ACTIVITY_REVIEW_ITEM', 'Business_Business_Review');
+define('BUSINESS_ACTIVITY_REVIEW_ACTION', 'business_review');
+define('BUSINESS_ACTIVITY_PHOTO_ITEM', 'Business_Business_Photo');
+define('BUSINESS_ACTIVITY_PHOTO_ACTION', 'business_photo');
+define('BUSINESS_ACTIVITY_BRANCH_ITEM', 'Business_Business');
+define('BUSINESS_ACTIVITY_BRANCH_ACTION', 'business_branch');
+define('BUSINESS_ACTIVITY_BUSINESS_ITEM', 'Business_Business');
+define('BUSINESS_ACTIVITY_BUSINESS_ACTION', 'business_business');
+define('BUSINESS_ACTIVITY_VERIFY_ITEM', 'Business_Business');
+define('BUSINESS_ACTIVITY_VERIFY_ACTION', 'business_verify');
+define('BUSINESS_ACTIVITY_CHECKIN_ITEM', 'Business_Business');
+define('BUSINESS_ACTIVITY_CHECKIN_ACTION', 'business_checkin');
+define('BUSINESS_ACTIVITY_CREATE_BUSINESS_ACTION', 'business_create');
+
+define('BUSINESS_DETAIL_LINK_REVIEW', 'business-reviews');
+define('BUSINESS_DETAIL_LINK_PHOTO', 'business-photos');
+define('BUSINESS_DETAIL_LINK_PRODUCT', 'business-products');
+define('BUSINESS_DETAIL_LINK_BRANCH', 'business-branches');
+define('BUSINESS_DETAIL_LINK_CONTACT', 'business-contact');
+define('BUSINESS_DETAIL_LINK_CHECKIN', 'business-checkin');
+define('BUSINESS_DETAIL_LINK_FOLLOWER', 'business-follower');
+
+define('BUSINESS_MODULE_PHOTO', 'Business');
+define('BUSINESS_MODULE_BRANCH', 'BusinessBranch');
+define('BUSINESS_MODULE_REVIEW', 'BusinessReview');
+
+define('BUSINESS_PERMISSION_MANAGE_PHOTO', 'can_manage_photos');
+define('BUSINESS_PERMISSION_MANAGE_PRODUCT', 'can_manage_products');
+define('BUSINESS_PERMISSION_BAN', 'can_ban_member');
+define('BUSINESS_PERMISSION_RESPONSE_REVIEW', 'can_response_review');
+define('BUSINESS_PERMISSION_MANAGE_SUBPAGE', 'can_manage_subpages');
+define('BUSINESS_PERMISSION_UPGRADE_PAGE', 'can_upgrade_page');
+define('BUSINESS_PERMISSION_FEATURE_PAGE', 'can_featured_page');
+define('BUSINESS_PERMISSION_SEND_VERIFICATION_REQUEST', 'can_send_verification_request');
+define('BUSINESS_PERMISSION_EDIT_PAGE', 'can_edit_page');
+define('BUSINESS_PERMISSION_MANAGE_ADMIN', 'can_manage_admins');
+
+define('BUSINESS_ROLE_CREATE_BUSINESS', 'business_create');
+define('BUSINESS_ROLE_VIEW_BUSINESS', 'business_view');
+define('BUSINESS_ROLE_CLAIM', 'business_claim');

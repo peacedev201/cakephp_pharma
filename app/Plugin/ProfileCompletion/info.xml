@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+    <name>Profile Completion</name>
+    <key>ProfileCompletion</key>
+    <version>1.3</version>
+    <description>Profile Completion plugin</description>
+    <author>Thai.VM</author>
+    <website>https://www.moosocial.com/</website>
+    <menu>mooSocial</menu>
+    <url />
+    <icon_class />
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <settings>
+        <setting>
+            <label>Enable Profile Completion Plugin</label>
+            <name>profile_completion_enabled</name>            
+            <description>Enable Profile Completion Plugin</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Progress Bar Color</label>
+            <name>progress_bar_color</name>
+            <description>Enter Gauge Color In Hex</description>
+            <type>text</type>
+            <values>#d8601f</values>
+        </setting>
+        <setting>
+            <label>% Remaining Bar Color</label>
+            <name>remaining_bar_color</name>
+            <description>Enter Gauge Color In Hex</description>
+            <type>text</type>
+            <values>#ccc</values>
+        </setting>
+        <setting>
+            <label>Force update profile info</label>
+            <name>force_update_profile_info</name>
+            <description>You members will be forced to update profile information if they have not reached to % entered here. Enter 0 to disable this option.</description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+        <setting>
+            <label>Do not show the widget then 100% completed</label>
+            <name>not_show_widget_100</name>
+            <description>The widget will hide if all fields are filled in (100% completed)</description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+    </settings>
+</info>

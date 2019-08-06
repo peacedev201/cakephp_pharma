@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('store', ' reviewed product %s'), $notification['Notification']['params']); ?>

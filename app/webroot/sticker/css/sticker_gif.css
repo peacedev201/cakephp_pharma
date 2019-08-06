@@ -1,0 +1,3 @@
+div[id^="activity_comment_edit_"] > .textoverlay-wrapper > textarea, .commentBox, .commentForm, [id^="activity_comment_edit_"] textarea, [id^="item_comment_edit_"] textarea{
+    padding-right: 100px !important;
+}

@@ -1,0 +1,146 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "L0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin/Reminder/ReminderPlugin.php:146
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:18
+msgid "Settings"
+msgstr "L0002설정"
+
+#: Plugin/Reminder/Controller/ReminderSettingsController.php:5
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:8
+msgid "Reminder Settings"
+msgstr "L0003리마인더 설정"
+
+#: Plugin/Reminder/Controller/ReminderSettingsController.php:23
+msgid "Successfully updated"
+msgstr "L0004업데이트 완료!"
+
+#: Plugin/Reminder/View/Helper/ReminderHelper.php:93;167;241;320
+msgid "Your account will be auto disabled in next %s days."
+msgstr "L0005회원님의 계정이 %s 일후 휴면으로 자동 전환됩니다."
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:2
+msgid "Reminder Plugin"
+msgstr "L0006리마인더 플러그인"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:3
+msgid "Reminder"
+msgstr "L0007리마인더"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:7
+msgid "Plugins Manager"
+msgstr "L0008플러그인 관리자"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:27
+msgid "Enable Reminder Plugin"
+msgstr "L0009리마인더 플러그인 활성화"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:41
+msgid "Enable email verification reminder"
+msgstr "L0010이메일인증 리마인더 활성화"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:56
+msgid "How many times do you want to send reminder email verification (0 is unlimited- not recommended) (times)"
+msgstr "L0011인증이메일을 몇 차례 보내도록 설정하시겠습니까? (0 : 무제한 - 권장하지 않음) (회)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:71
+msgid "Reminder email will send to users who has not verified email for (days)"
+msgstr "L0012리마인더 이메일 재송부 대상 회원(이메일 인증완료기간): '일'기준"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:86
+msgid "If all verification reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+msgstr "L0013이메일인증 리마인더 메일을 기준횟수를 모두 송부 며칠 후 해당 계정 자동 불화성화 기준일 (이 옵션을 사용하지 않으시려면 0 입력) ('일'기준)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:104
+msgid "Enable sms verification reminder"
+msgstr "L0014SMS 인증 리마인더 활성화"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:119
+msgid "How many times do you want to send reminder sms verification (0 is unlimited- not recommended) (times)"
+msgstr "L0015SMS 인증리마인더를 몇 회 보내시겠습니까? (무제한:= 0- 원장하지 않음) (횟수)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:134
+msgid "Reminder email will send to users who has not verified sms for (days)"
+msgstr "L0016리마인더 이메일을 보낼 SMS 미인증기간('일'기준)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:149
+msgid "If all verification reminder sms have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+msgstr "L0017리마인더 SMS을 일정 기준이상 보낸 후, 해당 계정을 자동 불활성화 시키는 기준 일수(이 옵션을 사용하지 않으려면 0 입력) ('일'기준)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:166
+msgid "Enable login reminder"
+msgstr "L0018로그인 리마인더 활성화"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:181
+msgid "How many times do you want to send login reminder email (0 is unlimited- not recommended) (times)"
+msgstr "L0019로그인 리마인더 이메일을 몇 회나 보낼지 설정 (무제한:= 0) (횟수)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:196
+msgid "Reminder email will send to users who has loggedin for (days)"
+msgstr "L0020리마인더 이메일을 보낼 로그인상태 유지 일수:"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:211
+msgid "If all login reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+msgstr "L0021로그인 리마인더메일을 일정기준 보낸 후, 계정 자동 불활성화 기준 일수('일'기준)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:227
+msgid "Enable 'post status, like or comment' email reminder"
+msgstr "L0022'게시 활동, 좋아요 또는 댓글' 이메일 리마인더 활성화"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:242
+msgid "How many times do you want to send 'post status, like or comment' email reminder (0 is unlimited- not recommended) (times)"
+msgstr "L0023'게시 활동, 좋아요 또는 댓글' 이메일 리마인더 송부 횟수 (무제한:= 0- 권장하지 않음) (횟수기준)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:257
+msgid "Reminder email will send to user if he/she has not posted status, liked, or commente for (days)"
+msgstr "L0024'게시활동, 좋아요, 댓글달기'등의 활동이 며칠 간 없을시 경우 이메일 리마인더 송부('일'기준)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:272
+msgid "If all 'post status, like or comment' email reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+msgstr "L0025'게시 활동, 좋아요 또는 댓글' 등의 활동이 없어 이메일 리마인더를 기준 이상 송부후, 시스템적으로 해당 계정을 불화성화하는 기준일수 (이 기능을 사용하지 않을 경우 0) ('일'기준)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:288
+msgid "Save Settings"
+msgstr "L0026설정 저장"
+
+msgid "_EMAIL_REMINDER_EMAIL_VERIFICATION_TITLE_"
+msgstr "L0027회원이 방문은 하나, 이메일을 인증하지 않을 경우, admincp상의 설정에 기준하여 이메일 송부."
+
+msgid "_EMAIL_REMINDER_SMS_VERIFICATION_TITLE_"
+msgstr "L0028회원이 방문은하나, SMS를 인증하지 않을 경우, admincp상의 설정에 기준하여 이메일 송부."
+
+msgid "_EMAIL_REMINDER_LOGIN_TITLE_"
+msgstr "L0029회원이 상당기간 방문하지 않았을 경우, admincp상의 설정에 기준하여 이메일 송부."
+
+msgid "_EMAIL_REMINDER_SHARE_TITLE_"
+msgstr "L0030회원이 상당기간 아무것도 게시하지 않았을 경우, admincp상의 설정에 기준하여 이메일 송부."
+
+msgid "Logs"
+msgstr "L0031로그현황"
+
+msgid "User role"
+msgstr "L0032회원 등급"
+
+msgid "Email verification reminders"
+msgstr "L0033인증 이메일 리마인더"
+
+msgid "SMS verification reminders"
+msgstr "L0034SMS 인증 리마인더"
+
+msgid "Login reminders"
+msgstr "L0035로그인 리마인더"
+
+msgid "Interaction reminders"
+msgstr "L0036교류현황 리마인더"

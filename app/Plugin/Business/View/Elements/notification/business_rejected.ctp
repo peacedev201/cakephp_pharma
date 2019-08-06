@@ -1,0 +1,1 @@
+<?php echo __d('business', ' rejected your business'); ?>

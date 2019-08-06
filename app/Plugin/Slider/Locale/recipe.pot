@@ -1,0 +1,49 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin/Recipe/Model/Recipe.php:validation for field title
+#: Plugin/Recipe/Model/RecipeVideo.php:validation for field title
+msgid "Title is required"
+msgstr "{Title is required}"
+
+#: Plugin/Recipe/Model/Recipe.php:validation for field category_id
+msgid "Category is required"
+msgstr "{Category is required}"
+
+#: Plugin/Recipe/Model/Recipe.php:validation for field body
+msgid "Description is required"
+msgstr "{Description is required}"
+
+#: Plugin/Recipe/Model/Recipe.php:validation for field tags
+msgid "No special characters ( /,?,#,%,...) allowed in Tags"
+msgstr "{No special characters ( /,?,#,%,...) allowed in Tags}"
+
+#: Plugin/Recipe/Model/RecipeCategories.php:validation for field category_name
+msgid "Name is required"
+msgstr "{Name is required}"
+
+#: Plugin/Recipe/Model/RecipeCategories.php:validation for field cat_order
+#: Plugin/Recipe/Model/RecipeFields.php:validation for field order
+msgid "Only numbers allowed"
+msgstr "{Only numbers allowed}"
+
+#: Plugin/Recipe/Model/RecipeFields.php:validation for field label
+msgid "Label is required"
+msgstr "{Label is required}"
+
+#: Plugin/Recipe/Model/RecipeVideo.php:validation for field source
+msgid "Source is required"
+msgstr "{Source is required}"
+

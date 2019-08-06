@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query>
+                <![CDATA[
+                    ALTER TABLE `{PREFIX}chat_status_messages` ADD INDEX `quick_unssen_messages` (`room_id`,`user_id`,`unseen`);
+                ]]>
+            </query>
+            <query>
+                <![CDATA[
+                        ALTER TABLE `{PREFIX}chat_rooms` ADD `latest_mesasge_id` INT NOT NULL DEFAULT '0';
+                ]]>
+            </query>
+            <query>
+                <![CDATA[
+                    CREATE TABLE IF NOT EXISTS `{PREFIX}chat_cached_query_user_stats` (
+                      `id` int(11) NOT NULL AUTO_INCREMENT,
+                      `user_id` int(11) NOT NULL,
+                      `new_friend` tinyint(1) NOT NULL DEFAULT '0',
+                      `new_block` tinyint(1) NOT NULL DEFAULT '0',
+                      `new_profile` tinyint(1) NOT NULL DEFAULT '0',
+                      PRIMARY KEY (`id`),
+                      UNIQUE KEY `fast_update` (`id`,`user_id`,`new_friend`,`new_block`,`new_profile`)
+                    );
+                ]]>
+            </query>
+            <query>
+                <![CDATA[
+                    INSERT IGNORE INTO `{PREFIX}acos` (`group`, `key`, `description`) VALUES ('chat', 'allow_video_calling', 'Allow video calling');
+                ]]>
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.4</number>
+        <queries>
+            <query>
+                <![CDATA[
+                    ALTER TABLE `{PREFIX}chat_messages` CHANGE `note_content_html` `note_content_html` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL;
+                ]]>
+            </query>
+            <query>
+                <![CDATA[
+                    ALTER TABLE `{PREFIX}chat_messages` CHANGE `content` `content` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL;
+                ]]>
+            </query>
+            <query>
+                <![CDATA[
+                    DELETE FROM `{PREFIX}settings` WHERE name = "chat_hidden_in_mobile";
+                ]]>
+            </query>
+            <query>
+                <![CDATA[
+                    ALTER TABLE `{PREFIX}users` ADD `chat_online_status` enum('active','busy','invisible','') NOT NULL DEFAULT 'active';
+                ]]>
+            </query>
+            <query>
+                <![CDATA[
+                    CREATE TABLE IF NOT EXISTS `{PREFIX}chat_fcms` (
+                        `id` int(11) NOT NULL AUTO_INCREMENT,
+                        `user_id` int(11) NOT NULL,
+                        `token` varchar(255) NOT NULL,
+                        `client_type` varchar(10) NOT NULL,
+                        `sound` tinyint(1) NOT NULL DEFAULT '1',
+                        PRIMARY KEY (`id`)
+                    );
+                ]]>
+            </query>
+        </queries>
+    </version>
+</versions>

@@ -1,0 +1,992 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: AdsPlugin.php:186
+#: View/AdsPlacement/admin_create.ctp:3;100
+#: View/AdsPlacement/admin_index.ctp:3;50
+msgid "Manage Placements"
+msgstr ""
+
+#: AdsPlugin.php:187
+#: View/Ads/admin_create.ctp:28
+#: View/Ads/admin_index.ctp:5;12
+msgid "Manage Ad Campaigns"
+msgstr ""
+
+#: AdsPlugin.php:188
+#: View/AdsSettings/admin_index.ctp:3;19
+msgid "General Settings"
+msgstr ""
+
+#: AdsPlugin.php:189
+#: View/AdsTransaction/admin_index.ctp:3;14
+msgid "Transactions"
+msgstr ""
+
+#: Controller/AdsController.php:41;78
+msgid "Ad Campaigns"
+msgstr ""
+
+#: Controller/AdsController.php:55;202
+msgid "Male"
+msgstr ""
+
+#: Controller/AdsController.php:55;202
+msgid "Female"
+msgstr ""
+
+#: Controller/AdsController.php:97;282
+msgid "Ads Placement has reached to limit, you cannot create new campaign."
+msgstr ""
+
+#: Controller/AdsController.php:111;300
+msgid "Thanks for advertising on %s ! We're reviewing your ad and will get back to you soon."
+msgstr ""
+
+#: Controller/AdsController.php:115
+msgid "Successfully saved."
+msgstr ""
+
+#: Controller/AdsController.php:120;304
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: Controller/AdsController.php:127;381
+msgid "Campaign not found"
+msgstr ""
+
+#: Controller/AdsController.php:129
+msgid "Invalid action"
+msgstr ""
+
+#: Controller/AdsController.php:135;140;522;526
+msgid "Successfully updated"
+msgstr ""
+
+#: Controller/AdsController.php:145;190;517
+msgid "Successfully deleted"
+msgstr ""
+
+#: Controller/AdsController.php:173
+msgid "Successfully sent payment request"
+msgstr ""
+
+#: Controller/AdsController.php:177
+msgid "This action does not exist"
+msgstr ""
+
+#: Controller/AdsController.php:251
+msgid "Email already exist"
+msgstr ""
+
+#: Controller/AdsController.php:348
+msgid "Verification code does not exist"
+msgstr ""
+
+#: Controller/AdsController.php:350
+msgid "No gateway config, please contact with admin for more info."
+msgstr ""
+
+#: Controller/AdsController.php:371
+msgid "You have just canceled transaction"
+msgstr ""
+
+#: Controller/AdsController.php:375
+msgid "Thank you for your payment, your ad is on process"
+msgstr ""
+
+#: Controller/AdsController.php:459
+#: View/Ads/admin_index.ctp:171
+msgid "No"
+msgstr ""
+
+#: Controller/AdsController.php:459
+#: View/Ads/admin_index.ctp:171
+msgid "Yes"
+msgstr ""
+
+#: Controller/AdsController.php:460;486
+#: View/Ads/load_my_ads.ctp:143
+#: View/Elements/myAds/load_more_ads.ctp:32;38
+msgid "Show"
+msgstr ""
+
+#: Controller/AdsController.php:460;486
+#: View/Ads/load_my_ads.ctp:151
+#: View/Elements/myAds/load_more_ads.ctp:33;37
+msgid "Hide"
+msgstr ""
+
+#: Controller/AdsController.php:534
+msgid "Action was not successfull"
+msgstr ""
+
+#: Controller/AdsController.php:629
+msgid "Thank you for your payment, your ad was activated"
+msgstr ""
+
+#: Controller/AdsController.php:634
+msgid "Your payment has been canceled"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:10;127
+msgid "Ad Placements"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:38;39
+#: View/Ads/ads_gateways.ctp:8;9
+#: View/Elements/AdsPlacement/placement_info.ctp:17
+#: View/Elements/AdsPlacement/placement_info_detail.ctp:15
+msgid "Unlimited"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:40
+msgid "views"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:40
+msgid "clicks"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:44
+msgid "required size"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:44
+msgid "allow extensions"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:78
+msgid "Status have been updated"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:89
+msgid "Ads have been deleted"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:103
+msgid "Html"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:103
+msgid "Image"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:103
+msgid "Feed"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:104
+#: View/AdsPlacement/admin_index.ctp:116
+msgid "Enable"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:104
+#: Model/AdsCampaign.php:186
+#: View/Ads/admin_index.ctp:31;42
+#: View/AdsPlacement/admin_index.ctp:116;136
+#: View/Elements/myAds/load_more_ads.ctp:5
+msgid "Disable"
+msgstr ""
+
+#: Controller/AdsPlacementController.php:168
+msgid "Successfully saved"
+msgstr ""
+
+#: Controller/AdsSettingsController.php:18
+msgid "Ad Settings"
+msgstr ""
+
+#: Controller/AdsTransactionController.php:25
+msgid "Ad Transactions"
+msgstr ""
+
+#: Lib/AdsListener.php:38;41
+msgid "We've detected that you have an ad blocker enabled! Please disable and refresh this page!"
+msgstr ""
+
+#: Model/AdsCampaign.php:184
+#: View/Ads/admin_index.ctp:29;40
+#: View/Elements/myAds/load_more_ads.ctp:3
+msgid "Pending"
+msgstr ""
+
+#: Model/AdsCampaign.php:185
+#: View/Ads/admin_index.ctp:30;41
+#: View/AdsPlacement/admin_index.ctp:110;136
+#: View/Elements/myAds/load_more_ads.ctp:4
+msgid "Active"
+msgstr ""
+
+#: Model/AdsCampaign.php:187
+msgid "Send Payment Request"
+msgstr ""
+
+#: Model/AdsCampaign.php:188
+#: View/Ads/admin_index.ctp:201
+#: View/Elements/myAds/load_more_ads.ctp:26
+msgid "Delete"
+msgstr ""
+
+#: Model/AdsPlacement.php:235
+msgid "some placements cannot  delete"
+msgstr ""
+
+#: Model/AdsPlacement.php:237
+msgid "Cannot  delete this placement"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:14
+#: View/Ads/admin_index.ctp:4
+#: View/AdsPlacement/admin_create.ctp:2
+#: View/AdsPlacement/admin_index.ctp:2
+#: View/AdsSettings/admin_index.ctp:2
+#: View/AdsTransaction/admin_index.ctp:2
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:15
+msgid "Manage Campaigns"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:18;33
+msgid "Edit Campaign"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:22;35
+#: View/Ads/admin_index.ctp:64
+#: View/Ads/create.ctp:24
+msgid "Create Campaign"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:52
+#: View/Ads/create.ctp:33
+msgid "Client Info"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:55
+#: View/Ads/create.ctp:37
+msgid "Client Name"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:67
+#: View/Ads/create.ctp:51
+#: View/AdsTransaction/admin_index.ctp:62
+msgid "Email"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:79
+#: View/Ads/create.ctp:65
+msgid "Note"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:90
+#: View/Ads/create.ctp:77
+#: View/AdsTransaction/admin_index.ctp:65
+msgid "Campaign"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:93
+#: View/Ads/create.ctp:81
+msgid "Campaign Name"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:105
+#: View/Ads/admin_index.ctp:91
+#: View/Ads/create.ctp:94
+#: View/AdsPlacement/admin_create.ctp:230
+#: View/AdsPlacement/admin_index.ctp:102
+#: View/AdsTransaction/admin_index.ctp:68
+#: View/Elements/myAds/load_more_ads.ctp:54
+msgid "Placement"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:112
+#: View/Ads/create.ctp:101
+msgid "Select position"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:116
+#: View/Ads/create.ctp:106
+msgid "View all"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:121
+#: View/Ads/create.ctp:111
+msgid "Placement position"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:129
+#: View/Ads/create.ctp:119
+msgid "Planned start date"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:131;171;179;198
+#: View/Ads/create.ctp:122;160;170;188
+#: Model/AdsCampaign.php:validation for field ads_placement_id
+msgid "Please select placement"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:143
+#: View/Ads/create.ctp:133
+msgid "at"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:153
+#: View/Ads/create.ctp:142
+msgid "Hours"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:163
+#: View/Ads/create.ctp:150
+msgid "Minutes"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:169
+#: View/Ads/create.ctp:157
+msgid "Estimated end date"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:177
+#: View/Ads/admin_index.ctp:106
+#: View/Ads/create.ctp:167
+msgid "Timezone"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:188
+#: View/Ads/create.ctp:178
+msgid "This is just planned start date. This date will change depends on the day you made payment. If you made payment before planned start date, ad will active and visible to target users at this planned date. If you made payment after planned date, ad will active right after the payment is made."
+msgstr ""
+
+#: View/Ads/admin_create.ctp:194
+#: View/Ads/create.ctp:184
+msgid "Banner"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:204
+#: View/Ads/create.ctp:196
+msgid "Ads Title"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:214;251
+#: View/Ads/create.ctp:207;250
+msgid "You have %s characters remaining"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:219
+#: View/Ads/create.ctp:214
+msgid "Banner Image"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:228
+#: View/Ads/create.ctp:225
+msgid "Banner Link"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:240
+#: View/Ads/create.ctp:238
+#: View/AdsPlacement/admin_create.ctp:127
+msgid "Description"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:260
+#: View/Ads/create.ctp:259
+msgid "Preview"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:278
+#: View/Ads/create.ctp:277
+msgid "Audience"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:280
+#: View/Ads/create.ctp:281
+msgid "User Group"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:295
+#: View/Ads/create.ctp:290
+msgid "Age Between"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:305
+#: View/Ads/create.ctp:300
+msgid "and"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:318
+#: View/Ads/create.ctp:313
+msgid "Gender"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:325
+#: View/Ads/admin_index.ctp:44
+#: View/Ads/create.ctp:320
+msgid "All"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:327
+#: View/Ads/create.ctp:326
+#: View/Elements/ads/permissions.ctp:34
+msgid "Note: Guest user will not be affected by age and gender setting"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:336
+msgid "Save"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:339
+#: View/Ads/create.ctp:335
+msgid "Cancel"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:359
+#: View/Ads/create.ctp:7
+msgid "Click to upload"
+msgstr ""
+
+#: View/Ads/admin_create.ctp:360
+msgid "Can not upload file more than "
+msgstr ""
+
+#: View/Ads/admin_index.ctp:2
+msgid "Ads"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:55
+#: View/AdsPlacement/admin_index.ctp:69
+#: View/AdsTransaction/admin_index.ctp:40
+msgid "Keyword"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:61
+#: View/Ads/load_my_ads.ctp:48
+#: View/Ads/report.ctp:53
+#: View/AdsPlacement/admin_index.ctp:77
+#: View/AdsTransaction/admin_index.ctp:46
+msgid "Search"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:85
+#: View/AdsTransaction/admin_index.ctp:59
+msgid "ID"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:88
+msgid "Name"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:94
+msgid "Views"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:97
+msgid "Clicks"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:100
+msgid "Start Date"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:103
+msgid "End Date"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:109
+#: View/Elements/myAds/load_more_ads.ctp:59
+msgid "Payment Status"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:112
+msgid "Created by"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:115
+#: View/AdsPlacement/admin_create.ctp:203
+#: View/AdsPlacement/admin_index.ctp:109
+#: View/AdsTransaction/admin_index.ctp:71
+msgid "Status"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:183
+msgid "Select"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:200
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: View/Ads/admin_index.ctp:224
+msgid "No Campaigns"
+msgstr ""
+
+#: View/Ads/ads_gateways.ctp:5
+msgid "Placement name: %s"
+msgstr ""
+
+#: View/Ads/ads_gateways.ctp:6
+msgid "Client name: %s"
+msgstr ""
+
+#: View/Ads/ads_gateways.ctp:7
+msgid "Email: %s"
+msgstr ""
+
+#: View/Ads/ads_gateways.ctp:8
+msgid "Click limit: "
+msgstr ""
+
+#: View/Ads/ads_gateways.ctp:9
+msgid "View limit: "
+msgstr ""
+
+#: View/Ads/ads_gateways.ctp:10
+msgid "Price: %s %s"
+msgstr ""
+
+#: View/Ads/ads_gateways.ctp:13
+msgid "Paypal"
+msgstr ""
+
+#: View/Ads/ads_gateways.ctp:14
+msgid "Pay with paypal"
+msgstr ""
+
+#: View/Ads/ads_gateways.ctp:27
+msgid "Pay with %s"
+msgstr ""
+
+#: View/Ads/create.ctp:332
+msgid "Submit"
+msgstr ""
+
+#: View/Ads/load_my_ads.ctp:24
+#: View/Elements/myAds/my_ads.ctp:3
+msgid "My Ads"
+msgstr ""
+
+#: View/Ads/load_my_ads.ctp:25
+msgid "Create New Ad"
+msgstr ""
+
+#: View/Ads/load_my_ads.ctp:42
+msgid "Enter a name"
+msgstr ""
+
+#: View/Ads/load_my_ads.ctp:55
+msgid "No result found"
+msgstr ""
+
+#: View/Ads/load_my_ads.ctp:59
+msgid "LOAD MORE"
+msgstr ""
+
+#: View/Ads/load_my_ads.ctp:65
+msgid "There is no ads"
+msgstr ""
+
+#: View/Ads/load_my_ads.ctp:113
+msgid "Do you really want to delete this ad ?"
+msgstr ""
+
+#: View/Ads/report.ctp:16
+msgid "Here is detailed report of %s from %s to %s"
+msgstr ""
+
+#: View/Ads/report.ctp:18
+msgid "Here is detailed report of %s"
+msgstr ""
+
+#: View/Ads/report.ctp:28
+msgid "From"
+msgstr ""
+
+#: View/Ads/report.ctp:39
+msgid "to"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:29;39
+#: View/AdsPlacement/admin_index.ctp:119
+#: View/Elements/myAds/load_more_ads.ctp:53
+#: View/Helper/AdsHelper.php:12
+msgid "day"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:31;41;150
+#: View/AdsPlacement/admin_index.ctp:119
+#: View/Elements/myAds/load_more_ads.ctp:53
+#: View/Helper/AdsHelper.php:14
+msgid "days"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:105
+msgid "Placement type"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:120
+msgid "Placement name"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:134
+msgid "Dimension"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:136
+msgid "width"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:137
+msgid "Ads dimension are in pixel"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:140
+msgid "height"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:145
+#: View/AdsPlacement/admin_index.ctp:103
+#: View/Elements/myAds/load_more_ads.ctp:58
+msgid "Price"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:155
+msgid "Total Views Allowed"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:156
+msgid "The campaign will end when this number of views is reached. Enter '0' for unlimited views."
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:169
+msgid "Total Clicks Allowed"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:170
+msgid "The campaign will end when this number of clicks is reached. Enter '0' for unlimited clicks."
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:184
+msgid "Ads appears"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:185
+msgid "Maximum ads can be placed at this placement at a time. Ex: '1' mean that only one advertiser can purchase this place. Others can purchase until the ad at this place is expired or reached limitation (views/clicks)"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:193
+msgid "Number of ads"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:194
+msgid "Number of ads will appear at the same time in this placement."
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:213
+msgid "Where the placement will appear on each feed page on home feed"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:214
+msgid "If you selected 3 for example, the ad will appear after activity number 3 on each feed page after loading more"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:231
+msgid "Sample Position"
+msgstr ""
+
+#: View/AdsPlacement/admin_create.ctp:232
+msgid "Sample position where the ad in this placement will appear with target users. Note that the ad widget does not added into the selected position auto after the placement is created. You need to drag and drop it at Layout Editor section after creating the placement.Do no need to drag and drop ads widgets into layout editer if the placement type is feed"
+msgstr ""
+
+#: View/AdsPlacement/admin_index.ctp:56
+msgid "Are you sure you want to delete ad placements?"
+msgstr ""
+
+#: View/AdsPlacement/admin_index.ctp:57
+msgid "Delete Selected"
+msgstr ""
+
+#: View/AdsPlacement/admin_index.ctp:81
+msgid "Create Placement"
+msgstr ""
+
+#: View/AdsPlacement/admin_index.ctp:104
+msgid "Views Limit"
+msgstr ""
+
+#: View/AdsPlacement/admin_index.ctp:105
+msgid "Clicks Limit"
+msgstr ""
+
+#: View/AdsPlacement/admin_index.ctp:106
+msgid "No of Ads"
+msgstr ""
+
+#: View/AdsPlacement/admin_index.ctp:107
+msgid "Ads appear"
+msgstr ""
+
+#: View/AdsPlacement/admin_index.ctp:108
+msgid "Active ads"
+msgstr ""
+
+#: View/AdsPlacement/admin_index.ctp:133
+msgid "View"
+msgstr ""
+
+#: View/AdsSettings/admin_index.ctp:9
+msgid "How often the ad statistic report will send to advertisers"
+msgstr ""
+
+#: View/AdsSettings/admin_index.ctp:10
+msgid "Weekly"
+msgstr ""
+
+#: View/AdsSettings/admin_index.ctp:11
+msgid "Monthly"
+msgstr ""
+
+#: View/AdsSettings/admin_index.ctp:12
+msgid "Paypal test"
+msgstr ""
+
+#: View/AdsSettings/admin_index.ctp:13
+msgid "Enable ads plugin"
+msgstr ""
+
+#: View/AdsSettings/admin_index.ctp:14
+msgid "Ad refresh time (Second)"
+msgstr ""
+
+#: View/AdsSettings/admin_index.ctp:15
+msgid "Auto report will send"
+msgstr ""
+
+#: View/AdsSettings/admin_index.ctp:16
+msgid "Paypal Email"
+msgstr ""
+
+#: View/AdsSettings/admin_index.ctp:17
+msgid "Save Settings"
+msgstr ""
+
+#: View/AdsTransaction/admin_index.ctp:9
+msgid "pending"
+msgstr ""
+
+#: View/AdsTransaction/admin_index.ctp:10
+msgid "failed"
+msgstr ""
+
+#: View/AdsTransaction/admin_index.ctp:11
+msgid "canceled"
+msgstr ""
+
+#: View/AdsTransaction/admin_index.ctp:12
+msgid "completed"
+msgstr ""
+
+#: View/AdsTransaction/admin_index.ctp:74
+msgid "Transaction Id"
+msgstr ""
+
+#: View/AdsTransaction/admin_index.ctp:77
+msgid "Type"
+msgstr ""
+
+#: View/AdsTransaction/admin_index.ctp:80
+msgid "Date"
+msgstr ""
+
+#: View/AdsTransaction/admin_index.ctp:146
+msgid "No Transactions"
+msgstr ""
+
+#: View/Elements/report_detail.ctp:7
+msgid "Number of views: "
+msgstr ""
+
+#: View/Elements/report_detail.ctp:9
+msgid "Number of clicks "
+msgstr ""
+
+#: View/Elements/report_detail.ctp:11
+msgid "male"
+msgstr ""
+
+#: View/Elements/report_detail.ctp:12
+msgid "female"
+msgstr ""
+
+#: View/Elements/report_detail.ctp:15
+msgid "user role "
+msgstr ""
+
+#: View/Elements/report_detail.ctp:18
+msgid "under 20"
+msgstr ""
+
+#: View/Elements/report_detail.ctp:19
+msgid "from 20 - 50"
+msgstr ""
+
+#: View/Elements/report_detail.ctp:20
+msgid "above 50"
+msgstr ""
+
+#: View/Elements/report_detail.ctp:23
+msgid "No reports"
+msgstr ""
+
+#: View/Elements/AdsPlacement/placement_info.ctp:2
+#: View/Elements/AdsPlacement/placement_info_detail.ctp:2
+msgid "Placement info"
+msgstr ""
+
+#: View/Elements/AdsPlacement/placement_info.ctp:17
+#: View/Elements/AdsPlacement/placement_info_detail.ctp:15
+msgid "%s views or %s clicks"
+msgstr ""
+
+#: View/Elements/myAds/load_more_ads.ctp:55
+msgid "Current Click"
+msgstr ""
+
+#: View/Elements/myAds/load_more_ads.ctp:56
+msgid "Current View"
+msgstr ""
+
+#: View/Elements/myAds/load_more_ads.ctp:57
+msgid "Ad Status"
+msgstr ""
+
+#: View/Elements/myAds/load_more_ads.ctp:64
+msgid "View details report"
+msgstr ""
+
+#: View/Helper/AdsHelper.php:60
+msgid "System Time"
+msgstr ""
+
+#: View/Helper/AdsHelper.php:91
+msgid "Payment ads"
+msgstr ""
+
+#: View/Widgets/ads/advertisement.ctp:43
+msgid "See Your Ad Here"
+msgstr ""
+
+#: Model/AdsCampaign.php:validation for field client_name
+msgid "Please provide client name"
+msgstr ""
+
+#: Model/AdsCampaign.php:validation for field email
+msgid "Invalid email"
+msgstr ""
+
+#: Model/AdsCampaign.php:validation for field name
+msgid "Please provide campaign name"
+msgstr ""
+
+#: Model/AdsCampaign.php:validation for field start_date
+msgid "Please provide planned start date"
+msgstr ""
+
+#: Model/AdsCampaign.php:validation for field ads_image
+msgid "Please upload banner or banner dimension is not valid"
+msgstr ""
+
+#: Model/AdsCampaign.php:validation for field link
+msgid "Please provide banner link"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field name
+msgid "Name is required"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field dimension_width
+msgid "Width is required"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field dimension_width
+msgid "Width should be numeric"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field dimension_width
+msgid "The minimum width for feed type placement is 800px"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field dimension_height
+msgid "Height is required"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field dimension_height
+msgid "Height should be numeric"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field price
+msgid "Price is required"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field price
+msgid "Price should be numeric"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field period
+msgid "Day is required"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field period
+msgid "Invalid day"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field view_limit
+msgid "View limit is required"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field view_limit
+msgid "View limit should be numeric"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field click_limit
+msgid "Click limit  is required"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field click_limit
+msgid "Click limit should be numeric"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field total_ads
+msgid "Ads apprears is required"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field total_ads
+msgid "Ads apprears should be numeric"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field number_of_ads
+msgid "Number of ads  is required"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field number_of_ads
+msgid "Number of ads should be numeric"
+msgstr ""
+
+#: Model/AdsPlacement.php:validation for field number_of_ads
+msgid "Number of ads must smaller than Ads apprears"
+msgstr ""
+
+msgid "Access Denied"
+msgstr ""
+

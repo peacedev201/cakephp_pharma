@@ -1,0 +1,390 @@
+<?php
+class Gift extends GiftAppModel 
+{
+    public $actsAs = array(
+        'Storage.Storage' => array(
+            'type'=>array(
+                'gifts'=>'filename',
+                'gift_files'=>'filename',
+            ),
+        ),
+    );
+
+    public $validationDomain = 'gift';
+    public $mooFields = array('title','href','plugin','type','url', 'thumb', 'message');
+    
+	public $validate = array(   
+        'title' =>   array(   
+            'rule'     => 'notBlank',
+            'message'  => 'Title is required'
+        ),
+        'gift_category_id' =>   array(   
+            'rule'     => 'notBlank',
+            'message'  => 'Category is required'
+        ),
+        'filename' =>   array(   
+            'rule'     => 'notBlank',
+            'message'  => 'File is required'
+        ),
+        'thumb' =>   array(   
+            'rule'     => 'notBlank',
+            'message'  => 'Thumb is required'
+        ),
+        'friend_id' =>   array(   
+            'rule'     => array('comparison', '>', 0),
+            'message'  => 'Friend is required'
+        )
+    );
+    
+    public $belongsTo = array(
+        'GiftCategory'=> array(
+            'className' => 'GiftCategory',
+            'foreignKey' => 'gift_category_id',
+            'dependent' => true
+        ),
+        'User'=> array(
+            'className' => 'User',
+            'foreignKey' => 'user_id',
+            'dependent' => true
+        ),
+        'GiftFriend'=> array(
+            'className' => 'User',
+            'foreignKey' => 'friend_id',
+            'dependent' => true
+        )
+    );
+    
+    public function getHref($row) 
+    {
+        $request = Router::getRequest();
+        if (isset($row['title']) && isset($row['id']))
+        {
+            return $request->base.'/gifts/view/' . $row['id'] . '/' . seoUrl($row['title']);
+        }
+        return '';
+    }
+    
+    public function getUrl($row) 
+    {
+        $request = Router::getRequest();
+        if (isset($row['title']) && isset($row['id']))
+        {
+            return '/gifts/view/' . $row['id'] . '/' . seoUrl($row['title']);
+        }
+        return '';
+    }
+    
+    public function activeMenu($active)
+    {
+        $mCoreMenuItem = MooCore::getInstance()->getModel('Menu.CoreMenuItem');
+        $menu = $mCoreMenuItem->findByUrl('/gifts');
+        if($menu != null)
+        {
+            $mCoreMenuItem->id = $menu['CoreMenuItem']['id'];
+            $mCoreMenuItem->save(array(
+                'is_active' => $active
+            ));
+        }
+    }
+    
+    public function loadManageGiftList($obj, $keyword = '')
+    {
+        $cond = array('Gift.is_public' => 1);
+
+        if($keyword != '')
+        {
+            $keyword = str_replace("'", "\'", $keyword);
+            $cond[] = "(Gift.title LIKE '%$keyword%')";
+        }
+        $obj->Paginator->settings=array(
+            'conditions' => $cond,
+            'order' => array('Gift.id' => 'DESC'),
+            'limit' => 10,
+        );
+        return $obj->paginate('Gift');
+    }
+    
+    public function deleteGift($id)
+    {
+        return $this->delete($id);
+    }
+    
+    public function isGiftExist($id, $enable = null, $user_id = null, $is_public = null)
+    {
+        $cond = array(
+            'Gift.id' => $id,
+        );
+        if(is_bool($enable))
+        {
+            $cond['Gift.enable'] = $enable;
+        }
+        if($user_id != null)
+        {
+            $cond['Gift.user_id'] = $user_id;
+        }
+        if(is_bool($is_public))
+        {
+            $cond['Gift.is_public'] = $is_public;
+        }
+        return $this->hasAny($cond);
+    }
+    
+    public function getGift($id, $enable = null)
+    {
+        $cond = array(
+            'Gift.id' => $id,
+        );
+        if(is_bool($enable))
+        {
+            $cond['Gift.enable'] = $enable;
+        }
+        return $this->find('first', array(
+            'conditions' => $cond
+        ));
+    }
+    
+    public function getListGifts($type = 'all', $page = 1, $limit = 0, $param = null)
+    {
+        if($limit == 0)
+        {
+            $limit = Configure::read('Gift.gift_items_per_page');
+        }
+        $cond = array();
+        switch($type)
+        {
+            case 'cat':
+                $cond['Gift.enable'] = 1;
+                $cond['Gift.is_public'] = 1;
+                $cond['Gift.gift_category_id'] = $param;
+                break;
+            case 'search':
+                $cond['Gift.enable'] = 1;
+                $cond['Gift.is_public'] = 1;
+                $cond[] = "Gift.title LIKE '%$param%'";
+                break;
+            case 'my':
+                $cond['Gift.user_id'] = MooCore::getInstance()->getViewer(true);
+                $cond['Gift.saved'] = 1;
+                break;
+            default :
+                $cond['Gift.enable'] = 1;
+                $cond['Gift.is_public'] = 1;
+        }
+        return $this->find('all', array(
+            'conditions' => $cond,
+            'limit' => $limit,
+            'order' => array('Gift.created' => 'DESC'),
+            'page' => $page
+        ));
+    }
+    
+    public function getSuggestFriendList($keyword)
+    {
+        $mFriend = MooCore::getInstance()->getModel('Friend');
+        $mFriend->bindModel(
+			array('belongsTo' => array(
+					'User' => array(
+						'className' => 'User',
+						'foreignKey' => 'friend_id'
+					)
+				)
+			)
+		);
+        $data = $mFriend->find('all', array(
+            'conditions' => array(
+                'Friend.user_id' => MooCore::getInstance()->getViewer(true),
+                "User.name LIKE '%".$keyword."%'"
+            ),
+            'fields' => array('User.id', 'User.name','User.birthday','User.com_name','User.university')
+        ));
+        $result = array();
+        if($data != null)
+        {
+            foreach($data as $item)
+            {
+                $name = $item['User']['name'];
+                if(!empty($item['User']['birthday'])){
+                    $name .= ' - '.__('Birth: '). date('Y', strtotime($item['User']['birthday']));
+                }
+                if(!empty($item['User']['com_name'])){
+                    $name .= ' - '.__('Company: '). $item['User']['com_name'];
+                }
+                if(!empty($item['User']['university'])){
+                    $name .= ' - '.__('University: '). $item['User']['university'];
+                }
+                $result[] = array(
+                    'value' => $item['User']['id'],
+                    'label' => $name
+                );
+            }
+        }
+        return $result;
+    }
+    
+    public function updateCounter($id, $field = 'comment_count',$conditions = '',$model = 'Comment') 
+    {
+        if(empty($conditions))
+        {
+            $conditions = array('Comment.type' => 'Gift_Gift', 'Comment.target_id' => $id);
+        }
+        parent::updateCounter($id, $field, $conditions, $model);
+    }
+    
+    public function increaseCounter($id, $field = 'comment_count')
+    {
+        parent::increaseCounter($id, $field);
+    }
+    
+    public function sendNotification($user_id, $sender_id, $action, $url, $param = null)
+    {
+        $data = array(
+            'user_id' => $user_id,
+            'sender_id' => $sender_id,
+            'action' => $action,
+            'url' => $url,
+            'params' => $param,
+            'plugin' => 'Gift',
+        );
+        $mNotification = MooCore::getInstance()->getModel('Notification');
+        $mNotification->create();
+        $mNotification->save($data);
+    }
+    
+    // check FFMPEG is installed on server ?
+    public function checkFfmpeg($lib_path) 
+    {
+        if (empty($lib_path)) {
+            return __d('Gift', 'Must set the path to FFMPEG before enabling uploading of videos.');
+        }
+		
+        $aOutput = '';
+
+        if (!function_exists('exec')) {
+            return __d('Gift', 'The PHP function "exec" is disabled and needed to run this check and convert uploaded videos');
+        }
+
+        exec($lib_path . ' 2>&1', $aOutput);
+        $bPass = false;
+
+        foreach ($aOutput as $sOutput) {
+            if (preg_match("/ffmpeg version/i", $sOutput)) {
+                $bPass = true;
+                break;
+            }
+        }
+
+        if (!$bPass) {
+            return false;
+        }
+
+        return true;
+    }
+    
+    public function convertVideo($file_name) 
+    {
+        // get current userid
+        $uid = MooCore::getInstance()->getViewer(true);
+
+        // Start converting process ...
+        $iWidth = GIFT_VIDEO_WIDTH; // default width
+        $iHeight = GIFT_VIDEO_HEIGHT; // default height
+        // 'Converting: '
+        $aFind = array(
+            '{source}',
+            '{destination}',
+            '{width}',
+            '{height}'
+        );
+		$extension = pathinfo($file_name, PATHINFO_EXTENSION);
+		$new_file_name = str_replace('.' . $extension, '.mp4', $file_name);
+		$source_path = GIFT_FILE_PATH . DS.$file_name;
+		$des_path = GIFT_FILE_PATH . DS.$new_file_name;
+
+        // convert to mp4
+        if ($extension != 'mp4') {
+            $aReplace = array(
+                $source_path,
+                $des_path,
+                $iWidth,
+                $iHeight
+            );
+
+            //$params_for_ffmpeg = Configure::read('UploadVideo.video_setting_params_ffmpeg_path') . ' ' . Configure::read('UploadVideo.video_setting_params_ffmpeg_mp4');
+            $params_for_ffmpeg = Configure::read('Gift.gift_path_to_ffmpeg').' -i {source} -c:v libx264 -crf 23 -preset medium -tune stillimage {destination}';
+            $sFfmpegParams = str_replace($aFind, $aReplace, $params_for_ffmpeg);
+            exec($sFfmpegParams . ' 2>&1', $aOutput);
+
+            $this->log($aOutput);
+        }
+
+        // create thumbnail
+        $thumbLocation = GIFT_THUMB_URL . str_replace('.' . $extension, '.jpg', $file_name);
+        $imgPath = WWW_ROOT . $thumbLocation;
+        $sFfmpegParamsForThumbnail = Configure::read('Gift.gift_path_to_ffmpeg') . " -i " . $source_path . " -ss 00:00:01.000 -vframes 1 " . $imgPath;
+        exec($sFfmpegParamsForThumbnail . ' 2>&1', $aOutput);
+        
+        return $new_file_name;
+    }
+
+    public function checkCredit($price, $gift_sent_id)
+    {
+        if (Configure::read('Credit.credit_enabled')) {
+            $uid = MooCore::getInstance()->getViewer(true);
+            $mBalances = MooCore::getInstance()->getModel('Credit.CreditBalances');
+            return $mBalances->pluginUseCredit($price, 'send_gift', 'gift_gift_sents', $uid, $gift_sent_id);
+        }
+        return true;
+    }
+
+    public function getCurrentBalance()
+    {
+        $mCreditBalances = MooCore::getInstance()->getModel("Credit.CreditBalances");
+        $item = $mCreditBalances->getBalancesUser(MooCore::getInstance()->getViewer(true));
+        if(isset($item['CreditBalances']['current_credit']))
+        {
+            return $item['CreditBalances']['current_credit'];
+        }
+        return 0;
+    }
+    
+    public function deleteAllUserGift($user_id)
+    {
+        $this->query("DELETE FROM ".$this->tablePrefix."gifts WHERE user_id = " . intval($user_id)." OR friend_id = ". intval($user_id));
+        $this->query("DELETE FROM ".$this->tablePrefix."gift_sents WHERE sender_id = " . intval($user_id)." OR receiver_id = ". intval($user_id));
+    }
+    
+    public function getPupularGifts()
+    {
+        $this->unbindModel(array(
+            "belongsTo" => array("User", "Friend")
+        ));
+        return $this->find("all", array(
+            "conditions" => array(
+                "Gift.is_public" => 1,
+                "Gift.enable" => 1
+            ),
+            "order" => array("Gift.send_count" => "DESC"),
+            "limit" => Configure::read('Gift.gift_popular_items_per_page')
+        ));
+    }
+
+    public function getTitle(&$row)
+    {
+        if (isset($row['title']))
+        {
+            $row['title'] = htmlspecialchars($row['title']);
+            return $row['title'];
+        }
+        return '';
+    }
+
+    public function getMessage(&$row)
+    {
+        if (isset($row['message']))
+        {
+            $row['message'] = htmlspecialchars($row['message']);
+            return $row['message'];
+        }
+        return '';
+    }
+}

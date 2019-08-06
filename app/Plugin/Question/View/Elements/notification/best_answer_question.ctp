@@ -1,0 +1,2 @@
+<?php $user = MooCore::getInstance()->getItemByType('User', $notification['Notification']['sender_id']);?>
+<?php echo __d('question','your answer selected as the best answer by');?> <?php if ($user) echo '"'.$user['User']['moo_title'].'"'?>

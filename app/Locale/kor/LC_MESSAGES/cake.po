@@ -1,0 +1,398 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: webroot/test.php:75
+msgid "Debug setting does not allow access to this url."
+msgstr "C001 이 웹주소(url)는 접속할수 없습니다.(디버그 설정)"
+
+#: Controller/Scaffold.php:127
+msgid "Scaffold :: "
+msgstr "C002 Scaffold"
+
+#: Controller/Scaffold.php:166;233;302
+msgid "Invalid %s"
+msgstr "C003 무효 %s"
+
+#: Controller/Scaffold.php:221
+msgid "updated"
+msgstr "C004 업데이트완료"
+
+#: Controller/Scaffold.php:224
+msgid "saved"
+msgstr "C005 저장완료"
+
+#: Controller/Scaffold.php:244
+msgid "The %1$s has been %2$s"
+msgstr "C006 %1$s이 %2$s 되었습니다"
+
+#: Controller/Scaffold.php:254
+msgid "Please correct errors below."
+msgstr "C007 다음 에러를 수정해 주십시요"
+
+#: Controller/Scaffold.php:305
+msgid "The %1$s with id: %2$s has been deleted."
+msgstr "C008 id: %2$s인 %1$s가 삭제되었습니다."
+
+#: Controller/Scaffold.php:308
+msgid "There was an error deleting the %1$s with id: %2$s"
+msgstr "C009 id: %2$s인 %1$s 삭제과정에 에러가 있었습니다."
+
+#: Controller/Component/AuthComponent.php:432
+msgid "You are not authorized to access that location."
+msgstr "C010 해당 위치에 대한 접속이 허용되지 않습니다."
+
+#: Error/ExceptionRenderer.php:222
+msgid "Not Found"
+msgstr "C011 검색실패"
+
+#: Error/ExceptionRenderer.php:245
+msgid "An Internal Error Has Occurred."
+msgstr "C012 내부 오류가 있습니다."
+
+#: Model/Validator/CakeValidationSet.php:286
+msgid "This field cannot be left blank"
+msgstr "C013 이 필드는 필수필드입니다."
+
+#: Network/CakeResponse.php:1355
+msgid "The requested file was not found"
+msgstr "C014 요청하신 파일이 없습니다."
+
+#: Utility/CakeNumber.php:119
+msgid "%s KB"
+msgstr "C015 %s KB"
+
+#: Utility/CakeNumber.php:121
+msgid "%s MB"
+msgstr "C016 %s MB"
+
+#: Utility/CakeNumber.php:123
+msgid "%s GB"
+msgstr "C017 %s GB"
+
+#: Utility/CakeNumber.php:125
+msgid "%s TB"
+msgstr "C018 %s TB"
+
+#: Utility/CakeNumber.php:117
+msgid "%d Byte"
+msgid_plural "%d Bytes"
+msgstr[0] "C019 %d 바이트"
+msgstr[1] "C020 %d 바이트"
+
+#: Utility/CakeTime.php:397
+msgid "Today, %s"
+msgstr "C021 오늘, %s"
+
+#: Utility/CakeTime.php:400
+msgid "Yesterday, %s"
+msgstr "C022 어제, %s"
+
+#: Utility/CakeTime.php:403
+msgid "Tomorrow, %s"
+msgstr "C023 내일, %s"
+
+#: Utility/CakeTime.php:408
+msgid "Sunday"
+msgstr "C024 일요일"
+
+#: Utility/CakeTime.php:409
+msgid "Monday"
+msgstr "C025 월요일"
+
+#: Utility/CakeTime.php:410
+msgid "Tuesday"
+msgstr "C026 화요일"
+
+#: Utility/CakeTime.php:411
+msgid "Wednesday"
+msgstr "C027 수요일"
+
+#: Utility/CakeTime.php:412
+msgid "Thursday"
+msgstr "C028 목요일"
+
+#: Utility/CakeTime.php:413
+msgid "Friday"
+msgstr "C029 금요일"
+
+#: Utility/CakeTime.php:414
+msgid "Saturday"
+msgstr "C030 토요일"
+
+#: Utility/CakeTime.php:420
+msgid "On %s %s"
+msgstr "C031 %s %s 기준"
+
+#: Utility/CakeTime.php:743
+msgid "%s ago"
+msgstr "C032 %s 전"
+
+#: Utility/CakeTime.php:744
+msgid "in %s"
+msgstr "C033 %s 후"
+
+#: Utility/CakeTime.php:745
+msgid "on %s"
+msgstr "C034 %s 기준"
+
+#: Utility/CakeTime.php:801
+msgid "just now"
+msgstr "C035 방금"
+
+#: Utility/CakeTime.php:924
+msgid "in about a second"
+msgstr "C036 약 몇 초 정도에"
+
+#: Utility/CakeTime.php:925
+msgid "in about a minute"
+msgstr "C037 약 몇 분 정도에"
+
+#: Utility/CakeTime.php:926
+msgid "in about an hour"
+msgstr "C038 약 몇 시간 정도에"
+
+#: Utility/CakeTime.php:927
+msgid "in about a day"
+msgstr "C039 약 며칠 정도에"
+
+#: Utility/CakeTime.php:928
+msgid "in about a week"
+msgstr "C040 약 몇 주 정도에"
+
+#: Utility/CakeTime.php:929
+msgid "in about a year"
+msgstr "C041 약 일 년정도에"
+
+#: Utility/CakeTime.php:933
+msgid "about a second ago"
+msgstr "C042 몇 초전"
+
+#: Utility/CakeTime.php:934
+msgid "about a minute ago"
+msgstr "C043 몇 분전"
+
+#: Utility/CakeTime.php:935
+msgid "about an hour ago"
+msgstr "C044 몇 시간전"
+
+#: Utility/CakeTime.php:936
+msgid "about a day ago"
+msgstr "C045 약 하루전"
+
+#: Utility/CakeTime.php:937
+msgid "about a week ago"
+msgstr "C046 약 일주일전"
+
+#: Utility/CakeTime.php:938
+msgid "about a year ago"
+msgstr "C047 약 일 년전"
+
+#: Utility/CakeTime.php:958;980
+msgid "days"
+msgstr "C048 일"
+
+#: Utility/CakeTime.php:895
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "C049 %d 년"
+msgstr[1] "C050 %d 년"
+
+#: Utility/CakeTime.php:898
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "C051 %d 달"
+msgstr[1] "C052 %d 달"
+
+#: Utility/CakeTime.php:901
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "C053 %d 주"
+msgstr[1] "C054 %d 주"
+
+#: Utility/CakeTime.php:904
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "C055 %d 일"
+msgstr[1] "C056 %d 일"
+
+#: Utility/CakeTime.php:907
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "C057 %d 시간"
+msgstr[1] "C058 %d 시간"
+
+#: Utility/CakeTime.php:910
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "C059 %d 분"
+msgstr[1] "C060 %d 분"
+
+#: Utility/CakeTime.php:913
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "C061 %d 초"
+msgstr[1] "C062 %d 초"
+
+#: Utility/String.php:701
+msgid "and"
+msgstr "C063 와 "
+
+#: View/ViewBlock.php:78
+msgid "A view block with the name '%s' is already/still open."
+msgstr "C064 '%s'이름의 View Block이 이미 열려있습니다."
+
+#: View/Helper/FormHelper.php:732
+msgid "Error in field %s"
+msgstr "C065 %s 필드에 오류가 있습니다."
+
+#: View/Helper/FormHelper.php:921
+#: View/Scaffolds/form.ctp:46
+#: View/Scaffolds/index.ctp:77;92
+#: View/Scaffolds/view.ctp:63;78;188
+msgid "New %s"
+msgstr "C066 %s 생성"
+
+#: View/Helper/FormHelper.php:927
+#: View/Scaffolds/view.ctp:51;109
+msgid "Edit %s"
+msgstr "C067 %s 편집"
+
+#: View/Helper/FormHelper.php:1500
+msgid "empty"
+msgstr "C068 비우기"
+
+#: View/Helper/FormHelper.php:1895
+#: View/Scaffolds/form.ctp:21
+msgid "Submit"
+msgstr "C069 제출"
+
+#: View/Helper/FormHelper.php:2874
+msgid "January"
+msgstr "C070 1월"
+
+#: View/Helper/FormHelper.php:2875
+msgid "February"
+msgstr "C071 2월"
+
+#: View/Helper/FormHelper.php:2876
+msgid "March"
+msgstr "C072 3월"
+
+#: View/Helper/FormHelper.php:2877
+msgid "April"
+msgstr "C073 4월"
+
+#: View/Helper/FormHelper.php:2878
+msgid "May"
+msgstr "C074 5월"
+
+#: View/Helper/FormHelper.php:2879
+msgid "June"
+msgstr "C075 6월"
+
+#: View/Helper/FormHelper.php:2880
+msgid "July"
+msgstr "C076 7월"
+
+#: View/Helper/FormHelper.php:2881
+msgid "August"
+msgstr "C077 8월"
+
+#: View/Helper/FormHelper.php:2882
+msgid "September"
+msgstr "C078 9월"
+
+#: View/Helper/FormHelper.php:2883
+msgid "October"
+msgstr "C079 10월"
+
+#: View/Helper/FormHelper.php:2884
+msgid "November"
+msgstr "C080 11월"
+
+#: View/Helper/FormHelper.php:2885
+msgid "December"
+msgstr "C081 12월"
+
+#: View/Helper/HtmlHelper.php:782
+msgid "Home"
+msgstr "C082 홈"
+
+#: View/Helper/PaginatorHelper.php:637
+msgid " of "
+msgstr "C083  중 "
+
+#: View/Scaffolds/form.ctp:25
+#: View/Scaffolds/index.ctp:24;75
+#: View/Scaffolds/view.ctp:47
+msgid "Actions"
+msgstr "C084 실행"
+
+#: View/Scaffolds/form.ctp:29
+#: View/Scaffolds/index.ctp:49
+#: View/Scaffolds/view.ctp:173
+msgid "Delete"
+msgstr "C085 삭제"
+
+#: View/Scaffolds/form.ctp:32
+#: View/Scaffolds/index.ctp:52
+#: View/Scaffolds/view.ctp:55;176
+msgid "Are you sure you want to delete # %s?"
+msgstr "C086 # %s 를 삭제하시겠습니까?"
+
+#: View/Scaffolds/form.ctp:35
+msgid "List"
+msgstr "C087 나열"
+
+#: View/Scaffolds/form.ctp:42
+#: View/Scaffolds/index.ctp:85
+#: View/Scaffolds/view.ctp:59;72
+msgid "List %s"
+msgstr "C088 %s 나열"
+
+#: View/Scaffolds/index.ctp:46
+#: View/Scaffolds/view.ctp:161
+msgid "View"
+msgstr "C089 보기"
+
+#: View/Scaffolds/index.ctp:47
+#: View/Scaffolds/view.ctp:167
+msgid "Edit"
+msgstr "C090 편집"
+
+#: View/Scaffolds/index.ctp:63
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "C091 현재 {:page}/{:pages}페이지, 현재 {:current} /{:count}레코드, 시작: {:start}, 끝:{:end}"
+
+#: View/Scaffolds/index.ctp:68
+msgid "previous"
+msgstr "C092 이전"
+
+#: View/Scaffolds/index.ctp:70
+msgid "next"
+msgstr "C093 다음"
+
+#: View/Scaffolds/view.ctp:18
+msgid "View %s"
+msgstr "C094 %s 보기"
+
+#: View/Scaffolds/view.ctp:55
+msgid "Delete %s"
+msgstr "C095 %s 삭제"
+
+#: View/Scaffolds/view.ctp:93;133
+msgid "Related %s"
+msgstr "C096 %s 관련"
+

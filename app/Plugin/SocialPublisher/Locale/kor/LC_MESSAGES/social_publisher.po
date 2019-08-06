@@ -1,0 +1,50 @@
+msgid "Auto Share on"
+msgstr "Z0001자동공유시작"
+
+msgid "Auto Share on FB/Twitter"
+msgstr "Z0002페이스북/트위터 자동공유"
+
+msgid "facebook"
+msgstr "Z0003페이스북"
+
+msgid "twitter"
+msgstr "Z0004 트위터"
+
+msgid "Connected as "
+msgstr "Z0005 연결됨"
+
+msgid "to disconnect."
+msgstr "Z0006 연결을 끊다"
+
+msgid "Publish Providers"
+msgstr "Z0007 제공 업체"
+
+msgid "Actives"
+msgstr "Z0008 활동중인 회원"
+
+msgid "Social Publisher Setting"
+msgstr "Z0009 소셜 퍼블리싱 설정"
+
+msgid "Settings"
+msgstr "Z0010 설정"
+
+msgid "Social Publisher"
+msgstr "Z0011 소셜 퍼블리싱"
+
+msgid "Facebook"
+msgstr "Z0012 페이스북"
+
+msgid "Twitter"
+msgstr "Z0013 트위터"
+
+msgid "Yes"
+msgstr "Z0014 예"
+
+msgid "No"
+msgstr "Z0015 아니요"
+
+msgid "Social Publisher Settings"
+msgstr "Z0016 소셜 퍼블리싱 설정"
+
+msgid "Share on FB/Twitter"
+msgstr "Z0017 페이스북/트위터에 공유"

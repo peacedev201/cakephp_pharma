@@ -1,0 +1,1 @@
+ALTER TABLE `{PREFIX}users` DROP COLUMN `avatar_letter`;

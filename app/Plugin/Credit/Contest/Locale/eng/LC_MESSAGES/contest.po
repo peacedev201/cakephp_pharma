@@ -1,0 +1,1851 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ContestPlugin.php:651;657
+msgid "Default Category"
+msgstr ""
+
+#: ContestPlugin.php:714
+#: View/Contests/admin_index.ctp:7;16
+msgid "Contests Manager"
+msgstr ""
+
+#: ContestPlugin.php:715
+#: View/Contests/admin_entry.ctp:7;16
+msgid "Entries Manager"
+msgstr ""
+
+#: ContestPlugin.php:716
+#: View/ContestCategories/admin_index.ctp:10
+#: View/Widgets/contest/menu.ctp:13
+msgid "Categories"
+msgstr ""
+
+#: ContestPlugin.php:717
+#: View/ContestCategories/admin_create.ctp:68
+#: View/ContestSettings/admin_index.ctp:25
+msgid "Settings"
+msgstr ""
+
+#: Controller/ContestCategoriesController.php:26
+msgid "Categories Manager"
+msgstr ""
+
+#: Controller/ContestCategoriesController.php:74
+msgid "Category has been successfully saved"
+msgstr ""
+
+#: Controller/ContestSettingsController.php:18
+#: View/ContestSettings/admin_index.ctp:15
+msgid "Contest Settings"
+msgstr ""
+
+#: Controller/ContestSettingsController.php:30
+msgid "Successfully updated"
+msgstr ""
+
+#: Controller/ContestSettingsController.php:41
+#: View/ContestSettings/admin_credit_integration.ctp:10
+msgid "Credits Integration"
+msgstr ""
+
+#: Controller/ContestsController.php:63
+#: Lib/ContestListener.php:34;156;191
+#: View/ContestSettings/admin_index.ctp:4
+#: View/Contests/browse.ctp:5;10
+#: View/Elements/menu_profile.ctp:1
+#: View/Elements/ajax/profile_contest.ctp:3
+#: View/Themed/MooApp/Plugin/Contest/Contests/browse.ctp:5;10
+#: View/Themed/MooApp/Plugin/Contest/Elements/menu_profile.ctp:1
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/profile_contest.ctp:3
+#: View/Widgets/contest/browse.ctp:4
+msgid "Contests"
+msgstr ""
+
+#: Controller/ContestsController.php:100
+#: View/Elements/ajax/contest_entries.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:38
+#: View/Elements/lists/contest_list_m.ctp:27
+#: View/Elements/lists/contests.ctp:52
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:127
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:35
+#: View/Widgets/contest/featured.ctp:47
+msgid "Entries"
+msgstr ""
+
+#: Controller/ContestsController.php:105
+msgid "Entry not found"
+msgstr ""
+
+#: Controller/ContestsController.php:109
+msgid "Successfully update entry status"
+msgstr ""
+
+#: Controller/ContestsController.php:121
+msgid "Entry has been deleted"
+msgstr ""
+
+msgid "Entry has been submitted successfully"
+msgstr ""
+
+#: Controller/ContestsController.php:134
+msgid "Entries has been deleted"
+msgstr ""
+
+#: Controller/ContestsController.php:139;149;159;171
+msgid "Contest not found"
+msgstr ""
+
+#: Controller/ContestsController.php:143
+msgid "Successfully change approve status"
+msgstr ""
+
+#: Controller/ContestsController.php:153
+msgid "Successfully change contest status"
+msgstr ""
+
+#: Controller/ContestsController.php:163
+msgid "Successfully change category"
+msgstr ""
+
+#: Controller/ContestsController.php:177
+msgid "Contest has been featured"
+msgstr ""
+
+#: Controller/ContestsController.php:180
+msgid "Contest has been un-featured"
+msgstr ""
+
+#: Controller/ContestsController.php:183
+msgid "Can not set feature contest! Please try again"
+msgstr ""
+
+#: Controller/ContestsController.php:208;285
+msgid "Contest has been deleted"
+msgstr ""
+
+#: Controller/ContestsController.php:241
+msgid "Request delete has been sent. Admin will review and delete this contest afterward"
+msgstr ""
+
+#: Controller/ContestsController.php:253
+msgid "Entry has been deleted successfully"
+msgstr ""
+
+#: Controller/ContestsController.php:263
+msgid "Entry has been approved successfully"
+msgstr ""
+
+#: Controller/ContestsController.php:273
+msgid "Entry has been set to win successfully"
+msgstr ""
+
+#: Controller/ContestsController.php:355
+msgid "Contest has been published successfully"
+msgstr ""
+
+#: Controller/ContestsController.php:358
+msgid "Can not publish contest! Please check all information try again"
+msgstr ""
+
+#: Controller/ContestsController.php:381
+#: View/Contests/create.ctp:20
+#: View/Contests/view.ctp:129;132
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:51;54
+msgid "Edit Contest"
+msgstr ""
+
+#: Controller/ContestsController.php:387
+msgid "Create new contest"
+msgstr ""
+
+#: Controller/ContestsController.php:541
+msgid "Contest has been successfully added"
+msgstr ""
+
+#: Controller/ContestsController.php:544
+msgid "Contest has been successfully updated"
+msgstr ""
+
+#: Controller/ContestsController.php:569;792
+msgid "You do not have permission to view this contest"
+msgstr ""
+
+#: Controller/ContestsController.php:633
+msgid "Approve"
+msgstr ""
+
+#: Controller/ContestsController.php:633;846
+#: View/Contests/admin_entry.ctp:136
+#: View/Contests/admin_index.ctp:169
+msgid "Delete"
+msgstr ""
+
+#: Controller/ContestsController.php:633
+#: View/Helper/ContestHelper.php:364;369
+msgid "Win"
+msgstr ""
+
+#: Controller/ContestsController.php:641
+msgid "You have joined this contest successfully."
+msgstr ""
+
+#: Controller/ContestsController.php:644;666
+msgid "Contest does not exist."
+msgstr ""
+
+#: Controller/ContestsController.php:663
+msgid "You have left this contest."
+msgstr ""
+
+#: Controller/ContestsController.php:762
+msgid "Award is required."
+msgstr ""
+
+#: Controller/ContestsController.php:771
+msgid "Terms & Conditions is required."
+msgstr ""
+
+#: Controller/ContestsController.php:900;914;988
+msgid "Access denied"
+msgstr ""
+
+#: Controller/ContestsController.php:1014
+msgid "Entries has been approved successfully"
+msgstr ""
+
+#: Controller/ContestsController.php:1020
+msgid "Entries has been denied successfully"
+msgstr ""
+
+#: Controller/ContestsController.php:1026
+msgid "Entries has been deleted successfully"
+msgstr ""
+
+#: Controller/ContestsController.php:1030
+msgid "Entries has been set to win successfully"
+msgstr ""
+
+#: Controller/ContestsController.php:1051
+msgid "You do not have permission to view this entry"
+msgstr ""
+
+#: Controller/ContestsController.php:1090;1098;1137;1150;1167;1180
+msgid "Can not vote this entry"
+msgstr ""
+
+#: Controller/ContestsController.php:1095
+msgid "Voted Successfully."
+msgstr ""
+
+#: Controller/ContestsController.php:1113;1121
+msgid "Can not un-vote this entry"
+msgstr ""
+
+#: Controller/ContestsController.php:1118
+msgid "Un-voted Successfully."
+msgstr ""
+
+#: Controller/ContestsController.php:1198
+msgid "Contest is required"
+msgstr ""
+
+#: Controller/ContestsController.php:1203;1266
+msgid "Emails is required"
+msgstr ""
+
+#: Controller/ContestsController.php:1208
+msgid "Subject is required"
+msgstr ""
+
+#: Controller/ContestsController.php:1213
+msgid "Message is required"
+msgstr ""
+
+#: Controller/ContestsController.php:1224
+msgid "Emails is invalid"
+msgstr ""
+
+#: Controller/ContestsController.php:1296
+#: View/Elements/ajax/contest_award.ctp:53
+#: View/Elements/ajax/contest_candidate.ctp:19
+#: View/Elements/ajax/contest_entries.ctp:38
+#: View/Elements/ajax/contest_policy.ctp:53
+#: View/Elements/ajax/my_entries.ctp:36
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_award.ctp:53
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_candidate.ctp:19
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:40
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_policy.ctp:53
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:38
+msgid "Contest does not exist"
+msgstr ""
+
+#: Controller/ContestsController.php:1309
+msgid "Can not edit published or closed contest"
+msgstr ""
+
+#: Controller/ContestsController.php:1325;1338
+msgid "Invalid URL. Please try again"
+msgstr ""
+
+#: Lib/ContestListener.php:274;291
+#: View/Contests/admin_entry.ctp:43
+msgid "Contest"
+msgstr ""
+
+#: Lib/ContestListener.php:320
+msgid "Find Contest"
+msgstr ""
+
+#: Lib/ContestListener.php:324
+#: View/Elements/ajax/entry_detail.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:5
+msgid "Posted by"
+msgstr ""
+
+#: Lib/ContestListener.php:359
+msgid "sec"
+msgstr ""
+
+#: Lib/ContestListener.php:360
+msgid "min"
+msgstr ""
+
+#: Lib/ContestListener.php:361
+msgid "hrs"
+msgstr ""
+
+#: Lib/ContestListener.php:362
+msgid "days"
+msgstr ""
+
+#: Lib/ContestListener.php:363
+msgid "weeks"
+msgstr ""
+
+#: Lib/ContestListener.php:364
+msgid "Drag or click here to upload music"
+msgstr ""
+
+#: Lib/ContestListener.php:365
+msgid "You can only approve Pending approval entries"
+msgstr ""
+
+#: Lib/ContestListener.php:366
+msgid "Please select entry to continue submission"
+msgstr ""
+
+#: Lib/ContestListener.php:367
+msgid "Can not vote entry"
+msgstr ""
+
+#: Lib/ContestListener.php:368
+msgid "Can not un-vote entry"
+msgstr ""
+
+#: Lib/ContestListener.php:369
+msgid "Please select at least one list"
+msgstr ""
+
+#: Lib/ContestListener.php:370
+msgid "Are you sure you want to set entry to win? This contest will be closed."
+msgstr ""
+
+#: Lib/ContestListener.php:371
+msgid "Are you sure you want to deny this entry?"
+msgstr ""
+
+#: Lib/ContestListener.php:372
+msgid "Are you sure you want to deny entries?"
+msgstr ""
+
+#: Lib/ContestListener.php:373
+#: View/Contests/admin_entry.ctp:136
+msgid "Are you sure you want to delete this entry?"
+msgstr ""
+
+#: Lib/ContestListener.php:374
+msgid "Are you sure you want to request delete this contest? Admin will review and delete this contest."
+msgstr ""
+
+#: Lib/ContestListener.php:375
+msgid "Are you sure you want to delete entries?"
+msgstr ""
+
+#: Lib/ContestListener.php:376
+msgid "Are you sure you want to approve this entry?"
+msgstr ""
+
+#: Lib/ContestListener.php:377
+msgid "Are you sure you want to approve entries?"
+msgstr ""
+
+#: Lib/ContestListener.php:378
+msgid "Are you sure you want to set win for entries? This contest will be closed."
+msgstr ""
+
+#: Lib/ContestListener.php:379
+msgid "Are you sure you want to leave this contest? All submitted entry will be removed."
+msgstr ""
+
+#: Lib/ContestListener.php:380
+#: View/Contests/admin_index.ctp:169
+msgid "Are you sure you want to delete this contest?"
+msgstr ""
+
+#: Lib/ContestListener.php:381
+#: Model/Contest.php:validation for field duration_start
+msgid "Contest Duration: Start date must be greater than current date"
+msgstr ""
+
+#: Lib/ContestListener.php:382
+#: Model/Contest.php:validation for field duration_end
+msgid "Contest Duration: End date must be greater than current date"
+msgstr ""
+
+#: Lib/ContestListener.php:383
+#: Model/Contest.php:validation for field duration_end
+msgid "Contest Duration: End date must be greater than Start date"
+msgstr ""
+
+#: Lib/ContestListener.php:384
+#: Model/Contest.php:validation for field submission_start
+msgid "Submit Entries Duration: Start date must be greater than current date"
+msgstr ""
+
+#: Lib/ContestListener.php:385
+#: Model/Contest.php:validation for field submission_end
+msgid "Submit Entries Duration: End date must be greater than current date"
+msgstr ""
+
+#: Lib/ContestListener.php:386
+#: Model/Contest.php:validation for field submission_end
+msgid "Submit Entries Duration: End date must be greater than Start date"
+msgstr ""
+
+#: Lib/ContestListener.php:387
+#: Model/Contest.php:validation for field voting_start
+msgid "Voting Duration: Start date must be greater than current date"
+msgstr ""
+
+#: Lib/ContestListener.php:388
+#: Model/Contest.php:validation for field voting_end
+msgid "Voting Duration: End date must be greater than current date"
+msgstr ""
+
+#: Lib/ContestListener.php:389
+#: Model/Contest.php:validation for field voting_end
+msgid "Voting Duration: End date must be greater than Start date"
+msgstr ""
+
+#: Lib/ContestListener.php:390
+msgid "Start of Submit Entries Duration must be greater than or equal to the Start of Contest Duration"
+msgstr ""
+
+#: Lib/ContestListener.php:391
+#: Model/Contest.php:validation for field submission_end
+msgid "End of Contest Duration must be greater than or equal to the End of Submit Entries Duration"
+msgstr ""
+
+#: Lib/ContestListener.php:392
+msgid "Start of Voting Duration must be greater than or equal to the Start of Submit Entries Duration"
+msgstr ""
+
+#: Lib/ContestListener.php:393
+#: Model/Contest.php:validation for field voting_end
+msgid "End of Voting Duration must be greater than or equal to the End of Submit Entries Duration"
+msgstr ""
+
+#: Lib/ContestListener.php:394
+msgid "When the contest is published, you can not edit any information. You should choose Save as Draft to make sure that all information are correct before publishing."
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:62
+msgid "Add New Category"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:70
+#: View/ContestCategories/admin_index.ctp:63
+#: View/Contests/admin_index.ctp:83
+msgid "Name"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:72
+msgid "Enter text"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:76
+msgid "You can add translation language after creating category"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:87;88
+msgid "Translation"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:99
+#: View/ContestCategories/admin_index.ctp:67
+msgid "Header"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:105
+msgid "Category header is top level category<br />which does not allow items to be posted"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:112
+msgid "Parent Category"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:119
+#: View/Contests/create.ctp:62
+#: View/Elements/ajax/contest_detail.ctp:44
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:51
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:44
+msgid "Description"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:126
+#: View/ContestCategories/admin_index.ctp:68
+msgid "Active"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:137
+msgid "Post Permission"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:145
+msgid "Close"
+msgstr ""
+
+#: View/ContestCategories/admin_create.ctp:146
+#: View/Elements/ajax/contest_award.ctp:31
+#: View/Elements/ajax/contest_policy.ctp:31
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_award.ctp:31
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_policy.ctp:31
+msgid "Save"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:2
+#: View/ContestSettings/admin_credit_integration.ctp:2
+#: View/ContestSettings/admin_index.ctp:14
+#: View/Contests/admin_entry.ctp:6
+#: View/Contests/admin_index.ctp:6
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:3
+msgid "Contest Categories"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:38
+msgid "Add New"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:41
+msgid "Save order"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:52
+msgid "You can enable Spam Challenge to force user to answer a challenge question in order to register."
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:53
+msgid "To enable this feature, click System Settings -> Security -> Enable Spam Challenge"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:62
+#: View/Contests/admin_entry.ctp:67
+#: View/Contests/admin_index.ctp:81
+msgid "ID"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:64
+msgid "Order"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:65
+#: View/Contests/admin_index.ctp:82
+msgid "Type"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:66
+msgid "Parent"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:69
+msgid "Count"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:70
+msgid "Actions"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:97
+msgid "ROOT"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:98;99
+#: View/ContestSettings/admin_credit_integration.ctp:31
+#: View/Contests/admin_index.ctp:157
+msgid "Yes"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:98;99
+#: View/ContestSettings/admin_credit_integration.ctp:31
+#: View/Contests/admin_index.ctp:157
+msgid "No"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:102
+msgid "Are you sure you want to delete this category? All parent of sub-category it will also be changed to ROOT. This cannot be undone!"
+msgstr ""
+
+#: View/ContestCategories/admin_index.ctp:104
+msgid "Are you sure you want to delete this category? All the items within it will also be deleted. This cannot be undone!"
+msgstr ""
+
+#: View/ContestSettings/admin_credit_integration.ctp:3
+msgid "Credit Integration"
+msgstr ""
+
+#: View/ContestSettings/admin_credit_integration.ctp:20
+msgid "You need to install credit plugin first. Please purchase credits plugin at"
+msgstr ""
+
+#: View/ContestSettings/admin_credit_integration.ctp:27
+msgid "Integrate with credits system"
+msgstr ""
+
+#: View/ContestSettings/admin_credit_integration.ctp:38
+#: View/Contests/edit_entry.ctp:29
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:29
+msgid "Save Changes"
+msgstr ""
+
+#: View/ContestSettings/admin_index.ctp:2
+msgid "Enable Contest Hashtag"
+msgstr ""
+
+#: View/ContestSettings/admin_index.ctp:3
+msgid "Auto Approved Contest"
+msgstr ""
+
+#: View/ContestSettings/admin_index.ctp:5;7
+msgid "Item per pages"
+msgstr ""
+
+#: View/ContestSettings/admin_index.ctp:6
+msgid "The number of contests to display per page"
+msgstr ""
+
+#: View/ContestSettings/admin_index.ctp:8
+msgid "Create/Edit Contest"
+msgstr ""
+
+#: View/ContestSettings/admin_index.ctp:9
+#: View/Contests/edit_entry.ctp:10
+#: View/Contests/select_photos.ctp:25
+#: View/Contests/select_videos.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:10
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_photos.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_videos.ctp:25
+msgid "View Contest"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:24
+#: View/Contests/admin_index.ctp:24;32;40
+msgid "Are you sure?"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:36
+msgid "Are you sure you want to delete selected entries"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:47;71
+msgid "Status"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:56
+#: View/Contests/admin_index.ctp:73
+msgid "Search"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:68
+msgid "Entry"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:69
+#: View/Contests/admin_index.ctp:86
+msgid "Owner"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:70
+#: View/Contests/create.ctp:53
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:46
+msgid "Contest Name"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:72
+msgid "Vote Count"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:73
+#: View/Contests/admin_index.ctp:90
+msgid "Created date"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:74
+#: View/Contests/admin_index.ctp:91
+msgid "Action"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:143
+msgid "No entries found"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:152
+#: View/Contests/admin_index.ctp:177
+msgid "Prev"
+msgstr ""
+
+#: View/Contests/admin_entry.ctp:154
+#: View/Contests/admin_index.ctp:179
+#: View/Widgets/contest/featured.ctp:80
+msgid "Next"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:50
+msgid "Title"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:54;87
+#: View/Contests/create.ctp:44
+msgid "Category"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:63
+#: View/Elements/blocks/cover_menu.ctp:14
+#: View/Elements/lists/contest_list_m.ctp:8
+#: View/Elements/lists/contests.ctp:31
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:19
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:14
+msgid "Featured"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:64
+msgid "yes"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:64
+msgid "no"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:84
+msgid "Approve Status"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:85
+msgid "Contest Status"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:88
+msgid "Auto Approve Entry"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:89;163
+msgid "Feature"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:108
+#: View/Helper/ContestHelper.php:344
+msgid "Approved"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:109
+#: View/Helper/ContestHelper.php:362;369
+msgid "Pending"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:110
+#: View/Helper/ContestHelper.php:337;345
+msgid "Denied"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:125;130
+#: View/Helper/ContestHelper.php:332;352
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:12
+#: View/Widgets/contest/featured.ctp:34
+msgid "Closed"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:128
+#: View/Helper/ContestHelper.php:329;353
+msgid "Draft"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:129
+#: View/Helper/ContestHelper.php:354;363;369
+msgid "Published"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:161
+msgid "Are you sure you want to un-feature this contest?"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:161
+msgid "Un-feature"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:163
+msgid "Are you sure you want to set feature this contest?"
+msgstr ""
+
+#: View/Contests/admin_index.ctp:183
+msgid "No contest found"
+msgstr ""
+
+#: View/Contests/browse.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Contests/browse.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:33
+#: View/Widgets/contest/browse.ctp:6
+msgid "Create New Contest"
+msgstr ""
+
+#: View/Contests/browse.ctp:17
+#: View/Elements/ajax/winning_entries.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Contests/browse.ctp:17
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:45
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/winning_entries.ctp:21
+msgid "No more results found"
+msgstr ""
+
+#: View/Contests/create.ctp:4
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:4
+msgid "Drag or click here to upload photo"
+msgstr ""
+
+#: View/Contests/create.ctp:22
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:22
+msgid "Add new Contest"
+msgstr ""
+
+#: View/Contests/create.ctp:35
+msgid "Contest Type"
+msgstr ""
+
+#: View/Contests/create.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:35
+msgid "Photo Contest"
+msgstr ""
+
+#: View/Contests/create.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:35
+msgid "Music Contest"
+msgstr ""
+
+#: View/Contests/create.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:35
+msgid "Video Contest"
+msgstr ""
+
+#: View/Contests/create.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:35
+msgid "Select contest type"
+msgstr ""
+
+#: View/Contests/create.ctp:47
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:40
+msgid "Select category"
+msgstr ""
+
+#: View/Contests/create.ctp:71
+#: View/Elements/ajax/contest_award.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:55
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:57
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:154
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_award.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:52
+msgid "Award"
+msgstr ""
+
+#: View/Contests/create.ctp:80
+#: View/Elements/ajax/contest_policy.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:60
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:63
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:159
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_policy.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:57
+msgid "Terms & Conditions"
+msgstr ""
+
+#: View/Contests/create.ctp:89
+#: View/Elements/ajax/aj_fetch.ctp:10
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/aj_fetch.ctp:10
+msgid "Thumbnail"
+msgstr ""
+
+#: View/Contests/create.ctp:104
+#: View/Elements/ajax/contest_detail.ctp:16
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:81
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:16
+#: View/Widgets/contest/countdown.ctp:14
+msgid "Contest Duration"
+msgstr ""
+
+#: View/Contests/create.ctp:108;143;178
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:87;124;161
+msgid "Start"
+msgstr ""
+
+#: View/Contests/create.ctp:112;128;147;163;182;198
+msgid "Select date"
+msgstr ""
+
+#: View/Contests/create.ctp:116;132;151;167;186;202
+msgid "Select time"
+msgstr ""
+
+#: View/Contests/create.ctp:124;159;194
+#: View/Contests/view.ctp:27
+#: View/Elements/blocks/countdown.ctp:4
+#: View/Helper/ContestHelper.php:626;650;674
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:104;141;178
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:187
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:4
+msgid "End"
+msgstr ""
+
+#: View/Contests/create.ctp:139
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:118
+msgid "Submit Entries Duration"
+msgstr ""
+
+#: View/Contests/create.ctp:174
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:155
+msgid "Voting Duration"
+msgstr ""
+
+#: View/Contests/create.ctp:210
+msgid "Timezone"
+msgstr ""
+
+#: View/Contests/create.ctp:223
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:200
+msgid "Allow other members to vote for an entry without joining the contest"
+msgstr ""
+
+#: View/Contests/create.ctp:233
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:207
+msgid "Set entries automatically approved"
+msgstr ""
+
+#: View/Contests/create.ctp:239
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:214
+msgid "Maximum entries a participant can submit"
+msgstr ""
+
+msgid "Maximum entries"
+msgstr ""
+
+#: View/Contests/create.ctp:243
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:216
+msgid "Set 0 for unlimited entries"
+msgstr ""
+
+#: View/Contests/create.ctp:250
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:223
+msgid "Submit Entry Fee(Credit)"
+msgstr ""
+
+#: View/Contests/create.ctp:254
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:225
+msgid "Set 0 for free"
+msgstr ""
+
+#: View/Contests/create.ctp:260
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:230
+msgid "% credit for winner"
+msgstr ""
+
+#: View/Contests/create.ctp:264
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:234
+msgid "Commission credit fee for admin is %s"
+msgstr ""
+
+#: View/Contests/create.ctp:275
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:243
+msgid "Tags"
+msgstr ""
+
+#: View/Contests/create.ctp:275
+msgid "Separated by commas or space"
+msgstr ""
+
+#: View/Contests/create.ctp:284
+msgid "Privacy"
+msgstr ""
+
+#: View/Contests/create.ctp:289
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:250
+msgid "Everyone"
+msgstr ""
+
+#: View/Contests/create.ctp:290
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:251
+msgid "Friends Only"
+msgstr ""
+
+#: View/Contests/create.ctp:291
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:252
+msgid "Only Me"
+msgstr ""
+
+#: View/Contests/create.ctp:310
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:269
+msgid "Save as Draft"
+msgstr ""
+
+#: View/Contests/create.ctp:311
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:270
+msgid "Publish"
+msgstr ""
+
+#: View/Contests/create.ctp:320
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:279
+msgid "* is required fields"
+msgstr ""
+
+#: View/Contests/edit_entry.ctp:9
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:9
+msgid "Edit entry of %s"
+msgstr ""
+
+#: View/Contests/edit_entry.ctp:20
+#: View/Contests/select_photos.ctp:44
+#: View/Contests/select_videos.ctp:34
+#: View/Elements/ajax/aj_fetch.ctp:21
+#: View/Elements/ajax/submit_entry_music.ctp:44;60
+#: View/Elements/ajax/submit_entry_photo.ctp:41;59
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_photos.ctp:44
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_videos.ctp:34
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/aj_fetch.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:44;60
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:41;59
+msgid "Caption"
+msgstr ""
+
+#: View/Contests/edit_entry.ctp:30
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:30
+msgid "Cancel"
+msgstr ""
+
+#: View/Contests/entry.ctp:20;26
+#: View/Elements/lists/entries_list.ctp:54;60
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:43
+msgid "Un-vote"
+msgstr ""
+
+#: View/Contests/entry.ctp:21;25;58
+#: View/Elements/ajax/entry_detail.ctp:8
+#: View/Elements/lists/entries_list.ctp:38;55;59;66
+#: View/Elements/lists/entries_list_m.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:47
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:8
+msgid "Vote"
+msgstr ""
+
+#: View/Contests/entry.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:20
+msgid "Edit Entry"
+msgstr ""
+
+#: View/Contests/entry.ctp:41
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:23
+msgid "Delete Entry"
+msgstr ""
+
+#: View/Contests/entry.ctp:45
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:27
+msgid "Approve Entry"
+msgstr ""
+
+#: View/Contests/entry.ctp:48
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:30
+msgid "Set to win"
+msgstr ""
+
+#: View/Contests/entry.ctp:51
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:33
+msgid "Report Entry"
+msgstr ""
+
+#: View/Contests/invite.ctp:13
+#: View/Contests/view.ctp:117;118;124
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:13
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:39;40;46
+msgid "Invite"
+msgstr ""
+
+#: View/Contests/invite.ctp:17
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:17
+msgid "Enter your friends' emails below (separated by commas). Limit 10 email addresses per request"
+msgstr ""
+
+#: View/Contests/invite.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:25
+msgid "Emails"
+msgstr ""
+
+#: View/Contests/invite.ctp:34
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:34
+msgid "Subject"
+msgstr ""
+
+#: View/Contests/invite.ctp:43
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:43
+msgid "Message"
+msgstr ""
+
+#: View/Contests/invite.ctp:55
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:55
+msgid "Send Message"
+msgstr ""
+
+#: View/Contests/select_photos.ctp:46
+#: View/Contests/select_videos.ctp:36
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_photos.ctp:46
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_videos.ctp:36
+msgid "Add to contest"
+msgstr ""
+
+#: View/Contests/view.ctp:27
+#: View/Elements/blocks/countdown.ctp:13;25;37
+#: View/Helper/ContestHelper.php:620;644;668
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:187
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:13;25;37
+msgid "Coming"
+msgstr ""
+
+#: View/Contests/view.ctp:29;37
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:189;197
+msgid "Duration"
+msgstr ""
+
+#: View/Contests/view.ctp:46
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:198
+msgid "Submission"
+msgstr ""
+
+#: View/Contests/view.ctp:53
+#: View/Elements/ajax/contest_detail.ctp:30
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:199
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:30
+#: View/Widgets/contest/countdown.ctp:30
+msgid "Voting"
+msgstr ""
+
+#: View/Contests/view.ctp:75
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:82
+msgid "Leave"
+msgstr ""
+
+#: View/Contests/view.ctp:79;86
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:88;97
+msgid "Join"
+msgstr ""
+
+#: View/Contests/view.ctp:100;101
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:113;114
+msgid "Submit Entry"
+msgstr ""
+
+#: View/Contests/view.ctp:129
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:51
+msgid "Publish Contest"
+msgstr ""
+
+#: View/Contests/view.ctp:136;139;141
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:58;61;63
+msgid "Delete Contest"
+msgstr ""
+
+#: View/Contests/view.ctp:146
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:68
+msgid "Report Contest"
+msgstr ""
+
+#: View/Contests/view.ctp:156;162
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:232;238
+msgid "Loading..."
+msgstr ""
+
+#: View/Elements/menu_welcome.ctp:1
+#: View/Widgets/contest/menu.ctp:9
+msgid "My Contests"
+msgstr ""
+
+#: View/Elements/activity/content/contest_create_share.ctp:25
+#: View/Elements/activity/share/contest_create.ctp:13
+#: View/Elements/activity/text/contest_create.ctp:2
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/content/contest_create_share.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/share/contest_create.ctp:13
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_create.ctp:2
+msgid "posted a new contest"
+msgstr ""
+
+#: View/Elements/activity/content/contest_entry_create_share.ctp:25
+#: View/Elements/activity/share/contest_entry_create.ctp:13
+#: View/Elements/activity/text/contest_entry_create.ctp:4
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/content/contest_entry_create_share.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/share/contest_entry_create.ctp:13
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_create.ctp:4
+msgid "submitted a entry to"
+msgstr ""
+
+#: View/Elements/activity/text/contest_create_share.ctp:6
+#: View/Elements/activity/text/contest_entry_create_share.ctp:6
+#: View/Elements/activity/text/contest_entry_item_detail_share.ctp:5
+#: View/Elements/activity/text/contest_item_detail_share.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_create_share.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_create_share.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_item_detail_share.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_item_detail_share.ctp:5
+msgid "shared"
+msgstr ""
+
+#: View/Elements/activity/text/contest_create_share.ctp:15
+#: View/Elements/activity/text/contest_entry_create_share.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_create_share.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_create_share.ctp:15
+msgid "post"
+msgstr ""
+
+#: View/Elements/activity/text/contest_entry_item_detail_share.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_item_detail_share.ctp:6
+msgid "entry"
+msgstr ""
+
+#: View/Elements/activity/text/contest_item_detail_share.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_item_detail_share.ctp:6
+msgid "contest"
+msgstr ""
+
+#: View/Elements/ajax/aj_fetch.ctp:33
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/aj_fetch.ctp:33
+msgid "Submit Video"
+msgstr ""
+
+#: View/Elements/ajax/contest_award.ctp:17;48
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_award.ctp:17;48
+msgid "Edit Award"
+msgstr ""
+
+#: View/Elements/ajax/contest_candidate.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:65
+#: View/Elements/lists/contest_list_m.ctp:23
+#: View/Elements/lists/contests.ctp:48
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:149
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_candidate.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:62
+#: View/Widgets/contest/featured.ctp:52
+msgid "Candidates"
+msgstr ""
+
+#: View/Elements/ajax/contest_detail.ctp:2
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:2
+msgid "Contest Information"
+msgstr ""
+
+#: View/Elements/ajax/contest_detail.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:5
+msgid "Posted by %s"
+msgstr ""
+
+#: View/Elements/ajax/contest_detail.ctp:18;25;32
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:18;25;32
+msgid "Start Date: %s"
+msgstr ""
+
+#: View/Elements/ajax/contest_detail.ctp:19;26;33
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:19;26;33
+msgid "End Date: %s"
+msgstr ""
+
+#: View/Elements/ajax/contest_detail.ctp:23
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:23
+#: View/Widgets/contest/countdown.ctp:22
+#: View/Widgets/contest/featured.ctp:57
+msgid "Submit Entries"
+msgstr ""
+
+#: View/Elements/ajax/contest_detail.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:38
+msgid "Submit entry fee"
+msgstr ""
+
+#: View/Elements/ajax/contest_detail.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:38
+msgid "%s Credit"
+msgstr ""
+
+#: View/Elements/ajax/contest_detail.ctp:40
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:40
+msgid "Maximum entries a candidate can submit"
+msgstr ""
+
+#: View/Elements/ajax/contest_detail.ctp:40
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:40
+msgid "Unlimited"
+msgstr ""
+
+#: View/Elements/ajax/contest_entries.ctp:20
+#: View/Elements/ajax/my_entries.ctp:19
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:19
+msgid "Approved Entries"
+msgstr ""
+
+#: View/Elements/ajax/contest_entries.ctp:21
+#: View/Elements/ajax/my_entries.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:20
+msgid "Pending Entries"
+msgstr ""
+
+#: View/Elements/ajax/contest_entries.ctp:33
+#: View/Elements/ajax/my_entries.ctp:31
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:34
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:32
+msgid "With selected..."
+msgstr ""
+
+#: View/Elements/ajax/contest_policy.ctp:17;48
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_policy.ctp:17;48
+msgid "Edit Terms & Conditions"
+msgstr ""
+
+#: View/Elements/ajax/entry_detail.ctp:8
+#: View/Elements/lists/entries_list.ctp:38
+#: View/Elements/lists/entries_list_m.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:8
+msgid "People Who Vote This"
+msgstr ""
+
+#: View/Elements/ajax/entry_detail.ctp:8
+#: View/Elements/lists/entries_list.ctp:38
+#: View/Elements/lists/entries_list_m.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:8
+msgid "Votes"
+msgstr ""
+
+#: View/Elements/ajax/entry_detail.ctp:18;20
+#: View/Elements/lists/entries_list.ctp:41
+#: View/Elements/lists/entries_list_m.ctp:24
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:18;20
+msgid "Views"
+msgstr ""
+
+#: View/Elements/ajax/entry_detail.ctp:18;20
+#: View/Elements/lists/entries_list.ctp:41
+#: View/Elements/lists/entries_list_m.ctp:24
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:18;20
+msgid "View"
+msgstr ""
+
+#: View/Elements/ajax/entry_detail.ctp:51;53
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:51;53
+msgid "Previous Entry"
+msgstr ""
+
+#: View/Elements/ajax/entry_detail.ctp:56;58
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:56;58
+msgid "Next Entry"
+msgstr ""
+
+#: View/Elements/ajax/home_contest.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/home_contest.ctp:15
+msgid "My Posted Contests"
+msgstr ""
+
+#: View/Elements/ajax/home_contest.ctp:16
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/home_contest.ctp:16
+#: View/Widgets/contest/menu.ctp:10
+msgid "My Joined Contests"
+msgstr ""
+
+#: View/Elements/ajax/my_entries.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:44
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:133
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:41
+msgid "My Entries"
+msgstr ""
+
+#: View/Elements/ajax/profile_contest.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/profile_contest.ctp:5
+msgid "Create a new contest"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_music.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:15
+msgid "Music Submission"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_music.ctp:22
+#: View/Elements/ajax/submit_entry_photo.ctp:22
+#: View/Elements/ajax/submit_entry_video.ctp:27
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:22
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:22
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:27
+msgid "Entry Submission Fee: %s credit(s)"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_music.ctp:32
+#: View/Elements/ajax/submit_entry_photo.ctp:32
+#: View/Elements/ajax/submit_entry_video.ctp:37
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:32
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:32
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:37
+msgid "Your current credit balance: %s not enough to submit entry on this contest, please check your credits balance"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_music.ctp:45;61
+#: View/Elements/ajax/submit_entry_photo.ctp:42;60
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:45;61
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:42;60
+msgid "Continue"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_photo.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:15
+msgid "Photo Submission"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_photo.ctp:47;65
+#: View/Elements/ajax/submit_entry_video.ctp:81;128
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:47;65
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:81;128
+msgid "Or"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_photo.ctp:47;65
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:47;65
+msgid "Select your photos"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_video.ctp:19
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:19
+msgid "Video Submission"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_video.ctp:42;89
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:42;89
+msgid "Copy and paste the video url in the text field below"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_video.ctp:50;97
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:50;97
+msgid "YouTube"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_video.ctp:50;97
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:50;97
+msgid "Vimeo"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_video.ctp:58;105
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:58;105
+msgid "URL"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_video.ctp:69;116
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:69;116
+msgid "Fetch Video"
+msgstr ""
+
+#: View/Elements/ajax/submit_entry_video.ctp:81;128
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:81;128
+msgid "Select your videos"
+msgstr ""
+
+#: View/Elements/ajax/user_votes.ctp:18
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/user_votes.ctp:18
+msgid "%s Peoples Vote This"
+msgstr ""
+
+#: View/Elements/ajax/user_votes.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/user_votes.ctp:20
+msgid "%s People Vote This"
+msgstr ""
+
+#: View/Elements/ajax/winning_entries.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/winning_entries.ctp:14
+msgid "Winning Etries"
+msgstr ""
+
+#: View/Elements/blocks/countdown.ctp:16
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:16
+msgid "Contest will be started in"
+msgstr ""
+
+#: View/Elements/blocks/countdown.ctp:18;30;42
+#: View/Helper/ContestHelper.php:623;647;671
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:18;30;42
+msgid "On Going"
+msgstr ""
+
+#: View/Elements/blocks/countdown.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:21
+msgid "Contest will be finished in"
+msgstr ""
+
+#: View/Elements/blocks/countdown.ctp:28
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:28
+msgid "Submission will be started in"
+msgstr ""
+
+#: View/Elements/blocks/countdown.ctp:33
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:33
+msgid "Submission will be finished in"
+msgstr ""
+
+#: View/Elements/blocks/countdown.ctp:40
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:40
+msgid "Voting will be started in"
+msgstr ""
+
+#: View/Elements/blocks/countdown.ctp:45
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:45
+msgid "Voting will be finished in"
+msgstr ""
+
+#: View/Elements/blocks/cover_menu.ctp:50
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:139
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:47
+msgid "Detail"
+msgstr ""
+
+#: View/Elements/blocks/cover_menu.ctp:71
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:165
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:68
+msgid "Winning Entries"
+msgstr ""
+
+#: View/Elements/blocks/credit_highlight.ctp:4
+msgid "Join to win %s credits"
+msgstr ""
+
+#: View/Elements/blocks/music_player.ctp:34
+msgid "play"
+msgstr ""
+
+#: View/Elements/blocks/music_player.ctp:38
+msgid "mute"
+msgstr ""
+
+#: View/Elements/blocks/music_player.ctp:39
+msgid "max volume"
+msgstr ""
+
+#: View/Elements/blocks/music_player.ctp:50
+msgid "repeat"
+msgstr ""
+
+#: View/Elements/lists/candidate_list.ctp:23
+#: View/Elements/lists/contests.ctp:87
+#: View/Elements/lists/entries_list.ctp:78
+msgid "No results found"
+msgstr ""
+
+#: View/Elements/lists/contest_list_m.ctp:42
+#: View/Elements/lists/contests.ctp:65
+msgid "by"
+msgstr ""
+
+#: View/Elements/lists/entries_list.ctp:47
+msgid "By"
+msgstr ""
+
+#: View/Elements/log_text/contest.ctp:4
+msgid "deleted"
+msgstr ""
+
+#: View/Elements/log_text/contest.ctp:7
+msgid "Published contest %s"
+msgstr ""
+
+#: View/Elements/notification/approved.ctp:2
+msgid "congrats, your contest has been approved"
+msgstr ""
+
+#: View/Elements/notification/contest_join.ctp:4
+msgid "joined your contest"
+msgstr ""
+
+#: View/Elements/notification/delete_entry.ctp:5
+msgid "delete your entry on contest"
+msgstr ""
+
+#: View/Elements/notification/entry_approved.ctp:2
+msgid "congrats, your submitted entry has been approved"
+msgstr ""
+
+#: View/Elements/notification/entry_win.ctp:5
+msgid "congrats, you have won the"
+msgstr ""
+
+#: View/Elements/notification/owner_entry_win.ctp:2
+msgid "congrats, contest has been closed. Please review it."
+msgstr ""
+
+#: View/Elements/notification/pending.ctp:2
+msgid "Sorry, your contest has been pending"
+msgstr ""
+
+#: View/Elements/notification/request_approve.ctp:2
+msgid "added a new contest. Please review and approve."
+msgstr ""
+
+#: View/Elements/notification/request_approve_entry.ctp:2
+msgid "added a new entry. Please review and approve."
+msgstr ""
+
+#: View/Elements/notification/request_delete.ctp:2
+msgid "requested delete a contest. Please review and delete."
+msgstr ""
+
+#: View/Elements/notification/submit_entry.ctp:5
+msgid "submitted a entry to contest"
+msgstr ""
+
+#: View/Helper/ContestHelper.php:335;346
+msgid "Pending approval"
+msgstr ""
+
+#: View/Helper/ContestHelper.php:704
+msgid "%s years left"
+msgstr ""
+
+#: View/Helper/ContestHelper.php:707
+msgid "%s months left"
+msgstr ""
+
+#: View/Helper/ContestHelper.php:710
+msgid "%s days left"
+msgstr ""
+
+#: View/Helper/ContestHelper.php:713
+msgid "%s hours left"
+msgstr ""
+
+#: View/Helper/ContestHelper.php:716
+msgid "%s minutes left"
+msgstr ""
+
+#: View/Helper/ContestHelper.php:719
+msgid "%s seconds left"
+msgstr ""
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:10
+msgid "Ongoing"
+msgstr ""
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:11
+msgid "Upcoming"
+msgstr ""
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:14
+msgid "Posted Contests"
+msgstr ""
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:15
+msgid "Joined Contests"
+msgstr ""
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:23
+msgid "All Categories"
+msgstr ""
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:38
+#: View/Widgets/contest/menu.ctp:43
+msgid "Enter keyword to search"
+msgstr ""
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:144
+msgid "More"
+msgstr ""
+
+#: View/Widgets/contest/featured.ctp:37
+msgid "Start Contest On: %s"
+msgstr ""
+
+#: View/Widgets/contest/featured.ctp:39
+msgid "End Contest On: %s"
+msgstr ""
+
+#: View/Widgets/contest/featured.ctp:76
+msgid "Previous"
+msgstr ""
+
+#: View/Widgets/contest/menu.ctp:4
+msgid "Ongoing Contests"
+msgstr ""
+
+#: View/Widgets/contest/menu.ctp:5
+msgid "Upcoming Contests"
+msgstr ""
+
+#: View/Widgets/contest/menu.ctp:6
+msgid "Closed Contests"
+msgstr ""
+
+#: View/Widgets/contest/winner.ctp:36
+msgid "No winning entries"
+msgstr ""
+
+#: Model/Contest.php:validation for field type
+msgid "Contest Type is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field category_id
+msgid "Category is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field name
+msgid "Contest Name is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field description
+msgid "Description is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field award
+msgid "Award is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field term_and_condition
+msgid "Terms & Conditions is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field from
+msgid "Contest Duration: Start is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field from_time
+msgid "Contest Duration Start: Please select time"
+msgstr ""
+
+#: Model/Contest.php:validation for field duration_start;validation for field duration_end
+msgid "Contest Duration is required, Please select date and time."
+msgstr ""
+
+#: Model/Contest.php:validation for field to
+msgid "Contest Duration: End is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field to_time
+msgid "Contest Duration End: Please select time"
+msgstr ""
+
+#: Model/Contest.php:validation for field s_from
+msgid "Submit Entries Duration: Start is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field s_from_time
+msgid "Submit Entries Duration Start: Please select time"
+msgstr ""
+
+#: Model/Contest.php:validation for field submission_start
+msgid "Submit Entries Duration is required, Please select date and time."
+msgstr ""
+
+#: Model/Contest.php:validation for field submission_start
+msgid "Start of Submit Entries Duration must be greater than or equal to the Start of Contest Duration."
+msgstr ""
+
+#: Model/Contest.php:validation for field s_to
+msgid "Submit Entries Duration: End is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field s_to_time
+msgid "Submit Entries Duration End: Please select time"
+msgstr ""
+
+#: Model/Contest.php:validation for field submission_end
+msgid "Submit Entries Duration: End is required, Please select date and time."
+msgstr ""
+
+#: Model/Contest.php:validation for field v_from
+msgid "Voting Duration: Start is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field v_from_time
+msgid "Voting Duration Start: Please select time"
+msgstr ""
+
+#: Model/Contest.php:validation for field voting_start
+msgid "Voting Duration: Start is required, Please select date and time."
+msgstr ""
+
+#: Model/Contest.php:validation for field voting_start
+msgid "Start of Voting Duration must be greater than or equal to the Start of Submit Entries Duration."
+msgstr ""
+
+#: Model/Contest.php:validation for field v_to
+msgid "Voting Duration: End is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field v_to_time
+msgid "Voting Duration End: Please select time"
+msgstr ""
+
+#: Model/Contest.php:validation for field voting_end
+msgid "Voting Duration: End is required, Please select date and time."
+msgstr ""
+
+#: Model/Contest.php:validation for field maximum_entry
+msgid "Maximum entries a participant can submit is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field submit_entry_fee
+msgid "Submit Entry Fee is required, Please enter decimal number."
+msgstr ""
+
+#: Model/Contest.php:validation for field submit_entry_fee
+msgid "Submit Entry Fee is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field win_percent
+msgid "% credit for winner is required, Please enter decimal number."
+msgstr ""
+
+#: Model/Contest.php:validation for field win_percent
+msgid "% credit for winner is required"
+msgstr ""
+
+#: Model/Contest.php:validation for field tags
+msgid "No special characters ( /,?,#,%,...) allowed in Tags"
+msgstr ""
+
+msgid "By pass force login"
+msgstr ""
+
+msgid "shared %s's contest"
+msgstr ""
+
+msgid "shared %s's entry"
+msgstr ""

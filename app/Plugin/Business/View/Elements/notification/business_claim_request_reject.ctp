@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('business', ' reject your claim request for "%s"'), $notification['Notification']['params']); ?>

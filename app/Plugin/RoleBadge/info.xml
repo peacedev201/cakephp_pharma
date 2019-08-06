@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>User Badges</name>
+    <key>RoleBadge</key>
+    <version>1.3</version>
+    <description>User Badge Plugin</description>
+    <author>mooSocial - Tan.TT</author>
+    <website>www.moosocial.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <settings>
+        <setting>
+            <label>User Badge Enabled</label>
+            <name>role_badge_enabled</name>
+            <description></description>
+            <type>radio</type>
+            <values>
+                <value>
+                    <name>Enable</name>
+                    <value>1</value>
+                    <select>1</select>
+                </value>
+                <value>
+                    <name>Disable</name>
+                    <value>0</value>
+                    <select>0</select>
+                </value>
+            </values>
+        </setting>
+    </settings>
+</info>

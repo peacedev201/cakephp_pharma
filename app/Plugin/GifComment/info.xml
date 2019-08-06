@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Gif Comment</name>
+    <key>GifComment</key>
+    <version>1.1</version>
+    <description>Allow select gif image when comment</description>
+    <author>Moosocial - Long.TK</author>
+    <website>www.moosocial.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+<settings><setting><label>Enable Gif Comment</label><name>gif_comment_enabled</name><description>Enable Gif Comment</description><type>text</type><values>1</values></setting><setting><label>Tenor Api Key</label><name>gif_comment_key</name><description>Tenor Api Key</description><type>text</type><values>CQ30Q3LPLUGM</values></setting></settings></info>

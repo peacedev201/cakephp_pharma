@@ -1,0 +1,127 @@
+.sp_provider {
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-right: 10px;
+    background: #fff;
+    width: 48%;
+    float: left;
+    border-color: #bbb;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sp_provider span {
+    display: inline-block;
+    float: none;
+    font-size: 12px;
+    padding: 0 0 0 4px;
+    position: relative;
+    top: 3px;
+    width: 77%;
+}
+
+.sp_quick {
+    width: 32px;
+    padding-left: 0;
+}
+
+.sp_logo{
+    width: 16px;
+    float: right;
+}
+
+/* social share */
+.social-share-container .social-share-on{
+    position: absolute;
+    left: 90px
+}
+
+.pb-iconfb{
+	background:url(../img/social-icons.png) no-repeat;
+	width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pb-icontwitter{
+	background:url(../img/social-icons.png) no-repeat;
+	width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+	    background-position: -23px 0px;
+}
+.social-share-on .dropdown-menu > div {
+    padding: 5px 10px;
+}
+.social-share-on .dropdown {
+	display:inline-block;
+	vertical-align: middle;
+}
+.social-share-on .dropdown > button{
+	background: none;
+    border: none;
+    font-size: 29px;
+    color: #ccc;
+	    padding: 0;
+
+}
+.social-share-on > span {
+    font-size: 15px;
+    color: #333;
+}
+.social-share-on .open>.dropdown-menu{
+	right: 0;
+    left: auto;
+    border-radius: 0;
+}
+.social-share-on > div i{
+	margin-right:5px;
+}
+.social-share-on .dropdown-menu input {
+	float: left;
+    margin-top: 2px;
+}
+.social-share-on .dropdown-menu input + span{
+	display: block;
+    white-space: nowrap;
+    margin-left: 21px;
+    font-size: 12px;
+}
+#social_photo_url{
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+.simple-modal-body #sharing_message{
+	min-height: 50px;
+    resize: none;
+	width:100%;
+}
+.more_share_option{
+	margin-top:10px;
+}
+.share_on_user{
+	border-bottom:1px solid #dfdfdf;
+	padding: 10px 0 20px;
+    margin-bottom: 20px;
+	overflow:hidden;
+	    font-size: 14px;
+}
+.main-share{
+	position: relative;
+    padding-left: 60px;
+}
+.share_on_user > div{
+	float:left;
+	width:50%;
+}
+.sharing-icon{
+    background:url(../img/sharing.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px
+}
+

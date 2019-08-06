@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Upload Video</name>
+    <key>UploadVideo</key>
+    <version>1.7.1</version>
+    <description>Support upload video from PC</description>
+    <author>mooSocial</author>
+    <website>https://moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <settings>
+        <setting>
+            <label>Enable Upload Video Plugin</label>
+            <name>uploadvideo_enabled</name>
+            <description></description>
+            <type>radio</type>
+            <values>
+                <value>
+                    <name>Disable</name>
+                    <value>0</value>
+                    <select>1</select>
+                </value>
+                <value>
+                    <name>Enable</name>
+                    <value>1</value>
+                    <select>0</select>
+                </value>
+            </values>
+        </setting>
+        <setting>
+            <label>Select Upload Location</label>
+            <name>select_upload</name>
+            <description></description>
+            <type>radio</type>
+            <values>
+                <value>
+                    <name>Upload to my Server (FFMPEG is required)</name>
+                    <value>0</value>
+                    <select>0</select>
+                </value>
+                <value>
+                    <name>Upload to Vimeo (Vimeo account is required)</name>
+                    <value>1</value>
+                    <select>0</select>
+                </value>
+            </values>
+        </setting>
+        <setting>
+            <label>FFMPEG params Convert (MP4 extension)</label>
+            <name>video_ffmpeg_params_convert_mp4</name>
+            <description></description>
+            <type>text</type>
+            <values>{sFFMPEGPath} -i {sOriginalPath} -vcodec libx264 -acodec aac -strict experimental -preset veryfast -maxrate 2500k -bufsize 5000k -pix_fmt yuv420p -f mp4 -y {sOutputPath}</values>
+        </setting>
+        <setting>
+            <label>FFMPEG params Thumbnail</label>
+            <name>video_ffmpeg_params_thumbnail</name>
+            <description></description>
+            <type>text</type>
+            <values>{sFFMPEGPath} -i {sOriginalPath} -f mjpeg -ss 1 -vframes 1 {sScale} -y {sThumbPath}</values>
+        </setting>
+        <setting>
+            <label>FFMPEG Path</label>
+            <name>video_ffmpeg_path</name>
+            <description></description>
+            <type>text</type>
+            <values>ffmpeg/ffmpeg</values>
+        </setting>
+        <setting>
+            <label>Vimeo Secret</label>
+            <name>vimeo_secret</name>
+            <description></description>
+            <type>text</type>
+            <values></values>
+        </setting>
+        <setting>
+            <label>Vimeo Key</label>
+            <name>vimeo_key</name>
+            <description></description>
+            <type>text</type>
+            <values></values>
+        </setting>
+        <setting>
+            <label>Access Token</label>
+            <name>vimeo_access_token</name>
+            <description></description>
+            <type>text</type>
+            <values></values>
+        </setting>
+        <setting>
+            <label>Upload Via Vimeo</label>
+            <name>vimeo_upload</name>
+            <description></description>
+            <type>radio</type>
+            <values>
+                <value>
+                    <name>Disable</name>
+                    <value>0</value>
+                    <select>1</select>
+                </value>
+                <value>
+                    <name>Enable</name>
+                    <value>1</value>
+                    <select>0</select>
+                </value>
+            </values>
+        </setting>
+        <setting>
+            <label>Max upload file (Mb)</label>
+            <name>video_common_setting_max_upload</name>
+            <description></description>
+            <type>text</type>
+            <values>200</values>
+        </setting>
+    </settings>
+</info>

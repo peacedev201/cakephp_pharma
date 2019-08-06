@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('business', ' made you as admin of business "%s"'), $notification['Notification']['params']); ?>

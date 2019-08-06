@@ -1,0 +1,1 @@
+<li><a class="question_menu" id="my-questions" data-url="<?php echo $this->request->base?>/questions/browse/home" rel="home-content" href="<?php echo $this->request->base?>/home/index/tab:my-questions"><i class="material-icons">question_answer</i> <?php echo __d('question','My Questions')?> <span class="badge_counter"><?php echo $count;?></span></a></li>

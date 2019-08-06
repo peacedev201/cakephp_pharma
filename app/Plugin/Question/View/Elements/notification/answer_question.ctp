@@ -1,0 +1,2 @@
+<?php $question = MooCore::getInstance()->getItemByType('Question_Question', $notification['Notification']['params']);?>
+<?php echo __d('question','answered your question');?> <?php if ($question) echo '"'.$question['Question']['moo_title'].'"'?>

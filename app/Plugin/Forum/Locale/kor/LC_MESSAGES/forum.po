@@ -1,0 +1,1506 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "B0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ForumPlugin.php:457
+#: View/Forums/admin_index.ctp:16;18
+#: View/Forums/admin_sub.ctp:16;18
+msgid "Forums Manager"
+msgstr "B0002포럼 관리자"
+
+#: ForumPlugin.php:458
+#: View/ForumReports/admin_index.ctp:16
+msgid "Reports"
+msgstr "B0003보고서"
+
+#: ForumPlugin.php:459
+#: Controller/ForumSettingsController.php:5
+#: View/ForumSettings/admin_index.ctp:22
+msgid "Settings"
+msgstr "B0004설정"
+
+#: Controller/ForumCategoriesController.php:52
+msgid "Forum name can not empty"
+msgstr "B0005포럼명은 필수 입력사항입니다."
+
+#: Controller/ForumCategoriesController.php:58
+#: Controller/ForumsController.php:218
+msgid "Please select icon for forum"
+msgstr "B0006포럼 아이콘을 선택하여 주십시요."
+
+#: Controller/ForumCategoriesController.php:70
+msgid "Forum category has been successfully saved"
+msgstr "B0007포럼카테고리가 저장되었습니다."
+
+#: Controller/ForumCategoriesController.php:113
+#: Controller/ForumsController.php:64;73
+msgid "Are you sure you want to delete? All of topics inside of this forum will also be deleted"
+msgstr "B0008정말 삭제하시겠습니까? 해당 포럼내의 모든 토픽이 같이 삭제됩니다."
+
+#: Controller/ForumCategoriesController.php:120
+msgid "Before deleting a forum category, please delete all forums in the forum category"
+msgstr "B0009포럼카테고리를 삭제하시려면, 해당 포럼카테고리내 모든 포럼이 먼저 삭제되어야합니다."
+
+#: Controller/ForumCategoriesController.php:134
+msgid "Forum category has been deleted!"
+msgstr "B0010포럼 카테고리가 삭제되었습니다."
+
+#: Controller/ForumCategoriesController.php:143
+msgid "Cannot delete Forum Category"
+msgstr "B0011포렄카테고리는 삭제할 수 없습니다."
+
+#: Controller/ForumCategoriesController.php:151
+msgid "Not available"
+msgstr "B0012사용 불가"
+
+#: Controller/ForumPinsController.php:55;132
+msgid "Topic has been pinned"
+msgstr "B0013포럼토픽이 선정되었습니다."
+
+#: Controller/ForumPinsController.php:63
+msgid "Gateway invalid"
+msgstr "B0014적합하지 않은 게이트웨이"
+
+#: Controller/ForumPinsController.php:152
+msgid "Topic has been unpinned"
+msgstr "B0015포럼토픽에서 제외되었습니다."
+
+#: Controller/ForumReportsController.php:30
+msgid "Duplicated report"
+msgstr "B0016중복된 신고"
+
+#: Controller/ForumReportsController.php:44;47
+msgid "Thank you! Your report has been submitted"
+msgstr "B0017감사합니다. 회원님의 점검요청사항이 접수되었습니다."
+
+#: Controller/ForumReportsController.php:64
+msgid "Forum Reports"
+msgstr "B0018포럼 신고"
+
+#: Controller/ForumReportsController.php:77
+msgid "Reports have been deleted"
+msgstr "B0019 신고가 삭제되었습니다"
+
+#: Controller/ForumSettingsController.php:15
+msgid "Please select a value that is no less than 0."
+msgstr "B0020입력값은 최소 0이상이어야합니다."
+
+#: Controller/ForumSettingsController.php:30
+msgid "Successfully updated"
+msgstr "B0021업데이트완료"
+
+#: Controller/ForumTopicsController.php:21
+msgid "This forum has been locked"
+msgstr "B0022해당 포럼은 잠겨있습니다."
+
+#: Controller/ForumTopicsController.php:76
+msgid "This topic has been locked"
+msgstr "B0023해당 토픽은 잠겨있습니다."
+
+#: Controller/ForumTopicsController.php:116
+msgid "All topics"
+msgstr "B0024모든 포럼토픽"
+
+#: Controller/ForumTopicsController.php:120
+msgid "Forum Topics Started"
+msgstr "B0025토론 개시된 포럼토픽"
+
+#: Controller/ForumTopicsController.php:126
+msgid "Favorite Forum Topics"
+msgstr "B0026관심 포럼 토픽"
+
+#: Controller/ForumTopicsController.php:156
+msgid "Forum Replies Created"
+msgstr "B0027포럼 답변 생성"
+
+#: Controller/ForumTopicsController.php:202
+#: View/Elements/menu_welcome.ctp:1
+msgid "My Forum Topics"
+msgstr "B0028나의 포럼 토픽"
+
+#: Controller/ForumTopicsController.php:408;784;862
+msgid "Invalid security code"
+msgstr "B0029보안코드오류"
+
+#: Controller/ForumTopicsController.php:765;814
+msgid "Recipient is required"
+msgstr "B0030수령인정보를 입력하여 주십시요."
+
+#: Controller/ForumTopicsController.php:820
+msgid "Your invitations have been sent."
+msgstr "B0031참여요청을 발송하였습니다"
+
+#: Controller/ForumTopicsController.php:820
+msgid "Invite more friends"
+msgstr "B0032참여요청친구를 추가하여주십시요"
+
+#: Controller/ForumTopicsController.php:1018;1301
+msgid "An error has occurred"
+msgstr "B0033일부 오류가 발생하였습니다."
+
+#: Controller/ForumTopicsController.php:1169
+msgid "Entry has been deleted"
+msgstr "B0034항목이 삭제되었습니다"
+
+#: Controller/ForumUploadController.php:51
+msgid "Please upload image size %s x %s"
+msgstr "B0035이미지 크기를 %s x %s로 업로드하여 주십시요."
+
+#: Controller/ForumUploadController.php:59
+msgid "Can not get size from image"
+msgstr "B0036이미지크기를 인식할 수 없습니다."
+
+#: Controller/ForumsController.php:22;33
+#: Lib/ForumListener.php:546;580
+#: View/Elements/menu.ctp:4
+#: View/Elements/my_forum_subscribe.ctp:11
+#: View/Widgets/forum/home.ctp:39
+msgid "Forums"
+msgstr "B0037포럼"
+
+#: Controller/ForumsController.php:57
+msgid "Please delete sub-forum first."
+msgstr "B0288 하위 포럼을 먼저 삭제하여주십시요."
+
+#: Controller/ForumsController.php:106
+msgid "Forum has been deleted"
+msgstr "B0038포럼을 삭제하였습니다."
+
+#: Controller/ForumsController.php:205
+msgid "Forum title can not empty"
+msgstr "B0039포럼 제목은 필수항목입니다."
+
+#: Controller/ForumsController.php:211
+msgid "Description can not empty"
+msgstr "B0040포럼정보는 필수 사항입니다."
+
+#: Controller/ForumsController.php:251
+msgid "Forum has been successfully saved"
+msgstr "B0041포럼 저장완료!"
+
+#: Controller/ForumsController.php:487
+msgid "Forum has been successfully opened"
+msgstr "B0042포럼등록이 완료되었습니다."
+
+#: Lib/ForumListener.php:64;65
+#: View/Elements/activity/text/forum_topic_create.ctp:2
+msgid "created a forum topic"
+msgstr "B0043포럼 토픽을 등록하였습니다."
+
+#: Lib/ForumListener.php:97;98
+msgid "shared %s's forum topic"
+msgstr "B0044%s의 포럼토픽을 공유하였습니다."
+
+#: Lib/ForumListener.php:138
+msgid "reply a forum topic"
+msgstr "B0045포럼토픽에 답하기"
+
+#: Lib/ForumListener.php:139
+#: View/Elements/activity/text/forum_topic_reply.ctp:7
+msgid "just replied on %s's topic: %s"
+msgstr "B0046%s의 토픽: %s에 답하였습니다."
+
+#: Lib/ForumListener.php:375
+#: View/ForumTopics/view.ctp:69;229
+#: View/Forums/view.ctp:51
+#: View/mooApp/ForumTopics/view.ctp:122;276
+#: View/mooApp/Forums/view.ctp:127
+msgid "Subscribe"
+msgstr "B0047구독"
+
+#: Lib/ForumListener.php:376
+#: View/ForumTopics/view.ctp:67;229
+#: View/Forums/view.ctp:49
+#: View/mooApp/ForumTopics/view.ctp:122;274
+msgid "Unsubscribe"
+msgstr "B0048신청취소"
+
+#: Lib/ForumListener.php:377
+#: View/ForumTopics/create.ctp:4
+#: View/mooApp/ForumTopics/create.ctp:4
+msgid "Drag or click here to upload photo"
+msgstr "B0049사진을 올리시려면 이곳을 클릭하시거나, 드래그하십시요."
+
+#: Lib/ForumListener.php:378
+#: View/ForumTopics/create.ctp:5
+#: View/mooApp/ForumTopics/create.ctp:5
+msgid "Drag or click here to upload files"
+msgstr "B0050파일을 올리시려면 이곳을 클릭하시거나, 드래그하십시요."
+
+#: Lib/ForumListener.php:379
+#: View/Elements/lists/list_replies.ctp:126
+#: View/ForumReports/admin_index.ctp:29;30;113
+#: View/ForumTopics/create.ctp:6
+#: View/ForumTopics/view.ctp:133
+#: View/Forums/admin_index.ctp:161;230
+#: View/Forums/admin_sub.ctp:165
+#: View/mooApp/Elements/lists/list_replies.ctp:115
+#: View/mooApp/ForumTopics/create.ctp:6
+#: View/mooApp/ForumTopics/view.ctp:54
+msgid "Delete"
+msgstr "B0051삭제"
+
+#: Lib/ForumListener.php:380
+#: View/ForumTopics/view.ctp:129
+#: View/Forums/admin_create.ctp:232
+#: View/mooApp/ForumTopics/view.ctp:50
+msgid "Lock"
+msgstr "B0052잠금"
+
+#: Lib/ForumListener.php:381
+#: View/ForumTopics/view.ctp:129
+#: View/Forums/admin_create.ctp:231
+#: View/mooApp/ForumTopics/view.ctp:50
+msgid "Open"
+msgstr "B0053개설"
+
+#: Lib/ForumListener.php:382
+msgid "This forum is marked as locked for new topic"
+msgstr "B0054이 포럼은 신규토픽신청이 마감되었습니다."
+
+#: Lib/ForumListener.php:383
+msgid "Are you sure you want to unpin this topic?"
+msgstr "B0055이 토픽을 관심대상에서 제외하시겠습니까?"
+
+#: Lib/ForumListener.php:384
+#: Model/ForumPin.php:validation for field time
+msgid "Day only allow numbers"
+msgstr "B0056일자에는 숫자만 입력가능합니다."
+
+#: Lib/ForumListener.php:385
+#: Model/ForumPin.php:validation for field time
+msgid "Day is required"
+msgstr "B0057일자를 입력해주십시요."
+
+#: Lib/ForumListener.php:386
+msgid "You must select at least an item"
+msgstr "B0058최소 한 아이템을 선택하셔야합니다."
+
+#: Lib/ForumListener.php:387
+msgid "Are you sure you want to delete?"
+msgstr "B0059삭제하시겠습니까?"
+
+#: Lib/ForumListener.php:420
+msgid "Forum Topic"
+msgstr "B0060포럼토픽"
+
+#: Lib/ForumListener.php:439;470;680
+#: View/Elements/setting.ctp:2
+#: View/ForumSettings/admin_index.ctp:9
+#: View/Forums/admin_index.ctp:15
+#: View/Forums/admin_sub.ctp:15
+#: View/Forums/index.ctp:41
+#: View/Forums/view.ctp:125
+#: View/mooApp/Forums/index.ctp:41
+#: View/mooApp/Forums/view.ctp:71
+msgid "Forum"
+msgstr "B0061포럼"
+
+#: Lib/ForumListener.php:485
+msgid "Find Forum Topic"
+msgstr "B0062포럼토픽검색"
+
+#: Lib/ForumListener.php:492;667
+#: View/Elements/activity/text/forum_topic_create_share.ctp:19
+#: View/Elements/activity/text/forum_topic_item_detail_share.ctp:9
+#: View/Elements/activity/text/forum_topic_reply.ctp:5
+#: View/Elements/lists/forum_list.ctp:52;64
+#: View/Elements/lists/forum_users_list.ctp:77;132
+#: View/Elements/lists/list_replies.ctp:51;56
+#: View/Elements/lists/my_list_replies.ctp:29;34
+#: View/Elements/lists/search_topic_list.ctp:42;47
+#: View/Elements/lists/topic_list.ctp:40;42;73;80
+#: View/ForumTopics/ajax_show_history.ctp:27;31
+#: View/ForumTopics/view.ctp:49;180;188
+#: View/Forums/view.ctp:23
+#: View/Helper/ForumHelper.php:274
+#: View/mooApp/Elements/lists/list_replies.ctp:51;56
+#: View/mooApp/ForumTopics/view.ctp:78
+msgid "Deleted Account"
+msgstr "B0063삭제계정"
+
+#: Lib/ForumListener.php:495
+msgid "Posted by"
+msgstr "B0064게시자:"
+
+#: Lib/ForumListener.php:611
+msgid "Forum's Topic"
+msgstr "B0065포럼주세"
+
+#: View/Elements/menu.ctp:5
+msgid "All Topic"
+msgstr "B0066모든 토픽"
+
+#: View/Elements/menu_profile.ctp:1
+msgid "Forum Topics"
+msgstr "B0067포럼토픽"
+
+#: View/Elements/my_forum_subscribe.ctp:5
+msgid "Subscribed Forums"
+msgstr "B0068신청완료 포럼"
+
+#: View/Elements/my_forum_subscribe.ctp:12
+#: View/Forums/index.ctp:42
+#: View/Forums/view.ctp:126
+#: View/Widgets/forum/home.ctp:40
+#: View/Widgets/forum/most_member.ctp:14
+#: View/mooApp/Forums/index.ctp:42
+#: View/mooApp/Forums/view.ctp:72
+msgid "Topics"
+msgstr "B0069토픽"
+
+#: View/Elements/my_forum_subscribe.ctp:13
+#: View/Elements/my_topic_subscribe.ctp:8
+#: View/Elements/lists/topic_list_m.ctp:13
+#: View/Forums/index.ctp:43
+#: View/Forums/view.ctp:127
+#: View/Widgets/forum/home.ctp:41
+#: View/Widgets/forum/most_member.ctp:15
+#: View/Widgets/forum/most_popular.ctp:23
+#: View/Widgets/forum/most_view.ctp:23
+#: View/mooApp/Forums/index.ctp:43
+#: View/mooApp/Forums/view.ctp:73
+msgid "Replies"
+msgstr "B0070답글"
+
+#: View/Elements/my_forum_subscribe.ctp:14
+#: View/Forums/index.ctp:44
+#: View/Forums/view.ctp:128
+#: View/mooApp/Forums/index.ctp:44
+#: View/mooApp/Forums/view.ctp:74
+msgid "Last Post"
+msgstr "B0071최근 게시물"
+
+#: View/Elements/my_forum_subscribe.ctp:19
+#: View/Elements/lists/forum_list.ctp:77
+#: View/Elements/lists/list_replies.ctp:153
+#: View/Elements/lists/my_list_replies.ctp:55
+#: View/Elements/lists/search_topic_list.ctp:63
+#: View/Elements/lists/topic_list.ctp:93
+#: View/mooApp/Elements/lists/forum_list.ctp:67
+#: View/mooApp/Elements/lists/list_replies.ctp:142
+#: View/mooApp/Elements/lists/topic_list.ctp:72
+msgid "No more results found"
+msgstr "B0072더 이상 결과가 없습니다."
+
+#: View/Elements/my_topic_subscribe.ctp:2
+msgid "Subscribed Topics"
+msgstr "B0073신청완료 토픽"
+
+#: View/Elements/my_topic_subscribe.ctp:6
+#: View/Elements/lists/search_topic_list.ctp:18
+#: View/Elements/lists/topic_list_m.ctp:10
+#: View/ForumReports/admin_index.ctp:91
+msgid "Topic"
+msgstr "B0074토픽"
+
+#: View/Elements/my_topic_subscribe.ctp:7
+msgid "Voices"
+msgstr "B0075 소리"
+
+#: View/Elements/my_topic_subscribe.ctp:9
+#: View/Elements/lists/topic_list_m.ctp:14
+msgid "Last Reply"
+msgstr "B0076최근 답변"
+
+#: View/Elements/reply_form.ctp:24
+#: View/mooApp/Elements/reply_form.ctp:24
+msgid "Post a reply"
+msgstr "B0077답변 올리기"
+
+#: View/Elements/reply_form.ctp:30
+#: View/mooApp/Elements/reply_form.ctp:30
+msgid "This topic is marked as locked to new reply, however your posting capabilities still allow to do so"
+msgstr "B0078 해당 토픽은 새로운 댓글달기가 차단되어있습니다. 하지만 회원님은 댓글달기가 가능합니다."
+
+#: View/Elements/reply_form.ctp:35
+#: View/ForumTopics/create.ctp:75
+#: View/ForumTopics/reply.ctp:38
+#: View/mooApp/Elements/reply_form.ctp:35
+#: View/mooApp/ForumTopics/create.ctp:75
+#: View/mooApp/ForumTopics/reply.ctp:38
+msgid "To tag member, please click on icon %s at the editor header"
+msgstr "B0079다른 회원을 태그하시려면, 편집영자 상단에 있는 %s 아이콘을 클릭하십시요."
+
+#: View/Elements/reply_form.ctp:39
+#: View/ForumTopics/create.ctp:78
+#: View/ForumTopics/reply.ctp:41
+#: View/mooApp/Elements/reply_form.ctp:39
+#: View/mooApp/ForumTopics/create.ctp:78
+#: View/mooApp/ForumTopics/reply.ctp:41
+msgid "Upload Files"
+msgstr "B0080파일 올리기"
+
+#: View/Elements/reply_form.ctp:42
+#: View/ForumTopics/create.ctp:81
+#: View/ForumTopics/reply.ctp:44
+#: View/mooApp/Elements/reply_form.ctp:42
+#: View/mooApp/ForumTopics/create.ctp:81
+#: View/mooApp/ForumTopics/reply.ctp:44
+msgid "Image Upload"
+msgstr "B0081이미지 올리기"
+
+#: View/Elements/reply_form.ctp:50
+#: View/ForumTopics/create.ctp:104
+#: View/ForumTopics/reply.ctp:51
+#: View/mooApp/Elements/reply_form.ctp:50
+#: View/mooApp/ForumTopics/create.ctp:104
+#: View/mooApp/ForumTopics/reply.ctp:51
+msgid "Attachements"
+msgstr "B0082첨부"
+
+#: View/Elements/reply_form.ctp:61
+#: View/ForumTopics/reply.ctp:79
+#: View/mooApp/Elements/reply_form.ctp:61
+#: View/mooApp/ForumTopics/reply.ctp:79
+msgid "Send me notifications when other members reply to this topic"
+msgstr "B0083이 토픽에 댓글이 달릴 경우, 알림을 보내주십시요."
+
+#: View/Elements/reply_form.ctp:78
+#: View/ForumTopics/reply.ctp:87
+#: View/mooApp/Elements/reply_form.ctp:78
+#: View/mooApp/ForumTopics/reply.ctp:87
+msgid "Post"
+msgstr "B0084게시하기"
+
+#: View/Elements/setting.ctp:6
+msgid "When people posted a new topic in forum that I subscribed to"
+msgstr "B0085내가 신청한 포럼에 다른 회원이 신규 토픽을 게시하였을 때"
+
+#: View/Elements/setting.ctp:10
+msgid "When people reply to my forum topic I subscribed to"
+msgstr "B0086내가 신청한 포럼 토픽에 다른 회원이 댓글을 달았을 때"
+
+#: View/Elements/activity/content/forum_topic_create_share.ctp:21
+#: View/Elements/activity/share/forum_topic_create.ctp:8
+msgid "created a new topic"
+msgstr "B0087신규 토픽을 생성하였습니다."
+
+#: View/Elements/activity/text/forum_topic_create_share.ctp:6
+msgid "shared"
+msgstr "B0088공유"
+
+#: View/Elements/activity/text/forum_topic_create_share.ctp:17
+msgid "post"
+msgstr "B0089게시"
+
+#: View/Elements/activity/text/forum_topic_item_detail_share.ctp:7;9
+msgid "forum topic"
+msgstr "B0090포럼토픽"
+
+#: View/Elements/blocks/tags_item_block.ctp:14
+msgid "Nothing found"
+msgstr "B0091검색결과가 없습니다."
+
+#: View/Elements/lists/file_list.ctp:6
+msgid "Download Attachment"
+msgstr "B0092첨부 다운로드"
+
+#: View/Elements/lists/forum_list.ctp:62;64
+#: View/mooApp/Elements/lists/forum_list.ctp:57
+msgid "By: "
+msgstr "B0093By: "
+
+#: View/Elements/lists/forum_list.ctp:70
+#: View/mooApp/Elements/lists/forum_list.ctp:60
+msgid "No Topic"
+msgstr "B0094토픽 없음"
+
+#: View/Elements/lists/list_replies.ctp:4
+#: View/mooApp/Elements/lists/list_replies.ctp:4
+msgid "Url has been copied to clipboard"
+msgstr "B0095URL 정보를 클립보드로 복사하였습니다."
+
+#: View/Elements/lists/list_replies.ctp:45
+#: View/Elements/lists/my_list_replies.ctp:23
+#: View/Forums/admin_create.ctp:243
+#: View/Forums/admin_index.ctp:189
+#: View/Forums/admin_sub.ctp:144
+#: View/mooApp/Elements/lists/list_replies.ctp:45
+msgid "Moderator"
+msgstr "B0096포럼지기"
+
+#: View/Elements/lists/list_replies.ctp:85
+#: View/mooApp/Elements/lists/list_replies.ctp:85
+msgid "Thanks"
+msgstr "B0097감사합니다."
+
+#: View/Elements/lists/list_replies.ctp:94
+#: View/mooApp/Elements/lists/list_replies.ctp:94
+msgid "People Who Thank This"
+msgstr "B0098감사 표시하신 분"
+
+#: View/Elements/lists/list_replies.ctp:101
+#: View/ForumTopics/view.ctp:259
+#: View/mooApp/Elements/lists/list_replies.ctp:101
+#: View/mooApp/ForumTopics/view.ctp:146
+msgid "Quote"
+msgstr "B0099Quote"
+
+#: View/Elements/lists/list_replies.ctp:112;113
+#: View/ForumReports/ajax_create.ctp:10;33
+#: View/ForumTopics/view.ctp:149;150
+#: View/mooApp/Elements/lists/list_replies.ctp:105
+#: View/mooApp/ForumReports/ajax_create.ctp:14;37
+#: View/mooApp/ForumTopics/view.ctp:58
+msgid "Report"
+msgstr "B0100보고"
+
+#: View/Elements/lists/list_replies.ctp:123
+#: View/ForumTopics/view.ctp:132
+#: View/Forums/admin_index.ctp:158;229
+#: View/Forums/admin_sub.ctp:164
+#: View/mooApp/Elements/lists/list_replies.ctp:112
+#: View/mooApp/ForumTopics/view.ctp:53
+msgid "Edit"
+msgstr "B0101편집"
+
+#: View/Elements/lists/list_replies.ctp:130
+#: View/mooApp/Elements/lists/list_replies.ctp:119
+msgid "Get link"
+msgstr "B0102링크정보"
+
+#: View/Elements/lists/list_replies.ctp:139
+#: View/ForumTopics/view.ctp:271
+#: View/mooApp/Elements/lists/list_replies.ctp:128
+#: View/mooApp/ForumTopics/view.ctp:158
+msgid "Show edit history"
+msgstr "B0103편집이력보기"
+
+#: View/Elements/lists/list_replies.ctp:140
+#: View/ForumTopics/view.ctp:272
+#: View/mooApp/Elements/lists/list_replies.ctp:129
+#: View/mooApp/ForumTopics/view.ctp:159
+msgid "Edit history"
+msgstr "B0104편집이력"
+
+#: View/Elements/lists/my_list_replies.ctp:8
+#: View/Elements/lists/search_topic_list.ctp:14
+#: View/ForumReports/admin_index.ctp:89
+msgid "In reply to"
+msgstr "B0105댓글 관련 원문"
+
+#: View/Elements/lists/search_topic_list.ctp:36
+#: View/Elements/lists/topic_list.ctp:47
+#: View/mooApp/Elements/lists/topic_list.ctp:39
+msgid "(Moderator)"
+msgstr "B0106(포럼지기)"
+
+#: View/Elements/lists/search_topic_list_m.ctp:3
+msgid "Author"
+msgstr "B0107저자"
+
+#: View/Elements/lists/search_topic_list_m.ctp:4
+msgid "Search Results"
+msgstr "B0108결과검색"
+
+#: View/Elements/lists/topic_list.ctp:24
+#: View/mooApp/Elements/lists/topic_list.ctp:24
+msgid "Locked topic"
+msgstr "B0109토픽(종료)"
+
+#: View/Elements/lists/topic_list.ctp:34
+#: View/Widgets/forum/most_popular.ctp:16
+#: View/Widgets/forum/most_view.ctp:16
+#: View/Widgets/forum/recent_topic.ctp:16
+#: View/mooApp/Elements/lists/topic_list.ctp:34
+msgid "Started by"
+msgstr "B0110최초 게시"
+
+#: View/Elements/lists/topic_list.ctp:85
+#: View/mooApp/Elements/lists/topic_list.ctp:64
+msgid "No Replies"
+msgstr "B0111댓글없음"
+
+#: View/Elements/lists/topic_list_m.ctp:12
+#: View/Widgets/forum/most_popular.ctp:22
+#: View/Widgets/forum/most_view.ctp:22
+msgid "Participants"
+msgstr "B0112참가자"
+
+#: View/Elements/notification/add_moderator.ctp:1
+msgid "added you as admin of \"%s\""
+msgstr "B0113 회원님을 \"%s\"의 관리자로 추가했습니다"
+
+#: View/Elements/notification/create_topic.ctp:1
+msgid "posted a new topic into \"%s\""
+msgstr "B0114새로운 토픽을 \"%s\"에 추가했습니다."
+
+#: View/Elements/notification/forum_topic_invite.ctp:1
+msgid "invited you to join \"%s\""
+msgstr "B0115 \"%s\"에 가입하라고 초대했습니다."
+
+#: View/Elements/notification/reply_topic.ctp:1
+msgid "replied on topic \"%s\""
+msgstr "B0116토픽 \"%s\"에 답변했습니다."
+
+#: View/Elements/notification/tag_member_create_topic.ctp:1
+msgid "mentioned you in topic \"%s\""
+msgstr "B0117토픽 \"%s\"에 언급했습니다."
+
+#: View/Elements/notification/tag_member_reply_topic.ctp:1
+msgid "mentioned you in reply of topic \"%s\""
+msgstr "B0118토픽 \"%s\" 답변에 회원님을 언급했습니다."
+
+#: View/Elements/notification/thank_reply.ctp:1
+msgid "said thanks to your reply on \"%s\""
+msgstr "B0119 \"%s\"에 답변해주셔서 감사합니다."
+
+#: View/ForumCategories/admin_ajax_translate.ctp:29
+msgid "Translation"
+msgstr "B0120번역"
+
+#: View/ForumCategories/admin_ajax_translate.ctp:46
+#: View/ForumCategories/admin_create.ctp:124
+#: View/Forums/admin_create.ctp:148
+msgid "Enter text"
+msgstr "B0121문장 입력"
+
+#: View/ForumCategories/admin_ajax_translate.ctp:60
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:48
+msgid "Close"
+msgstr "B0122닫기"
+
+#: View/ForumCategories/admin_ajax_translate.ctp:61
+msgid "Save Change"
+msgstr "B0123변경사항 저장"
+
+#: View/ForumCategories/admin_create.ctp:114
+msgid "Add New"
+msgstr "B0124신규추가"
+
+#: View/ForumCategories/admin_create.ctp:122
+#: View/ForumReports/admin_index.ctp:54
+msgid "Name"
+msgstr "B0125이름"
+
+#: View/ForumCategories/admin_create.ctp:127
+msgid "You can add translation language after creating category"
+msgstr "B0126분류항목 설정후에 번역을 추가할 수 있습니다."
+
+#: View/ForumCategories/admin_create.ctp:138
+msgid "Icon"
+msgstr "B0127아이콘"
+
+#: View/ForumCategories/admin_create.ctp:152
+msgid "Recommended size: 32 x 32"
+msgstr "B0128추천 크기: 32 x 32"
+
+#: View/ForumCategories/admin_create.ctp:172
+msgid "Order"
+msgstr "B0129순서"
+
+#: View/ForumCategories/admin_create.ctp:175
+msgid "Enter Number"
+msgstr "B0130번호입력"
+
+#: View/ForumCategories/admin_create.ctp:186
+#: View/ForumTopics/create.ctp:169
+#: View/Forums/admin_create.ctp:254
+#: View/mooApp/ForumTopics/create.ctp:169
+msgid "Save"
+msgstr "B0131저장"
+
+#: View/ForumCategories/admin_create.ctp:187
+#: View/ForumTopics/create.ctp:177
+#: View/ForumTopics/pin.ctp:25
+#: View/ForumTopics/reply.ctp:88
+#: View/Forums/admin_create.ctp:255
+#: View/mooApp/ForumTopics/create.ctp:177
+#: View/mooApp/ForumTopics/pin.ctp:25
+#: View/mooApp/ForumTopics/reply.ctp:88
+msgid "Cancel"
+msgstr "B0132취소"
+
+#: View/ForumPins/gateway.ctp:4
+msgid "Select Payment Gateway"
+msgstr "B0133지불 Gateway를 선정하여 주십시요."
+
+#: View/ForumPins/gateway.ctp:6
+msgid "Pin topic for %s days"
+msgstr "B0134%s 일간 토픽을 표기"
+
+#: View/ForumPins/gateway.ctp:19
+msgid "Pay with"
+msgstr "B0135지불방법"
+
+#: View/ForumPins/success.ctp:3
+msgid "Thank you, Your payment has been processed. You will shortly receive an email confirmation"
+msgstr "B0136감사합니다. 지정하신 지불방법으로 처리중입니다. 확인이메일을 바로 수령하실 것입니다."
+
+#: View/ForumReports/admin_index.ctp:8
+#: View/ForumSettings/admin_index.ctp:8
+#: View/Forums/admin_index.ctp:14
+#: View/Forums/admin_sub.ctp:14
+msgid "Plugins Manager"
+msgstr "B0137플로그인 관리자"
+
+#: View/ForumReports/admin_index.ctp:9
+msgid "Reports Manager"
+msgstr "B0138리포트관리자"
+
+#: View/ForumReports/admin_index.ctp:20
+msgid "Manage Reports"
+msgstr "B0139리포트 관리"
+
+#: View/ForumReports/admin_index.ctp:24
+msgid "Actions"
+msgstr "B0140처리방법지정"
+
+#: View/ForumReports/admin_index.ctp:57
+#: View/ForumReports/ajax_create.ctp:21
+#: View/mooApp/ForumReports/ajax_create.ctp:25
+msgid "Reason"
+msgstr "B0141이유"
+
+#: View/ForumReports/admin_index.ctp:60
+msgid "Reporter"
+msgstr "B0142보고자"
+
+#: View/ForumReports/admin_index.ctp:63
+msgid "Create Date"
+msgstr "B0143생성일"
+
+#: View/ForumReports/admin_index.ctp:107;109
+msgid "View"
+msgstr "B0144보기"
+
+#: View/ForumReports/admin_index.ctp:127
+#: View/ForumTopics/index.ctp:30;60
+#: View/ForumTopics/search.ctp:23
+#: View/ForumTopics/view.ctp:300;328
+#: View/Forums/view.ctp:89;108
+#: View/mooApp/ForumTopics/view.ctp:186;210
+#: View/mooApp/Forums/view.ctp:35;54
+msgid "First"
+msgstr "B0145맨 처음"
+
+#: View/ForumReports/admin_index.ctp:128
+#: View/ForumTopics/index.ctp:31;61
+#: View/ForumTopics/view.ctp:301;329
+#: View/Forums/view.ctp:90;109
+#: View/mooApp/ForumTopics/view.ctp:187;211
+#: View/mooApp/Forums/view.ctp:36;55
+msgid "Previous"
+msgstr "B0146이전"
+
+#: View/ForumReports/admin_index.ctp:130
+#: View/ForumTopics/index.ctp:33;63
+#: View/ForumTopics/search.ctp:26
+#: View/ForumTopics/view.ctp:303;331
+#: View/Forums/view.ctp:92;111
+#: View/mooApp/ForumTopics/view.ctp:189;213
+#: View/mooApp/Forums/view.ctp:38;57
+msgid "Next"
+msgstr "B0147다음"
+
+#: View/ForumReports/admin_index.ctp:131
+#: View/ForumTopics/index.ctp:34;64
+#: View/ForumTopics/search.ctp:27
+#: View/ForumTopics/view.ctp:304;332
+#: View/Forums/view.ctp:93;112
+#: View/mooApp/ForumTopics/view.ctp:190;214
+#: View/mooApp/Forums/view.ctp:39;58
+msgid "Last"
+msgstr "B0148최종"
+
+#: View/ForumReports/admin_index.ctp:138
+msgid "No Reports"
+msgstr "B0149보고 없음"
+
+#: View/ForumSettings/admin_index.ctp:2
+msgid "Forum Enable"
+msgstr "B0150포럼 활성화"
+
+#: View/ForumSettings/admin_index.ctp:10
+msgid "Forum Settings"
+msgstr "B0151포럼 설정"
+
+#: View/ForumSettings/admin_index.ctp:31
+msgid "Enable Forum Plugin"
+msgstr "B0152포럼플러그인 활성화"
+
+#: View/ForumSettings/admin_index.ctp:46
+msgid "Enable topic pin for user?"
+msgstr "B0153 사용자에게 토픽 우선 표시를 활성화하시겠습니까?"
+
+#: View/ForumSettings/admin_index.ctp:50;81;199;212
+msgid "Yes"
+msgstr "B0154예"
+
+#: View/ForumSettings/admin_index.ctp:50;81;199;212
+msgid "No"
+msgstr "B0155아니오"
+
+#: View/ForumSettings/admin_index.ctp:60
+msgid "Pin topic to top price per day"
+msgstr "B0156 토픽을 일일 최고가격으로 우선 표시합니다."
+
+#: View/ForumSettings/admin_index.ctp:77
+msgid "Show expand and collapse?"
+msgstr "B0157 확대 및 축소를 보이시겠습니까?"
+
+#: View/ForumSettings/admin_index.ctp:91
+msgid "Locked forum background color"
+msgstr "B0158포럼배경색상 고정"
+
+#: View/ForumSettings/admin_index.ctp:106
+msgid "Pinned forum background color"
+msgstr "B0159포럼배경색상 찍어두기"
+
+#: View/ForumSettings/admin_index.ctp:121
+msgid "Locked topic text color"
+msgstr "B0160토픽문 색상 고정"
+
+#: View/ForumSettings/admin_index.ctp:136
+msgid "Allowed file extentions"
+msgstr "B0161사용가능 파일형태(확장자)"
+
+#: View/ForumSettings/admin_index.ctp:151
+msgid "Number topics per page"
+msgstr "B0162페이지당 토픽 허용수"
+
+#: View/ForumSettings/admin_index.ctp:166
+msgid "Number replies per page"
+msgstr "B0163페이지장 댓글 허용수"
+
+#: View/ForumSettings/admin_index.ctp:181
+msgid "Mention notification limit"
+msgstr "B0164멘션 알림 허용수"
+
+#: View/ForumSettings/admin_index.ctp:181
+msgid "If you enter 10 for example, only first 10 members who are mentioned in a reply of a topic will get notification."
+msgstr "B0165일예로 10을 입력하시면, 토픽어 답글신청자중 선착순으로 10명에게만 알림이 통보됩니다."
+
+#: View/ForumSettings/admin_index.ctp:195
+msgid "Enable Google reCaptcha on reply form"
+msgstr "B0166답신폼에 구글 reCaptcha 허용"
+
+#: View/ForumSettings/admin_index.ctp:208
+msgid "Enable Google reCaptcha on create new topic form"
+msgstr "B0167새 토픽 설정에 구글 reCaptcha 허용"
+
+#: View/ForumSettings/admin_index.ctp:222 
+msgid "Enable plugin hashtag"
+msgstr "B0168플러그인해시택 활성화"
+
+#: View/ForumSettings/admin_index.ctp:226
+msgid "Enable"
+msgstr "B0169활성화"
+
+#: View/ForumSettings/admin_index.ctp:226
+msgid "Disable"
+msgstr "B0170불활성화"
+
+#: View/ForumSettings/admin_index.ctp:236
+msgid "By pass force login"
+msgstr "B0171 우회하여 강제 로그인"
+
+#: View/ForumTopics/ajax_invite.ctp:16
+#: View/mooApp/ForumTopics/ajax_invite.ctp:16
+msgid "Invite Friends to Join"
+msgstr "B0172친구초대"
+
+#: View/ForumTopics/ajax_invite.ctp:27
+#: View/mooApp/ForumTopics/ajax_invite.ctp:27
+msgid "Type"
+msgstr "B0173형태"
+
+#: View/ForumTopics/ajax_invite.ctp:31;39
+#: View/mooApp/ForumTopics/ajax_invite.ctp:31;39
+msgid "Friends"
+msgstr "B0174친구"
+
+#: View/ForumTopics/ajax_invite.ctp:31;50
+#: View/mooApp/ForumTopics/ajax_invite.ctp:31;50
+msgid "Emails"
+msgstr "B0175이메일"
+
+#: View/ForumTopics/ajax_invite.ctp:55
+#: View/mooApp/ForumTopics/ajax_invite.ctp:55
+msgid "Not on your friends list? Enter their emails below (separated by commas)<br />Limit 10 email addresses per request"
+msgstr "B0176친구 목록에 누락되었습니까? 친구분들의 이메일을 쉽표(,)로 구분하여 입력하여 주십시요.<br />한번에 이메일 10개까지 입력할 수 있습니다."
+
+#: View/ForumTopics/ajax_invite.ctp:69
+#: View/mooApp/ForumTopics/ajax_invite.ctp:69
+msgid "Send Invitations"
+msgstr "B0177초대발송"
+
+#: View/ForumTopics/ajax_show_history.ctp:9
+msgid "Edit History"
+msgstr "B0178편집이력"
+
+#: View/ForumTopics/ajax_tag_member.ctp:3
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:3
+msgid "Tag member"
+msgstr "B0179회원태그"
+
+#: View/ForumTopics/ajax_tag_member.ctp:12
+#: View/Forums/admin_create.ctp:12
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:12
+msgid "Enter one or more users"
+msgstr "B0180최소 1명이상의 회원입력"
+
+#: View/ForumTopics/ajax_tag_member.ctp:13
+#: View/Forums/admin_create.ctp:13
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:13
+msgid "No results"
+msgstr "B0181결과 없슴"
+
+#: View/ForumTopics/ajax_tag_member.ctp:41
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:41
+msgid "Tag member into your reply"
+msgstr "B0182답신에 회원을 태그하십시요"
+
+#: View/ForumTopics/ajax_tag_member.ctp:48
+#: View/mooApp/ForumTopics/ajax_tag_member.ctp:49
+msgid "Insert into reply"
+msgstr "B0183답신내에 추가하십시요."
+
+#: View/ForumTopics/browse.ctp:9;10
+#: View/ForumTopics/index.ctp:14;15
+#: View/ForumTopics/search.ctp:16
+#: View/ForumTopics/view.ctp:92;93
+#: View/Forums/view.ctp:64;65
+#: View/Widgets/forum/search_topic.ctp:6
+#: View/mooApp/ForumTopics/view.ctp:22;24
+#: View/mooApp/Forums/view.ctp:10
+msgid "Search"
+msgstr "B0184검색"
+
+#: View/ForumTopics/create.ctp:32
+#: View/mooApp/ForumTopics/create.ctp:32
+msgid "Edit topic"
+msgstr "B0185토픽편집"
+
+#: View/ForumTopics/create.ctp:34
+#: View/ForumTopics/reply.ctp:22
+#: View/mooApp/ForumTopics/create.ctp:34
+#: View/mooApp/ForumTopics/reply.ctp:22
+msgid "Edit reply"
+msgstr "B0186답신 편집"
+
+#: View/ForumTopics/create.ctp:37
+#: View/mooApp/ForumTopics/create.ctp:37
+msgid "Create new topic"
+msgstr "B0187새 토픽 등록"
+
+#: View/ForumTopics/create.ctp:42
+#: View/mooApp/ForumTopics/create.ctp:42
+msgid "This forum is marked as closed to new topic, however your posting capabilities still allow you to do so."
+msgstr "B0188이 포럼은 신규 토픽 등록 마감되었으나, 회원님의 게시권한으로 등록할 수 있습니다."
+
+#: View/ForumTopics/create.ctp:61
+#: View/mooApp/ForumTopics/create.ctp:61
+msgid "Title"
+msgstr "B0189제목"
+
+#: View/ForumTopics/create.ctp:71
+#: View/ForumTopics/reply.ctp:34
+#: View/Forums/admin_create.ctp:153
+#: View/mooApp/ForumTopics/create.ctp:71
+#: View/mooApp/ForumTopics/reply.ctp:34
+msgid "Description"
+msgstr "B0190명세"
+
+#: View/ForumTopics/create.ctp:88
+#: View/mooApp/ForumTopics/create.ctp:88
+msgid "Thumbnail"
+msgstr "B0191썸네일"
+
+#: View/ForumTopics/create.ctp:113
+#: View/ForumTopics/reply.ctp:60
+#: View/mooApp/ForumTopics/create.ctp:113
+#: View/mooApp/ForumTopics/reply.ctp:60
+msgid "delete"
+msgstr "B0192삭제"
+
+#: View/ForumTopics/create.ctp:127
+#: View/mooApp/ForumTopics/create.ctp:127
+msgid "Tags"
+msgstr "B0193태그"
+
+#: View/ForumTopics/create.ctp:130
+#: View/mooApp/ForumTopics/create.ctp:130
+msgid "Separated by commas or space"
+msgstr "B0194쉼표 또는 공백으로 분리"
+
+#: View/ForumTopics/create.ctp:140
+#: View/mooApp/ForumTopics/create.ctp:140
+msgid "Send me notification when other members reply to this topic"
+msgstr "B0195이 토픽에 댓글이 달리면 알림을 주십시요."
+
+#: View/ForumTopics/index.ctp:24
+msgid "Viewing %s replies"
+msgstr "B0196%s 댓글 보기"
+
+#: View/ForumTopics/index.ctp:24;26;57
+#: View/ForumTopics/search.ctp:22
+#: View/ForumTopics/view.ctp:297;325
+#: View/Forums/view.ctp:86;105
+#: View/mooApp/ForumTopics/view.ctp:183;207
+#: View/mooApp/Forums/view.ctp:32;51
+msgid " through %s (of %s total)"
+msgstr "B0197 %s 건 (전체 %건중)"
+
+#: View/ForumTopics/index.ctp:26;57
+#: View/mooApp/Forums/view.ctp:32
+msgid "Viewing %s topics"
+msgstr "B0198 %s 토픽 보기"
+
+#: View/ForumTopics/index.ctp:31;61
+#: View/ForumTopics/search.ctp:24
+#: View/ForumTopics/view.ctp:301;329
+#: View/Forums/view.ctp:90;109
+#: View/mooApp/ForumTopics/view.ctp:187;211
+#: View/mooApp/Forums/view.ctp:36;55
+msgid "Prev"
+msgstr "B0199이전"
+
+#: View/ForumTopics/pin.ctp:5
+#: View/mooApp/ForumTopics/pin.ctp:5
+msgid "Pin topic on top"
+msgstr "B0200토픽을 맨위에 찍어두기"
+
+#: View/ForumTopics/pin.ctp:14
+#: View/mooApp/ForumTopics/pin.ctp:14
+msgid "Price per day"
+msgstr "B0201일당 가격"
+
+#: View/ForumTopics/pin.ctp:18
+#: View/mooApp/ForumTopics/pin.ctp:18
+msgid "How many days do you want to pin?"
+msgstr "B0202며칠간 찍어두기 하시겠습니까?"
+
+#: View/ForumTopics/pin.ctp:20
+#: View/mooApp/ForumTopics/pin.ctp:20
+msgid "Total price"
+msgstr "B0203전체 가격"
+
+#: View/ForumTopics/pin.ctp:24
+#: View/mooApp/ForumTopics/pin.ctp:24
+msgid "Pin now"
+msgstr "B0204즉시 고정"
+
+#: View/ForumTopics/search.ctp:12
+msgid "Search results for "
+msgstr "B0205검색결과 "
+
+#: View/ForumTopics/search.ctp:22
+msgid "Viewing %s results"
+msgstr "B0206 % 결과보기"
+
+#: View/ForumTopics/signature.ctp:4
+#: View/mooApp/ForumTopics/signature.ctp:4
+msgid "Edit Signature"
+msgstr "B0207서명 편집"
+
+#: View/ForumTopics/signature.ctp:6
+#: View/mooApp/ForumTopics/signature.ctp:6
+msgid "Your changes have been saved"
+msgstr "B0208변경사항이 저장되었습니다."
+
+#: View/ForumTopics/signature.ctp:17
+#: View/mooApp/ForumTopics/signature.ctp:17
+msgid "Edit your signature using the editor below, and click on \"Save Signature\" to save changes."
+msgstr "B0209회원님의 서명을 아래 편집기를 이용해 편집하시고, \"서명 저장\" 을 클릭하여 저장하십시요."
+
+#: View/ForumTopics/signature.ctp:19
+#: View/mooApp/ForumTopics/signature.ctp:19
+msgid "Auto insert into my reply"
+msgstr "B0210내 댓글에 자동 추가"
+
+#: View/ForumTopics/signature.ctp:31
+#: View/mooApp/ForumTopics/signature.ctp:31
+msgid "Save Signature"
+msgstr "B0211서명저장"
+
+#: View/ForumTopics/view.ctp:24
+#: View/mooApp/ForumTopics/view.ctp:236
+msgid "Topic Info"
+msgstr "B0212토픽정보"
+
+#: View/ForumTopics/view.ctp:31
+#: View/mooApp/ForumTopics/view.ctp:244
+msgid "In"
+msgstr "B0213안에"
+
+#: View/ForumTopics/view.ctp:49
+#: View/mooApp/ForumTopics/view.ctp:262
+msgid "Last reply from"
+msgstr "B0214마지막 댓글 "
+
+#: View/ForumTopics/view.ctp:53
+#: View/Forums/view.ctp:27
+#: View/mooApp/ForumTopics/view.ctp:266
+#: View/mooApp/Forums/view.ctp:104
+msgid "Last activity"
+msgstr "B0215마지막 활동"
+
+#: View/ForumTopics/view.ctp:80;237
+#: View/Widgets/forum/my_contribution.ctp:8
+#: View/mooApp/ForumTopics/view.ctp:130;287
+msgid "Favorite"
+msgstr "B0216선호"
+
+#: View/ForumTopics/view.ctp:89
+msgid "Reply search"
+msgstr "B0217댓글검색"
+
+#: View/ForumTopics/view.ctp:99
+msgid "Topic tags"
+msgstr "B0218토픽태그"
+
+#: View/ForumTopics/view.ctp:123
+#: View/mooApp/ForumTopics/view.ctp:44
+msgid "UnPin"
+msgstr "B0219우선 표시에서 제거"
+
+#: View/ForumTopics/view.ctp:125
+#: View/mooApp/ForumTopics/view.ctp:46
+msgid "Pin"
+msgstr "B0220우선 표시"
+
+#: View/ForumTopics/view.ctp:137;241
+msgid "Share"
+msgstr "B0221공유"
+
+#: View/ForumTopics/view.ctp:162;163;252;253
+#: View/mooApp/ForumTopics/view.ctp:62;139;140
+msgid "Invite Friends"
+msgstr "B0222친구초대"
+
+#: View/ForumTopics/view.ctp:262
+#: View/mooApp/ForumTopics/view.ctp:149
+msgid "Post reply"
+msgstr "B0223댓글게시"
+
+#: View/ForumTopics/view.ctp:289
+#: View/mooApp/ForumTopics/view.ctp:175
+msgid "Search results for \"%s\" keyword"
+msgstr "B0224\"%s\" 키워드 검색결과"
+
+#: View/ForumTopics/view.ctp:314
+#: View/mooApp/ForumTopics/view.ctp:198
+msgid "View all replies"
+msgstr "B0225전체 댓글보기"
+
+#: View/ForumTopics/view.ctp:345
+msgid "Login or register to post your reply"
+msgstr "B0226댓글을 게시하시려면 로그인하십시요."
+
+#: View/ForumTopics/view.ctp:348
+#: View/mooApp/ForumTopics/view.ctp:227
+msgid "This topic is marked as locked to new reply"
+msgstr "B0227이 토픽에는 더 이상 댓글을 달 수 없습니다."
+
+#: View/ForumTopics/view.ctp:35
+#: View/Forums/view.ctp:17
+msgid "%s reply"
+msgid_plural ""
+msgstr[0] "B0288%s 댓글"
+msgstr[1] "B0289%s 댓글"
+
+#: View/ForumTopics/view.ctp:39
+msgid "%s view"
+msgid_plural ""
+msgstr[0] "B0290%s 보기"
+msgstr[1] "B0291%s 보기"
+
+#: View/ForumTopics/view.ctp:43
+msgid "%s participant"
+msgid_plural ""
+msgstr[0] "B0292%s 참가자"
+msgstr[1] "B0293"
+
+#: View/ForumTopics/view.ctp:197
+#: View/mooApp/ForumTopics/view.ctp:90
+msgid "Pinned %s day by"
+msgid_plural ""
+msgstr[0] "B0294Pinned %s day by"
+msgstr[1] "B0295"
+
+#: View/ForumTopics/view.ctp:297;325
+#: View/mooApp/ForumTopics/view.ctp:183;207
+msgid "Viewing %s reply"
+msgid_plural ""
+msgstr[0] "B0296Viewing %s reply"
+msgstr[1] "B0297"
+
+#: View/Forums/admin_create.ctp:29
+msgid "Select"
+msgstr "B0228선택"
+
+#: View/Forums/admin_create.ctp:137
+msgid "Edit forum"
+msgstr "B0229포럼 편집"
+
+#: View/Forums/admin_create.ctp:137
+msgid "Add New forum"
+msgstr "B0230새 포럼 추가"
+
+#: View/Forums/admin_create.ctp:146
+msgid "Forum title"
+msgstr "B0231포럼제목"
+
+#: View/Forums/admin_create.ctp:161
+msgid "Parent forum"
+msgstr "B0232관련 포럼"
+
+#: View/Forums/admin_create.ctp:162
+msgid "Forum Category"
+msgstr "B0233포럼카테고리"
+
+#: View/Forums/admin_create.ctp:184
+msgid "Thumb Image"
+msgstr "B0234쎔네일이미지"
+
+#: View/Forums/admin_create.ctp:212
+msgid "Recommended size: 48 x 48"
+msgstr "B0235권장 크기: 48 x 48"
+
+#: View/Forums/admin_create.ctp:216
+msgid "Status"
+msgstr "B0236상황"
+
+#: View/Forums/admin_create.ctp:216
+msgid "Lock means that noone can post new topic into forum except for moderators and site admin"
+msgstr "B0237'마감'이 되면 포럼지기나, 사이트관리자외에는 새 토픽을 등록할 수 없습니다."
+
+#: View/Forums/admin_create.ctp:237
+msgid "Visibility"
+msgstr "B0238가시성"
+
+#: View/Forums/admin_create.ctp:237
+msgid "Configure view permission for each user roles. Uncheck if you want to disable this forum from all members"
+msgstr "B0239사용자 등극에 따라 보기 권한 설정. 모든 맴버가 해당 포럼 이용을 막기 원하면 체크 해제하십시요."
+
+#: View/Forums/admin_index.ctp:125
+msgid "Add New Forum Category"
+msgstr "B0240포럼카테고리 신규등록"
+
+#: View/Forums/admin_index.ctp:156
+msgid "Add forum"
+msgstr "B0241포럼 추가"
+
+#: View/Forums/admin_index.ctp:189
+#: View/Forums/admin_sub.ctp:144
+msgid "Add"
+msgstr "B0242추가"
+
+#: View/Forums/admin_index.ctp:199
+#: View/Forums/admin_sub.ctp:153
+msgid "remove"
+msgstr "B0243삭제"
+
+#: View/Forums/admin_index.ctp:207
+msgid "Sub-forum"
+msgstr "B0244하위 포럼"
+
+#: View/Forums/admin_index.ctp:211
+msgid "None"
+msgstr "B0245없음"
+
+#: View/Forums/admin_index.ctp:225
+#: View/Forums/admin_sub.ctp:162
+msgid "Move up"
+msgstr "B0246상단으로 이롱"
+
+#: View/Forums/admin_index.ctp:246
+#: View/Forums/admin_sub.ctp:181
+msgid "No forums found"
+msgstr "B0247등록된 포럼 없슴"
+
+#: View/Forums/admin_sub.ctp:74
+msgid "Sub forums of <b>%s</b>"
+msgstr "B0248<b>%s</b>의 하위포럼"
+
+#: View/Forums/admin_sub.ctp:82
+msgid "Back"
+msgstr "B0249이전으로"
+
+#: View/Forums/admin_sub.ctp:92
+msgid "Add New Sub Forum"
+msgstr "B0250새 하위포럼 추가"
+
+#: View/Forums/index.ctp:36
+#: View/Widgets/forum/home.ctp:33
+#: View/mooApp/Forums/index.ctp:36
+msgid "No Forum"
+msgstr "B0251등록된 포럼 없음"
+
+#: View/Forums/view.ctp:10
+#: View/mooApp/Forums/view.ctp:85
+msgid "Forum Info"
+msgstr "B0252포럼정보"
+
+#: View/Forums/view.ctp:23
+#: View/mooApp/Forums/view.ctp:100
+msgid "Last post by"
+msgstr "B0253최종 게시"
+
+#: View/Forums/view.ctp:33
+#: View/mooApp/Forums/view.ctp:110
+msgid "Moderators"
+msgstr "B0254포럼지기"
+
+#: View/Forums/view.ctp:61
+msgid "Forum Search"
+msgstr "B0255포럼검색"
+
+#: View/Forums/view.ctp:77
+#: View/mooApp/Forums/view.ctp:22
+msgid "Create New Topic"
+msgstr "B0256신규토픽 등록"
+
+#: View/Forums/view.ctp:120
+#: View/mooApp/Forums/view.ctp:66
+msgid "Sub-forums"
+msgstr "B0257하위 포럼"
+
+#: View/Forums/view.ctp:14
+msgid "%s topic"
+msgid_plural ""
+msgstr[0] "B0298%s 토픽"
+msgstr[1] "B0299"
+
+#: View/Forums/view.ctp:86;105
+#: View/mooApp/Forums/view.ctp:51
+msgid "Viewing %s topic"
+msgid_plural ""
+msgstr[0] "B0300Viewing %s topic"
+msgstr[1] "B0301"
+
+#: View/Helper/ForumHelper.php:45
+msgid "Locked forum, member can't post topic except moderators and site admin"
+msgstr "B0258마감된 포럼입니다. 포럼지기나, 사이트 관리자외에는 토픽을 게시할 수 없습니다."
+
+#: View/Helper/ForumHelper.php:57
+msgid "No one can access the forum because of permission settings"
+msgstr "B0259접근권한 설정상 포럼에 대한 접속이 허용되지 않습니다."
+
+#: View/Helper/ForumHelper.php:67
+msgid "Pin topic with %s %s for %s days"
+msgstr "B0260Pin topic with %s %s(%s 일간)"
+
+#: View/Helper/ForumHelper.php:261
+msgid "said"
+msgstr "B0261언급"
+
+#: View/Helper/ForumHelper.php:262
+msgid "From"
+msgstr "B0262"
+
+#: View/Widgets/forum/home.ctp:42
+msgid "Latest Post"
+msgstr "B0263최종 게시"
+
+#: View/Widgets/forum/most_member.ctp:3
+msgid "Most active members"
+msgstr "B0264최고관심회원"
+
+#: View/Widgets/forum/most_popular.ctp:4
+msgid "Most popular topics"
+msgstr "B0265최고관심토픽"
+
+#: View/Widgets/forum/most_view.ctp:4
+msgid "Most viewed topics"
+msgstr "B0266최고열람토픽"
+
+#: View/Widgets/forum/most_view.ctp:24
+msgid "Views"
+msgstr "B0267열람"
+
+#: View/Widgets/forum/my_contribution.ctp:5
+msgid "Topic Started"
+msgstr "B0268토픽을 시작하였습니다."
+
+#: View/Widgets/forum/my_contribution.ctp:6
+msgid "Replies Created"
+msgstr "B0269답변을 생성하였습니다."
+
+#: View/Widgets/forum/my_contribution.ctp:7
+msgid "Signature"
+msgstr "B0270서명"
+
+#: View/Widgets/forum/my_contribution.ctp:9
+msgid "Subscription"
+msgstr "B0271신청"
+
+#: View/Widgets/forum/recent_topic.ctp:4
+msgid "Recent topics"
+msgstr "B0272최근 토픽"
+
+#: View/mooApp/Elements/lists/forum_list.ctp:31
+msgid "topic"
+msgstr "B0273토픽"
+
+#: View/mooApp/Elements/lists/forum_list.ctp:31
+#: View/mooApp/Forums/view.ctp:91
+msgid "topics"
+msgstr "B0274토픽"
+
+#: View/mooApp/Elements/lists/forum_list.ctp:31
+msgid "reply"
+msgstr "B0275댓글"
+
+#: View/mooApp/Elements/lists/forum_list.ctp:31
+#: View/mooApp/ForumTopics/view.ctp:248
+#: View/mooApp/Forums/view.ctp:94
+msgid "replies"
+msgstr "B0276댓글"
+
+#: View/mooApp/ForumTopics/view.ctp:252
+msgid "views"
+msgstr "B0277열람"
+
+#: View/mooApp/ForumTopics/view.ctp:256
+msgid "participants"
+msgstr "B0278참가자"
+
+#: View/mooApp/Forums/view.ctp:8
+msgid "Search Forum"
+msgstr "B0279포럼검색"
+
+#: View/mooApp/Forums/view.ctp:125
+msgid "Subscribed"
+msgstr "B0280신청하였습니다."
+
+#: Model/Forum.php:validation for field name
+msgid "Forum's name is required"
+msgstr "B0281포럼제목이 필요합니다."
+
+#: Model/Forum.php:validation for field description
+#: Model/ForumTopic.php:validation for field description
+msgid "Description is required"
+msgstr "B0282포럼소개가 필요합니다."
+
+#: Model/ForumCategory.php:validation for field name
+msgid "Category's name is required"
+msgstr "B0283카테고리명이 필요합니다."
+
+#: Model/ForumReport.php:validation for field reason
+msgid "Reason is required"
+msgstr "B0284개최배경이 필요합니다."
+
+#: Model/ForumTopic.php:validation for field title
+msgid "Title is required"
+msgstr "B0285제목이 필요합니다."
+
+msgid "_EMAIL_FORUM_TOPIC_INVITE_NONE_MEMBER_TITLE_"
+msgstr "B0286이메일 포럼 토픽 초대 비회원 제목"
+
+msgid "_EMAIL_FORUM_PING_TOPIC_TITLE_"
+msgstr "B0287이메일 포럼 고정토픽 제목"
+

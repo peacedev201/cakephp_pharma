@@ -1,0 +1,12 @@
+.feed-reaction-options .reacts{
+    /*transform: translate(-11%, 0);*/
+}
+.like-section .like-action .item-reaction-options .reacts{
+    /*transform: translate(-10%, 0);*/
+}
+.feed-reaction-review{
+    padding: 15px 15px 0 15px;
+}
+.section-like-photo .photo-reaction-options .reacts{
+    /*transform: translate(-18%, 0);*/
+}

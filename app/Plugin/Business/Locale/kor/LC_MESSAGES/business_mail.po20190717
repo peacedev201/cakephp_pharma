@@ -1,0 +1,83 @@
+msgid "_EMAIL_BUSINESS_VERIFY_DOCUMENTS_TITLE_"
+msgstr "h0001 업체 문서 인증"
+
+msgid "_EMAIL_BUSINESS_VERIFY_DOCUMENTS_DESCRIPTION_"
+msgstr "h0002 관리자는 문서를 통해 요청 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_VERIFY_PHONE_TITLE_"
+msgstr "h0003 업체 전화번호 인증"
+
+msgid "_EMAIL_BUSINESS_VERIFY_PHONE_DESCRIPTION_"
+msgstr "h0004 관리자는 전화를 통해 요청 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_CLAIM_REQUEST_TITLE_"
+msgstr "h0005 사업 요구 요청"
+
+msgid "_EMAIL_BUSINESS_CLAIM_REQUEST_DESCRIPTION_"
+msgstr "h0006 관리자는 사업 요구 요청 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_REJECT_TITLE_"
+msgstr "h0007 업체 거절"
+
+msgid "_EMAIL_BUSINESS_REJECT_DESCRIPTION_"
+msgstr "h0008 업체 관리자는 거절 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_REJECT_TITLE_"
+msgstr "h0009 업체 하위 페이지 거절"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_REJECT_DESCRIPTION_"
+msgstr "h0010 사용자는 거절 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_CONTACT_TITLE_"
+msgstr "h0011 업체 연락처를 보냅니다"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "h0012 업체 관리자는 연락처 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "h0013 업체 관리자는 연락처 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "h0014 업체 관리자는 연락처 이메일을 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_FEATURE_TITLE_"
+msgstr "h0015 업체 만료일 기능"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_FEATURE_DESCRIPTION_"
+msgstr "h0016 업체 만료일 기능을 이메일로 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_TITLE_"
+msgstr "h0017 업체 만료"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_DESCRIPTION_"
+msgstr "h0018 업체 만료일을 이메일로 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_REMINDER_FEATURED_PACKAGE_TITLE_"
+msgstr "h0019 업체 알림 기능"
+
+msgid "_EMAIL_BUSINESS_REMINDER_FEATURED_PACKAGE_DESCRIPTION_"
+msgstr "h0020 업체 알림 기능을 이메일로 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_REMINDER_BUSINESS_PACKAGE_TITLE_"
+msgstr "h0021 업체 알림"
+
+msgid "_EMAIL_BUSINESS_REMINDER_BUSINESS_PACKAGE_DESCRIPTION_"
+msgstr "h0022 업체 알림 기능을 이메일로 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_SUCCESS_PACKAGE_TITLE_"
+msgstr "h0023 업체 패키지 성공"
+
+msgid "_EMAIL_BUSINESS_SUCCESS_PACKAGE_DESCRIPTION_"
+msgstr "h0024 업체 패키지 성공을 이메일로 받게됩니다"
+
+msgid "_EMAIL_BUSINESS_APPROVE_TITLE_"
+msgstr "h0025 업체 승인됨"
+
+msgid "_EMAIL_BUSINESS_APPROVE_DESCRIPTION_"
+msgstr "h0026 업체 승인 이메일"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_APPROVE_TITLE_"
+msgstr "h0027 업체 하위 페이지 승인됨"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_APPROVE_DESCRIPTION_"
+msgstr "h0028 하위 페이지 승인 이메일"

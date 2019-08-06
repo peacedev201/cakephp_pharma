@@ -1,0 +1,1 @@
+<?php echo __d('upload_video', 'your video is ready to view.'); ?>

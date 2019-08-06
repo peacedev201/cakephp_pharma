@@ -1,0 +1,65 @@
+#feelingResult .feeling-icon,
+#feelingResult .feeling-lvl1{
+    /*display: inline-flex;*/
+}
+
+.feeling-popup ul li.feeling-arrow:after{
+    border-left: 6px solid #757575;
+    border-bottom: 6px solid transparent;
+    border-right: 0;
+    border-top: 6px solid transparent;
+    right: 10px;
+}
+
+.feeling-popup ul li a{
+    padding: 5px 15px 5px 42px;
+    text-align: left;
+}
+
+.feeling-popup ul li .feeling-icon{
+    top: 9px;
+    left: 5px;
+}
+
+.wall-status-background .feeling-button {
+    top: -38px;
+    left: 44px;
+}
+
+.wall-status-background #feelingResult {
+    margin-left: 130px;
+    /*float: left;*/
+}
+.wall-status-background.status-thumb-disable .feeling-button{
+    left: 3px;
+}
+.wall-status-background.status-thumb-disable #feelingResult {
+    margin-left: 90px;
+}
+td.feeling-lvl-2.choose #feelingLvl2Text{
+    text-align: left;
+}
+.feeling-remove{
+    right: 3px;
+}
+
+.wall-status-background.status-thumb-open .feeling-button,
+.wall-status-background.status-background-active .feeling-button{
+    /*left: 44px;
+    float: left;*/
+}
+
+.wall-status-background.status-thumb-open #feelingResult{
+    margin-left: 5px;
+}
+
+.wall-status-background.status-background-active #feelingResult{
+    margin-left: 5px;
+}
+
+@media (max-width: 767px){
+    .wall-status-background #feelingResult {
+        margin-top: -28px;
+        /*margin-left: 0;*/
+    }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query>
+                <![CDATA[
+                    CREATE TABLE IF NOT EXISTS `{PREFIX}award_badges` (
+                        `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                        `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+                        `description` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+                        `thumbnail` char(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+                        `weight` smallint(5) unsigned NOT NULL DEFAULT '0',
+                        `created` datetime DEFAULT NULL,
+                        PRIMARY KEY (`id`)
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1;
+                    
+                    CREATE TABLE IF NOT EXISTS `{PREFIX}award_users` (
+                        `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                        `user_id` int(11) DEFAULT NULL,
+                        `award_badge_id` int(11) DEFAULT NULL,
+                        `created` datetime DEFAULT NULL,
+                        PRIMARY KEY (`id`)
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+                ]]>
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.3</number>
+        <queries>
+            <query>
+                <![CDATA[
+                    ALTER TABLE `{PREFIX}award_badges` ADD `show_next_name` TINYINT(2) unsigned NOT NULL DEFAULT '1';
+                    
+                    ALTER TABLE `{PREFIX}role_badges` ADD `desktop_profile` char(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL, ADD `desktop_feed` char(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL, ADD `mobile_profile` char(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL, ADD `mobile_feed`char(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL;
+                    
+                    ALTER TABLE `{PREFIX}role_badges` ADD `show_next_name` TINYINT(2) unsigned NOT NULL DEFAULT '1';
+                ]]>
+            </query>
+        </queries>
+    </version>
+</versions>

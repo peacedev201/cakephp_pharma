@@ -1,0 +1,98 @@
+.menustore-wrapper {
+    position: fixed;
+    right: 0;
+    top: 33%;
+    z-index: 100;
+    transition: right 0.45s ease 0.5s;
+}
+.menustore {
+    background: #de4a4a none repeat scroll 0 0;
+    border-radius: 15px 0 0 15px;
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+}
+.menustore > i {
+    color: #fff;
+    font-size: 25px;
+}
+.menustore-wrapper .menu-store-contain {
+    background: #246ea3;
+    box-shadow: 3px 2px 6px 0 rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 0;
+    width: auto;
+    border-radius: 4px 0 0 4px;
+}
+.menu-store-contain > a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+.menu-store-contain > a:hover {
+    background:#000;
+    color: #fff;
+}
+.menustore-wrapper.showtime {
+    transition: right 0.45s ease 0.5s;
+    right:0;
+}
+.menu-store-contain > a em {
+    font-style: normal;
+}
+.menu-store-contain > a > i {
+    font-size: 20px;
+}
+/*.tooltip-inner {
+    white-space:nowrap;
+}
+.tooltip > .tooltip-inner {background-color: #bd1000;}
+.tooltip.top .tooltip-arrow {
+    border-top-color: #bd1000;
+}*/
+.bus_review_photo div.bus_review_photo_item {
+    float: left;
+    margin-top: 10px;
+    padding: 2px;
+    width: 20%;
+}
+.bus_review_photo div.bus_review_photo_item a {
+    background-size: cover;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 100%;
+    width: 100%;
+}
+.bus_review_photo {
+    overflow: hidden;
+}
+.layer_square.photoModal > img ,
+.bus_review_photo .layer_square > img ,
+.bus_detail_tab .photoItem .layer_square.photoModal > img {
+    width: 100%;
+}
+.bus_review_info .review_star{
+    background-color: transparent;
+}
+.menu-store-contain #cart_balloon{
+    position: absolute;
+    background-color: #f00;
+    border-radius: 20px;
+    left: -6px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    top: -17px;
+    padding-top: 8px;
+    overflow: hidden;
+}
+@media (max-width: 991px){
+    .activity_left {
+        padding-top: 24px;
+    }
+}

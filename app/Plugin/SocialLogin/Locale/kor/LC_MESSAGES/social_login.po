@@ -1,0 +1,29 @@
+msgid "Linkedin"
+msgstr "Y0001링크드인"
+
+msgid "Twitter"
+msgstr "Y0002트위터"
+
+msgid "Social Login Settings"
+msgstr "Y0003소셜로그인설정"
+
+msgid "Enable Social Login"
+msgstr "Y0004소셜로그인활성화"
+
+msgid "You can now integrate mooSocial to Linkedin. To do so, create an Application through the"
+msgstr "Y0005 링크드인과 통합합니다. 응용 프로그램을 통해, "
+
+msgid "You can now integrate mooSocial to Twitter. To do so, create an Application through the"
+msgstr "Y0006 트위터와 통합합니다. 응용 프로그램을 통해, "
+
+msgid "Linkedin Applications"
+msgstr "Y0007 링크드인 응용 프로그램"
+
+msgid "Twitter Applications"
+msgstr "Y0008 트위터 응용 프로그램"
+
+msgid "page"
+msgstr "Y0009 페이지"
+
+msgid "How to setup Twitter App"
+msgstr "Y0010 트위터 앱 설치 방법"

@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 6, 2016, 2:55:49 PM
+    Author     : LongTK
+*/
+.title-modal {
+    background: #f4f4f4 none repeat scroll 0 0;
+    border-radius: 4px 4px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    position: relative;
+}
+button.close {
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 10px;
+    width: 100%;
+}
+button.close {
+    background: none !important;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+}
+button.close span {
+    display: block;
+    padding-right: 15px;
+}
+.modal-body {
+    overflow: hidden;
+}
+.ads_title .col-md-12 > a {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.col-md-12.ads_description > p {
+    height: 50px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.ads-placement h1 {
+    color: #3e3e3e;
+    font-size: 19px;
+    margin: 10px 0;
+    padding: 0;
+}
+.ads-placement-price {
+    color: #d0021b;
+    font-size: 17px;
+    font-weight: 500;
+}
+.ads-placement {
+    margin-bottom: 30px;
+}
+#ads_placement_id.form-control {
+    float: left;
+    width: 93%;
+}
+.col-md-1.age_and {
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+.view_all {
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 10px;
+}
+.clear {
+    clear: both;
+}
+.col-md-9.ads_placement [class^="col-md-"] {
+    padding: 0;
+}
+#previewBannerHtml > a.banner_title {
+    display: block;
+    margin: 10px 0;
+}

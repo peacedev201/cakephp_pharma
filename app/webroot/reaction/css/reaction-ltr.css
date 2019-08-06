@@ -1,0 +1,32 @@
+.reaction-review .react-review {
+    float: left;
+    margin-right: 3px;
+}
+.reaction-review .react-count-all {
+    float: left;
+}
+
+.feed-reaction-options{
+
+}
+.reaction-options .react-btn > span::before{
+    margin-right: 3px;
+}
+
+.reaction-options .react-btn > span > i {
+    left: 0;
+}
+
+@media screen and (max-width:576px){
+    .comment-reaction-options .reacts {
+        /*transform: scale(0.9) translate(-43%, 0);*/
+    }
+}
+
+.like-section .like-action .item-reaction-options .reacts {
+    /*transform: translate(-60%, 0);*/
+}
+
+#lb_description .reacts {
+    /*transform: translate(-69%, 0);*/
+}

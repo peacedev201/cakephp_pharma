@@ -1,0 +1,237 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ProfileCompletionPlugin.php:17
+#: View/ProfileCompletions/admin_index.ctp:16
+msgid "General"
+msgstr "General"
+
+#: ProfileCompletionPlugin.php:18
+#: Controller/ProfileCompletionSettingsController.php:14
+#: View/ProfileCompletionSettings/admin_index.ctp:25
+msgid "Settings"
+msgstr "Settings"
+
+#: Controller/ProfileCompletionSettingsController.php:43
+msgid "Successfully updated"
+msgstr "Successfully updated"
+
+#: Controller/ProfileCompletionsController.php:31
+#: View/ProfileCompletions/admin_index.ctp:5
+msgid "Profile Completion Manager"
+msgstr "Profile Completion Manager"
+
+#: Controller/ProfileCompletionsController.php:45
+msgid "The number entered is not as negative numbers"
+msgstr "The number entered is not as negative numbers"
+
+#: Controller/ProfileCompletionsController.php:54
+msgid "Total profile competeness is not 100%s, please check %s of each field again. <br> Current Total Percent: %s"
+msgstr "Total profile competeness is not 100%s, please check %s of each field again. <br> Current Total Percent: %s"
+
+#: Controller/ProfileCompletionsController.php:82
+msgid "Profile completion have been saved"
+msgstr "Profile completion have been saved"
+
+#: Controller/ProfileCompletionsController.php:228
+#: Controller/Widgets/profile_completions/profileProfileCompletionWidget.php:129
+#: Lib/ProfileCompletionListener.php:141
+#: View/ProfileCompletions/admin_index.ctp:67
+msgid "Full Name"
+msgstr "Full Name"
+
+#: Controller/ProfileCompletionsController.php:229
+#: Controller/Widgets/profile_completions/profileProfileCompletionWidget.php:130
+#: Lib/ProfileCompletionListener.php:142
+#: View/ProfileCompletions/admin_index.ctp:79
+msgid "Email Address"
+msgstr "Email Address"
+
+#: Controller/ProfileCompletionsController.php:230
+#: Controller/Widgets/profile_completions/profileProfileCompletionWidget.php:131
+#: Lib/ProfileCompletionListener.php:143
+#: View/ProfileCompletions/admin_index.ctp:91
+msgid "Birthday"
+msgstr "Birthday"
+
+#: Controller/ProfileCompletionsController.php:231
+#: Controller/Widgets/profile_completions/profileProfileCompletionWidget.php:132
+#: Lib/ProfileCompletionListener.php:144
+#: View/ProfileCompletions/admin_index.ctp:103
+msgid "Gender"
+msgstr "Gender"
+
+#: Controller/ProfileCompletionsController.php:232
+#: Controller/Widgets/profile_completions/profileProfileCompletionWidget.php:133
+#: Lib/ProfileCompletionListener.php:145
+#: View/ProfileCompletions/admin_index.ctp:115
+msgid "Timezone"
+msgstr "Timezone"
+
+#: Controller/ProfileCompletionsController.php:233
+#: Controller/Widgets/profile_completions/profileProfileCompletionWidget.php:134
+#: Lib/ProfileCompletionListener.php:146
+msgid "Username"
+msgstr "Username"
+
+#: Controller/ProfileCompletionsController.php:234
+#: Controller/Widgets/profile_completions/profileProfileCompletionWidget.php:135
+#: Lib/ProfileCompletionListener.php:147
+#: View/ProfileCompletions/admin_index.ctp:151
+msgid "About"
+msgstr "About"
+
+#: Controller/ProfileCompletionsController.php:235
+#: Controller/Widgets/profile_completions/profileProfileCompletionWidget.php:136
+#: Lib/ProfileCompletionListener.php:148
+msgid "Avatar"
+msgstr "Avatar"
+
+#: Lib/ProfileCompletionListener.php:184
+msgid "Please update required fields in your profile to be able to access entire site."
+msgstr "Please update required fields in your profile to be able to access entire site."
+
+#: View/ProfileCompletionSettings/admin_index.ctp:5;49
+msgid "Progress Bar Color"
+msgstr "Progress Bar Color"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:6
+msgid "Do not show the widget then 100% completed"
+msgstr "Do not show the widget then 100% completed"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:7;50;59
+msgid "Enter Gauge Color In Hex"
+msgstr "Enter Gauge Color In Hex"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:8;83
+msgid "The widget will hide if all fields are filled in (100% completed)"
+msgstr "The widget will hide if all fields are filled in (100% completed)"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:9
+msgid "Profile Completion"
+msgstr "Profile Completion"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:14
+#: View/ProfileCompletions/admin_index.ctp:4
+msgid "Plugins Manager"
+msgstr "Plugins Manager"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:15
+msgid "Profile Completion Settings"
+msgstr "Profile Completion Settings"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:34
+msgid "Enable Profile Completion Plugin"
+msgstr "Enable Profile Completion Plugin"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:39
+msgid "Disable"
+msgstr "Disable"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:43
+msgid "Enable"
+msgstr "Enable"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:58
+msgid "% Remaining Bar Color"
+msgstr "% Remaining Bar Color"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:82
+msgid "Do not show the widget when 100% completed"
+msgstr "Do not show the widget when 100% completed"
+
+#: View/ProfileCompletions/admin_index.ctp:23
+msgid "Profile field important settings"
+msgstr "Profile field important settings"
+
+#: View/ProfileCompletions/admin_index.ctp:27
+msgid "You can define how importance each field will be here by enter % value info all fields below. Please enter 0 if you don't want to include a specific field into % profile completion"
+msgstr "You can define how importance each field will be here by enter % value info all fields below. Please enter 0 if you don't want to include a specific field into % profile completion"
+
+#: View/ProfileCompletions/admin_index.ctp:31
+msgid "Importance: if you deleted a custom field, you need to manually update % value again to make sure that total will be 100%."
+msgstr "Importance: if you deleted a custom field, you need to manually update % value again to make sure that total will be 100%."
+
+#: View/ProfileCompletions/admin_index.ctp:46
+msgid "Profile Type"
+msgstr "Profile Type"
+
+#: View/ProfileCompletions/admin_index.ctp:60
+msgid "Required Infomation"
+msgstr "Required Infomation"
+
+#: View/ProfileCompletions/admin_index.ctp:132
+msgid "Optional Infomation"
+msgstr "Optional Infomation"
+
+#: View/ProfileCompletions/admin_index.ctp:139
+msgid "UserName"
+msgstr "UserName"
+
+#: View/ProfileCompletions/admin_index.ctp:163
+msgid "Profile Avatar"
+msgstr "Profile Avatar"
+
+#: View/ProfileCompletions/admin_index.ctp:180
+msgid "Additional Infomation"
+msgstr "Additional Infomation"
+
+#: View/ProfileCompletions/admin_index.ctp:213
+msgid "Save"
+msgstr "Save"
+
+#: View/ProfileCompletions/profile_app.ctp:15
+#: View/Widgets/profile_completions/profile.ctp:17;80
+msgid "%s Profile Completeness"
+msgstr "%s Profile Completeness"
+
+#: View/ProfileCompletions/profile_app.ctp:21
+#: View/Widgets/profile_completions/profile.ctp:23;86
+msgid "% Complete"
+msgstr "% Complete"
+
+#: View/ProfileCompletions/profile_app.ctp:28
+#: View/Widgets/profile_completions/profile.ctp:30;93
+msgid "Next: "
+msgstr "Next: "
+
+#: View/ProfileCompletions/profile_app.ctp:45
+#: View/Widgets/profile_completions/profile.ctp:47;110
+msgid "Update Profile"
+msgstr "Update Profile"
+
+msgid "Please update required fields in your profile."
+msgstr "Please update required fields in your profile."
+
+msgid "Edit profile"
+msgstr "Edit profile"
+
+msgid "Importance: if you deleted, add new or disable/enable a custom field, you need to manually update % value again to make sure that total will be 100%."
+msgstr "Importance: if you deleted, add new or disable/enable a custom field, you need to manually update % value again to make sure that total will be 100%."
+
+msgid "Please complete <a href='%s'>your profile</a> to hide this warning message!"
+msgstr "Please complete <a href='%s'>your profile</a> to hide this warning message!"
+
+#: View/ProfileCompletionSettings/admin_index.ctp:68
+msgid "Your members will see warning to update profile information if they have not reached to % entered here. Enter 0 to disable this option."
+msgstr "Your members will see warning to update profile information if they have not reached to % entered here. Enter 0 to disable this option."
+
+#: Lib/ProfileCompletionListener.php:193
+msgid "Your current profile completeness is %s, please finish up to %s to hide this warning message. Please update \"%s\" to get more \"%s\""
+msgstr "Your current profile completeness is %s, please finish up to %s to hide this warning message. Please update \"%s\" to get more \"%s\""
+
+#: View/ProfileCompletionSettings/admin_index.ctp:67
+msgid "Show update profile warning message"
+msgstr "Show update profile warning message"

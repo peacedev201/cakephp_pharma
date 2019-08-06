@@ -1,0 +1,1 @@
+<?php echo __d('forum', 'replied on topic "%s"', $notification['Notification']['params']);?>

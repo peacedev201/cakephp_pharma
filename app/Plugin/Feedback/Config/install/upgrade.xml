@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query>
+			<![CDATA[   
+				UPDATE `{PREFIX}core_menu_items` SET `url`='/feedbacks' WHERE `url`='/feedback';
+			  ]]>
+            </query>			
+        </queries>
+    </version>
+     <version>
+        <number>1.5</number>
+        <queries>
+            <query>
+			<![CDATA[   
+				INSERT INTO `{PREFIX}settings` (`group_id`, `label`, `name`, `field`, `value`, `is_hidden`, `version_id`, `type_id`, `value_actual`, `value_default`, `description`, `ordering`, `is_boot`) VALUES
+				((SELECT `id` FROM `{PREFIX}setting_groups` WHERE `module_id` = 'Feedback'), 'By pass force login', 'feedback_consider_force', NULL, '', 0, NULL, 'checkbox', '[{"name":"","value":"1","select":0}]', '[{"name":"","value":"1","select":0}]', 'By pass force login', 5, 1);
+			  ]]>
+			</query>
+        </queries>
+    </version>
+    <version>
+        <number>1.7</number>
+        <queries>
+            <query>
+			<![CDATA[   
+				INSERT INTO `{PREFIX}settings` (`group_id`, `label`, `name`, `field`, `value`, `is_hidden`, `version_id`, `type_id`, `value_actual`, `value_default`, `description`, `ordering`, `is_boot`) VALUES
+				((SELECT `id` FROM `{PREFIX}setting_groups` WHERE `module_id` = 'Feedback'), 'Enable display activity feed', 'feedback_enable_activity', NULL, '', 0, NULL, 'radio', '[{"name":"Yes","value":"1","select":"1"},{"name":"No","value":"0","select":"0"}]', '[{"name":"Yes","value":"1","select":"1"},{"name":"No","value":"0","select":"0"}]', '', 16, 0);
+                ALTER TABLE `{PREFIX}feedback` ADD `share_count` INT(5) UNSIGNED NOT NULL DEFAULT '0' AFTER `like_count`;
+			  ]]>
+			</query>
+        </queries>
+    </version>
+</versions>

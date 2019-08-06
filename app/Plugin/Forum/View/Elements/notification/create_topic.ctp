@@ -1,0 +1,1 @@
+<?php echo __d('forum', 'posted a new topic into "%s"', $notification['Notification']['params']);?>

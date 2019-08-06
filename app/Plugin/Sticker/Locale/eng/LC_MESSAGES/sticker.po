@@ -1,0 +1,360 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: StickerPlugin.php:63
+#: Controller/StickerCategoriesController.php:27;56
+#: View/StickerCategories/admin_create.ctp:36
+#: View/StickerCategories/admin_index.ctp:19
+msgid "Categories"
+msgstr ""
+
+#: StickerPlugin.php:64
+#: Controller/StickersController.php:29;72
+#: View/Stickers/admin_create.ctp:34
+#: View/Stickers/admin_index.ctp:19
+msgid "Stickers"
+msgstr ""
+
+#: StickerPlugin.php:65
+#: Controller/StickerSettingsController.php:14
+#: View/StickerSettings/admin_index.ctp:18
+msgid "Settings"
+msgstr ""
+
+#: Controller/ApiStickersController.php:21
+msgid "Sticker id is required"
+msgstr ""
+
+#: Controller/ApiStickersController.php:36
+msgid "Keyword is required"
+msgstr ""
+
+#: Controller/StickerCategoriesController.php:36
+msgid "Category not found"
+msgstr ""
+
+#: Controller/StickerCategoriesController.php:89
+#: Controller/StickersController.php:115
+msgid "Successfully saved"
+msgstr ""
+
+#: Controller/StickerCategoriesController.php:93
+#: Controller/StickersController.php:119
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: Controller/StickerCategoriesController.php:148;161
+#: Controller/StickersController.php:312;325
+msgid "Successfully updated"
+msgstr ""
+
+#: Controller/StickerCategoriesController.php:175
+#: Controller/StickersController.php:346
+msgid "Successfully deleted"
+msgstr ""
+
+#: Controller/StickersController.php:38
+msgid "Sticker not found"
+msgstr ""
+
+#: Controller/StickersController.php:93
+msgid "Please add at least an image"
+msgstr ""
+
+#: Lib/StickerListener.php:31
+msgid "This page is asking you to comfirm you want to leave - please make sure you saved all data."
+msgstr ""
+
+#: Lib/StickerListener.php:32
+msgid "Click here to upload"
+msgstr ""
+
+#: Lib/StickerListener.php:33
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: Lib/StickerListener.php:34
+msgid "You must select at least an item"
+msgstr ""
+
+#: View/Elements/sharing.ctp:13;42
+#: View/StickerSettings/admin_index.ctp:2
+#: View/Stickers/admin_index.ctp:95
+#: View/Stickers/sticker_modal.ctp:6
+msgid "Sticker"
+msgstr ""
+
+#: View/Elements/sticker_modal_search.ctp:4
+msgid "Search stickers"
+msgstr ""
+
+#: View/Elements/list/sticker_animation_list.ctp:8
+msgid "No Stickers to Show"
+msgstr ""
+
+#: View/Helper/StickerHelper.php:89
+#: View/Stickers/admin_create.ctp:144
+msgid "Image"
+msgstr ""
+
+#: View/Helper/StickerHelper.php:90
+msgid "Animation"
+msgstr ""
+
+#: View/Helper/StickerHelper.php:91
+msgid "Gif"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:17
+#: View/StickerCategories/admin_index.ctp:10
+#: View/StickerSettings/admin_index.ctp:10
+#: View/Stickers/admin_create.ctp:15
+#: View/Stickers/admin_index.ctp:10
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:18
+#: View/StickerCategories/admin_index.ctp:11;23
+msgid "Manage Categories"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:24
+msgid "Edit Category"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:28
+msgid "Create Category"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:41
+msgid "Edit Categories"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:43
+msgid "Create Categories"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:46
+#: View/Stickers/admin_create.ctp:44
+msgid "Save"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:47
+#: View/Stickers/admin_create.ctp:45
+msgid "Apply"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:48
+#: View/Stickers/admin_create.ctp:46
+msgid "Cancel"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:64
+#: View/StickerCategories/admin_index.ctp:42;43;96;124
+#: View/Stickers/admin_create.ctp:62;148
+#: View/Stickers/admin_index.ctp:42;43;96;126
+msgid "Enable"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:75
+#: View/Stickers/admin_create.ctp:73
+msgid "Icon"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:90
+msgid "Background color"
+msgstr ""
+
+#: View/StickerCategories/admin_create.ctp:121
+#: View/Stickers/admin_create.ctp:117
+msgid "Name"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:27
+#: View/Stickers/admin_index.ctp:27
+msgid "Actions"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:32;33
+#: View/Stickers/admin_index.ctp:32;33
+msgid "Add New"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:37;38;97
+#: View/Stickers/admin_create.ctp:149
+#: View/Stickers/admin_index.ctp:37;38;97
+msgid "Ordering"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:47;48;120
+#: View/Stickers/admin_index.ctp:47;48;122
+msgid "Disable"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:52;53;142
+#: View/Stickers/admin_create.ctp:232
+#: View/Stickers/admin_index.ctp:52;53;144
+msgid "Delete"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:70
+#: View/Stickers/admin_index.ctp:70
+msgid "Keyword"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:76
+#: View/Stickers/admin_index.ctp:76
+#: View/Stickers/sticker_modal.ctp:24
+msgid "Search"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:95
+msgid "Preview"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:98
+#: View/Stickers/admin_index.ctp:98
+msgid "Action"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:138
+#: View/Stickers/admin_index.ctp:140
+msgid "Edit"
+msgstr ""
+
+#: View/StickerCategories/admin_index.ctp:153
+msgid "No Categories"
+msgstr ""
+
+#: View/StickerSettings/admin_index.ctp:3
+msgid "Enable plugin"
+msgstr ""
+
+#: View/StickerSettings/admin_index.ctp:4
+msgid "Yes"
+msgstr ""
+
+#: View/StickerSettings/admin_index.ctp:5
+msgid "No"
+msgstr ""
+
+#: View/StickerSettings/admin_index.ctp:6
+#: View/Stickers/admin_create.ctp:88
+msgid "Animation interval"
+msgstr ""
+
+#: View/StickerSettings/admin_index.ctp:7
+msgid "millisecond"
+msgstr ""
+
+#: View/StickerSettings/admin_index.ctp:11
+msgid "Sticker Settings"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:16
+#: View/Stickers/admin_index.ctp:11;23
+msgid "Manage Stickers"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:22
+msgid "Edit Sticker"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:26
+msgid "Create Sticker"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:39
+msgid "Edit Stickers"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:41
+msgid "Create Stickers"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:95
+msgid "If value is 0, it will get value from setting."
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:132
+msgid "Images"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:136
+msgid "Click %s to see a sample animation image."
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:136
+msgid "here"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:145
+msgid "Category"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:146
+msgid "Block"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:147
+msgid "Quantity"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:199
+msgid "None"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:227
+msgid "Up"
+msgstr ""
+
+#: View/Stickers/admin_create.ctp:228
+msgid "Down"
+msgstr ""
+
+#: View/Stickers/admin_index.ctp:155
+msgid "No Stickers"
+msgstr ""
+
+#: View/Stickers/admin_sample.ctp:3
+msgid "Sample Sticker"
+msgstr ""
+
+#: View/Stickers/admin_sample.ctp:9
+msgid "There are 5 blocks and total quantity is 20. Each image is moved from left to right and from top to bottom."
+msgstr ""
+
+#: View/Stickers/sticker_modal.ctp:27
+msgid "Recent"
+msgstr ""
+
+#: View/Stickers/sticker_modal.ctp:45
+msgid "Close"
+msgstr ""
+
+#: Model/Sticker.php:validation for field icon
+#: Model/StickerCategory.php:validation for field icon
+msgid "Icon is required"
+msgstr ""
+
+#: Model/Sticker.php:validation for field name
+#: Model/StickerCategory.php:validation for field name
+msgid "Name is required"
+msgstr ""
+
+#: Model/StickerCategory.php:validation for field background_color
+msgid "Background color is required"
+msgstr ""
+

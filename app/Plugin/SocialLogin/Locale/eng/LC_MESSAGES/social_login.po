@@ -1,0 +1,29 @@
+msgid "Linkedin"
+msgstr ""
+
+msgid "Twitter"
+msgstr ""
+
+msgid "Social Login Settings"
+msgstr ""
+
+msgid "Enable Social Login"
+msgstr ""
+
+msgid "You can now integrate mooSocial to Linkedin. To do so, create an Application through the"
+msgstr ""
+
+msgid "You can now integrate mooSocial to Twitter. To do so, create an Application through the"
+msgstr ""
+
+msgid "Linkedin Applications"
+msgstr ""
+
+msgid "Twitter Applications"
+msgstr ""
+
+msgid "page"
+msgstr ""
+
+msgid "How to setup Twitter App"
+msgstr ""

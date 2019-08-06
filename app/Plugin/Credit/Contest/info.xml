@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Contests</name>
+    <key>Contest</key>
+    <version>1.7</version>
+    <description>Contest</description>
+    <author>mooSocial - Bao.NQ</author>
+    <website>https://moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+<settings><setting><label>By pass force login</label><name>contest_by_pass_force_login</name><description></description><type>radio</type><values><value><name>Yes</name><value>1</value><select>0</select></value><value><name>No</name><value>0</value><select>1</select></value></values></setting><setting><label>Contests</label><name>contest_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Item per pages</label><name>contest_item_per_pages</name><description>The number of contests to display per page</description><type>text</type><values>12</values></setting><setting><label>Enable Contest Hashtag</label><name>contest_hashtag_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Auto Approved Contest</label><name>contest_auto_approved</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>1</select></value><value><name>Enable</name><value>1</value><select>0</select></value></values></setting></settings></info>

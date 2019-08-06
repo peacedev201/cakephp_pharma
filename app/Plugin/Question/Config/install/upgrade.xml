@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.3</number>
+        <queries>
+            <query>
+            <![CDATA[   
+				INSERT INTO `{PREFIX}settings` (`group_id`, `label`, `name`, `field`, `value`, `is_hidden`, `version_id`, `type_id`, `value_actual`, `value_default`, `description`, `ordering`, `is_boot`) VALUES
+				((SELECT `id` FROM `{PREFIX}setting_groups` WHERE `module_id` = 'Question'), 'By pass force login', 'question_consider_force', NULL, '', 0, NULL, 'checkbox', '[{"name":"","value":"1","select":0}]', '[{"name":"","value":"1","select":0}]', 'By pass force login', 14, 1);			
+			  ]]>
+            </query>
+        </queries>
+    </version>
+</versions>

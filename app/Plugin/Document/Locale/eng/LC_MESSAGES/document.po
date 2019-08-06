@@ -1,0 +1,639 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: Plugin/Document/DocumentPlugin.php:821
+#: Plugin/Document/View/Documents/admin_index.ctp:8;28
+msgid "Document Manager"
+msgstr "Document Manager"
+
+#: Plugin/Document/DocumentPlugin.php:822
+#: Plugin/Document/Controller/DocumentSettingsController.php:7
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:58
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:24
+msgid "Settings"
+msgstr "Settings"
+
+#: Plugin/Document/DocumentPlugin.php:823
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:9
+#: Plugin/Document/View/Widgets/document/menu.ctp:10
+msgid "Categories"
+msgstr "Categories"
+
+#: Plugin/Document/DocumentPlugin.php:824
+#: Plugin/Document/Controller/DocumentLicensesController.php:5
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:9
+msgid "License Manager"
+msgstr "License Manager"
+
+#: Plugin/Document/Controller/DocumentCategoriesController.php:15
+msgid "Category Manager"
+msgstr "Category Manager"
+
+#: Plugin/Document/Controller/DocumentCategoriesController.php:73
+msgid "Category has been successfully saved"
+msgstr "Category has been successfully saved"
+
+#: Plugin/Document/Controller/DocumentCategoriesController.php:90
+msgid "Category has been deleted"
+msgstr "Category has been deleted"
+
+#: Plugin/Document/Controller/DocumentLicensesController.php:44
+msgid "License has been successfully saved"
+msgstr "License has been successfully saved"
+
+#: Plugin/Document/Controller/DocumentLicensesController.php:55
+msgid "License has been deleted"
+msgstr "License has been deleted"
+
+#: Plugin/Document/Controller/DocumentsController.php:12
+#: Plugin/Document/Lib/DocumentListener.php:125;164
+#: Plugin/Document/View/Documents/browse.ctp:5;10
+#: Plugin/Document/View/Elements/menu_profile.ctp:1
+#: Plugin/Document/View/Widgets/document/browse.ctp:4
+#: View/Themed/MooApp/Plugin/Document/Documents/browse.ctp:6;10
+#: View/Themed/MooApp/Plugin/Document/Elements/menu_profile.ctp:1
+msgid "Documents"
+msgstr "Documents"
+
+#: Plugin/Document/Controller/DocumentsController.php:94
+msgid "Document has been approved"
+msgstr "Document has been approved"
+
+#: Plugin/Document/Controller/DocumentsController.php:107;176
+msgid "Document has been deleted"
+msgstr "Document has been deleted"
+
+#: Plugin/Document/Controller/DocumentsController.php:483
+msgid "Document has been successfully added"
+msgstr "Document has been successfully added"
+
+#: Plugin/Document/Controller/DocumentsController.php:485
+msgid "Document has been successfully added and is pending for admin's approval."
+msgstr "Document has been successfully added and is pending for admin's approval."
+
+#: Plugin/Document/Controller/DocumentsController.php:489
+msgid "Document has been successfully updated"
+msgstr "Document has been successfully updated"
+
+#: Plugin/Document/Lib/DocumentListener.php:221
+#: Plugin/Document/View/Documents/admin_index.ctp:132
+msgid "Are you sure you want to delete this document?"
+msgstr "Are you sure you want to delete this document?"
+
+#: Plugin/Document/Lib/DocumentListener.php:253;271;293
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:3
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:3
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:13
+#: Plugin/Document/View/Documents/admin_index.ctp:7
+msgid "Document"
+msgstr "Document"
+
+#: Plugin/Document/Lib/DocumentListener.php:308
+msgid "Find Document"
+msgstr "Find Document"
+
+#: Plugin/Document/Lib/DocumentListener.php:312
+#: Plugin/Document/View/Elements/lists/documents.ctp:49
+#: Plugin/Document/View/Widgets/document/feature.ctp:33
+#: View/Themed/MooApp/Plugin/Document/Elements/lists/documents.ctp:48
+msgid "Posted by"
+msgstr "Posted by"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:22
+msgid "Please check at least one user role in the Permissions tab"
+msgstr "Please check at least one user role in the Permissions tab"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:52
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:47
+#: Plugin/Document/View/DocumentLicenses/admin_create.ctp:23
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:22
+msgid "Add New"
+msgstr "Add New"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:60
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:63
+#: Plugin/Document/View/DocumentLicenses/admin_create.ctp:43
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:36
+msgid "Name"
+msgstr "Name"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:62
+#: Plugin/Document/View/DocumentLicenses/admin_create.ctp:33;39;45
+msgid "Enter text"
+msgstr "Enter text"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:66
+msgid "You can add translation language after creating category"
+msgstr "You can add translation language after creating category"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:69
+msgid "Translation"
+msgstr "Translation"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:77
+msgid "Header"
+msgstr "Header"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:83
+msgid "Category header is top level category<br />which does not allow items to be posted"
+msgstr "Category header is top level category<br />which does not allow items to be posted"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:90
+#: Plugin/Document/View/Documents/create.ctp:61
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:73
+msgid "Description"
+msgstr "Description"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:97
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:65
+msgid "Active"
+msgstr "Active"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:108
+msgid "Post Permission"
+msgstr "Post Permission"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:116
+#: Plugin/Document/View/DocumentLicenses/admin_create.ctp:54
+msgid "Close"
+msgstr "Close"
+
+#: Plugin/Document/View/DocumentCategories/admin_create.ctp:117
+#: Plugin/Document/View/DocumentLicenses/admin_create.ctp:55
+#: Plugin/Document/View/Documents/create.ctp:133
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:106
+msgid "Save"
+msgstr "Save"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:2
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:2
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:12
+#: Plugin/Document/View/Documents/admin_index.ctp:6
+msgid "Plugins Manager"
+msgstr "Plugins Manager"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:4
+msgid "Document Categories"
+msgstr "Document Categories"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:50
+msgid "Save order"
+msgstr "Save order"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:62
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:33
+msgid "ID"
+msgstr "ID"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:64
+msgid "Order"
+msgstr "Order"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:66
+msgid "Count"
+msgstr "Count"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:67
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:38
+msgid "Actions"
+msgstr "Actions"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:78
+msgid "Yes"
+msgstr "Yes"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:78
+msgid "No"
+msgstr "No"
+
+#: Plugin/Document/View/DocumentCategories/admin_index.ctp:80
+msgid "Are you sure you want to delete this category? All the items within it will also be deleted. This cannot be undone!"
+msgstr "Are you sure you want to delete this category? All the items within it will also be deleted. This cannot be undone!"
+
+#: Plugin/Document/View/DocumentLicenses/admin_create.ctp:29
+#: Plugin/Document/View/Documents/create.ctp:79
+msgid "License"
+msgstr "License"
+
+#: Plugin/Document/View/DocumentLicenses/admin_create.ctp:31
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:34
+#: Plugin/Document/View/Documents/admin_index.ctp:33;73
+#: Plugin/Document/View/Documents/create.ctp:52
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:67
+msgid "Title"
+msgstr "Title"
+
+#: Plugin/Document/View/DocumentLicenses/admin_create.ctp:37
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:35
+msgid "Url"
+msgstr "Url"
+
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:4
+msgid "Document Licenses"
+msgstr "Document Licenses"
+
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:37
+msgid "Number Item"
+msgstr "Number Item"
+
+#: Plugin/Document/View/DocumentLicenses/admin_index.ctp:51
+msgid "Are you sure you want to delete this license?"
+msgstr "Are you sure you want to delete this license?"
+
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:2
+msgid "Create/Edit Document"
+msgstr "Create/Edit Document"
+
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:3
+msgid "View Document"
+msgstr "View Document"
+
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:4
+msgid "Document Enable"
+msgstr "Document Enable"
+
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:5
+msgid "Item per pages"
+msgstr "Item per pages"
+
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:6
+msgid "Auto Approval When A Document Added"
+msgstr "Auto Approval When A Document Added"
+
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:7
+msgid "Enable Document Hashtag"
+msgstr "Enable Document Hashtag"
+
+#: Plugin/Document/View/DocumentSettings/admin_index.ctp:14
+msgid "Document Settings"
+msgstr "Document Settings"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:37;76
+#: Plugin/Document/View/Documents/create.ctp:70
+msgid "Category"
+msgstr "Category"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:46
+msgid "Featured"
+msgstr "Featured"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:47;57;58;116;127;190
+msgid "yes"
+msgstr "yes"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:47;57;58;122;127;195
+msgid "no"
+msgstr "no"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:56;78
+msgid "Visible"
+msgstr "Visible"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:67
+msgid "Search"
+msgstr "Search"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:74
+msgid "Member"
+msgstr "Member"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:75
+msgid "Created date"
+msgstr "Created date"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:77
+msgid "Feature"
+msgstr "Feature"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:79
+msgid "Approved"
+msgstr "Approved"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:80
+msgid "Action"
+msgstr "Action"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:100;166
+msgid "feature"
+msgstr "feature"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:106;171
+msgid "unfeature"
+msgstr "unfeature"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:130
+msgid "Approve"
+msgstr "Approve"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:130
+msgid "Are you sure you want to approve this document?"
+msgstr "Are you sure you want to approve this document?"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:132
+#: Plugin/Document/View/Documents/create.ctp:6
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:6
+msgid "Delete"
+msgstr "Delete"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:139
+msgid "No document found"
+msgstr "No document found"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:147
+msgid "First"
+msgstr "First"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:148
+msgid "Prev"
+msgstr "Prev"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:150
+msgid "Next"
+msgstr "Next"
+
+#: Plugin/Document/View/Documents/admin_index.ctp:151
+msgid "Last"
+msgstr "Last"
+
+#: Plugin/Document/View/Documents/browse.ctp:6
+#: Plugin/Document/View/Widgets/document/browse.ctp:6
+#: View/Themed/MooApp/Plugin/Document/Documents/browse.ctp:5
+#: View/Themed/MooApp/Plugin/Document/Documents/index.ctp:24
+msgid "Create New Document"
+msgstr "Create New Document"
+
+#: Plugin/Document/View/Documents/browse.ctp:17;28
+#: Plugin/Document/View/Elements/lists/documents.ctp:116
+#: Plugin/Document/View/Widgets/document/browse.ctp:13
+#: View/Themed/MooApp/Plugin/Document/Documents/browse.ctp:17;28
+#: View/Themed/MooApp/Plugin/Document/Documents/index.ctp:38
+#: View/Themed/MooApp/Plugin/Document/Elements/lists/documents.ctp:115
+msgid "No more results found"
+msgstr "No more results found"
+
+#: Plugin/Document/View/Documents/create.ctp:4
+msgid "Drag or click here to upload photo"
+msgstr "Drag or click here to upload photo"
+
+#: Plugin/Document/View/Documents/create.ctp:5
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:5
+msgid "Drag or click here to upload document"
+msgstr "Drag or click here to upload document"
+
+#: Plugin/Document/View/Documents/create.ctp:22
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:22
+msgid "Edit document"
+msgstr "Edit document"
+
+#: Plugin/Document/View/Documents/create.ctp:24
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:24
+msgid "Add new document"
+msgstr "Add new document"
+
+#: Plugin/Document/View/Documents/create.ctp:39
+msgid "Document File"
+msgstr "Document File"
+
+#: Plugin/Document/View/Documents/create.ctp:45
+msgid "Allowed file types"
+msgstr "Allowed file types"
+
+#: Plugin/Document/View/Documents/create.ctp:88
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: Plugin/Document/View/Documents/create.ctp:104
+msgid "Privacy"
+msgstr "Privacy"
+
+#: Plugin/Document/View/Documents/create.ctp:109
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:87
+msgid "Everyone"
+msgstr "Everyone"
+
+#: Plugin/Document/View/Documents/create.ctp:110
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:88
+msgid "Friends Only"
+msgstr "Friends Only"
+
+#: Plugin/Document/View/Documents/create.ctp:111
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:89
+msgid "Only Me"
+msgstr "Only Me"
+
+#: Plugin/Document/View/Documents/create.ctp:121
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:98
+msgid "Tags"
+msgstr "Tags"
+
+#: Plugin/Document/View/Documents/create.ctp:124
+msgid "Separated by commas or space"
+msgstr "Separated by commas or space"
+
+#: Plugin/Document/View/Documents/error_ios.ctp:4
+msgid "This feature not available on IOS"
+msgstr "This feature not available on IOS"
+
+#: Plugin/Document/View/Documents/view.ctp:17
+#: Plugin/Document/View/Elements/lists/documents.ctp:40
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:21
+#: View/Themed/MooApp/Plugin/Document/Elements/lists/documents.ctp:39
+msgid "Edit Document"
+msgstr "Edit Document"
+
+#: Plugin/Document/View/Documents/view.ctp:18
+#: Plugin/Document/View/Elements/lists/documents.ctp:41
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:22
+#: View/Themed/MooApp/Plugin/Document/Elements/lists/documents.ctp:40
+msgid "Delete Document"
+msgstr "Delete Document"
+
+#: Plugin/Document/View/Documents/view.ctp:20
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:24
+msgid "Download Document"
+msgstr "Download Document"
+
+#: Plugin/Document/View/Documents/view.ctp:22
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:26
+msgid "Report Document"
+msgstr "Report Document"
+
+#: Plugin/Document/View/Documents/view.ctp:29
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:46
+msgid "Document is pending for admin's approval."
+msgstr "Document is pending for admin's approval."
+
+#: Plugin/Document/View/Documents/view.ctp:36
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:56
+msgid "Posted by %s"
+msgstr "Posted by %s"
+
+#: Plugin/Document/View/Documents/view.ctp:36
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:56
+msgid "in"
+msgstr "in"
+
+#: Plugin/Document/View/Documents/view.ctp:38
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:58
+msgid "Public"
+msgstr "Public"
+
+#: Plugin/Document/View/Documents/view.ctp:40
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:60
+msgid "Private"
+msgstr "Private"
+
+#: Plugin/Document/View/Documents/view.ctp:42
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:62
+msgid "Friend"
+msgstr "Friend"
+
+#: Plugin/Document/View/Elements/menu_welcome.ctp:1
+#: Plugin/Document/View/Widgets/document/menu.ctp:6
+msgid "My Documents"
+msgstr "My Documents"
+
+#: Plugin/Document/View/Elements/activity/content/document_create_share.ctp:18
+#: Plugin/Document/View/Elements/activity/share/document_create.ctp:8
+#: Plugin/Document/View/Elements/activity/text/document_create.ctp:2
+#: View/Themed/MooApp/Plugin/Document/Elements/activity/content/document_create_share.ctp:18
+#: View/Themed/MooApp/Plugin/Document/Elements/activity/share/document_create.ctp:8
+msgid "created a new document"
+msgstr "created a new document"
+
+#: Plugin/Document/View/Elements/activity/text/document_item_detail_share.ctp:5
+msgid "document"
+msgstr "document"
+
+#: Plugin/Document/View/Elements/lists/block_documents.ctp:18
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s comment"
+msgstr[1] "%s comments"
+
+#: Plugin/Document/View/Elements/lists/block_documents.ctp:19
+msgid "%s like"
+msgid_plural "%s likes"
+msgstr[0] "%s like"
+msgstr[1] "%s likes"
+
+#: Plugin/Document/View/Elements/lists/block_documents.ctp:20
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] "%s download"
+msgstr[1] "%s downloads"
+
+#: Plugin/Document/View/Elements/lists/block_documents.ctp:21
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s view"
+msgstr[1] "%s views"
+
+#: Plugin/Document/View/Elements/lists/block_documents.ctp:22
+msgid "%s share"
+msgid_plural "%s shares"
+msgstr[0] "%s share"
+msgstr[1] "%s shares"
+
+#: Plugin/Document/View/Elements/lists/documents.ctp:55
+#: Plugin/Document/View/Widgets/document/feature.ctp:39
+#: View/Themed/MooApp/Plugin/Document/Elements/lists/documents.ctp:54
+msgid "Shared with: Everyone"
+msgstr "Shared with: Everyone"
+
+#: Plugin/Document/View/Elements/lists/documents.ctp:59
+#: Plugin/Document/View/Widgets/document/feature.ctp:43
+#: View/Themed/MooApp/Plugin/Document/Elements/lists/documents.ctp:58
+msgid "Shared with: Friends Only"
+msgstr "Shared with: Friends Only"
+
+#: Plugin/Document/View/Elements/lists/documents.ctp:63
+#: Plugin/Document/View/Widgets/document/feature.ctp:47
+#: View/Themed/MooApp/Plugin/Document/Elements/lists/documents.ctp:62
+msgid "Shared with: Only Me"
+msgstr "Shared with: Only Me"
+
+#: Plugin/Document/View/Elements/lists/documents.ctp:83
+#: Plugin/Document/View/Widgets/document/feature.ctp:67
+#: View/Themed/MooApp/Plugin/Document/Elements/lists/documents.ctp:84
+msgid "People Who Liked This"
+msgstr "People Who Liked This"
+
+#: Plugin/Document/View/Elements/lists/documents.ctp:90
+#: Plugin/Document/View/Widgets/document/feature.ctp:74
+#: View/Themed/MooApp/Plugin/Document/Elements/lists/documents.ctp:91
+msgid "People Who Disliked This"
+msgstr "People Who Disliked This"
+
+#: Plugin/Document/View/Widgets/document/menu.ctp:4
+msgid "All Documents"
+msgstr "All Documents"
+
+#: Plugin/Document/View/Widgets/document/menu.ctp:7
+msgid "Friends' Documents"
+msgstr "Friends' Documents"
+
+#: Plugin/Document/View/Widgets/document/menu.ctp:19
+#: View/Themed/MooApp/Plugin/Document/Documents/index.ctp:30
+msgid "Enter keyword to search"
+msgstr "Enter keyword to search"
+
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:49
+msgid "Upload Document Thumb"
+msgstr "Upload Document Thumb"
+
+#: View/Themed/MooApp/Plugin/Document/Documents/create.ctp:50
+msgid "Click thumb to upload"
+msgstr "Click thumb to upload"
+
+#: View/Themed/MooApp/Plugin/Document/Documents/index.ctp:13
+msgid "All Categories"
+msgstr "All Categories"
+
+#: View/Themed/MooApp/Plugin/Document/Documents/view.ctp:37
+msgid "Share"
+msgstr "Share"
+
+#: Plugin/Document/Model/Document.php:validation for field title
+msgid "Title is required"
+msgstr "Title is required"
+
+#: Plugin/Document/Model/Document.php:validation for field category_id
+msgid "Category is required"
+msgstr "Category is required"
+
+#: Plugin/Document/Model/Document.php:validation for field document_file
+msgid "Document file is required"
+msgstr "Document file is required"
+
+#: Plugin/Document/Model/Document.php:validation for field document_license_id
+msgid "License is required"
+msgstr "License is required"
+
+#: Plugin/Document/Model/Document.php:validation for field tags
+msgid "No special characters ( /,?,#,%,...) allowed in Tags"
+msgstr "No special characters ( /,?,#,%,...) allowed in Tags"
+
+msgid "By pass force login"
+msgstr "By pass force login"
+
+msgid "_EMAIL_DOCUMENT_APPROVE_TITLE_"
+msgstr "Document Approval"
+
+msgid "_EMAIL_DOCUMENT_APPROVE_DESCRIPTION_"
+msgstr "Notification email for approval status of Document Plugin."
+
+msgid "shared %s's document"
+msgstr "shared %s's document"

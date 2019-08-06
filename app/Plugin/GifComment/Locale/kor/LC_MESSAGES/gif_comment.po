@@ -1,0 +1,70 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "D0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: GifCommentPlugin.php:10
+#: View/GifCommentSettings/admin_index.ctp:10
+msgid "General"
+msgstr "D0002일반사항"
+
+#: Controller/GifCommentSettingsController.php:12
+#: GifComment/Controller/GifCommentSettingsController.php:12
+msgid "Gif Image Comment Setting"
+msgstr "D0003GIF 이미지댓글 설정"
+
+#: Controller/GifCommentSettingsController.php:24
+#: GifComment/Controller/GifCommentSettingsController.php:24
+msgid "Successfully updated"
+msgstr "D0004업데이트완료!"
+
+#: GifComment/Controller/GifCommentsController.php:73
+msgid "Something wrong , please try again."
+msgstr "D0005오류가 발생했습니다. 다시 시도하시기 바랍니다."
+
+#: GifComment/View/Elements/load_gif.ctp:31
+#: GifComment/View/Elements/post_feed.ctp:27
+#: View/Elements/load_gif.ctp:26
+#: View/Elements/post_feed.ctp:27
+msgid "Search GIFs across apps..."
+msgstr "D0006GIF 검색..."
+
+#: GifComment/View/GifCommentSettings/admin_index.ctp:5
+#: GifComment/View/GifComments/admin_index.ctp:5
+#: View/GifCommentSettings/admin_index.ctp:7
+#: View/GifComments/admin_index.ctp:5
+msgid "Gif Comment"
+msgstr "D0007GIF 댓글"
+
+#: GifComment/View/GifCommentSettings/admin_index.ctp:22
+#: View/GifCommentSettings/admin_index.ctp:24
+msgid "Enable Gif Comment"
+msgstr "D0008GIF 댓글 허용"
+
+#: GifComment/View/GifCommentSettings/admin_index.ctp:39
+msgid "Tenor Api Key"
+msgstr "D0009"
+
+#: GifComment/View/GifCommentSettings/admin_index.ctp:58
+#: View/GifCommentSettings/admin_index.ctp:43
+msgid "Save Settings"
+msgstr "D0010설정저장"
+
+#: View/GifCommentSettings/admin_index.ctp:5
+msgid "Plugins Manager"
+msgstr "D0011플러그인관리지"
+
+#: View/GifCommentSettings/admin_index.ctp:6
+msgid "Settings"
+msgstr "D0012설정"
+

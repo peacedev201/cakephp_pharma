@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query>
+			<![CDATA[   
+				INSERT INTO `{PREFIX}settings` (`group_id`, `label`, `name`, `field`, `value`, `is_hidden`, `version_id`, `type_id`, `value_actual`, `value_default`, `description`, `ordering`, `is_boot`) VALUES
+				((SELECT a.`id` FROM `{PREFIX}setting_groups` as a WHERE a.`module_id` = 'Poll'), 'Allow users to create poll with option "Show on feed" ', 'poll_allow_user_create_show_feed', NULL, '', 0, NULL, 'checkbox', '[{"name":"","value":"1","select":"1"}]', '[{"name":"","value":"1","select":"1"}]', 'Allow users to create poll with option "Show on feed" ', 5, 0);				
+			  ]]>
+			</query>
+        </queries>
+    </version>
+    <version>
+        <number>1.3</number>
+        <queries>
+            <query>
+			<![CDATA[   
+				ALTER TABLE `{PREFIX}polls` CHANGE `title` `title` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
+				ALTER TABLE `{PREFIX}poll_items` CHANGE `name` `name` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;								
+			  ]]>
+			</query>
+        </queries>
+    </version>
+    <version>
+        <number>1.5</number>
+        <queries>
+            <query>
+			<![CDATA[   
+				INSERT INTO `{PREFIX}settings` (`group_id`, `label`, `name`, `field`, `value`, `is_hidden`, `version_id`, `type_id`, `value_actual`, `value_default`, `description`, `ordering`, `is_boot`) VALUES
+				((SELECT `id` FROM `{PREFIX}setting_groups` WHERE `module_id` = 'Poll'), 'By pass force login', 'poll_consider_force', NULL, '', 0, NULL, 'checkbox', '[{"name":"","value":"1","select":0}]', '[{"name":"","value":"1","select":0}]', 'By pass force login', 6, 1);			
+			  ]]>
+			</query>
+        </queries>
+    </version>
+</versions>

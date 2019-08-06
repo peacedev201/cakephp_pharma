@@ -1,0 +1,675 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "G0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: GiftPlugin.php:379
+#: Controller/GiftCategoriesController.php:27
+#: View/GiftCategories/admin_index.ctp:3;10
+#: View/Widgets/gift/nav_gift.ctp:19;51
+msgid "Categories"
+msgstr "G0002카테고리"
+
+#: GiftPlugin.php:380
+#: View/Gift/admin_create.ctp:24
+#: View/Gift/admin_index.ctp:4;11
+msgid "Manage Gifts"
+msgstr "G0003Gift관리"
+
+#: GiftPlugin.php:381
+#: Controller/GiftSettingsController.php:24
+#: View/GiftSettings/admin_index.ctp:16;23
+msgid "Settings"
+msgstr "G0004설정"
+
+#: GiftPlugin.php:382
+#: Controller/GiftSettingsController.php:50
+#: View/GiftSettings/admin_credit_integration.ctp:3;10
+msgid "Credits Integration"
+msgstr "G0005포인트 통합"
+
+#: Controller/GiftCategoriesController.php:54
+msgid "Successfully created"
+msgstr "G0006생성완료!"
+
+#: Controller/GiftCategoriesController.php:56;71
+#: Controller/GiftController.php:100
+#: Controller/GiftSettingsController.php:38
+msgid "Successfully updated"
+msgstr "G0007업데이트완료!"
+
+#: Controller/GiftCategoriesController.php:58
+#: Controller/GiftController.php:66;339;349;446;525
+msgid "Something went wrong, please try again"
+msgstr "G0008불확실한 문제로 완료되지 못했습니다. 다시 시도해주십시요."
+
+#: Controller/GiftCategoriesController.php:65;79
+msgid "This category does not exist"
+msgstr "G0009이 카테고리가 존재하지않습니다."
+
+#: Controller/GiftCategoriesController.php:83
+msgid "There are gifts belong to this category. Please remove them first."
+msgstr "G0010이 카테고리에 해당되는 Gift가 남아 있습니다. 해당 Gift를 먼저 삭제하십시요."
+
+#: Controller/GiftCategoriesController.php:88
+#: Controller/GiftController.php:86;440;444
+msgid "Successfully deleted"
+msgstr "G0011삭제완료!"
+
+#: Controller/GiftController.php:64;344
+msgid "Successfully saved"
+msgstr "G0012저장완료!"
+
+#: Controller/GiftController.php:93
+msgid "This item does not exist"
+msgstr "G0013해당 아이템이 존재하지 않습니다."
+
+#: Controller/GiftController.php:228
+msgid "You don't have permission to create gift"
+msgstr "G0014Gift생성권한이 없습니다."
+
+#: Controller/GiftController.php:286;489
+msgid "Credit plugin is not enable. Can't send gift now, contact site admin for more details."
+msgstr "G0015포인트 플러그인이 활성화되지 않았습니다. Gift를 발송하시려면, 사이트관리자와 상의하십시요."
+
+#: Controller/GiftController.php:293;496
+msgid "Your current credit is %s. You do not have enough credits to send this gift."
+msgstr "G0016현재 회원님의 포인트는 %s입니다. 이 Gift를 보내시기에는 포인트가 부족합니다."
+
+#: Controller/GiftController.php:332
+msgid "Successfully sent"
+msgstr "G0017발송완료!"
+
+#: Controller/GiftController.php:392;413;436;453;469
+msgid "Gift not found"
+msgstr "G0018Gift가 없습니다."
+
+#: Controller/GiftController.php:523
+msgid "Gift has been sent"
+msgstr "G0019Gift가 발송되었습니다."
+
+#: Lib/GiftListener.php:283
+#: View/Gift/admin_index.ctp:136
+msgid "Are you sure you want to delete this gift?"
+msgstr "G0020해당 Gift를 삭제하시겠습니까?"
+
+#: Lib/GiftListener.php:284
+msgid "Are you sure you want to send this gift now?"
+msgstr "G0021해당 Gift를 발송하시겠습니까?"
+
+#: View/Elements/search_gift_list.ctp:31
+#: View/Elements/lists/gifts_list.ctp:16
+#: View/Gift/create.ctp:118;123
+#: View/Gift/view.ctp:16
+#: View/Widgets/gift/popular.ctp:25
+msgid "Credits"
+msgstr "G0022포인트"
+
+#: View/Elements/search_gift_list.ctp:44
+#: View/Elements/lists/gifts_list.ctp:35
+#: View/Elements/lists/my_gifts_list.ctp:168
+msgid "No more results found"
+msgstr "G0023더 이상 결과가 없습니다."
+
+#: View/Elements/lists/gifts_list.ctp:18
+#: View/Gift/create.ctp:125
+#: View/Gift/preview.ctp:80
+#: View/Gift/view.ctp:18
+#: View/Widgets/gift/popular.ctp:27
+msgid "Free"
+msgstr "G0024무료"
+
+#: View/Elements/lists/gifts_list.ctp:40
+#: View/Elements/lists/my_gifts_list.ctp:173
+msgid "Load More"
+msgstr "G0025더 보기"
+
+#: View/Elements/lists/my_gifts_list.ctp:3
+msgid "Ok"
+msgstr "G0026승인"
+
+#: View/Elements/lists/my_gifts_list.ctp:4
+#: View/Gift/admin_create.ctp:153
+#: View/Gift/ajax_send_gift_dialog.ctp:62
+#: View/Gift/create.ctp:188
+msgid "cancel"
+msgstr "G0027취소"
+
+#: View/Elements/lists/my_gifts_list.ctp:5
+msgid "Please Confirm"
+msgstr "G0028확인바랍니다."
+
+#: View/Elements/lists/my_gifts_list.ctp:37
+msgid "Saved gifts"
+msgstr "G0029저장된 Gift"
+
+#: View/Elements/lists/my_gifts_list.ctp:42
+msgid "Received gifts"
+msgstr "G0030받은 Gift"
+
+#: View/Elements/lists/my_gifts_list.ctp:47
+msgid "Sent gifts"
+msgstr "G0031발송완료 Gift"
+
+#: View/Elements/lists/my_gifts_list.ctp:72
+msgid "Created"
+msgstr "G0032생성"
+
+#: View/Elements/lists/my_gifts_list.ctp:74;142
+#: View/Gift/ajax_view.ctp:27
+#: View/Gift/preview.ctp:46
+msgid "Sent to"
+msgstr "G0033수령인"
+
+#: View/Elements/lists/my_gifts_list.ctp:79;114;149
+#: View/Gift/ajax_send_gift_dialog.ctp:45
+#: View/Gift/ajax_view.ctp:33;43
+#: View/Gift/create.ctp:161;166
+#: View/Gift/preview.ctp:30;50
+msgid "Message"
+msgstr "G0034메세지"
+
+#: View/Elements/lists/my_gifts_list.ctp:85
+#: View/Gift/create.ctp:178
+msgid "Send"
+msgstr "G0035Gift보내기"
+
+#: View/Elements/lists/my_gifts_list.ctp:89
+#: View/GiftCategories/admin_index.ctp:58
+msgid "Edit"
+msgstr "G0036편집"
+
+#: View/Elements/lists/my_gifts_list.ctp:92;125;160
+#: View/Gift/admin_index.ctp:136;152
+#: View/GiftCategories/admin_index.ctp:61
+msgid "Delete"
+msgstr "G0037삭제"
+
+#: View/Elements/lists/my_gifts_list.ctp:107
+#: View/Gift/ajax_view.ctp:37
+#: View/Gift/preview.ctp:22
+msgid "Received"
+msgstr "G0038수령"
+
+#: View/Elements/lists/my_gifts_list.ctp:109
+#: View/Gift/ajax_view.ctp:40
+#: View/Gift/preview.ctp:26
+msgid "Sent by"
+msgstr "G0039발송인"
+
+#: View/Elements/lists/my_gifts_list.ctp:119;154
+msgid "Send message"
+msgstr "G0040메세지발송"
+
+#: View/Elements/lists/my_gifts_list.ctp:122;157
+#: View/Widgets/gift/detail_statistic.ctp:9
+msgid "View"
+msgstr "G0041보기"
+
+#: View/Elements/lists/my_gifts_list.ctp:140
+#: View/Gift/ajax_view.ctp:24
+#: View/Gift/preview.ctp:39
+#: View/Widgets/gift/detail_statistic.ctp:12
+msgid "Sent"
+msgstr "G0042발송"
+
+#: View/Elements/lists/my_gifts_list.ctp:144
+#: View/Gift/ajax_view.ctp:30
+#: View/Gift/preview.ctp:43
+msgid "Viewed"
+msgstr "G0043보기"
+
+#: View/Elements/lists/my_gifts_list.ctp:144
+#: View/Gift/ajax_view.ctp:30
+#: View/Gift/preview.ctp:43
+#: View/GiftSettings/admin_credit_integration.ctp:31
+msgid "Yes"
+msgstr "G0044예"
+
+#: View/Elements/lists/my_gifts_list.ctp:144
+#: View/Gift/ajax_view.ctp:30
+#: View/Gift/preview.ctp:43
+#: View/GiftSettings/admin_credit_integration.ctp:31
+msgid "No"
+msgstr "G0045아니오"
+
+#: View/Elements/log_text/send_gift.ctp:21
+msgid "sent gift to friend"
+msgstr "G0046친구에게 GIFT발송"
+
+#: View/Elements/notification/gift_receive.ctp:1
+msgid " sent you a gift"
+msgstr "G0047 님이 회원님께 Gift를 보냈습니다."
+
+#: View/Gift/admin_create.ctp:3
+#: View/Gift/create.ctp:6
+msgid "Can not upload file more than "
+msgstr "G0048파일업로드 한계: "
+
+#: View/Gift/admin_create.ctp:4
+#: View/Gift/create.ctp:7
+msgid "Click or Drap your photo here"
+msgstr "G0049회원님의 사진을 클릭 또는 이곳으로 끌어붙이십시요."
+
+#: View/Gift/admin_create.ctp:5
+#: View/Gift/create.ctp:8
+msgid "Click or Drap your audio here"
+msgstr "G0050음성파일을 클릭 또는 이곳으로 끌어붙이십시요."
+
+#: View/Gift/admin_create.ctp:6
+#: View/Gift/create.ctp:9
+msgid "Click or Drap your video here"
+msgstr "G0051동영상파일을 클릭 또는 이곳으로 끌어붙이십시요."
+
+#: View/Gift/admin_create.ctp:7
+#: View/Gift/create.ctp:10
+msgid "FFMPEG is not installed"
+msgstr "G0052FFMPEG이 설치되어 있지 않습니다."
+
+#: View/Gift/admin_create.ctp:23
+#: View/Gift/admin_index.ctp:3
+#: View/GiftCategories/admin_index.ctp:2
+#: View/GiftSettings/admin_credit_integration.ctp:2
+#: View/GiftSettings/admin_index.ctp:15
+msgid "Plugins Manager"
+msgstr "G0053플러그인관리자"
+
+#: View/Gift/admin_create.ctp:25;34
+msgid "Create Gift"
+msgstr "G0054GIft생성"
+
+#: View/Gift/admin_create.ctp:46;51
+#: View/Gift/admin_index.ctp:73
+#: View/Gift/create.ctp:74;79;105
+msgid "Title"
+msgstr "G0055제목"
+
+#: View/Gift/admin_create.ctp:59;63
+msgid "Credit (0 for free)"
+msgstr "G0056필요 포인트 (0= 무료)"
+
+#: View/Gift/admin_create.ctp:68
+msgid "Please integrate credit module if you want to set fee(cost) for this gift"
+msgstr "G0057Gift에 필요 Credit을 설정하시려면, 포인트플러그인을 설치하십시요."
+
+#: View/Gift/admin_create.ctp:75
+#: View/Gift/admin_index.ctp:79
+#: View/Widgets/gift/popular.ctp:18
+msgid "Category"
+msgstr "G0058카테고리"
+
+#: View/Gift/admin_create.ctp:80
+msgid "Select"
+msgstr "G0059선정"
+
+#: View/Gift/admin_create.ctp:88
+#: View/Gift/admin_index.ctp:76
+msgid "Type"
+msgstr "G0060유형"
+
+#: View/Gift/admin_create.ctp:93
+#: View/Gift/admin_index.ctp:70
+msgid "Photo"
+msgstr "G0061사진"
+
+#: View/Gift/admin_create.ctp:94
+msgid "Audio"
+msgstr "G0062오디오"
+
+#: View/Gift/admin_create.ctp:95
+msgid "Video"
+msgstr "G0063동영상"
+
+#: View/Gift/admin_create.ctp:118
+msgid "Thumb"
+msgstr "G0064썸네일"
+
+#: View/Gift/admin_create.ctp:140
+#: View/Gift/admin_index.ctp:133
+#: View/GiftCategories/admin_ajax_create.ctp:68
+#: View/GiftCategories/admin_index.ctp:40;54
+msgid "Enable"
+msgstr "G0065활성화"
+
+#: View/Gift/admin_create.ctp:150
+#: View/Gift/create.ctp:182
+#: View/GiftCategories/admin_ajax_create.ctp:86
+msgid "Save"
+msgstr "G0066저장"
+
+#: View/Gift/admin_index.ctp:37
+msgid "Keyword"
+msgstr "G0067키워드"
+
+#: View/Gift/admin_index.ctp:43
+msgid "Search"
+msgstr "G0068검색"
+
+#: View/Gift/admin_index.ctp:46
+#: View/Gift/index.ctp:11;12
+msgid "Create New Gift"
+msgstr "G0069새 Gift 생성"
+
+#: View/Gift/admin_index.ctp:67
+#: View/GiftCategories/admin_index.ctp:37
+msgid "ID"
+msgstr "G0070아이디"
+
+#: View/Gift/admin_index.ctp:82
+msgid "Cost"
+msgstr "G0071비용"
+
+#: View/Gift/admin_index.ctp:85
+msgid "Creation Date"
+msgstr "G0072생성일"
+
+#: View/Gift/admin_index.ctp:88
+#: View/GiftCategories/admin_index.ctp:41
+msgid "Options"
+msgstr "G0073옵션"
+
+#: View/Gift/admin_index.ctp:131
+#: View/GiftCategories/admin_index.ctp:52
+msgid "Disable"
+msgstr "G0074불화성화"
+
+#: View/Gift/admin_index.ctp:151
+msgid "Are you sure you want to delete?"
+msgstr "G0075삭제하시겠습니까?"
+
+#: View/Gift/admin_index.ctp:175
+msgid "No Gifts"
+msgstr "G0076Gift 없음"
+
+#: View/Gift/ajax_send_gift_dialog.ctp:3
+msgid "Send Gift"
+msgstr "G0077Gift발송"
+
+#: View/Gift/ajax_send_gift_dialog.ctp:22
+msgid "Selected gift"
+msgstr "G0078선정 Gift"
+
+#: View/Gift/ajax_send_gift_dialog.ctp:33
+#: View/Gift/create.ctp:134;152
+msgid "Select a friend"
+msgstr "G0079친구 지정"
+
+#: View/Gift/ajax_send_gift_dialog.ctp:56
+msgid "Send now"
+msgstr "G0080바로 발송"
+
+#: View/Gift/ajax_send_gift_dialog.ctp:59
+#: View/Gift/create.ctp:185
+msgid "Preview"
+msgstr "G0081미리보기"
+
+#: View/Gift/ajax_view.ctp:12
+msgid "View gift"
+msgstr "G0082Gift보기"
+
+#: View/Gift/create.ctp:22
+msgid "Edit gift"
+msgstr "G0083Gift편집"
+
+#: View/Gift/create.ctp:24
+msgid "Create your own gift and send it to your friends"
+msgstr "G0084회원님의 Gift정보를 입력후, 친구에게 보내십시요."
+
+#: View/Gift/create.ctp:40
+msgid "Please select type of your gift below, you can send a photo, audio or video gift to your friends:"
+msgstr "G0085사진,오디오,동영상 선물중 적절한 Gift유형을 선정하여 친구에게 보내십시요."
+
+#: View/Gift/create.ctp:44
+msgid "Send Photo-Gift"
+msgstr "G0086사진 Gift선물하기"
+
+#: View/Gift/create.ctp:46;55;65
+msgid " credits"
+msgstr "G0087 포인트"
+
+#: View/Gift/create.ctp:53
+msgid "Send Audio-Gift"
+msgstr "G0088오디오 Gift보내기"
+
+#: View/Gift/create.ctp:63
+msgid "Send Video-Gift"
+msgstr "G0089동영상 Gift보내기"
+
+#: View/Gift/create.ctp:86
+msgid "File"
+msgstr "G0090파일"
+
+#: View/Gift/index.ctp:9
+msgid "Gifts"
+msgstr "G0091Gifts"
+
+#: View/Gift/preview.ctp:3
+msgid "Gift Preview"
+msgstr "G0092Gift 미리보기"
+
+#: View/Gift/preview.ctp:62
+msgid "Cost %s credits"
+msgstr "G0093$s 포인트 필요"
+
+#: View/Gift/preview.ctp:67
+msgid "Sent to friend"
+msgstr "G0094친구에게 보내기"
+
+#: View/Gift/preview.ctp:78
+msgid "credits"
+msgstr "G0095포인트"
+
+#: View/Gift/preview.ctp:109
+msgid "Please upload a file"
+msgstr "G0096파일을 업로드하여주십시요."
+
+#: View/Gift/view.ctp:47
+msgid "Customize and Send this gift"
+msgstr "G0097이 Gift와 함께 할 이야기 "
+
+#: View/GiftCategories/admin_ajax_create.ctp:26
+msgid "Edit Category"
+msgstr "G0098카테고리 편집"
+
+#: View/GiftCategories/admin_ajax_create.ctp:28
+msgid "Add Category"
+msgstr "G0099카테고리 추가"
+
+#: View/GiftCategories/admin_ajax_create.ctp:38;40
+#: View/GiftCategories/admin_index.ctp:38
+msgid "Name"
+msgstr "G0100이름"
+
+#: View/GiftCategories/admin_ajax_create.ctp:43
+msgid "You can add translation language after creating category"
+msgstr "G0101카테고리생성후에 번역을 추가할 수 있습니다."
+
+#: View/GiftCategories/admin_ajax_create.ctp:62;64
+#: View/GiftCategories/admin_index.ctp:39
+msgid "Description"
+msgstr "G0102명세"
+
+#: View/GiftCategories/admin_ajax_create.ctp:85
+msgid "Close"
+msgstr "G0103닫기"
+
+#: View/GiftCategories/admin_index.ctp:28
+msgid "Add New"
+msgstr "G0104추가"
+
+#: View/GiftCategories/admin_index.ctp:74
+msgid "No categories"
+msgstr "G0105카테고리 없슴"
+
+#: View/GiftSettings/admin_credit_integration.ctp:20
+msgid "You need to install credit plugin first. Please purchase credits plugin at"
+msgstr "G0106포인트플러그인이 먼저 설치되어 있어야 합니다. 구입:"
+
+#: View/GiftSettings/admin_credit_integration.ctp:27
+msgid "Integrate with credits system"
+msgstr "G0107포인트 플러그인을 먼저 통합하십시요."
+
+#: View/GiftSettings/admin_credit_integration.ctp:38
+msgid "Save Changes"
+msgstr "G0108변경사항저장"
+
+#: View/GiftSettings/admin_index.ctp:2
+msgid "Gift"
+msgstr "G0109Gift"
+
+#: View/GiftSettings/admin_index.ctp:3
+msgid "Enable gift plugin"
+msgstr "G0110Gift플러그인 활성화"
+
+#: View/GiftSettings/admin_index.ctp:4
+msgid "Items per page"
+msgstr "G0111페이지당 아이템"
+
+#: View/GiftSettings/admin_index.ctp:5
+msgid "Photo gift price in credits"
+msgstr "G0112사진 Gift당 포인트"
+
+#: View/GiftSettings/admin_index.ctp:6
+msgid "Audio gift price in credits"
+msgstr "G0113오디오 Gift당 포인트"
+
+#: View/GiftSettings/admin_index.ctp:7
+msgid "Video gift price in credits"
+msgstr "G0114동영상 Gift당 포인트"
+
+#: View/GiftSettings/admin_index.ctp:8
+msgid "Path to FFMPEG"
+msgstr "G0115FFMPEG 경로"
+
+#: View/GiftSettings/admin_index.ctp:9
+msgid "Popular items per page"
+msgstr "G0116페이지당 아이템"
+
+#: View/GiftSettings/admin_index.ctp:10
+msgid "Please enter the full path to your FFMPEG installation. Contact your hosting provider to get the path to FFMPEG. Note, FFMPEG is required for sending video-gifts"
+msgstr "G0117FFMPEG이 설치되어 있는 경로를 입력하십시요. FFMPEG 경로는 호스팅회사에게 문의하십시요. FFMPEG는 동영상 Gift발송에 필요합니다."
+
+#: View/GiftSettings/admin_index.ctp:11
+msgid "Can send gifts"
+msgstr "G0118Gift발송가능"
+
+#: View/GiftSettings/admin_index.ctp:12
+msgid "Allow photo gifts"
+msgstr "G0119사진 Gift 하용"
+
+#: View/GiftSettings/admin_index.ctp:13
+msgid "Allow audio gifts"
+msgstr "G0120오디오 Giftㅎ허용"
+
+#: View/GiftSettings/admin_index.ctp:14
+msgid "Allow video gifts"
+msgstr "G0121동영상 Gift 허용"
+
+#: View/Widgets/gift/detail_statistic.ctp:5
+msgid "Statistic"
+msgstr "G0122통계"
+
+#: View/Widgets/gift/detail_statistic.ctp:9
+msgid "Views"
+msgstr "G0123열람"
+
+#: View/Widgets/gift/nav_gift.ctp:2
+msgid "Browse"
+msgstr "G0124"
+
+#: View/Widgets/gift/nav_gift.ctp:8;40
+msgid "All Gifts"
+msgstr "G0125전체 Gift"
+
+#: View/Widgets/gift/nav_gift.ctp:14;46
+msgid "My Gifts"
+msgstr "G0126나의Gift"
+
+#: View/Widgets/gift/nav_gift.ctp:34
+msgid "Enter keyword to search"
+msgstr "G0127검색키워드를 입력"
+
+#: View/Widgets/gift/popular.ctp:2
+msgid "Popular Gifts"
+msgstr "G0128인기 Gift"
+
+#: Model/Gift.php:validation for field title
+msgid "Title is required"
+msgstr "G0129제목을 입력하십시요."
+
+#: Model/Gift.php:validation for field gift_category_id
+msgid "Category is required"
+msgstr "G0130카테고리를 입력하십시요."
+
+#: Model/Gift.php:validation for field filename
+msgid "File is required"
+msgstr "G0131파일이을 지정하십시요."
+
+#: Model/Gift.php:validation for field thumb
+msgid "Thumb is required"
+msgstr "G0132미리보기용이미지가 필요합니다."
+
+#: Model/Gift.php:validation for field friend_id
+msgid "Friend is required"
+msgstr "G0133친구를 지정하십시요."
+
+msgid "Are you sure you want to delete this category?"
+msgstr "G0134이 카테고리를 삭제하시겠습니까?"
+
+msgid "Sents"
+msgstr "G0135발송"
+
+msgid "First"
+msgstr "G0136처음"
+
+msgid "Prev"
+msgstr "G0137앞으로"
+
+msgid "Next"
+msgstr "G0138다음"
+
+msgid "Last"
+msgstr "G0139마지막"
+
+msgid "Previous"
+msgstr "G0140이전"
+
+msgid "User %s %s is "forever" already. Please select another Plugin item."
+msgstr "G0150 회원 %s 님 %s 플러그인은 "영구사용" 상태입니다. 다른 플러그인 아이템을 선정하시기 바랍니다."
+
+msgid "You already sent %s to user \"%s\". Sales people can send %s \"free of charge\" to his customer. But, One plugin to One customer only."
+msgstr "G0151 회원님께서는, 이미 %s 을 \"%s\"님께 선물하신 상태입니다. (영업분야)회원님은  \"무상선물\" Plugin을 회원님의 거래선에 보낼 수 있으나, 거래선당 아이템 하나만 무상으로 제공됩니다."
+
+msgid "User "%s" already installed %s. If you send %s gift again, it will extend Valid period. Otherwise, you can cancel now, and, present another plugin."
+msgstr "G0152 "%s" 회원님은 현재 %s 이 설치되어 있습니다. %s 을 다시 선물하시면, 상대회원님의 사용기간이 연장됩니다. 다른 선물로 변경하시려면, 취소를 선택하시면 다른 선물로 변경가능합니다."
+
+msgid "Use My Credit"
+msgstr "G0153 크레디트사용"
+
+msgid "Extend"
+msgstr "G0154 연장"
+
+msgid "This gift is already used on %s"
+msgstr "G0155 이 선불은 %s 에 이미 사용되었습니다."
+
+msgid "%s Activated"
+msgstr "G0156 %s 이 활성화 되었습니다."
+
+msgid "%s is valid until %s."
+msgstr "G0157 %s 이 %s 까지 사용가능합니다."
+
+msgid "%s is valid forever."
+msgstr "G0158 %s 을 영구 사용가능합니다."
+
+msgid "Activate"
+msgstr "G0158 활성화"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>FAQ</name>
+    <key>Faq</key>
+    <version>1.5</version>
+    <description>FAQ</description>
+    <author>mooSocial - Than.NL</author>
+    <website>http://moosocial.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>1</addtomenu>
+    <settings><setting><label>Number of categories at home page by default</label><name>faq_categories_per_page</name><description>Number of categories at home page by default</description><type>text</type><values>3</values></setting><setting><label>Item per pages</label><name>faq_item_per_pages</name><description>Item per pages</description><type>text</type><values>3</values></setting><setting><label>FAQ</label><name>faq_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Change background</label><name>faq_back_ground</name><description>Change Back Ground</description><type>text</type><values>/uploads/faqs/backgroud_faq.jpeg</values></setting><setting><label>By pass force login</label><name>faq_consider_force</name><description>By pass force login</description><type>checkbox</type><values><value><name></name><value>1</value><select>0</select></value></values></setting></settings>
+</info>

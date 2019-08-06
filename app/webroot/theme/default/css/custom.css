@@ -1,0 +1,59 @@
+.profilePage  > #profile-content > ul#list-content > li[id^='activity_']{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+.wrap-suggestion{
+    position: relative;
+}
+.zip-suggestion{
+    list-style: none;
+    position: absolute;
+    background: #fff;
+    padding: 0;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+.zip-suggestion li{
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.zip-suggestion li:hover{
+ background-color: #cccccc;
+}
+#form_reg_step_2 #profile_picture_preview img{
+    max-width: 250px;
+    max-height: 250px;
+}
+#form_reg_step_2 input[type="radio"], #form_reg_step_3 input[type="radio"], #form_reg_step_3_student input[type="radio"]{
+    margin-right: 3px;
+}
+#form_reg_step_3 .form-inline input[type="text"]{
+    width: 80%;
+}
+#form_reg_step_3 .form-address input:first-child{
+    margin-bottom: 10px;
+}
+.users_list .user-list-info{
+    text-align: center;
+}
+.wrap-show-avatar-info{
+    text-align: left;
+    padding-left: 15px ;
+}
+.list-child{
+    margin-left: 22px;
+}
+.list-child a{
+    font-weight: normal!important;
+}
+.profile-edit-step-1 .btn-validate{
+    float: right;
+}
+#form_reg_step_3 .com-phone{
+    width: 25.8%;
+}

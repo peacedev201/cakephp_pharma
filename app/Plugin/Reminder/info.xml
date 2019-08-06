@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Reminder</name>
+    <key>Reminder</key>
+    <version>1.1</version>
+    <description>Reminder</description>
+    <author>mooSocial - Tung.NV</author>
+    <website>https://moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+    <settings>
+        <setting>
+            <label>Reminder</label>
+            <name>reminder_enabled</name>
+            <description></description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        
+        <setting>
+            <label>Enable email verification reminder</label>
+            <name>reminder_enable_email_verification</name>
+            <description></description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>How many times do you want to send reminder email verification (0 is unlimited- not recommended)</label>
+            <name>reminder_time_email_verification</name>
+            <description></description>
+            <type>text</type>
+            <values>3</values>
+        </setting>
+        <setting>
+            <label>If all verification reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option)</label>
+            <name>reminder_disable_email_verification</name>
+            <description></description>
+            <type>text</type>
+            <values>7</values>
+        </setting>
+        <setting>
+            <label>Reminder email will send to users who has not verified email for</label>
+            <name>reminder_day_email_verification</name>
+            <description></description>
+            <type>text</type>
+            <values>7</values>
+        </setting>        
+        
+        <setting>
+            <label>Enable sms verification reminder</label>
+            <name>reminder_enable_sms_verification</name>
+            <description></description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+        <setting>
+            <label>How many times do you want to send reminder sms verification (0 is unlimited- not recommended)</label>
+            <name>reminder_time_sms_verification</name>
+            <description></description>
+            <type>text</type>
+            <values>3</values>
+        </setting>
+        <setting>
+            <label>If all verification reminder sms have been sent, system will auto disable account after (Enter 0 if you want to disable this option)</label>
+            <name>reminder_disable_sms_verification</name>
+            <description></description>
+            <type>text</type>
+            <values>7</values>
+        </setting>
+        <setting>
+            <label>Reminder email will send to users who has not verified sms for</label>
+            <name>reminder_day_sms_verification</name>
+            <description></description>
+            <type>text</type>
+            <values>7</values>
+        </setting>
+        
+        <setting>
+            <label>Enable login reminder</label>
+            <name>reminder_enable_login</name>
+            <description></description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>How many times do you want to send login reminder email (0 is unlimited- not recommended)</label>
+            <name>reminder_time_login</name>
+            <description></description>
+            <type>text</type>
+            <values>3</values>
+        </setting>
+        <setting>
+            <label>Reminder email will send to users who has loggedin for (days)</label>
+            <name>reminder_day_login</name>
+            <description></description>
+            <type>text</type>
+            <values>10</values>
+        </setting>
+        <setting>
+            <label>If all login reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option)</label>
+            <name>reminder_disable_login</name>
+            <description></description>
+            <type>text</type>
+            <values>7</values>
+        </setting>
+        
+        <setting>
+            <label>Enable 'post status, like or comment' email reminder</label>
+            <name>reminder_enable_share</name>
+            <description></description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>How many times do you want to send 'post status, like or comment' email reminder (0 is unlimited- not recommended)</label>
+            <name>reminder_time_share</name>
+            <description></description>
+            <type>text</type>
+            <values>3</values>
+        </setting>
+        <setting>
+            <label>Reminder email will send to user if he/she has not posted status, liked, or commente for (days)</label>
+            <name>reminder_day_share</name>
+            <description></description>
+            <type>text</type>
+            <values>10</values>
+        </setting>
+        <setting>
+            <label>If all 'post status, like or comment' email reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option)</label>
+            <name>reminder_disable_share</name>
+            <description></description>
+            <type>text</type>
+            <values>7</values>
+        </setting>
+        <setting>
+            <label>Reminder user role</label>
+            <name>reminder_role</name>
+            <description></description>
+            <type>text</type>
+            <values></values>
+        </setting>
+    </settings>
+</info>

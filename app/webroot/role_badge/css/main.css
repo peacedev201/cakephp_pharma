@@ -1,0 +1,137 @@
+.p-role-badge {
+    display: inline-block;
+}
+
+.p-role-badge img.icon-role-badge {
+    height: 26px;
+}
+
+.p-role-badge-tooltip {
+    margin: 5px 0; 
+}
+
+.p-role-badge-tooltip img.icon-role-badge-tooltip {
+    height: 26px;
+}
+
+.p-role-badge-tooltip img.icon-role-badge-tooltip-mobile {
+    height: 28px;
+}
+
+.activity_feed_content img.icon-role-badge-username-feed, 
+.feed_comment_info img.icon-role-badge-username-feed,
+.comment img.icon-role-badge-username-feed {
+    height: 14px;
+    vertical-align: sub;
+}
+
+.award-badge-header h3 a.asign-badge{
+    float: right;
+    color: #247BBA;
+    font-weight: normal;
+}
+
+.award-badge-header .list_option {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.award-badge-header .list_option .dropdown-menu {
+    right: -11px;
+    left: auto;
+    top: 27px;
+    padding: 3px;
+}
+
+ul.sidebar-badge:after{
+    content: ' ';
+    clear: both;
+}
+
+ul.sidebar-badge li.c_badge{
+    float: left;
+}
+
+.tipsy-inner {
+    max-width: 200px;
+}
+
+table.award-badge {
+    margin-bottom: 0;
+}
+
+table.award-badge tr td {
+    vertical-align: middle;
+}
+
+.award-badge-header .list_option button i.material-icons {
+    color: #247BBA;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    height: auto;
+    margin: 0;
+}
+
+.award-badge-header {
+    position: relative;
+}
+
+.award-badge-header .list_option button {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #ccc;
+    font-size: 12px;
+    height: auto;
+    line-height: 0;
+    padding: 1px 3px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .p-role-badge img.icon-role-badge {
+        height: 18px;
+        display: block;
+    }
+    
+    .award-badge-header .list_option .dropdown-menu {
+        top: 22px;
+    }
+    
+    .award-badge-header .list_option {
+        top: 8px;
+    }    
+}
+
+/* APP */
+.moo-app-role-badge .award-badge-header .list_option {
+    top: 6px;
+} 
+
+.moo-app-role-badge .award-badge-header .list_option .dropdown-menu {
+    top: 36px;
+}
+
+.moo-app-role-badge .content_center-header, .moo-app-role-badge .box_content-list {
+    padding: 0;
+}
+
+.moo-app-role-badge .award-badge-header h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.moo-app-role-badge .sidebar-badge {
+    display: inline-block;
+}
+
+.moo-app-role-badge .assign-badge {
+    right: 0;
+    top: 8px;
+}
+
+.moo-app-role-badge-modal-footer.modal-footer {
+    padding: 8px;
+}

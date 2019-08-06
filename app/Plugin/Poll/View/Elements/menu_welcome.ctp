@@ -1,0 +1,1 @@
+<li><a id="my-polls" data-url="<?php echo $this->request->base?>/polls/browse/home" rel="home-content" href="<?php echo $this->request->base?>/home/index/tab:my-polls"><i class="material-icons">insert_chart</i> <?php echo __d('poll','My Polls')?> <span class="badge_counter"><?php echo $count;?></span></a></li>

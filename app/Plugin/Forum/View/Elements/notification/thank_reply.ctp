@@ -1,0 +1,1 @@
+<?php echo __d('forum', 'said thanks to your reply on "%s"', $notification['Notification']['params']);?>

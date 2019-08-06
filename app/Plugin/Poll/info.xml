@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Poll</name>
+    <key>Poll</key>
+    <version>1.7</version>
+    <description>Poll</description>
+    <author>mooSocial - Tung.NV</author>
+    <website>https://moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+<settings><setting><label>Poll Enabled</label><name>poll_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Item per pages</label><name>poll_item_per_pages</name><description>Item per pages</description><type>text</type><values>10</values></setting><setting><label>Allow users to create poll with option "Allow voters to add new answer"</label><name>poll_allow_user_create</name><description>Allow users to create poll with option "Allow voters to add new answer"</description><type>checkbox</type><values><value><name></name><value>1</value><select>1</select></value></values></setting><setting><label>Min answer when create poll</label><name>poll_min_answer</name><description>Min answer when create poll</description><type>text</type><values>2</values></setting><setting><label>Allow users to create poll with option "Show on feed"</label><name>poll_allow_user_create_show_feed</name><description>Allow users to create poll with option "Show on feed" </description><type>checkbox</type><values><value><name></name><value>1</value><select>1</select></value></values></setting><setting><label>By pass force login</label><name>poll_consider_force</name><description>By pass force login</description><type>checkbox</type><values><value><name></name><value>1</value><select>0</select></value></values></setting></settings></info>

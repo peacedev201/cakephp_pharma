@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Quiz</name>
+    <key>Quiz</key>
+    <version>1.3</version>
+    <description>Quiz Plugin</description>
+    <author>mooSocial - Tan.TT</author>
+    <website>www.moosocial.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <menu>1</menu>
+    <settings>
+        <setting>
+            <label>Quiz Enabled</label>
+            <name>quiz_enabled</name>
+            <description></description>
+            <type>radio</type>
+            <values>
+                <value>
+                    <name>Enable</name>
+                    <value>1</value>
+                    <select>1</select>
+                </value>
+                <value>
+                    <name>Disable</name>
+                    <value>0</value>
+                    <select>0</select>
+                </value>
+            </values>
+        </setting>
+        <setting>
+            <label>Questions Count</label>
+            <name>quiz_questions_count</name>
+            <description>Choose minimal count of questions which user should add into quiz</description>
+            <type>text</type>
+            <values>2</values>
+        </setting>
+        <setting>
+            <label>Answers Count</label>
+            <name>quiz_answers_count</name>
+            <description>Choose minimal count of answers which user should add into question</description>
+            <type>text</type>
+            <values>2</values>
+        </setting>
+        <setting>
+            <label>Item Per Pages</label>
+            <name>quiz_item_per_pages</name>
+            <description>How many quizzes will be shown per page?</description>
+            <type>text</type>
+            <values>10</values>
+        </setting>
+        <setting>
+            <label>Enable Hashtag</label>
+            <name>quiz_enabled_hashtag</name>
+            <description></description>
+            <type>radio</type>
+            <values>
+                <value>
+                    <name>Enable</name>
+                    <value>1</value>
+                    <select>1</select>
+                </value>
+                <value>
+                    <name>Disable</name>
+                    <value>0</value>
+                    <select>0</select>
+                </value>
+            </values>
+        </setting>
+        <setting>
+            <label>Auto Approval</label>
+            <name>quiz_auto_approval</name>
+            <description>Auto-approve new submitted quiz</description>
+            <type>checkbox</type>
+            <values>
+                <value>
+                    <name></name>
+                    <value>1</value>
+                    <select>1</select>
+                </value>
+            </values>
+        </setting>
+        <setting>
+            <label>By pass force login</label>
+            <name>quiz_consider_force</name>
+            <description>By pass force login</description>
+            <type>checkbox</type>
+            <values>
+                <value>
+                    <name></name>
+                    <value>1</value>
+                    <select>0</select>
+                </value>
+            </values>
+        </setting>
+    </settings>
+</info>

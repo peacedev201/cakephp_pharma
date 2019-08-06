@@ -1,0 +1,294 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ActivitylogPlugin.php:24
+#: View/ActivitylogSettings/admin_index.ctp:13
+msgid "Settings"
+msgstr "al001 설정"
+
+#: Controller/ActivitylogSettingsController.php:7
+#: Controller/ActivitylogsController.php:11
+#: Lib/ActivitylogListener.php:60;71;80
+#: View/Activitylogs/index.ctp:50
+msgid "Activity log"
+msgstr "al002 활동내역"
+
+#: View/ActivitylogSettings/admin_index.ctp:2
+msgid "Plugins Manager"
+msgstr "al003 플러그인관리자"
+
+#: View/ActivitylogSettings/admin_index.ctp:3
+msgid "Activity Log Settings"
+msgstr "al005 활동내역설정"
+
+#: View/Activitylogs/index.ctp:11
+msgid "All"
+msgstr "al006 전체"
+
+#: View/Activitylogs/index.ctp:12
+msgid "Like"
+msgstr "al007 좋아요"
+
+#: View/Activitylogs/index.ctp:13
+msgid "Dislike"
+msgstr "al007 싫어요"
+
+#: View/Activitylogs/index.ctp:14
+msgid "Comment"
+msgstr "al008 댓글달기"
+
+#: View/Activitylogs/index.ctp:15
+msgid "Share"
+msgstr "al009 공유"
+
+#: View/Activitylogs/index.ctp:16
+msgid "Album"
+msgstr "al010 앨범"
+
+#: View/Activitylogs/index.ctp:17
+msgid "Blog"
+msgstr "al011 블로그"
+
+#: View/Activitylogs/index.ctp:18
+msgid "Event"
+msgstr "al012 이벤트"
+
+#: View/Activitylogs/index.ctp:19
+msgid "Group"
+msgstr "al013 커뮤니티"
+
+#: View/Activitylogs/index.ctp:20
+msgid "Photo"
+msgstr "al014 사진"
+
+#: View/Activitylogs/index.ctp:21
+msgid "Topic"
+msgstr "al015 토픽"
+
+#: View/Activitylogs/index.ctp:22
+msgid "Video"
+msgstr "al016 동영상"
+
+#: View/Elements/lists/activities_list.ctp:43
+msgid " to %s timeline"
+msgstr "al017 %s timeline까지"
+
+#: View/Elements/lists/activities_list.ctp:47
+msgid " into group %s"
+msgstr "al018 %s 커뮤티니로"
+
+#: View/Elements/lists/activities_list.ctp:56
+msgid "Shared with: Everyone"
+msgstr "al019 공유범위:전체"
+
+#: View/Elements/lists/activities_list.ctp:60
+msgid "Shared with: Friend"
+msgstr "al020 공유범위:친구"
+
+#: View/Elements/lists/activities_list.ctp:64
+msgid "Shared with: Only Me"
+msgstr "al021 공유범위:나만"
+
+#: View/Elements/lists/activities_list.ctp:115
+msgid "No more results found"
+msgstr "al022 더 이상 검색결과가 없읍니다."
+
+#: View/Elements/misc/activity_texts.ctp:44
+msgid "liked %s "
+msgstr "al023 좋아요 %s"
+
+#: View/Elements/misc/activity_texts.ctp:17;34;53;66;125
+msgid "post"
+msgstr "al024 게시"
+
+#: View/Elements/misc/activity_texts.ctp:21;37;40
+msgid "comment"
+msgstr "al025 댓글달기"
+
+#: View/Elements/misc/activity_texts.ctp:27;46;56;74;91;93;112;148
+msgid "photo"
+msgstr "al026 사진"
+
+#: View/Elements/misc/activity_texts.ctp:30;49;59;70;129
+msgid "album"
+msgstr "al027 앨범"
+
+#: View/Elements/misc/activity_texts.ctp:82
+msgid "disliked %s "
+msgstr "al028 싫어요 %s"
+
+#: View/Elements/misc/activity_texts.ctp:107
+msgid "commented on %s "
+msgstr "al029 %s에 댓글"
+
+#: View/Elements/misc/activity_texts.ctp:127
+msgid "shared %s "
+msgstr "al030 %s 공유"
+
+#: View/Elements/misc/activity_texts.ctp:84
+msgid "updated %1$s %2$s"
+msgstr "al031 %1$s %2$s 업데이트"
+
+#: View/Elements/misc/activity_texts.ctp:84;105
+msgid "status"
+msgstr "al032 현황"
+
+#: View/Elements/misc/activity_texts.ctp:86
+msgid "wrote on %s timeline"
+msgstr "al033 %s timeline에 기록"
+
+#: View/Elements/misc/activity_texts.ctp:91
+msgid "added a new %s "
+msgstr "al034 %s 신규추가"
+
+#: View/Elements/misc/activity_texts.ctp:93
+msgid "added a new %1$s to %2$s timeline"
+msgstr "al035 added a new %1$s to %2$s timeline"
+
+#: View/Elements/misc/activity_texts.ctp:98
+msgid "added new %s "
+msgstr "al036 %s 새로 추가"
+
+#: View/Elements/misc/activity_texts.ctp:98;100;119;146
+msgid "photos"
+msgstr "al037 사진"
+
+#: View/Elements/misc/activity_texts.ctp:100
+msgid "added new %1$s to %2$s timeline"
+msgstr "al038 added new %1$s to %2$s timeline"
+
+#: View/Elements/misc/activity_texts.ctp:105
+msgid "posted a %s into group"
+msgstr "al039 커뮤니티에 %s 게시"
+
+#: View/Elements/misc/activity_texts.ctp:112
+msgid "added a new %s into group"
+msgstr "al040 커뮤니티에 %s 새로 추가"
+
+#: View/Elements/misc/activity_texts.ctp:119
+msgid "added new %s into group"
+msgstr "al041 커뮤니티에 %s 새로 추가"
+
+#: View/Elements/misc/activity_texts.ctp:182
+msgid "posted a %s into event"
+msgstr "al042 이벤트에 %s 게시"
+
+#: View/Elements/misc/activity_texts.ctp:190
+msgid "added a new %s into event"
+msgstr "al043 이벤트에 %s 새로 추가"
+
+#: View/Elements/misc/activity_texts.ctp:198
+msgid "added new %s into event"
+msgstr "al044 이벤트에 %s 새로 추가"
+
+#: View/Elements/misc/activity_texts.ctp:125;332
+msgid "was tagged in a %s "
+msgstr "al045 %s 에 태그 됨"
+
+#: View/Elements/misc/activity_texts.ctp:129;155
+msgid "created new %s "
+msgstr "al046 %s 새로 생성"
+
+#: View/Elements/misc/activity_texts.ctp:136
+msgid "added new video %s into group"
+msgstr "al046 커뮤니티에 새 동영상 %s 추가"
+
+#: View/Elements/misc/activity_texts.ctp:139
+msgid "added new video %s"
+msgstr "al047 새 동영상 %s 추가"
+
+#: View/Elements/misc/activity_texts.ctp:146;148
+msgid "added %1$s new %2$s to album"
+msgstr "al048 added %1$s new %2$s to album"
+
+#: View/Elements/misc/activity_texts.ctp:41
+msgid "reacted to %s "
+msgstr "al048 %s에 반응"
+
+#: View/Elements/misc/activity_texts.ctp:220
+msgid "followed %s "
+msgstr "al049 %s 팔로우 "
+
+#: View/Elements/misc/activity_texts.ctp:224
+msgid "became friends with %s "
+msgstr "al050 $s와 친구 맺음 "
+
+#: View/Elements/misc/activity_texts.ctp:228
+msgid "changed %s profile picture"
+msgstr "al051 %s 프로필 사진 변경 "
+
+#: View/Elements/misc/activity_texts.ctp:236
+msgid "joined group %s"
+msgstr "al052 %s 커뮤니티 가입 "
+
+#: View/Elements/list/activity_list.ctp:73
+msgid "Private"
+msgstr "al053 비공개 "
+
+#: View/Elements/list/activity_list.ctp:77
+msgid "Public"
+msgstr "al054 공개 "
+
+#: View/Helper/ActivitylogHelper.ctp:18
+msgid "his"
+msgstr "al055 his "
+
+#: View/Helper/ActivitylogHelper.ctp:20
+msgid "her"
+msgstr "al056 her "
+
+#: View/Helper/ActivitylogHelper.ctp:22
+msgid "their"
+msgstr "al057 their"
+
+#: View/Elements/misc/activity_texts.ctp:155
+msgid "blog"
+msgstr "al058 블로그"
+
+#: View/Elements/misc/activity_texts.ctp:155
+msgid "topic"
+msgstr "al059 토픽 "
+
+#: View/Elements/misc/activity_texts.ctp:155
+msgid "group"
+msgstr "al060 커뮤니티 "
+
+#: View/Elements/misc/activity_texts.ctp:155
+msgid "event"
+msgstr "al061 이벤트 "
+
+#: View/Elements/misc/activity_texts.ctp:17;21;24;27;30
+msgid "liked %1$s %2$s"
+msgstr "al062 liked %1$s %2$s"
+
+#: View/Elements/misc/activity_texts.ctp:34;37;40;43;46;49
+msgid "disliked %1$s %2$s"
+msgstr "al063 disliked %1$s %2$s"
+
+#: View/Elements/misc/activity_texts.ctp:53;56;59;62
+msgid "commented on %1$s %2$s"
+msgstr "al064 %1$s %2$s 에 댓글"
+
+#: View/Elements/misc/activity_texts.ctp:66;70;74;78
+msgid "shared %1$s %2$s"
+msgstr "al065 %1$s %2$s 공유"
+
+#: View/Elements/misc/activity_texts.ctp:20
+msgid "reacted to %1$s %2$s"
+msgstr "al066 %1$s %2$s에 반응"
+
+#: View/ActivitylogSettings/admin_index.ctp:2
+msgid "Activity Log Enabled"
+msgstr "al067 활동내역기록 활성화"

@@ -1,0 +1,83 @@
+msgid "_EMAIL_BUSINESS_VERIFY_DOCUMENTS_TITLE_"
+msgstr "Business Verify Documents"
+
+msgid "_EMAIL_BUSINESS_VERIFY_DOCUMENTS_DESCRIPTION_"
+msgstr "Admin will get an email about the request via document"
+
+msgid "_EMAIL_BUSINESS_VERIFY_PHONE_TITLE_"
+msgstr "Business Verify Phone"
+
+msgid "_EMAIL_BUSINESS_VERIFY_PHONE_DESCRIPTION_"
+msgstr "Admin will get an email about the request via phone"
+
+msgid "_EMAIL_BUSINESS_CLAIM_REQUEST_TITLE_"
+msgstr "Business Claim Request"
+
+msgid "_EMAIL_BUSINESS_CLAIM_REQUEST_DESCRIPTION_"
+msgstr "Admin will get an email about the request claim business"
+
+msgid "_EMAIL_BUSINESS_REJECT_TITLE_"
+msgstr "Business reject"
+
+msgid "_EMAIL_BUSINESS_REJECT_DESCRIPTION_"
+msgstr "Business admin will get a reject email"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_REJECT_TITLE_"
+msgstr "Business Sub Page Reject"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_REJECT_DESCRIPTION_"
+msgstr "User will get a reject email"
+
+msgid "_EMAIL_BUSINESS_CONTACT_TITLE_"
+msgstr "Business send contact"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "Business admin will get a contact email"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "Business admin will get a contact email"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "Business admin will get a contact email"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_FEATURE_TITLE_"
+msgstr "Business Expire Feature"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_FEATURE_DESCRIPTION_"
+msgstr "Business Expire Feature with a email"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_TITLE_"
+msgstr "Business Expire"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_DESCRIPTION_"
+msgstr "Business Expire with a email"
+
+msgid "_EMAIL_BUSINESS_REMINDER_FEATURED_PACKAGE_TITLE_"
+msgstr "Business Reminder Feature"
+
+msgid "_EMAIL_BUSINESS_REMINDER_FEATURED_PACKAGE_DESCRIPTION_"
+msgstr "Business Reminder Feature with a email"
+
+msgid "_EMAIL_BUSINESS_REMINDER_BUSINESS_PACKAGE_TITLE_"
+msgstr "Business Reminder"
+
+msgid "_EMAIL_BUSINESS_REMINDER_BUSINESS_PACKAGE_DESCRIPTION_"
+msgstr "Business Reminder with a email"
+
+msgid "_EMAIL_BUSINESS_SUCCESS_PACKAGE_TITLE_"
+msgstr "Business Package Success"
+
+msgid "_EMAIL_BUSINESS_SUCCESS_PACKAGE_DESCRIPTION_"
+msgstr "Business Package Success with a email"
+
+msgid "_EMAIL_BUSINESS_APPROVE_TITLE_"
+msgstr "Business Approved"
+
+msgid "_EMAIL_BUSINESS_APPROVE_DESCRIPTION_"
+msgstr "This is business approve mail"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_APPROVE_TITLE_"
+msgstr "Business Sub Page Approved"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_APPROVE_DESCRIPTION_"
+msgstr "This is sub page approve mail"

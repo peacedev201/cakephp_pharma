@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Profile Verify</name>
+    <key>VerifyProfile</key>
+    <version>1.7</version>
+    <description>Profile Verify</description>
+    <author>mooSocial - Tan.TT</author>
+    <website>www.moosocial.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <settings>
+        <setting>
+            <label>Enable Profile Verify</label>
+            <name>verify_profile_enable</name>
+            <description>Enable Profile Verify</description>
+            <type>radio</type>
+            <values>
+                <value>
+                    <name>Disable</name>
+                    <value>0</value>
+                    <select>0</select>
+                </value>
+                <value>
+                    <name>Enable</name>
+                    <value>1</value>
+                    <select>1</select>
+                </value>
+            </values>
+        </setting>
+        <setting>
+            <label>Enable auto verify based on user reviews</label>
+            <name>verify_profile_auto_verify_after_review</name>
+            <description>Enable auto verify based on user reviews</description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+        <setting>
+            <label>Min review</label>
+            <name>verify_profile_number_review</name>
+            <description>Min review</description>
+            <type>text</type>
+            <values>5</values>
+        </setting>
+        <setting>
+            <label>Min average score</label>
+            <name>verify_profile_average_review</name>
+            <description>Min average score</description>
+            <type>text</type>
+            <values>5</values>
+        </setting>
+        <setting>
+            <label>Enable auto unverified if verified member does not match above settings</label>
+            <name>verify_profile_auto_unverify_after_review</name>
+            <description>Enable auto unverified if verified member does not match above settings</description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+        <setting>
+            <label>Enable Documents Requirement for Verification Request</label>
+            <name>verify_profile_document_request_verification</name>
+            <description>Enable Documents Requirement for Verification Request</description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+        <setting>
+            <label>Full Name</label>
+            <name>verify_profile_full_name</name>
+            <description>Enable Full Name</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Avatar</label>
+            <name>verify_profile_avatar</name>
+            <description>Enable Avatar</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Birthday</label>
+            <name>verify_profile_birthday</name>
+            <description>Enable Birthday</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Gender</label>
+            <name>verify_profile_gender</name>
+            <description>Enable Gender</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Activity Feed</label>
+            <name>verify_profile_show_activity_feed</name>
+            <description>Activity Feed</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Profile Page</label>
+            <name>verify_profile_show_profile_page</name>
+            <description>Profile Page</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Profile Popup</label>
+            <name>verify_profile_show_profile_popup</name>
+            <description>Profile Popup</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Badge Image</label>
+            <name>verify_profile_badge_image</name>
+            <description>Badge Image</description>
+            <type>text</type>
+            <values>badge_60b2b1ba9ad018a5a443f4e68cd2f03f.png</values>
+        </setting>
+         <setting>
+            <label>Badge Default Image</label>
+            <name>verify_profile_badge_default_image</name>
+            <description>Badge Default Image</description>
+            <type>text</type>
+            <values>badge_default_60b2b1ba9ad018a5a443f4e68cd2f03f.png</values>
+        </setting>
+        <setting>
+            <label>Show Unverify Badge</label>
+            <name>verify_profile_unverify</name>
+            <description>Show Unverify Badge</description>
+            <type>text</type>
+            <values>0</values>
+        </setting>
+        <setting>
+            <label>Unverify Badge Image</label>
+            <name>verify_profile_unverify_image</name>
+            <description>Unverify Badge Image</description>
+            <type>text</type>
+            <values>unverify_31732dc2a4aff2da4b8ac9a036f60e68.png</values>
+        </setting>
+        <setting>
+            <label>Unverify Badge Default Image</label>
+            <name>verify_profile_unverify_default_image</name>
+            <description>Unverify Badge Default Image</description>
+            <type>text</type>
+            <values>unverify_default_31732dc2a4aff2da4b8ac9a036f60e68.png</values>
+        </setting>
+        <setting>
+            <label>Enable Passport Option</label>
+            <name>verify_profile_passport</name>
+            <description>Enable Passport Option</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Passport's Sample Image</label>
+            <name>verify_profile_passport_image</name>
+            <description>Passport's Sample Image</description>
+            <type>text</type>
+            <values>passport_ba7b4004b24bca18c6a6af56849ce4e8.png</values>
+        </setting>
+        <setting>
+            <label>Passport's Sample Default Image</label>
+            <name>verify_profile_passport_default_image</name>
+            <description>Passport's Sample Default Image</description>
+            <type>text</type>
+            <values>passport_default_ba7b4004b24bca18c6a6af56849ce4e8.png</values>
+        </setting>
+        <setting>
+            <label>Enable Driver License Option</label>
+            <name>verify_profile_driver</name>
+            <description>Enable Driver License Option</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Driver License's Sample Image</label>
+            <name>verify_profile_driver_image</name>
+            <description>Driver License's Sample Image</description>
+            <type>text</type>
+            <values>driver_3a7a8ba0dd6053898bbdec7501f7ef55.png</values>
+        </setting>
+        <setting>
+            <label>Driver License's Sample Default Image</label>
+            <name>verify_profile_driver_default_image</name>
+            <description>Driver License's Sample Default Image</description>
+            <type>text</type>
+            <values>driver_default_3a7a8ba0dd6053898bbdec7501f7ef55.png</values>
+        </setting>
+        <setting>
+            <label>Enable ID Card Option</label>
+            <name>verify_profile_card</name>
+            <description>Enable ID Card Option</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>ID Card's Sample Image</label>
+            <name>verify_profile_card_image</name>
+            <description>ID Card's Sample Image</description>
+            <type>text</type>
+            <values>card_024b042335086ee09f6af2b425319954.png</values>
+        </setting>
+        <setting>
+            <label>ID Card's Sample Default Image</label>
+            <name>verify_profile_card_default_image</name>
+            <description>ID Card's Sample Default Image</description>
+            <type>text</type>
+            <values>card_default_024b042335086ee09f6af2b425319954.png</values>
+        </setting>
+        <setting>
+            <label>Enable Deny Photo Option</label>
+            <name>verify_profile_deny</name>
+            <description>Enable Deny Photo Option</description>
+            <type>text</type>
+            <values>1</values>
+        </setting>
+        <setting>
+            <label>Deny Photo's Sample Image</label>
+            <name>verify_profile_deny_image</name>
+            <description>Deny Photo's Sample Image</description>
+            <type>text</type>
+            <values>deny_25b55bcd0bf05bdb29eace205405204e.png</values>
+        </setting>
+        <setting>
+            <label>Deny Photo's Sample Default Image</label>
+            <name>verify_profile_deny_default_image</name>
+            <description>Deny Photo's Sample Default Image</description>
+            <type>text</type>
+            <values>deny_default_25b55bcd0bf05bdb29eace205405204e.png</values>
+        </setting>
+        <setting>
+            <label>Number of Document</label>
+            <name>verify_profile_document</name>
+            <description>Number of Document</description>
+            <type>text</type>
+            <values>3</values>
+        </setting>
+        <setting>
+            <label>User Group Mapping</label>
+            <name>verify_profile_group</name>
+            <description>User Group Mapping</description>
+            <type>text</type>
+            <values></values>
+        </setting>
+    </settings>
+</info>

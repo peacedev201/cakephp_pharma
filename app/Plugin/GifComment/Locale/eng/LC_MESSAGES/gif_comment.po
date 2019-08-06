@@ -1,0 +1,70 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: GifCommentPlugin.php:10
+#: View/GifCommentSettings/admin_index.ctp:10
+msgid "General"
+msgstr ""
+
+#: Controller/GifCommentSettingsController.php:12
+#: GifComment/Controller/GifCommentSettingsController.php:12
+msgid "Gif Image Comment Setting"
+msgstr ""
+
+#: Controller/GifCommentSettingsController.php:24
+#: GifComment/Controller/GifCommentSettingsController.php:24
+msgid "Successfully updated"
+msgstr ""
+
+#: GifComment/Controller/GifCommentsController.php:73
+msgid "Something wrong , please try again."
+msgstr ""
+
+#: GifComment/View/Elements/load_gif.ctp:31
+#: GifComment/View/Elements/post_feed.ctp:27
+#: View/Elements/load_gif.ctp:26
+#: View/Elements/post_feed.ctp:27
+msgid "Search GIFs across apps..."
+msgstr ""
+
+#: GifComment/View/GifCommentSettings/admin_index.ctp:5
+#: GifComment/View/GifComments/admin_index.ctp:5
+#: View/GifCommentSettings/admin_index.ctp:7
+#: View/GifComments/admin_index.ctp:5
+msgid "Gif Comment"
+msgstr ""
+
+#: GifComment/View/GifCommentSettings/admin_index.ctp:22
+#: View/GifCommentSettings/admin_index.ctp:24
+msgid "Enable Gif Comment"
+msgstr ""
+
+#: GifComment/View/GifCommentSettings/admin_index.ctp:39
+msgid "Tenor Api Key"
+msgstr ""
+
+#: GifComment/View/GifCommentSettings/admin_index.ctp:58
+#: View/GifCommentSettings/admin_index.ctp:43
+msgid "Save Settings"
+msgstr ""
+
+#: View/GifCommentSettings/admin_index.ctp:5
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/GifCommentSettings/admin_index.ctp:6
+msgid "Settings"
+msgstr ""
+

@@ -1,0 +1,264 @@
+.sticker_button{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+}
+.sticker_button i{
+    height: 40px;
+    width: 40px;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+    color: #999999;
+    margin: 0;
+    font-size: 22px;
+}
+.sticker_button > i em {
+    font-size: 20px;
+    color: #999;
+    vertical-align: middle;
+}
+.sticker_animation{
+    cursor: pointer; 
+    height: 80px; 
+    width: 80px; 
+    image-rendering: -webkit-optimize-contrast; 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px;
+    margin: 2px;
+    cursor: pointer;
+}
+#sticker_images{
+    min-height: 337px;
+    max-height: 337px;
+    border-top: 1px solid #dddfe2 !important;
+}
+#sticker_images:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+#sticker_images .sticker_animation{
+    float: left;
+}
+#sticker_images .sticker_animation:hover{
+    background-color: #f5f6f7;
+}
+#stickerModal{
+    z-index: 2000;
+}
+#stickerModal .modal-dialog{
+    width: 341px;
+    margin: auto;
+}
+#stickerModal .modal-body{
+    padding: 0;
+}
+#stickerModal .sticker_list{
+    width: 274px;
+    margin: auto;
+}
+#stickerModal .sticker_list .sticker_item{
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    display: block !important;
+}
+#stickerModal .sticker_list .sticker_item.current{
+    background-color: #e9ebee;
+}
+#stickerModal .sticker_list .sticker_item i{
+    font-size: 26px;
+    width: 34px;
+    height: 30px;
+    margin-top: 4px;
+}
+.sticker_select, .sticker_activity_item{
+    width: 100%;
+    height: 80px;
+}
+.sticker_select .sticker_select_animation{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    /*margin: auto;*/
+}
+.sticker_select .sticker_select_animation .sticker_remove_select{
+    position: absolute;
+    top: 0;
+    right: -10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333333;
+}
+.sticker_select .sticker_animation, .sticker_activity_item .sticker_animation{
+    float: none !important;
+    /*margin: auto;*/
+}
+.sticker_select .sticker_animation:hover, .sticker_activity_item .sticker_animation:hover{
+    background-color: transparent;
+}
+.sticker_button_comment{
+    position: absolute;
+    right: 75px;
+    top: 0;
+}
+.sticker_button_comment i{
+    border: none;
+    height: 25px;
+    width: 25px;
+    line-height: 28px;
+}
+.sticker_button_comment_nogif{
+    right: 51px !important;
+}
+[id*='item_comment_edit_'] .sticker_button_edit_comment, [id*='activity_comment_edit_'] .sticker_button_edit_comment{
+    top: 9px;
+}
+.new_reply_comment .sticker_button_edit_comment{
+    top: 0px !important;
+}
+.sticker_button_edit_activity{
+    top: 9px;
+    right: 30px !important;
+}
+div[id^="activity_comment_edit_"] > .textoverlay-wrapper > textarea{
+    padding-right: 115px !important;
+}
+[id^="activity_comment_edit_"] textarea, [id^="item_comment_edit_"] textarea{
+    padding-right: 80px !important;
+}
+.commentBox, .commentForm{
+    padding-right: 80px !important;
+}
+.sticker_category_container{
+    margin: 10px;
+}
+.sticker_category_list{
+    list-style: none;
+    padding: 0;
+}
+.sticker_category_list li{
+    width: 49%;
+    margin-right: 2%;
+    float: left;
+    margin-bottom: 7px;
+}
+.sticker_category_list li:nth-child(2n){
+    margin-right: 0;
+}
+.sticker_category_list:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+.sticker_category{
+    padding: 5px;
+    display: inline-block;
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+.sticker_category img{
+    bottom: 1px;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.sticker_category span{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.sticker_search_container{
+    background-color: #f7f7f7;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    font-size: 12px;
+    height: 28px;
+    margin: 8px;
+    position: relative;
+}
+.sticker_search_container .material-icons {
+    font-size: 21px;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 3px;
+    color: #BEC2C9;
+    display: inline-block;
+}
+.sticker_search_container label {
+    border: 1px solid #bdc7d8;
+    box-sizing: border-box;
+    cursor: default;
+    display: inline-block;
+    font-weight: normal;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    border: none;
+    flex-grow: 1;
+    width: 79%;
+}
+.sticker_search_container label input{
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    width: 100%;
+}
+.sticker_search_container label input:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+.sticker_search_container .sticker_search_cancel{
+    cursor: pointer;
+}
+.sticker_no_stickers{
+    text-align: center;
+    margin-top: 150px;
+}
+#sticker_search_content{
+    min-height: 20px;
+}
+#stickerModal .slick-slide > div{
+    border: none !important;
+}
+@media (max-width: 767px){
+    .sticker_button i{
+        color: #757575;
+    }
+    .sticker_button_comment_nogif{
+        right: 32px !important;
+    }
+    .sticker_button_comment{
+        right: 52px;
+    }
+    .sticker_button_edit_activity{
+        right: 0 !important;
+    }
+}
+@media (max-width: 365px){
+    #stickerModal .modal-dialog{
+        width: auto;
+    }
+    .sticker_animation{
+        width: 71px;
+        height: 71px;
+    }
+}
+@media (max-width: 320px){
+    #stickerModal .modal-dialog{
+        width: auto;
+    }
+    .sticker_animation{
+        width: 71px;
+        height: 71px;
+    }
+}

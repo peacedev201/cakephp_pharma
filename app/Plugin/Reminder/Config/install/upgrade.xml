@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query>
+            	INSERT INTO `{PREFIX}settings` (`group_id`, `label`, `name`, `field`, `value`, `is_hidden`, `version_id`, `type_id`, `value_actual`, `value_default`, `description`, `ordering`, `is_boot`) VALUES
+				((SELECT `id` FROM `{PREFIX}setting_groups` WHERE `module_id` = 'Reminder'), 'Reminder user role', 'reminder_role', NULL, '', 0, NULL, 'text', '', '', 'Reminder user role', 18, 0);
+            </query>
+        </queries>
+    </version>
+</versions>

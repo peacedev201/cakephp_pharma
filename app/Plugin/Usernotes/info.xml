@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Usernotes</name>
+    <key>Usernotes</key>
+    <version>1.5</version>
+    <description>Usernotes</description>
+    <author>mooSocialTeam</author>
+    <website>moosocial.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+<settings><setting><label>Usernotes</label><name>usernotes_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting></settings></info>

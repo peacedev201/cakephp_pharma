@@ -1,0 +1,3813 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: BusinessPlugin.php:765
+#: View/Business/admin_index.ctp:4;15
+msgid "Manage Businesses"
+msgstr ""
+
+#: BusinessPlugin.php:766
+#: Controller/BusinessSettingsController.php:17
+#: View/BusinessSettings/admin_index.ctp:33;40
+msgid "Business Settings"
+msgstr ""
+
+#: BusinessPlugin.php:767
+#: View/BusinessLocations/admin_index.ctp:10
+#: View/BusinessLocations/admin_state.ctp:10
+#: View/Elements/mobile_menu.ctp:28
+#: View/Widgets/business/breadcrumb.ctp:24
+#: View/Widgets/business/popular_locations.ctp:3
+msgid "Locations"
+msgstr ""
+
+#: BusinessPlugin.php:768
+#: View/BusinessCategories/admin_index.ctp:17
+#: View/Widgets/business/breadcrumb.ctp:35
+#: View/Widgets/business/top_categories.ctp:3
+msgid "Categories"
+msgstr ""
+
+#: BusinessPlugin.php:769
+#: View/BusinessTypes/admin_index.ctp:6;12
+msgid "Business Types"
+msgstr ""
+
+#: BusinessPlugin.php:770
+#: View/BusinessPackages/admin_index.ctp:12
+#: View/BusinessTransactions/admin_index.ctp:55
+msgid "Packages"
+msgstr ""
+
+#: BusinessPlugin.php:771
+#: View/BusinessTransactions/admin_index.ctp:5;15
+msgid "Transactions"
+msgstr ""
+
+#: BusinessPlugin.php:772
+#: Controller/BusinessClaimsController.php:43
+#: View/BusinessClaims/admin_index.ctp:15;21
+msgid "Claim Requests"
+msgstr ""
+
+#: BusinessPlugin.php:773
+#: Controller/BusinessVerifiesController.php:67
+#: View/BusinessVerifies/admin_index.ctp:15;21
+msgid "Verification Requests"
+msgstr ""
+
+#: Controller/BusinessAdminController.php:56
+msgid "Please select an user"
+msgstr ""
+
+#: Controller/BusinessAdminController.php:60
+msgid "This user has already set as admin"
+msgstr ""
+
+#: Controller/BusinessAdminController.php:88
+msgid "Can not add admin, please try again"
+msgstr ""
+
+#: Controller/BusinessAdminController.php:107
+msgid "Admin has been removed"
+msgstr ""
+
+#: Controller/BusinessAdminController.php:109
+msgid "Can not remove admin, please try again"
+msgstr ""
+
+#: Controller/BusinessAdminController.php:125
+msgid "You don 't have permission to add permission"
+msgstr ""
+
+#: Controller/BusinessAdminController.php:129
+msgid "Please select at least a permission"
+msgstr ""
+
+#: Controller/BusinessAdminController.php:140
+#: Controller/BusinessBranchController.php:194
+#: Controller/BusinessClaimsController.php:149;366
+#: Controller/BusinessController.php:781
+msgid "Successfully saved"
+msgstr ""
+
+#: Controller/BusinessAdminController.php:142
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: Controller/BusinessBranchController.php:51
+#: Controller/BusinessController.php:608
+msgid "Please input category"
+msgstr ""
+
+#: Controller/BusinessBranchController.php:189
+msgid "Sub page has been successfully saved and pending for approval."
+msgstr ""
+
+#: Controller/BusinessBranchController.php:198
+msgid "Can not save branch, please try again"
+msgstr ""
+
+#: Controller/BusinessBranchController.php:367
+#: Controller/BusinessController.php:363
+msgid "Sub page not found"
+msgstr ""
+
+#: Controller/BusinessBranchController.php:389
+msgid "Sub page has been deleted"
+msgstr ""
+
+#: Controller/BusinessBranchController.php:391
+msgid "Can not delete branch, please try again"
+msgstr ""
+
+#: Controller/BusinessCategoriesController.php:23;195
+msgid "Category not found"
+msgstr ""
+
+#: Controller/BusinessCategoriesController.php:52
+msgid "Categories Manager"
+msgstr ""
+
+#: Controller/BusinessCategoriesController.php:91
+msgid "Parent category not found"
+msgstr ""
+
+#: Controller/BusinessCategoriesController.php:113
+msgid "Category has been successfully saved"
+msgstr ""
+
+#: Controller/BusinessCategoriesController.php:127
+msgid "Please delete sub category first"
+msgstr ""
+
+#: Controller/BusinessCategoriesController.php:133
+msgid "Can not delete this category. Category contains businesses"
+msgstr ""
+
+#: Controller/BusinessCategoriesController.php:137
+msgid "Category has been deleted"
+msgstr ""
+
+#: Controller/BusinessCategoriesController.php:147
+#: Controller/BusinessLocationsController.php:102
+#: Controller/BusinessPackagesController.php:108
+#: Controller/BusinessTypesController.php:80
+msgid "Order saved"
+msgstr ""
+
+#: Controller/BusinessCheckinController.php:42
+#: Controller/BusinessClaimsController.php:53;71;112;119;158;163;175;180;207;214;225
+#: Controller/BusinessController.php:100;162;230;249;368;528;960;1067;1398;1549;1593;1598
+#: Controller/BusinessFollowController.php:29;141;168
+#: Controller/BusinessPaymentController.php:114;120
+#: Controller/BusinessPhotoController.php:137
+#: Controller/BusinessReviewController.php:68
+#: Controller/BusinessVerifiesController.php:102;159
+msgid "Business not found"
+msgstr ""
+
+#: Controller/BusinessCheckinController.php:46
+msgid "Content can not be empty"
+msgstr ""
+
+#: Controller/BusinessCheckinController.php:121
+msgid "Successfully checked in"
+msgstr ""
+
+#: Controller/BusinessCheckinController.php:125
+msgid "Can not check in, please try again!"
+msgstr ""
+
+#: Controller/BusinessClaimsController.php:30
+msgid "Business Claims"
+msgstr ""
+
+#: Controller/BusinessClaimsController.php:233
+msgid "Please select at least a category"
+msgstr ""
+
+#: Controller/BusinessController.php:52
+#: View/BusinessVerifies/admin_index.ctp:32;116
+#: View/Elements/misc/business_item.ctp:129
+#: View/Helper/BusinessHelper.php:757;775;788;797
+msgid "Pending"
+msgstr ""
+
+#: Controller/BusinessController.php:53
+#: View/BusinessVerifies/admin_index.ctp:118
+msgid "Approve"
+msgstr ""
+
+#: Controller/BusinessController.php:54
+#: View/BusinessVerifies/admin_index.ctp:120
+#: View/Elements/misc/business_item.ctp:132
+msgid "Rejected"
+msgstr ""
+
+#: Controller/BusinessController.php:58
+msgid "Manage Businesss"
+msgstr ""
+
+#: Controller/BusinessController.php:93
+msgid "Successfully deleted"
+msgstr ""
+
+#: Controller/BusinessController.php:152
+msgid "Successfully change status"
+msgstr ""
+
+#: Controller/BusinessController.php:154
+msgid "Cannot change status! Please try again"
+msgstr ""
+
+#: Controller/BusinessController.php:200
+msgid "Successfully updated"
+msgstr ""
+
+#: Controller/BusinessController.php:202
+msgid "Something went wrong! Please try again"
+msgstr ""
+
+#: Controller/BusinessController.php:238
+msgid "This business has been set un-featured"
+msgstr ""
+
+#: Controller/BusinessController.php:240;286
+msgid "Can not set featured, please try again."
+msgstr ""
+
+#: Controller/BusinessController.php:253
+msgid "Invalid day number"
+msgstr ""
+
+#: Controller/BusinessController.php:284
+msgid "This business has been set featured"
+msgstr ""
+
+#: Controller/BusinessController.php:314;322;334;1495;1588
+msgid "Please login to continue"
+msgstr ""
+
+#: Controller/BusinessController.php:356
+msgid "You don't have permission to view business."
+msgstr ""
+
+#: Controller/BusinessController.php:431;432
+msgid "%s - %s %s"
+msgstr ""
+
+#: Controller/BusinessController.php:431;432;1221
+msgid "in "
+msgstr ""
+
+#: Controller/BusinessController.php:561
+msgid "Please log in to continue"
+msgstr ""
+
+#: Controller/BusinessController.php:565;592
+msgid "You don't have permission to create business."
+msgstr ""
+
+#: Controller/BusinessController.php:584
+msgid "Add new Business"
+msgstr ""
+
+#: Controller/BusinessController.php:612
+#: Model/Business.php:validation for field client_name
+msgid "Please select business type"
+msgstr ""
+
+#: Controller/BusinessController.php:785
+msgid "Can not save business, please try again"
+msgstr ""
+
+#: Controller/BusinessController.php:938
+msgid "Please input address"
+msgstr ""
+
+#: Controller/BusinessController.php:964;1071
+msgid "You don 't have permission to change business status"
+msgstr ""
+
+#: Controller/BusinessController.php:994
+msgid "This business has been verified"
+msgstr ""
+
+#: Controller/BusinessController.php:996
+msgid "This business has been unverified"
+msgstr ""
+
+#: Controller/BusinessController.php:1031
+msgid "This business has been %s"
+msgstr ""
+
+#: Controller/BusinessController.php:1034
+msgid "Cannot change status, please try again"
+msgstr ""
+
+#: Controller/BusinessController.php:1075
+msgid "Reason can be empty"
+msgstr ""
+
+#: Controller/BusinessController.php:1109
+msgid "This business has been rejected"
+msgstr ""
+
+#: Controller/BusinessController.php:1113
+msgid "Somwthing went wrong! Please try again"
+msgstr ""
+
+#: Controller/BusinessController.php:1194
+msgid "Invalid search"
+msgstr ""
+
+#: Controller/BusinessController.php:1199
+#: View/Elements/search_form.ctp:50
+msgid "Distance"
+msgstr ""
+
+#: Controller/BusinessController.php:1200
+#: View/Elements/mobile_menu_detail_info.ctp:23
+msgid "Rating"
+msgstr ""
+
+#: Controller/BusinessController.php:1201
+msgid "Added date"
+msgstr ""
+
+#: Controller/BusinessController.php:1221
+msgid "Business Search results %s %s"
+msgstr ""
+
+#: Controller/BusinessController.php:1221
+#: View/Business/search.ctp:23
+msgid "for "
+msgstr ""
+
+#: Controller/BusinessController.php:1283
+msgid "Please input keyword"
+msgstr ""
+
+#: Controller/BusinessController.php:1287
+msgid "Keyword length must be greater than 2"
+msgstr ""
+
+#: Controller/BusinessController.php:1335
+msgid "success"
+msgstr ""
+
+#: Controller/BusinessController.php:1346
+msgid "You don't have permission to delete this business or business not found"
+msgstr ""
+
+#: Controller/BusinessController.php:1352
+msgid "Business has been deleted"
+msgstr ""
+
+#: Controller/BusinessController.php:1354
+msgid "Can not delete business, please try again"
+msgstr ""
+
+#: Controller/BusinessController.php:1363
+#: Model/Business.php:1782
+msgid "Business not found or you don't have permission"
+msgstr ""
+
+#: Controller/BusinessController.php:1387
+msgid "Sucessfully submited"
+msgstr ""
+
+#: Controller/BusinessController.php:1389
+msgid "Can not submit, please try again."
+msgstr ""
+
+#: Controller/BusinessController.php:1402
+msgid "Name can not be empty"
+msgstr ""
+
+#: Controller/BusinessController.php:1406
+#: Model/Business.php:validation for field email
+msgid "Invalid email"
+msgstr ""
+
+#: Controller/BusinessController.php:1410
+msgid "Message can not be empty"
+msgstr ""
+
+#: Controller/BusinessController.php:1425
+msgid "Invalid security code"
+msgstr ""
+
+#: Controller/BusinessController.php:1452
+msgid "Your message has been sent"
+msgstr ""
+
+#: Controller/BusinessController.php:1454
+msgid "Can not send message, please try again."
+msgstr ""
+
+#: Controller/BusinessController.php:1510
+msgid "Successfully added"
+msgstr ""
+
+#: Controller/BusinessController.php:1511
+#: View/Elements/misc/business_favourite.ctp:6
+msgid "Remove from favorite"
+msgstr ""
+
+#: Controller/BusinessController.php:1515
+msgid "Can not add to favorite, please try again!"
+msgstr ""
+
+#: Controller/BusinessController.php:1521
+msgid "Successfully removed"
+msgstr ""
+
+#: Controller/BusinessController.php:1522
+#: View/Elements/misc/business_favourite.ctp:2
+msgid "Add to favorite"
+msgstr ""
+
+#: Controller/BusinessController.php:1526
+msgid "Can not remove from favorite, please try again!"
+msgstr ""
+
+#: Controller/BusinessController.php:1545
+#: Controller/BusinessFollowController.php:25
+#: Controller/BusinessReviewController.php:307
+#: View/Elements/checkin_dialog.ctp:125
+msgid "Login or register to continue"
+msgstr ""
+
+#: Controller/BusinessController.php:1710
+msgid "Page not found"
+msgstr ""
+
+#: Controller/BusinessController.php:1735
+msgid "Send Verification"
+msgstr ""
+
+#: Controller/BusinessController.php:1757
+msgid "Edit Business"
+msgstr ""
+
+#: Controller/BusinessController.php:1767
+#: Controller/BusinessPackagesController.php:118
+msgid "Business can not upgrade package"
+msgstr ""
+
+#: Controller/BusinessController.php:1783
+msgid "Business can not set feature"
+msgstr ""
+
+#: Controller/BusinessController.php:1802
+msgid "Manage Photos"
+msgstr ""
+
+#: Controller/BusinessController.php:1814
+msgid "Manage branches"
+msgstr ""
+
+#: Controller/BusinessController.php:1855
+#: View/Elements/mobile_dashboard_menu.ctp:67
+#: View/Widgets/business/dashboard_menu.ctp:64
+msgid "Manage Admins"
+msgstr ""
+
+#: Controller/BusinessController.php:1863
+#: View/Elements/mobile_dashboard_menu.ctp:74
+#: View/Widgets/business/dashboard_menu.ctp:71
+msgid "Permissions Manager"
+msgstr ""
+
+#: Controller/BusinessFollowController.php:40
+msgid "You are banned on this business."
+msgstr ""
+
+#: Controller/BusinessFollowController.php:47
+#: View/Elements/widgets/detail_info.ctp:119
+msgid "Follow"
+msgstr ""
+
+#: Controller/BusinessFollowController.php:52
+#: View/Elements/misc/business_item.ctp:70
+#: View/Elements/widgets/detail_info.ctp:121
+msgid "Unfollow"
+msgstr ""
+
+#: Controller/BusinessFollowController.php:75
+#: Controller/BusinessLocationsController.php:149
+#: Controller/BusinessReviewController.php:326
+msgid "Success"
+msgstr ""
+
+#: Controller/BusinessFollowController.php:149
+msgid "You can not ban admin"
+msgstr ""
+
+#: Controller/BusinessFollowController.php:159;182
+msgid "User has been banned"
+msgstr ""
+
+#: Controller/BusinessLocationsController.php:26
+msgid "Location Manager"
+msgstr ""
+
+#: Controller/BusinessLocationsController.php:34
+msgid "State/Province/City Manager"
+msgstr ""
+
+#: Controller/BusinessLocationsController.php:82
+msgid "Location has been successfully saved"
+msgstr ""
+
+#: Controller/BusinessLocationsController.php:89
+msgid "Location has been deleted"
+msgstr ""
+
+#: Controller/BusinessLocationsController.php:91
+msgid "Can not delete this location. Location contains businesses"
+msgstr ""
+
+#: Controller/BusinessLocationsController.php:119
+msgid "Succesfully updated"
+msgstr ""
+
+#: Controller/BusinessLocationsController.php:138
+msgid "Please enter location"
+msgstr ""
+
+#: Controller/BusinessLocationsController.php:142
+msgid "Location not found! Please select or enter another location."
+msgstr ""
+
+#: Controller/BusinessLocationsController.php:196
+msgid "Location not found"
+msgstr ""
+
+#: Controller/BusinessPackagesController.php:17
+msgid "Business Packages Manager"
+msgstr ""
+
+#: Controller/BusinessPackagesController.php:74
+msgid "Billing duration must be above time duration of each cycle"
+msgstr ""
+
+#: Controller/BusinessPackagesController.php:81
+msgid "Package has been successfully saved"
+msgstr ""
+
+#: Controller/BusinessPackagesController.php:89
+msgid "Business Package deleted"
+msgstr ""
+
+#: Controller/BusinessPackagesController.php:93
+msgid "Can not delete default package!"
+msgstr ""
+
+#: Controller/BusinessPackagesController.php:95
+msgid "Can not delete this package. Package contains businesses"
+msgstr ""
+
+#: Controller/BusinessPaymentController.php:51;82
+msgid "Gateway invalid"
+msgstr ""
+
+#: Controller/BusinessPaymentController.php:136
+#: View/BusinessPayment/success.ctp:3
+msgid "Thank you, Your payment has been processed. You will shortly receive an email confirmation"
+msgstr ""
+
+#: Controller/BusinessPaymentController.php:141
+msgid "Your payment process has been canceled"
+msgstr ""
+
+#: Controller/BusinessPhotoController.php:56
+msgid "Photos have been saved"
+msgstr ""
+
+#: Controller/BusinessPhotoController.php:141
+msgid "Please select at least a photo"
+msgstr ""
+
+#: Controller/BusinessPhotoController.php:149
+msgid "Seleted photos have been deleted"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:64
+#: View/Elements/review.ctp:6
+msgid "Login or register to post your review"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:80;229;311
+msgid "Review not found"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:165
+msgid "Your reply has been posted"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:165
+msgid "Your review has been posted"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:192
+msgid "Can not post review, please try again"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:253
+msgid "Your response has been deleted."
+msgstr ""
+
+#: Controller/BusinessReviewController.php:259
+msgid "Your review has been deleted."
+msgstr ""
+
+#: Controller/BusinessReviewController.php:264
+msgid "Can not delete review, please try again"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:347
+msgid "Review or reply not found"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:351
+msgid "Reason can not be empty"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:362
+msgid "Duplicated report"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:371
+msgid "reported a BusinessReview"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:386
+msgid "Thank you! Your report has been submitted"
+msgstr ""
+
+#: Controller/BusinessReviewController.php:409
+msgid "Access denied"
+msgstr ""
+
+#: Controller/BusinessTransactionsController.php:84
+msgid "Business Transaction Manager"
+msgstr ""
+
+#: Controller/BusinessTypesController.php:23
+msgid "Business Types Manager"
+msgstr ""
+
+#: Controller/BusinessTypesController.php:52
+msgid "Business Type has been successfully saved"
+msgstr ""
+
+#: Controller/BusinessTypesController.php:63
+msgid "Can not delete this type. Type contains businesses"
+msgstr ""
+
+#: Controller/BusinessTypesController.php:66
+msgid "Business Type deleted"
+msgstr ""
+
+#: Controller/BusinessTypesController.php:68
+msgid "Can not delete this business type. Business type contains businesses"
+msgstr ""
+
+#: Controller/BusinessVerifiesController.php:14
+msgid "Business Verifies"
+msgstr ""
+
+#: Controller/BusinessVerifiesController.php:88
+msgid "Verification request deleted"
+msgstr ""
+
+#: Controller/BusinessVerifiesController.php:112
+msgid "Phone number is required"
+msgstr ""
+
+#: Controller/BusinessVerifiesController.php:149;212
+msgid "Your verification request has been successfully sent."
+msgstr ""
+
+#: Lib/BusinessListener.php:85
+#: View/Business/search.ctp:28
+#: View/Elements/all_businesses.ctp:10
+#: View/Elements/misc/business_activity_item.ctp:72
+#: View/Elements/widgets/detail_info.ctp:179
+msgid "Show map"
+msgstr ""
+
+#: Lib/BusinessListener.php:86
+msgid "Hide map"
+msgstr ""
+
+#: Lib/BusinessListener.php:87
+msgid "Are you sure you want to remove?"
+msgstr ""
+
+#: Lib/BusinessListener.php:88
+msgid "Are you sure you want to delete your review?"
+msgstr ""
+
+#: Lib/BusinessListener.php:89;101
+msgid "Confirm"
+msgstr ""
+
+#: Lib/BusinessListener.php:90;102
+#: View/Elements/misc/ajax_share.ctp:105
+msgid "Remove Tags"
+msgstr ""
+
+#: Lib/BusinessListener.php:91;103
+msgid "You wont be tagged in  this post anymore. It may appear in other places like New Feed or search."
+msgstr ""
+
+#: Lib/BusinessListener.php:92;104
+#: View/Elements/checkin_dialog.ctp:128
+msgid "Ok"
+msgstr ""
+
+#: Lib/BusinessListener.php:93;105
+#: View/Elements/admin_reject_dialog.ctp:32
+#: View/Elements/checkin_dialog.ctp:116
+#: View/Elements/edit_business.ctp:447
+#: View/Elements/reject_dialog.ctp:24
+#: View/Elements/report_review_dialog.ctp:23
+#: View/Elements/review_dialog.ctp:112
+#: View/Elements/dashboard/create_branch.ctp:378
+#: View/Helper/BusinessHelper.php:763;801
+msgid "Cancel"
+msgstr ""
+
+#: Lib/BusinessListener.php:94;100;106
+#: View/BusinessCategories/admin_index.ctp:7
+msgid "Please Confirm"
+msgstr ""
+
+#: Lib/BusinessListener.php:95;107
+msgid "Are you sure you want to remove this activity?"
+msgstr ""
+
+#: Lib/BusinessListener.php:96
+#: View/BusinessCategories/admin_index.ctp:5
+msgid "Can not upload file more than "
+msgstr ""
+
+#: Lib/BusinessListener.php:97
+#: View/BusinessCategories/admin_index.ctp:6
+msgid "Drag or click here to upload photo"
+msgstr ""
+
+#: Lib/BusinessListener.php:98
+msgid "Drag or click here to upload documents"
+msgstr ""
+
+#: Lib/BusinessListener.php:108
+#: View/Elements/dashboard/business_verify.ctp:7
+msgid "Maximum number documents for verification request is %s"
+msgstr ""
+
+#: Lib/BusinessListener.php:109
+msgid "Are your sure you want to approve this business?"
+msgstr ""
+
+#: Lib/BusinessListener.php:110
+msgid "Are your sure you want to verify this business?"
+msgstr ""
+
+#: Lib/BusinessListener.php:111
+msgid "Are your sure you want to unverify this business?"
+msgstr ""
+
+#: Lib/BusinessListener.php:112
+msgid "Show reviews"
+msgstr ""
+
+#: Lib/BusinessListener.php:113
+msgid "Hide reviews"
+msgstr ""
+
+#: Lib/BusinessListener.php:114
+#: View/Elements/lists/my_review_list.ctp:33
+msgid "No reviews found"
+msgstr ""
+
+#: Lib/BusinessListener.php:115
+msgid "Are you sure you want to remove this business?"
+msgstr ""
+
+#: Lib/BusinessListener.php:116
+msgid "Are you sure you want to remove this branch?"
+msgstr ""
+
+#: Lib/BusinessListener.php:117
+msgid "Are you sure you want to accept this claim request? Products link to this business if any will be removed after this action is done!"
+msgstr ""
+
+#: Lib/BusinessListener.php:118
+msgid "Are you sure you want to reject this claim request?"
+msgstr ""
+
+#: Lib/BusinessListener.php:119
+msgid "Are you sure you want to remove this claim request?"
+msgstr ""
+
+#: Lib/BusinessListener.php:120
+msgid "Characters remaining:"
+msgstr ""
+
+#: Lib/BusinessListener.php:121
+#: View/Elements/lists/follower_list.ctp:38
+msgid "Un-ban"
+msgstr ""
+
+#: Lib/BusinessListener.php:122
+#: View/Elements/lists/follower_list.ctp:42
+msgid "Ban"
+msgstr ""
+
+#: Lib/BusinessListener.php:123
+msgid "Are you sure you want to remove this favourite business?"
+msgstr ""
+
+#: Lib/BusinessListener.php:124
+msgid "Are you sure you want to unfollow this business?"
+msgstr ""
+
+#: Lib/BusinessListener.php:236;251
+#: View/Elements/menu_profile.ctp:4
+#: View/Elements/mobile_menu.ctp:42
+msgid "Businesses"
+msgstr ""
+
+#: Lib/BusinessListener.php:581
+msgid "Businesss"
+msgstr ""
+
+#: Model/Business.php:440
+#: View/Helper/BusinessHelper.php:1521
+msgid "Monday"
+msgstr ""
+
+#: Model/Business.php:441
+#: View/Helper/BusinessHelper.php:1524
+msgid "Tuesday"
+msgstr ""
+
+#: Model/Business.php:442
+#: View/Helper/BusinessHelper.php:1527
+msgid "Wednesday"
+msgstr ""
+
+#: Model/Business.php:443
+#: View/Helper/BusinessHelper.php:1530
+msgid "Thursday"
+msgstr ""
+
+#: Model/Business.php:444
+#: View/Helper/BusinessHelper.php:1533
+msgid "Friday"
+msgstr ""
+
+#: Model/Business.php:445
+#: View/Helper/BusinessHelper.php:1536
+msgid "Saturday"
+msgstr ""
+
+#: Model/Business.php:446
+#: View/Helper/BusinessHelper.php:1539
+msgid "Sunday"
+msgstr ""
+
+#: Model/Business.php:1777
+msgid "This item is currently not visible. You must %s your business page %s or get %s from site admin."
+msgstr ""
+
+#: Model/Business.php:1788
+msgid "Can manage photos"
+msgstr ""
+
+#: Model/Business.php:1789
+msgid "Can ban and manage banned members"
+msgstr ""
+
+#: Model/Business.php:1790
+msgid "Can Response to a review"
+msgstr ""
+
+#: Model/Business.php:1791
+msgid "Can manage and create sub-page"
+msgstr ""
+
+#: Model/Business.php:1792
+msgid "Can upgrade page"
+msgstr ""
+
+#: Model/Business.php:1793
+msgid "Can featured page"
+msgstr ""
+
+#: Model/Business.php:1794
+#: View/BusinessPackages/admin_create.ctp:261
+#: View/Elements/dashboard/business_upgrade.ctp:22;114
+msgid "Can send verification request"
+msgstr ""
+
+#: Model/Business.php:1795
+msgid "Can edit page details"
+msgstr ""
+
+#: Model/Business.php:1796
+#: View/BusinessPackages/admin_create.ctp:245
+#: View/Elements/dashboard/business_upgrade.ctp:12;104
+msgid "Can manage admins"
+msgstr ""
+
+#: Model/BusinessCategory.php:75
+msgid "Please select sub category"
+msgstr ""
+
+#: View/Business/admin_featured_dialog.ctp:3
+msgid "Feature business"
+msgstr ""
+
+#: View/Business/admin_featured_dialog.ctp:11
+msgid "How many days do you want to make this business as featured business?"
+msgstr ""
+
+#: View/Business/admin_featured_dialog.ctp:13
+msgid "Enter day number"
+msgstr ""
+
+#: View/Business/admin_featured_dialog.ctp:22
+#: View/Business/view_map.ctp:29
+#: View/BusinessCategories/admin_create.ctp:67
+#: View/BusinessLocations/admin_create.ctp:37
+#: View/BusinessLocations/admin_create_state.ctp:37
+#: View/BusinessPackages/admin_create.ctp:324
+#: View/BusinessTypes/admin_create.ctp:52
+msgid "Close"
+msgstr ""
+
+#: View/Business/admin_featured_dialog.ctp:24
+msgid "Featured now"
+msgstr ""
+
+#: View/Business/admin_index.ctp:3
+#: View/BusinessCategories/admin_index.ctp:11
+#: View/BusinessClaims/admin_index.ctp:14
+#: View/BusinessLocations/admin_index.ctp:4
+#: View/BusinessLocations/admin_state.ctp:4
+#: View/BusinessPackages/admin_index.ctp:5
+#: View/BusinessSettings/admin_index.ctp:32
+#: View/BusinessTransactions/admin_index.ctp:4
+#: View/BusinessTypes/admin_index.ctp:5
+#: View/BusinessVerifies/admin_index.ctp:14
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/Business/admin_index.ctp:12
+msgid "Are you sure?"
+msgstr ""
+
+#: View/Business/admin_index.ctp:23
+#: View/BusinessCategories/admin_index.ctp:59
+#: View/BusinessVerifies/admin_index.ctp:32
+#: View/Elements/follower.ctp:7
+msgid "All"
+msgstr ""
+
+#: View/Business/admin_index.ctp:35
+#: View/BusinessClaims/admin_index.ctp:35
+#: View/BusinessVerifies/admin_index.ctp:44
+msgid "Search by name"
+msgstr ""
+
+#: View/Business/admin_index.ctp:41
+#: View/BusinessCategories/admin_index.ctp:72
+#: View/BusinessClaims/admin_index.ctp:41
+#: View/BusinessTransactions/admin_index.ctp:51;90
+#: View/BusinessVerifies/admin_index.ctp:50
+#: View/Elements/claim_search_dialog.ctp:22
+#: View/Elements/follower.ctp:16
+#: View/Elements/mobile_menu.ctp:16
+#: View/Elements/search_form.ctp:31;66
+msgid "Search"
+msgstr ""
+
+#: View/Business/admin_index.ctp:62
+#: View/BusinessCategories/admin_index.ctp:94
+#: View/BusinessClaims/admin_index.ctp:55
+#: View/BusinessLocations/admin_index.ctp:49
+#: View/BusinessLocations/admin_state.ctp:48
+#: View/BusinessPackages/admin_index.ctp:51
+#: View/BusinessTypes/admin_index.ctp:50
+#: View/BusinessVerifies/admin_index.ctp:64
+msgid "ID"
+msgstr ""
+
+#: View/Business/admin_index.ctp:65
+#: View/BusinessClaims/admin_index.ctp:58
+#: View/BusinessVerifies/admin_index.ctp:65
+msgid "Business Name"
+msgstr ""
+
+#: View/Business/admin_index.ctp:68
+msgid "Owner"
+msgstr ""
+
+#: View/Business/admin_index.ctp:71
+#: View/BusinessPackages/admin_create.ctp:25
+#: View/BusinessTransactions/admin_index.ctp:99
+msgid "Package"
+msgstr ""
+
+#: View/Business/admin_index.ctp:74
+#: View/BusinessVerifies/admin_index.ctp:71
+msgid "Date"
+msgstr ""
+
+#: View/Business/admin_index.ctp:77
+#: View/BusinessTransactions/admin_index.ctp:73;103
+#: View/BusinessVerifies/admin_index.ctp:76
+msgid "Status"
+msgstr ""
+
+#: View/Business/admin_index.ctp:80;149
+#: View/Elements/misc/business_item.ctp:86
+#: View/Elements/widgets/detail_info.ctp:53
+msgid "Featured"
+msgstr ""
+
+#: View/Business/admin_index.ctp:83;161
+#: View/BusinessVerifies/admin_index.ctp:77;131
+#: View/Elements/widgets/detail_info.ctp:58
+msgid "Verify"
+msgstr ""
+
+#: View/Business/admin_index.ctp:86
+msgid "Options"
+msgstr ""
+
+#: View/Business/admin_index.ctp:112
+#: View/BusinessVerifies/admin_index.ctp:91
+#: View/Elements/widgets/detail_info.ctp:138
+msgid "Parent page"
+msgstr ""
+
+#: View/Business/admin_index.ctp:144
+msgid "Are you sure you want to un-featured this business?"
+msgstr ""
+
+#: View/Business/admin_index.ctp:145
+msgid "Un-featured"
+msgstr ""
+
+#: View/Business/admin_index.ctp:156
+#: View/BusinessVerifies/admin_index.ctp:126
+msgid "Are you sure you want to unverify this business?"
+msgstr ""
+
+#: View/Business/admin_index.ctp:157
+#: View/BusinessVerifies/admin_index.ctp:127
+#: View/Elements/widgets/detail_info.ctp:60
+msgid "Unverify"
+msgstr ""
+
+#: View/Business/admin_index.ctp:160
+#: View/BusinessVerifies/admin_index.ctp:130
+msgid "Are you sure you want to verify this business?"
+msgstr ""
+
+#: View/Business/admin_index.ctp:167;183
+#: View/BusinessVerifies/admin_index.ctp:139;143
+#: View/Elements/review_dialog.ctp:92
+#: View/Elements/dashboard/branches.ctp:43
+#: View/Elements/lists/follower_list.ctp:70
+#: View/Elements/misc/business_item.ctp:36
+msgid "Delete"
+msgstr ""
+
+#: View/Business/admin_index.ctp:167
+msgid "Are you sure you want to delete this business?"
+msgstr ""
+
+#: View/Business/admin_index.ctp:182
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: View/Business/admin_index.ctp:195
+#: View/Business/search.ctp:58
+#: View/BusinessClaims/admin_index.ctp:92
+#: View/BusinessPackages/admin_index.ctp:116
+#: View/BusinessTransactions/admin_index.ctp:160
+#: View/BusinessTypes/admin_index.ctp:91
+#: View/BusinessVerifies/admin_index.ctp:162
+#: View/Elements/all_businesses.ctp:23
+msgid "First"
+msgstr ""
+
+#: View/Business/admin_index.ctp:196
+#: View/Business/search.ctp:59
+#: View/BusinessCategories/admin_index.ctp:178
+#: View/BusinessClaims/admin_index.ctp:93
+#: View/BusinessLocations/admin_index.ctp:125
+#: View/BusinessLocations/admin_state.ctp:82
+#: View/BusinessPackages/admin_index.ctp:117
+#: View/BusinessTransactions/admin_index.ctp:161
+#: View/BusinessTypes/admin_index.ctp:92
+#: View/BusinessVerifies/admin_index.ctp:163
+#: View/Elements/all_businesses.ctp:24
+msgid "Previous"
+msgstr ""
+
+#: View/Business/admin_index.ctp:198
+#: View/Business/search.ctp:61
+#: View/BusinessCategories/admin_index.ctp:180
+#: View/BusinessClaims/admin_index.ctp:95
+#: View/BusinessLocations/admin_index.ctp:127
+#: View/BusinessLocations/admin_state.ctp:84
+#: View/BusinessPackages/admin_index.ctp:119
+#: View/BusinessTransactions/admin_index.ctp:163
+#: View/BusinessTypes/admin_index.ctp:94
+#: View/BusinessVerifies/admin_index.ctp:165
+#: View/Elements/all_businesses.ctp:26
+msgid "Next"
+msgstr ""
+
+#: View/Business/admin_index.ctp:199
+#: View/Business/search.ctp:62
+#: View/BusinessClaims/admin_index.ctp:96
+#: View/BusinessPackages/admin_index.ctp:120
+#: View/BusinessTransactions/admin_index.ctp:164
+#: View/BusinessTypes/admin_index.ctp:95
+#: View/BusinessVerifies/admin_index.ctp:166
+#: View/Elements/all_businesses.ctp:27
+msgid "Last"
+msgstr ""
+
+#: View/Business/admin_index.ctp:206
+msgid "No Businesses"
+msgstr ""
+
+#: View/Business/favourites.ctp:27
+#: View/Elements/mobile_my_menu.ctp:15
+#: View/Elements/my_favourites.ctp:3
+#: View/Widgets/business/menu.ctp:18
+msgid "My Favorite Businesses"
+msgstr ""
+
+#: View/Business/load_map.ctp:18;68
+#: View/Elements/misc/branch_item.ctp:185
+msgid "Get directions"
+msgstr ""
+
+#: View/Business/load_map.ctp:25
+msgid "Driving"
+msgstr ""
+
+#: View/Business/load_map.ctp:30
+msgid "Public Transit"
+msgstr ""
+
+#: View/Business/load_map.ctp:35
+msgid "Walking"
+msgstr ""
+
+#: View/Business/load_map.ctp:40
+msgid "Cycling"
+msgstr ""
+
+#: View/Business/load_map.ctp:46
+msgid "Start from"
+msgstr ""
+
+#: View/Business/load_map.ctp:56
+msgid "Destination"
+msgstr ""
+
+#: View/Business/load_map.ctp:156
+msgid "We didn't recognize one of your addresses. Please enter at least a city or a postal code."
+msgstr ""
+
+#: View/Business/my.ctp:32
+msgid "My businesses"
+msgstr ""
+
+#: View/Business/my.ctp:35
+msgid "Create your business"
+msgstr ""
+
+#: View/Business/pending.ctp:4
+msgid "Your business page has been submitted to admin for approval. Click on \"dashboard\" button to go to dashboard to add more details for your business page"
+msgstr ""
+
+#: View/Business/pending.ctp:6
+#: View/Widgets/business/dashboard_menu.ctp:37
+msgid "Dashboard"
+msgstr ""
+
+#: View/Business/search.ctp:23
+msgid "Businesses %s %s"
+msgstr ""
+
+#: View/Business/search.ctp:23
+msgid "near "
+msgstr ""
+
+#: View/Business/search.ctp:67
+#: View/Elements/top_business.ctp:102
+#: View/Elements/lists/business_list.ctp:39
+#: View/Elements/lists/my_business_list.ctp:36
+#: View/Elements/lists/my_favourite_list.ctp:36
+#: View/Elements/lists/my_following_list.ctp:36
+msgid "No businesses found"
+msgstr ""
+
+#: View/Business/view_map.ctp:4
+msgid "Get Directions"
+msgstr ""
+
+#: View/Business/view_map.ctp:6
+#: View/Elements/mobile_menu.ctp:35
+msgid "Map"
+msgstr ""
+
+#: View/Business/view_parking.ctp:2
+msgid "Get Parking"
+msgstr ""
+
+#: View/BusinessCategories/admin_ajax_translate.ctp:3
+#: View/BusinessCategories/admin_create.ctp:34;35
+#: View/BusinessTypes/admin_create.ctp:30;31
+#: View/BusinessTypes/admin_translate.ctp:3
+msgid "Translation"
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:7
+msgid "Add New Category"
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:9
+msgid "Edit Category"
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:11
+msgid "Please fill out the form below to create a new category business"
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:19
+#: View/BusinessCategories/admin_index.ctp:97
+#: View/BusinessLocations/admin_create.ctp:16
+#: View/BusinessLocations/admin_create_state.ctp:17
+#: View/BusinessLocations/admin_index.ctp:51
+#: View/BusinessLocations/admin_state.ctp:49
+#: View/BusinessPackages/admin_index.ctp:52
+#: View/BusinessTypes/admin_create.ctp:14
+#: View/BusinessTypes/admin_index.ctp:51
+msgid "Name"
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:21
+#: View/BusinessLocations/admin_create.ctp:18
+#: View/BusinessLocations/admin_create_state.ctp:19
+msgid "Enter text"
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:24
+msgid "You can add translation language after creating category"
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:43
+msgid "Parent Category"
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:53
+#: View/BusinessCategories/admin_index.ctp:60;99
+#: View/BusinessPackages/admin_create.ctp:311
+#: View/BusinessPackages/admin_index.ctp:58
+#: View/BusinessTypes/admin_create.ctp:39
+#: View/BusinessTypes/admin_index.ctp:52
+msgid "Enable"
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:58
+msgid "If you enable/disable this category, all of child categories will be auto changed."
+msgstr ""
+
+#: View/BusinessCategories/admin_create.ctp:68
+#: View/BusinessLocations/admin_create.ctp:38
+#: View/BusinessLocations/admin_create_state.ctp:38
+#: View/BusinessPackages/admin_create.ctp:325
+#: View/BusinessTypes/admin_create.ctp:53
+#: View/Elements/edit_business.ctp:443
+#: View/Elements/review_dialog.ctp:106
+#: View/Elements/dashboard/business_photos.ctp:30
+#: View/Elements/dashboard/create_branch.ctp:375
+#: View/Elements/dashboard/permissions.ctp:40
+msgid "Save"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:12
+msgid "Manage Categories"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:28
+msgid "Path:"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:46
+msgid "Add New"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:49
+#: View/BusinessLocations/admin_index.ctp:28
+#: View/BusinessLocations/admin_state.ctp:27
+#: View/BusinessPackages/admin_index.ctp:29
+#: View/BusinessTypes/admin_index.ctp:28
+msgid "Save order"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:61
+msgid "Disable"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:62
+msgid "Created by admin"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:63
+msgid "Created by user"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:83
+#: View/BusinessLocations/admin_index.ctp:39
+#: View/BusinessLocations/admin_state.ctp:38
+#: View/BusinessPackages/admin_index.ctp:40
+#: View/BusinessTypes/admin_index.ctp:39
+msgid "You can enable Spam Challenge to force user to answer a challenge question in order to register."
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:84
+#: View/BusinessLocations/admin_index.ctp:40
+#: View/BusinessLocations/admin_state.ctp:39
+#: View/BusinessPackages/admin_index.ctp:41
+#: View/BusinessTypes/admin_index.ctp:40
+msgid "To enable this feature, click System Settings -> Security -> Enable Spam Challenge"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:96
+msgid "Icon"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:98
+#: View/BusinessLocations/admin_index.ctp:53
+#: View/BusinessLocations/admin_state.ctp:51
+#: View/BusinessPackages/admin_index.ctp:59
+#: View/BusinessTypes/admin_index.ctp:53
+msgid "Order"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:100
+msgid "User Create"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:101
+#: View/BusinessClaims/admin_index.ctp:59
+#: View/BusinessLocations/admin_index.ctp:54
+#: View/BusinessLocations/admin_state.ctp:52
+#: View/BusinessPackages/admin_index.ctp:60
+#: View/BusinessTypes/admin_index.ctp:54
+msgid "Actions"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:125;126
+#: View/BusinessLocations/admin_index.ctp:78;79
+#: View/Elements/dashboard/branches.ctp:38
+#: View/Elements/misc/branch_item.ctp:30
+#: View/Elements/misc/business_item.ctp:31
+#: View/Elements/widgets/detail_info.ctp:83
+msgid "Edit"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:140;141
+msgid "Add Sub Category"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:147
+msgid "Manage Sub Categories"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:170;171
+#: View/BusinessLocations/admin_index.ctp:117
+#: View/BusinessPackages/admin_index.ctp:103
+#: View/BusinessTypes/admin_index.ctp:78
+msgid "Yes"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:170;171
+#: View/BusinessLocations/admin_index.ctp:117
+#: View/BusinessPackages/admin_index.ctp:103
+#: View/BusinessTypes/admin_index.ctp:78
+msgid "No"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:172
+msgid "Are you sure you want to delete this category?"
+msgstr ""
+
+#: View/BusinessCategories/admin_index.ctp:183
+msgid "No results found"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:4
+msgid "Business Categories"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:10
+msgid "Category by alphabet"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:13
+msgid "A"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:14
+msgid "B"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:15
+msgid "C"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:16
+msgid "D"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:17
+msgid "E"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:18
+msgid "F"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:19
+msgid "G"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:20
+msgid "H"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:21
+msgid "I"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:22
+msgid "J"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:23
+msgid "K"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:24
+msgid "L"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:25
+msgid "M"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:26
+msgid "N"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:27
+msgid "O"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:28
+msgid "P"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:29
+msgid "Q"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:30
+msgid "R"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:31
+msgid "S"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:32
+msgid "T"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:33
+msgid "U"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:34
+msgid "V"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:35
+msgid "W"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:36
+msgid "X"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:37
+msgid "Y"
+msgstr ""
+
+#: View/BusinessCategories/categories.ctp:38
+msgid "Z"
+msgstr ""
+
+#: View/BusinessClaims/admin_index.ctp:56
+msgid "Claimed By"
+msgstr ""
+
+#: View/BusinessClaims/admin_index.ctp:57
+msgid "Claimed Date"
+msgstr ""
+
+#: View/BusinessClaims/admin_index.ctp:75
+msgid "View"
+msgstr ""
+
+#: View/BusinessClaims/index.ctp:8
+msgid "Please confirm you're the business owner"
+msgstr ""
+
+#: View/BusinessClaims/index.ctp:13
+msgid "By clicking on the button below, you agree that:"
+msgstr ""
+
+#: View/BusinessClaims/index.ctp:14
+msgid "1. You are the business owner or have permission to manage and update this business listing."
+msgstr ""
+
+#: View/BusinessClaims/index.ctp:15
+msgid "2. Your business listing and any amendments you make to it are subject to site's Terms and conditions. Please read them carefully."
+msgstr ""
+
+#: View/BusinessClaims/index.ctp:16
+msgid "3. You are authorized to provide, and grant us permission to display. all information and content you provide."
+msgstr ""
+
+#: View/BusinessClaims/index.ctp:17
+msgid "You will be taken to the dashboard page where you can change or add more information for your business. Your changes will appear on site within 24 hours."
+msgstr ""
+
+#: View/BusinessClaims/index.ctp:19
+msgid "Claim this Business"
+msgstr ""
+
+#: View/BusinessLocations/admin_create.ctp:4
+msgid "Add New Country"
+msgstr ""
+
+#: View/BusinessLocations/admin_create.ctp:6
+msgid "Edit Country"
+msgstr ""
+
+#: View/BusinessLocations/admin_create.ctp:8
+msgid "Please fill out the form below to create a new country"
+msgstr ""
+
+#: View/BusinessLocations/admin_create.ctp:23
+#: View/BusinessLocations/admin_create_state.ctp:24
+#: View/BusinessLocations/admin_index.ctp:52
+#: View/BusinessLocations/admin_state.ctp:50
+msgid "Enabled"
+msgstr ""
+
+#: View/BusinessLocations/admin_create.ctp:28
+msgid "If you enable/disable this location, all of child locations will be auto changed."
+msgstr ""
+
+#: View/BusinessLocations/admin_create_state.ctp:4
+msgid "Add New State/City/Provice"
+msgstr ""
+
+#: View/BusinessLocations/admin_create_state.ctp:6
+msgid "Edit State/City/Provice"
+msgstr ""
+
+#: View/BusinessLocations/admin_create_state.ctp:8
+msgid "Please fill out the form below to create a new state/city/provice"
+msgstr ""
+
+#: View/BusinessLocations/admin_index.ctp:5
+#: View/BusinessLocations/admin_state.ctp:5
+msgid "Manage Locations"
+msgstr ""
+
+#: View/BusinessLocations/admin_index.ctp:25
+msgid "Add New Location"
+msgstr ""
+
+#: View/BusinessLocations/admin_index.ctp:92;93
+msgid "Add State/City/Province"
+msgstr ""
+
+#: View/BusinessLocations/admin_index.ctp:99
+msgid "Manage States/Cities/Provinces"
+msgstr ""
+
+#: View/BusinessLocations/admin_index.ctp:119
+#: View/BusinessLocations/admin_state.ctp:76
+msgid "Are you sure you want to delete this location? <br/> All the business within it will also be deleted. This cannot be undone!"
+msgstr ""
+
+#: View/BusinessLocations/admin_state.ctp:24
+msgid "Add New State/City/Province"
+msgstr ""
+
+#: View/BusinessLocations/locations.ctp:4
+msgid "Business Locations"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:5
+#: View/BusinessPackages/admin_index.ctp:26
+msgid "Add New Package"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:7
+msgid "Edit Package"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:17
+msgid "Trial package"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:30
+msgid "Select package for trial"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:36;51
+msgid "Package Type"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:40;55
+#: View/BusinessPackages/admin_index.ctp:66
+msgid "One Time"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:41;56
+#: View/BusinessPackages/admin_index.ctp:66
+msgid "Recurring"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:67
+msgid "Title"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:75;140
+msgid "Recurring Price"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:75;129
+msgid "The amount will be charged each billing cycle for recurring plans"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:87;150
+#: View/BusinessPackages/admin_index.ctp:55
+#: View/Elements/dashboard/business_upgrade.ctp:76
+msgid "Billing Cycle"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:87;150
+msgid "Time duration of each billing cycle"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:101;167;200;231
+#: View/BusinessPackages/admin_index.ctp:67
+msgid "Days"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:102;168;201;232
+#: View/BusinessPackages/admin_index.ctp:67
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Week"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:103;169;202;233
+#: View/BusinessPackages/admin_index.ctp:67
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Month"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:104;170;203;234
+#: View/BusinessPackages/admin_index.ctp:67
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Year"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:105;171;204;235
+#: View/BusinessPackages/admin_index.ctp:67
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Forever"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:116;129
+#: View/BusinessPackages/admin_index.ctp:54
+#: View/BusinessPayment/feature.ctp:37
+msgid "Price"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:183
+#: View/BusinessPackages/admin_index.ctp:56
+#: View/Elements/dashboard/business_upgrade.ctp:86
+msgid "Duration"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:183
+msgid "Maximum duration of this plan. For one-time plans, the plan will expire after the period of time set here. For recurring plans, the user will be billed at the above billing cycles for the period of time specified here"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:214
+#: View/BusinessPackages/admin_index.ctp:57
+msgid "Expiration Reminder"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:214
+msgid "Specifies time before expiration to send renewal reminder"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:253
+#: View/Elements/dashboard/business_upgrade.ctp:17;109
+msgid "Can response a review"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:269
+#: View/Elements/dashboard/business_upgrade.ctp:27;119
+msgid "Enable contact us form"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:277
+#: View/Elements/dashboard/business_upgrade.ctp:32;124
+msgid "Enable follow"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:285
+#: View/Elements/dashboard/business_upgrade.ctp:37;129
+msgid "Enable Checkin"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:293
+#: View/Elements/dashboard/business_upgrade.ctp:42;134
+msgid "Enable favorite"
+msgstr ""
+
+#: View/BusinessPackages/admin_create.ctp:302
+msgid "Most Popular"
+msgstr ""
+
+#: View/BusinessPackages/admin_index.ctp:6
+msgid "Business Packages"
+msgstr ""
+
+#: View/BusinessPackages/admin_index.ctp:53
+msgid "Type"
+msgstr ""
+
+#: View/BusinessPackages/admin_index.ctp:105
+msgid "Are you sure you want to delete this package? All the items within it will also be deleted. This cannot be undone!"
+msgstr ""
+
+#: View/BusinessPackages/admin_index.ctp:127
+msgid "There are no package found!"
+msgstr ""
+
+#: View/BusinessPayment/cancel.ctp:3
+msgid "Your payment has been canceled!"
+msgstr ""
+
+#: View/BusinessPayment/feature.ctp:15
+msgid "How many days do you want feature your business?"
+msgstr ""
+
+#: View/BusinessPayment/feature.ctp:30
+msgid "Submit"
+msgstr ""
+
+#: View/BusinessPayment/feature.ctp:39
+msgid "(%s per day)"
+msgstr ""
+
+#: View/BusinessPayment/feature.ctp:45
+#: View/Elements/dashboard/business_feature.ctp:25
+msgid "Feature it now"
+msgstr ""
+
+#: View/BusinessPayment/index.ctp:12
+msgid "Featured business for %s days"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:34
+msgid "Your review for %s is now live!"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:54
+#: View/Elements/mobile_menu_detail.ctp:15
+#: View/Elements/review.ctp:2
+#: View/Widgets/business/menu_detail.ctp:21
+msgid "Reviews"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:61
+msgid "Friends"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:79
+#: View/Elements/activity/text/business_review_share.ctp:5
+#: View/Elements/misc/rating_item.ctp:15
+msgid "review"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:79
+#: View/Elements/misc/rating_item.ctp:15
+msgid "reviews"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:88
+msgid "check-ins"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:88
+msgid "check-in"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:110
+msgid "Share your Review"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:120
+#: View/Elements/review_dialog.ctp:15
+msgid "Edit review"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:125
+msgid "Delete review"
+msgstr ""
+
+#: View/BusinessReview/detail.ctp:139
+msgid "Copy"
+msgstr ""
+
+#: View/BusinessReview/my.ctp:11
+msgid "My reviews"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:2
+msgid "Can view business"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:3
+msgid "Can create business"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:4
+msgid "Claimable Page Creators"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:5
+msgid "Business top category items"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:6
+msgid "Business feeds item per page"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:7
+msgid "Business follow item per page"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:8
+msgid "Business search item per page"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:9
+msgid "Business review per page"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:10
+msgid "Business search default distance"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:11
+msgid "Business photo per page"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:12
+msgid "Number of top business by location"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:13
+msgid "Number of popular location"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:14
+msgid "Featured price per day"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:15
+#: View/Widgets/business/breadcrumb.ctp:7
+msgid "Business"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:16
+msgid "Auto approve new item"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:17
+msgid "Number of featured items"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:18
+msgid "Business People Check-in Items"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:19
+msgid "Business follower item per page"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:20
+msgid "Business Same Categories Items"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:21
+msgid "Recent Reviews Items"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:22
+msgid "Reviews of Day Items"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:23
+msgid "Auto approve business"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:24
+msgid "Auto approve sub page"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:25
+msgid "Business sub page per page"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:26
+msgid "Enable Business Hashtag"
+msgstr ""
+
+#: View/BusinessSettings/admin_index.ctp:27
+msgid "By pass force login"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:64;100
+msgid "Gateway"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:82
+msgid "Start date"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:86
+msgid "End date"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:97
+msgid "Payer"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:98
+msgid "Pay Type"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:101
+msgid "Amount"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:102
+msgid "Transaction Id"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:104
+msgid "Created date"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:116
+msgid "deleted user"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:125
+msgid "days"
+msgstr ""
+
+#: View/BusinessTransactions/admin_index.ctp:147
+msgid "No transaction found"
+msgstr ""
+
+#: View/BusinessTypes/admin_create.ctp:4
+#: View/BusinessTypes/admin_index.ctp:25
+msgid "Add New Business Type"
+msgstr ""
+
+#: View/BusinessTypes/admin_create.ctp:6
+msgid "Edit Business Type"
+msgstr ""
+
+#: View/BusinessTypes/admin_create.ctp:20
+msgid "You can add translation language after adding new business type"
+msgstr ""
+
+#: View/BusinessTypes/admin_index.ctp:80
+msgid "Are you sure you want to delete this business type?"
+msgstr ""
+
+#: View/BusinessTypes/admin_index.ctp:102
+msgid "There are no business type found!"
+msgstr ""
+
+#: View/BusinessVerifies/admin_index.ctp:32
+msgid "Verified"
+msgstr ""
+
+#: View/BusinessVerifies/admin_index.ctp:66
+msgid "Phone number"
+msgstr ""
+
+#: View/BusinessVerifies/admin_index.ctp:67
+msgid "Document"
+msgstr ""
+
+#: View/BusinessVerifies/admin_index.ctp:68
+msgid "Sent By"
+msgstr ""
+
+#: View/BusinessVerifies/admin_index.ctp:73
+msgid "Request Date"
+msgstr ""
+
+#: View/BusinessVerifies/admin_index.ctp:78
+msgid "Action"
+msgstr ""
+
+#: View/BusinessVerifies/admin_index.ctp:138
+msgid "Are you sure you want to reject and delete this request?"
+msgstr ""
+
+#: View/BusinessVerifies/admin_index.ctp:142
+msgid "Are you sure you want to delete this request?"
+msgstr ""
+
+#: View/Elements/admin_reject_dialog.ctp:2
+#: View/Elements/reject_dialog.ctp:2
+msgid "Reject business"
+msgstr ""
+
+#: View/Elements/admin_reject_dialog.ctp:10
+#: View/Elements/reject_dialog.ctp:10
+msgid "Please enter reason why you want to reject this business"
+msgstr ""
+
+#: View/Elements/admin_reject_dialog.ctp:29
+#: View/Elements/edit_business.ctp:45;52
+#: View/Elements/reject_dialog.ctp:21
+msgid "Reject"
+msgstr ""
+
+#: View/Elements/advanced_search_dialog.ctp:9
+msgid "Advanced Search"
+msgstr ""
+
+#: View/Elements/advanced_search_dialog.ctp:22
+#: View/Elements/search_form.ctp:37
+msgid "Find"
+msgstr ""
+
+#: View/Elements/advanced_search_dialog.ctp:25
+#: View/Elements/search_form.ctp:44
+msgid "Search address"
+msgstr ""
+
+#: View/Elements/advanced_search_dialog.ctp:28
+#: View/Elements/select_location_dialog.ctp:29
+msgid "Go"
+msgstr ""
+
+#: View/Elements/advanced_search_dialog.ctp:37
+msgid "Category name"
+msgstr ""
+
+#: View/Elements/advanced_search_dialog.ctp:46
+msgid "Listing content"
+msgstr ""
+
+#: View/Elements/advanced_search_dialog.ctp:51
+msgid "(category name, listing name, listing description, business type and company number)"
+msgstr ""
+
+#: View/Elements/advanced_search_dialog.ctp:66
+msgid "Location"
+msgstr ""
+
+#: View/Elements/advanced_search_dialog.ctp:89
+msgid "%s miles"
+msgstr ""
+
+#: View/Elements/all_businesses.ctp:2
+#: View/Widgets/business/latest.ctp:4
+#: View/Widgets/business/menu.ctp:5
+msgid "All Businesses"
+msgstr ""
+
+#: View/Elements/all_businesses.ctp:5
+#: View/Widgets/business/latest.ctp:6
+msgid "Add Business"
+msgstr ""
+
+#: View/Elements/branch.ctp:2
+msgid "Sub Page"
+msgstr ""
+
+#: View/Elements/branch.ctp:5
+msgid "Add Sub Page"
+msgstr ""
+
+#: View/Elements/checkin.ctp:2
+#: View/Elements/mobile_menu_detail.ctp:31
+#: View/Widgets/business/menu_detail.ctp:29
+msgid "Check-ins"
+msgstr ""
+
+#: View/Elements/checkin_dialog.ctp:7
+#: View/Widgets/business/people_checkin.ctp:5
+msgid "Check-In"
+msgstr ""
+
+#: View/Elements/checkin_dialog.ctp:30
+msgid "What are you doing at %s?"
+msgstr ""
+
+#: View/Elements/checkin_dialog.ctp:37
+msgid "Who are you with ?"
+msgstr ""
+
+#: View/Elements/checkin_dialog.ctp:113
+#: View/Elements/checkin_list_dialog.ctp:9
+msgid "Check In"
+msgstr ""
+
+#: View/Elements/claim_search_dialog.ctp:2
+msgid "Claim Your Business "
+msgstr ""
+
+#: View/Elements/claim_search_dialog.ctp:9
+msgid "Please search your business using the search box below and claim if you are the owner."
+msgstr ""
+
+#: View/Elements/claim_search_dialog.ctp:20
+msgid "Your business name"
+msgstr ""
+
+#: View/Elements/contact_form.ctp:8
+msgid "Your name"
+msgstr ""
+
+#: View/Elements/contact_form.ctp:18
+msgid "Your email"
+msgstr ""
+
+#: View/Elements/contact_form.ctp:30
+#: View/Elements/dashboard/business_verify.ctp:6
+msgid "Message"
+msgstr ""
+
+#: View/Elements/contact_form.ctp:56
+msgid "Send"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:18
+msgid "%s is in progress of editting the business, it's not ready to accept/reject now."
+msgstr ""
+
+#: View/Elements/edit_business.ctp:37
+msgid "Please review the changes made by %s below. If everything is okay, please hit the \"Accept this claim request\" button to publish the changes and transfer to owner of this business page to %s, all other claimed request will be auto deteted. %sClick here%s to view other claimed request for this business."
+msgstr ""
+
+#: View/Elements/edit_business.ctp:42;49
+msgid "Accept this claim request"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:58
+msgid "Your changes need around 24hrs to be reviewed and approved. Once it's approved, the changes will be published and you will become the owner of this business page. This listing can not be claimed again."
+msgstr ""
+
+#: View/Elements/edit_business.ctp:60
+msgid "Important: If you updated the below info, you need to hit \"Submit for reviewing\" button to notify admin to let them know that new info is added and ready to review again."
+msgstr ""
+
+#: View/Elements/edit_business.ctp:64
+msgid "Submit for reviewing"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:66
+msgid "Remove claim request"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:86
+msgid "Claim Business"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:88
+msgid "Add new business"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:90
+#: View/Elements/mobile_dashboard_menu.ctp:40
+msgid "Edit business"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:101
+#: View/Elements/mobile_menu.ctp:22
+#: View/Elements/dashboard/create_branch.ctp:49
+#: View/Elements/widgets/detail_info.ctp:147
+#: View/Widgets/business/breadcrumb.ctp:68
+msgid "Category"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:113
+#: View/Elements/dashboard/create_branch.ctp:61
+#: View/Elements/widgets/detail_info.ctp:160
+msgid "Business Type"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:128
+msgid "Company Name"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:141
+#: View/Elements/dashboard/create_branch.ctp:89
+#: View/Elements/widgets/detail_info.ctp:165
+msgid "Company Number"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:153
+msgid "About Company"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:168
+msgid "Company Logo"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:189
+msgid "Head office information"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:193
+msgid "You can add more locations at Dashboard later after the page is created"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:201
+#: View/Elements/dashboard/branches.ctp:28
+#: View/Elements/dashboard/create_branch.ctp:136
+#: View/Elements/widgets/detail_info.ctp:170
+msgid "Address"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:212
+#: View/Elements/dashboard/create_branch.ctp:147
+msgid "View map"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:222
+#: View/Elements/dashboard/create_branch.ctp:157
+msgid "Email"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:235
+#: View/Elements/dashboard/create_branch.ctp:170
+msgid "Phone"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:246
+#: View/Elements/dashboard/create_branch.ctp:181
+#: View/Elements/widgets/detail_info.ctp:196
+msgid "Fax"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:257
+#: View/Elements/dashboard/create_branch.ctp:192
+#: View/Elements/widgets/detail_info.ctp:206
+msgid "Website"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:268
+#: View/Elements/dashboard/create_branch.ctp:203
+msgid "Facebook page"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:279
+#: View/Elements/dashboard/create_branch.ctp:214
+msgid "Twitter page"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:290
+#: View/Elements/dashboard/create_branch.ctp:225
+msgid "Linkedin page"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:301
+#: View/Elements/dashboard/create_branch.ctp:236
+msgid "Youtube page"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:312
+#: View/Elements/dashboard/create_branch.ctp:247
+msgid "Instagram page"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:323
+#: View/Elements/dashboard/create_branch.ctp:258
+msgid "Business hours"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:332
+#: View/Elements/dashboard/create_branch.ctp:267
+msgid "Check this if your company always open"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:400
+#: View/Elements/dashboard/create_branch.ctp:325
+msgid "Timezone"
+msgstr ""
+
+#: View/Elements/edit_business.ctp:413
+#: View/Elements/dashboard/create_branch.ctp:336
+#: View/Elements/misc/branch_item.ctp:130
+msgid "We accept"
+msgstr ""
+
+#: View/Elements/follower.ctp:3
+#: View/Elements/mobile_menu_detail.ctp:34
+#: View/Widgets/business/menu_detail.ctp:32
+msgid "Followers"
+msgstr ""
+
+#: View/Elements/follower.ctp:8
+msgid "Banned members"
+msgstr ""
+
+#: View/Elements/follower.ctp:9
+msgid "Followed members"
+msgstr ""
+
+#: View/Elements/follower.ctp:14
+#: View/Elements/search_form.ctp:36
+msgid "Keyword"
+msgstr ""
+
+#: View/Elements/menu_welcome.ctp:4
+#: View/Elements/mobile_my_menu.ctp:9
+#: View/Elements/my_businesses.ctp:3
+#: View/Elements/profile_business_tabs.ctp:6
+#: View/Widgets/business/menu.ctp:9
+msgid "My Businesses"
+msgstr ""
+
+#: View/Elements/mobile_dashboard_menu.ctp:10
+#: View/Widgets/business/dashboard_menu.ctp:11
+msgid "Current Package"
+msgstr ""
+
+#: View/Elements/mobile_dashboard_menu.ctp:15
+#: View/Widgets/business/dashboard_menu.ctp:16
+msgid "Your page is pending for approval!"
+msgstr ""
+
+#: View/Elements/mobile_dashboard_menu.ctp:20
+#: View/Widgets/business/dashboard_menu.ctp:21
+msgid "Submit for reviewing again"
+msgstr ""
+
+#: View/Elements/mobile_dashboard_menu.ctp:25
+#: View/Widgets/business/dashboard_menu.ctp:26
+msgid "Upgrade my page"
+msgstr ""
+
+#: View/Elements/mobile_dashboard_menu.ctp:30
+#: View/Widgets/business/dashboard_menu.ctp:31
+msgid "Feature my business"
+msgstr ""
+
+#: View/Elements/mobile_dashboard_menu.ctp:47
+#: View/Elements/mobile_menu_detail.ctp:12
+#: View/Elements/dashboard/create_branch.ctp:361
+#: View/Widgets/business/menu_detail.ctp:18
+msgid "Photos"
+msgstr ""
+
+#: View/Elements/mobile_dashboard_menu.ctp:53
+#: View/Elements/mobile_menu_detail.ctp:20
+msgid "More"
+msgstr ""
+
+#: View/Elements/mobile_dashboard_menu.ctp:59
+#: View/Widgets/business/dashboard_menu.ctp:56
+msgid "Manage sub pages"
+msgstr ""
+
+#: View/Elements/mobile_dashboard_menu.ctp:81
+#: View/Widgets/business/dashboard_menu.ctp:78
+msgid "Send Verification Request"
+msgstr ""
+
+#: View/Elements/mobile_menu_detail.ctp:9
+#: View/Widgets/business/menu_detail.ctp:15
+msgid "Details"
+msgstr "Information"
+
+#: View/Elements/mobile_menu_detail.ctp:26
+#: View/Widgets/business/menu_detail.ctp:25
+msgid "Sub Pages"
+msgstr ""
+
+#: View/Elements/mobile_menu_detail.ctp:38
+#: View/Widgets/business/menu_detail.ctp:36
+msgid "Contact"
+msgstr ""
+
+#: View/Elements/mobile_menu_detail_info.ctp:8
+msgid "Claim"
+msgstr ""
+
+#: View/Elements/mobile_menu_detail_info.ctp:16
+msgid "Social"
+msgstr ""
+
+#: View/Elements/mobile_menu_detail_info.ctp:29
+msgid "Hours"
+msgstr ""
+
+#: View/Elements/mobile_menu_detail_info.ctp:36
+msgid "Payment"
+msgstr ""
+
+#: View/Elements/mobile_my_menu.ctp:12
+#: View/Elements/my_following.ctp:3
+#: View/Widgets/business/menu.ctp:15
+msgid "My Following Businesses"
+msgstr ""
+
+#: View/Elements/my_review.ctp:2
+#: View/Widgets/business/menu.ctp:12
+msgid "My Reviews"
+msgstr ""
+
+#: View/Elements/myfollow.ctp:5
+msgid "My followed businesses"
+msgstr ""
+
+#: View/Elements/photo.ctp:2
+msgid "Photo"
+msgstr ""
+
+#: View/Elements/photo.ctp:5
+msgid "Add Photo"
+msgstr ""
+
+#: View/Elements/profile.ctp:3
+#: View/Elements/profile_business_tabs.ctp:13
+msgid "Following"
+msgstr ""
+
+#: View/Elements/profile.ctp:8
+#: View/Elements/profile_business_tabs.ctp:18
+msgid "Favourites"
+msgstr ""
+
+#: View/Elements/report_review_dialog.ctp:2
+msgid "Report Review"
+msgstr ""
+
+#: View/Elements/report_review_dialog.ctp:9
+msgid "Please enter reason why you want to report this review"
+msgstr ""
+
+#: View/Elements/report_review_dialog.ctp:20
+#: View/Elements/misc/my_review_item.ctp:108
+#: View/Elements/misc/review_item.ctp:51
+msgid "Report"
+msgstr ""
+
+#: View/Elements/review.ctp:10
+#: View/Elements/misc/rating_item.ctp:43
+msgid "Write review"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:9
+msgid "Edit reply"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:11
+msgid "Write a reply"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:17
+msgid "Write a review"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:61
+msgid "Your reply"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:63
+msgid "Your review"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:78
+#: View/Elements/misc/upload_photo.ctp:6
+msgid "Upload Queued Files"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:108
+msgid "Post"
+msgstr ""
+
+#: View/Elements/search_form.ctp:41
+msgid "Near"
+msgstr ""
+
+#: View/Elements/search_form.ctp:58
+msgid "mile"
+msgstr ""
+
+#: View/Elements/search_form.ctp:58
+msgid "km"
+msgstr ""
+
+#: View/Elements/select_location_dialog.ctp:2
+msgid "Discover something new in your city!"
+msgstr ""
+
+#: View/Elements/select_location_dialog.ctp:26
+msgid "Please enter your city or select one from above"
+msgstr ""
+
+#: View/Elements/top_business.ctp:18
+msgid "All categories"
+msgstr ""
+
+#: View/Elements/top_business.ctp:23
+msgid "See more"
+msgstr ""
+
+#: View/Elements/top_business.ctp:50
+#: View/Elements/misc/business_activity_item.ctp:59
+#: View/Elements/misc/business_item.ctp:114
+#: View/Elements/misc/my_review_item.ctp:65
+msgid "%s reviews"
+msgstr ""
+
+#: View/Elements/activity/content/business_branch_share.ctp:16
+#: View/Elements/activity/content/business_create_share.ctp:16
+#: View/Elements/activity/text/business_create.ctp:6
+msgid " created a new business"
+msgstr ""
+
+#: View/Elements/activity/content/business_photo_share.ctp:18
+#: View/Elements/activity/text/business_photo.ctp:8
+msgid " added %s photos for "
+msgstr ""
+
+#: View/Elements/activity/content/business_photo_share.ctp:18
+#: View/Elements/activity/text/business_photo.ctp:8
+msgid " added %s photo for "
+msgstr ""
+
+#: View/Elements/activity/content/business_review_share.ctp:31
+#: View/Elements/activity/text/business_review.ctp:6
+#: View/Widgets/business/recent_reviews.ctp:18
+#: View/Widgets/business/reviews_of_day.ctp:18
+msgid "wrote a review for"
+msgstr ""
+
+#: View/Elements/activity/text/business_branch.ctp:6
+msgid " created a new sub page for "
+msgstr ""
+
+#: View/Elements/activity/text/business_branch_share.ctp:5
+#: View/Elements/activity/text/business_create_share.ctp:5
+#: View/Elements/activity/text/business_photo_share.ctp:5
+#: View/Elements/activity/text/business_review_share.ctp:5
+#: View/Elements/activity/text/business_share.ctp:7
+msgid "shared %s's %s"
+msgstr ""
+
+#: View/Elements/activity/text/business_branch_share.ctp:5
+#: View/Elements/activity/text/business_create_share.ctp:5
+#: View/Elements/activity/text/business_photo_share.ctp:5
+msgid "post"
+msgstr ""
+
+#: View/Elements/activity/text/business_business.ctp:4
+msgid " added a new business: "
+msgstr ""
+
+#: View/Elements/activity/text/business_checkin.ctp:8
+msgid " at "
+msgstr ""
+
+#: View/Elements/activity/text/business_create.ctp:6
+msgid " created a new sub page"
+msgstr ""
+
+#: View/Elements/activity/text/business_share.ctp:7
+msgid "business"
+msgstr ""
+
+#: View/Elements/activity/text/business_verify.ctp:6
+msgid " verified this business: "
+msgstr ""
+
+#: View/Elements/dashboard/admins.ctp:15
+msgid "Below you can see all the users who can administer your page. You can add any registered users as admins of this page and remove existing ones.\n    Please note, that users selected by you for this page will get almost authority (similar to yours) to manage this page. Thus you should be careful while choosing your admins.\n    "
+msgstr ""
+
+#: View/Elements/dashboard/admins.ctp:20
+msgid "Click %s to manage permission of your page admin."
+msgstr ""
+
+#: View/Elements/dashboard/admins.ctp:20
+msgid "here"
+msgstr ""
+
+#: View/Elements/dashboard/admins.ctp:34
+msgid "Add as admin"
+msgstr ""
+
+#: View/Elements/dashboard/branches.ctp:13
+msgid "Create a new sub page"
+msgstr ""
+
+#: View/Elements/dashboard/branches.ctp:27
+#: View/Elements/widgets/detail_info.ctp:186
+msgid "Tel"
+msgstr ""
+
+#: View/Elements/dashboard/branches.ctp:54
+#: View/Elements/lists/admin_list.ctp:18
+#: View/Elements/lists/checkin_list.ctp:54
+#: View/Elements/lists/follower_list.ctp:115
+#: View/Elements/lists/photos_list.ctp:27
+#: View/Elements/lists/review_list.ctp:25
+#: View/Elements/lists/search_list.ctp:35
+#: View/Widgets/business/latest.ctp:16
+msgid "No more results found"
+msgstr ""
+
+#: View/Elements/dashboard/business_feature.ctp:5
+msgid "number of days must be interger and greater than 0"
+msgstr ""
+
+#: View/Elements/dashboard/business_feature.ctp:6
+msgid "Please add number of days you want to feature"
+msgstr ""
+
+#: View/Elements/dashboard/business_feature.ctp:13
+msgid "Featured my business"
+msgstr ""
+
+#: View/Elements/dashboard/business_feature.ctp:18
+msgid "Your page is featured page now. I will expire on %s"
+msgstr ""
+
+#: View/Elements/dashboard/business_feature.ctp:20
+msgid "Place this page on top of the list and highlight in the category it belong to"
+msgstr ""
+
+#: View/Elements/dashboard/business_feature.ctp:21
+msgid "Place this business on the slideshow."
+msgstr ""
+
+#: View/Elements/dashboard/business_feature.ctp:27
+msgid "Buy more featured days"
+msgstr ""
+
+#: View/Elements/dashboard/business_photos.ctp:19
+#: View/Widgets/business/dashboard_menu.ctp:49
+msgid "Manage photos"
+msgstr ""
+
+#: View/Elements/dashboard/business_upgrade.ctp:3
+msgid "Your current package is "
+msgstr ""
+
+#: View/Elements/dashboard/business_upgrade.ctp:49
+msgid "Upgrade"
+msgstr ""
+
+#: View/Elements/dashboard/business_upgrade.ctp:55
+msgid "Day"
+msgstr ""
+
+#: View/Elements/dashboard/business_upgrade.ctp:74
+msgid "One Time Payment"
+msgstr ""
+
+#: View/Elements/dashboard/business_upgrade.ctp:146
+msgid "Free Trial"
+msgstr ""
+
+#: View/Elements/dashboard/business_upgrade.ctp:153
+msgid "Upgrade Now"
+msgstr ""
+
+#: View/Elements/dashboard/business_upgrade.ctp:160
+msgid "No Package found"
+msgstr ""
+
+#: View/Elements/dashboard/business_verify.ctp:2
+msgid "Your business has been verified."
+msgstr ""
+
+#: View/Elements/dashboard/business_verify.ctp:22
+msgid "Request a Verified Badge "
+msgstr ""
+
+#: View/Elements/dashboard/business_verify.ctp:27
+msgid "Verify by Phone"
+msgstr ""
+
+#: View/Elements/dashboard/business_verify.ctp:30
+msgid "Verify by Documents"
+msgstr ""
+
+#: View/Elements/dashboard/business_verify.ctp:47
+msgid "Please type business phone number below, one of our advisors will call to verify."
+msgstr ""
+
+#: View/Elements/dashboard/business_verify.ctp:59
+msgid "Send request"
+msgstr ""
+
+#: View/Elements/dashboard/business_verify.ctp:70
+msgid "Please upload the documents, one of our advisors will contact you to verify."
+msgstr ""
+
+#: View/Elements/dashboard/business_verify.ctp:78
+msgid "Upload Queued Documents"
+msgstr ""
+
+#: View/Elements/dashboard/business_verify.ctp:80
+msgid "Submit Documents"
+msgstr ""
+
+#: View/Elements/dashboard/create_branch.ctp:36
+msgid "Add new sub page"
+msgstr ""
+
+#: View/Elements/dashboard/create_branch.ctp:38
+msgid "Edit sub page"
+msgstr ""
+
+#: View/Elements/dashboard/create_branch.ctp:76
+msgid "Sub Page Name"
+msgstr ""
+
+#: View/Elements/dashboard/create_branch.ctp:100
+#: View/Elements/widgets/detail_info.ctp:216
+msgid "Description"
+msgstr ""
+
+#: View/Elements/dashboard/create_branch.ctp:114
+msgid "Logo"
+msgstr ""
+
+#: View/Elements/dashboard/pending_business.ctp:2
+msgid "Please continue after your page is approved!"
+msgstr ""
+
+#: View/Elements/dashboard/permissions.ctp:16
+msgid "You can manage permissions that admins can do here"
+msgstr ""
+
+#: View/Elements/lists/branch_list.ctp:42
+#: View/Elements/misc/branch_item.ctp:212
+msgid "No sub pages found"
+msgstr ""
+
+#: View/Elements/lists/checkin_list.ctp:32
+msgid " checked in"
+msgstr ""
+
+#: View/Elements/lists/checkin_list.ctp:38
+#: View/Elements/misc/review_item.ctp:73
+msgid "Just now"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:30
+msgid "friends"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:30
+msgid "friend"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:32
+msgid "photos"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:32
+msgid "photo"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:56
+msgid "Cancel a friend request"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:57
+msgid "Cancel Request"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:65;66
+msgid "Respond to Friend Request"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:69
+msgid "Accept"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:82
+msgid "Send %s a friend request"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:83
+msgid "Add as Friend"
+msgstr ""
+
+#: View/Elements/lists/follower_list.ctp:98;99
+#: View/Elements/misc/admin_item.ctp:14
+msgid "Remove"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:54;70
+msgid "Turn on notifications"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:54;70
+msgid "Stop Notifications"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:96;97
+msgid "Tag Friends"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:112
+msgid "Edit Post"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:119
+msgid "Delete Post"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:152;385;487;601
+msgid "Show edit history"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:177
+msgid "via mobile"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:184;236;395;510
+msgid "Like"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:193;245;404;519;633
+msgid "People Who Like This"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:201;253;412;527
+msgid "Dislike"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:210;262;421;536;647
+msgid "People Who Dislike This"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:228;279;304
+msgid "Comment"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:298
+msgid "Write a comment..."
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:317
+msgid "Please login or register"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:349;463;577
+msgid "Edit Comment"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:355;469;583
+msgid "Delete Comment"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:434
+msgid "View all comments"
+msgstr ""
+
+#: View/Elements/misc/ajax_share.ctp:549;660
+msgid "View all %s comments"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:39
+msgid "Website:"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:48
+msgid "Tel:"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:50;59
+#: View/Elements/widgets/detail_info.ctp:189;199
+msgid "view"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:57
+msgid "Fax:"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:68
+msgid "Find us on:"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:123
+msgid "Hide Payments"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:123
+msgid "Show Payments"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:124;127
+msgid "Payment methods"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:140
+msgid "Working Hours"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:145
+#: View/Elements/widgets/open_hours.ctp:8
+msgid "Open 24/7"
+msgstr ""
+
+#: View/Elements/misc/branch_item.ctp:171
+#: View/Elements/widgets/open_hours.ctp:33
+msgid "Open now"
+msgstr ""
+
+#: View/Elements/misc/business_activity_item.ctp:59
+#: View/Elements/misc/business_item.ctp:114
+#: View/Elements/misc/my_review_item.ctp:65
+msgid "%s review"
+msgstr ""
+
+#: View/Elements/misc/business_item.ctp:16
+#: View/Elements/misc/my_review_item.ctp:40
+msgid "Sub page of"
+msgstr ""
+
+#: View/Elements/misc/business_item.ctp:53
+msgid "Remove favorite"
+msgstr ""
+
+#: View/Elements/misc/business_item.ctp:126
+msgid "Approved"
+msgstr ""
+
+#: View/Elements/misc/business_item.ctp:142
+msgid "Claim Request Sent"
+msgstr ""
+
+#: View/Elements/misc/my_review_item.ctp:20
+#: View/Elements/misc/review_item.ctp:21
+msgid "Edit Review"
+msgstr ""
+
+#: View/Elements/misc/my_review_item.ctp:25
+#: View/Elements/misc/review_item.ctp:32
+msgid "Delete Review"
+msgstr ""
+
+#: View/Elements/misc/my_review_item.ctp:120
+#: View/Elements/misc/review_item.ctp:104
+msgid "Company response:"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:23
+msgid "Edit Reply"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:34
+msgid "Delete Reply"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:42
+msgid "Reply"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:89
+msgid "People who like this"
+msgstr ""
+
+#: View/Elements/misc/upload_photo.ctp:19;40
+msgid "Caption"
+msgstr ""
+
+#: View/Elements/notification/business_add_admin.ctp:1
+msgid " made you as admin of business \"%s\""
+msgstr ""
+
+#: View/Elements/notification/business_add_photos.ctp:1
+msgid " added photos on %s"
+msgstr ""
+
+#: View/Elements/notification/business_added.ctp:1
+msgid " posted a new business, please approve."
+msgstr ""
+
+#: View/Elements/notification/business_approved.ctp:1
+msgid " approved your business"
+msgstr ""
+
+#: View/Elements/notification/business_approved_subpage.ctp:1
+msgid " approved your sub page"
+msgstr ""
+
+#: View/Elements/notification/business_checkin_tag.ctp:1
+msgid " checked-in with you at \"%s\""
+msgstr ""
+
+#: View/Elements/notification/business_claim.ctp:1
+msgid " sents a claim request. Please review."
+msgstr ""
+
+#: View/Elements/notification/business_claim_remove_product.ctp:1
+msgid " your page \"%s\" has been claimed. Products are deleted."
+msgstr ""
+
+#: View/Elements/notification/business_claim_request.ctp:1
+msgid "updated his claimed listing, please review"
+msgstr ""
+
+#: View/Elements/notification/business_claim_request_approved.ctp:1
+msgid " approved your claim request for \"%s\""
+msgstr ""
+
+#: View/Elements/notification/business_claim_request_reject.ctp:1
+msgid " reject your claim request for \"%s\""
+msgstr ""
+
+#: View/Elements/notification/business_create_branch.ctp:1
+msgid " added a new sub page on %s"
+msgstr ""
+
+#: View/Elements/notification/business_featured.ctp:1
+msgid " featured your business %s"
+msgstr ""
+
+#: View/Elements/notification/business_follow.ctp:1
+#: View/Elements/notification/business_follow_follow.ctp:1
+msgid " started following \"%s\""
+msgstr ""
+
+#: View/Elements/notification/business_follow_review.ctp:1
+msgid " reviewed %s"
+msgstr ""
+
+#: View/Elements/notification/business_reject_verify.ctp:1
+msgid "your verification request for %s is rejected by admin"
+msgstr ""
+
+#: View/Elements/notification/business_rejected.ctp:1
+msgid " rejected your business"
+msgstr ""
+
+#: View/Elements/notification/business_rejected_subpage.ctp:1
+msgid " rejected your sub page"
+msgstr ""
+
+#: View/Elements/notification/business_reply.ctp:1
+msgid " replied to your review"
+msgstr ""
+
+#: View/Elements/notification/business_review.ctp:1
+msgid " reviewed business %s"
+msgstr ""
+
+#: View/Elements/notification/business_review_report.ctp:1
+msgid " reported a business review"
+msgstr ""
+
+#: View/Elements/notification/business_review_subpage.ctp:1
+msgid " reviewed sub page %s"
+msgstr ""
+
+#: View/Elements/notification/business_sub_page_pending.ctp:1
+msgid " posted a new sub page, please approve."
+msgstr ""
+
+#: View/Elements/notification/business_submit_for_reviewing.ctp:1
+msgid " just updated his business, please review."
+msgstr ""
+
+#: View/Elements/notification/business_unverify.ctp:1
+msgid " unverified your business"
+msgstr ""
+
+#: View/Elements/notification/business_verify.ctp:1
+msgid " verified your business"
+msgstr ""
+
+#: View/Elements/notification/business_wall_post.ctp:1
+msgid " posted a status on "
+msgstr ""
+
+#: View/Elements/widgets/claim.ctp:5
+msgid "Is this your business?"
+msgstr ""
+
+#: View/Elements/widgets/claim.ctp:7
+msgid "If this is your business, you can claim the listing and add extra information."
+msgstr ""
+
+#: View/Elements/widgets/claim.ctp:9
+msgid "Claim it now"
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:76;77
+msgid "Report Business"
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:76;77
+msgid "Report Page"
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:91
+msgid "Delete Business"
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:95
+msgid "Delete Page"
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:103
+msgid "Share"
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:113
+msgid "Check-in"
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:131
+msgid "Contact us"
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:174
+msgid "Directions "
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:218
+msgid "Show More"
+msgstr ""
+
+#: View/Elements/widgets/detail_info.ctp:218
+msgid "Show Less"
+msgstr ""
+
+#: View/Elements/widgets/detail_section.ctp:51
+msgid "Share what's new"
+msgstr ""
+
+#: View/Elements/widgets/open_hours.ctp:5
+msgid "Business Hours"
+msgstr ""
+
+#: View/Elements/widgets/open_hours.ctp:41
+msgid "Closed now"
+msgstr ""
+
+#: View/Elements/widgets/payment_gateways.ctp:3
+msgid "Payment Methods"
+msgstr ""
+
+#: View/Elements/widgets/rating.ctp:15
+msgid "Reviews & Rating"
+msgstr ""
+
+#: View/Elements/widgets/social_link.ctp:4
+msgid "Find us on"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:174
+msgid "Featured Business with %s %s for %s days"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:182
+msgid "Featured Price"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:208
+msgid "Package Price"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:224
+msgid "for"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:226;233
+msgid "free for"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:231
+msgid "for each"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:231
+msgid "in"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:243
+msgid "forever"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:245
+msgid "day(s)"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:247
+msgid "week(s)"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:249
+msgid "month(s)"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:251
+msgid "year(s)"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:755;773;796
+msgid "Initial"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:756;774
+msgid "Active"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:758
+msgid "Reversed"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:759;776;798
+msgid "Expired"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:760;777;799
+msgid "Refunded"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:761;778;787;800
+msgid "Failed"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:762
+msgid "Free"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:764;780
+msgid "Process"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:765;781;802
+msgid "Inactive"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:779
+msgid "Cancel Recurring"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:786;803
+msgid "Paid"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:842
+msgid "Featured Day"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:843
+msgid "Business Package"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:1158
+msgid "Rating & Reviews"
+msgstr ""
+
+#: View/Helper/BusinessHelper.php:1161
+msgid "Add business sub pages"
+msgstr ""
+
+#: View/Widgets/business/breadcrumb.ctp:12
+msgid "Add New Business"
+msgstr ""
+
+#: View/Widgets/business/breadcrumb.ctp:18;53
+msgid "Home"
+msgstr ""
+
+#: View/Widgets/business/breadcrumb.ctp:46
+msgid "Search results"
+msgstr ""
+
+#: View/Widgets/business/business_same_cat.ctp:5
+msgid "People also viewed"
+msgstr ""
+
+#: View/Widgets/business/dashboard_menu.ctp:42
+msgid "Edit business info"
+msgstr ""
+
+#: View/Widgets/business/featured.ctp:6
+msgid "Featured Businesses"
+msgstr ""
+
+#: View/Widgets/business/people_checkin.ctp:5
+msgid "Check-Ins"
+msgstr ""
+
+#: View/Widgets/business/people_checkin.ctp:29
+msgid "View all"
+msgstr ""
+
+#: View/Widgets/business/popular_locations.ctp:17
+#: View/Widgets/business/top_categories.ctp:19
+msgid "Show more"
+msgstr ""
+
+#: View/Widgets/business/recent_reviews.ctp:4
+msgid "Recent Reviews"
+msgstr ""
+
+#: View/Widgets/business/reviews_of_day.ctp:4
+msgid "Review of the Day"
+msgstr ""
+
+#: Model/Business.php:validation for field name
+msgid "Please provide name"
+msgstr ""
+
+#: Model/Business.php:validation for field logo
+msgid "Please upload logo"
+msgstr ""
+
+#: Model/Business.php:validation for field address
+msgid "Please provide address"
+msgstr ""
+
+#: Model/BusinessAdmin.php:validation for field user_id
+msgid "Please select user"
+msgstr ""
+
+#: Model/BusinessCategory.php:validation for field name
+#: Model/BusinessLocation.php:validation for field name
+#: Model/BusinessType.php:validation for field name
+msgid "Name is required"
+msgstr ""
+
+#: Model/BusinessCategory.php:validation for field name
+#: Model/BusinessLocation.php:validation for field name
+msgid "This name is already exist"
+msgstr ""
+
+#: Model/BusinessPackage.php:validation for field name
+msgid "Package Title is required."
+msgstr ""
+
+#: Model/BusinessPackage.php:validation for field price
+msgid "Price is required, Please enter number."
+msgstr ""
+
+#: Model/BusinessPackage.php:validation for field price
+msgid "Price is invalid, Please enter number."
+msgstr ""
+
+#: Model/BusinessPackage.php:validation for field duration
+msgid "Duration is required, Please enter number."
+msgstr ""
+
+#: Model/BusinessPackage.php:validation for field duration
+msgid "Duration must be a valid integer greater than 0"
+msgstr ""
+
+#: Model/BusinessPackage.php:validation for field expiration_reminder
+msgid "Expiration Reminder is required, Please enter number."
+msgstr ""
+
+#: Model/BusinessPackage.php:validation for field expiration_reminder
+msgid "Expiration reminder must be a valid integer greater than 0"
+msgstr ""
+
+#: Model/BusinessPaid.php:validation for field price
+msgid "Price is not valid"
+msgstr ""
+
+#: Model/BusinessPaid.php:validation for field recurring_price
+msgid "Recurring price is not valid"
+msgstr ""
+
+#: Model/BusinessPaid.php:validation for field recurring
+msgid "Recurring must be a valid interger greater than 0"
+msgstr ""
+
+#: Model/BusinessReview.php:validation for field rating
+msgid "Please select rating"
+msgstr ""
+
+#: Model/BusinessReview.php:validation for field content
+msgid "Please input your review"
+msgstr ""
+
+msgid "_EMAIL_BUSINESS_VERIFY_DOCUMENTS_TITLE_"
+msgstr "Business Verify Documents"
+
+msgid "_EMAIL_BUSINESS_VERIFY_DOCUMENTS_DESCRIPTION_"
+msgstr "Admin will get an email about the request via document"
+
+msgid "_EMAIL_BUSINESS_VERIFY_PHONE_TITLE_"
+msgstr "Business Verify Phone"
+
+msgid "_EMAIL_BUSINESS_VERIFY_PHONE_DESCRIPTION_"
+msgstr "Admin will get an email about the request via phone"
+
+msgid "_EMAIL_BUSINESS_CLAIM_REQUEST_TITLE_"
+msgstr "Business Claim Request"
+
+msgid "_EMAIL_BUSINESS_CLAIM_REQUEST_DESCRIPTION_"
+msgstr "Admin will get an email about the request claim business"
+
+msgid "_EMAIL_BUSINESS_REJECT_TITLE_"
+msgstr "Business reject"
+
+msgid "_EMAIL_BUSINESS_REJECT_DESCRIPTION_"
+msgstr "Business admin will get a reject email"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_REJECT_TITLE_"
+msgstr "Business Sub Page Reject"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_REJECT_DESCRIPTION_"
+msgstr "User will get a reject email"
+
+msgid "_EMAIL_BUSINESS_CONTACT_TITLE_"
+msgstr "Business send contact"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "Business admin will get a contact email"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "Business admin will get a contact email"
+
+msgid "_EMAIL_BUSINESS_CONTACT_DESCRIPTION_"
+msgstr "Business admin will get a contact email"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_FEATURE_TITLE_"
+msgstr "Business Expire Feature"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_FEATURE_DESCRIPTION_"
+msgstr "Business Expire Feature with a email"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_TITLE_"
+msgstr "Business Expire"
+
+msgid "_EMAIL_BUSINESS_EXPIRE_DESCRIPTION_"
+msgstr "Business Expire with a email"
+
+msgid "_EMAIL_BUSINESS_REMINDER_FEATURED_PACKAGE_TITLE_"
+msgstr "Business Reminder Feature"
+
+msgid "_EMAIL_BUSINESS_REMINDER_FEATURED_PACKAGE_DESCRIPTION_"
+msgstr "Business Reminder Feature with a email"
+
+msgid "_EMAIL_BUSINESS_REMINDER_BUSINESS_PACKAGE_TITLE_"
+msgstr "Business Reminder"
+
+msgid "_EMAIL_BUSINESS_REMINDER_BUSINESS_PACKAGE_DESCRIPTION_"
+msgstr "Business Reminder with a email"
+
+msgid "_EMAIL_BUSINESS_SUCCESS_PACKAGE_TITLE_"
+msgstr "Business Package Success"
+
+msgid "_EMAIL_BUSINESS_SUCCESS_PACKAGE_DESCRIPTION_"
+msgstr "Business Package Success with a email"
+
+msgid "_EMAIL_BUSINESS_APPROVE_TITLE_"
+msgstr "Business Approved"
+
+msgid "_EMAIL_BUSINESS_APPROVE_DESCRIPTION_"
+msgstr "This is business approve mail"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_APPROVE_TITLE_"
+msgstr "Business Sub Page Approved"
+
+msgid "_EMAIL_BUSINESS_SUBPAGE_APPROVE_DESCRIPTION_"
+msgstr "This is sub page approve mail"
+
+msgid " busines check in"
+msgstr ""
+
+msgid " busines review"
+msgstr ""
+
+msgid " busines verify"
+msgstr ""
+
+msgid "12:00 am (midnight)"
+msgstr ""
+
+msgid "12:30 am"
+msgstr ""
+
+msgid "1:00 am"
+msgstr ""
+
+msgid "1:30 am"
+msgstr ""
+
+msgid "2:00 am"
+msgstr ""
+
+msgid "2:30 am"
+msgstr ""
+
+msgid "3:00 am"
+msgstr ""
+
+msgid "3:30 am"
+msgstr ""
+
+msgid "4:00 am"
+msgstr ""
+
+msgid "4:30 am"
+msgstr ""
+
+msgid "5:00 am"
+msgstr ""
+
+msgid "5:30 am"
+msgstr ""
+
+msgid "6:00 am"
+msgstr ""
+
+msgid "6:30 am"
+msgstr ""
+
+msgid "7:00 am"
+msgstr ""
+
+msgid "7:30 am"
+msgstr ""
+
+msgid "8:00 am"
+msgstr ""
+
+msgid "8:30 am"
+msgstr ""
+
+msgid "9:00 am"
+msgstr ""
+
+msgid "9:30 am"
+msgstr ""
+
+msgid "10:00 am"
+msgstr ""
+
+msgid "10:30 am"
+msgstr ""
+
+msgid "11:00 am"
+msgstr ""
+
+msgid "11:30 am"
+msgstr ""
+
+msgid "12:00 pm (noon)"
+msgstr ""
+
+msgid "12:30 pm"
+msgstr ""
+
+msgid "1:00 pm"
+msgstr ""
+
+msgid "1:30 pm"
+msgstr ""
+
+msgid "2:00 pm"
+msgstr ""
+
+msgid "2:30 pm"
+msgstr ""
+
+msgid "3:00 pm"
+msgstr ""
+
+msgid "3:30 pm"
+msgstr ""
+
+msgid "4:00 pm"
+msgstr ""
+
+msgid "4:30 pm"
+msgstr ""
+
+msgid "5:00 pm"
+msgstr ""
+
+msgid "5:30 pm"
+msgstr ""
+
+msgid "6:00 pm"
+msgstr ""
+
+msgid "6:30 pm"
+msgstr ""
+
+msgid "7:00 pm"
+msgstr ""
+
+msgid "7:30 pm"
+msgstr ""
+
+msgid "8:00 pm"
+msgstr ""
+
+msgid "8:30 pm"
+msgstr ""
+
+msgid "9:00 pm"
+msgstr ""
+
+msgid "9:30 pm"
+msgstr ""
+
+msgid "10:00 pm"
+msgstr ""
+
+msgid "10:30 pm"
+msgstr ""
+
+msgid "11:00 pm"
+msgstr ""
+
+msgid "11:30 pm"
+msgstr ""
+
+msgid "12:00 am (midnight next day)"
+msgstr ""
+
+msgid "12:30 am (next day)"
+msgstr ""
+
+msgid "1:00 am (next day)"
+msgstr ""
+
+msgid "1:30 am (next day)"
+msgstr ""
+
+msgid "2:00 am (next day)"
+msgstr ""
+
+msgid "2:30 am (next day)"
+msgstr ""
+
+msgid "3:00 am (next day)"
+msgstr ""
+
+msgid "3:30 am (next day)"
+msgstr ""
+
+msgid "4:00 am (next day)"
+msgstr ""
+
+msgid "4:30 am (next day)"
+msgstr ""
+
+msgid "5:00 am (next day)"
+msgstr ""
+
+msgid "5:30 am (next day)"
+msgstr ""
+
+msgid "6:00 am (next day)"
+msgstr ""
+
+msgid "Can manage products"
+msgstr ""
+
+msgid "Business Cover Picture"
+msgstr ""
+
+msgid "Optimal size 870x312px"
+msgstr ""
+
+msgid "Save Cover Picture"
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Add Product"
+msgstr ""
+
+msgid "Grid"
+msgstr ""
+
+msgid "List"
+msgstr ""
+
+msgid "Edit Cover Picture"
+msgstr ""
+
+msgid "Edit Cover"
+msgstr ""
+
+msgid "Change to default photo"
+msgstr ""
+
+msgid "Respond Request"
+msgstr ""
+
+msgid "Unverified"
+msgstr ""
+
+msgid "UTC"
+msgstr ""
+
+msgid "(next day)"
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+msgid "Tue"
+msgstr ""
+
+msgid "Wed"
+msgstr ""
+
+msgid "Thu"
+msgstr ""
+
+msgid "Fri"
+msgstr ""
+
+msgid "Sat"
+msgstr ""
+
+msgid "Sun"
+msgstr ""

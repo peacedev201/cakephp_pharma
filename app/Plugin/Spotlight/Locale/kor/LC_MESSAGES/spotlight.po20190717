@@ -1,0 +1,356 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "a0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: SpotlightPlugin.php:19
+#: View/Spotlights/admin_index.ctp:3;25
+msgid "Spotlight Users"
+msgstr "a0002 Spotlight 회원"
+
+#: SpotlightPlugin.php:20
+#: View/SpotlightAddUsers/admin_index.ctp:3;12
+msgid "Spotlight Add Users"
+msgstr "a0003 Spotlight에 회원 추가"
+
+#: SpotlightPlugin.php:21
+msgid "Settings"
+msgstr "a0004 설정"
+
+#: SpotlightPlugin.php:22
+#: View/SpotlightTransactions/admin_index.ctp:27
+msgid "Manage Transactions"
+msgstr "a0005 거래 관리"
+
+#: Controller/SpotlightAddUsersController.php:27
+msgid "Spotlight Add User"
+msgstr "a0006 Spotlight에 회원 추가"
+
+#: Controller/SpotlightAddUsersController.php:63
+msgid "User has been successfully added to Spotlight"
+msgstr "a0007 Spotlight에 회원을 추가함"
+
+#: Controller/SpotlightSettingsController.php:32
+msgid "Spotlight Setting"
+msgstr "a0008 Spotlight 설정"
+
+#: Controller/SpotlightTransactionsController.php:72
+#: View/SpotlightTransactions/admin_index.ctp:38
+msgid "Credit"
+msgstr "a0009 크레딧"
+
+#: Controller/SpotlightTransactionsController.php:78
+msgid "Manage Spotlight Transactions"
+msgstr "a0010 Spotlight 거래 관리"
+
+#: Controller/SpotlightsController.php:24
+msgid "Spotlight User"
+msgstr "a0011 Spotlight 회원"
+
+#: Controller/SpotlightsController.php:39;53
+msgid "This user does not exist"
+msgstr "a0012 이 사용자는 존재하지 않습니다."
+
+#: Controller/SpotlightsController.php:45
+msgid "Successfully updated"
+msgstr "a0013 업데이트 성공"
+
+#: Controller/SpotlightsController.php:59
+msgid "Users has been successfully remove from Spotlight"
+msgstr "a0014 Spotlight에서 사용자를 삭제하였습니다."
+
+#: Controller/SpotlightsController.php:75
+msgid "Users have been successfully removed from Spotlight"
+msgstr "a0015 Spotlight에서 사용자를 삭제하였습니다."
+
+#: Controller/SpotlightsController.php:77
+msgid "Please select users you want to remove"
+msgstr "a0016 삭제하실 사용자를 선택하십시요."
+
+#: Controller/SpotlightsController.php:97
+msgid "Order saved"
+msgstr "a0017 주문 저장"
+
+#: Controller/SpotlightsController.php:204;291
+msgid "You has been joined spotlight"
+msgstr "a0018 Spotlight에 가입 하였습니다."
+
+#: Controller/SpotlightsController.php:296
+msgid "Your payment has been canceled"
+msgstr "a0019 결제가 취소되었습니다."
+
+#: Controller/SpotlightsController.php:424
+msgid "Buy successfully!"
+msgstr "a0020 결제 완료"
+
+#: Controller/SpotlightsController.php:427
+msgid "Buy unsuccessful!"
+msgstr "a0021 결제 실패"
+
+#: Model/SpotlightUser.php:78
+msgid "join spotlight"
+msgstr "a0022 Spitlight 가입"
+
+#: View/Elements/log_text/join_spotlight.ctp:2
+msgid "Joined spotlight"
+msgstr "a0023 Spotlight 가입함"
+
+#: View/Elements/notification/join_spotlight.ctp:7
+msgid " congrats, now you're in the spotlight in %s day(s)"
+msgstr "a0024 축하합니다. Spotlight에 %s 일 안에 가입됩니다."
+
+#: View/Helper/SpotlightHelper.php:21
+msgid "Payment spotlight"
+msgstr "a0025 Spotlight 결제"
+
+#: View/SpotlightAddUsers/admin_index.ctp:22
+#: View/Spotlights/admin_index.ctp:47
+msgid "Search by name or email"
+msgstr "a0026 이름 또는 이메일로 검색"
+
+#: View/SpotlightAddUsers/admin_index.ctp:35
+#: View/Spotlights/admin_index.ctp:64
+msgid "ID"
+msgstr "a0027 ID"
+
+#: View/SpotlightAddUsers/admin_index.ctp:38
+#: View/Spotlights/admin_index.ctp:67
+msgid "Name"
+msgstr "a0028 성명"
+
+#: View/SpotlightAddUsers/admin_index.ctp:41
+#: View/Spotlights/admin_index.ctp:70
+msgid "Email"
+msgstr "a0029 이메일"
+
+#: View/SpotlightAddUsers/admin_index.ctp:44
+#: View/Spotlights/admin_index.ctp:73
+msgid "Role"
+msgstr "a0030 등급"
+
+#: View/SpotlightAddUsers/admin_index.ctp:47
+#: View/Spotlights/admin_index.ctp:85
+msgid "Active"
+msgstr "a0031 활동"
+
+#: View/SpotlightAddUsers/admin_index.ctp:50
+#: View/Spotlights/admin_index.ctp:88
+msgid "Action"
+msgstr "a0032 활동"
+
+#: View/SpotlightAddUsers/admin_index.ctp:64
+#: View/SpotlightSettings/admin_credit_integration.ctp:32
+msgid "Yes"
+msgstr "a0033 예"
+
+#: View/SpotlightAddUsers/admin_index.ctp:64
+#: View/SpotlightSettings/admin_credit_integration.ctp:32
+msgid "No"
+msgstr "a0034 아니요"
+
+#: View/SpotlightAddUsers/admin_index.ctp:65
+msgid "You are sure you want to add user %s to Spotlight?"
+msgstr "a0035 사용자 %s를 Spotlight에 추가하시겠습니까?"
+
+#: View/SpotlightAddUsers/admin_index.ctp:65
+msgid "Add"
+msgstr "a0036 추가"
+
+#: View/SpotlightSettings/admin_credit_integration.ctp:3;11
+msgid "Credits Integration"
+msgstr "a0037 크레딧 통합"
+
+#: View/SpotlightSettings/admin_credit_integration.ctp:21
+msgid "You need to install credit plugin first. Please purchase credits plugin at"
+msgstr "a0038 크레딧 플러그인을 문저 설치해야합니다. credit 플러그인을 결제해주십시요: "
+
+#: View/SpotlightSettings/admin_credit_integration.ctp:28
+msgid "Integrate with credits system"
+msgstr "a0039 크레딧 시스템으로 통합"
+
+#: View/SpotlightSettings/admin_credit_integration.ctp:39
+msgid "Save Changes"
+msgstr "a0040 변경 사항 저장"
+
+#: View/SpotlightTransactions/admin_index.ctp:6
+msgid "Transaction Manager"
+msgstr "a0041 거래 관리자"
+
+#: View/SpotlightTransactions/admin_index.ctp:31;53
+msgid "User"
+msgstr "a0042 회원"
+
+#: View/SpotlightTransactions/admin_index.ctp:34;54
+msgid "Type"
+msgstr "a0043 종류"
+
+#: View/SpotlightTransactions/admin_index.ctp:37
+msgid "Paypal"
+msgstr "a0044 페이팔"
+
+#: View/SpotlightTransactions/admin_index.ctp:40
+msgid "Date from"
+msgstr "a0045 시작 날짜"
+
+#: View/SpotlightTransactions/admin_index.ctp:42
+msgid "Date to"
+msgstr "a0046 종료 날짜"
+
+#: View/SpotlightTransactions/admin_index.ctp:46
+msgid "Search"
+msgstr "a0047 검색"
+
+#: View/SpotlightTransactions/admin_index.ctp:55
+msgid "Status"
+msgstr "a0048 상태"
+
+#: View/SpotlightTransactions/admin_index.ctp:56
+msgid "Date"
+msgstr "a0049 날짜"
+
+#: View/SpotlightTransactions/admin_index.ctp:76
+msgid "No transaction found"
+msgstr "a0050 거래를 찾을 수 없습니다."
+
+#: View/Spotlights/admin_index.ctp:32
+msgid "Are you sure you want to remove these users from Spotlight."
+msgstr "a0051 회원을 Spotlight에서 삭제하시겠습니까?"
+
+#: View/Spotlights/admin_index.ctp:33
+msgid "Remove"
+msgstr "a0052 삭제"
+
+#: View/Spotlights/admin_index.ctp:38
+msgid "Save order"
+msgstr "a0053 주문 저장"
+
+#: View/Spotlights/admin_index.ctp:76
+msgid "Registry Time"
+msgstr "a0054 레지스트리 시간"
+
+#: View/Spotlights/admin_index.ctp:79
+msgid "End Time"
+msgstr "a0055 종료 시간"
+
+#: View/Spotlights/admin_index.ctp:82
+msgid "Order"
+msgstr "a0056 주문"
+
+#: View/Spotlights/admin_index.ctp:110
+msgid "You are sure inactive user %s ?"
+msgstr "a0057 사용자 %s 을(를) 비활성화 하시겠습니까?"
+
+#: View/Spotlights/admin_index.ctp:110
+msgid "Disable"
+msgstr "a0058 비활성화"
+
+#: View/Spotlights/admin_index.ctp:112
+msgid "You are sure active user %s ?"
+msgstr "a0059 사용자 %s 을(를) 활성화 하시겠습니까?"
+
+#: View/Spotlights/admin_index.ctp:112
+msgid "Enable"
+msgstr "a0060 활성화"
+
+#: View/Spotlights/admin_index.ctp:115
+msgid "You are sure remove user %s from Spotlight?"
+msgstr "a0061 회원 %s 을(를) Spotlight에서 삭제하시겠습니까?"
+
+#: View/Spotlights/cancel.ctp:3
+msgid "Spotlight payment has been canceled"
+msgstr "a0062 Spotlight 결제가 취소되었습니다."
+
+#: View/Spotlights/credit_fail.ctp:3
+msgid "Spotlight payment has been failure, please check your credit point."
+msgstr "a0063 Spotlight 결제를 실패하였습니다. 포인트를 확인하여 주십시요."
+
+#: View/Spotlights/credit_success.ctp:3
+msgid "Payment is completed. Please check profile on Spotlight."
+msgstr "a0064 결제 완료. Spotlight 프로필을 확인하여주십시요."
+
+#: View/Spotlights/register_form.ctp:4
+msgid "Spotlight Register Form"
+msgstr "a0065 Spotlight 등록 양식"
+
+#: View/Spotlights/register_form.ctp:10
+msgid "Your profile display in Spotlight %s days."
+msgstr "a0066 Spotlight에 회원님의 프로필이 표시된 날짜: %s"
+
+#: View/Spotlights/register_form.ctp:17;35
+msgid "PayPal"
+msgstr "a0067 페이팔"
+
+#: View/Spotlights/register_form.ctp:18;36
+msgid "Payment spotlight - %s %s"
+msgstr "a0068 Spotlight 결제 - %s %s"
+
+#: View/Spotlights/register_form.ctp:22
+msgid "Pay with PayPal"
+msgstr "a0069 페이팔로 결제"
+
+#: View/Spotlights/register_form.ctp:26
+msgid "Join Spotlight"
+msgstr "a0070 Spotlight 가입"
+
+#: View/Spotlights/register_form.ctp:39
+msgid "Join Free"
+msgstr "a0071 무료로 가입"
+
+#: View/Spotlights/register_form.ctp:55
+msgid "Pay with %s"
+msgstr "a0072 %s 결제"
+
+#: View/Spotlights/success.ctp:3
+msgid "Payment is processing. Please check profile on Spotlight."
+msgstr "a0073 결제가 진행중. Spotlight 프로필을 확인하여주십시요."
+
+#: View/Widgets/spotlights/top.ctp:5
+msgid "Spotlight"
+msgstr "a0074 Spotlight"
+
+#: View/Widgets/spotlights/top.ctp:23
+msgid "Put me here!"
+msgstr "a0075 이곳에 놓으세요"
+
+msgid "Spotlight Enable"
+msgstr "a0076 Spotlight 활성화"
+
+msgid "Price"
+msgstr "a0077 가격"
+
+msgid "Period"
+msgstr "a0078 기간"
+
+msgid "Paypal Email"
+msgstr "a0079 페이팔 이메일"
+
+msgid "Test mode"
+msgstr "a0080 시험 모드"
+
+msgid "How members will appear in Spotlight"
+msgstr "a0081 Spotlight에 회원이 표시되는 방법"
+
+msgid "First in - first out"
+msgstr "a0082 선입 선출"
+
+msgid "Randomly"
+msgstr "a0083 무작위로"
+
+msgid "Can't make payment now, please contact admin for more details."
+msgstr "a0084 결제를 할 수 없습니다. 자세한 내용은 관리자에게 문의하십시요."
+
+msgid "How much does user pay for each Spotlight subscription ?"
+msgstr "a0085 Spotlight 구독은 얼마입니까?"
+
+msgid "What is the duration of each Spotlight subscription (days) ?"
+msgstr "a0086 Spotlight 구득은 몇 개월 유지인가요?"

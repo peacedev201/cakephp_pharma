@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('business', ' checked-in with you at "%s"'), $notification['Notification']['params']); ?>

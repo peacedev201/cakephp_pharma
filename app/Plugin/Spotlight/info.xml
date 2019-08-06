@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Spotlight</name>
+    <key>Spotlight</key>
+    <version>1.6</version>
+    <description>Profile Spotlight is a tool that helps your users can boost their popularity by putting their profile photo with profile link at the top of the page so everyone in the community can see it instantly.It is a must have tool whether your site is a dating, adults….</description>
+    <author>Socialloft</author>
+    <website>https://moosocial.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+<settings><setting><label>Spotlight Enable</label><name>spotlight_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Price</label><name>spotlight_price</name><description>How much does user pay for each Spotlight subscription ?</description><type>text</type><values>0</values></setting><setting><label>Period</label><name>spotlight_period</name><description>What is the duration of each Spotlight subscription (days) ?</description><type>text</type><values>11</values></setting><setting><label>Paypal Email</label><name>spotlight_email</name><description></description><type>text</type><values></values></setting><setting><label>Test mode</label><name>spotlight_test_mode</name><description></description><type>checkbox</type><values><value><name></name><value>1</value><select>1</select></value></values></setting><setting><label>How members will appear in Spotlight</label><name>spotlight_order</name><description></description><type>radio</type><values><value><name>First in - first out</name><value>0</value><select>1</select></value><value><name>Randomly</name><value>1</value><select>0</select></value></values></setting></settings></info>

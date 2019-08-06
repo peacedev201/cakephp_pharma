@@ -1,0 +1,146 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin/Reminder/ReminderPlugin.php:146
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:18
+msgid "Settings"
+msgstr "Settings"
+
+#: Plugin/Reminder/Controller/ReminderSettingsController.php:5
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:8
+msgid "Reminder Settings"
+msgstr "Reminder Settings"
+
+#: Plugin/Reminder/Controller/ReminderSettingsController.php:23
+msgid "Successfully updated"
+msgstr "Successfully updated"
+
+#: Plugin/Reminder/View/Helper/ReminderHelper.php:93;167;241;320
+msgid "Your account will be auto disabled in next %s days."
+msgstr "Your account will be auto disabled in next %s days."
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:2
+msgid "Reminder Plugin"
+msgstr "Reminder Plugin"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:3
+msgid "Reminder"
+msgstr "Reminder"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:7
+msgid "Plugins Manager"
+msgstr "Plugins Manager"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:27
+msgid "Enable Reminder Plugin"
+msgstr "Enable Reminder Plugin"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:41
+msgid "Enable email verification reminder"
+msgstr "Enable email verification reminder"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:56
+msgid "How many times do you want to send reminder email verification (0 is unlimited- not recommended) (times)"
+msgstr "How many times do you want to send reminder email verification (0 is unlimited- not recommended) (times)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:71
+msgid "Reminder email will send to users who has not verified email for (days)"
+msgstr "Reminder email will send to users who has not verified email for (days)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:86
+msgid "If all verification reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+msgstr "If all verification reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:104
+msgid "Enable sms verification reminder"
+msgstr "Enable sms verification reminder"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:119
+msgid "How many times do you want to send reminder sms verification (0 is unlimited- not recommended) (times)"
+msgstr "How many times do you want to send reminder sms verification (0 is unlimited- not recommended) (times)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:134
+msgid "Reminder email will send to users who has not verified sms for (days)"
+msgstr "Reminder email will send to users who has not verified sms for (days)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:149
+msgid "If all verification reminder sms have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+msgstr "If all verification reminder sms have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:166
+msgid "Enable login reminder"
+msgstr "Enable login reminder"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:181
+msgid "How many times do you want to send login reminder email (0 is unlimited- not recommended) (times)"
+msgstr "How many times do you want to send login reminder email (0 is unlimited- not recommended) (times)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:196
+msgid "Reminder email will send to users who has loggedin for (days)"
+msgstr "Reminder email will send to users who has loggedin for (days)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:211
+msgid "If all login reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+msgstr "If all login reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:227
+msgid "Enable 'post status, like or comment' email reminder"
+msgstr "Enable 'post status, like or comment' email reminder"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:242
+msgid "How many times do you want to send 'post status, like or comment' email reminder (0 is unlimited- not recommended) (times)"
+msgstr "How many times do you want to send 'post status, like or comment' email reminder (0 is unlimited- not recommended) (times)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:257
+msgid "Reminder email will send to user if he/she has not posted status, liked, or commente for (days)"
+msgstr "Reminder email will send to user if he/she has not posted status, liked, or commente for (days)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:272
+msgid "If all 'post status, like or comment' email reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+msgstr "If all 'post status, like or comment' email reminder emails have been sent, system will auto disable account after (Enter 0 if you want to disable this option) (days)"
+
+#: Plugin/Reminder/View/ReminderSettings/admin_index.ctp:288
+msgid "Save Settings"
+msgstr "Save Settings"
+
+msgid "_EMAIL_REMINDER_EMAIL_VERIFICATION_TITLE_"
+msgstr "when member sign up but not verified email. Email will send based on settings in admincp."
+
+msgid "_EMAIL_REMINDER_SMS_VERIFICATION_TITLE_"
+msgstr "when member sign up but not verified sms. Email will send based on settings in admincp."
+
+msgid "_EMAIL_REMINDER_LOGIN_TITLE_"
+msgstr "when member has not loggedin to site for a long time. Email will send based on settings in admincp"
+
+msgid "_EMAIL_REMINDER_SHARE_TITLE_"
+msgstr "when member has not post anything to site for a long time. Email will send based on settings in admincp"
+
+msgid "Logs"
+msgstr "Logs"
+
+msgid "User role"
+msgstr "User role"
+
+msgid "Email verification reminders"
+msgstr "Email verification reminders"
+
+msgid "SMS verification reminders"
+msgstr "SMS verification reminders"
+
+msgid "Login reminders"
+msgstr "Login reminders"
+
+msgid "Interaction reminders"
+msgstr "Interaction reminders"

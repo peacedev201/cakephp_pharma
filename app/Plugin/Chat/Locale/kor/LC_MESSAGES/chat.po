@@ -1,0 +1,409 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "AC001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ChatPlugin.php:38
+#: View/Chats/admin_index.ctp:10
+msgid "General"
+msgstr "AC002일반"
+
+#: ChatPlugin.php:39
+#: View/ChatSettings/admin_index.ctp:10
+msgid "Settings"
+msgstr "AC003설정"
+
+#: ChatPlugin.php:40
+#: View/ChatMonitor/admin_index.ctp:9
+msgid "Monitor"
+msgstr "AC004관찰"
+
+#: ChatPlugin.php:41
+#: View/ChatLogs/admin_index.ctp:10
+msgid "Logs"
+msgstr "AC005로그"
+
+#: ChatPlugin.php:42
+#: View/ChatPermissions/admin_index.ctp:8
+msgid "Permission"
+msgstr "AC006허가"
+
+#: ChatPlugin.php:43
+#: View/ChatReports/admin_index.ctp:8
+msgid "Report"
+msgstr "AC007신고"
+
+#: ChatPlugin.php:44
+#: View/ChatErrors/admin_index.ctp:8
+msgid "Error"
+msgstr "AC008오류"
+
+#: Controller/ChatAppController.php:33
+msgid "Access denied"
+msgstr "AC009접근 거부"
+
+#: Controller/ChatLogsController.php:49
+msgid "No Results"
+msgstr "AC010결과가 없습니다"
+
+#: Controller/ChatLogsController.php:70
+msgid "Chats Logs"
+msgstr "AC011채팅 로그"
+
+#: Controller/ChatLogsController.php:87
+msgid "Rooms have been deleted"
+msgstr "AC012대화방이 삭제되었습니다"
+
+#: Controller/ChatReportsController.php:15
+msgid "Chats Manager"
+msgstr "AC013채팅 관리자"
+
+#: Controller/ChatReportsController.php:32
+msgid "Reports have been deleted"
+msgstr "AC014신고가 삭제되었습니다"
+
+#: Controller/ChatSettingsController.php:59
+#: Controller/ChatsController.php:173
+msgid "You need to login first"
+msgstr "AC015먼저 로그인 하셔야 합니다"
+
+#: Controller/ChatsController.php:177
+msgid "You are not in this room"
+msgstr "AC016회원님은 이 대화방에 참여하지 않았습니다"
+
+#: View/ChatErrors/admin_index.ctp:3
+msgid "Chat Error"
+msgstr "AC017채팅 오류"
+
+#: View/ChatLogs/admin_index.ctp:5
+msgid "Chat Logs"
+msgstr "AC018채팅 로그"
+
+#: View/ChatLogs/admin_index.ctp:23
+msgid "Search by username or email"
+msgstr "AC019회원이륾 또는 이메일로 검색"
+
+#: View/ChatLogs/admin_index.ctp:34
+#: View/ChatReports/admin_index.ctp:38
+msgid "ID"
+msgstr "AC020ID"
+
+#: View/ChatLogs/admin_index.ctp:35
+#: View/ChatReports/admin_index.ctp:40
+msgid "Room"
+msgstr "AC021대화방"
+
+#: View/ChatLogs/admin_index.ctp:36
+msgid "Created"
+msgstr "AC022생성됨"
+
+#: View/ChatLogs/admin_messages.ctp:28
+msgid "Back"
+msgstr "AC023뒤로가기"
+
+#: View/ChatMonitor/admin_index.ctp:4
+msgid "Chat Monitor"
+msgstr "AC024채팅 모니터"
+
+#: View/ChatPermissions/admin_index.ctp:3
+msgid "Chat Permission"
+msgstr "AC025채팅 허가"
+
+#: View/ChatPermissions/admin_index.ctp:14
+msgid "This plugin supports  settings are applied on a per member level .  You can go to %s to do it"
+msgstr "AC026해당 플러그인은 지원합니다. 설정은 회원별 등급에 따라 적용됩니다. %s로 이동하여 해당 작업을 수행할 수 있습니다"
+
+#: View/ChatPermissions/admin_index.ctp:14
+msgid "User Roles"
+msgstr "AC027회원 등급"
+
+#: View/ChatPermissions/admin_index.ctp:16
+msgid "Notice that \"Guest\" Role is not allowed to see or use chat messages."
+msgstr "AC028\"손님\" 등급은 채팅 메세지를 보거나 사용할 수 없습니다"
+
+#: View/ChatReports/admin_index.ctp:3
+msgid "Chat Report"
+msgstr "AC029채팅 신고"
+
+#: View/ChatReports/admin_index.ctp:15
+msgid "Are you sure you want to delete these reports"
+msgstr "AC030해당 신고를 삭제하시겠습니까?"
+
+#: View/ChatReports/admin_index.ctp:16
+msgid "Delete"
+msgstr "AC031삭제"
+
+#: View/ChatReports/admin_index.ctp:23
+msgid "Search by reason"
+msgstr "AC032사유로 검색"
+
+#: View/ChatReports/admin_index.ctp:39
+msgid "Reason"
+msgstr "AC033사유"
+
+#: View/ChatReports/admin_index.ctp:41
+msgid "Reported By"
+msgstr "AC034신고되었습니다"
+
+#: View/ChatReports/admin_index.ctp:42
+msgid "Date"
+msgstr "AC035날짜"
+
+#: View/ChatSettings/admin_index.ctp:5
+msgid "Chat Settings"
+msgstr "AC036채팅 설정"
+
+#: View/ChatSettings/blocking.ctp:5;46
+msgid "Unblock"
+msgstr "AC037차단해제"
+
+#: View/ChatSettings/blocking.ctp:28
+msgid "Block Settings"
+msgstr "AC038차단 설정"
+
+#: View/ChatSettings/blocking.ctp:36
+msgid "Once you block someone, that person can no longer  start a conversation with you"
+msgstr "AC039다른 회원을 차단할 경우 더이상 그 회원과 대화를 할 수 없습니다"
+
+#: View/Chats/admin_index.ctp:5
+msgid "Chat General"
+msgstr "AC040일반 채팅"
+
+#: View/Chats/messages.ctp:11
+msgid "Enter username to search"
+msgstr "AC041회원이름을 입력하여 검색"
+
+#: View/Helper/MessageHelper.php:30
+msgid "added "
+msgstr "AC042추가됨"
+
+#: View/Helper/MessageHelper.php:33
+msgid "left the conversation"
+msgstr "AC043대화를 떠나셨습니다"
+
+#: View/Helper/MessageHelper.php:45
+msgid "send a file"
+msgstr "AC044파일 보내기"
+
+#: For setting
+msgid "Disable MooChat"
+msgstr "AC045채팅 비활성화"
+
+msgid "Chat Server URL"
+msgstr "AC046채팅 서버 URL"
+
+msgid "Hide offline users in Who's Online list?"
+msgstr "AC047온라인 회원중 오프라인 사용자 숨기기"
+
+msgid "Auto-open chatbox when a new message arrives"
+msgstr "AC048새 메세지를 받으면 채팅 박스 자동 열기"
+
+msgid "Beep on arrival of all messages?"
+msgstr "AC049새 메세지를 받을 시 깜박거림"
+
+msgid "If set to yes, MooChat bar will be hidden in mobile devices"
+msgstr "AC050"예"로 설정하면 모바일 장치에서 채팅바가 숨겨집니다"
+
+msgid "Load bar in offline mode for all first time users"
+msgstr "AC051모든 처음 사용자는 오프라인 모드로 실행합니다"
+
+msgid "Number of messages that are fetched when load earlier messages"
+msgstr "AC052이전 메세지를 로딩할 때 가져오는 메세지 갯수"
+
+msgid "Number of messages that are fetched when chat window is opened for the first time"
+msgstr "AC053채팅 창을 처음 열 때 가져오는 메세지 갯수"
+
+msgid "This feature will temporarily disable MooChat on your site."
+msgstr "AC054이 기능은 사이트에서 일시적으로 채팅을 사용하지 않도록 설정합니다"
+
+msgid "If MooChat is not working on your site, your chat server URL might be incorrect or your chat server is down"
+msgstr "AC055사이트에서 채팅이 작동하지 않는 경우 채팅 서버 URL이 잘못되었거나 채팅 서버가 다운되었을 수 있습니다"
+
+msgid "Number of messages that are fetched when chat window is opened for the first time . Notice that it must be greater than 10"
+msgstr "AC056채팅 창을 처음 열 때 가져오는 메세지 갯수입니다. 10보다 커야한다는 점을 주의하십시요"
+
+msgid "Chat"
+msgstr "AC057채팅"
+
+msgid "Account Deleted"
+msgstr "AC058계정 삭제됨"
+
+msgid "Turn on messages notifications"
+msgstr "AC059메세지 알림 켜기"
+
+msgid "Conversation notifications is replaced by chat notifications"
+msgstr "AC060대화 알림이 채팅 알림으로 대체됩니다"
+
+msgid "Help"
+msgstr "AC061도움"
+
+# Begin Help section #
+msgid "Topics"
+msgstr "AC062토픽"
+
+msgid "Chat overview"
+msgstr "AC063채팅 개요"
+
+msgid "Troubleshooting"
+msgstr "AC064문제해결"
+
+msgid "Changelogs"
+msgstr "AC065변경 로그"
+
+msgid "1.0"
+msgstr "AC0661.0"
+
+msgid "1.1"
+msgstr "AC0671.1"
+
+msgid "1.2"
+msgstr "AC0681.2"
+
+msgid "mooChat is a Live Chat solution for mooSocial.It allows members to converse and exchange contents in real-time.mooChat is built using Node.js and ReactJS which provide excellent performance and minimal resources consumption compare to the old technology AJAX chat products."
+msgstr "AC069mooChat은 mooSocial을 위한 라이브 채팅 솔류션입니다. 회원들이 실시간으로 컨텐츠를 주고받을 수 있게 해줍니다. "
+
+msgid "Compatibility"
+msgstr "AC070호환성"
+
+msgid "mooSocial  2.4.x, Mobile apps"
+msgstr "AC071mooSocial 2.4.x, 모바일 앱"
+
+msgid "Requirement"
+msgstr "AC072조건"
+
+msgid "Node.js ( We recommend v4.4.7 or above )"
+msgstr "AC073Node.js (v4.4.7 이상 버전 추천)"
+
+msgid "Product Version"
+msgstr "AC074상품 버전"
+
+msgid "How to set up Chat server"
+msgstr "AC075채팅 서버 세팅하는 방법"
+
+msgid "New features will be added"
+msgstr "AC076새로운 기능이 추가될 예정입니다"
+
+msgid "Make sure Node.JS is installed on your server ( We recommend v4.4.7 or above )"
+msgstr "AC077Mode.JS가 서버에 설치되었는지 확안하십시요 (v4.4.7 버전 이상 추천)"
+
+msgid "Connecting your server via SSH, go to mooSite/app/Plugin/Chat/webroot/js/server directory and  install module dependencies with npm :"
+msgstr "AC078SSH를 통해 서버를 연결함. MooSite/app/Plugin/Chat/webroot/js/server directory로 이동 후 npm을 사용하여 module dependencies를 설치하십시요"
+
+msgid "After installing the dependencies , you can test the chat server by using the node command"
+msgstr "AC079dependenceis를 설치 후 node 커멘드를 이용하여 채팅 서버를 시험할 수 있습니다"
+
+msgid "In case it works , you need to kill the  application which is started in step 3  and we will focus on running it as a service  so that they will automatically restart on reboot or failure, and can safely be used in a production environment.To do that , we recommend installing PM2 with npm command"
+msgstr "AC080작동하는 경우, 3번째 단계에서 시작하는 어플리케이션을 삭제하셔야하며, 재부팅이나 오류 시 자동으로 다시 시작되고 안전하게 사용될 수 있도록 서비스 제공에 초점을 맞추겠습니다. 이 작업을 수행하려면 npm 명령을 사용하여 PM2 설치해야합니다.. "
+
+msgid "After that , type next command"
+msgstr "AC081이후 다음 커맨드를 입력하십시요"
+
+msgid "Notice that in case you can not install pm2 , you can run chat as background service with the node command %s"
+msgstr "AC082pm2를 설치할 수 없는 경우 %s 노트 명령을 사용하여 백그라운드 서비스로 채팅을 실행할 수 있습니다"
+
+msgid "Video conference"
+msgstr "AC083화상 회의"
+
+msgid "Now your chat server is ready as %s"
+msgstr "AC084이제 채팅 서버가 %s로 준비되었습니다"
+
+msgid "Please go to: Admin Dashboard >>> Plugins Manager >>> Chat >>> Chat Settings  then enter the chat server URL by using the url %s"
+msgstr "AC085관리자 현황판 >>> 플러그인 관리자 >>> 채팅 >>> 채팅 설정으로 이동하시고 url %s을 사용하여 채팅 서버 URL을 입력하십시요"
+
+msgid "For more information , you can see %s"
+msgstr "AC086자세한 내뇬은 %s을(를) 참조하십시요."
+
+msgid "How to change chat server's listening port"
+msgstr "AC087채팅 서버의 수신 포트를 변경하는 방법"
+
+msgid "How to use HTTPS(SSL/TLS) with chat server"
+msgstr "AC088HTTPS (SSL/TLS)를 채팅 서버와 사용 하는 방법"
+
+msgid "Video conference"
+msgstr "AC089화상 회의"
+
+msgid "If you want to run chat server on a port number XXXX , you can configure it in the file mooSite/app/Plugin/Chat/webroot/js/server/ChatApp.js. Find this line"
+msgstr "AC090포트 번호 XXXX에서 채팅 서버를 실행하려면 mooSite/app/Plugin/Chat/webroot/js/server/ChatApp.js 파일에서 설정하십시요"
+
+msgid "and change it like the line bellow"
+msgstr "AC091아래 줄과 같이 변경하십시요"
+
+msgid "Your are done . Test your chat server to make sure that it works right . Notice that you need to restart the chat server by using pm2 command"
+msgstr "AC092끝났습니다. 채팅 서버를 테스트하여 올바르게 작동하는지 확인하십시요. pm2명령을 사용하여 채팅 서버를 재시작해야 합니다"
+
+msgid "or go to mooSite/app/Plugin/Chat/webroot/js/server directory"
+msgstr "AC093또는 mooSite/app/Plugin/Chat/webroot/js/server directory로 이동하십시요"
+
+msgid "Friends list"
+msgstr "AC094친구 목록"
+# End  Help  section #
+
+msgid "STUN/TURN Server"
+msgstr "AC095STUN/TURN 서버"
+
+msgid "Video Conferencing"
+msgstr "AC096화상 회의"
+
+msgid "Google Cloud Message - Sever API Key"
+msgstr "AC097구글 클라우드 메세지 - 서버 API 키"
+
+msgid "Google Cloud Message - Sender ID"
+msgstr "AC098구글 클라우드 메세지 - 발신자 ID"
+
+msgid "Please select time"
+msgstr "AC099시간을 선택해주십시요"
+
+msgid "Successfully cleared old messages."
+msgstr "AC100오래된 메세지를 성공적으로 삭제했습니다"
+
+msgid "Something went wrong! Please try again."
+msgstr "AC101무엇이 잘못되었습니다. 다시 시도해주십시요"
+
+msgid "Chat Help"
+msgstr "AC102채팅 도움말"
+
+msgid "Clear Messages"
+msgstr "AC103메세지 삭제"
+
+msgid "Before 24 weeks from now"
+msgstr "AC10424주전"
+
+msgid "Before 12 weeks from now"
+msgstr "AC10512주전"
+
+msgid "Before 4 weeks from now"
+msgstr "AC1064주전"
+
+msgid "Before 3 weeks from now"
+msgstr "AC1073주전"
+
+msgid "Before 1 week from now"
+msgstr "AC1081주일전"
+
+msgid "Select"
+msgstr "AC109선택"
+
+msgid "Are you sure you want to clear old messages?"
+msgstr "AC110오래된 메세지를 삭제하시겠습니까?"
+
+msgid "Clearing"
+msgstr "AC111삭제"
+
+msgid "Invalid STUN/TURN server format"
+msgstr "AC112잘못된 SUN/TURN 서버 형식"
+
+msgid "All chat history"
+msgstr "AC113모든 채팅 기록"
+
+msgid "Chat history with"
+msgstr "AC114채팅 기록을"

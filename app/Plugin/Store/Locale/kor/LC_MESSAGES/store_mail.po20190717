@@ -1,0 +1,35 @@
+msgid "_EMAIL_STORE_ORDER_TITLE_"
+msgstr "d0001매장 발주 이메일"
+
+msgid "_EMAIL_STORE_ORDER_DESCRIPTION_"
+msgstr "d0002매장 발주 이메일입니다."
+
+msgid "_EMAIL_EMAIL_TO_FRIEND_TITLE_"
+msgstr "d0003 친구에게 보낸 이메일 저장"
+
+msgid "_EMAIL_EMAIL_TO_FRIEND_DESCRIPTION_"
+msgstr "d0004 친구에게 보낸 이메일 저장"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_REMINDER_TITLE_"
+msgstr "d0005 제품의 만료 기한일 알림 이메일 저장"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_REMINDER_DESCRIPTION_"
+msgstr "d0006 제품의 만료 기한일 알림 이메일"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_TITLE_"
+msgstr "d0007 제품 만료일 알림 이메일 저장"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_DESCRIPTION_"
+msgstr "d0008 제품 만료일 알림 이메일"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_REMINDER_TITLE_"
+msgstr "d0009 매장 만료일 알림 이메일 저장"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_REMINDER_DESCRIPTION_"
+msgstr "d0010 매장 만료일 알림 이메일"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_TITLE_"
+msgstr "d0011 매장 만료일 알림 이메일 저장"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_DESCRIPTION_"
+msgstr "d0012 매장 만료일 이메일"

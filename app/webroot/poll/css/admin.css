@@ -1,0 +1,33 @@
+.poll_yes
+{
+	background-image: url('../img/yes.png');
+	width: 16px;
+	height: 16px;
+  	display: block;
+  	cursor: pointer;
+}
+.poll_no
+{
+	background-image: url('../img/no.png');
+	width: 16px;
+	height: 16px;
+  	display: block;
+  	cursor: pointer;
+}
+
+.feature
+{
+	background-image: url('../img/featured.png');
+	width: 16px;
+	height: 16px;
+  	display: block;
+  	cursor: pointer;
+}
+.unfeature
+{
+	background-image: url('../img/un_featured.png');
+	width: 16px;
+	height: 16px;
+  	display: block;
+  	cursor: pointer;
+}

@@ -1,0 +1,3698 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "c0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: StorePlugin.php:445
+#: View/Stores/admin_index.ctp:29
+msgid "Sellers"
+msgstr "c0002판매자"
+
+#: StorePlugin.php:446
+#: Controller/StoreCategoriesController.php:32;69
+#: View/StoreCategories/admin_create.ctp:25
+#: View/StoreCategories/admin_index.ctp:34
+msgid "Store Categories"
+msgstr "c0003매장 카테고리"
+
+#: StorePlugin.php:447
+#: Controller/ProductsController.php:39
+#: Lib/StoreListener.php:280
+#: View/Elements/manager_menu.ctp:53
+#: View/Elements/list/categories_list.ctp:17
+#: View/Elements/mobile/mobile_menu.ctp:39
+#: View/Orders/checkout.ctp:233
+#: View/Products/admin_index.ctp:32
+#: View/Stores/product.ctp:50
+#: View/Stores/products.ctp:51
+msgid "Products"
+msgstr "c0004상품"
+
+#: StorePlugin.php:448
+#: Controller/OrdersController.php:43
+#: View/Elements/manager_menu.ctp:84
+#: View/Elements/mobile/mobile_manager_menu.ctp:46
+#: View/Elements/mobile/mobile_menu.ctp:57
+#: View/Orders/admin_index.ctp:54
+msgid "Orders"
+msgstr "c0005주문"
+
+#: StorePlugin.php:449
+#: View/ProductReports/admin_index.ctp:17
+msgid "Reports"
+msgstr "c0006보고"
+
+#: StorePlugin.php:450
+#: View/StorePackages/admin_create.ctp:17
+#: View/StorePackages/admin_index.ctp:16
+msgid "Packages"
+msgstr "c0007포장단위"
+
+#: StorePlugin.php:451
+#: View/StorePayments/admin_create.ctp:19
+#: View/StorePayments/admin_index.ctp:16
+#: View/Stores/manager_index.ctp:65
+msgid "Payments"
+msgstr "c0008지불"
+
+#: StorePlugin.php:452
+#: View/StoreShippingMethods/admin_create.ctp:19
+#: View/StoreShippingMethods/admin_index.ctp:16
+msgid "Shipping Methods"
+msgstr "c0009배송방법"
+
+#: StorePlugin.php:453
+#: View/Elements/manager_menu.ctp:98
+#: View/StoreTransactions/admin_index.ctp:16
+msgid "Transactions"
+msgstr "c0010결제 내역"
+
+#: StorePlugin.php:454
+#: View/StoreSettings/admin_index.ctp:59
+msgid "Settings"
+msgstr "c0011설정"
+
+#: Controller/AttributesController.php:35
+#: View/Attributes/manager_create.ctp:26
+#: View/Attributes/manager_index.ctp:30;47
+#: View/Elements/manager_menu.ctp:30
+msgid "Manage Attributes"
+msgstr "c0012 속성 관리"
+
+#: Controller/AttributesController.php:43
+msgid "Attribute not found"
+msgstr "c0013 속성을 찾을 수 없습니다."
+
+#: Controller/AttributesController.php:70
+#: View/Attributes/manager_create.ctp:33;44
+msgid "Edit Attribute"
+msgstr "c0014 속성편집"
+
+#: Controller/AttributesController.php:70
+#: View/Attributes/manager_create.ctp:35;46
+#: View/Elements/manager_menu.ctp:33
+msgid "Create Attribute"
+msgstr "c0015 속성 생성"
+
+#: Controller/AttributesController.php:103
+#: Controller/OrderDetailsController.php:53
+#: Controller/OrdersController.php:103;205
+#: Controller/ProducersController.php:44
+#: Controller/ProductsController.php:286;592
+#: Controller/StoreCategoriesController.php:116
+#: Controller/StorePackagesController.php:96
+#: Controller/StorePaymentsController.php:68
+#: Controller/StoreShippingMethodsController.php:64
+#: Controller/StoreShippingZonesController.php:71
+#: Controller/StoreShippingsController.php:112
+#: Controller/StoresController.php:368
+msgid "Successfully saved"
+msgstr "c0016저장완료!"
+
+#: Controller/AttributesController.php:109
+#: Controller/OrdersController.php:209;999
+#: Controller/ProducersController.php:48
+#: Controller/ProductsController.php:293;598
+#: Controller/StoreCategoriesController.php:120
+#: Controller/StorePackagesController.php:100;174;261
+#: Controller/StorePaymentsController.php:72
+#: Controller/StoreShippingMethodsController.php:68
+#: Controller/StoreShippingZonesController.php:75
+#: Controller/StoresController.php:142;375
+#: Controller/WishlistsController.php:61;83
+msgid "Something went wrong, please try again"
+msgstr "c0017처리되지않았습니다.. 다시 시도해주시기 바랍니다."
+
+#: Controller/AttributesController.php:123;169
+#: Controller/ProducersController.php:85;130
+#: Controller/ProductReportsController.php:63
+#: Controller/ProductsController.php:101;470;653
+#: Controller/StoreCategoriesController.php:146;159
+#: Controller/StorePackagesController.php:52
+#: Controller/StorePaymentsController.php:101
+#: Controller/StoreShippingZonesController.php:196
+#: Controller/StoreShippingsController.php:182
+#: Controller/StoreTransactionsController.php:55
+#: Controller/StoresController.php:99
+msgid "Successfully updated"
+msgstr "c0018업데이트완료!"
+
+#: Controller/AttributesController.php:137
+msgid "Please delete sub attributes of %s first"
+msgstr "c0019%s의 하위 attributes를 먼저 삭제해 주십시요."
+
+#: Controller/AttributesController.php:142
+#: Controller/OrderDetailsController.php:70
+#: Controller/OrdersController.php:225
+#: Controller/ProducersController.php:103
+#: Controller/ProductReportsController.php:76
+#: Controller/ProductsController.php:121;490
+#: Controller/StoreCategoriesController.php:187
+#: Controller/StoreShippingZonesController.php:170
+#: Controller/StoreTransactionsController.php:68
+msgid "Successfully deleted"
+msgstr "c0020삭제완료!"
+
+#: Controller/AttributesController.php:207
+msgid "Duplicate value"
+msgstr "c0021중복되었습니다."
+
+#: Controller/CartsController.php:19
+msgid "You don't have permission to view this page."
+msgstr "c0022해당 페이지에 대한 접근권한이 없습니다."
+
+#: Controller/CartsController.php:48
+#: View/Carts/index.ctp:36
+#: View/Orders/checkout.ctp:46
+#: View/Orders/checkout_complete.ctp:22
+msgid "Carts"
+msgstr "c0023카트"
+
+#: Controller/CartsController.php:82
+#: Controller/OrdersController.php:380
+msgid "You don't have permission to buy product."
+msgstr "c0024상품 구입권한이 없습니다."
+
+#: Controller/CartsController.php:93
+msgid "Product does not exist"
+msgstr "c0025상품이 없습니다."
+
+#: Controller/CartsController.php:97
+msgid "This product is not available to buy"
+msgstr "c0026아직 판매가 시작되지 않은 상품입니다."
+
+#: Controller/CartsController.php:102
+msgid "Please select "
+msgstr "c0027어느 것을 선택하시겠습니까?"
+
+#: Controller/CartsController.php:113
+#: View/Elements/add_to_cart.ctp:11
+msgid "Product was added to cart"
+msgstr "c0028상품이 카트에 추가 되었습니다."
+
+#: Controller/CartsController.php:130
+msgid "Cart has been updated"
+msgstr "c0029카트가 업데이트되었습니다."
+
+#: Controller/CartsController.php:137
+msgid "Cart has been cleared"
+msgstr "c0030카트를 비웠읍니다."
+
+#: Controller/CartsController.php:145
+msgid "Item has been removed"
+msgstr "c0031아이템을 제외시겼습니다."
+
+#: Controller/OrderDetailsController.php:76
+msgid "Delete Failed"
+msgstr "c0032삭제실패!"
+
+#: Controller/OrdersController.php:60
+#: View/Elements/manager_menu.ctp:88
+#: View/Orders/admin_index.ctp:58
+#: View/Orders/manager_create.ctp:27
+#: View/Orders/manager_index.ctp:35;42
+msgid "Manage Orders"
+msgstr "c0033주문관리"
+
+#: Controller/OrdersController.php:70;86
+#: View/Orders/manager_create.ctp:34;57
+msgid "Edit Order"
+msgstr "c0034주문편집"
+
+#: Controller/OrdersController.php:77;86
+#: View/Elements/manager_menu.ctp:91
+#: View/Orders/manager_create.ctp:36;59
+msgid "Create Order"
+msgstr "c0035주문생성"
+
+#: Controller/OrdersController.php:136
+msgid "Please select shipping"
+msgstr "c0036배송방법을 정해주십시요."
+
+#: Controller/OrdersController.php:153
+msgid "Please add at least a product"
+msgstr "c0037 한 개 이상의 상품을 추가하여 주십시요."
+
+#: Controller/OrdersController.php:234;263;304
+msgid "Order not found"
+msgstr "c0038 주문을 찾지 못했습니다."
+
+#: Controller/OrdersController.php:253
+msgid "Status has been changed."
+msgstr "c0039 상태가 변경되었습니다."
+
+#: Controller/OrdersController.php:255
+msgid "Cannot change status, please try again."
+msgstr "c0040 상태를 변경하지 못했습니다. 다시 시도하여 주십시요."
+
+#: Controller/OrdersController.php:331
+msgid "No products to checkout"
+msgstr "c0041 결제 할 상품이 없습니다."
+
+#: Controller/OrdersController.php:343
+msgid "No products to checkout for "
+msgstr "c0042 결제 할 상품이 없습니다."
+
+#: Controller/OrdersController.php:347;611
+msgid "Some products are not available or out of stock, please remove out of cart: "
+msgstr "c0043 일부 상품이 재고가 단종되었거나 품절입니다. 장바구니에서 삭제해주십시요."
+
+#: Controller/OrdersController.php:366
+#: View/Carts/index.ctp:39
+#: View/Orders/checkout.ctp:49
+#: View/Orders/checkout_complete.ctp:25
+msgid "Billing & Payment"
+msgstr "c0044 청구 및 지불"
+
+#: Controller/OrdersController.php:390
+msgid "No products to checkout, please try again!"
+msgstr "c0045 결제 할 상품이 없습니다. 다시 시도해 주십시요."
+
+#: Controller/OrdersController.php:394
+msgid "Payment method not found! Please try again."
+msgstr "c0046 결제 수단을 찾을 수 없습니다! 다시 시도해 주십시요."
+
+#: Controller/OrdersController.php:398
+#: Controller/StoresController.php:309
+msgid "Paypal config is empty, please contact site admin for more details."
+msgstr "c0047 페이팔 설정이 완료되지 않았습니다. 자세한 내용은 사이트 관리자에게 문의하십시요."
+
+#: Controller/OrdersController.php:402
+msgid "To make an online transaction, order total for each store must be greater than 0"
+msgstr "c0048 온라온 결제를 위해서 각 매장의 주문 합계가 0보다 커야 합니다."
+
+#: Controller/OrdersController.php:417
+msgid "This store does not support this payment. Please try another one."
+msgstr "c0049 이 매장은 해당 결제 방식을 지원하지 않습니다. 다른 방식을 선택해 주십시요."
+
+#: Controller/OrdersController.php:444
+msgid "The following stores do not accept %s: %s. Please select the correct payment option or remove items to continue. Click %s to get back to cart."
+msgstr "c0050 다음 매장은 %s 을(를) 받지 않습니다: %s. 올바른 결제 방식을 선택하거나 항목을 삭제하십시요. 장바구니로 돌아가려면 %s 을(를) 클릭하십시요."
+
+#: Controller/OrdersController.php:450
+msgid "The following stores do not accept %s yet: %s. Please select the correct payment option or remove items to continue. Click %s to get back to cart."
+msgstr "c0051 다음 매장은 %s 을(를) 아직 받지 않습니다: %s. 올바른 결제 방식을 선택하거나 항목을 삭제하십시요. 장바구니로 돌아가려면 %s 을(를) 클릭하십시요."
+
+#: Controller/OrdersController.php:455
+#: View/StoreShippings/manager_create.ctp:90
+msgid "here"
+msgstr "c0052 여기"
+
+#: Controller/OrdersController.php:492
+msgid "Valid paypal."
+msgstr "c0053 올바른 페이팔"
+
+#: Controller/OrdersController.php:496;904;953
+#: Controller/ProductReportsController.php:116;168
+#: Controller/ProductsController.php:693;734
+msgid "Something went wrong, please try again."
+msgstr "c0054 문제가 발생했습니다. 다시 시도하십시요."
+
+#: Controller/OrdersController.php:520;900
+msgid "Successfully checkout."
+msgstr "c0055 결제 완료"
+
+#: Controller/OrdersController.php:578
+msgid "Please select shipping for store %s"
+msgstr "c0056 해당 매장의 배송 방법을 선택해 주십시요: %s."
+
+#: Controller/OrdersController.php:607
+msgid "Error! There are no products to checkout for store: %s."
+msgstr "c0057 오류! 해당 매장의 장바구니가 비어있습니다: %s "
+
+#: Controller/OrdersController.php:689;1004
+msgid "You checkout was cancelled."
+msgstr "c0058 결제가 취소되었습니다."
+
+#: Controller/OrdersController.php:705;997
+msgid "You transaction was completed and your order is being processed."
+msgstr "c0059 결제가 완료되었습니다. 주문이 처리 중입니다."
+
+#: Controller/OrdersController.php:707
+msgid "Page not found."
+msgstr "c0060 페이지를 찾을 수 없습니다."
+
+#: Controller/OrdersController.php:828
+msgid "You don't have permission to checkout by credit"
+msgstr "c0061 포인트로 결제할 권한이 없습니다."
+
+#: Controller/OrdersController.php:842
+msgid "Your current credit is %s. You do not have enough credits to buy product. Please buy more credits <a href=\"%s\" target=\"_blank\">here</a>"
+msgstr "c0062 현제 포인트는 %s. 포인트가 부족하여 상품을 구매할 수 없습니다. 포인트를 더 구매햐여 주십시요 <a href=\"%s\" target=\"_blank\">here</a>"
+
+#: Controller/OrdersController.php:868
+msgid "Can not checkout by credit for store %s. Please try again!"
+msgstr "c0063 해당 매장은 포인트로 결제할 수 없습니다: %s. 다시 시도해 주십시요."
+
+#: Controller/ProducersController.php:16;24
+#: View/Producers/create.ctp:23
+#: View/Producers/manager_create.ctp:33;49
+msgid "Edit Producer"
+msgstr "c0064 제조회사 편집"
+
+#: Controller/ProducersController.php:19;24
+#: View/Elements/manager_menu.ctp:47
+#: View/Producers/manager_create.ctp:35;51
+msgid "Create Producer"
+msgstr "c0065 제조회사 등록"
+
+#: Controller/ProducersController.php:61
+#: View/Elements/manager_menu.ctp:44
+#: View/Producers/manager_create.ctp:26
+#: View/Producers/manager_index.ctp:26;33
+msgid "Manage Producers"
+msgstr "c0066 제조회사 관리"
+
+#: Controller/ProducersController.php:75
+msgid "Producer has been deleted"
+msgstr "c0067 제조회사가 삭제되었습니다."
+
+#: Controller/ProductReportsController.php:21
+msgid "Product Reports"
+msgstr "c0068 상품 보고서"
+
+#: Controller/ProductReportsController.php:84;123
+#: Controller/ProductsController.php:672
+#: Controller/StoreAppController.php:42;46
+#: Controller/StoresController.php:273
+#: Controller/WishlistsController.php:36
+msgid "Please login to continue"
+msgstr "c0069 계속 하시려면 로그인하십이요."
+
+#: Controller/ProductReportsController.php:100;140
+#: Controller/ProductsController.php:117;153;486;676;708;728;764
+#: Controller/StorePackagesController.php:123
+#: Controller/StoreReviewsController.php:62
+#: Controller/StoresController.php:386;408
+#: Controller/WishlistsController.php:40;69
+msgid "상품을 찾을 수 없습니다."
+msgstr "c0070"
+
+#: Controller/ProductReportsController.php:104
+msgid "You had already reported this product."
+msgstr "c0071 해당 상품은 이미 신고처리 되었습니다."
+
+#: Controller/ProductReportsController.php:108
+#: Controller/StoreReviewsController.php:317
+msgid "Reason can not be empty"
+msgstr "c0072 사유는 비어 있을 수 없습니다."
+
+#: Controller/ProductReportsController.php:114
+msgid "Successfully reported."
+msgstr "c0073 신고 완료"
+
+#: Controller/ProductReportsController.php:144
+msgid "Recipients is required"
+msgstr "c0074 수령인이 필요합니다."
+
+#: Controller/ProductReportsController.php:148
+msgid "You are only able to send to %s recipients per request"
+msgstr "c0075 요청 당 %s 수신자에게만 보낼 수 있습니다."
+
+#: Controller/ProductReportsController.php:156
+#: Model/Store.php:validation for field email
+msgid "Invalid email"
+msgstr "c0076 잘못된 이메일 "
+
+#: Controller/ProductReportsController.php:162
+msgid "Message is required"
+msgstr "c0077 메세지를 입력하십시요."
+
+#: Controller/ProductReportsController.php:166
+msgid "Your email has been sent"
+msgstr "c0078 이메일을 보냈습니다."
+
+#: Controller/ProductUploadController.php:57
+msgid "Image width must be greater than %spx"
+msgstr "c0079 사진 너비는 %spx 보다 넓어야 합니다."
+
+#: Controller/ProductsController.php:145
+#: View/Elements/manager_menu.ctp:57
+#: View/Products/admin_index.ctp:36
+#: View/Products/manager_create.ctp:36
+#: View/Products/manager_index.ctp:30;37
+msgid "Manage Products"
+msgstr "c0080 상품 관리"
+
+#: Controller/ProductsController.php:190
+#: View/Products/manager_create.ctp:43;54
+msgid "Edit Product"
+msgstr "c0081 상품 편집"
+
+#: Controller/ProductsController.php:190
+#: View/Elements/manager_menu.ctp:60
+#: View/Products/manager_create.ctp:45;56
+msgid "Create Product"
+msgstr "c0082 상품등록"
+
+#: Controller/ProductsController.php:224
+msgid "Please upload file"
+msgstr "c0083 파일을 업로드하여 주십시요."
+
+#: Controller/ProductsController.php:228
+msgid "Please input product link"
+msgstr "c0084 상품 링크를 삽입해 주십시요."
+
+#: Controller/ProductsController.php:280
+msgid "Successfully saved. Your product will be published after approved."
+msgstr "c0085 저장 완료. 회원님의 상품은 승인후 게재됩니다."
+
+#: Controller/ProductsController.php:553
+msgid "Invalid URL. Please try again"
+msgstr "c0086 잘못된 웹주소입니다. 다시 시도해 주십시요."
+
+#: Controller/ProductsController.php:680
+msgid "You have already rated for this product."
+msgstr "c0087 해당 상품에 이미 평가하였습니다."
+
+#: Controller/ProductsController.php:691
+msgid "Thank you for your rating"
+msgstr "c0088 평가해 주셔서 감사합니다."
+
+#: Controller/ProductsController.php:701
+msgid "Please login to add this product to wishlist"
+msgstr "c0089 관심상품으로 표시하시려면 로그인하십시요."
+
+#: Controller/ProductsController.php:713
+#: View/Products/manager_video_fetch.ctp:74
+msgid "Everyone"
+msgstr "c0090 모두애개"
+
+#: Controller/ProductsController.php:714
+msgid "Friend only"
+msgstr "c0091 친구에게만"
+
+#: Controller/ProductsController.php:742
+#: Controller/StoresController.php:222
+msgid "Keyword must be greater than 3 characters"
+msgstr "c0092 키워드는 3글자 이상이어야합니다."
+
+#: Controller/ProductsController.php:768
+msgid "You don't have permission"
+msgstr "c0093 권한이 없습니다."
+
+#: Controller/ProductsController.php:772
+msgid "Please download or view link of this product on web"
+msgstr "c0094 해당 상품을 다운로드하거나 링크 보기를 하십시요."
+
+#: Controller/ProductsController.php:797
+msgid "Product type not found"
+msgstr "c0095 상품 종류를 찾지 못 했습니다."
+
+#: Controller/StoreCategoriesController.php:19;41;80
+msgid "Parent category not found"
+msgstr "c0096 상위 카테고리를 찾을 수 없습니다."
+
+#: Controller/StoreCategoriesController.php:45
+msgid "Category not found"
+msgstr "c0097 카테도리를 찾을 수 없습니다."
+
+#: Controller/StoreCategoriesController.php:173
+msgid "Please delete sub categories of %s first."
+msgstr "c0098 %s 의 하위 카테고리를 먼저 삭제해 주십시요."
+
+#: Controller/StoreCategoriesController.php:177
+msgid "Can not delete this category! Please delete related products first."
+msgstr "c0099 해당 카테고리는 삭제할 수 없습니다! 상품을 먼제 삭제해 주십시요."
+
+#: Controller/StorePackagesController.php:26;67
+msgid "Store Packages"
+msgstr "c0100 패키지 보관"
+
+#: Controller/StorePackagesController.php:59;78
+msgid "Package not found"
+msgstr "c0101 패키지를 찾을 수 없습니다."
+
+#: Controller/StorePackagesController.php:108;206
+msgid "This feature does not exist"
+msgstr "c0102 해당 기능은 존재하지 않습니다."
+
+#: Controller/StorePackagesController.php:127;214
+msgid "Payment gateway not found"
+msgstr "c0103 결제 게이트웨이를 찾을 수 없습니다."
+
+#: Controller/StorePackagesController.php:134;221
+msgid "This package is not available to buy"
+msgstr "c0104 해당 패키지는 구매할 수 없습니다."
+
+#: Controller/StorePackagesController.php:138;225
+msgid "Package price must be greater than zero. Please contact with site admin for more info."
+msgstr "c0105 패키지 금액은 0보다 커야합니다. 자세한 정보를 얻으시려면 사이트 관리자에게 문의하십시요."
+
+#: Controller/StorePackagesController.php:142;229
+msgid "Package period must be greater than zero. Please contact with site admin for more info."
+msgstr "c0106 패키지 기간은 0보다 커야합니다. 자세한 정보를 얻으시려면 사이트 관리자에게 문의하십시요."
+
+#: Controller/StorePackagesController.php:181
+msgid "Your featured product transaction has been cancelled"
+msgstr "c0107 회원님의 주요 상품 결제가 취소되었습니다."
+
+#: Controller/StorePackagesController.php:186
+msgid "Transaction has been completed. Your product will be set featured or expiration date will be expanded in minutes."
+msgstr "c0108 결제가 완료되었습니다. 상품이 주요 상품에 추가됩니다. 만료 날짜가 분 단위로 표시됩니다."
+
+#: Controller/StorePackagesController.php:210
+#: Controller/StoresController.php:180
+msgid "Store not found"
+msgstr "c0109 매장을 찾을 수 없습니다."
+
+#: Controller/StorePackagesController.php:268
+msgid "Your featured store transaction has been cancelled"
+msgstr "c0110 주요 매장의 결제가 취소되었습니다."
+
+#: Controller/StorePackagesController.php:273
+msgid "Transaction has been completed. Your store will be set featured or expiration date will be expanded in minutes."
+msgstr "c0111 결제가 완료되었습니다. 매장이 주요 매장에 추가됩니다. 만료 날짜가 분 단위로 표시됩니다."
+
+#: Controller/StorePaymentsController.php:21;39
+msgid "Store Payments"
+msgstr "c0112 결제 내역 저장"
+
+#: Controller/StorePaymentsController.php:29;50
+#: Controller/StoreShippingMethodsController.php:26;46
+msgid "Payment not found"
+msgstr "c0113 결제 내역을 찾을 수 없습니다."
+
+#: Controller/StorePaymentsController.php:95
+msgid "You must enable at least a payment"
+msgstr "c0114 하나 이상의 결제 방법을 사용해야합니다."
+
+#: Controller/StoreReviewsController.php:58
+#: View/Elements/review.ctp:4
+msgid "Login or register to post your review"
+msgstr "c0115 로그인 또는 회원가입을 하여 리뷰를 남기십시요."
+
+#: Controller/StoreReviewsController.php:66
+msgid "Review function is currently unavailable for this product"
+msgstr "c0116 해당 상품의 리뷰 기능은 현재 이용하실 수 없습니다."
+
+#: Controller/StoreReviewsController.php:73
+#: View/Elements/review.ctp:11
+msgid "Please buy product to post your review"
+msgstr "c0117 리뷰를 남기려면 상품을 구매하십시요."
+
+#: Controller/StoreReviewsController.php:77;204;277
+msgid "Review not found"
+msgstr "c0118 리뷰를 찾지 못 했습니다."
+
+#: Controller/StoreReviewsController.php:94;98
+msgid "You don't have permission to review"
+msgstr "c0119 리뷰 쓰기 권한이 없습니다."
+
+#: Controller/StoreReviewsController.php:167
+msgid "Can not post review, please try again"
+msgstr "c0120 리뷰를 작성할 수 없습니다. 다시 시도해 주십시요."
+
+#: Controller/StoreReviewsController.php:225
+msgid "Your response has been deleted."
+msgstr "c0121 회원님의 답변이 삭제되었습니다."
+
+#: Controller/StoreReviewsController.php:231
+msgid "Your review has been deleted."
+msgstr "c0122 회원님의 리뷰가 삭제되었습니다."
+
+#: Controller/StoreReviewsController.php:236
+msgid "Can not delete review, please try again"
+msgstr "c0123 리뷰를 삭제할 수 없습니다. 다시 시도해 주십시요."
+
+#: Controller/StoreReviewsController.php:273
+msgid "Login or register to continue"
+msgstr "c0124 계속하려면 로그인 또는 가입하여 주십시요."
+
+#: Controller/StoreReviewsController.php:292
+msgid "Success"
+msgstr "c0125 완료"
+
+#: Controller/StoreReviewsController.php:313
+msgid "Review or reply not found"
+msgstr "c0126 리뷰 및 답변을 찾을 수 없습니다."
+
+#: Controller/StoreReviewsController.php:328
+msgid "Duplicated report"
+msgstr "c0127 중복 신고"
+
+#: Controller/StoreReviewsController.php:337
+msgid "reported a product review"
+msgstr "c0128 상품 리뷰를 신고했습니다."
+
+#: Controller/StoreReviewsController.php:352
+msgid "Thank you! Your report has been submitted"
+msgstr "c0129 신고가 접수되었습니다. 감사합니다!"
+
+#: Controller/StoreReviewsController.php:375
+msgid "Access denied"
+msgstr "c0130 액세스 거부"
+
+#: Controller/StoreSettingsController.php:29
+msgid "Store Settings"
+msgstr "c0131 매장 설정"
+
+#: Controller/StoreShippingMethodsController.php:18;35
+msgid "Store Shipping Methods"
+msgstr "c0132 매장 배송방법"
+
+#: Controller/StoreShippingZonesController.php:11;15
+#: Controller/StoreShippingsController.php:11;15
+msgid "Page not found"
+msgstr "c0133 페이지를 찾을 수 없습니다."
+
+#: Controller/StoreShippingZonesController.php:27
+msgid "Shipping not found"
+msgstr "c0134 배송을 찾을 수 없습니다."
+
+#: Controller/StoreShippingZonesController.php:44
+#: View/StoreShippingZones/manager_create.ctp:38;54
+msgid "Edit Shipping Zone"
+msgstr "c0135 배송 지역 편집"
+
+#: Controller/StoreShippingZonesController.php:44
+#: View/Elements/manager_menu.ctp:74
+#: View/StoreShippingZones/manager_create.ctp:40;56
+msgid "Create Shipping Zone"
+msgstr "c0136 배송 지역 생성"
+
+#: Controller/StoreShippingZonesController.php:81
+msgid "Please add at least one country"
+msgstr "c0137 국가를 추가해주십시요."
+
+#: Controller/StoreShippingZonesController.php:85
+msgid "Duplicate country"
+msgstr "c0138 중복 국가"
+
+#: Controller/StoreShippingZonesController.php:149
+#: View/Elements/manager_menu.ctp:71
+#: View/StoreShippingZones/manager_create.ctp:31
+#: View/StoreShippingZones/manager_index.ctp:26;33
+msgid "Manage Shipping Zones"
+msgstr "c0139 배송 지역 관리"
+
+#: Controller/StoreShippingZonesController.php:162
+msgid "Can not delete this zone. It is being used by other items."
+msgstr "c0140 해당 지역을 삭제할 수 없습니다. 다른 상품에 포함된 지역입니다."
+
+#: Controller/StoreShippingsController.php:32
+#: View/Elements/manager_menu.ctp:77
+#: View/StoreShippings/manager_create.ctp:31
+#: View/StoreShippings/manager_index.ctp:26;33
+msgid "Manage Shippings"
+msgstr "c0141 배송 관리"
+
+#: Controller/StoreShippingsController.php:39;135
+msgid "Shipping method not found"
+msgstr "c0142 배송방법을 찾을 수 없습니다."
+
+#: Controller/StoreShippingsController.php:51
+#: View/StoreShippings/manager_create.ctp:37;49
+msgid "Edit Shipping"
+msgstr "c0143 배송 편집"
+
+#: Controller/StoreShippingsController.php:51
+msgid "Create Shipping"
+msgstr "c0144 배송 생성"
+
+#: Controller/StoreShippingsController.php:143
+msgid "Duplicate Zone"
+msgstr "c0145 중복된 지역"
+
+#: Controller/StoreTransactionsController.php:29
+msgid "Store Transactions"
+msgstr "c0146 결제 내역 저장"
+
+#: Controller/StoreTransactionsController.php:84
+#: View/StoreTransactions/admin_index.ctp:20
+#: View/StoreTransactions/manager_index.ctp:26;33
+msgid "Manage Transactions"
+msgstr "c0147 결제 내역 관리"
+
+#: Controller/StoresController.php:38;195
+#: Lib/StoreListener.php:273
+#: View/Elements/list/categories_list.ctp:23
+#: View/Elements/mobile/mobile_menu.ctp:45
+#: View/Stores/products.ctp:47
+#: View/Stores/stores.ctp:31
+msgid "Stores"
+msgstr "c0148 매장"
+
+#: Controller/StoresController.php:114
+#: View/Elements/manager_menu.ctp:20
+#: View/Elements/activity/content/create_product.ctp:38
+#: View/Elements/activity/content/create_product_share.ctp:50
+#: View/Elements/activity/content/product_share.ctp:39
+#: View/Elements/activity/share/create_product.ctp:31
+#: View/Elements/activity/share/create_product_share.ctp:31
+#: View/Elements/activity/share/product_item_detail.ctp:25
+#: View/Elements/activity/share/product_share.ctp:25
+#: View/Elements/list/search_product_list.ctp:33
+#: View/Elements/widgets/seller_info.ctp:14
+#: View/Products/admin_index.ctp:144
+#: View/Stores/my_orders.ctp:58
+msgid "Seller"
+msgstr "판매자"
+
+#: Controller/StoresController.php:139
+msgid "Seller has been deleted"
+msgstr "c0150 판매자가 삭제되었습니다."
+
+#: Controller/StoresController.php:158
+#: View/Elements/list/categories_list.ctp:30
+#: View/Stores/my_orders.ctp:42
+msgid "My Orders"
+msgstr "c0151 나의 주문"
+
+#: Controller/StoresController.php:164
+#: View/Elements/list/categories_list.ctp:35
+msgid "My Wishlist"
+msgstr "c0152 나의 관심상품"
+
+#: Controller/StoresController.php:170
+#: View/Elements/list/categories_list.ctp:40
+#: View/Elements/mobile/mobile_menu.ctp:62
+#: View/Stores/my_files.ctp:32
+msgid "My Files"
+msgstr "c0153 나의 파일"
+
+#: Controller/StoresController.php:241;277
+msgid "You don't have permission to create seller."
+msgstr "c0154 판매자 생성 권한이 없습니다."
+
+#: Controller/StoresController.php:262
+#: View/Stores/create.ctp:20
+msgid "Edit seller"
+msgstr "c0155 판매자 편집"
+
+#: Controller/StoresController.php:262
+#: View/Stores/create.ctp:20
+msgid "Create Seller"
+msgstr "c0156 판매자 생성"
+
+#: Controller/StoresController.php:282
+msgid "You are only able to create one seller account."
+msgstr "c0157 판매자 계정 하나만 생성하실 수 있습니다."
+
+#: Controller/StoresController.php:305
+msgid "Paypal email is required."
+msgstr "c0158 페이팔 이메일이 필요합니다."
+
+#: Controller/StoresController.php:319;327
+msgid "Paypal email does not exist."
+msgstr "c0159 페이팔 이메일이 존재하지 않습니다."
+
+#: Controller/StoresController.php:362
+msgid "You have successfully created seller, you can create products after this seller is approved."
+msgstr "c0160 판매지 등록 완료. 판매자 승인시 상품을 등록할 수 있습니다."
+
+#: Controller/StoresController.php:472;495
+msgid "This page cound not be found"
+msgstr "c0161 이 페이지를 찾을 수 없습니다."
+
+#: Controller/WishlistsController.php:44
+msgid "This product already exists in the wishlist!"
+msgstr "c0162 이 상품은 관심상품으로 표시하신 제품입니다."
+
+#: Controller/WishlistsController.php:48
+msgid "This product does not exist in the wishlist!"
+msgstr "c0163 이 상품은 관심상품에 들어있지 않습니다."
+
+#: Controller/WishlistsController.php:54
+msgid "Product was added to wishlist!"
+msgstr "c0164 상품이 관심상품에 추가되었습니다."
+
+#: Controller/WishlistsController.php:58
+msgid "Product was removed from wishlist!"
+msgstr "c0165 상품이 관심상품에서 제외되었습니다."
+
+#: Controller/WishlistsController.php:74
+msgid "This product does not exist in your wishlist!"
+msgstr "c0166 이 상품은 관심상품에 들어있지 않습니다."
+
+#: Controller/WishlistsController.php:81
+msgid "Successfully removed."
+msgstr "c0167 삭제 완료"
+
+#: Controller/Component/PaypalComponent.php:191
+msgid "Invalid token or playerid"
+msgstr "c0168 잘못된 토큰 또는 ID"
+
+#: Controller/Component/PaypalExpressComponent.php:128
+msgid "Data can not be empty"
+msgstr "c0169 데이터는 비워 둘 수 없습니다."
+
+#: Controller/Component/PaypalExpressComponent.php:221;288
+msgid "Invalid token or payerid"
+msgstr "c0170 잘못된 토큰 또는 ID"
+
+#: Controller/Component/PaypalExpressComponent.php:366
+msgid "Site profit"
+msgstr "c0171 사이트 이익"
+
+#: Lib/StoreListener.php:78
+#: View/Elements/product_quickview.ctp:136
+#: View/Elements/list/product_list.ctp:86;173
+#: View/Elements/widgets/related_product.ctp:98
+#: View/Stores/product.ctp:195
+msgid "Add to wishlist"
+msgstr "c0172 관심상품으로 표시"
+
+#: Lib/StoreListener.php:79
+#: View/Elements/product_quickview.ctp:132
+#: View/Elements/list/product_list.ctp:82;169
+#: View/Elements/widgets/related_product.ctp:94
+#: View/Stores/product.ctp:191
+msgid "Remove from wishlist"
+msgstr "c0173 관심상품에서 삭제"
+
+#: Lib/StoreListener.php:80
+#: View/Elements/product_quickview.ctp:146;150
+#: View/Elements/list/product_list.ctp:93;97;182;186
+#: View/Elements/widgets/related_product.ctp:105;109
+#: View/Stores/product.ctp:215;220
+msgid "You Liked This Product"
+msgstr "c0174 해당 상품을 좋아합니다."
+
+#: Lib/StoreListener.php:81
+#: View/Elements/product_quickview.ctp:146;150
+#: View/Elements/list/product_list.ctp:93;97;182;186
+#: View/Elements/widgets/related_product.ctp:105;109
+#: View/Stores/product.ctp:215;220
+msgid "Like This Product"
+msgstr "c0175 해당 상품 좋아요"
+
+#: Lib/StoreListener.php:82
+msgid "Are you sure you want to clear all products?"
+msgstr "c0176 모든 상품을 지우시겠습니까?"
+
+#: Lib/StoreListener.php:83
+msgid "Are you sure you want to delete?"
+msgstr "c0177 삭제하시겠습니까?"
+
+#: Lib/StoreListener.php:84
+msgid "You must select at least an item"
+msgstr "c0178 하나 이상의 항목을 선택해야합니다."
+
+#: Lib/StoreListener.php:85
+msgid "Drag or click here to upload photo"
+msgstr "c0179 드래그 또는 여기를 클릭하여 사진 업로드"
+
+#: Lib/StoreListener.php:86
+msgid "Are you sure you want to remove this product?"
+msgstr "c0180 이 상품을 제외시키겠습니까?"
+
+#: Lib/StoreListener.php:87
+msgid "All related data will be deleted. Are you sure you want to remove this seller?"
+msgstr "c0181 관련되 모든 데이터가 삭제됩니다. 이 판매자를 제외시키겠습니까?"
+
+#: Lib/StoreListener.php:88
+msgid "Please select product"
+msgstr "c0182 상품을 선택하십시요."
+
+#: Lib/StoreListener.php:89
+msgid "Invalid quantity"
+msgstr "c0183 잘못된 수량"
+
+#: Lib/StoreListener.php:90
+#: View/Helper/StoreHelper.php:121;125
+msgid "credits"
+msgstr "c0184 포인트"
+
+#: Lib/StoreListener.php:99
+msgid "Drag or click here to upload file"
+msgstr "c0185 드래그 또는 여기를 클릭하여 파일 업로드"
+
+#: Lib/StoreListener.php:100
+msgid "Drag or click here to upload video"
+msgstr "c0186 드래그 또는 여기를 클릭하여 동영상 업로드"
+
+#: Lib/StoreListener.php:103
+#: View/Elements/product_quickview.ctp:120
+#: View/Elements/list/product_list.ctp:74;159
+#: View/Elements/widgets/related_product.ctp:87
+#: View/Stores/product.ctp:175
+msgid "Added to cart"
+msgstr "c0187 장바구니에 추가됨"
+
+#: Lib/StoreListener.php:105
+msgid "Are you sure you want to delete your review?"
+msgstr "c0188 리뷰를 삭제하시겠습니까?"
+
+#: Lib/StoreListener.php:106
+msgid "No reviews found"
+msgstr "c0189 리뷰를 찾을 수 없습니다."
+
+#: Model/StoreOrder.php:277
+msgid "NEW"
+msgstr "c0190 새로운"
+
+#: Model/StoreOrder.php:278
+msgid "PROCESSING"
+msgstr "c0191 처리중"
+
+#: Model/StoreOrder.php:279
+msgid "PENDING"
+msgstr "c0192 대기중"
+
+#: Model/StoreOrder.php:280
+msgid "CANCEL"
+msgstr "c0193 취소"
+
+#: Model/StoreOrder.php:281
+msgid "REFUND"
+msgstr "c0194 환불"
+
+#: Model/StoreOrder.php:282
+msgid "COMPLETE"
+msgstr "c0195 완료"
+
+#: Model/StoreSetting.php:8
+msgid "This controls the position of currency symbol. Example: left $5, right 5$"
+msgstr "c0196 화폐 기호의 위치를 조절합니다. 예: 왼쪽 $5, 오른쪽 5$"
+
+#: Model/StoreSetting.php:9
+msgid "This controls what currency prices are listed in the catalog and which currency gateways will take payments in."
+msgstr "c0197 카탈로그에 게재된 화폐 가격과 결제시의 화폐 게이트웨이를 제어합니다."
+
+#: Model/StoreSetting.php:10
+msgid "This is the SEO title of your store."
+msgstr "c0198 매장의 SEO 표제입니다."
+
+#: Model/StoreSetting.php:11
+msgid "This is the SEO description of your store."
+msgstr "c0199 매장의 SEO 명세입니다."
+
+#: Model/StoreSetting.php:12
+msgid "This is the SEO keywork of your store."
+msgstr "c0200 매장의 SEO 키워드입니다."
+
+#: Model/StoreSetting.php:13
+msgid "Resolution of image must be 750x400 for best quality  ."
+msgstr "c0201 최고의 화질을 위해서는 사진의 해상도가 750x400이여야합니다."
+
+#: Model/StoreSetting.php:14
+msgid "Allow store onwer verify comment before publishing."
+msgstr "c0202 매장 주인이 댓글을 게시하기전 확인할 수 있게 합니다."
+
+#: Model/StoreSetting.php:15
+msgid "Resolution of logo must be 200x60 for best quality ."
+msgstr "c0203 최고의 화질을 위해서는 로고의 해상도가 200x60이여야합니다."
+
+#: Model/StoreShipping.php:198
+msgid "%s/product"
+msgstr "c0204 %s/ 상품"
+
+#: Model/StoreShipping.php:202
+msgid "%s from %s kg"
+msgstr "c0205 %s에서 %s kg"
+
+#: Model/Email/order.ctp:27
+#: View/Emails/html/order.ctp:25
+msgid "Order Confirmation"
+msgstr "c0206 주문 확인"
+
+#: Model/Email/order.ctp:66
+#: View/Emails/html/order.ctp:64
+msgid "Hi"
+msgstr "c0207 안녕하세요"
+
+#: Model/Email/order.ctp:73
+#: View/Emails/html/order.ctp:71
+msgid "Thank you for your order. You have successfully paid via Paypal, we will contact you soon for delivery. Please check information below:"
+msgstr "c0208 주문해주셔서 감사합니다. 페이팔로 결제가 완료되었습니다. 빠른 시일 내에 배송 정보를 보내드리겠습니다. 아래의 정보를 확인해주십시요."
+
+#: Model/Email/order.ctp:75
+#: View/Emails/html/order.ctp:73
+msgid "Thank you for your order. We will contact you soon. Please check information below:"
+msgstr "c0209 주문해주셔서 감사합니다. 빠른 시일 내에 연락드리겠습니다. 아래의 정보를 확인해주십시요."
+
+#: Model/Email/order.ctp:85
+#: Model/Email/print_order.ctp:31
+#: View/Emails/html/order.ctp:83
+#: View/Orders/admin_index.ctp:81
+#: View/Orders/manager_index.ctp:85
+msgid "Order code"
+msgstr "c0210 주문 코드"
+
+#: Model/Email/order.ctp:93
+#: Model/Email/print_order.ctp:39
+#: View/Elements/order_detail_dialog.ctp:170
+#: View/Emails/html/order.ctp:91
+#: View/Orders/manager_create.ctp:301
+#: View/Stores/my_orders.ctp:73
+msgid "Payment"
+msgstr "c0211 결제"
+
+#: Model/Email/order.ctp:101
+#: Model/Email/print_order.ctp:47
+#: View/Elements/order_detail_dialog.ctp:188
+#: View/Orders/manager_create.ctp:346
+msgid "Shipping"
+msgstr "c0212 배송"
+
+#: Model/Email/order.ctp:109
+#: Model/Email/print_order.ctp:55
+#: View/Emails/html/order.ctp:99
+msgid "Create date"
+msgstr "c0213 생성 날짜"
+
+#: Model/Email/order.ctp:124
+#: Model/Email/print_order.ctp:70
+#: View/Emails/html/order.ctp:114
+msgid "Billing information"
+msgstr "c0214 결제 정보"
+
+#: Model/Email/order.ctp:127;178;315
+#: Model/Email/print_order.ctp:73;124;261
+#: View/Attributes/manager_create.ctp:79
+#: View/Attributes/manager_index.ctp:123
+#: View/Elements/order_detail_dialog.ctp:17;83
+#: View/Elements/list/product_short_list.ctp:21
+#: View/Emails/html/order.ctp:117;162;259
+#: View/Producers/create.ctp:31
+#: View/Producers/manager_create.ctp:76
+#: View/Producers/manager_index.ctp:101
+#: View/Producers/view.ctp:46
+#: View/ProductReports/admin_index.ctp:65
+#: View/Products/admin_index.ctp:85;141
+#: View/Products/manager_index.ctp:82;121
+#: View/StoreCategories/admin_create.ctp:91
+#: View/StoreCategories/admin_index.ctp:116
+#: View/StorePackages/admin_create.ctp:50
+#: View/StorePackages/admin_index.ctp:30
+#: View/StorePayments/admin_create.ctp:59
+#: View/StorePayments/admin_index.ctp:30
+#: View/StoreShippingMethods/admin_create.ctp:59
+#: View/StoreShippingMethods/admin_index.ctp:30
+#: View/StoreShippingZones/manager_create.ctp:81;100
+#: View/StoreShippingZones/manager_index.ctp:101
+#: View/StoreShippings/manager_create.ctp:96
+#: View/StoreShippings/manager_index.ctp:69
+#: View/StoreTransactions/manager_index.ctp:84
+#: View/Stores/admin_index.ctp:91
+#: View/Stores/create.ctp:30
+#: View/Stores/manager_index.ctp:49
+msgid "Name"
+msgstr "c0215 성명"
+
+#: Model/Email/order.ctp:133;184;323
+#: Model/Email/print_order.ctp:79;130;269
+#: View/Elements/order_detail_dialog.ctp:26;92
+#: View/Elements/list/store_list.ctp:28
+#: View/Elements/widgets/seller_info.ctp:21
+#: View/Emails/html/order.ctp:123;168;267
+#: View/Orders/manager_create.ctp:81;188
+#: View/Producers/create.ctp:49
+#: View/Producers/manager_create.ctp:94
+#: View/Producers/view.ctp:48
+#: View/Stores/create.ctp:44
+#: View/Stores/manager_index.ctp:53
+msgid "Email"
+msgstr "c0216 이메일"
+
+#: Model/Email/order.ctp:139;190;339
+#: Model/Email/print_order.ctp:85;136;285
+#: View/Elements/order_detail_dialog.ctp:35;101
+#: View/Elements/list/store_list.ctp:30
+#: View/Elements/widgets/seller_info.ctp:37
+#: View/Emails/html/order.ctp:129;174;283
+#: View/Orders/checkout.ctp:98;181
+#: View/Orders/manager_create.ctp:121;228
+#: View/Producers/create.ctp:40
+#: View/Producers/manager_create.ctp:85
+#: View/Producers/view.ctp:47
+#: View/Stores/create.ctp:72
+#: View/Stores/manager_index.ctp:61
+msgid "Phone"
+msgstr "c0217 전화"
+
+#: Model/Email/order.ctp:145;196;331
+#: Model/Email/print_order.ctp:91;142;277
+#: View/Elements/order_detail_dialog.ctp:62;128
+#: View/Elements/list/store_list.ctp:29
+#: View/Elements/widgets/seller_info.ctp:29
+#: View/Emails/html/order.ctp:135;180;275
+#: View/Orders/checkout.ctp:116;199
+#: View/Orders/manager_create.ctp:131;238
+#: View/Producers/create.ctp:58
+#: View/Producers/manager_create.ctp:103
+#: View/Producers/view.ctp:49
+#: View/Stores/create.ctp:58
+#: View/Stores/manager_index.ctp:57
+msgid "Address"
+msgstr "주 소"
+
+#: Model/Email/order.ctp:151;202
+#: Model/Email/print_order.ctp:97;148
+#: View/Elements/order_detail_dialog.ctp:44;110
+#: View/Emails/html/order.ctp:141;186
+#: View/Orders/checkout.ctp:107;190
+#: View/Orders/manager_create.ctp:141;247
+#: View/StoreShippingZones/manager_create.ctp:90
+msgid "Country"
+msgstr "c0219 국가"
+
+#: Model/Email/order.ctp:157;208
+#: Model/Email/print_order.ctp:103;154
+#: View/Elements/order_detail_dialog.ctp:53;119
+#: View/Emails/html/order.ctp:147;192
+#: View/Orders/manager_create.ctp:158;264
+msgid "City"
+msgstr "c0220 도시"
+
+#: Model/Email/order.ctp:163;214
+#: Model/Email/print_order.ctp:109;160
+#: View/Elements/order_detail_dialog.ctp:71;137
+#: View/Orders/manager_create.ctp:168;274
+msgid "Postcode"
+msgstr "c0221 우편번호"
+
+#: Model/Email/order.ctp:175
+#: Model/Email/print_order.ctp:121
+#: View/Emails/html/order.ctp:159
+msgid "Shipping information"
+msgstr "c0222 배송지 정보"
+
+#: Model/Email/order.ctp:226
+#: Model/Email/print_order.ctp:172
+#: View/Elements/order_detail_dialog.ctp:148
+#: View/Orders/manager_create.ctp:286
+msgid "Order notes"
+msgstr "c0223 주문 노트"
+
+#: Model/Email/order.ctp:236
+#: View/Elements/detail_form_modal.ctp:7
+#: View/Emails/html/order.ctp:203
+msgid "Order Detail"
+msgstr "c0224 주문 상세"
+
+#: Model/Email/order.ctp:245
+#: Model/Email/print_order.ctp:191
+#: View/Elements/detail_form_modal.ctp:41
+#: View/Elements/list/product_short_list.ctp:44
+#: View/Emails/html/order.ctp:212
+#: View/Products/manager_create.ctp:126
+#: View/Stores/my_files.ctp:43
+#: View/Stores/my_wishlist.ctp:48
+msgid "Product Name"
+msgstr "c0225 상품 이름"
+
+#: Model/Email/order.ctp:246
+#: Model/Email/print_order.ctp:192
+#: View/Attributes/manager_select_list.ctp:51
+#: View/Attributes/manager_show_select_list.ctp:35
+#: View/Carts/index.ctp:72
+#: View/Elements/detail_form_modal.ctp:54
+#: View/Elements/order_detail_dialog.ctp:224
+#: View/Elements/activity/content/create_product.ctp:39
+#: View/Elements/activity/content/create_product_share.ctp:51
+#: View/Elements/activity/content/product_share.ctp:40
+#: View/Elements/activity/share/create_product.ctp:32
+#: View/Elements/activity/share/create_product_share.ctp:32
+#: View/Elements/activity/share/product_item_detail.ctp:26
+#: View/Elements/activity/share/product_share.ctp:26
+#: View/Emails/html/order.ctp:213
+#: View/Orders/checkout.ctp:235
+#: View/Orders/manager_create.ctp:371
+#: View/Products/manager_create.ctp:202
+#: View/Products/manager_index.ctp:126
+#: View/StorePackages/admin_create.ctp:58
+#: View/StorePackages/admin_index.ctp:33
+#: View/StoreShippings/manager_create.ctp:108
+#: View/StoreTransactions/admin_index.ctp:83
+#: View/StoreTransactions/manager_index.ctp:99
+#: View/Stores/my_wishlist.ctp:53
+msgid "Price"
+msgstr "c0226 가격"
+
+#: Model/Email/order.ctp:247
+#: Model/Email/print_order.ctp:193
+#: View/Carts/index.ctp:77
+#: View/Elements/detail_form_modal.ctp:67
+#: View/Elements/order_detail_dialog.ctp:231
+#: View/Emails/html/order.ctp:214
+#: View/Orders/manager_create.ctp:376
+#: View/Products/manager_create.ctp:221
+msgid "Quantity"
+msgstr "c0227 수량"
+
+#: Model/Email/order.ctp:248
+#: Model/Email/print_order.ctp:194
+#: View/Elements/detail_form_modal.ctp:80
+#: View/Elements/order_detail_dialog.ctp:238
+#: View/Emails/html/order.ctp:215
+#: View/Orders/admin_index.ctp:151
+#: View/Orders/manager_create.ctp:381
+#: View/Orders/manager_index.ctp:152
+msgid "Amount"
+msgstr "c0228 총액"
+
+#: Model/Email/order.ctp:280
+#: Model/Email/print_order.ctp:226
+#: View/Elements/order_detail_dialog.ctp:315
+#: View/Orders/checkout.ctp:303
+msgid "Shipping Fee"
+msgstr "c0229 배송비"
+
+#: Model/Email/order.ctp:293
+#: Model/Email/print_order.ctp:239
+#: View/Carts/index.ctp:82
+#: View/Elements/load_cart_by_store.ctp:111
+#: View/Elements/order_detail_dialog.ctp:335
+#: View/Emails/html/order.ctp:240
+#: View/Orders/checkout.ctp:237
+#: View/Stores/my_orders.ctp:83
+msgid "Total"
+msgstr "c0230 합계"
+
+#: Model/Email/order.ctp:307
+#: Model/Email/print_order.ctp:253
+#: View/Emails/html/order.ctp:251
+msgid "Seller information"
+msgstr "c0231 판매자 정보"
+
+#: Model/Email/order.ctp:372
+#: View/Emails/html/order.ctp:316
+#: View/Orders/checkout_complete.ctp:41
+msgid "Continue shopping"
+msgstr "c0232 계쇽 쇼핑"
+
+#: Model/Email/print_order.ctp:182
+#: View/Elements/order_detail_dialog.ctp:9;160
+msgid "Order detail"
+msgstr "c0233 주문 상세"
+
+#: View/Attributes/manager_create.ctp:49
+#: View/Elements/detail_form_modal.ctp:97
+#: View/Elements/review_dialog.ctp:106
+#: View/Orders/manager_create.ctp:62
+#: View/Producers/create.ctp:92
+#: View/Producers/manager_create.ctp:54
+#: View/Products/manager_create.ctp:60
+#: View/StoreCategories/admin_create.ctp:35
+#: View/StorePackages/admin_create.ctp:23
+#: View/StorePayments/admin_create.ctp:25
+#: View/StoreShippingMethods/admin_create.ctp:25
+#: View/StoreShippingZones/manager_create.ctp:59
+#: View/StoreShippings/manager_create.ctp:51
+#: View/Stores/create.ctp:205
+msgid "Save"
+msgstr "c0234 저장"
+
+#: View/Attributes/manager_create.ctp:50
+#: View/Orders/manager_create.ctp:63
+#: View/Producers/manager_create.ctp:55
+#: View/Products/manager_create.ctp:63
+#: View/StoreCategories/admin_create.ctp:36
+#: View/StorePackages/admin_create.ctp:24
+#: View/StorePayments/admin_create.ctp:26
+#: View/StoreShippingMethods/admin_create.ctp:26
+#: View/StoreShippingZones/manager_create.ctp:60
+#: View/StoreShippings/manager_create.ctp:52
+msgid "Apply"
+msgstr "c0235 적용"
+
+#: View/Attributes/manager_create.ctp:51
+#: View/Elements/email_friend_dialog.ctp:48
+#: View/Elements/report_dialog.ctp:36
+#: View/Elements/report_review_dialog.ctp:23
+#: View/Elements/review_dialog.ctp:112
+#: View/Helper/StoreHelper.php:390
+#: View/Orders/manager_create.ctp:64
+#: View/Producers/create.ctp:94
+#: View/Producers/manager_create.ctp:56
+#: View/Products/manager_create.ctp:66
+#: View/StoreCategories/admin_create.ctp:37
+#: View/StorePackages/admin_create.ctp:25
+#: View/StorePayments/admin_create.ctp:27
+#: View/StoreShippingMethods/admin_create.ctp:27
+#: View/StoreShippingZones/manager_create.ctp:61
+#: View/StoreShippings/manager_create.ctp:53
+#: View/Stores/create.ctp:208
+msgid "Cancel"
+msgstr "c0236 취소"
+
+#: View/Attributes/manager_create.ctp:68
+#: View/Attributes/manager_index.ctp:61;62;128;167
+#: View/Helper/AdminCategoryHelper.php:48
+#: View/Helper/CategoryHelper.php:48
+#: View/Producers/manager_create.ctp:65
+#: View/Producers/manager_index.ctp:47;48;106;145
+#: View/ProductReports/admin_index.ctp:30
+#: View/Products/manager_create.ctp:102;272;351
+#: View/Products/manager_index.ctp:131;202
+#: View/StoreCategories/admin_create.ctp:56
+#: View/StoreCategories/admin_index.ctp:62;63;118;165
+#: View/StorePackages/admin_create.ctp:41
+#: View/StorePackages/admin_index.ctp:42;76
+#: View/StorePayments/admin_index.ctp:33;58
+#: View/StoreShippingZones/manager_create.ctp:70;105;141
+#: View/StoreShippingZones/manager_index.ctp:47;48;106;145
+#: View/StoreShippings/manager_create.ctp:62;114;179
+#: View/StoreShippings/manager_index.ctp:42;43;74;114
+#: View/Stores/admin_index.ctp:42;43;148
+msgid "Enable"
+msgstr "c0237 활성화"
+
+#: View/Attributes/manager_create.ctp:92
+#: View/Products/manager_create.ctp:176
+#: View/Products/manager_video_fetch.ctp:39
+#: View/Stores/home.ctp:5
+msgid "Category"
+msgstr "c0238 카테고리"
+
+#: View/Attributes/manager_create.ctp:96
+msgid "Main attribute"
+msgstr "c0239 주요 속성"
+
+#: View/Attributes/manager_index.ctp:51
+#: View/Orders/manager_index.ctp:46
+#: View/Producers/manager_index.ctp:37
+#: View/Producers/view.ctp:52
+#: View/ProductReports/admin_index.ctp:25
+#: View/Products/admin_index.ctp:40
+#: View/Products/manager_index.ctp:41
+#: View/StoreCategories/admin_index.ctp:47
+#: View/StoreShippingZones/manager_index.ctp:37
+#: View/StoreShippings/manager_index.ctp:37
+#: View/Stores/admin_index.ctp:37
+msgid "Actions"
+msgstr "c0240 기능"
+
+#: View/Attributes/manager_index.ctp:56;57
+#: View/Orders/manager_index.ctp:51;52
+#: View/Producers/manager_index.ctp:42;43
+#: View/Producers/view.ctp:29
+#: View/Products/manager_index.ctp:46;47
+#: View/StoreCategories/admin_index.ctp:52;53
+#: View/StoreShippingZones/manager_index.ctp:42;43
+msgid "Add New"
+msgstr "c0241 새로 추가"
+
+#: View/Attributes/manager_index.ctp:66;67;163
+#: View/Helper/AdminCategoryHelper.php:41
+#: View/Helper/CategoryHelper.php:41
+#: View/Producers/manager_index.ctp:52;53;141
+#: View/ProductReports/admin_index.ctp:35
+#: View/Products/manager_index.ctp:198
+#: View/StoreCategories/admin_index.ctp:67;68;161
+#: View/StorePackages/admin_index.ctp:72
+#: View/StorePayments/admin_index.ctp:54
+#: View/StoreShippingZones/manager_index.ctp:52;53;141
+#: View/StoreShippings/manager_index.ctp:47;48;110
+#: View/Stores/admin_index.ctp:47;48;144
+msgid "Disable"
+msgstr "c0242 비활성화"
+
+#: View/Attributes/manager_index.ctp:71;72;182
+#: View/Elements/review_dialog.ctp:92
+#: View/Helper/AdminCategoryHelper.php:93
+#: View/Helper/CategoryHelper.php:93
+#: View/Orders/manager_create.ctp:450
+#: View/Orders/manager_index.ctp:56;57;236
+#: View/Producers/create.ctp:97
+#: View/Producers/manager_index.ctp:57;58;156
+#: View/ProductReports/admin_index.ctp:40;41;126
+#: View/Products/admin_index.ctp:212
+#: View/Products/manager_create.ctp:329;553;595
+#: View/Products/manager_index.ctp:51;52;247
+#: View/StoreCategories/admin_index.ctp:72;73;183
+#: View/StoreShippingZones/manager_index.ctp:57;58;156
+#: View/StoreTransactions/admin_index.ctp:139
+msgid "Delete"
+msgstr "c0243 삭제"
+
+#: View/Attributes/manager_index.ctp:82
+msgid "These attributes will be visible to buyers on the product page and they will be able to select desired attribute values while adding the product to cart. The price of the product will be changed based on selected attributes. You can configure price of product based on attributes when adding/editting product."
+msgstr "c0244 속성은 상품 페이지에 있는 구매자에게 표시되며 장바구니에 상품을 추가시 원하는 속성 값을 선택할 수 있습니다. 상품의 가격은 선택된 속성의 따라 변경됩니다. 상품을 추가/편집시 속성에 맞게 가격을 설정할 수 있습니다."
+
+#: View/Attributes/manager_index.ctp:91
+#: View/Products/admin_index.ctp:98
+msgid "All"
+msgstr "c0245 모두"
+
+#: View/Attributes/manager_index.ctp:100
+#: View/Elements/list/product_short_list.ctp:14
+#: View/Elements/list/video_short_list.ctp:15
+#: View/Orders/admin_index.ctp:69
+#: View/Orders/manager_index.ctp:73
+#: View/Producers/manager_index.ctp:77
+#: View/Products/admin_index.ctp:77
+#: View/Products/manager_index.ctp:74
+#: View/StoreCategories/admin_index.ctp:90
+#: View/StoreShippingZones/manager_index.ctp:77
+#: View/StoreTransactions/admin_index.ctp:31
+#: View/StoreTransactions/manager_index.ctp:45
+#: View/Stores/admin_index.ctp:65
+msgid "Keyword"
+msgstr "c0246 키워드"
+
+#: View/Attributes/manager_index.ctp:106
+#: View/Elements/search_dialog.ctp:2
+#: View/Elements/search_form.ctp:4
+#: View/Elements/search_store_form.ctp:4
+#: View/Elements/list/image_short_list.ctp:21
+#: View/Elements/list/product_short_list.ctp:32
+#: View/Elements/list/video_short_list.ctp:21
+#: View/Elements/misc/search_form_content.ctp:60
+#: View/Elements/misc/search_store_form_content.ctp:13
+#: View/Orders/admin_index.ctp:122
+#: View/Orders/manager_index.ctp:125
+#: View/Producers/manager_index.ctp:84
+#: View/Products/admin_index.ctp:118
+#: View/Products/manager_index.ctp:99
+#: View/StoreCategories/admin_index.ctp:96
+#: View/StoreShippingZones/manager_index.ctp:84
+#: View/StoreTransactions/admin_index.ctp:59
+#: View/StoreTransactions/manager_index.ctp:73
+#: View/Stores/admin_index.ctp:71
+msgid "Search"
+msgstr "c0247 검색"
+
+#: View/Attributes/manager_index.ctp:142
+msgid "Listing"
+msgstr "c0248 목록"
+
+#: View/Attributes/manager_index.ctp:175
+msgid "Sub"
+msgstr "c0249 하위"
+
+#: View/Attributes/manager_index.ctp:179
+#: View/Helper/AdminCategoryHelper.php:122
+#: View/Helper/CategoryHelper.php:122
+#: View/Orders/manager_create.ctp:447
+#: View/Orders/manager_index.ctp:233
+#: View/Producers/manager_index.ctp:152
+#: View/Products/manager_index.ctp:243
+#: View/StoreCategories/admin_index.ctp:179
+#: View/StorePackages/admin_index.ctp:82
+#: View/StorePayments/admin_index.ctp:64
+#: View/StoreShippingMethods/admin_index.ctp:50
+#: View/StoreShippingZones/manager_index.ctp:152
+#: View/StoreShippings/manager_index.ctp:121
+#: View/Stores/manager_index.ctp:26
+msgid "Edit"
+msgstr "c0250 편집"
+
+#: View/Attributes/manager_index.ctp:209
+#: View/Orders/admin_index.ctp:214
+#: View/Orders/manager_index.ctp:262
+#: View/Producers/manager_index.ctp:176
+#: View/ProductReports/admin_index.ctp:139
+#: View/Products/admin_index.ctp:225
+#: View/Products/manager_index.ctp:268
+#: View/StoreCategories/admin_index.ctp:196
+#: View/StoreShippingZones/manager_index.ctp:176
+#: View/StoreShippings/manager_index.ctp:136
+#: View/StoreTransactions/admin_index.ctp:151
+#: View/StoreTransactions/manager_index.ctp:177
+#: View/Stores/admin_index.ctp:162
+msgid " of a total of "
+msgstr "c0251 총"
+
+#: View/Attributes/manager_index.ctp:215
+#: View/Elements/list/image_short_list.ctp:56
+#: View/Elements/list/my_files_list.ctp:51
+#: View/Elements/list/my_order_list.ctp:82
+#: View/Elements/list/my_wishlist_list.ctp:77
+#: View/Elements/list/product_list.ctp:224
+#: View/Elements/list/product_short_list.ctp:73
+#: View/Elements/list/store_list.ctp:48
+#: View/Elements/list/video_short_list.ctp:57
+#: View/Orders/admin_index.ctp:220
+#: View/Orders/manager_index.ctp:268
+#: View/Producers/manager_index.ctp:182
+#: View/ProductReports/admin_index.ctp:145
+#: View/Products/admin_index.ctp:231
+#: View/Products/manager_index.ctp:274
+#: View/StoreCategories/admin_index.ctp:202
+#: View/StoreShippingZones/manager_index.ctp:182
+#: View/StoreShippings/manager_index.ctp:142
+#: View/StoreTransactions/admin_index.ctp:157
+#: View/StoreTransactions/manager_index.ctp:183
+#: View/Stores/admin_index.ctp:168
+msgid "First"
+msgstr "c0252 우선"
+
+#: View/Attributes/manager_index.ctp:216
+#: View/Elements/list/image_short_list.ctp:57
+#: View/Elements/list/my_files_list.ctp:54
+#: View/Elements/list/my_order_list.ctp:85
+#: View/Elements/list/my_wishlist_list.ctp:80
+#: View/Elements/list/product_list.ctp:227
+#: View/Elements/list/product_short_list.ctp:74
+#: View/Elements/list/store_list.ctp:51
+#: View/Elements/list/video_short_list.ctp:58
+#: View/Orders/admin_index.ctp:221
+#: View/Orders/manager_index.ctp:269
+#: View/Producers/manager_index.ctp:183
+#: View/ProductReports/admin_index.ctp:146
+#: View/Products/admin_index.ctp:232
+#: View/Products/manager_index.ctp:275
+#: View/StoreCategories/admin_index.ctp:203
+#: View/StoreShippingZones/manager_index.ctp:183
+#: View/StoreShippings/manager_index.ctp:143
+#: View/StoreTransactions/admin_index.ctp:158
+#: View/StoreTransactions/manager_index.ctp:184
+#: View/Stores/admin_index.ctp:169
+msgid "Previous"
+msgstr "c0253 이전"
+
+#: View/Attributes/manager_index.ctp:218
+#: View/Elements/list/image_short_list.ctp:59
+#: View/Elements/list/my_files_list.ctp:61
+#: View/Elements/list/my_order_list.ctp:92
+#: View/Elements/list/my_wishlist_list.ctp:87
+#: View/Elements/list/product_list.ctp:234
+#: View/Elements/list/product_short_list.ctp:76
+#: View/Elements/list/store_list.ctp:58
+#: View/Elements/list/video_short_list.ctp:60
+#: View/Orders/admin_index.ctp:223
+#: View/Orders/manager_index.ctp:271
+#: View/Producers/manager_index.ctp:185
+#: View/ProductReports/admin_index.ctp:148
+#: View/Products/admin_index.ctp:234
+#: View/Products/manager_index.ctp:277
+#: View/StoreCategories/admin_index.ctp:205
+#: View/StoreShippingZones/manager_index.ctp:185
+#: View/StoreShippings/manager_index.ctp:145
+#: View/StoreTransactions/admin_index.ctp:160
+#: View/StoreTransactions/manager_index.ctp:186
+#: View/Stores/admin_index.ctp:171
+msgid "Next"
+msgstr "c0254 다음"
+
+#: View/Attributes/manager_index.ctp:219
+#: View/Elements/list/image_short_list.ctp:60
+#: View/Elements/list/my_files_list.ctp:64
+#: View/Elements/list/my_order_list.ctp:95
+#: View/Elements/list/my_wishlist_list.ctp:90
+#: View/Elements/list/product_list.ctp:237
+#: View/Elements/list/product_short_list.ctp:77
+#: View/Elements/list/store_list.ctp:61
+#: View/Elements/list/video_short_list.ctp:61
+#: View/Orders/admin_index.ctp:224
+#: View/Orders/manager_index.ctp:272
+#: View/Producers/manager_index.ctp:186
+#: View/ProductReports/admin_index.ctp:149
+#: View/Products/admin_index.ctp:235
+#: View/Products/manager_index.ctp:278
+#: View/StoreCategories/admin_index.ctp:206
+#: View/StoreShippingZones/manager_index.ctp:186
+#: View/StoreShippings/manager_index.ctp:146
+#: View/StoreTransactions/admin_index.ctp:161
+#: View/StoreTransactions/manager_index.ctp:187
+#: View/Stores/admin_index.ctp:172
+msgid "Last"
+msgstr "c0255 마지막"
+
+#: View/Attributes/manager_index.ctp:226
+msgid "No Sub Attributes"
+msgstr "c0256 하위 속성이 없습니다."
+
+#: View/Attributes/manager_index.ctp:228
+msgid "No Attributes"
+msgstr "c0257 속성이 없습니다."
+
+#: View/Attributes/manager_select_list.ctp:2
+#: View/Elements/load_cart_by_store.ctp:46
+#: View/Elements/manager_menu.ctp:26
+#: View/Orders/checkout.ctp:264
+#: View/Products/manager_create.ctp:95
+msgid "Attributes"
+msgstr "c0258 속성"
+
+#: View/Attributes/manager_select_list.ctp:12
+#: View/Orders/manager_create.ctp:354
+#: View/StoreShippingZones/manager_create.ctp:94
+#: View/StoreShippings/manager_create.ctp:87
+msgid "Add"
+msgstr "c0259 추가"
+
+#: View/Attributes/manager_select_list.ctp:20
+msgid "Select"
+msgstr "c0260 선택"
+
+#: View/Attributes/manager_select_list.ctp:23
+#: View/Elements/detail_form_modal.ctp:94
+msgid "Close"
+msgstr "c0261 닫기"
+
+#: View/Attributes/manager_select_list.ctp:59
+#: View/Attributes/manager_show_select_list.ctp:42
+#: View/StoreShippingZones/manager_create.ctp:150
+#: View/StoreShippings/manager_create.ctp:188
+msgid "Remove"
+msgstr "c0262 삭제"
+
+#: View/Carts/index.ctp:41
+#: View/Orders/checkout.ctp:51
+#: View/Orders/checkout_complete.ctp:27
+msgid "Complete"
+msgstr "c0263 완료"
+
+#: View/Carts/index.ctp:49
+msgid "All stores"
+msgstr "c0264 모든 매장"
+
+#: View/Carts/index.ctp:62
+#: View/Elements/add_to_cart.ctp:7
+#: View/Elements/order_detail_dialog.ctp:250
+#: View/Elements/product_quickview.ctp:25
+msgid "Product"
+msgstr "c0265 상품"
+
+#: View/Carts/index.ctp:67
+msgid "Type"
+msgstr "c0266 종류"
+
+#: View/Carts/index.ctp:93
+#: View/Elements/list/product_list.ctp:214
+#: View/Elements/list/product_short_list.ctp:82
+#: View/Orders/checkout.ctp:362
+msgid "No products"
+msgstr "c0267 해당 등록 상품이 없습니다"
+
+#: View/Elements/activity_review_item.ctp:40
+#: View/Elements/misc/review_item.ctp:86
+msgid "Response:"
+msgstr "c0268 답변:"
+
+#: View/Elements/add_to_cart.ctp:32
+msgid "View Cart"
+msgstr "c0269 장바구니 보기"
+
+#: View/Elements/category_dialog.ctp:2
+#: View/Elements/list/categories_list.ctp:8
+msgid "Categories"
+msgstr "c0270 카테고리"
+
+#: View/Elements/detail_form_modal.ctp:17
+msgid "Choose from the list provided"
+msgstr "c0271 목록에서 선택하십시요"
+
+#: View/Elements/detail_form_modal.ctp:20
+msgid "Choose"
+msgstr "c0272 선택"
+
+#: View/Elements/detail_form_modal.ctp:28
+#: View/Products/manager_create.ctp:113
+#: View/Stores/product.ctp:250
+msgid "Product Code"
+msgstr "c0273 상품 코드"
+
+#: View/Elements/email_friend_dialog.ctp:3
+#: View/Stores/product.ctp:209
+msgid "Email your friend"
+msgstr "c0274 친구에게 이메일 보내기"
+
+#: View/Elements/email_friend_dialog.ctp:10
+msgid "Enter your friends' emails below (separated by commas). Limit 10 email addresses per request"
+msgstr "c0275 친구의 이메일을 아래에 입력하십시요 (,로 분리됨). 한번에 10개까지 입력 가능합니다."
+
+#: View/Elements/email_friend_dialog.ctp:17
+msgid "Recipients"
+msgstr "c0276 수취인"
+
+#: View/Elements/email_friend_dialog.ctp:29
+msgid "Message"
+msgstr "c0277 메세지"
+
+#: View/Elements/email_friend_dialog.ctp:45
+msgid "Send"
+msgstr "c0278 전송"
+
+#: View/Elements/load_cart_by_store.ctp:8
+#: View/Orders/admin_index.ctp:142
+#: View/Orders/checkout.ctp:248
+#: View/StoreTransactions/admin_index.ctp:71
+msgid "Store"
+msgstr "c0279 매장"
+
+#: View/Elements/load_cart_by_store.ctp:21
+msgid "Cart Listing"
+msgstr "c0280 장바구니 목록"
+
+#: View/Elements/load_cart_by_store.ctp:97
+msgid "Remove this item"
+msgstr "c0281 이 항목을 제외합니다"
+
+#: View/Elements/load_cart_by_store.ctp:126
+msgid "Continue Shopping"
+msgstr "c0282 계속 쇼핑"
+
+#: View/Elements/load_cart_by_store.ctp:129
+msgid "Proceed to Checkout"
+msgstr "c0283 결제 진행"
+
+#: View/Elements/load_cart_by_store.ctp:132
+msgid "Update Quantity"
+msgstr "c0284 수량 수정"
+
+#: View/Elements/load_cart_by_store.ctp:135
+msgid "Clear Cart"
+msgstr "c0285 장바구니 비우기"
+
+#: View/Elements/manager_menu.ctp:39
+#: View/Products/manager_create.ctp:187
+#: View/Stores/product.ctp:255
+msgid "Producer"
+msgstr "c0286 제조회사"
+
+#: View/Elements/manager_menu.ctp:67
+msgid "Shippings"
+msgstr "c0287 배송"
+
+#: View/Elements/manager_menu.ctp:105
+msgid "Delete Seller"
+msgstr "c0288 판매자 탈퇴"
+
+#: View/Elements/manager_menu_dialog.ctp:2
+msgid "Menu"
+msgstr "c0289 메뉴"
+
+#: View/Elements/manager_order_shipping.ctp:20
+msgid "No shippings"
+msgstr "c0290 배송이 비어있습니다"
+
+#: View/Elements/menustore.ctp:8
+msgid "View your Cart"
+msgstr "c0291 장바구니 보기"
+
+#: View/Elements/menustore.ctp:14
+msgid "See your Wishlist"
+msgstr "c0292 관심상품 보기"
+
+#: View/Elements/menustore.ctp:18
+msgid "Checkout your order"
+msgstr "c0293 주문 결제"
+
+#: View/Elements/menustore.ctp:24
+#: View/Elements/mobile/mobile_menu.ctp:69
+msgid "Seller Manager"
+msgstr "c0294 판매자 관리"
+
+#: View/Elements/order_detail_dialog.ctp:14
+#: View/Orders/manager_create.ctp:75
+msgid "Billing Info"
+msgstr "c0295 결제 정보"
+
+#: View/Elements/order_detail_dialog.ctp:80
+#: View/Orders/manager_create.ctp:182
+msgid "Shipping Info"
+msgstr "c0296 배송 정보"
+
+#: View/Elements/order_detail_dialog.ctp:162
+msgid "Print"
+msgstr "c0297 인쇄"
+
+#: View/Elements/order_detail_dialog.ctp:179
+#: View/Orders/admin_index.ctp:154
+#: View/Orders/manager_create.ctp:333
+#: View/Orders/manager_index.ctp:157
+#: View/StoreTransactions/admin_index.ctp:92
+#: View/StoreTransactions/manager_index.ctp:109
+#: View/Stores/my_orders.ctp:78
+msgid "Status"
+msgstr "c0298 상태"
+
+#: View/Elements/order_detail_dialog.ctp:203
+msgid "Num"
+msgstr "c0299 숫자"
+
+#: View/Elements/order_detail_dialog.ctp:210
+#: View/Elements/list/product_short_list.ctp:22
+#: View/Products/admin_index.ctp:86
+#: View/Products/manager_index.ctp:83
+msgid "Product code"
+msgstr "c0300 상품 코드"
+
+#: View/Elements/order_detail_dialog.ctp:217
+#: View/Elements/misc/search_form_content.ctp:4
+#: View/Orders/manager_create.ctp:366
+msgid "Product name"
+msgstr "c0301 상품 이름"
+
+#: View/Elements/product_quickview.ctp:37
+#: View/Elements/list/product_list.ctp:19
+#: View/Elements/list/product_widget_list.ctp:27
+#: View/Elements/list/store_list.ctp:12
+#: View/Elements/list/store_widget_list.ctp:26
+#: View/Elements/misc/product_widget_list.ctp:27
+#: View/Elements/widgets/related_product.ctp:33
+#: View/Products/admin_index.ctp:55;56;101;150;191
+#: View/Products/manager_index.ctp:142
+#: View/Stores/admin_index.ctp:100;137
+#: View/Stores/manager_index.ctp:33
+#: View/Stores/product.ctp:74
+msgid "Featured"
+msgstr "c0302 추천됨"
+
+#: View/Elements/product_quickview.ctp:98
+#: View/Elements/list/my_wishlist_list.ctp:55
+#: View/Elements/list/product_list.ctp:65;66;151
+#: View/Elements/widgets/related_product.ctp:78;79
+#: View/Products/manager_create.ctp:363
+#: View/Stores/product.ctp:182
+msgid "Out of stock"
+msgstr "c0303 품절"
+
+#: View/Elements/product_quickview.ctp:102
+#: View/Elements/list/product_list.ctp:69;70;155
+#: View/Elements/widgets/related_product.ctp:82;83
+msgid "Go to buy"
+msgstr "c0304 사러 가기"
+
+#: View/Elements/product_quickview.ctp:107
+#: View/Elements/list/my_files_list.ctp:28
+#: View/Elements/list/product_list.ctp:58;143
+#: View/Elements/widgets/related_product.ctp:71
+#: View/Stores/product.ctp:162
+msgid "Download"
+msgstr "c0305 다운로드"
+
+#: View/Elements/product_quickview.ctp:111
+#: View/Elements/list/my_files_list.ctp:32
+#: View/Elements/list/product_list.ctp:62;147
+#: View/Elements/widgets/related_product.ctp:75
+#: View/Stores/product.ctp:166
+msgid "View Link"
+msgstr "c0306 링크 보기"
+
+#: View/Elements/product_quickview.ctp:120
+#: View/Elements/list/product_list.ctp:74;159
+#: View/Elements/widgets/related_product.ctp:87
+#: View/Stores/product.ctp:175
+msgid "Add to cart"
+msgstr "c0307 장바구니에 추가"
+
+#: View/Elements/product_quickview.ctp:157
+#: View/Elements/list/product_list.ctp:104
+#: View/Elements/widgets/related_product.ctp:116
+#: View/Stores/product.ctp:228
+msgid "Share To News Feed"
+msgstr "c0308 뉴스 피드에 공유"
+
+#: View/Elements/product_quickview.ctp:163
+#: View/Elements/report_dialog.ctp:3;33
+#: View/Elements/report_review_dialog.ctp:20
+#: View/Elements/misc/review_item.ctp:39
+#: View/Stores/product.ctp:234
+msgid "Report"
+msgstr "c0309 신고"
+
+#: View/Elements/product_quickview.ctp:170
+#: View/Elements/list/product_list.ctp:201
+msgid "people like this"
+msgstr "c0310 회원이 좋아합니다"
+
+#: View/Elements/product_quickview.ctp:182
+#: View/Stores/product.ctp:269
+msgid "Share this product"
+msgstr "c0311 상품 공유"
+
+#: View/Elements/report_dialog.ctp:16
+#: View/ProductReports/admin_index.ctp:68
+msgid "Reason"
+msgstr "c0312 사유"
+
+#: View/Elements/report_review_dialog.ctp:2
+msgid "Report Review"
+msgstr "c0313 리뷰 신고"
+
+#: View/Elements/report_review_dialog.ctp:9
+msgid "Please enter reason why you want to report this review"
+msgstr "c0314 리뷰를 신고하는 이유를 적어주시기 바랍니다."
+
+#: View/Elements/review.ctp:15
+msgid "Write review"
+msgstr "c0315 리뷰 작성"
+
+#: View/Elements/review_dialog.ctp:9
+msgid "Edit reply"
+msgstr "c0316 답장 편집"
+
+#: View/Elements/review_dialog.ctp:11
+msgid "Write a reply"
+msgstr "c0317 답장 작성"
+
+#: View/Elements/review_dialog.ctp:15
+msgid "Edit review"
+msgstr "c0318 리뷰 편집"
+
+#: View/Elements/review_dialog.ctp:17
+msgid "Write a review"
+msgstr "c0319 리뷰 작성"
+
+#: View/Elements/review_dialog.ctp:61
+msgid "Your reply"
+msgstr "c0320 회원님의 답장"
+
+#: View/Elements/review_dialog.ctp:63
+msgid "Your review"
+msgstr "c0321 회원님의 리뷰"
+
+#: View/Elements/review_dialog.ctp:78
+msgid "Upload Queued Files"
+msgstr "c0322 대기열에 있는 파일 업로드"
+
+#: View/Elements/review_dialog.ctp:108
+msgid "Post"
+msgstr "c0323 작성"
+
+#: View/Elements/same_product_images.ctp:2
+msgid "Product Used"
+msgstr "c0324 중고 상품"
+
+#: View/Elements/total_product_review.ctp:5
+msgid "users"
+msgstr "c0325 사용자"
+
+#: View/Elements/total_product_review.ctp:5
+msgid "user"
+msgstr "c0326 사용자"
+
+#: View/Elements/activity/content/create_product_share.ctp:29
+#: View/Elements/activity/text/create_product.ctp:1
+msgid "created a product"
+msgstr "c0327 새 상품이 등록 되었습니다."
+
+#: View/Elements/activity/text/create_product_share.ctp:1
+#: View/Elements/activity/text/product_share.ctp:1
+msgid "shared a product"
+msgstr "c0328 상품 공유"
+
+#: View/Elements/activity/text/product_review.ctp:6
+msgid "wrote a review for"
+msgstr "c0329 새 리뷰를 달렸습니다."
+
+#: View/Elements/activity/text/product_review_share.ctp:5
+msgid "shared %s's %s"
+msgstr "c0330 %s의 %s 공유"
+
+#: View/Elements/activity/text/product_review_share.ctp:5
+msgid "review"
+msgstr "c0331 리뷰"
+
+#: View/Elements/list/categories_list.ctp:10
+#: View/Stores/home.ctp:7
+msgid "View all"
+msgstr "c0332 모두 보기"
+
+#: View/Elements/list/categories_list.ctp:48
+#: View/Elements/mobile/mobile_group.ctp:6
+#: View/Stores/products.ctp:32
+msgid "Create seller"
+msgstr "c0333 매장 등록"
+
+#: View/Elements/list/categories_list.ctp:54
+#: View/Elements/mobile/mobile_group.ctp:12
+#: View/Stores/products.ctp:38
+msgid "Create product"
+msgstr "c0334 상품 등록"
+
+#: View/Elements/list/image_short_list.ctp:4
+msgid "Select Image"
+msgstr "c0335 사진 선택"
+
+#: View/Elements/list/image_short_list.ctp:15
+msgid "Album name"
+msgstr "c0336 앨범 이름"
+
+#: View/Elements/list/image_short_list.ctp:31
+#: View/Elements/list/product_short_list.ctp:42
+#: View/Elements/list/video_short_list.ctp:31
+#: View/Products/manager_create.ctp:270
+#: View/Stores/create.ctp:86
+msgid "Image"
+msgstr "c0337 사진"
+
+#: View/Elements/list/image_short_list.ctp:32
+msgid "Album"
+msgstr "c0338 앨범"
+
+#: View/Elements/list/image_short_list.ctp:65
+msgid "No images"
+msgstr "c0339 사진이 없습니다"
+
+#: View/Elements/list/my_files_list.ctp:9
+msgid "My Files Listing"
+msgstr "c0340 내 파일 목록"
+
+#: View/Elements/list/my_files_list.ctp:41
+#: View/Elements/list/my_order_list.ctp:72
+#: View/Elements/list/my_wishlist_list.ctp:67
+#: View/Elements/list/review_list.ctp:36
+#: View/Elements/list/search_product_list.ctp:77
+msgid "No more results found"
+msgstr "c0341 더 이상 자료가 없습니다"
+
+#: View/Elements/list/my_files_list.ctp:47
+#: View/Elements/list/my_order_list.ctp:78
+#: View/Elements/list/my_wishlist_list.ctp:73
+#: View/Elements/list/product_list.ctp:220
+#: View/Elements/list/store_list.ctp:44
+msgid "Showing %s–%s of %s results"
+msgstr "c0342 %s-%s상품중 %s상품 표시"
+
+#: View/Elements/list/my_order_list.ctp:15
+#: View/Orders/manager_create.ctp:413
+#: View/Orders/manager_index.ctp:179
+msgid "Order Listing"
+msgstr "c0343 주문 목록"
+
+#: View/Elements/list/my_order_list.ctp:65
+#: View/Orders/admin_index.ctp:201
+#: View/Orders/manager_index.ctp:230
+#: View/ProductReports/admin_index.ctp:122
+#: View/Products/admin_index.ctp:208
+msgid "View"
+msgstr "c0344 보기"
+
+#: View/Elements/list/my_wishlist_list.ctp:13
+msgid "Wishlist Listing"
+msgstr "c0345 관심상품 목록보기"
+
+#: View/Elements/list/my_wishlist_list.ctp:17
+msgid "Remove this product"
+msgstr "c0346 이 상품을 삭제합니다"
+
+#: View/Elements/list/my_wishlist_list.ctp:57
+msgid "In Stock"
+msgstr "c0347 재고 있음"
+
+#: View/Elements/list/product_list.ctp:12
+#: View/Elements/widgets/related_product.ctp:26
+msgid "Sale"
+msgstr "c0348 할인"
+
+#: View/Elements/list/product_list.ctp:27
+#: View/Elements/widgets/related_product.ctp:41
+msgid "Quick View"
+msgstr "c0349 미리보기"
+
+#: View/Elements/list/product_short_list.ctp:3
+msgid "Choose Product"
+msgstr "c0350 상품 선택"
+
+#: View/Elements/list/product_short_list.ctp:43
+#: View/Orders/admin_index.ctp:145
+#: View/Orders/manager_create.ctp:361
+#: View/Orders/manager_index.ctp:142
+#: View/Products/admin_index.ctp:138
+#: View/Products/manager_index.ctp:116
+#: View/Stores/my_orders.ctp:63
+msgid "Code"
+msgstr "c0351 코드"
+
+#: View/Elements/list/search_product_list.ctp:60
+msgid "People Who Like This"
+msgstr "c0352 좋아하는 회원들"
+
+#: View/Elements/list/store_list.ctp:38
+msgid "No stores"
+msgstr "c0353 매장이 없습니다"
+
+#: View/Elements/list/video_short_list.ctp:4
+msgid "Select Video"
+msgstr "c0354 동영상 선택"
+
+#: View/Elements/list/video_short_list.ctp:32
+msgid "Video Name"
+msgstr "c0355 동영상 이름"
+
+#: View/Elements/list/video_short_list.ctp:66
+msgid "No videos"
+msgstr "c0356 동영상을 찾을 수 없습니다"
+
+#: View/Elements/list/videos_list.ctp:26
+msgid "No more videos found"
+msgstr "c0357 더 이상 동영상이 없습니다"
+
+#: View/Elements/log_text/buy_product.ctp:4
+msgid "buy product from store %s"
+msgstr "c0358 매장 %s에서 상품 사기"
+
+#: View/Elements/log_text/buy_product.ctp:8
+#: View/Elements/log_text/store_profit.ctp:8
+msgid "buy product"
+msgstr "c0359 상품 사기"
+
+#: View/Elements/log_text/sell_product.ctp:4
+msgid "sell product from store %s"
+msgstr "c0360 배장 %s에서 상품 팔기"
+
+#: View/Elements/log_text/sell_product.ctp:8
+msgid "sell product"
+msgstr "c0361 상품 팔기"
+
+#: View/Elements/log_text/store_profit.ctp:4
+msgid "receive profit from store %s"
+msgstr "c0362 매장 %s에서 수익 받기"
+
+#: View/Elements/misc/review_item.ctp:18
+msgid "Edit Review"
+msgstr "c0363 리뷰 편집"
+
+#: View/Elements/misc/review_item.ctp:18
+msgid "Edit Reply"
+msgstr "c0364 답변 편집"
+
+#: View/Elements/misc/review_item.ctp:25
+msgid "Delete Review"
+msgstr "c0365 리뷰 삭제"
+
+#: View/Elements/misc/review_item.ctp:25
+msgid "Delete Reply"
+msgstr "c0366 답변 삭제"
+
+#: View/Elements/misc/review_item.ctp:32
+msgid "Reply"
+msgstr "c0367 답변"
+
+#: View/Elements/misc/review_item.ctp:58
+msgid "Just now"
+msgstr "c0368 지금"
+
+#: View/Elements/misc/review_item.ctp:71
+msgid "People who like this"
+msgstr "c0369 좋아하는 회원들"
+
+#: View/Elements/misc/search_form_content.ctp:15
+msgid "Category name"
+msgstr "c0370 카테고리 이름"
+
+#: View/Elements/misc/search_form_content.ctp:37
+#: View/Products/manager_create.ctp:139
+msgid "Product Type"
+msgstr "c0371 상품 종류"
+
+#: View/Elements/misc/search_form_content.ctp:41
+msgid "All types"
+msgstr "c0372 모든 종류"
+
+#: View/Elements/misc/search_form_content.ctp:50
+msgid "Sort By"
+msgstr "c0373 분류"
+
+#: View/Elements/misc/search_store_form_content.ctp:4
+#: View/Orders/admin_index.ctp:82
+msgid "Store name"
+msgstr "c0374 매장 이름"
+
+#: View/Elements/mobile/mobile_manager_menu.ctp:41
+#: View/Elements/mobile/mobile_menu.ctp:52
+#: View/Stores/my_wishlist.ctp:32
+msgid "Wishlist"
+msgstr "c0375 관심상품"
+
+#: View/Elements/notification/approve_product.ctp:1
+msgid "'s product was approved"
+msgstr "c0376 상품이 승인되었습니다"
+
+#: View/Elements/notification/approve_seller.ctp:1
+msgid "'s seller was approved"
+msgstr "c0377 판매자가 승인되었습니다"
+
+#: View/Elements/notification/create_order.ctp:1
+msgid "received a new order"
+msgstr "c0378 새 주문을 받았습니다"
+
+#: View/Elements/notification/create_seller.ctp:1
+msgid "became a seller"
+msgstr "c0379 판매자가 되었습니다"
+
+#: View/Elements/notification/disapprove_product.ctp:1
+msgid "'s product was disapproved"
+msgstr "c0380 상품이 비승인되었습니다"
+
+#: View/Elements/notification/disapprove_seller.ctp:1
+msgid "'s seller was disapproved"
+msgstr "c0381 판매자가 비승인되었습니다"
+
+#: View/Elements/notification/featured_product.ctp:1
+msgid "'s product was set featured"
+msgstr "c0382 상품이 추천되었습니다"
+
+#: View/Elements/notification/featured_store.ctp:1
+msgid "'s store was set featured"
+msgstr "c0383 매장이 추천되었습니다"
+
+#: View/Elements/notification/product_featured_expried.ctp:1
+msgid "'s featured product was expired"
+msgstr "c0384 추천 상품이 만료되었습니다"
+
+#: View/Elements/notification/product_reply.ctp:1
+msgid " replied to your review"
+msgstr "c0385 회원님의 리뷰에 답변을 남겼습니다"
+
+#: View/Elements/notification/product_review.ctp:1
+msgid " reviewed product %s"
+msgstr "c0386 %s 상품에 리뷰를 남겼습니다"
+
+#: View/Elements/notification/product_review_report.ctp:1
+msgid " reported a store review"
+msgstr "c0387 매장 리뷰를 신고하였습니다"
+
+#: View/Elements/notification/report_product.ctp:1
+msgid "reported a product"
+msgstr "c0388 상품을 신고하였습니다"
+
+#: View/Elements/notification/store_featured_expired.ctp:1
+#: View/Elements/notification/store_featured_expried.ctp:1
+msgid "'s featured store was expired"
+msgstr "c0389 추천 매장이 만료되었습니다"
+
+#: View/Elements/notification/unfeatured_store.ctp:1
+msgid "'s store was set unfeatured"
+msgstr "c0390 매장이 추천 해제 되었습니다"
+
+#: View/Elements/widgets/product_detail_description.ctp:19
+#: View/Products/manager_create.ctp:246
+#: View/Products/manager_video_fetch.ctp:50
+#: View/StorePayments/admin_create.ctp:71
+msgid "Description"
+msgstr "c0391 상세"
+
+#: View/Elements/widgets/product_detail_description.ctp:22
+msgid "Discussions"
+msgstr "c0392 문의"
+
+#: View/Elements/widgets/product_detail_description.ctp:25
+#: View/Products/manager_create.ctp:89;350
+msgid "Video"
+msgstr "c0393 동영상"
+
+#: View/Elements/widgets/product_detail_description.ctp:29
+msgid "Reviews"
+msgstr "c0394 후기"
+
+#: View/Elements/widgets/product_detail_description.ctp:34
+msgid "Store Policies"
+msgstr "c0395 거래약관"
+
+#: View/Elements/widgets/related_product.ctp:14
+msgid "Related Products"
+msgstr "c0396 관련 상품"
+
+#: View/Elements/widgets/seller_info.ctp:46
+msgid "Contact Seller"
+msgstr "c0397 판매자와 연락"
+
+#: View/Emails/html/order.ctp:94
+msgid "Cash on delivery (COD)"
+msgstr "c0398 현금 결제 방식"
+
+#: View/Helper/StoreHelper.php:220
+msgid "Featured Product with %s %s for %s days"
+msgstr "c0399 %s일 동안 %s %s로 상품 추천 "
+
+#: View/Helper/StoreHelper.php:228
+msgid "Buy featured product"
+msgstr "c0400 추천 상품 사기"
+
+#: View/Helper/StoreHelper.php:237
+msgid "Featured Store with %s %s for %s days"
+msgstr "c0401 %s일 동안 %s %s로 매장 추천"
+
+#: View/Helper/StoreHelper.php:245
+msgid "Buy featured store"
+msgstr "c0402 추천 매장 사기"
+
+#: View/Helper/StoreHelper.php:384
+msgid "Initial"
+msgstr "c0403 성명의 첫 글자"
+
+#: View/Helper/StoreHelper.php:385
+msgid "Completed"
+msgstr "c0404 완료"
+
+#: View/Helper/StoreHelper.php:386
+msgid "Pending"
+msgstr "c0405 진행중"
+
+#: View/Helper/StoreHelper.php:387
+msgid "Expired"
+msgstr "c0406 만료"
+
+#: View/Helper/StoreHelper.php:388
+msgid "Refuned"
+msgstr "c0407 환불"
+
+#: View/Helper/StoreHelper.php:389
+msgid "Failed"
+msgstr "c0408 실패"
+
+#: View/Helper/StoreHelper.php:391
+msgid "Inactive"
+msgstr "c0409 비활성화"
+
+#: View/Helper/StoreHelper.php:444
+msgid "Regular Product"
+msgstr "c0410 일반 상품"
+
+#: View/Helper/StoreHelper.php:445
+msgid "Digital Product"
+msgstr "c0411 디지털 상품"
+
+#: View/Helper/StoreHelper.php:446
+msgid "Link Product"
+msgstr "c0412 상품 링크"
+
+#: View/Helper/StoreHelper.php:482
+msgid "Most recent"
+msgstr "c0413 최근 등록제품"
+
+#: View/Helper/StoreHelper.php:483
+msgid "Sort by name: a-z"
+msgstr "c0414 상품명순 정렬"
+
+#: View/Helper/StoreHelper.php:484
+msgid "Sort by name: z-a"
+msgstr "c0415 상품명 역순정렬"
+
+#: View/Helper/StoreHelper.php:485
+msgid "Sort by price: low to high"
+msgstr "c0416 가격순 정렬: 저가->고가"
+
+#: View/Helper/StoreHelper.php:486
+msgid "Sort by price: high to low"
+msgstr "c0417 가격순 정렬: 고가->저가"
+
+#: View/Helper/StoreHelper.php:487
+msgid "Sort by rating: low to high"
+msgstr "c0418 평가순로 정렬: 낮은 수준부터 높은 수준"
+
+#: View/Helper/StoreHelper.php:488
+msgid "Sort by rating: high to low"
+msgstr "c0419 평가순로 정렬: 우수-일반"
+
+#: View/Orders/admin_index.ctp:11
+#: View/ProductReports/admin_index.ctp:9
+#: View/Products/admin_index.ctp:10
+#: View/StoreCategories/admin_create.ctp:9
+#: View/StoreCategories/admin_index.ctp:4
+#: View/StorePackages/admin_create.ctp:9
+#: View/StorePackages/admin_index.ctp:10
+#: View/StorePayments/admin_create.ctp:9
+#: View/StorePayments/admin_index.ctp:10
+#: View/StoreSettings/admin_index.ctp:51
+#: View/StoreShippingMethods/admin_create.ctp:9
+#: View/StoreShippingMethods/admin_index.ctp:10
+#: View/StoreTransactions/admin_index.ctp:10
+#: View/Stores/admin_index.ctp:7
+msgid "Plugins Manager"
+msgstr "c0420 플러그인 관리자"
+
+#: View/Orders/admin_index.ctp:12
+msgid "Orders Manager"
+msgstr "c0421 주문 관리자"
+
+#: View/Orders/admin_index.ctp:77
+#: View/Orders/manager_index.ctp:81
+msgid "Billing name"
+msgstr "c0422 계산서 이름"
+
+#: View/Orders/admin_index.ctp:78
+#: View/Orders/manager_index.ctp:82
+msgid "Shipping name"
+msgstr "c0423 배송지 이름"
+
+#: View/Orders/admin_index.ctp:79
+#: View/Orders/manager_index.ctp:83
+msgid "Billing email"
+msgstr "c0424 결제 이메일"
+
+#: View/Orders/admin_index.ctp:80
+#: View/Orders/manager_index.ctp:84
+msgid "Shipping email"
+msgstr "c0425 배송 이메일"
+
+#: View/Orders/admin_index.ctp:93
+#: View/Orders/manager_index.ctp:96
+#: View/StoreTransactions/admin_index.ctp:39
+#: View/StoreTransactions/manager_index.ctp:53
+msgid "All statuses"
+msgstr "c0426 모든 상태"
+
+#: View/Orders/admin_index.ctp:105
+#: View/Orders/manager_index.ctp:108
+msgid "from"
+msgstr "c0427 에"
+
+#: View/Orders/admin_index.ctp:116
+#: View/Orders/manager_index.ctp:119
+msgid "to"
+msgstr "c0428 쪽으로"
+
+#: View/Orders/admin_index.ctp:128
+msgid "Total site profit"
+msgstr "c0429 총 사이트 이익"
+
+#: View/Orders/admin_index.ctp:131
+msgid "Total site profit credit"
+msgstr "c0430 총 사이트 이익 크레딧"
+
+#: View/Orders/admin_index.ctp:148
+#: View/Orders/manager_index.ctp:147
+#: View/Stores/my_orders.ctp:68
+msgid "Date"
+msgstr "c0431 날짜"
+
+#: View/Orders/admin_index.ctp:157
+msgid "Profit"
+msgstr "c0432 이익"
+
+#: View/Orders/admin_index.ctp:230
+#: View/Orders/manager_index.ctp:279
+msgid "No Orders"
+msgstr "c0433 나의 주문"
+
+#: View/Orders/checkout.ctp:63
+msgid "Billing Details"
+msgstr "c0434 결제 상세"
+
+#: View/Orders/checkout.ctp:65;148
+#: View/Orders/manager_create.ctp:91;198
+msgid "First Name"
+msgstr "c0435 이름"
+
+#: View/Orders/checkout.ctp:73;156
+#: View/Orders/manager_create.ctp:101;208
+msgid "Last Name"
+msgstr "c0436 성"
+
+#: View/Orders/checkout.ctp:82;165
+msgid "Company Name"
+msgstr "c0437 회사명"
+
+#: View/Orders/checkout.ctp:90;173
+msgid "Email Address"
+msgstr "c0438 이메일 주소"
+
+#: View/Orders/checkout.ctp:111;194
+#: View/Orders/manager_create.ctp:148;254
+#: View/StoreShippingZones/manager_create.ctp:133
+msgid "Select country"
+msgstr "c0439 국가 선택"
+
+#: View/Orders/checkout.ctp:124;207
+msgid "Postcode / Zip"
+msgstr "c0440 우편번호"
+
+#: View/Orders/checkout.ctp:132;215
+msgid "Town / City"
+msgstr "c0441 도시"
+
+#: View/Orders/checkout.ctp:143
+msgid "Ship to a different address?"
+msgstr "c0442 다른 주소로 배송하시겠습니까?"
+
+#: View/Orders/checkout.ctp:224
+msgid "Order Notes"
+msgstr "c0443 주문 노트"
+
+#: View/Orders/checkout.ctp:224
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr "c0444 회원님의 주문 노트 (배송시 희망사항)"
+
+#: View/Orders/checkout.ctp:227
+msgid "Your order"
+msgstr "c0445 나의 주문"
+
+#: View/Orders/checkout.ctp:271
+msgid "Weight: %s kg"
+msgstr "c0446 무게: %s kg"
+
+#: View/Orders/checkout.ctp:291
+msgid "Sub total"
+msgstr "c0447 소계"
+
+#: View/Orders/checkout.ctp:315
+msgid "Order Total"
+msgstr "c0448 주문 합계"
+
+#: View/Orders/checkout.ctp:357
+msgid "Proceed"
+msgstr "c0449 진행"
+
+#: View/Orders/checkout_complete.ctp:33
+msgid "Successfully checkout"
+msgstr "c0450 결제 완료"
+
+#: View/Orders/checkout_complete.ctp:35
+msgid "You have successfully ordered"
+msgstr "c0451 주문을 완료하였습니다"
+
+#: View/Orders/checkout_complete.ctp:36
+msgid "We will contact with you shortly"
+msgstr "c0452 빠른 시일내에 연락드리겠습니다"
+
+#: View/Orders/checkout_complete.ctp:37
+msgid "Thanks for your order"
+msgstr "c0453 주문해주셔서 감사합니다"
+
+#: View/Orders/checkout_complete.ctp:44
+msgid "Back to cart"
+msgstr "c0454 장바구니로 돌아가기"
+
+#: View/Orders/checkout_complete.ctp:48
+msgid "Go to your orders"
+msgstr "c0455 내 주문으로 가기"
+
+#: View/Orders/manager_create.ctp:111;218
+msgid "Company"
+msgstr "c0456 회사"
+
+#: View/Orders/manager_create.ctp:177
+msgid "Copy"
+msgstr "c0457 복사"
+
+#: View/Orders/manager_create.ctp:319
+msgid "Transaction Id"
+msgstr "c0458 거래 ID"
+
+#: View/Orders/manager_create.ctp:386
+#: View/Orders/manager_index.ctp:167
+#: View/StoreCategories/admin_index.ctp:120
+#: View/Stores/my_files.ctp:48
+msgid "Action"
+msgstr "c0459 기능"
+
+#: View/Orders/manager_create.ctp:473
+msgid "Loading"
+msgstr "c0460 로딩중"
+
+#: View/Orders/manager_index.ctp:162
+msgid "Fee"
+msgstr "c0461 수수료"
+
+#: View/Producers/create.ctp:23
+msgid "Create New Producer"
+msgstr "c0462 제조회사 신규등록"
+
+#: View/Producers/create.ctp:68
+#: View/Producers/view.ctp:51
+msgid "Publish"
+msgstr "c0463 게재"
+
+#: View/Producers/create.ctp:77
+#: View/Products/manager_create.ctp:273;352
+#: View/StoreCategories/admin_index.ctp:57;58;119
+msgid "Ordering"
+msgstr "c0464 주문"
+
+#: View/Producers/create.ctp:97
+msgid "Are you sure you want to remove this producer?"
+msgstr "c0465 이 제조회사를 삭제하시겠습니까?"
+
+#: View/Producers/manager_index.ctp:120
+msgid "Producer Listing"
+msgstr "c0466 제조회사 목록"
+
+#: View/Producers/manager_index.ctp:193
+msgid "No Producer"
+msgstr "c0467 등록된 제조회사가 없습니다"
+
+#: View/Producers/view.ctp:32
+msgid "Save order"
+msgstr "c0468 주문 저장"
+
+#: View/Producers/view.ctp:50
+msgid "StoreOrder"
+msgstr "c0469 주문 저장"
+
+#: View/Producers/view.ctp:87
+msgid "Unpublished"
+msgstr "c0470 게재 취소"
+
+#: View/Producers/view.ctp:89
+msgid "Published"
+msgstr "c0471 게재"
+
+#: View/Producers/view.ctp:94
+msgid "Are you sure you want to delete this producer?"
+msgstr "c0472 이 제조회사를 등록취소하시겠습니까?"
+
+#: View/ProductReports/admin_index.ctp:10
+msgid "Reports Manager"
+msgstr "c0473 신고 관리자"
+
+#: View/ProductReports/admin_index.ctp:21
+msgid "Manage Reports"
+msgstr "c0474 신고 관리"
+
+#: View/ProductReports/admin_index.ctp:31;77;116
+#: View/Products/admin_index.ctp:45;46;99;153;202
+#: View/Products/manager_index.ctp:136
+msgid "Approve"
+msgstr "c0475 승인"
+
+#: View/ProductReports/admin_index.ctp:36;112
+#: View/Products/admin_index.ctp:198
+msgid "Un approve"
+msgstr "c0476 승인 취소"
+
+#: View/ProductReports/admin_index.ctp:71
+msgid "Reporter"
+msgstr "c0477 신고자"
+
+#: View/ProductReports/admin_index.ctp:74
+#: View/Products/admin_index.ctp:147
+#: View/Stores/admin_index.ctp:97
+msgid "Create Date"
+msgstr "c0478 날짜 생성"
+
+#: View/ProductReports/admin_index.ctp:156
+msgid "No Reports"
+msgstr "c0479 신고가 없습니다"
+
+#: View/Products/admin_index.ctp:11
+msgid "Products Manager"
+msgstr "c0480 상품 관리자"
+
+#: View/Products/admin_index.ctp:50;51;100
+msgid "Disapprove"
+msgstr "c0481 승인 해제"
+
+#: View/Products/admin_index.ctp:60;61;102
+msgid "Unfeatured"
+msgstr "c0482 추천 해제"
+
+#: View/Products/admin_index.ctp:113
+#: View/Products/manager_index.ctp:94
+msgid "All category"
+msgstr "c0483 모든 카테고리"
+
+#: View/Products/admin_index.ctp:187
+#: View/Stores/admin_index.ctp:133
+msgid "Un featured"
+msgstr "c0484 추천 해제"
+
+#: View/Products/admin_index.ctp:242
+#: View/Products/manager_index.ctp:284
+msgid "No Products"
+msgstr "c0485 상품이 없습니다"
+
+#: View/Products/manager_create.ctp:83
+msgid "General"
+msgstr "c0486 일반 설정"
+
+#: View/Products/manager_create.ctp:86
+msgid "Images"
+msgstr "c0487 사진"
+
+#: View/Products/manager_create.ctp:92
+msgid "Others"
+msgstr "c0488 기타"
+
+#: View/Products/manager_create.ctp:153
+msgid "Allow extensions"
+msgstr "c0489 확장 프로그램 허용"
+
+#: View/Products/manager_create.ctp:167
+msgid "Product link"
+msgstr "c0490 상품 링크"
+
+#: View/Products/manager_create.ctp:180
+msgid "Select category"
+msgstr "c0491 카테고리 선택"
+
+#: View/Products/manager_create.ctp:196
+msgid "Select Producer"
+msgstr "c0492 제조회사 선택"
+
+#: View/Products/manager_create.ctp:216
+msgid "This is based price of product, you can specify the price increment / decrement from this price based for each product attribute"
+msgstr "c0493 상품의 기본 가격입니다. 기본 가격에서 각 상품 속성에 따라 가격 증감을 설정할 수 있습니다"
+
+#: View/Products/manager_create.ctp:228
+msgid "Show the quantity field?"
+msgstr "c0494 수량을 표시 하겠습니까?"
+
+#: View/Products/manager_create.ctp:233
+msgid "Brief Information"
+msgstr "c0495 간략한 정보"
+
+#: View/Products/manager_create.ctp:241
+msgid "A short description about product (max 255 characters)"
+msgstr "c0496 상품의 간략한 정보 (최대 255 단어)"
+
+#: View/Products/manager_create.ctp:259
+msgid "The minimum image width must be %spx."
+msgstr "c0497 사진의 최소 넓이는 %spx 이어야합니다"
+
+#: View/Products/manager_create.ctp:260
+msgid "For the best image view, we suggest a square image dimension with width and height are higher than %spx."
+msgstr "c0498 넓이와 높이가 %spx인 사각형 모형의 사진을 사용하는것을 권합니다"
+
+#: View/Products/manager_create.ctp:271
+msgid "Main"
+msgstr "c0499 메인"
+
+#: View/Products/manager_create.ctp:324;548;590
+msgid "Up"
+msgstr "c0500 올리기"
+
+#: View/Products/manager_create.ctp:325;549;591
+msgid "Down"
+msgstr "c0501 내리기"
+
+#: View/Products/manager_create.ctp:341;342
+#: View/Products/manager_create_video.ctp:19
+msgid "Upload Video"
+msgstr "c0502 동영상 업로드"
+
+#: View/Products/manager_create.ctp:374
+msgid "Allow share"
+msgstr "c0503 공유 허용"
+
+#: View/Products/manager_create.ctp:385
+msgid "Allow discussion"
+msgstr "c0504 토론 허용"
+
+#: View/Products/manager_create.ctp:396
+msgid "Allow review"
+msgstr "c0505 리뷰 허용"
+
+#: View/Products/manager_create.ctp:407
+#: View/Stores/product.ctp:261
+msgid "Warranty"
+msgstr "c0506 품질 보증서"
+
+#: View/Products/manager_create.ctp:421
+msgid "Weight"
+msgstr "c0507 넓이"
+
+#: View/Products/manager_create.ctp:422
+msgid "kg"
+msgstr "c0508 kg"
+
+#: View/Products/manager_create.ctp:436
+msgid "Allow promotion"
+msgstr "c0509 프로모션 허용"
+
+#: View/Products/manager_create.ctp:447
+msgid "Promotion period"
+msgstr "c0510 프로모션 기간"
+
+#: View/Products/manager_create.ctp:451
+msgid "Start"
+msgstr "c0511 시작"
+
+#: View/Products/manager_create.ctp:462
+msgid "End"
+msgstr "c0512 끝"
+
+#: View/Products/manager_create.ctp:476
+msgid "Promotion discount"
+msgstr "c0513 프로모션 할인"
+
+#: View/Products/manager_create.ctp:489
+msgid "You can create multiple attributes for your product like size, color, etc. These attributes will be visible to buyers on the product details page. For each attribute you can specify the price increment / decrement from base price of product."
+msgstr "c0514 상품 속성을 여러개 생성할 수 있습니다: 크기, 색 등등. 해당 속성은 상품 상세 페이지에 나옵니다. 기본 가격에서 각 상품 속성에 따라 가격 증감을 설정할 수 있습니다"
+
+#: View/Products/manager_create.ctp:491
+msgid "Add attribute"
+msgstr "c0515 속성 추가"
+
+#: View/Products/manager_create_video.ctp:28
+msgid "Copy and paste the video url in the text field below"
+msgstr "c0516 동영상 url을 텍스트란에 붙여넣으십시요"
+
+#: View/Products/manager_create_video.ctp:39
+msgid "Source"
+msgstr "c0517 소스"
+
+#: View/Products/manager_create_video.ctp:51
+msgid "URL"
+msgstr "c0518 url"
+
+#: View/Products/manager_create_video.ctp:62
+msgid "Fetch Video"
+msgstr "c0519 동영상 불러오기"
+
+#: View/Products/manager_index.ctp:16
+#: View/Stores/product.ctp:35
+msgid "This feature costs %s for %s day(s). If this product already set as featured, expiration date will be expanded. Are you sure you want to buy?"
+msgstr "c0520 해당 기능은 %s일동안 %s 비용이 부과됩니다"
+
+#: View/Products/manager_index.ctp:62
+msgid "You can manage all products from all of your business pages here."
+msgstr "c0521 모든 비지니스 페이지에서 상품을 관리할 수 있습니다"
+
+#: View/Products/manager_index.ctp:158
+msgid "Product Listing"
+msgstr "c0522 상품 목록"
+
+#: View/Products/manager_index.ctp:212
+msgid "Your product was approved"
+msgstr "c0523 상품이 승인되었습니다"
+
+#: View/Products/manager_index.ctp:214
+msgid "Your product is waiting for approval"
+msgstr "c0524 상품이 승인 대지중입니다"
+
+#: View/Products/manager_index.ctp:225
+#: View/Stores/manager_index.ctp:37
+msgid "Expire"
+msgstr "c0525 만료"
+
+#: View/Products/manager_index.ctp:227
+#: View/Stores/manager_index.ctp:39
+msgid "Upgrade"
+msgstr "c0526 업그레이드"
+
+#: View/Products/manager_index.ctp:231
+#: View/Stores/manager_index.ctp:43
+msgid "Buy"
+msgstr "c0527 구매"
+
+#: View/Products/manager_video_fetch.ctp:30
+msgid "Video Title"
+msgstr "c0528 동영상 제목"
+
+#: View/Products/manager_video_fetch.ctp:59
+msgid "Tags"
+msgstr "c0529 태그"
+
+#: View/Products/manager_video_fetch.ctp:68
+msgid "Privacy"
+msgstr "c0530 개인정보"
+
+#: View/Products/manager_video_fetch.ctp:75
+msgid "Friends Only"
+msgstr "c0531 친구에게만"
+
+#: View/Products/manager_video_fetch.ctp:76
+msgid "Only Me"
+msgstr "c0532 나에게만"
+
+#: View/Products/manager_video_fetch.ctp:92
+msgid "Save Video"
+msgstr "c0533 동영상 저장"
+
+#: View/Products/manager_video_fetch.ctp:94
+msgid "Delete Video"
+msgstr "c0534 동영상 삭제"
+
+#: View/Products/show_share_product.ctp:11
+msgid "Write something about this product"
+msgstr "c0535 이 상품에 대해 글을 쓰십시요"
+
+#: View/Products/show_share_product.ctp:16
+msgid "Successfully share"
+msgstr "c0536 공유 완료"
+
+#: View/Products/show_share_product.ctp:17
+msgid "Share"
+msgstr "c0537 공유"
+
+#: View/StoreCategories/admin_create.ctp:10
+#: View/StoreCategories/admin_index.ctp:5;38
+msgid "Manage Store Categories"
+msgstr "c0538 매장 카테고리 관리"
+
+#: View/StoreCategories/admin_create.ctp:13
+msgid "Edit Store Category"
+msgstr "c0539 매장 카테고리 편집"
+
+#: View/StoreCategories/admin_create.ctp:17
+msgid "Create Store Category"
+msgstr "c0540 매장 카테고리 생성"
+
+#: View/StoreCategories/admin_create.ctp:30
+msgid "Edit %s's Sub Categories"
+msgstr "c0541 %s의 하위 카테고리 편집"
+
+#: View/StoreCategories/admin_create.ctp:30
+msgid "Edit Store Categories"
+msgstr "c0542 매장 카테고리 편집"
+
+#: View/StoreCategories/admin_create.ctp:32
+msgid "Create %s's Sub Categories"
+msgstr "c0543 %s의 하위 카테고리 생성"
+
+#: View/StoreCategories/admin_create.ctp:32
+msgid "Create Store Categories"
+msgstr "c0544 매장 카테고리 생성"
+
+#: View/StoreCategories/admin_create.ctp:67
+msgid "Parent"
+msgstr "c0545 상위"
+
+#: View/StoreCategories/admin_create.ctp:70
+msgid "Root"
+msgstr "c0546 root"
+
+#: View/StoreCategories/admin_index.ctp:38
+msgid "Manage %s's Sub Categories"
+msgstr "c0547 %s의 하위 카테고리 관리"
+
+#: View/StoreCategories/admin_index.ctp:43
+msgid "Back to parent category"
+msgstr "c0548 상위 카테고리로 돌아가기"
+
+#: View/StoreCategories/admin_index.ctp:117
+msgid "Child Categories"
+msgstr "c0549 하위 카테고리"
+
+#: View/StoreCategories/admin_index.ctp:141
+msgid "Add Sub Category"
+msgstr "c0550 하위 카테고리 추가"
+
+#: View/StoreCategories/admin_index.ctp:146
+msgid "Manage Sub Categories"
+msgstr "c0551 하위 카테고리 관리"
+
+#: View/StoreCategories/admin_index.ctp:213
+msgid "No Store Categories"
+msgstr "c0552 매장 카테고리가 없습니다"
+
+#: View/StorePackages/admin_create.ctp:10
+#: View/StorePackages/admin_index.ctp:11
+msgid "Manage Store Packages"
+msgstr "c0553 매장 패키지 관리"
+
+#: View/StorePackages/admin_create.ctp:11;21
+msgid "Edit Store Package"
+msgstr "c0554 매장 패키지 편집"
+
+#: View/StorePackages/admin_create.ctp:66
+#: View/StorePackages/admin_index.ctp:36
+#: View/StoreTransactions/admin_index.ctp:86
+#: View/StoreTransactions/manager_index.ctp:104
+msgid "Period"
+msgstr "c0555 기간"
+
+#: View/StorePackages/admin_create.ctp:66;74
+#: View/StorePackages/admin_index.ctp:36;39
+#: View/StoreTransactions/admin_index.ctp:86
+#: View/StoreTransactions/manager_index.ctp:104
+msgid "Days"
+msgstr "c0556 일"
+
+#: View/StorePackages/admin_create.ctp:74
+#: View/StorePackages/admin_index.ctp:39
+msgid "Remind before"
+msgstr "c0557 상기시키다"
+
+#: View/StorePackages/admin_index.ctp:20
+msgid "Manage Packages"
+msgstr "c0558 패키지 관리"
+
+#: View/StorePackages/admin_index.ctp:92
+msgid "No Packages"
+msgstr "c0559 패키지가 없습니다"
+
+#: View/StorePayments/admin_create.ctp:10
+#: View/StorePayments/admin_index.ctp:11
+msgid "Manage Store Payments"
+msgstr "c0560 결제 관리"
+
+#: View/StorePayments/admin_create.ctp:11;23
+msgid "Edit Store Payment"
+msgstr "c0561 견제 편집"
+
+#: View/StorePayments/admin_index.ctp:20
+msgid "Manage Payments"
+msgstr "c0562 결제 관리"
+
+#: View/StorePayments/admin_index.ctp:74
+msgid "No Payments"
+msgstr "c0563 결제가 업습니다"
+
+#: View/StoreSettings/admin_index.ctp:2
+msgid "Auto Approve Seller"
+msgstr "c0564 판재마를 자동으로 승인합니다"
+
+#: View/StoreSettings/admin_index.ctp:3
+msgid "Auto Approve Product"
+msgstr "c0565 상품을 자동으로 승인합니다"
+
+#: View/StoreSettings/admin_index.ctp:4
+msgid "Product Per Page"
+msgstr "c0566 페이지당 상품 개수"
+
+#: View/StoreSettings/admin_index.ctp:5
+msgid "Currency position"
+msgstr "c0567 화폐 위치"
+
+#: View/StoreSettings/admin_index.ctp:6
+msgid "Wishlist item per page"
+msgstr "c0568 페이지당 관심상품 개수"
+
+#: View/StoreSettings/admin_index.ctp:7
+msgid "My Orders item per page"
+msgstr "c0569 페이지당 나의 주문 개수"
+
+#: View/StoreSettings/admin_index.ctp:8
+msgid "Number of Most viewed products"
+msgstr "c0570 가장 많이 본 상품의 수"
+
+#: View/StoreSettings/admin_index.ctp:9
+msgid "Number of Latest products"
+msgstr "c0571 최근 상품의 수"
+
+#: View/StoreSettings/admin_index.ctp:10
+msgid "Number of Related products"
+msgstr "c0572 관련 상품의 수"
+
+#: View/StoreSettings/admin_index.ctp:11
+msgid "Number of Sale products"
+msgstr "c0573 할인 상품의 수"
+
+#: View/StoreSettings/admin_index.ctp:12
+msgid "Order code prefix"
+msgstr "c0574 주문 코드 prefix"
+
+#: View/StoreSettings/admin_index.ctp:13
+msgid "Site Profit"
+msgstr "c0575 사이트 이익"
+
+#: View/StoreSettings/admin_index.ctp:14
+msgid "Site profit percentage per order (for online transaction)"
+msgstr "c0576 주문당 사이트 이익 퍼센트 (온라인 결제만)"
+
+#: View/StoreSettings/admin_index.ctp:15
+msgid "Yes"
+msgstr "c0577 예"
+
+#: View/StoreSettings/admin_index.ctp:16
+msgid "No"
+msgstr "c0578 아니요"
+
+#: View/StoreSettings/admin_index.ctp:17
+msgid "Left"
+msgstr "c0579 왼쪽"
+
+#: View/StoreSettings/admin_index.ctp:18
+msgid "Right"
+msgstr "c0580 오른쪽"
+
+#: View/StoreSettings/admin_index.ctp:19
+msgid "Number of Featured products"
+msgstr "c0581 추천된 상품의 수"
+
+#: View/StoreSettings/admin_index.ctp:20
+msgid "Number of Featured stores"
+msgstr "c0582 추천된 매장의 수"
+
+#: View/StoreSettings/admin_index.ctp:21
+msgid "Show store list"
+msgstr "c0583 매장 목록 보기"
+
+#: View/StoreSettings/admin_index.ctp:22
+msgid "Allow to select seller to checkout separately at check out step"
+msgstr "c0584 판매자를 결제시 선택할 수 있게 허용합니다"
+
+#: View/StoreSettings/admin_index.ctp:23
+msgid "Store Per Page"
+msgstr "c0585 페이지당 매장의 수"
+
+#: View/StoreSettings/admin_index.ctp:24
+msgid "Enable shipping"
+msgstr "c0586 배송 활성화"
+
+#: View/StoreSettings/admin_index.ctp:25
+msgid "Buy Featured Product"
+msgstr "c0587 추천된 상품 구매"
+
+#: View/StoreSettings/admin_index.ctp:26
+msgid "Buy Featured Store"
+msgstr "c0588 추천된 매장 구매"
+
+#: View/StoreSettings/admin_index.ctp:27
+msgid "By pass force login"
+msgstr "c0589 강제 로그인 우회"
+
+#: View/StoreSettings/admin_index.ctp:28
+msgid "My files item per page"
+msgstr "c0590 페이지당 나의 파일의 수"
+
+#: View/StoreSettings/admin_index.ctp:29
+msgid "Allow digital file extensions"
+msgstr "c0591 다지털 파일 확장 프로그램 허용"
+
+#: View/StoreSettings/admin_index.ctp:30
+msgid "Separate by comma"
+msgstr "c0592 ,로 분류"
+
+#: View/StoreSettings/admin_index.ctp:31
+msgid "Allow video extensions"
+msgstr "c0593 동영성 확장 프로그램 허용"
+
+#: View/StoreSettings/admin_index.ctp:32
+msgid "Integrate credit for check-out process"
+msgstr "c0594 포인트를 결제에서 사용합니다"
+
+#: View/StoreSettings/admin_index.ctp:33
+msgid "Show money type for product"
+msgstr "c0595 상품의 금액 보기
+
+#: View/StoreSettings/admin_index.ctp:37
+msgid "Normal value"
+msgstr "c0596 정상 가치"
+
+#: View/StoreSettings/admin_index.ctp:38
+msgid "Credit value"
+msgstr "c0597 포인트 가치"
+
+#: View/StoreSettings/admin_index.ctp:39
+msgid "All values"
+msgstr "c0598" 모든 가치
+
+#: View/StoreSettings/admin_index.ctp:40
+msgid "Video item per page"
+msgstr "c0599 페이지당 동영상의 수"
+
+#: View/StoreSettings/admin_index.ctp:41
+msgid "Product review item per page"
+msgstr "c0600 페이지당 상품 리뷰의 수"
+
+#: View/StoreSettings/admin_index.ctp:42
+msgid "Number of Same Product Images"
+msgstr "c0601 같은 상품의 사진 개수"
+
+#: View/StoreSettings/admin_index.ctp:43
+msgid "Number of Same Product Videos"
+msgstr "c0602 같은 상품의 동영상 개수"
+
+#: View/StoreSettings/admin_index.ctp:44
+msgid "Paypal type"
+msgstr "c0603 페이팔 종류"
+
+#: View/StoreSettings/admin_index.ctp:45
+msgid "PayPal Adaptive"
+msgstr "c0604 페이팔 Adaptive"
+
+#: View/StoreSettings/admin_index.ctp:46
+msgid "PayPal Express Checkout"
+msgstr "c0605 페이팔 Express 결제"
+
+#: View/StoreSettings/admin_index.ctp:47
+msgid "Only users who buy product can review"
+msgstr "c0606 상품을 구매한 사용자만 리뷰를 작성할 수 있습니다"
+
+#: View/StoreSettings/admin_index.ctp:48
+msgid "Select 'No' if you want anyone can review product"
+msgstr "c0607 모두에게 공개하시기 원하면 '아니요'를 선택하십시요"
+
+#: View/StoreSettings/admin_index.ctp:52
+msgid "Settings Manager"
+msgstr "c0608 설정 관리자"
+
+#: View/StoreShippingMethods/admin_create.ctp:10
+#: View/StoreShippingMethods/admin_index.ctp:11
+msgid "Manage Store Shipping Methods"
+msgstr "c0609 배송방법 관리"
+
+#: View/StoreShippingMethods/admin_create.ctp:11
+msgid "Edit Store Shipping Method"
+msgstr "c0610 배송방법 편집"
+
+#: View/StoreShippingMethods/admin_create.ctp:23
+msgid "Edit Store Shipping"
+msgstr "c0611 배송 편지"
+
+#: View/StoreShippingMethods/admin_index.ctp:20
+msgid "Manage Shipping Methods"
+msgstr "c0612 배송방법 관리"
+
+#: View/StoreShippingMethods/admin_index.ctp:60
+msgid "No Shipping Methods"
+msgstr "c0613 배송방법이 없습니다"
+
+#: View/StoreShippingZones/manager_index.ctp:120
+msgid "Shipping Zone Listing"
+msgstr "c0614 배송 지역 목록"
+
+#: View/StoreShippingZones/manager_index.ctp:193
+msgid "No Shipping Zones"
+msgstr "c0615 배송 지역이 없습니다"
+
+#: View/StoreShippings/manager_create.ctp:73
+msgid "Method"
+msgstr "c0616 방성"
+
+#: View/StoreShippings/manager_create.ctp:82
+msgid "Zone"
+msgstr "c0617 지역"
+
+#: View/StoreShippings/manager_create.ctp:90
+msgid "Click %s to create zone"
+msgstr "c0618 %s 을(를) 클릭하여 지역 생성"
+
+#: View/StoreShippings/manager_create.ctp:102
+msgid "Weight(kg)"
+msgstr "c0619 무게 (kg)"
+
+#: View/StoreShippings/manager_index.ctp:89
+msgid "Shipping Listing"
+msgstr "c0620 배송 목록"
+
+#: View/StoreShippings/manager_index.ctp:153
+msgid "No Shipping"
+msgstr "c0621 배송이 없습니다"
+
+#: View/StoreTransactions/admin_index.ctp:11
+msgid "Manage Store Transactions"
+msgstr "c0622 결제 내역 관리"
+
+#: View/StoreTransactions/admin_index.ctp:50
+#: View/StoreTransactions/manager_index.ctp:64
+msgid "All packages"
+msgstr "c0623 모든 패키지"
+
+#: View/StoreTransactions/admin_index.ctp:74
+msgid "Item name"
+msgstr "c0624 항목 이름"
+
+#: View/StoreTransactions/admin_index.ctp:77
+#: View/StoreTransactions/manager_index.ctp:89
+msgid "Package"
+msgstr "c0625 패키지"
+
+#: View/StoreTransactions/admin_index.ctp:80
+#: View/StoreTransactions/manager_index.ctp:94
+msgid "Gateway"
+msgstr "c0626 게이트웨이"
+
+#: View/StoreTransactions/admin_index.ctp:89
+#: View/StoreTransactions/manager_index.ctp:104
+msgid "Expiration date"
+msgstr "c0627 만료일"
+
+#: View/StoreTransactions/admin_index.ctp:167
+#: View/StoreTransactions/manager_index.ctp:193
+msgid "No Transactions"
+msgstr "c0628 결제 내역이 없습니다"
+
+#: View/StoreTransactions/manager_index.ctp:122
+msgid "Transaction Listing"
+msgstr "c0629 결제 내역 목록"
+
+#: View/Stores/admin_index.ctp:8
+msgid "Sellers Manager"
+msgstr "c0630 판매자 관리자"
+
+#: View/Stores/admin_index.ctp:33
+msgid "Manage Sellers"
+msgstr "c0631 판매자 관리"
+
+#: View/Stores/admin_index.ctp:94
+msgid "Author"
+msgstr "c0632 글쓴이"
+
+#: View/Stores/admin_index.ctp:103
+msgid "Active"
+msgstr "c0633 활동"
+
+#: View/Stores/admin_index.ctp:179
+msgid "No Sellers"
+msgstr "c0634 판매자가 없습니다"
+
+#: View/Stores/create.ctp:106
+msgid "Payment types accepted"
+msgstr "c0635 결제 유형 허용되었습니다"
+
+#: View/Stores/create.ctp:136
+msgid "Note: Each order will be charged %s%% for online transaction."
+msgstr "c0636 주의: 온라인 결제시 각 주문당 %s%% 청구됩니다"
+
+#: View/Stores/create.ctp:144
+#: View/Stores/manager_index.ctp:70
+msgid "Paypal Email"
+msgstr "c0637 페이팔 이메일"
+
+#: View/Stores/create.ctp:158
+msgid "Paypal First Name"
+msgstr "c0638 페이팔 이름"
+
+#: View/Stores/create.ctp:172
+msgid "Paypal Last Name"
+msgstr "c0639 페이팔 성"
+
+#: View/Stores/create.ctp:186
+msgid "Return & Refund Policy"
+msgstr "c0640 반송 및 환불 정책"
+
+#: View/Stores/create.ctp:195
+msgid "Policies are shown on product detail page"
+msgstr "c0641 상품 상세 페이지에 정책이 개제되어 있습니다"
+
+#: View/Stores/manager_index.ctp:11
+msgid "This feature costs %s for %s day(s). If this store already set as featured, expiration date will be expanded. Are you sure you want to buy?"
+msgstr "c0642 이 기능은 %s일 동안 %s 비용이 부과됩니다. 이 매장이 이미 추천되었다면 만료일이 늘어납니다. 정말 구매하시겠습니까?"
+
+#: View/Stores/manager_index.ctp:20
+msgid "This seller is waiting for verification or currently unavailable. Please contact site admin for more information."
+msgstr "c0643 이 판매자는 인증완료되지 않았거나 현재 운영중이지 않습니다.자세한 정보는 사이트 관리자에게 문의하십시요"
+
+#: View/Stores/manager_index.ctp:23
+msgid "Seller Information"
+msgstr "c0644 판매자 정보"
+
+#: View/Stores/manager_index.ctp:35
+msgid "Unlimited"
+msgstr "c0645 무제한"
+
+#: View/Stores/my_orders.ctp:88
+msgid "Detail"
+msgstr "c0646 세부 사항"
+
+#: View/Stores/my_wishlist.ctp:58
+msgid "Stock Status"
+msgstr "c0647 재고 상태"
+
+#: View/Stores/product.ctp:46
+msgid "This product is currently disapproved."
+msgstr "c0648 이 상품은 현제 사용할 수 없습니다."
+
+#: View/Stores/product.ctp:65
+msgid "You don't have permission to view this page"
+msgstr "c0649 해당 페이지를 열람하실 권한이 없습니다"
+
+#: View/Stores/product.ctp:147
+msgid "Choose an option"
+msgstr "c0650 옵션을 선택하세요"
+
+#: View/Stores/product.ctp:240
+msgid "Ask seller"
+msgstr "c0651 판매자에게 질문"
+
+#: View/Stores/product.ctp:312
+#: View/Widgets/products/seller_info.ctp:3
+msgid "Seller Info"
+msgstr "c0652 판매자 정보"
+
+#: View/Stores/product_video_detail.ctp:12
+msgid "Show More"
+msgstr "c0653 더 보기"
+
+#: View/Stores/product_video_detail.ctp:12
+msgid "Show Less"
+msgstr "c0654 간략히"
+
+#: View/Stores/products.ctp:66
+msgid "Grid"
+msgstr "c0655 갤러리 뷰 보기"
+
+#: View/Stores/products.ctp:70
+msgid "List"
+msgstr "c0656 리스트 뷰 보기"
+
+#: View/Widgets/products/featured_products.ctp:11
+msgid "Featured Products"
+msgstr "c0657 추천 상품"
+
+#: View/Widgets/products/featured_stores.ctp:11
+msgid "Featured Stores"
+msgstr "c0658 추천 매장"
+
+#: View/Widgets/products/latest_products.ctp:11
+msgid "Latest Products"
+msgstr "c0659 최근 등록상품"
+
+#: View/Widgets/products/most_viewed_products.ctp:11
+msgid "Most Viewed Products"
+msgstr "c0660 가장 많이 본 상품"
+
+#: View/Widgets/products/sale_products.ctp:11
+msgid "Sale Products"
+msgstr "c0661 할인 상품"
+
+#: Model/Store.php:validation for field name
+#: Model/StoreAttribute.php:validation for field name
+#: Model/StorePackage.php:validation for field name
+#: Model/StorePayment.php:validation for field name
+#: Model/StoreProduct.php:validation for field name
+msgid "Please provide name"
+msgstr "c0662 이름을 입력하십시요"
+
+#: Model/Store.php:validation for field address
+msgid "Please provide address"
+msgstr "c0663 주소를 입력하십시요"
+
+#: Model/Store.php:validation for field phone
+msgid "Please provide phone"
+msgstr "c0664 전화번호를 입력하십시요"
+
+#: Model/Store.php:validation for field payments
+msgid "Please select at least a payment"
+msgstr "c0665 결제 방법을 선택하십시요"
+
+#: Model/StoreCategory.php:validation for field name
+#: Model/StoreShippingMethod.php:validation for field name
+msgid "Please provide category name"
+msgstr "c0666 카테고리명을 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field billing_first_name
+msgid "Please provide billing first name"
+msgstr "c0667 이름을 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field billing_last_name
+msgid "Please provide billing last name"
+msgstr "c0668 성을 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field billing_email
+msgid "Invalid billing email"
+msgstr "c0669 유요하지 않은 이메일"
+
+#: Model/StoreOrder.php:validation for field billing_phone
+msgid "Please provide billing phone"
+msgstr "c0670 전화번호를 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field billing_country_id
+msgid "Please select billing country"
+msgstr "c0671 국가를 선택하십시요"
+
+#: Model/StoreOrder.php:validation for field billing_address
+msgid "Please provide billing address"
+msgstr "c0672 주소를 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field billing_city
+msgid "Please provide billing city"
+msgstr "c0673 도시를 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field shipping_first_name
+msgid "Please provide shipping first name"
+msgstr "c0674 배송자의 이름을 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field shipping_last_name
+msgid "Please provide shipping last name"
+msgstr "c0675 배송자의 성을 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field shipping_email
+msgid "Invalid shipping email"
+msgstr "c0676 유요하지 않은 배송자 이메일입니다"
+
+#: Model/StoreOrder.php:validation for field shipping_phone
+msgid "Please provide shipping phone"
+msgstr "c0677 배송자 연락처를 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field shipping_country_id
+msgid "Please select shipping country"
+msgstr "c0678 배송 국가를 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field shipping_address
+msgid "Please provide shipping address"
+msgstr "c0679 배송 주소를 입력하십시요"
+
+#: Model/StoreOrder.php:validation for field shipping_city
+msgid "Please provide shipping city"
+msgstr "c0680 배송 도시를 입력하십시요"
+
+#: Model/StorePackage.php:validation for field price
+msgid "Please provide price"
+msgstr "c0681 가격을 입력하십시요"
+
+#: Model/StorePackage.php:validation for field period
+msgid "Please provide period"
+msgstr "c0682 기간을 입력하십시요"
+
+#: Model/StorePayment.php:validation for field description
+msgid "Please provide description"
+msgstr "c0683 설명을 입력하십시요"
+
+#: Model/StoreProducer.php:validation for field name
+msgid "Please provide producer name"
+msgstr "c0684 제조회사명을 입력하십시요"
+
+#: Model/StoreProduct.php:validation for field product_code
+msgid "Please provide product code"
+msgstr "c0685 상품 코드를 입력하십시요"
+
+#: Model/StoreProduct.php:validation for field product_code
+msgid "This code is already exist"
+msgstr "c0686 이 코드는 이미 존재합니다"
+
+#: Model/StoreProduct.php:validation for field store_category_id
+msgid "Please select a category"
+msgstr "c0687 카테고리를 선택하십시요"
+
+#: Model/StoreProductComment.php:validation for field email
+msgid "Please provide a valid email address."
+msgstr "c0688 유요한 이메일 주소를 입력하십시요"
+
+#: Model/StoreProductComment.php:validation for field comment
+msgid "Please provide comment"
+msgstr "c0689 댓글을 추가하십시요"
+
+#: Model/StoreReview.php:validation for field rating
+msgid "Please select rating"
+msgstr "c0690 순위를 선택하십시요"
+
+#: Model/StoreReview.php:validation for field content
+msgid "Please input your review"
+msgstr "c0691 리뷰를 작성하십시요"
+
+#: Model/StoreShipping.php:validation for field store_shipping_method_id
+msgid "Please select method"
+msgstr "c0692 방법을 선택하십시요"
+
+#: Model/StoreShipping.php:validation for field store_shipping_zone_id
+msgid "Please select zone"
+msgstr "c0693 지역을 선택하십시요"
+
+#: Model/StoreShipping.php:validation for field price
+msgid "Please enter price"
+msgstr "c0694 가격을 입력하십시요"
+
+#: Model/StoreShippingZone.php:validation for field name
+msgid "Please provide shipping zone name"
+msgstr "c0695 배송 지역명을 추가하십시요"
+
+#: Model/StoreShippingZoneLocation.php:validation for field country_id
+msgid "Please select country"
+msgstr "c0696 국가를 선택하십시요"
+
+msgid "_EMAIL_STORE_ORDER_TITLE_"
+msgstr "c0697Store order email"
+
+msgid "_EMAIL_STORE_ORDER_DESCRIPTION_"
+msgstr "c0698This is store order email"
+
+msgid "_EMAIL_EMAIL_TO_FRIEND_TITLE_"
+msgstr "c0699Store email to friend"
+
+msgid "_EMAIL_EMAIL_TO_FRIEND_DESCRIPTION_"
+msgstr "c0700This is store email to friend"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_REMINDER_TITLE_"
+msgstr "c0701Store email featured product expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_REMINDER_DESCRIPTION_"
+msgstr "c0702This is email featured product expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_TITLE_"
+msgstr "c0703Store email featured product expiration"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_DESCRIPTION_"
+msgstr "c0704This is email featured product expiration"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_REMINDER_TITLE_"
+msgstr "c0705Store email featured store expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_REMINDER_DESCRIPTION_"
+msgstr "c0706This is email featured store expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_TITLE_"
+msgstr "c0707Store email featured store expiration"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_DESCRIPTION_"
+msgstr "c0708This is email featured store expiration"
+
+msgid "StoreProduct not found"
+msgstr "c0709 매장의 상품을 찾지 못 했습니다"
+
+msgid "Successfully set feature"
+msgstr "c0710 추천 설정"
+
+msgid "Cannot set feature, please try again!"
+msgstr "c0711 추천 설정을 할 수 없습니다. 다시 시도해 주십시요"
+
+msgid "Day is required"
+msgstr "c0712 일이 필요합니다"
+
+msgid "Please select business page"
+msgstr "c0713 비즈니스 페이지를 선택하십시요"
+
+msgid "Deny"
+msgstr "c0714 거부"
+
+msgid "Please create your business page first to be able to open seller account"
+msgstr "c0715 판매자 계정을 생성하려면 비즈니스 페이지를 먼저 생성하십시요."
+
+msgid "Allow"
+msgstr "c0716 허용"
+
+msgid "This business page already linked to a store, please choose another business page"
+msgstr "c0717 이 비즈니스 페이지는 이미 매장에 링크되었습니다. 다른 비즈니스 페이지를 선택해주십시요."
+
+msgid "Open business page now"
+msgstr "c0718 비즈니스 페이지 지금 열기"
+
+msgid "wrote a review"
+msgstr "c0719 리뷰를 남겼습니다"
+
+msgid "Set Feature"
+msgstr "c0720 추천함"
+
+msgid "Day"
+msgstr "c0721 일"
+
+msgid "Ok"
+msgstr "c0722 Ok"
+
+msgid "Verify"
+msgstr "c0723 확인"
+
+msgid "Unverify"
+msgstr "c0724 확인 취소"
+
+msgid "Rating"
+msgstr "c0725 평가등급"
+
+msgid "Business"
+msgstr "사업자"
+
+msgid "Feature"
+msgstr "c0727 추천"
+
+msgid "Buy Product"
+msgstr "c0728 상품 사기"
+
+msgid "Sell Product"
+msgstr "c0729 상품 팔기"
+
+msgid "Store Profit"
+msgstr "c0730 매장 수익"
+
+msgid "Integrate with business directory plugin"
+msgstr "c0731 비즈니스 디렉토리 플러그인과 통합"
+
+msgid "Edit Stores"
+msgstr "c0732 매장 편집"
+
+msgid "Add New Stores"
+msgstr "c0733 새 매장 추자"
+
+msgid "Select business"
+msgstr "c0734 비즈니스 선택"
+
+msgid "Products that you added into your store will also appear in the selected business page under 'Products' tab"
+msgstr "c0735 회원님의 매장에 초가한 상품들은 '상품' 탭에 선택한 비즈니스 페이지에도 추가됩니다."
+
+msgid "Select business page"
+msgstr "c0736 비즈니스 페이지 선택"
+
+msgid "Business Page"
+msgstr "c0737 비즈니스 페이지"
+

@@ -1,0 +1,1 @@
+<?php echo $this->element('Quiz.activity/share/quiz_item_detail'); ?>

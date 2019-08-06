@@ -1,0 +1,895 @@
+/*
+	Refactored Code
+*/
+@keyframes bounce {
+  0% {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.react-icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /*&:hover{
+      &:before{
+          display: block;
+      }
+  }*/
+}
+.react-icon:before {
+  content: attr(data-name);
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 4px 8px;
+  display: none;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 90px;
+}
+
+.react-like {
+  background-image: url("../img/like.png");
+}
+
+.react-dislike {
+  background-image: url("../img/dislike.png");
+}
+
+.react-love {
+  background-image: url("../img/love.png");
+}
+
+.react-haha {
+  background-image: url("../img/haha.png");
+}
+
+.react-wow {
+  background-image: url("../img/wow.png");
+}
+
+.react-sad {
+  background-image: url("../img/sad.png");
+}
+
+.react-angry {
+  background-image: url("../img/angry.png");
+}
+
+.react-cool {
+  background-image: url("../img/cool.png");
+}
+
+.react-confused {
+  background-image: url("../img/confused.png");
+}
+
+.reaction-options {
+  position: relative;
+  display: inline-block;
+}
+.reaction-options.react-show .reacts {
+  display: flex;
+}
+.reaction-options .react-loading {
+  /*&:before, &:after{
+      content: '';
+      width: 18px;
+      height: 18px;
+      background: #ddd8e5;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+  }
+  &:before {
+      animation: bounce 1s infinite;
+  }
+  &:after {
+      animation: bounce 1s -0.4s infinite;
+  }*/
+}
+.reaction-options .react-loading > span:before {
+  animation: bounce 1s -0.4s infinite;
+}
+.reaction-options .react-btn {
+  display: inline-block;
+  line-height: 18px;
+}
+.reaction-options .react-btn:before, .reaction-options .react-btn:after {
+  content: '';
+  display: table;
+}
+.reaction-options .react-btn:after {
+  clear: both;
+}
+.reaction-options .react-btn:hover {
+  text-decoration: none;
+}
+.reaction-options .react-btn > span {
+  color: #6e6d6e;
+  position: relative;
+  display: inline-block;
+}
+.reaction-options .react-btn > span > i {
+  margin: 0 !important;
+  font-size: 18px;
+  line-height: 18px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+}
+.reaction-options .react-btn > span:before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  float: left;
+  /*margin-right: 3px;*/
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reaction-options .react-btn [class^="react-active-"] > i {
+  display: none;
+}
+.reaction-options .react-btn .react-active-like:before {
+  content: '';
+  background-image: url("../img/like.png");
+}
+.reaction-options .react-btn .react-active-dislike:before {
+  content: '';
+  background-image: url("../img/dislike.png");
+}
+.reaction-options .react-btn .react-active-love:before {
+  content: '';
+  background-image: url("../img/love.png");
+}
+.reaction-options .react-btn .react-active-haha:before {
+  content: '';
+  background-image: url("../img/haha.png");
+}
+.reaction-options .react-btn .react-active-wow:before {
+  content: '';
+  background-image: url("../img/wow.png");
+}
+.reaction-options .react-btn .react-active-sad:before {
+  content: '';
+  background-image: url("../img/sad.png");
+}
+.reaction-options .react-btn .react-active-angry:before {
+  content: '';
+  background-image: url("../img/angry.png");
+}
+.reaction-options .react-btn .react-active-cool:before {
+  content: '';
+  background-image: url("../img/cool.png");
+}
+.reaction-options .react-btn .react-active-confused:before {
+  content: '';
+  background-image: url("../img/confused.png");
+}
+
+#lb_description .reaction-options .react-btn > span {
+  color: #ffffff;
+}
+
+.reaction-mobile .react-overview {
+  z-index: 2000;
+}
+.reaction-mobile .reacts {
+  z-index: 2001;
+}
+
+.react-overview {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  display: none;
+}
+
+.reacts {
+  background: #ffffff;
+  border-radius: 90px;
+  padding: 1px 3px;
+  display: none;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 100%;
+  z-index: 15;
+}
+.reacts .react-circle {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  animation: slide 0.2s ease-in-out forwards;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  transition: transform 500ms ease;
+  /*&:hover {
+      .react-icon{
+          transform: scale(1.3) translate(0, -6px);
+      }
+  }*/
+}
+@keyframes slide {
+  0% {
+    transform: scale(0.1) translateY(10px);
+    -webkit-transform: scale(0.1) translateY(10px);
+    -moz-transform: scale(0.1) translateY(10px);
+    -o-transform: scale(0.1) translateY(10px);
+  }
+  50% {
+    transform: scale(0.4) translateY(50px);
+    -webkit-transform: scale(0.4) translateY(50px);
+    -moz-transform: scale(0.4) translateY(50px);
+    -o-transform: scale(0.4) translateY(50px);
+  }
+  100% {
+    transform: scale(0.8) translate(0, 0);
+    -webkit-transform: scale(0.8) translate(0, 0);
+    -moz-transform: scale(0.8) translate(0, 0);
+    -o-transform: scale(0.8) translate(0, 0);
+  }
+}
+.reacts .react-circle:nth-child(1) {
+  animation-duration: calc(0.1s * 1);
+  -webkit-animation-duration: calc(0.1s * 1);
+  -moz-animation-duration: calc(0.1s * 1);
+  -o-animation-duration: calc(0.1s * 1);
+}
+.reacts .react-circle:nth-child(2) {
+  animation-duration: calc(0.1s * 2);
+  -webkit-animation-duration: calc(0.1s * 2);
+  -moz-animation-duration: calc(0.1s * 2);
+  -o-animation-duration: calc(0.1s * 2);
+}
+.reacts .react-circle:nth-child(3) {
+  animation-duration: calc(0.1s * 3);
+  -webkit-animation-duration: calc(0.1s * 3);
+  -moz-animation-duration: calc(0.1s * 3);
+  -o-animation-duration: calc(0.1s * 3);
+}
+.reacts .react-circle:nth-child(4) {
+  animation-duration: calc(0.1s * 4);
+  -webkit-animation-duration: calc(0.1s * 4);
+  -moz-animation-duration: calc(0.1s * 4);
+  -o-animation-duration: calc(0.1s * 4);
+}
+.reacts .react-circle:nth-child(5) {
+  animation-duration: calc(0.1s * 5);
+  -webkit-animation-duration: calc(0.1s * 5);
+  -moz-animation-duration: calc(0.1s * 5);
+  -o-animation-duration: calc(0.1s * 5);
+}
+.reacts .react-circle:nth-child(6) {
+  animation-duration: calc(0.1s * 6);
+  -webkit-animation-duration: calc(0.1s * 6);
+  -moz-animation-duration: calc(0.1s * 6);
+  -o-animation-duration: calc(0.1s * 6);
+}
+.reacts .react-circle:nth-child(7) {
+  animation-duration: calc(0.1s * 7);
+  -webkit-animation-duration: calc(0.1s * 7);
+  -moz-animation-duration: calc(0.1s * 7);
+  -o-animation-duration: calc(0.1s * 7);
+}
+.reacts .react-circle:nth-child(8) {
+  animation-duration: calc(0.1s * 8);
+  -webkit-animation-duration: calc(0.1s * 8);
+  -moz-animation-duration: calc(0.1s * 8);
+  -o-animation-duration: calc(0.1s * 8);
+}
+.reacts .react-circle .react-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 200ms ease;
+  /*&.react-active{
+      transform: scale(1.3) translate(0, -6px);
+  }*/
+}
+.reacts .react-circle.react-active .react-icon {
+  transform: scale(1.3) translate(0, -6px);
+}
+
+@media (min-width: 1025px) {
+  /*.reacts {
+      .react-circle {
+          &:hover {
+              .react-icon{
+                  transform: scale(1.3) translate(0, -6px);
+              }
+          }
+      }
+  }*/
+}
+.reaction-review {
+  line-height: 18px;
+  vertical-align: middle;
+}
+.reaction-review:before, .reaction-review:after {
+  display: table;
+  content: '';
+}
+.reaction-review:after {
+  clear: both;
+}
+.reaction-review .react-review {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  position: relative;
+  cursor: pointer;
+}
+.reaction-review .react-review:before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.reaction-review .react-review:hover .react-result-count {
+  display: block;
+}
+.reaction-review .react-review + .react-review {
+  margin-left: 1px;
+}
+.reaction-review .react-review.react-active-like {
+  z-index: 9;
+}
+.reaction-review .react-review.react-active-like:before {
+  background-image: url("../img/like.png");
+}
+.reaction-review .react-review.react-active-dislike {
+  z-index: 8;
+}
+.reaction-review .react-review.react-active-dislike:before {
+  background-image: url("../img/dislike.png");
+}
+.reaction-review .react-review.react-active-love {
+  z-index: 7;
+}
+.reaction-review .react-review.react-active-love:before {
+  background-image: url("../img/love.png");
+}
+.reaction-review .react-review.react-active-haha {
+  z-index: 6;
+}
+.reaction-review .react-review.react-active-haha:before {
+  background-image: url("../img/haha.png");
+}
+.reaction-review .react-review.react-active-wow {
+  z-index: 5;
+}
+.reaction-review .react-review.react-active-wow:before {
+  background-image: url("../img/wow.png");
+}
+.reaction-review .react-review.react-active-sad {
+  z-index: 4;
+}
+.reaction-review .react-review.react-active-sad:before {
+  background-image: url("../img/sad.png");
+}
+.reaction-review .react-review.react-active-angry {
+  z-index: 3;
+}
+.reaction-review .react-review.react-active-angry:before {
+  background-image: url("../img/angry.png");
+}
+.reaction-review .react-review.react-active-cool {
+  z-index: 2;
+}
+.reaction-review .react-review.react-active-cool:before {
+  background-image: url("../img/cool.png");
+}
+.reaction-review .react-review.react-active-confused {
+  z-index: 1;
+}
+.reaction-review .react-review.react-active-confused:before {
+  background-image: url("../img/confused.png");
+}
+.reaction-review .react-result-count {
+  position: absolute;
+  top: -21px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2px 8px;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 90px;
+  display: none;
+}
+.reaction-review .react-count-all {
+  color: #6e6d6e;
+  line-height: 18px;
+}
+.reaction-review .react-see-hide {
+  display: none;
+}
+
+.activity_comments li[id^="comment_"] .comment a.react-count-all {
+  color: #6e6d6e;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.title-modal-reaction {
+  padding: 5px;
+  position: relative;
+}
+.title-modal-reaction button.close {
+  width: 32px;
+  height: 32px;
+  right: 0;
+  top: 5px;
+}
+.title-modal-reaction button.close span {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  line-height: 30px;
+}
+
+.reaction-tab {
+  font-size: 12px;
+  line-height: 15px;
+}
+.reaction-tab:before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 3px;
+}
+.reaction-tab.react-active-all:before {
+  content: attr(data-title);
+  min-width: 15px;
+  width: auto;
+  height: 15px;
+}
+.reaction-tab.react-active-like:before {
+  background-image: url("../img/like.png");
+}
+.reaction-tab.react-active-dislike:before {
+  background-image: url("../img/like.png");
+}
+.reaction-tab.react-active-love:before {
+  background-image: url("../img/love.png");
+}
+.reaction-tab.react-active-haha:before {
+  background-image: url("../img/haha.png");
+}
+.reaction-tab.react-active-wow:before {
+  background-image: url("../img/wow.png");
+}
+.reaction-tab.react-active-sad:before {
+  background-image: url("../img/sad.png");
+}
+.reaction-tab.react-active-angry:before {
+  background-image: url("../img/angry.png");
+}
+.reaction-tab.react-active-cool:before {
+  background-image: url("../img/cool.png");
+}
+.reaction-tab.react-active-confused:before {
+  background-image: url("../img/confused.png");
+}
+
+.feed-reaction-review {
+  padding: 0 15px 5px 15px;
+}
+
+.comment-reaction-options {
+  margin-left: 5px;
+}
+
+.comment-reaction-review {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+
+.feed-reaction-options {
+  margin-left: 10px;
+}
+
+.like-section .like-action {
+  line-height: 18px;
+}
+.like-section .like-action > a i {
+  vertical-align: middle;
+}
+.like-section .like-action > a > span {
+  vertical-align: middle;
+}
+.like-section .like-action .item-reaction-review {
+  display: inline-block;
+}
+
+.feed-time.date > span > script {
+  display: none !important;
+}
+
+#lb_description {
+  line-height: 26px;
+}
+#lb_description .photo-reaction-review {
+  display: inline-block;
+  line-height: 20px;
+}
+
+.photo_on_theater .photo_left > .photo-reaction-review {
+  float: left;
+}
+.photo_on_theater .photo_left > .photo-reaction-options {
+  float: right;
+}
+.photo_on_theater .photo_left > .photo-reaction-options > .reacts {
+  /*transform: scale(0.9) translate(-92%, 0);*/
+  bottom: 5px;
+}
+.photo_on_theater .photo_left .comment-reaction-options .reacts {
+  /*transform:scale(0.6) translate(-70%, 0);*/
+  bottom: 0;
+}
+
+.photo_on_theater .photo-reaction-options .react-overview, .photo_on_theater .comment-reaction-options .react-overview {
+  height: 10000px;
+}
+
+.section-like-photo .reaction-review {
+  display: inline-block;
+}
+
+@media screen and (max-width: 576px) {
+  .feed-time.date > span.comment-action {
+    display: block;
+  }
+
+  /*.reacts {
+      transform:scale(0.9) translate(-55%, 0);
+  }*/
+}
+.notification_reaction_like,
+.notification_reaction_love,
+.notification_reaction_haha,
+.notification_reaction_wow,
+.notification_reaction_sad,
+.notification_reaction_angry,
+.notification_reaction_cool,
+.notification_reaction_confused {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+.notification_reaction_like {
+  background-image: url("../img/like.png");
+}
+
+.notification_reaction_dislike {
+  background-image: url("../img/dislike.png");
+}
+
+.notification_reaction_love {
+  background-image: url("../img/love.png");
+}
+
+.notification_reaction_haha {
+  background-image: url("../img/haha.png");
+}
+
+.notification_reaction_wow {
+  background-image: url("../img/wow.png");
+}
+
+.notification_reaction_sad {
+  background-image: url("../img/sad.png");
+}
+
+.notification_reaction_angry {
+  background-image: url("../img/angry.png");
+}
+
+.notification_reaction_cool {
+  background-image: url("../img/cool.png");
+}
+
+.notification_reaction_confused {
+  background-image: url("../img/confused.png");
+}
+
+.notification_reaction_none {
+  display: none;
+}
+
+.reaction-notification-item > span {
+  margin-right: -20px;
+  margin-left: 6px;
+}
+
+/*# sourceMappingURL=reaction.css.map */
+
+/* --- Reaction ---*/
+.like-icon-default{
+  /*fill:#9a9b9b;*/
+  fill: #9b5a45;
+}
+.angry-a-head{
+  opacity:0.24;
+}
+.angry_head_override{
+  /*--color-stop-1: #fed458;
+  --color-stop-2: #fdcb58;
+  --color-stop-3: #fbb357;
+  --color-stop-4: #f78b56;
+  --color-stop-5: #f25454;
+  --color-stop-6: #ef3753;*/
+
+  --color-stop-1: #00c3ff;
+  --color-stop-2: #77e190;
+  --color-stop-3: #ffff1c;
+  --color-stop-4: #ff8471;
+  --color-stop-5: #98d7ff;
+  --color-stop-6: #ff0016;
+}
+.angry-a-face{
+  fill:url(#angry_head_override);
+}
+.angry-a-eyebrow{
+  stroke: #c69800;
+}
+.angry-a-eye{
+  /*fill:#262c38;*/
+  fill: #ff0020;
+}
+.angry-a-mouth{
+  /*fill:#262c38;*/
+  fill: #13ff06;
+}
+
+.haha-a-head{
+  opacity:0.24;
+}
+.haha_head_override{
+  /*--color-stop-1: #fed458;
+  --color-stop-2: #fdcb58;
+  --color-stop-3: #fbb357;*/
+
+  --color-stop-1: #00c3ff;
+  --color-stop-2: #77e190;
+  --color-stop-3: #ffff1c;
+}
+.haha-a-face{
+  fill:url(#haha_head_override);
+}
+.haha-a-eye{
+  /*stroke:#262c38;*/
+  stroke: #cf1900;
+}
+.haha-a-mouth{
+  /*fill:#262c38;*/
+  fill: #6173ff;
+}
+.haha-a-tongue{
+  /*fill:#f55065;*/
+  fill: #d0c1a0;
+}
+.haha-a-throat{
+  /*fill:#303a49;*/
+  fill: #e41ae1;
+}
+
+.confused-a-head{
+  opacity:0.24;
+}
+.haha_head_override{
+  /*--color-stop-1: #fecc68;
+  --color-stop-2: #fed05f;
+  --color-stop-3: #fed458;*/
+
+  --color-stop-1: #00c3ff;
+  --color-stop-2: #77e190;
+  --color-stop-3: #ffff1c;
+}
+.confused-a-face{
+  fill:url(#confused_head_gradient);
+}
+.confused-a-eye{
+  /*fill: #262c38;*/
+  fill: #cf1900;
+}
+.confused-a-eyebrow{
+  /*stroke:#262c38;*/
+  stroke: #ff8471;
+}
+.confused-a-mouth{
+  /*fill: #262c38;*/
+  fill: #6173ff;
+}
+
+.confused-a-eyeballs{
+  /*fill:#fff;*/
+  fill: #e3ff82;
+}
+
+.cool-a-head{
+  opacity:0.24;
+}
+.cool_head_override{
+  /*--color-stop-1: #fecc68;
+  --color-stop-2: #fed05f;
+  --color-stop-3: #fed458;*/
+
+  --color-stop-1: #00c3ff;
+  --color-stop-2: #77e190;
+  --color-stop-3: #ffff1c;
+}
+.cool-a-face{
+  fill:url(#cool_head_override);
+}
+.cool-a-cheek-left{
+  fill:url(#cool-cheek-override);
+}
+.cool-a-cheek-right{
+  /*fill:url(#cool-cheek-right);*/
+}
+.cool-a-mouth{
+  /*stroke:#262c38;*/
+  stroke: #ff211c;
+}
+.cool-a-eyebrow{
+  /*stroke:#262c38;*/
+  stroke: #00577b;
+}
+
+.like-a-head{
+  opacity:0.24;
+}
+.like_head_override{
+  /*--color-stop-1: #0068ff;
+  --color-stop-2: #0966ff;
+  --color-stop-3: #215fff;
+  --color-stop-4: #355aff;*/
+
+  --color-stop-1: #00c3ff;
+  --color-stop-2: #77e190;
+  --color-stop-3: #ffff1c;
+  --color-stop-4: #caffbb;
+}
+.like-a-face{
+  fill:url(#like_head_override);
+}
+.like-a-hand{
+  /*fill:#fff;*/
+  fill: #ff7db3;
+}
+
+
+
+.love-a-head{
+  opacity:0.24;
+}
+.love_head_override{
+  /*--color-stop-1: #fecc68;
+  --color-stop-2: #fed05f;
+  --color-stop-3: #fed458;*/
+
+  --color-stop-1: #00c3ff;
+  --color-stop-2: #77e190;
+  --color-stop-3: #ffff1c;
+}
+.love-a-face{
+  fill:url(#love_head_override);
+}
+.love-a-heart{
+  /*fill:#fff;*/
+  fill: #ff0002;
+}
+
+.sad-a-head{
+  opacity:0.24;
+}
+.sad_head_override{
+  /*--color-stop-1: #fecc68;
+  --color-stop-2: #fed05f;
+  --color-stop-3: #fed458;*/
+
+  --color-stop-1: #00c3ff;
+  --color-stop-2: #77e190;
+  --color-stop-3: #ffff1c;
+}
+.sad-a-face{
+  fill:url(#sad_head_override);
+}
+.sad-a-mouth{
+  /*stroke:#262c38;*/
+  stroke: #ff6973;
+}
+.sad-a-eyebrow{
+  /*stroke:#262c38;*/
+  stroke: #c69800;
+}
+.sad-a-eye{
+  /*fill:#262c38;*/
+  fill: #cf313e;
+}
+.sad-a-water{
+  /*fill:#4475ff;*/
+  fill: #adff58;
+}
+
+.wow-a-head{
+  opacity:0.24;
+}
+.wow_head_override{
+  /*--color-stop-1: #fecc68;
+  --color-stop-2: #fed05f;
+  --color-stop-3: #fed458;*/
+
+  --color-stop-1: #00c3ff;
+  --color-stop-2: #77e190;
+  --color-stop-3: #ffff1c;
+}
+.wow-a-face{
+  fill:url(#wow_head_override);
+}
+.wow-a-eyebrow{
+  /*stroke:#262c38;*/
+  stroke: #cf313e;
+}
+.wow-a-mouth{
+  /*fill:#262c38;*/
+  fill: #ff140a;
+}
+.wow-a-eye{
+  /*fill:#262c38;*/
+  fill: #6173ff;
+}

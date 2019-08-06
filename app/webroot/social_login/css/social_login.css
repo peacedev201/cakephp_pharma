@@ -1,0 +1,132 @@
+#linkedinSignInWrapper{   
+    background-color: #00A0DC;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#twitterSignInWrapper{
+    background-color: #42C8F4;
+    height: 40px;
+}
+
+#linkedinSignInWrapper a, #twitterSignInWrapper a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#linkedinSignInWrapper span.icon {
+    background: url(../img/linkedin_logo.png) transparent 0px -10px no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 38px;
+    height: 40px;
+}
+
+#twitterSignInWrapper span.icon {
+    background: url(../img/twitter_logo.png) transparent 12px 3px no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 38px;
+    height: 40px;
+}
+
+.user_register_holder #linkedinSignInWrapper, .user_register_holder #twitterSignInWrapper {
+    width: 114px;
+    border-radius: 4px;
+    float: left;
+    margin: 0 10px;
+}
+
+.user_register_holder .sociallogin-providers.not-order-social .center-login-text{
+    float: left;
+}
+
+.guest-action .sociallogin-providers{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.guest-action .register_social_form #linkedinSignInWrapper,  .guest-action .register_social_form #twitterSignInWrapper {   
+        display: inline-block;
+        width: 28px;
+        height: 28px !important;
+        margin: 0;
+
+    }
+
+.guest-action #linkedinSignInWrapper span.icon, .guest-action #twitterSignInWrapper span.icon {
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    background-position: 2px 0px;
+}    
+    
+#linkedinSignInWrapper , #twitterSignInWrapper{
+   margin: 10px auto;
+    width: 60%;
+}
+
+#page_guest_home-index #signUpForm .sociallogin-providers {
+    margin: 0;
+}
+
+.guest-action .sociallogin-providers .center-login-text {
+    margin-bottom: 5px;
+}
+
+.user_register_holder .sociallogin-providers .center-login-text {
+    margin-bottom: 0;
+    line-height: 41px;
+    margin-right: 10px;
+}
+.sociallogin-providers .center-login-text {
+    margin-bottom: 22px;
+}
+
+#signUpForm .not-order-social, #center .loginPage .not-order-social{
+    margin-top: 30px;
+}
+
+.user_register_holder .register_social_form{
+    padding-bottom: 15px;
+}
+
+#page_guest_home-index #signUpForm .not-order-social{
+    margin-top: 5px;
+}
+@media (max-width:992px) and (min-width:768px) {
+    .user_register_holder #linkedinSignInWrapper, .user_register_holder #twitterSignInWrapper {
+        margin-left: 0;
+    }
+}
+@media (max-width:1025px) and (min-width:993px) {
+    #page_guest_home-index #signUpForm .sociallogin-providers {
+        padding-left: 127px
+    }
+    .user_register_holder #linkedinSignInWrapper{
+        margin-top: 0;
+    }
+    
+}
+.guest-action .sociallogin-providers .sl-text-center{
+    display: none !important;
+}
+.sociallogin-providers .sl-text-center{
+    float: left;
+    margin-bottom: 0;
+    line-height: 41px;
+    margin-right: 10px;
+}
+.sociallogin-providers .sl-text-center > span {
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #f4f4f4;
+}
+
+@media (max-width: 480px){
+    #linkedinSignInWrapper , #twitterSignInWrapper {
+        width: 200px;
+    }
+}

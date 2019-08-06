@@ -1,0 +1,1 @@
+<li class="mdl-menu__item mdl-js-ripple-effect"><a class="question_menu" data-url="<?php echo $this->request->base?>/questions/browse/profile/<?php echo $user['User']['id']?>" rel="profile-content" href="#"><?php echo __d('question','Questions')?></a>

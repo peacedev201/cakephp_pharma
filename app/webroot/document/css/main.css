@@ -1,0 +1,209 @@
+.document_scribd
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#iframe_preview
+{
+	border: 1px #ccc solid;
+}
+.document-detail-title {
+  float: left;
+  margin-right: 30px;
+}
+
+.document-detail-action {
+  position: relative;
+  float: right;
+}
+
+.document-detail-action .list_option {
+  top: 7px;
+}
+.document_description
+{
+  	overflow: hidden;
+  	line-height: 15px;
+    margin: 10px 0;
+    clear: both;
+}
+
+.document-description-truncate {
+	line-height: 1.5;
+	margin: 0px 0 0;
+	word-wrap: break-word;
+	margin-top: 10px;
+}
+.document-content-list li:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.document-info {
+	margin-left: 122px;
+	margin-right: 30px;
+}
+.extra_info .tip
+{
+	color:#888;
+}
+.document-info .like-section {
+	float: left;
+	margin-top: 10px;
+}
+
+.document_img img
+{
+	border: 1px solid #D8D5D5;
+	height: 144px;
+    width: 111px;
+}
+
+ul.document-content-list > li {
+	border-top: 1px solid #DFDFDF;
+	padding-top: 15px;
+}
+
+ul.document-content-list li
+{
+	padding-bottom: 9px;
+}
+.document_img
+{
+	float: left;
+	position: relative;
+}
+.page_feature
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.document-content-list > li .list_option {
+  	top: 15px;
+}
+
+.document_alert-message
+{
+	clear: both;
+  	color: #F00;
+}
+
+.document-content-block
+{
+	padding:0px;
+	list-style-type: none;
+}
+.document-content-block .document_detail
+{
+	padding-left: 6px;
+	float: left;
+}
+.document-content-block .extra_count p
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+#document_feature img
+{
+	border: 1px solid #CCC;
+}
+
+li.document_list
+{
+	position: relative;
+}
+
+.document-info a.title
+{
+	font-size: 16px;
+    display: block;
+    font-weight: bold;
+}
+
+.document_detail a
+{
+	font-weight: bold;
+    font-size: 13px;
+}
+.document_detail .extra_count
+{
+	padding-top: 5px;
+    font-size: 11px;
+    color: #888;
+}
+#center .feature_block h1
+{
+	padding-top: 5px;
+	margin: 0px;
+}
+.activity_item.moo_app_document
+{
+	padding:5px;
+}
+.moo_app_document_action .list_option
+{
+	top:0px;
+}
+.moo_app_document .activity_right,
+.moo_app_document_activity_right
+{
+	padding: 5px 10px;
+}
+
+#page_documents-index .moo_app .dropdown-menu li
+{
+	position: relative;
+}
+
+#page_documents-index .moo_app .dropdown-menu li
+{
+	position: relative;
+}
+
+#page_documents-index .moo_app .dropdown-menu>li>a {
+    line-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 30px;
+}
+#page_documents-index .moo_app .cat_select_dropdown .dropdown-menu .badge_counter {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+#page_search-index .document-content-list .document_list,
+#page_guest_search-index .document-content-list .document_list
+{
+	border-top:none;
+	border-bottom: 1px solid #DFDFDF;	
+}
+@media(max-width:991px){
+	.document_feature_content {
+	  background: #FFF;	  
+	}
+	
+	.document_feature_content
+	{
+		padding-bottom: 13px;
+  		margin-bottom: 8px;
+	}
+	.document-content-list .list_option {
+	    right: 10px;
+	    top: 10px;
+	}
+}
+@media(max-width: 767px)
+{
+	#page_documents-create .error_document
+	{
+	    padding: 10px;
+	    text-align: center;
+	    background-color: #FFF;
+	}
+}
+

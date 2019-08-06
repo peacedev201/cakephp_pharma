@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+	<version>
+        <number>1.1</number>
+        <queries>
+            <query>
+			<![CDATA[   
+				UPDATE `{PREFIX}activities` SET `share`=1 WHERE action = 'document_create';
+				ALTER TABLE  `{PREFIX}documents` ADD  `share_count` INT NOT NULL DEFAULT  '0';
+				UPDATE  `{PREFIX}core_blocks` SET  `params` = '[{"label":"Title","input":"text","value":"Feature Document","name":"title"},{"label":"Number of item to show","input":"text","value":"10","name":"num_item_show"},{"label":"plugin","input":"hidden","value":"Document","name":"plugin"},{"label":"Title","input":"checkbox","value":"Enable Title","name":"title_enable"}]' WHERE `path_view` = 'document.feature';
+				UPDATE  `{PREFIX}core_blocks` SET  `params` = '[{"label":"Title","input":"text","value":"Block Document","name":"title"},{"label":"Type","input":"select","value":{"feature":"Feature","popular":"Popular","Document.id desc":"Recent","Document.view_count desc":"View Top","Document.download_count desc":"Download Top","Document.comment_count desc":"Comment Top","Document.like_count desc":"Like Top","Document.share_count desc":"Share Top"},"name":"order_type"},{"label":"Number of item to show","input":"text","value":"10","name":"num_item_show"},{"label":"plugin","input":"hidden","value":"Document","name":"plugin"},{"label":"Title","input":"checkbox","value":"Enable Title","name":"title_enable"}]' WHERE `path_view` = 'document.block';
+				UPDATE  `{PREFIX}core_blocks` SET  `params` = '[{"label":"Title","input":"text","value":"My Document","name":"title"},{"label":"Number of item to show","input":"text","value":"10","name":"num_item_show"},{"label":"plugin","input":"hidden","value":"Document","name":"plugin"},{"label":"Title","input":"checkbox","value":"Enable Title","name":"title_enable"}]' WHERE `path_view` = 'document.my';
+				UPDATE  `{PREFIX}core_blocks` SET  `params` = '[{"label":"Title","input":"text","value":"Profile Document","name":"title"},{"label":"Number of item to show","input":"text","value":"10","name":"num_item_show"},{"label":"plugin","input":"hidden","value":"Document","name":"plugin"},{"label":"Title","input":"checkbox","value":"Enable Title","name":"title_enable"}' WHERE `path_view` = 'document.profile';
+				UPDATE  `{PREFIX}core_blocks` SET  `params` = '[{"label":"Title","input":"text","value":"Tags","name":"title"},{"label":"plugin","input":"hidden","value":"Document","name":"plugin"},{"label":"Title","input":"checkbox","value":"Enable Title","name":"title_enable"}]' WHERE `path_view` = 'document.tag';
+			  ]]>
+			</query>
+			
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query>
+			<![CDATA[   
+				ALTER TABLE `{PREFIX}documents` CHANGE `description` `description` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
+				ALTER TABLE `{PREFIX}documents` CHANGE `title` `title` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
+				ALTER TABLE `{PREFIX}document_licenses` CHANGE `title` `title` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
+				ALTER TABLE `{PREFIX}document_licenses` CHANGE `name` `name` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
+			  ]]>
+			</query>
+        </queries>
+    </version>
+    <version>
+        <number>1.4</number>
+        <queries>
+            <query>
+			<![CDATA[   
+				INSERT INTO `{PREFIX}settings` (`group_id`, `label`, `name`, `field`, `value`, `is_hidden`, `version_id`, `type_id`, `value_actual`, `value_default`, `description`, `ordering`, `is_boot`) VALUES
+				((SELECT `id` FROM `{PREFIX}setting_groups` WHERE `module_id` = 'Document'), 'By pass force login', 'document_consider_force', NULL, '', 0, NULL, 'checkbox', '[{"name":"","value":"1","select":0}]', '[{"name":"","value":"1","select":0}]', 'By pass force login', 5, 1);
+			  ]]>
+			</query>
+        </queries>
+    </version>
+</versions>

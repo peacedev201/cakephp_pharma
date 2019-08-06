@@ -1,0 +1,21 @@
+.feed-reaction-options .reacts{
+    /*transform: scale(0.9) translate(-90%, 0);*/
+}
+.like-section .like-action .item-reaction-options .reacts{
+    /*transform: translate(-20%, 0);*/
+}
+.feed-reaction-review{
+    padding: 15px 15px 0 15px;
+}
+.section-like-photo .photo-reaction-options .reacts{
+    /*transform: translate(-82%, 0);*/
+}
+
+.feed_comment_info > .date > .feed-reaction-options{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.like-section{
+    width: 100%;
+}

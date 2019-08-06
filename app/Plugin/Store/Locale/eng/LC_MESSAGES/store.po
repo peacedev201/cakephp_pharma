@@ -1,0 +1,3698 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: StorePlugin.php:445
+#: View/Stores/admin_index.ctp:29
+msgid "Sellers"
+msgstr ""
+
+#: StorePlugin.php:446
+#: Controller/StoreCategoriesController.php:32;69
+#: View/StoreCategories/admin_create.ctp:25
+#: View/StoreCategories/admin_index.ctp:34
+msgid "Store Categories"
+msgstr ""
+
+#: StorePlugin.php:447
+#: Controller/ProductsController.php:39
+#: Lib/StoreListener.php:280
+#: View/Elements/manager_menu.ctp:53
+#: View/Elements/list/categories_list.ctp:17
+#: View/Elements/mobile/mobile_menu.ctp:39
+#: View/Orders/checkout.ctp:233
+#: View/Products/admin_index.ctp:32
+#: View/Stores/product.ctp:50
+#: View/Stores/products.ctp:51
+msgid "Products"
+msgstr ""
+
+#: StorePlugin.php:448
+#: Controller/OrdersController.php:43
+#: View/Elements/manager_menu.ctp:84
+#: View/Elements/mobile/mobile_manager_menu.ctp:46
+#: View/Elements/mobile/mobile_menu.ctp:57
+#: View/Orders/admin_index.ctp:54
+msgid "Orders"
+msgstr ""
+
+#: StorePlugin.php:449
+#: View/ProductReports/admin_index.ctp:17
+msgid "Reports"
+msgstr ""
+
+#: StorePlugin.php:450
+#: View/StorePackages/admin_create.ctp:17
+#: View/StorePackages/admin_index.ctp:16
+msgid "Packages"
+msgstr ""
+
+#: StorePlugin.php:451
+#: View/StorePayments/admin_create.ctp:19
+#: View/StorePayments/admin_index.ctp:16
+#: View/Stores/manager_index.ctp:65
+msgid "Payments"
+msgstr ""
+
+#: StorePlugin.php:452
+#: View/StoreShippingMethods/admin_create.ctp:19
+#: View/StoreShippingMethods/admin_index.ctp:16
+msgid "Shipping Methods"
+msgstr ""
+
+#: StorePlugin.php:453
+#: View/Elements/manager_menu.ctp:98
+#: View/StoreTransactions/admin_index.ctp:16
+msgid "Transactions"
+msgstr ""
+
+#: StorePlugin.php:454
+#: View/StoreSettings/admin_index.ctp:59
+msgid "Settings"
+msgstr ""
+
+#: Controller/AttributesController.php:35
+#: View/Attributes/manager_create.ctp:26
+#: View/Attributes/manager_index.ctp:30;47
+#: View/Elements/manager_menu.ctp:30
+msgid "Manage Attributes"
+msgstr ""
+
+#: Controller/AttributesController.php:43
+msgid "Attribute not found"
+msgstr ""
+
+#: Controller/AttributesController.php:70
+#: View/Attributes/manager_create.ctp:33;44
+msgid "Edit Attribute"
+msgstr ""
+
+#: Controller/AttributesController.php:70
+#: View/Attributes/manager_create.ctp:35;46
+#: View/Elements/manager_menu.ctp:33
+msgid "Create Attribute"
+msgstr ""
+
+#: Controller/AttributesController.php:103
+#: Controller/OrderDetailsController.php:53
+#: Controller/OrdersController.php:103;205
+#: Controller/ProducersController.php:44
+#: Controller/ProductsController.php:286;592
+#: Controller/StoreCategoriesController.php:116
+#: Controller/StorePackagesController.php:96
+#: Controller/StorePaymentsController.php:68
+#: Controller/StoreShippingMethodsController.php:64
+#: Controller/StoreShippingZonesController.php:71
+#: Controller/StoreShippingsController.php:112
+#: Controller/StoresController.php:368
+msgid "Successfully saved"
+msgstr ""
+
+#: Controller/AttributesController.php:109
+#: Controller/OrdersController.php:209;999
+#: Controller/ProducersController.php:48
+#: Controller/ProductsController.php:293;598
+#: Controller/StoreCategoriesController.php:120
+#: Controller/StorePackagesController.php:100;174;261
+#: Controller/StorePaymentsController.php:72
+#: Controller/StoreShippingMethodsController.php:68
+#: Controller/StoreShippingZonesController.php:75
+#: Controller/StoresController.php:142;375
+#: Controller/WishlistsController.php:61;83
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: Controller/AttributesController.php:123;169
+#: Controller/ProducersController.php:85;130
+#: Controller/ProductReportsController.php:63
+#: Controller/ProductsController.php:101;470;653
+#: Controller/StoreCategoriesController.php:146;159
+#: Controller/StorePackagesController.php:52
+#: Controller/StorePaymentsController.php:101
+#: Controller/StoreShippingZonesController.php:196
+#: Controller/StoreShippingsController.php:182
+#: Controller/StoreTransactionsController.php:55
+#: Controller/StoresController.php:99
+msgid "Successfully updated"
+msgstr ""
+
+#: Controller/AttributesController.php:137
+msgid "Please delete sub attributes of %s first"
+msgstr ""
+
+#: Controller/AttributesController.php:142
+#: Controller/OrderDetailsController.php:70
+#: Controller/OrdersController.php:225
+#: Controller/ProducersController.php:103
+#: Controller/ProductReportsController.php:76
+#: Controller/ProductsController.php:121;490
+#: Controller/StoreCategoriesController.php:187
+#: Controller/StoreShippingZonesController.php:170
+#: Controller/StoreTransactionsController.php:68
+msgid "Successfully deleted"
+msgstr ""
+
+#: Controller/AttributesController.php:207
+msgid "Duplicate value"
+msgstr ""
+
+#: Controller/CartsController.php:19
+msgid "You don't have permission to view this page."
+msgstr ""
+
+#: Controller/CartsController.php:48
+#: View/Carts/index.ctp:36
+#: View/Orders/checkout.ctp:46
+#: View/Orders/checkout_complete.ctp:22
+msgid "Carts"
+msgstr ""
+
+#: Controller/CartsController.php:82
+#: Controller/OrdersController.php:380
+msgid "You don't have permission to buy product."
+msgstr ""
+
+#: Controller/CartsController.php:93
+msgid "Product does not exist"
+msgstr ""
+
+#: Controller/CartsController.php:97
+msgid "This product is not available to buy"
+msgstr ""
+
+#: Controller/CartsController.php:102
+msgid "Please select "
+msgstr ""
+
+#: Controller/CartsController.php:113
+#: View/Elements/add_to_cart.ctp:11
+msgid "Product was added to cart"
+msgstr ""
+
+#: Controller/CartsController.php:130
+msgid "Cart has been updated"
+msgstr ""
+
+#: Controller/CartsController.php:137
+msgid "Cart has been cleared"
+msgstr ""
+
+#: Controller/CartsController.php:145
+msgid "Item has been removed"
+msgstr ""
+
+#: Controller/OrderDetailsController.php:76
+msgid "Delete Failed"
+msgstr ""
+
+#: Controller/OrdersController.php:60
+#: View/Elements/manager_menu.ctp:88
+#: View/Orders/admin_index.ctp:58
+#: View/Orders/manager_create.ctp:27
+#: View/Orders/manager_index.ctp:35;42
+msgid "Manage Orders"
+msgstr ""
+
+#: Controller/OrdersController.php:70;86
+#: View/Orders/manager_create.ctp:34;57
+msgid "Edit Order"
+msgstr ""
+
+#: Controller/OrdersController.php:77;86
+#: View/Elements/manager_menu.ctp:91
+#: View/Orders/manager_create.ctp:36;59
+msgid "Create Order"
+msgstr ""
+
+#: Controller/OrdersController.php:136
+msgid "Please select shipping"
+msgstr ""
+
+#: Controller/OrdersController.php:153
+msgid "Please add at least a product"
+msgstr ""
+
+#: Controller/OrdersController.php:234;263;304
+msgid "Order not found"
+msgstr ""
+
+#: Controller/OrdersController.php:253
+msgid "Status has been changed."
+msgstr ""
+
+#: Controller/OrdersController.php:255
+msgid "Cannot change status, please try again."
+msgstr ""
+
+#: Controller/OrdersController.php:331
+msgid "No products to checkout"
+msgstr ""
+
+#: Controller/OrdersController.php:343
+msgid "No products to checkout for "
+msgstr ""
+
+#: Controller/OrdersController.php:347;611
+msgid "Some products are not available or out of stock, please remove out of cart: "
+msgstr ""
+
+#: Controller/OrdersController.php:366
+#: View/Carts/index.ctp:39
+#: View/Orders/checkout.ctp:49
+#: View/Orders/checkout_complete.ctp:25
+msgid "Billing & Payment"
+msgstr ""
+
+#: Controller/OrdersController.php:390
+msgid "No products to checkout, please try again!"
+msgstr ""
+
+#: Controller/OrdersController.php:394
+msgid "Payment method not found! Please try again."
+msgstr ""
+
+#: Controller/OrdersController.php:398
+#: Controller/StoresController.php:309
+msgid "Paypal config is empty, please contact site admin for more details."
+msgstr ""
+
+#: Controller/OrdersController.php:402
+msgid "To make an online transaction, order total for each store must be greater than 0"
+msgstr ""
+
+#: Controller/OrdersController.php:417
+msgid "This store does not support this payment. Please try another one."
+msgstr ""
+
+#: Controller/OrdersController.php:444
+msgid "The following stores do not accept %s: %s. Please select the correct payment option or remove items to continue. Click %s to get back to cart."
+msgstr ""
+
+#: Controller/OrdersController.php:450
+msgid "The following stores do not accept %s yet: %s. Please select the correct payment option or remove items to continue. Click %s to get back to cart."
+msgstr ""
+
+#: Controller/OrdersController.php:455
+#: View/StoreShippings/manager_create.ctp:90
+msgid "here"
+msgstr ""
+
+#: Controller/OrdersController.php:492
+msgid "Valid paypal."
+msgstr ""
+
+#: Controller/OrdersController.php:496;904;953
+#: Controller/ProductReportsController.php:116;168
+#: Controller/ProductsController.php:693;734
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: Controller/OrdersController.php:520;900
+msgid "Successfully checkout."
+msgstr ""
+
+#: Controller/OrdersController.php:578
+msgid "Please select shipping for store %s"
+msgstr ""
+
+#: Controller/OrdersController.php:607
+msgid "Error! There are no products to checkout for store: %s."
+msgstr ""
+
+#: Controller/OrdersController.php:689;1004
+msgid "You checkout was cancelled."
+msgstr ""
+
+#: Controller/OrdersController.php:705;997
+msgid "You transaction was completed and your order is being processed."
+msgstr ""
+
+#: Controller/OrdersController.php:707
+msgid "Page not found."
+msgstr ""
+
+#: Controller/OrdersController.php:828
+msgid "You don't have permission to checkout by credit"
+msgstr ""
+
+#: Controller/OrdersController.php:842
+msgid "Your current credit is %s. You do not have enough credits to buy product. Please buy more credits <a href=\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: Controller/OrdersController.php:868
+msgid "Can not checkout by credit for store %s. Please try again!"
+msgstr ""
+
+#: Controller/ProducersController.php:16;24
+#: View/Producers/create.ctp:23
+#: View/Producers/manager_create.ctp:33;49
+msgid "Edit Producer"
+msgstr "Edit Manufacturer"
+
+#: Controller/ProducersController.php:19;24
+#: View/Elements/manager_menu.ctp:47
+#: View/Producers/manager_create.ctp:35;51
+msgid "Create Producer"
+msgstr "Register Manufacturer"
+
+#: Controller/ProducersController.php:61
+#: View/Elements/manager_menu.ctp:44
+#: View/Producers/manager_create.ctp:26
+#: View/Producers/manager_index.ctp:26;33
+msgid "Manage Producers"
+msgstr "Manage Manufacturers"
+
+#: Controller/ProducersController.php:75
+msgid "Producer has been deleted"
+msgstr "Manufacturer has been deleted"
+
+#: Controller/ProductReportsController.php:21
+msgid "Product Reports"
+msgstr ""
+
+#: Controller/ProductReportsController.php:84;123
+#: Controller/ProductsController.php:672
+#: Controller/StoreAppController.php:42;46
+#: Controller/StoresController.php:273
+#: Controller/WishlistsController.php:36
+msgid "Please login to continue"
+msgstr ""
+
+#: Controller/ProductReportsController.php:100;140
+#: Controller/ProductsController.php:117;153;486;676;708;728;764
+#: Controller/StorePackagesController.php:123
+#: Controller/StoreReviewsController.php:62
+#: Controller/StoresController.php:386;408
+#: Controller/WishlistsController.php:40;69
+msgid "Product not found"
+msgstr ""
+
+#: Controller/ProductReportsController.php:104
+msgid "You had already reported this product."
+msgstr ""
+
+#: Controller/ProductReportsController.php:108
+#: Controller/StoreReviewsController.php:317
+msgid "Reason can not be empty"
+msgstr ""
+
+#: Controller/ProductReportsController.php:114
+msgid "Successfully reported."
+msgstr ""
+
+#: Controller/ProductReportsController.php:144
+msgid "Recipients is required"
+msgstr ""
+
+#: Controller/ProductReportsController.php:148
+msgid "You are only able to send to %s recipients per request"
+msgstr ""
+
+#: Controller/ProductReportsController.php:156
+#: Model/Store.php:validation for field email
+msgid "Invalid email"
+msgstr ""
+
+#: Controller/ProductReportsController.php:162
+msgid "Message is required"
+msgstr ""
+
+#: Controller/ProductReportsController.php:166
+msgid "Your email has been sent"
+msgstr ""
+
+#: Controller/ProductUploadController.php:57
+msgid "Image width must be greater than %spx"
+msgstr ""
+
+#: Controller/ProductsController.php:145
+#: View/Elements/manager_menu.ctp:57
+#: View/Products/admin_index.ctp:36
+#: View/Products/manager_create.ctp:36
+#: View/Products/manager_index.ctp:30;37
+msgid "Manage Products"
+msgstr ""
+
+#: Controller/ProductsController.php:190
+#: View/Products/manager_create.ctp:43;54
+msgid "Edit Product"
+msgstr ""
+
+#: Controller/ProductsController.php:190
+#: View/Elements/manager_menu.ctp:60
+#: View/Products/manager_create.ctp:45;56
+msgid "Create Product"
+msgstr "Regiter Product"
+
+#: Controller/ProductsController.php:224
+msgid "Please upload file"
+msgstr ""
+
+#: Controller/ProductsController.php:228
+msgid "Please input product link"
+msgstr ""
+
+#: Controller/ProductsController.php:280
+msgid "Successfully saved. Your product will be published after approved."
+msgstr ""
+
+#: Controller/ProductsController.php:553
+msgid "Invalid URL. Please try again"
+msgstr ""
+
+#: Controller/ProductsController.php:680
+msgid "You have already rated for this product."
+msgstr ""
+
+#: Controller/ProductsController.php:691
+msgid "Thank you for your rating"
+msgstr ""
+
+#: Controller/ProductsController.php:701
+msgid "Please login to add this product to wishlist"
+msgstr ""
+
+#: Controller/ProductsController.php:713
+#: View/Products/manager_video_fetch.ctp:74
+msgid "Everyone"
+msgstr ""
+
+#: Controller/ProductsController.php:714
+msgid "Friend only"
+msgstr ""
+
+#: Controller/ProductsController.php:742
+#: Controller/StoresController.php:222
+msgid "Keyword must be greater than 3 characters"
+msgstr ""
+
+#: Controller/ProductsController.php:768
+msgid "You don't have permission"
+msgstr ""
+
+#: Controller/ProductsController.php:772
+msgid "Please download or view link of this product on web"
+msgstr ""
+
+#: Controller/ProductsController.php:797
+msgid "Product type not found"
+msgstr ""
+
+#: Controller/StoreCategoriesController.php:19;41;80
+msgid "Parent category not found"
+msgstr ""
+
+#: Controller/StoreCategoriesController.php:45
+msgid "Category not found"
+msgstr ""
+
+#: Controller/StoreCategoriesController.php:173
+msgid "Please delete sub categories of %s first."
+msgstr ""
+
+#: Controller/StoreCategoriesController.php:177
+msgid "Can not delete this category! Please delete related products first."
+msgstr ""
+
+#: Controller/StorePackagesController.php:26;67
+msgid "Store Packages"
+msgstr ""
+
+#: Controller/StorePackagesController.php:59;78
+msgid "Package not found"
+msgstr ""
+
+#: Controller/StorePackagesController.php:108;206
+msgid "This feature does not exist"
+msgstr ""
+
+#: Controller/StorePackagesController.php:127;214
+msgid "Payment gateway not found"
+msgstr ""
+
+#: Controller/StorePackagesController.php:134;221
+msgid "This package is not available to buy"
+msgstr ""
+
+#: Controller/StorePackagesController.php:138;225
+msgid "Package price must be greater than zero. Please contact with site admin for more info."
+msgstr ""
+
+#: Controller/StorePackagesController.php:142;229
+msgid "Package period must be greater than zero. Please contact with site admin for more info."
+msgstr ""
+
+#: Controller/StorePackagesController.php:181
+msgid "Your featured product transaction has been cancelled"
+msgstr ""
+
+#: Controller/StorePackagesController.php:186
+msgid "Transaction has been completed. Your product will be set featured or expiration date will be expanded in minutes."
+msgstr ""
+
+#: Controller/StorePackagesController.php:210
+#: Controller/StoresController.php:180
+msgid "Store not found"
+msgstr ""
+
+#: Controller/StorePackagesController.php:268
+msgid "Your featured store transaction has been cancelled"
+msgstr ""
+
+#: Controller/StorePackagesController.php:273
+msgid "Transaction has been completed. Your store will be set featured or expiration date will be expanded in minutes."
+msgstr ""
+
+#: Controller/StorePaymentsController.php:21;39
+msgid "Store Payments"
+msgstr ""
+
+#: Controller/StorePaymentsController.php:29;50
+#: Controller/StoreShippingMethodsController.php:26;46
+msgid "Payment not found"
+msgstr ""
+
+#: Controller/StorePaymentsController.php:95
+msgid "You must enable at least a payment"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:58
+#: View/Elements/review.ctp:4
+msgid "Login or register to post your review"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:66
+msgid "Review function is currently unavailable for this product"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:73
+#: View/Elements/review.ctp:11
+msgid "Please buy product to post your review"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:77;204;277
+msgid "Review not found"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:94;98
+msgid "You don't have permission to review"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:167
+msgid "Can not post review, please try again"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:225
+msgid "Your response has been deleted."
+msgstr ""
+
+#: Controller/StoreReviewsController.php:231
+msgid "Your review has been deleted."
+msgstr ""
+
+#: Controller/StoreReviewsController.php:236
+msgid "Can not delete review, please try again"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:273
+msgid "Login or register to continue"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:292
+msgid "Success"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:313
+msgid "Review or reply not found"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:328
+msgid "Duplicated report"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:337
+msgid "reported a product review"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:352
+msgid "Thank you! Your report has been submitted"
+msgstr ""
+
+#: Controller/StoreReviewsController.php:375
+msgid "Access denied"
+msgstr ""
+
+#: Controller/StoreSettingsController.php:29
+msgid "Store Settings"
+msgstr ""
+
+#: Controller/StoreShippingMethodsController.php:18;35
+msgid "Store Shipping Methods"
+msgstr ""
+
+#: Controller/StoreShippingZonesController.php:11;15
+#: Controller/StoreShippingsController.php:11;15
+msgid "Page not found"
+msgstr ""
+
+#: Controller/StoreShippingZonesController.php:27
+msgid "Shipping not found"
+msgstr ""
+
+#: Controller/StoreShippingZonesController.php:44
+#: View/StoreShippingZones/manager_create.ctp:38;54
+msgid "Edit Shipping Zone"
+msgstr ""
+
+#: Controller/StoreShippingZonesController.php:44
+#: View/Elements/manager_menu.ctp:74
+#: View/StoreShippingZones/manager_create.ctp:40;56
+msgid "Create Shipping Zone"
+msgstr ""
+
+#: Controller/StoreShippingZonesController.php:81
+msgid "Please add at least one country"
+msgstr ""
+
+#: Controller/StoreShippingZonesController.php:85
+msgid "Duplicate country"
+msgstr ""
+
+#: Controller/StoreShippingZonesController.php:149
+#: View/Elements/manager_menu.ctp:71
+#: View/StoreShippingZones/manager_create.ctp:31
+#: View/StoreShippingZones/manager_index.ctp:26;33
+msgid "Manage Shipping Zones"
+msgstr ""
+
+#: Controller/StoreShippingZonesController.php:162
+msgid "Can not delete this zone. It is being used by other items."
+msgstr ""
+
+#: Controller/StoreShippingsController.php:32
+#: View/Elements/manager_menu.ctp:77
+#: View/StoreShippings/manager_create.ctp:31
+#: View/StoreShippings/manager_index.ctp:26;33
+msgid "Manage Shippings"
+msgstr ""
+
+#: Controller/StoreShippingsController.php:39;135
+msgid "Shipping method not found"
+msgstr ""
+
+#: Controller/StoreShippingsController.php:51
+#: View/StoreShippings/manager_create.ctp:37;49
+msgid "Edit Shipping"
+msgstr ""
+
+#: Controller/StoreShippingsController.php:51
+msgid "Create Shipping"
+msgstr ""
+
+#: Controller/StoreShippingsController.php:143
+msgid "Duplicate Zone"
+msgstr ""
+
+#: Controller/StoreTransactionsController.php:29
+msgid "Store Transactions"
+msgstr ""
+
+#: Controller/StoreTransactionsController.php:84
+#: View/StoreTransactions/admin_index.ctp:20
+#: View/StoreTransactions/manager_index.ctp:26;33
+msgid "Manage Transactions"
+msgstr ""
+
+#: Controller/StoresController.php:38;195
+#: Lib/StoreListener.php:273
+#: View/Elements/list/categories_list.ctp:23
+#: View/Elements/mobile/mobile_menu.ctp:45
+#: View/Stores/products.ctp:47
+#: View/Stores/stores.ctp:31
+msgid "Stores"
+msgstr ""
+
+#: Controller/StoresController.php:114
+#: View/Elements/manager_menu.ctp:20
+#: View/Elements/activity/content/create_product.ctp:38
+#: View/Elements/activity/content/create_product_share.ctp:50
+#: View/Elements/activity/content/product_share.ctp:39
+#: View/Elements/activity/share/create_product.ctp:31
+#: View/Elements/activity/share/create_product_share.ctp:31
+#: View/Elements/activity/share/product_item_detail.ctp:25
+#: View/Elements/activity/share/product_share.ctp:25
+#: View/Elements/list/search_product_list.ctp:33
+#: View/Elements/widgets/seller_info.ctp:14
+#: View/Products/admin_index.ctp:144
+#: View/Stores/my_orders.ctp:58
+msgid "Seller"
+msgstr ""
+
+#: Controller/StoresController.php:139
+msgid "Seller has been deleted"
+msgstr ""
+
+#: Controller/StoresController.php:158
+#: View/Elements/list/categories_list.ctp:30
+#: View/Stores/my_orders.ctp:42
+msgid "My Orders"
+msgstr ""
+
+#: Controller/StoresController.php:164
+#: View/Elements/list/categories_list.ctp:35
+msgid "My Wishlist"
+msgstr ""
+
+#: Controller/StoresController.php:170
+#: View/Elements/list/categories_list.ctp:40
+#: View/Elements/mobile/mobile_menu.ctp:62
+#: View/Stores/my_files.ctp:32
+msgid "My Files"
+msgstr ""
+
+#: Controller/StoresController.php:241;277
+msgid "You don't have permission to create seller."
+msgstr ""
+
+#: Controller/StoresController.php:262
+#: View/Stores/create.ctp:20
+msgid "Edit seller"
+msgstr ""
+
+#: Controller/StoresController.php:262
+#: View/Stores/create.ctp:20
+msgid "Create Seller"
+msgstr ""
+
+#: Controller/StoresController.php:282
+msgid "You are only able to create one seller account."
+msgstr ""
+
+#: Controller/StoresController.php:305
+msgid "Paypal email is required."
+msgstr ""
+
+#: Controller/StoresController.php:319;327
+msgid "Paypal email does not exist."
+msgstr ""
+
+#: Controller/StoresController.php:362
+msgid "You have successfully created seller, you can create products after this seller is approved."
+msgstr "You have successfully created seller, you can register products after this seller is approved."
+
+#: Controller/StoresController.php:472;495
+msgid "This page cound not be found"
+msgstr ""
+
+#: Controller/WishlistsController.php:44
+msgid "This product already exists in the wishlist!"
+msgstr ""
+
+#: Controller/WishlistsController.php:48
+msgid "This product does not exist in the wishlist!"
+msgstr ""
+
+#: Controller/WishlistsController.php:54
+msgid "Product was added to wishlist!"
+msgstr ""
+
+#: Controller/WishlistsController.php:58
+msgid "Product was removed from wishlist!"
+msgstr ""
+
+#: Controller/WishlistsController.php:74
+msgid "This product does not exist in your wishlist!"
+msgstr ""
+
+#: Controller/WishlistsController.php:81
+msgid "Successfully removed."
+msgstr ""
+
+#: Controller/Component/PaypalComponent.php:191
+msgid "Invalid token or playerid"
+msgstr ""
+
+#: Controller/Component/PaypalExpressComponent.php:128
+msgid "Data can not be empty"
+msgstr ""
+
+#: Controller/Component/PaypalExpressComponent.php:221;288
+msgid "Invalid token or payerid"
+msgstr ""
+
+#: Controller/Component/PaypalExpressComponent.php:366
+msgid "Site profit"
+msgstr ""
+
+#: Lib/StoreListener.php:78
+#: View/Elements/product_quickview.ctp:136
+#: View/Elements/list/product_list.ctp:86;173
+#: View/Elements/widgets/related_product.ctp:98
+#: View/Stores/product.ctp:195
+msgid "Add to wishlist"
+msgstr ""
+
+#: Lib/StoreListener.php:79
+#: View/Elements/product_quickview.ctp:132
+#: View/Elements/list/product_list.ctp:82;169
+#: View/Elements/widgets/related_product.ctp:94
+#: View/Stores/product.ctp:191
+msgid "Remove from wishlist"
+msgstr ""
+
+#: Lib/StoreListener.php:80
+#: View/Elements/product_quickview.ctp:146;150
+#: View/Elements/list/product_list.ctp:93;97;182;186
+#: View/Elements/widgets/related_product.ctp:105;109
+#: View/Stores/product.ctp:215;220
+msgid "You Liked This Product"
+msgstr ""
+
+#: Lib/StoreListener.php:81
+#: View/Elements/product_quickview.ctp:146;150
+#: View/Elements/list/product_list.ctp:93;97;182;186
+#: View/Elements/widgets/related_product.ctp:105;109
+#: View/Stores/product.ctp:215;220
+msgid "Like This Product"
+msgstr ""
+
+#: Lib/StoreListener.php:82
+msgid "Are you sure you want to clear all products?"
+msgstr ""
+
+#: Lib/StoreListener.php:83
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: Lib/StoreListener.php:84
+msgid "You must select at least an item"
+msgstr ""
+
+#: Lib/StoreListener.php:85
+msgid "Drag or click here to upload photo"
+msgstr ""
+
+#: Lib/StoreListener.php:86
+msgid "Are you sure you want to remove this product?"
+msgstr ""
+
+#: Lib/StoreListener.php:87
+msgid "All related data will be deleted. Are you sure you want to remove this seller?"
+msgstr ""
+
+#: Lib/StoreListener.php:88
+msgid "Please select product"
+msgstr ""
+
+#: Lib/StoreListener.php:89
+msgid "Invalid quantity"
+msgstr ""
+
+#: Lib/StoreListener.php:90
+#: View/Helper/StoreHelper.php:121;125
+msgid "credits"
+msgstr ""
+
+#: Lib/StoreListener.php:99
+msgid "Drag or click here to upload file"
+msgstr ""
+
+#: Lib/StoreListener.php:100
+msgid "Drag or click here to upload video"
+msgstr ""
+
+#: Lib/StoreListener.php:103
+#: View/Elements/product_quickview.ctp:120
+#: View/Elements/list/product_list.ctp:74;159
+#: View/Elements/widgets/related_product.ctp:87
+#: View/Stores/product.ctp:175
+msgid "Added to cart"
+msgstr ""
+
+#: Lib/StoreListener.php:105
+msgid "Are you sure you want to delete your review?"
+msgstr ""
+
+#: Lib/StoreListener.php:106
+msgid "No reviews found"
+msgstr ""
+
+#: Model/StoreOrder.php:277
+msgid "NEW"
+msgstr ""
+
+#: Model/StoreOrder.php:278
+msgid "PROCESSING"
+msgstr ""
+
+#: Model/StoreOrder.php:279
+msgid "PENDING"
+msgstr ""
+
+#: Model/StoreOrder.php:280
+msgid "CANCEL"
+msgstr ""
+
+#: Model/StoreOrder.php:281
+msgid "REFUND"
+msgstr ""
+
+#: Model/StoreOrder.php:282
+msgid "COMPLETE"
+msgstr ""
+
+#: Model/StoreSetting.php:8
+msgid "This controls the position of currency symbol. Example: left $5, right 5$"
+msgstr ""
+
+#: Model/StoreSetting.php:9
+msgid "This controls what currency prices are listed in the catalog and which currency gateways will take payments in."
+msgstr ""
+
+#: Model/StoreSetting.php:10
+msgid "This is the SEO title of your store."
+msgstr ""
+
+#: Model/StoreSetting.php:11
+msgid "This is the SEO description of your store."
+msgstr ""
+
+#: Model/StoreSetting.php:12
+msgid "This is the SEO keywork of your store."
+msgstr ""
+
+#: Model/StoreSetting.php:13
+msgid "Resolution of image must be 750x400 for best quality  ."
+msgstr ""
+
+#: Model/StoreSetting.php:14
+msgid "Allow store onwer verify comment before publishing."
+msgstr ""
+
+#: Model/StoreSetting.php:15
+msgid "Resolution of logo must be 200x60 for best quality ."
+msgstr ""
+
+#: Model/StoreShipping.php:198
+msgid "%s/product"
+msgstr ""
+
+#: Model/StoreShipping.php:202
+msgid "%s from %s kg"
+msgstr ""
+
+#: Model/Email/order.ctp:27
+#: View/Emails/html/order.ctp:25
+msgid "Order Confirmation"
+msgstr ""
+
+#: Model/Email/order.ctp:66
+#: View/Emails/html/order.ctp:64
+msgid "Hi"
+msgstr ""
+
+#: Model/Email/order.ctp:73
+#: View/Emails/html/order.ctp:71
+msgid "Thank you for your order. You have successfully paid via Paypal, we will contact you soon for delivery. Please check information below:"
+msgstr ""
+
+#: Model/Email/order.ctp:75
+#: View/Emails/html/order.ctp:73
+msgid "Thank you for your order. We will contact you soon. Please check information below:"
+msgstr ""
+
+#: Model/Email/order.ctp:85
+#: Model/Email/print_order.ctp:31
+#: View/Emails/html/order.ctp:83
+#: View/Orders/admin_index.ctp:81
+#: View/Orders/manager_index.ctp:85
+msgid "Order code"
+msgstr ""
+
+#: Model/Email/order.ctp:93
+#: Model/Email/print_order.ctp:39
+#: View/Elements/order_detail_dialog.ctp:170
+#: View/Emails/html/order.ctp:91
+#: View/Orders/manager_create.ctp:301
+#: View/Stores/my_orders.ctp:73
+msgid "Payment"
+msgstr ""
+
+#: Model/Email/order.ctp:101
+#: Model/Email/print_order.ctp:47
+#: View/Elements/order_detail_dialog.ctp:188
+#: View/Orders/manager_create.ctp:346
+msgid "Shipping"
+msgstr ""
+
+#: Model/Email/order.ctp:109
+#: Model/Email/print_order.ctp:55
+#: View/Emails/html/order.ctp:99
+msgid "Create date"
+msgstr ""
+
+#: Model/Email/order.ctp:124
+#: Model/Email/print_order.ctp:70
+#: View/Emails/html/order.ctp:114
+msgid "Billing information"
+msgstr ""
+
+#: Model/Email/order.ctp:127;178;315
+#: Model/Email/print_order.ctp:73;124;261
+#: View/Attributes/manager_create.ctp:79
+#: View/Attributes/manager_index.ctp:123
+#: View/Elements/order_detail_dialog.ctp:17;83
+#: View/Elements/list/product_short_list.ctp:21
+#: View/Emails/html/order.ctp:117;162;259
+#: View/Producers/create.ctp:31
+#: View/Producers/manager_create.ctp:76
+#: View/Producers/manager_index.ctp:101
+#: View/Producers/view.ctp:46
+#: View/ProductReports/admin_index.ctp:65
+#: View/Products/admin_index.ctp:85;141
+#: View/Products/manager_index.ctp:82;121
+#: View/StoreCategories/admin_create.ctp:91
+#: View/StoreCategories/admin_index.ctp:116
+#: View/StorePackages/admin_create.ctp:50
+#: View/StorePackages/admin_index.ctp:30
+#: View/StorePayments/admin_create.ctp:59
+#: View/StorePayments/admin_index.ctp:30
+#: View/StoreShippingMethods/admin_create.ctp:59
+#: View/StoreShippingMethods/admin_index.ctp:30
+#: View/StoreShippingZones/manager_create.ctp:81;100
+#: View/StoreShippingZones/manager_index.ctp:101
+#: View/StoreShippings/manager_create.ctp:96
+#: View/StoreShippings/manager_index.ctp:69
+#: View/StoreTransactions/manager_index.ctp:84
+#: View/Stores/admin_index.ctp:91
+#: View/Stores/create.ctp:30
+#: View/Stores/manager_index.ctp:49
+msgid "Name"
+msgstr ""
+
+#: Model/Email/order.ctp:133;184;323
+#: Model/Email/print_order.ctp:79;130;269
+#: View/Elements/order_detail_dialog.ctp:26;92
+#: View/Elements/list/store_list.ctp:28
+#: View/Elements/widgets/seller_info.ctp:21
+#: View/Emails/html/order.ctp:123;168;267
+#: View/Orders/manager_create.ctp:81;188
+#: View/Producers/create.ctp:49
+#: View/Producers/manager_create.ctp:94
+#: View/Producers/view.ctp:48
+#: View/Stores/create.ctp:44
+#: View/Stores/manager_index.ctp:53
+msgid "Email"
+msgstr ""
+
+#: Model/Email/order.ctp:139;190;339
+#: Model/Email/print_order.ctp:85;136;285
+#: View/Elements/order_detail_dialog.ctp:35;101
+#: View/Elements/list/store_list.ctp:30
+#: View/Elements/widgets/seller_info.ctp:37
+#: View/Emails/html/order.ctp:129;174;283
+#: View/Orders/checkout.ctp:98;181
+#: View/Orders/manager_create.ctp:121;228
+#: View/Producers/create.ctp:40
+#: View/Producers/manager_create.ctp:85
+#: View/Producers/view.ctp:47
+#: View/Stores/create.ctp:72
+#: View/Stores/manager_index.ctp:61
+msgid "Phone"
+msgstr ""
+
+#: Model/Email/order.ctp:145;196;331
+#: Model/Email/print_order.ctp:91;142;277
+#: View/Elements/order_detail_dialog.ctp:62;128
+#: View/Elements/list/store_list.ctp:29
+#: View/Elements/widgets/seller_info.ctp:29
+#: View/Emails/html/order.ctp:135;180;275
+#: View/Orders/checkout.ctp:116;199
+#: View/Orders/manager_create.ctp:131;238
+#: View/Producers/create.ctp:58
+#: View/Producers/manager_create.ctp:103
+#: View/Producers/view.ctp:49
+#: View/Stores/create.ctp:58
+#: View/Stores/manager_index.ctp:57
+msgid "Address"
+msgstr ""
+
+#: Model/Email/order.ctp:151;202
+#: Model/Email/print_order.ctp:97;148
+#: View/Elements/order_detail_dialog.ctp:44;110
+#: View/Emails/html/order.ctp:141;186
+#: View/Orders/checkout.ctp:107;190
+#: View/Orders/manager_create.ctp:141;247
+#: View/StoreShippingZones/manager_create.ctp:90
+msgid "Country"
+msgstr ""
+
+#: Model/Email/order.ctp:157;208
+#: Model/Email/print_order.ctp:103;154
+#: View/Elements/order_detail_dialog.ctp:53;119
+#: View/Emails/html/order.ctp:147;192
+#: View/Orders/manager_create.ctp:158;264
+msgid "City"
+msgstr ""
+
+#: Model/Email/order.ctp:163;214
+#: Model/Email/print_order.ctp:109;160
+#: View/Elements/order_detail_dialog.ctp:71;137
+#: View/Orders/manager_create.ctp:168;274
+msgid "Postcode"
+msgstr ""
+
+#: Model/Email/order.ctp:175
+#: Model/Email/print_order.ctp:121
+#: View/Emails/html/order.ctp:159
+msgid "Shipping information"
+msgstr ""
+
+#: Model/Email/order.ctp:226
+#: Model/Email/print_order.ctp:172
+#: View/Elements/order_detail_dialog.ctp:148
+#: View/Orders/manager_create.ctp:286
+msgid "Order notes"
+msgstr ""
+
+#: Model/Email/order.ctp:236
+#: View/Elements/detail_form_modal.ctp:7
+#: View/Emails/html/order.ctp:203
+msgid "Order Detail"
+msgstr ""
+
+#: Model/Email/order.ctp:245
+#: Model/Email/print_order.ctp:191
+#: View/Elements/detail_form_modal.ctp:41
+#: View/Elements/list/product_short_list.ctp:44
+#: View/Emails/html/order.ctp:212
+#: View/Products/manager_create.ctp:126
+#: View/Stores/my_files.ctp:43
+#: View/Stores/my_wishlist.ctp:48
+msgid "Product Name"
+msgstr ""
+
+#: Model/Email/order.ctp:246
+#: Model/Email/print_order.ctp:192
+#: View/Attributes/manager_select_list.ctp:51
+#: View/Attributes/manager_show_select_list.ctp:35
+#: View/Carts/index.ctp:72
+#: View/Elements/detail_form_modal.ctp:54
+#: View/Elements/order_detail_dialog.ctp:224
+#: View/Elements/activity/content/create_product.ctp:39
+#: View/Elements/activity/content/create_product_share.ctp:51
+#: View/Elements/activity/content/product_share.ctp:40
+#: View/Elements/activity/share/create_product.ctp:32
+#: View/Elements/activity/share/create_product_share.ctp:32
+#: View/Elements/activity/share/product_item_detail.ctp:26
+#: View/Elements/activity/share/product_share.ctp:26
+#: View/Emails/html/order.ctp:213
+#: View/Orders/checkout.ctp:235
+#: View/Orders/manager_create.ctp:371
+#: View/Products/manager_create.ctp:202
+#: View/Products/manager_index.ctp:126
+#: View/StorePackages/admin_create.ctp:58
+#: View/StorePackages/admin_index.ctp:33
+#: View/StoreShippings/manager_create.ctp:108
+#: View/StoreTransactions/admin_index.ctp:83
+#: View/StoreTransactions/manager_index.ctp:99
+#: View/Stores/my_wishlist.ctp:53
+msgid "Price"
+msgstr ""
+
+#: Model/Email/order.ctp:247
+#: Model/Email/print_order.ctp:193
+#: View/Carts/index.ctp:77
+#: View/Elements/detail_form_modal.ctp:67
+#: View/Elements/order_detail_dialog.ctp:231
+#: View/Emails/html/order.ctp:214
+#: View/Orders/manager_create.ctp:376
+#: View/Products/manager_create.ctp:221
+msgid "Quantity"
+msgstr ""
+
+#: Model/Email/order.ctp:248
+#: Model/Email/print_order.ctp:194
+#: View/Elements/detail_form_modal.ctp:80
+#: View/Elements/order_detail_dialog.ctp:238
+#: View/Emails/html/order.ctp:215
+#: View/Orders/admin_index.ctp:151
+#: View/Orders/manager_create.ctp:381
+#: View/Orders/manager_index.ctp:152
+msgid "Amount"
+msgstr ""
+
+#: Model/Email/order.ctp:280
+#: Model/Email/print_order.ctp:226
+#: View/Elements/order_detail_dialog.ctp:315
+#: View/Orders/checkout.ctp:303
+msgid "Shipping Fee"
+msgstr ""
+
+#: Model/Email/order.ctp:293
+#: Model/Email/print_order.ctp:239
+#: View/Carts/index.ctp:82
+#: View/Elements/load_cart_by_store.ctp:111
+#: View/Elements/order_detail_dialog.ctp:335
+#: View/Emails/html/order.ctp:240
+#: View/Orders/checkout.ctp:237
+#: View/Stores/my_orders.ctp:83
+msgid "Total"
+msgstr ""
+
+#: Model/Email/order.ctp:307
+#: Model/Email/print_order.ctp:253
+#: View/Emails/html/order.ctp:251
+msgid "Seller information"
+msgstr ""
+
+#: Model/Email/order.ctp:372
+#: View/Emails/html/order.ctp:316
+#: View/Orders/checkout_complete.ctp:41
+msgid "Continue shopping"
+msgstr ""
+
+#: Model/Email/print_order.ctp:182
+#: View/Elements/order_detail_dialog.ctp:9;160
+msgid "Order detail"
+msgstr ""
+
+#: View/Attributes/manager_create.ctp:49
+#: View/Elements/detail_form_modal.ctp:97
+#: View/Elements/review_dialog.ctp:106
+#: View/Orders/manager_create.ctp:62
+#: View/Producers/create.ctp:92
+#: View/Producers/manager_create.ctp:54
+#: View/Products/manager_create.ctp:60
+#: View/StoreCategories/admin_create.ctp:35
+#: View/StorePackages/admin_create.ctp:23
+#: View/StorePayments/admin_create.ctp:25
+#: View/StoreShippingMethods/admin_create.ctp:25
+#: View/StoreShippingZones/manager_create.ctp:59
+#: View/StoreShippings/manager_create.ctp:51
+#: View/Stores/create.ctp:205
+msgid "Save"
+msgstr ""
+
+#: View/Attributes/manager_create.ctp:50
+#: View/Orders/manager_create.ctp:63
+#: View/Producers/manager_create.ctp:55
+#: View/Products/manager_create.ctp:63
+#: View/StoreCategories/admin_create.ctp:36
+#: View/StorePackages/admin_create.ctp:24
+#: View/StorePayments/admin_create.ctp:26
+#: View/StoreShippingMethods/admin_create.ctp:26
+#: View/StoreShippingZones/manager_create.ctp:60
+#: View/StoreShippings/manager_create.ctp:52
+msgid "Apply"
+msgstr ""
+
+#: View/Attributes/manager_create.ctp:51
+#: View/Elements/email_friend_dialog.ctp:48
+#: View/Elements/report_dialog.ctp:36
+#: View/Elements/report_review_dialog.ctp:23
+#: View/Elements/review_dialog.ctp:112
+#: View/Helper/StoreHelper.php:390
+#: View/Orders/manager_create.ctp:64
+#: View/Producers/create.ctp:94
+#: View/Producers/manager_create.ctp:56
+#: View/Products/manager_create.ctp:66
+#: View/StoreCategories/admin_create.ctp:37
+#: View/StorePackages/admin_create.ctp:25
+#: View/StorePayments/admin_create.ctp:27
+#: View/StoreShippingMethods/admin_create.ctp:27
+#: View/StoreShippingZones/manager_create.ctp:61
+#: View/StoreShippings/manager_create.ctp:53
+#: View/Stores/create.ctp:208
+msgid "Cancel"
+msgstr ""
+
+#: View/Attributes/manager_create.ctp:68
+#: View/Attributes/manager_index.ctp:61;62;128;167
+#: View/Helper/AdminCategoryHelper.php:48
+#: View/Helper/CategoryHelper.php:48
+#: View/Producers/manager_create.ctp:65
+#: View/Producers/manager_index.ctp:47;48;106;145
+#: View/ProductReports/admin_index.ctp:30
+#: View/Products/manager_create.ctp:102;272;351
+#: View/Products/manager_index.ctp:131;202
+#: View/StoreCategories/admin_create.ctp:56
+#: View/StoreCategories/admin_index.ctp:62;63;118;165
+#: View/StorePackages/admin_create.ctp:41
+#: View/StorePackages/admin_index.ctp:42;76
+#: View/StorePayments/admin_index.ctp:33;58
+#: View/StoreShippingZones/manager_create.ctp:70;105;141
+#: View/StoreShippingZones/manager_index.ctp:47;48;106;145
+#: View/StoreShippings/manager_create.ctp:62;114;179
+#: View/StoreShippings/manager_index.ctp:42;43;74;114
+#: View/Stores/admin_index.ctp:42;43;148
+msgid "Enable"
+msgstr ""
+
+#: View/Attributes/manager_create.ctp:92
+#: View/Products/manager_create.ctp:176
+#: View/Products/manager_video_fetch.ctp:39
+#: View/Stores/home.ctp:5
+msgid "Category"
+msgstr ""
+
+#: View/Attributes/manager_create.ctp:96
+msgid "Main attribute"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:51
+#: View/Orders/manager_index.ctp:46
+#: View/Producers/manager_index.ctp:37
+#: View/Producers/view.ctp:52
+#: View/ProductReports/admin_index.ctp:25
+#: View/Products/admin_index.ctp:40
+#: View/Products/manager_index.ctp:41
+#: View/StoreCategories/admin_index.ctp:47
+#: View/StoreShippingZones/manager_index.ctp:37
+#: View/StoreShippings/manager_index.ctp:37
+#: View/Stores/admin_index.ctp:37
+msgid "Actions"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:56;57
+#: View/Orders/manager_index.ctp:51;52
+#: View/Producers/manager_index.ctp:42;43
+#: View/Producers/view.ctp:29
+#: View/Products/manager_index.ctp:46;47
+#: View/StoreCategories/admin_index.ctp:52;53
+#: View/StoreShippingZones/manager_index.ctp:42;43
+msgid "Add New"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:66;67;163
+#: View/Helper/AdminCategoryHelper.php:41
+#: View/Helper/CategoryHelper.php:41
+#: View/Producers/manager_index.ctp:52;53;141
+#: View/ProductReports/admin_index.ctp:35
+#: View/Products/manager_index.ctp:198
+#: View/StoreCategories/admin_index.ctp:67;68;161
+#: View/StorePackages/admin_index.ctp:72
+#: View/StorePayments/admin_index.ctp:54
+#: View/StoreShippingZones/manager_index.ctp:52;53;141
+#: View/StoreShippings/manager_index.ctp:47;48;110
+#: View/Stores/admin_index.ctp:47;48;144
+msgid "Disable"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:71;72;182
+#: View/Elements/review_dialog.ctp:92
+#: View/Helper/AdminCategoryHelper.php:93
+#: View/Helper/CategoryHelper.php:93
+#: View/Orders/manager_create.ctp:450
+#: View/Orders/manager_index.ctp:56;57;236
+#: View/Producers/create.ctp:97
+#: View/Producers/manager_index.ctp:57;58;156
+#: View/ProductReports/admin_index.ctp:40;41;126
+#: View/Products/admin_index.ctp:212
+#: View/Products/manager_create.ctp:329;553;595
+#: View/Products/manager_index.ctp:51;52;247
+#: View/StoreCategories/admin_index.ctp:72;73;183
+#: View/StoreShippingZones/manager_index.ctp:57;58;156
+#: View/StoreTransactions/admin_index.ctp:139
+msgid "Delete"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:82
+msgid "These attributes will be visible to buyers on the product page and they will be able to select desired attribute values while adding the product to cart. The price of the product will be changed based on selected attributes. You can configure price of product based on attributes when adding/editting product."
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:91
+#: View/Products/admin_index.ctp:98
+msgid "All"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:100
+#: View/Elements/list/product_short_list.ctp:14
+#: View/Elements/list/video_short_list.ctp:15
+#: View/Orders/admin_index.ctp:69
+#: View/Orders/manager_index.ctp:73
+#: View/Producers/manager_index.ctp:77
+#: View/Products/admin_index.ctp:77
+#: View/Products/manager_index.ctp:74
+#: View/StoreCategories/admin_index.ctp:90
+#: View/StoreShippingZones/manager_index.ctp:77
+#: View/StoreTransactions/admin_index.ctp:31
+#: View/StoreTransactions/manager_index.ctp:45
+#: View/Stores/admin_index.ctp:65
+msgid "Keyword"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:106
+#: View/Elements/search_dialog.ctp:2
+#: View/Elements/search_form.ctp:4
+#: View/Elements/search_store_form.ctp:4
+#: View/Elements/list/image_short_list.ctp:21
+#: View/Elements/list/product_short_list.ctp:32
+#: View/Elements/list/video_short_list.ctp:21
+#: View/Elements/misc/search_form_content.ctp:60
+#: View/Elements/misc/search_store_form_content.ctp:13
+#: View/Orders/admin_index.ctp:122
+#: View/Orders/manager_index.ctp:125
+#: View/Producers/manager_index.ctp:84
+#: View/Products/admin_index.ctp:118
+#: View/Products/manager_index.ctp:99
+#: View/StoreCategories/admin_index.ctp:96
+#: View/StoreShippingZones/manager_index.ctp:84
+#: View/StoreTransactions/admin_index.ctp:59
+#: View/StoreTransactions/manager_index.ctp:73
+#: View/Stores/admin_index.ctp:71
+msgid "Search"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:142
+msgid "Listing"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:175
+msgid "Sub"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:179
+#: View/Helper/AdminCategoryHelper.php:122
+#: View/Helper/CategoryHelper.php:122
+#: View/Orders/manager_create.ctp:447
+#: View/Orders/manager_index.ctp:233
+#: View/Producers/manager_index.ctp:152
+#: View/Products/manager_index.ctp:243
+#: View/StoreCategories/admin_index.ctp:179
+#: View/StorePackages/admin_index.ctp:82
+#: View/StorePayments/admin_index.ctp:64
+#: View/StoreShippingMethods/admin_index.ctp:50
+#: View/StoreShippingZones/manager_index.ctp:152
+#: View/StoreShippings/manager_index.ctp:121
+#: View/Stores/manager_index.ctp:26
+msgid "Edit"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:209
+#: View/Orders/admin_index.ctp:214
+#: View/Orders/manager_index.ctp:262
+#: View/Producers/manager_index.ctp:176
+#: View/ProductReports/admin_index.ctp:139
+#: View/Products/admin_index.ctp:225
+#: View/Products/manager_index.ctp:268
+#: View/StoreCategories/admin_index.ctp:196
+#: View/StoreShippingZones/manager_index.ctp:176
+#: View/StoreShippings/manager_index.ctp:136
+#: View/StoreTransactions/admin_index.ctp:151
+#: View/StoreTransactions/manager_index.ctp:177
+#: View/Stores/admin_index.ctp:162
+msgid " of a total of "
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:215
+#: View/Elements/list/image_short_list.ctp:56
+#: View/Elements/list/my_files_list.ctp:51
+#: View/Elements/list/my_order_list.ctp:82
+#: View/Elements/list/my_wishlist_list.ctp:77
+#: View/Elements/list/product_list.ctp:224
+#: View/Elements/list/product_short_list.ctp:73
+#: View/Elements/list/store_list.ctp:48
+#: View/Elements/list/video_short_list.ctp:57
+#: View/Orders/admin_index.ctp:220
+#: View/Orders/manager_index.ctp:268
+#: View/Producers/manager_index.ctp:182
+#: View/ProductReports/admin_index.ctp:145
+#: View/Products/admin_index.ctp:231
+#: View/Products/manager_index.ctp:274
+#: View/StoreCategories/admin_index.ctp:202
+#: View/StoreShippingZones/manager_index.ctp:182
+#: View/StoreShippings/manager_index.ctp:142
+#: View/StoreTransactions/admin_index.ctp:157
+#: View/StoreTransactions/manager_index.ctp:183
+#: View/Stores/admin_index.ctp:168
+msgid "First"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:216
+#: View/Elements/list/image_short_list.ctp:57
+#: View/Elements/list/my_files_list.ctp:54
+#: View/Elements/list/my_order_list.ctp:85
+#: View/Elements/list/my_wishlist_list.ctp:80
+#: View/Elements/list/product_list.ctp:227
+#: View/Elements/list/product_short_list.ctp:74
+#: View/Elements/list/store_list.ctp:51
+#: View/Elements/list/video_short_list.ctp:58
+#: View/Orders/admin_index.ctp:221
+#: View/Orders/manager_index.ctp:269
+#: View/Producers/manager_index.ctp:183
+#: View/ProductReports/admin_index.ctp:146
+#: View/Products/admin_index.ctp:232
+#: View/Products/manager_index.ctp:275
+#: View/StoreCategories/admin_index.ctp:203
+#: View/StoreShippingZones/manager_index.ctp:183
+#: View/StoreShippings/manager_index.ctp:143
+#: View/StoreTransactions/admin_index.ctp:158
+#: View/StoreTransactions/manager_index.ctp:184
+#: View/Stores/admin_index.ctp:169
+msgid "Previous"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:218
+#: View/Elements/list/image_short_list.ctp:59
+#: View/Elements/list/my_files_list.ctp:61
+#: View/Elements/list/my_order_list.ctp:92
+#: View/Elements/list/my_wishlist_list.ctp:87
+#: View/Elements/list/product_list.ctp:234
+#: View/Elements/list/product_short_list.ctp:76
+#: View/Elements/list/store_list.ctp:58
+#: View/Elements/list/video_short_list.ctp:60
+#: View/Orders/admin_index.ctp:223
+#: View/Orders/manager_index.ctp:271
+#: View/Producers/manager_index.ctp:185
+#: View/ProductReports/admin_index.ctp:148
+#: View/Products/admin_index.ctp:234
+#: View/Products/manager_index.ctp:277
+#: View/StoreCategories/admin_index.ctp:205
+#: View/StoreShippingZones/manager_index.ctp:185
+#: View/StoreShippings/manager_index.ctp:145
+#: View/StoreTransactions/admin_index.ctp:160
+#: View/StoreTransactions/manager_index.ctp:186
+#: View/Stores/admin_index.ctp:171
+msgid "Next"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:219
+#: View/Elements/list/image_short_list.ctp:60
+#: View/Elements/list/my_files_list.ctp:64
+#: View/Elements/list/my_order_list.ctp:95
+#: View/Elements/list/my_wishlist_list.ctp:90
+#: View/Elements/list/product_list.ctp:237
+#: View/Elements/list/product_short_list.ctp:77
+#: View/Elements/list/store_list.ctp:61
+#: View/Elements/list/video_short_list.ctp:61
+#: View/Orders/admin_index.ctp:224
+#: View/Orders/manager_index.ctp:272
+#: View/Producers/manager_index.ctp:186
+#: View/ProductReports/admin_index.ctp:149
+#: View/Products/admin_index.ctp:235
+#: View/Products/manager_index.ctp:278
+#: View/StoreCategories/admin_index.ctp:206
+#: View/StoreShippingZones/manager_index.ctp:186
+#: View/StoreShippings/manager_index.ctp:146
+#: View/StoreTransactions/admin_index.ctp:161
+#: View/StoreTransactions/manager_index.ctp:187
+#: View/Stores/admin_index.ctp:172
+msgid "Last"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:226
+msgid "No Sub Attributes"
+msgstr ""
+
+#: View/Attributes/manager_index.ctp:228
+msgid "No Attributes"
+msgstr ""
+
+#: View/Attributes/manager_select_list.ctp:2
+#: View/Elements/load_cart_by_store.ctp:46
+#: View/Elements/manager_menu.ctp:26
+#: View/Orders/checkout.ctp:264
+#: View/Products/manager_create.ctp:95
+msgid "Attributes"
+msgstr ""
+
+#: View/Attributes/manager_select_list.ctp:12
+#: View/Orders/manager_create.ctp:354
+#: View/StoreShippingZones/manager_create.ctp:94
+#: View/StoreShippings/manager_create.ctp:87
+msgid "Add"
+msgstr ""
+
+#: View/Attributes/manager_select_list.ctp:20
+msgid "Select"
+msgstr ""
+
+#: View/Attributes/manager_select_list.ctp:23
+#: View/Elements/detail_form_modal.ctp:94
+msgid "Close"
+msgstr ""
+
+#: View/Attributes/manager_select_list.ctp:59
+#: View/Attributes/manager_show_select_list.ctp:42
+#: View/StoreShippingZones/manager_create.ctp:150
+#: View/StoreShippings/manager_create.ctp:188
+msgid "Remove"
+msgstr ""
+
+#: View/Carts/index.ctp:41
+#: View/Orders/checkout.ctp:51
+#: View/Orders/checkout_complete.ctp:27
+msgid "Complete"
+msgstr ""
+
+#: View/Carts/index.ctp:49
+msgid "All stores"
+msgstr ""
+
+#: View/Carts/index.ctp:62
+#: View/Elements/add_to_cart.ctp:7
+#: View/Elements/order_detail_dialog.ctp:250
+#: View/Elements/product_quickview.ctp:25
+msgid "Product"
+msgstr ""
+
+#: View/Carts/index.ctp:67
+msgid "Type"
+msgstr ""
+
+#: View/Carts/index.ctp:93
+#: View/Elements/list/product_list.ctp:214
+#: View/Elements/list/product_short_list.ctp:82
+#: View/Orders/checkout.ctp:362
+msgid "No products"
+msgstr ""
+
+#: View/Elements/activity_review_item.ctp:40
+#: View/Elements/misc/review_item.ctp:86
+msgid "Response:"
+msgstr ""
+
+#: View/Elements/add_to_cart.ctp:32
+msgid "View Cart"
+msgstr ""
+
+#: View/Elements/category_dialog.ctp:2
+#: View/Elements/list/categories_list.ctp:8
+msgid "Categories"
+msgstr ""
+
+#: View/Elements/detail_form_modal.ctp:17
+msgid "Choose from the list provided"
+msgstr ""
+
+#: View/Elements/detail_form_modal.ctp:20
+msgid "Choose"
+msgstr ""
+
+#: View/Elements/detail_form_modal.ctp:28
+#: View/Products/manager_create.ctp:113
+#: View/Stores/product.ctp:250
+msgid "Product Code"
+msgstr ""
+
+#: View/Elements/email_friend_dialog.ctp:3
+#: View/Stores/product.ctp:209
+msgid "Email your friend"
+msgstr ""
+
+#: View/Elements/email_friend_dialog.ctp:10
+msgid "Enter your friends' emails below (separated by commas). Limit 10 email addresses per request"
+msgstr ""
+
+#: View/Elements/email_friend_dialog.ctp:17
+msgid "Recipients"
+msgstr ""
+
+#: View/Elements/email_friend_dialog.ctp:29
+msgid "Message"
+msgstr ""
+
+#: View/Elements/email_friend_dialog.ctp:45
+msgid "Send"
+msgstr ""
+
+#: View/Elements/load_cart_by_store.ctp:8
+#: View/Orders/admin_index.ctp:142
+#: View/Orders/checkout.ctp:248
+#: View/StoreTransactions/admin_index.ctp:71
+msgid "Store"
+msgstr ""
+
+#: View/Elements/load_cart_by_store.ctp:21
+msgid "Cart Listing"
+msgstr ""
+
+#: View/Elements/load_cart_by_store.ctp:97
+msgid "Remove this item"
+msgstr ""
+
+#: View/Elements/load_cart_by_store.ctp:126
+msgid "Continue Shopping"
+msgstr ""
+
+#: View/Elements/load_cart_by_store.ctp:129
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: View/Elements/load_cart_by_store.ctp:132
+msgid "Update Quantity"
+msgstr ""
+
+#: View/Elements/load_cart_by_store.ctp:135
+msgid "Clear Cart"
+msgstr ""
+
+#: View/Elements/manager_menu.ctp:39
+#: View/Products/manager_create.ctp:187
+#: View/Stores/product.ctp:255
+msgid "Producer"
+msgstr "Manufacturer"
+
+#: View/Elements/manager_menu.ctp:67
+msgid "Shippings"
+msgstr ""
+
+#: View/Elements/manager_menu.ctp:105
+msgid "Delete Seller"
+msgstr ""
+
+#: View/Elements/manager_menu_dialog.ctp:2
+msgid "Menu"
+msgstr ""
+
+#: View/Elements/manager_order_shipping.ctp:20
+msgid "No shippings"
+msgstr ""
+
+#: View/Elements/menustore.ctp:8
+msgid "View your Cart"
+msgstr ""
+
+#: View/Elements/menustore.ctp:14
+msgid "See your Wishlist"
+msgstr ""
+
+#: View/Elements/menustore.ctp:18
+msgid "Checkout your order"
+msgstr ""
+
+#: View/Elements/menustore.ctp:24
+#: View/Elements/mobile/mobile_menu.ctp:69
+msgid "Seller Manager"
+msgstr ""
+
+#: View/Elements/order_detail_dialog.ctp:14
+#: View/Orders/manager_create.ctp:75
+msgid "Billing Info"
+msgstr ""
+
+#: View/Elements/order_detail_dialog.ctp:80
+#: View/Orders/manager_create.ctp:182
+msgid "Shipping Info"
+msgstr ""
+
+#: View/Elements/order_detail_dialog.ctp:162
+msgid "Print"
+msgstr ""
+
+#: View/Elements/order_detail_dialog.ctp:179
+#: View/Orders/admin_index.ctp:154
+#: View/Orders/manager_create.ctp:333
+#: View/Orders/manager_index.ctp:157
+#: View/StoreTransactions/admin_index.ctp:92
+#: View/StoreTransactions/manager_index.ctp:109
+#: View/Stores/my_orders.ctp:78
+msgid "Status"
+msgstr ""
+
+#: View/Elements/order_detail_dialog.ctp:203
+msgid "Num"
+msgstr ""
+
+#: View/Elements/order_detail_dialog.ctp:210
+#: View/Elements/list/product_short_list.ctp:22
+#: View/Products/admin_index.ctp:86
+#: View/Products/manager_index.ctp:83
+msgid "Product code"
+msgstr ""
+
+#: View/Elements/order_detail_dialog.ctp:217
+#: View/Elements/misc/search_form_content.ctp:4
+#: View/Orders/manager_create.ctp:366
+msgid "Product name"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:37
+#: View/Elements/list/product_list.ctp:19
+#: View/Elements/list/product_widget_list.ctp:27
+#: View/Elements/list/store_list.ctp:12
+#: View/Elements/list/store_widget_list.ctp:26
+#: View/Elements/misc/product_widget_list.ctp:27
+#: View/Elements/widgets/related_product.ctp:33
+#: View/Products/admin_index.ctp:55;56;101;150;191
+#: View/Products/manager_index.ctp:142
+#: View/Stores/admin_index.ctp:100;137
+#: View/Stores/manager_index.ctp:33
+#: View/Stores/product.ctp:74
+msgid "Featured"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:98
+#: View/Elements/list/my_wishlist_list.ctp:55
+#: View/Elements/list/product_list.ctp:65;66;151
+#: View/Elements/widgets/related_product.ctp:78;79
+#: View/Products/manager_create.ctp:363
+#: View/Stores/product.ctp:182
+msgid "Out of stock"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:102
+#: View/Elements/list/product_list.ctp:69;70;155
+#: View/Elements/widgets/related_product.ctp:82;83
+msgid "Go to buy"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:107
+#: View/Elements/list/my_files_list.ctp:28
+#: View/Elements/list/product_list.ctp:58;143
+#: View/Elements/widgets/related_product.ctp:71
+#: View/Stores/product.ctp:162
+msgid "Download"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:111
+#: View/Elements/list/my_files_list.ctp:32
+#: View/Elements/list/product_list.ctp:62;147
+#: View/Elements/widgets/related_product.ctp:75
+#: View/Stores/product.ctp:166
+msgid "View Link"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:120
+#: View/Elements/list/product_list.ctp:74;159
+#: View/Elements/widgets/related_product.ctp:87
+#: View/Stores/product.ctp:175
+msgid "Add to cart"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:157
+#: View/Elements/list/product_list.ctp:104
+#: View/Elements/widgets/related_product.ctp:116
+#: View/Stores/product.ctp:228
+msgid "Share To News Feed"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:163
+#: View/Elements/report_dialog.ctp:3;33
+#: View/Elements/report_review_dialog.ctp:20
+#: View/Elements/misc/review_item.ctp:39
+#: View/Stores/product.ctp:234
+msgid "Report"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:170
+#: View/Elements/list/product_list.ctp:201
+msgid "people like this"
+msgstr ""
+
+#: View/Elements/product_quickview.ctp:182
+#: View/Stores/product.ctp:269
+msgid "Share this product"
+msgstr ""
+
+#: View/Elements/report_dialog.ctp:16
+#: View/ProductReports/admin_index.ctp:68
+msgid "Reason"
+msgstr ""
+
+#: View/Elements/report_review_dialog.ctp:2
+msgid "Report Review"
+msgstr ""
+
+#: View/Elements/report_review_dialog.ctp:9
+msgid "Please enter reason why you want to report this review"
+msgstr ""
+
+#: View/Elements/review.ctp:15
+msgid "Write review"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:9
+msgid "Edit reply"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:11
+msgid "Write a reply"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:15
+msgid "Edit review"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:17
+msgid "Write a review"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:61
+msgid "Your reply"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:63
+msgid "Your review"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:78
+msgid "Upload Queued Files"
+msgstr ""
+
+#: View/Elements/review_dialog.ctp:108
+msgid "Post"
+msgstr ""
+
+#: View/Elements/same_product_images.ctp:2
+msgid "Product Used"
+msgstr ""
+
+#: View/Elements/total_product_review.ctp:5
+msgid "users"
+msgstr ""
+
+#: View/Elements/total_product_review.ctp:5
+msgid "user"
+msgstr ""
+
+#: View/Elements/activity/content/create_product_share.ctp:29
+#: View/Elements/activity/text/create_product.ctp:1
+msgid "created a product"
+msgstr ""
+
+#: View/Elements/activity/text/create_product_share.ctp:1
+#: View/Elements/activity/text/product_share.ctp:1
+msgid "shared a product"
+msgstr ""
+
+#: View/Elements/activity/text/product_review.ctp:6
+msgid "wrote a review for"
+msgstr ""
+
+#: View/Elements/activity/text/product_review_share.ctp:5
+msgid "shared %s's %s"
+msgstr ""
+
+#: View/Elements/activity/text/product_review_share.ctp:5
+msgid "review"
+msgstr ""
+
+#: View/Elements/list/categories_list.ctp:10
+#: View/Stores/home.ctp:7
+msgid "View all"
+msgstr ""
+
+#: View/Elements/list/categories_list.ctp:48
+#: View/Elements/mobile/mobile_group.ctp:6
+#: View/Stores/products.ctp:32
+msgid "Create seller"
+msgstr "Register My Store"
+
+#: View/Elements/list/categories_list.ctp:54
+#: View/Elements/mobile/mobile_group.ctp:12
+#: View/Stores/products.ctp:38
+msgid "Create product"
+msgstr "Register Product"
+
+#: View/Elements/list/image_short_list.ctp:4
+msgid "Select Image"
+msgstr ""
+
+#: View/Elements/list/image_short_list.ctp:15
+msgid "Album name"
+msgstr ""
+
+#: View/Elements/list/image_short_list.ctp:31
+#: View/Elements/list/product_short_list.ctp:42
+#: View/Elements/list/video_short_list.ctp:31
+#: View/Products/manager_create.ctp:270
+#: View/Stores/create.ctp:86
+msgid "Image"
+msgstr ""
+
+#: View/Elements/list/image_short_list.ctp:32
+msgid "Album"
+msgstr ""
+
+#: View/Elements/list/image_short_list.ctp:65
+msgid "No images"
+msgstr ""
+
+#: View/Elements/list/my_files_list.ctp:9
+msgid "My Files Listing"
+msgstr ""
+
+#: View/Elements/list/my_files_list.ctp:41
+#: View/Elements/list/my_order_list.ctp:72
+#: View/Elements/list/my_wishlist_list.ctp:67
+#: View/Elements/list/review_list.ctp:36
+#: View/Elements/list/search_product_list.ctp:77
+msgid "No more results found"
+msgstr ""
+
+#: View/Elements/list/my_files_list.ctp:47
+#: View/Elements/list/my_order_list.ctp:78
+#: View/Elements/list/my_wishlist_list.ctp:73
+#: View/Elements/list/product_list.ctp:220
+#: View/Elements/list/store_list.ctp:44
+msgid "Showing %s–%s of %s results"
+msgstr ""
+
+#: View/Elements/list/my_order_list.ctp:15
+#: View/Orders/manager_create.ctp:413
+#: View/Orders/manager_index.ctp:179
+msgid "Order Listing"
+msgstr ""
+
+#: View/Elements/list/my_order_list.ctp:65
+#: View/Orders/admin_index.ctp:201
+#: View/Orders/manager_index.ctp:230
+#: View/ProductReports/admin_index.ctp:122
+#: View/Products/admin_index.ctp:208
+msgid "View"
+msgstr ""
+
+#: View/Elements/list/my_wishlist_list.ctp:13
+msgid "Wishlist Listing"
+msgstr ""
+
+#: View/Elements/list/my_wishlist_list.ctp:17
+msgid "Remove this product"
+msgstr ""
+
+#: View/Elements/list/my_wishlist_list.ctp:57
+msgid "In Stock"
+msgstr ""
+
+#: View/Elements/list/product_list.ctp:12
+#: View/Elements/widgets/related_product.ctp:26
+msgid "Sale"
+msgstr ""
+
+#: View/Elements/list/product_list.ctp:27
+#: View/Elements/widgets/related_product.ctp:41
+msgid "Quick View"
+msgstr ""
+
+#: View/Elements/list/product_short_list.ctp:3
+msgid "Choose Product"
+msgstr ""
+
+#: View/Elements/list/product_short_list.ctp:43
+#: View/Orders/admin_index.ctp:145
+#: View/Orders/manager_create.ctp:361
+#: View/Orders/manager_index.ctp:142
+#: View/Products/admin_index.ctp:138
+#: View/Products/manager_index.ctp:116
+#: View/Stores/my_orders.ctp:63
+msgid "Code"
+msgstr ""
+
+#: View/Elements/list/search_product_list.ctp:60
+msgid "People Who Like This"
+msgstr ""
+
+#: View/Elements/list/store_list.ctp:38
+msgid "No stores"
+msgstr ""
+
+#: View/Elements/list/video_short_list.ctp:4
+msgid "Select Video"
+msgstr ""
+
+#: View/Elements/list/video_short_list.ctp:32
+msgid "Video Name"
+msgstr ""
+
+#: View/Elements/list/video_short_list.ctp:66
+msgid "No videos"
+msgstr ""
+
+#: View/Elements/list/videos_list.ctp:26
+msgid "No more videos found"
+msgstr ""
+
+#: View/Elements/log_text/buy_product.ctp:4
+msgid "buy product from store %s"
+msgstr ""
+
+#: View/Elements/log_text/buy_product.ctp:8
+#: View/Elements/log_text/store_profit.ctp:8
+msgid "buy product"
+msgstr ""
+
+#: View/Elements/log_text/sell_product.ctp:4
+msgid "sell product from store %s"
+msgstr ""
+
+#: View/Elements/log_text/sell_product.ctp:8
+msgid "sell product"
+msgstr ""
+
+#: View/Elements/log_text/store_profit.ctp:4
+msgid "receive profit from store %s"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:18
+msgid "Edit Review"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:18
+msgid "Edit Reply"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:25
+msgid "Delete Review"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:25
+msgid "Delete Reply"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:32
+msgid "Reply"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:58
+msgid "Just now"
+msgstr ""
+
+#: View/Elements/misc/review_item.ctp:71
+msgid "People who like this"
+msgstr ""
+
+#: View/Elements/misc/search_form_content.ctp:15
+msgid "Category name"
+msgstr ""
+
+#: View/Elements/misc/search_form_content.ctp:37
+#: View/Products/manager_create.ctp:139
+msgid "Product Type"
+msgstr ""
+
+#: View/Elements/misc/search_form_content.ctp:41
+msgid "All types"
+msgstr ""
+
+#: View/Elements/misc/search_form_content.ctp:50
+msgid "Sort By"
+msgstr ""
+
+#: View/Elements/misc/search_store_form_content.ctp:4
+#: View/Orders/admin_index.ctp:82
+msgid "Store name"
+msgstr ""
+
+#: View/Elements/mobile/mobile_manager_menu.ctp:41
+#: View/Elements/mobile/mobile_menu.ctp:52
+#: View/Stores/my_wishlist.ctp:32
+msgid "Wishlist"
+msgstr ""
+
+#: View/Elements/notification/approve_product.ctp:1
+msgid "'s product was approved"
+msgstr ""
+
+#: View/Elements/notification/approve_seller.ctp:1
+msgid "'s seller was approved"
+msgstr ""
+
+#: View/Elements/notification/create_order.ctp:1
+msgid "received a new order"
+msgstr ""
+
+#: View/Elements/notification/create_seller.ctp:1
+msgid "became a seller"
+msgstr ""
+
+#: View/Elements/notification/disapprove_product.ctp:1
+msgid "'s product was disapproved"
+msgstr ""
+
+#: View/Elements/notification/disapprove_seller.ctp:1
+msgid "'s seller was disapproved"
+msgstr ""
+
+#: View/Elements/notification/featured_product.ctp:1
+msgid "'s product was set featured"
+msgstr ""
+
+#: View/Elements/notification/featured_store.ctp:1
+msgid "'s store was set featured"
+msgstr ""
+
+#: View/Elements/notification/product_featured_expried.ctp:1
+msgid "'s featured product was expired"
+msgstr ""
+
+#: View/Elements/notification/product_reply.ctp:1
+msgid " replied to your review"
+msgstr ""
+
+#: View/Elements/notification/product_review.ctp:1
+msgid " reviewed product %s"
+msgstr ""
+
+#: View/Elements/notification/product_review_report.ctp:1
+msgid " reported a store review"
+msgstr ""
+
+#: View/Elements/notification/report_product.ctp:1
+msgid "reported a product"
+msgstr ""
+
+#: View/Elements/notification/store_featured_expired.ctp:1
+#: View/Elements/notification/store_featured_expried.ctp:1
+msgid "'s featured store was expired"
+msgstr ""
+
+#: View/Elements/notification/unfeatured_store.ctp:1
+msgid "'s store was set unfeatured"
+msgstr ""
+
+#: View/Elements/widgets/product_detail_description.ctp:19
+#: View/Products/manager_create.ctp:246
+#: View/Products/manager_video_fetch.ctp:50
+#: View/StorePayments/admin_create.ctp:71
+msgid "Description"
+msgstr ""
+
+#: View/Elements/widgets/product_detail_description.ctp:22
+msgid "Discussions"
+msgstr ""
+
+#: View/Elements/widgets/product_detail_description.ctp:25
+#: View/Products/manager_create.ctp:89;350
+msgid "Video"
+msgstr ""
+
+#: View/Elements/widgets/product_detail_description.ctp:29
+msgid "Reviews"
+msgstr ""
+
+#: View/Elements/widgets/product_detail_description.ctp:34
+msgid "Store Policies"
+msgstr ""
+
+#: View/Elements/widgets/related_product.ctp:14
+msgid "Related Products"
+msgstr ""
+
+#: View/Elements/widgets/seller_info.ctp:46
+msgid "Contact Seller"
+msgstr ""
+
+#: View/Emails/html/order.ctp:94
+msgid "Cash on delivery (COD)"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:220
+msgid "Featured Product with %s %s for %s days"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:228
+msgid "Buy featured product"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:237
+msgid "Featured Store with %s %s for %s days"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:245
+msgid "Buy featured store"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:384
+msgid "Initial"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:385
+msgid "Completed"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:386
+msgid "Pending"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:387
+msgid "Expired"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:388
+msgid "Refuned"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:389
+msgid "Failed"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:391
+msgid "Inactive"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:444
+msgid "Regular Product"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:445
+msgid "Digital Product"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:446
+msgid "Link Product"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:482
+msgid "Most recent"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:483
+msgid "Sort by name: a-z"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:484
+msgid "Sort by name: z-a"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:485
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:486
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:487
+msgid "Sort by rating: low to high"
+msgstr ""
+
+#: View/Helper/StoreHelper.php:488
+msgid "Sort by rating: high to low"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:11
+#: View/ProductReports/admin_index.ctp:9
+#: View/Products/admin_index.ctp:10
+#: View/StoreCategories/admin_create.ctp:9
+#: View/StoreCategories/admin_index.ctp:4
+#: View/StorePackages/admin_create.ctp:9
+#: View/StorePackages/admin_index.ctp:10
+#: View/StorePayments/admin_create.ctp:9
+#: View/StorePayments/admin_index.ctp:10
+#: View/StoreSettings/admin_index.ctp:51
+#: View/StoreShippingMethods/admin_create.ctp:9
+#: View/StoreShippingMethods/admin_index.ctp:10
+#: View/StoreTransactions/admin_index.ctp:10
+#: View/Stores/admin_index.ctp:7
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:12
+msgid "Orders Manager"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:77
+#: View/Orders/manager_index.ctp:81
+msgid "Billing name"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:78
+#: View/Orders/manager_index.ctp:82
+msgid "Shipping name"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:79
+#: View/Orders/manager_index.ctp:83
+msgid "Billing email"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:80
+#: View/Orders/manager_index.ctp:84
+msgid "Shipping email"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:93
+#: View/Orders/manager_index.ctp:96
+#: View/StoreTransactions/admin_index.ctp:39
+#: View/StoreTransactions/manager_index.ctp:53
+msgid "All statuses"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:105
+#: View/Orders/manager_index.ctp:108
+msgid "from"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:116
+#: View/Orders/manager_index.ctp:119
+msgid "to"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:128
+msgid "Total site profit"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:131
+msgid "Total site profit credit"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:148
+#: View/Orders/manager_index.ctp:147
+#: View/Stores/my_orders.ctp:68
+msgid "Date"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:157
+msgid "Profit"
+msgstr ""
+
+#: View/Orders/admin_index.ctp:230
+#: View/Orders/manager_index.ctp:279
+msgid "No Orders"
+msgstr ""
+
+#: View/Orders/checkout.ctp:63
+msgid "Billing Details"
+msgstr ""
+
+#: View/Orders/checkout.ctp:65;148
+#: View/Orders/manager_create.ctp:91;198
+msgid "First Name"
+msgstr ""
+
+#: View/Orders/checkout.ctp:73;156
+#: View/Orders/manager_create.ctp:101;208
+msgid "Last Name"
+msgstr ""
+
+#: View/Orders/checkout.ctp:82;165
+msgid "Company Name"
+msgstr ""
+
+#: View/Orders/checkout.ctp:90;173
+msgid "Email Address"
+msgstr ""
+
+#: View/Orders/checkout.ctp:111;194
+#: View/Orders/manager_create.ctp:148;254
+#: View/StoreShippingZones/manager_create.ctp:133
+msgid "Select country"
+msgstr ""
+
+#: View/Orders/checkout.ctp:124;207
+msgid "Postcode / Zip"
+msgstr ""
+
+#: View/Orders/checkout.ctp:132;215
+msgid "Town / City"
+msgstr ""
+
+#: View/Orders/checkout.ctp:143
+msgid "Ship to a different address?"
+msgstr ""
+
+#: View/Orders/checkout.ctp:224
+msgid "Order Notes"
+msgstr ""
+
+#: View/Orders/checkout.ctp:224
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr ""
+
+#: View/Orders/checkout.ctp:227
+msgid "Your order"
+msgstr ""
+
+#: View/Orders/checkout.ctp:271
+msgid "Weight: %s kg"
+msgstr ""
+
+#: View/Orders/checkout.ctp:291
+msgid "Sub total"
+msgstr ""
+
+#: View/Orders/checkout.ctp:315
+msgid "Order Total"
+msgstr ""
+
+#: View/Orders/checkout.ctp:357
+msgid "Proceed"
+msgstr ""
+
+#: View/Orders/checkout_complete.ctp:33
+msgid "Successfully checkout"
+msgstr ""
+
+#: View/Orders/checkout_complete.ctp:35
+msgid "You have successfully ordered"
+msgstr ""
+
+#: View/Orders/checkout_complete.ctp:36
+msgid "We will contact with you shortly"
+msgstr ""
+
+#: View/Orders/checkout_complete.ctp:37
+msgid "Thanks for your order"
+msgstr ""
+
+#: View/Orders/checkout_complete.ctp:44
+msgid "Back to cart"
+msgstr ""
+
+#: View/Orders/checkout_complete.ctp:48
+msgid "Go to your orders"
+msgstr ""
+
+#: View/Orders/manager_create.ctp:111;218
+msgid "Company"
+msgstr ""
+
+#: View/Orders/manager_create.ctp:177
+msgid "Copy"
+msgstr ""
+
+#: View/Orders/manager_create.ctp:319
+msgid "Transaction Id"
+msgstr ""
+
+#: View/Orders/manager_create.ctp:386
+#: View/Orders/manager_index.ctp:167
+#: View/StoreCategories/admin_index.ctp:120
+#: View/Stores/my_files.ctp:48
+msgid "Action"
+msgstr ""
+
+#: View/Orders/manager_create.ctp:473
+msgid "Loading"
+msgstr ""
+
+#: View/Orders/manager_index.ctp:162
+msgid "Fee"
+msgstr ""
+
+#: View/Producers/create.ctp:23
+msgid "Create New Producer"
+msgstr "Register New Manufacturer"
+
+#: View/Producers/create.ctp:68
+#: View/Producers/view.ctp:51
+msgid "Publish"
+msgstr ""
+
+#: View/Producers/create.ctp:77
+#: View/Products/manager_create.ctp:273;352
+#: View/StoreCategories/admin_index.ctp:57;58;119
+msgid "Ordering"
+msgstr ""
+
+#: View/Producers/create.ctp:97
+msgid "Are you sure you want to remove this producer?"
+msgstr "Are you sure you want to remove this Manufacturer?"
+
+#: View/Producers/manager_index.ctp:120
+msgid "Producer Listing"
+msgstr "Manufacturer Listing"
+
+#: View/Producers/manager_index.ctp:193
+msgid "No Producer"
+msgstr "No Manufacturer"
+
+#: View/Producers/view.ctp:32
+msgid "Save order"
+msgstr ""
+
+#: View/Producers/view.ctp:50
+msgid "StoreOrder"
+msgstr ""
+
+#: View/Producers/view.ctp:87
+msgid "Unpublished"
+msgstr ""
+
+#: View/Producers/view.ctp:89
+msgid "Published"
+msgstr ""
+
+#: View/Producers/view.ctp:94
+msgid "Are you sure you want to delete this producer?"
+msgstr "Are you sure you want to delete this Manufacturer?"
+
+#: View/ProductReports/admin_index.ctp:10
+msgid "Reports Manager"
+msgstr ""
+
+#: View/ProductReports/admin_index.ctp:21
+msgid "Manage Reports"
+msgstr ""
+
+#: View/ProductReports/admin_index.ctp:31;77;116
+#: View/Products/admin_index.ctp:45;46;99;153;202
+#: View/Products/manager_index.ctp:136
+msgid "Approve"
+msgstr ""
+
+#: View/ProductReports/admin_index.ctp:36;112
+#: View/Products/admin_index.ctp:198
+msgid "Un approve"
+msgstr ""
+
+#: View/ProductReports/admin_index.ctp:71
+msgid "Reporter"
+msgstr ""
+
+#: View/ProductReports/admin_index.ctp:74
+#: View/Products/admin_index.ctp:147
+#: View/Stores/admin_index.ctp:97
+msgid "Create Date"
+msgstr ""
+
+#: View/ProductReports/admin_index.ctp:156
+msgid "No Reports"
+msgstr ""
+
+#: View/Products/admin_index.ctp:11
+msgid "Products Manager"
+msgstr ""
+
+#: View/Products/admin_index.ctp:50;51;100
+msgid "Disapprove"
+msgstr ""
+
+#: View/Products/admin_index.ctp:60;61;102
+msgid "Unfeatured"
+msgstr ""
+
+#: View/Products/admin_index.ctp:113
+#: View/Products/manager_index.ctp:94
+msgid "All category"
+msgstr ""
+
+#: View/Products/admin_index.ctp:187
+#: View/Stores/admin_index.ctp:133
+msgid "Un featured"
+msgstr ""
+
+#: View/Products/admin_index.ctp:242
+#: View/Products/manager_index.ctp:284
+msgid "No Products"
+msgstr ""
+
+#: View/Products/manager_create.ctp:83
+msgid "General"
+msgstr ""
+
+#: View/Products/manager_create.ctp:86
+msgid "Images"
+msgstr ""
+
+#: View/Products/manager_create.ctp:92
+msgid "Others"
+msgstr ""
+
+#: View/Products/manager_create.ctp:153
+msgid "Allow extensions"
+msgstr ""
+
+#: View/Products/manager_create.ctp:167
+msgid "Product link"
+msgstr ""
+
+#: View/Products/manager_create.ctp:180
+msgid "Select category"
+msgstr ""
+
+#: View/Products/manager_create.ctp:196
+msgid "Select Producer"
+msgstr "Select Manufacturer"
+
+#: View/Products/manager_create.ctp:216
+msgid "This is based price of product, you can specify the price increment / decrement from this price based for each product attribute"
+msgstr ""
+
+#: View/Products/manager_create.ctp:228
+msgid "Show the quantity field?"
+msgstr ""
+
+#: View/Products/manager_create.ctp:233
+msgid "Brief Information"
+msgstr ""
+
+#: View/Products/manager_create.ctp:241
+msgid "A short description about product (max 255 characters)"
+msgstr ""
+
+#: View/Products/manager_create.ctp:259
+msgid "The minimum image width must be %spx."
+msgstr ""
+
+#: View/Products/manager_create.ctp:260
+msgid "For the best image view, we suggest a square image dimension with width and height are higher than %spx."
+msgstr ""
+
+#: View/Products/manager_create.ctp:271
+msgid "Main"
+msgstr ""
+
+#: View/Products/manager_create.ctp:324;548;590
+msgid "Up"
+msgstr ""
+
+#: View/Products/manager_create.ctp:325;549;591
+msgid "Down"
+msgstr ""
+
+#: View/Products/manager_create.ctp:341;342
+#: View/Products/manager_create_video.ctp:19
+msgid "Upload Video"
+msgstr ""
+
+#: View/Products/manager_create.ctp:374
+msgid "Allow share"
+msgstr ""
+
+#: View/Products/manager_create.ctp:385
+msgid "Allow discussion"
+msgstr ""
+
+#: View/Products/manager_create.ctp:396
+msgid "Allow review"
+msgstr ""
+
+#: View/Products/manager_create.ctp:407
+#: View/Stores/product.ctp:261
+msgid "Warranty"
+msgstr ""
+
+#: View/Products/manager_create.ctp:421
+msgid "Weight"
+msgstr ""
+
+#: View/Products/manager_create.ctp:422
+msgid "kg"
+msgstr ""
+
+#: View/Products/manager_create.ctp:436
+msgid "Allow promotion"
+msgstr ""
+
+#: View/Products/manager_create.ctp:447
+msgid "Promotion period"
+msgstr ""
+
+#: View/Products/manager_create.ctp:451
+msgid "Start"
+msgstr ""
+
+#: View/Products/manager_create.ctp:462
+msgid "End"
+msgstr ""
+
+#: View/Products/manager_create.ctp:476
+msgid "Promotion discount"
+msgstr ""
+
+#: View/Products/manager_create.ctp:489
+msgid "You can create multiple attributes for your product like size, color, etc. These attributes will be visible to buyers on the product details page. For each attribute you can specify the price increment / decrement from base price of product."
+msgstr ""
+
+#: View/Products/manager_create.ctp:491
+msgid "Add attribute"
+msgstr ""
+
+#: View/Products/manager_create_video.ctp:28
+msgid "Copy and paste the video url in the text field below"
+msgstr ""
+
+#: View/Products/manager_create_video.ctp:39
+msgid "Source"
+msgstr ""
+
+#: View/Products/manager_create_video.ctp:51
+msgid "URL"
+msgstr ""
+
+#: View/Products/manager_create_video.ctp:62
+msgid "Fetch Video"
+msgstr ""
+
+#: View/Products/manager_index.ctp:16
+#: View/Stores/product.ctp:35
+msgid "This feature costs %s for %s day(s). If this product already set as featured, expiration date will be expanded. Are you sure you want to buy?"
+msgstr ""
+
+#: View/Products/manager_index.ctp:62
+msgid "You can manage all products from all of your business pages here."
+msgstr ""
+
+#: View/Products/manager_index.ctp:158
+msgid "Product Listing"
+msgstr ""
+
+#: View/Products/manager_index.ctp:212
+msgid "Your product was approved"
+msgstr ""
+
+#: View/Products/manager_index.ctp:214
+msgid "Your product is waiting for approval"
+msgstr ""
+
+#: View/Products/manager_index.ctp:225
+#: View/Stores/manager_index.ctp:37
+msgid "Expire"
+msgstr ""
+
+#: View/Products/manager_index.ctp:227
+#: View/Stores/manager_index.ctp:39
+msgid "Upgrade"
+msgstr ""
+
+#: View/Products/manager_index.ctp:231
+#: View/Stores/manager_index.ctp:43
+msgid "Buy"
+msgstr ""
+
+#: View/Products/manager_video_fetch.ctp:30
+msgid "Video Title"
+msgstr ""
+
+#: View/Products/manager_video_fetch.ctp:59
+msgid "Tags"
+msgstr ""
+
+#: View/Products/manager_video_fetch.ctp:68
+msgid "Privacy"
+msgstr ""
+
+#: View/Products/manager_video_fetch.ctp:75
+msgid "Friends Only"
+msgstr ""
+
+#: View/Products/manager_video_fetch.ctp:76
+msgid "Only Me"
+msgstr ""
+
+#: View/Products/manager_video_fetch.ctp:92
+msgid "Save Video"
+msgstr ""
+
+#: View/Products/manager_video_fetch.ctp:94
+msgid "Delete Video"
+msgstr ""
+
+#: View/Products/show_share_product.ctp:11
+msgid "Write something about this product"
+msgstr ""
+
+#: View/Products/show_share_product.ctp:16
+msgid "Successfully share"
+msgstr ""
+
+#: View/Products/show_share_product.ctp:17
+msgid "Share"
+msgstr ""
+
+#: View/StoreCategories/admin_create.ctp:10
+#: View/StoreCategories/admin_index.ctp:5;38
+msgid "Manage Store Categories"
+msgstr ""
+
+#: View/StoreCategories/admin_create.ctp:13
+msgid "Edit Store Category"
+msgstr ""
+
+#: View/StoreCategories/admin_create.ctp:17
+msgid "Create Store Category"
+msgstr ""
+
+#: View/StoreCategories/admin_create.ctp:30
+msgid "Edit %s's Sub Categories"
+msgstr ""
+
+#: View/StoreCategories/admin_create.ctp:30
+msgid "Edit Store Categories"
+msgstr ""
+
+#: View/StoreCategories/admin_create.ctp:32
+msgid "Create %s's Sub Categories"
+msgstr ""
+
+#: View/StoreCategories/admin_create.ctp:32
+msgid "Create Store Categories"
+msgstr ""
+
+#: View/StoreCategories/admin_create.ctp:67
+msgid "Parent"
+msgstr ""
+
+#: View/StoreCategories/admin_create.ctp:70
+msgid "Root"
+msgstr ""
+
+#: View/StoreCategories/admin_index.ctp:38
+msgid "Manage %s's Sub Categories"
+msgstr ""
+
+#: View/StoreCategories/admin_index.ctp:43
+msgid "Back to parent category"
+msgstr ""
+
+#: View/StoreCategories/admin_index.ctp:117
+msgid "Child Categories"
+msgstr ""
+
+#: View/StoreCategories/admin_index.ctp:141
+msgid "Add Sub Category"
+msgstr ""
+
+#: View/StoreCategories/admin_index.ctp:146
+msgid "Manage Sub Categories"
+msgstr ""
+
+#: View/StoreCategories/admin_index.ctp:213
+msgid "No Store Categories"
+msgstr ""
+
+#: View/StorePackages/admin_create.ctp:10
+#: View/StorePackages/admin_index.ctp:11
+msgid "Manage Store Packages"
+msgstr ""
+
+#: View/StorePackages/admin_create.ctp:11;21
+msgid "Edit Store Package"
+msgstr ""
+
+#: View/StorePackages/admin_create.ctp:66
+#: View/StorePackages/admin_index.ctp:36
+#: View/StoreTransactions/admin_index.ctp:86
+#: View/StoreTransactions/manager_index.ctp:104
+msgid "Period"
+msgstr ""
+
+#: View/StorePackages/admin_create.ctp:66;74
+#: View/StorePackages/admin_index.ctp:36;39
+#: View/StoreTransactions/admin_index.ctp:86
+#: View/StoreTransactions/manager_index.ctp:104
+msgid "Days"
+msgstr ""
+
+#: View/StorePackages/admin_create.ctp:74
+#: View/StorePackages/admin_index.ctp:39
+msgid "Remind before"
+msgstr ""
+
+#: View/StorePackages/admin_index.ctp:20
+msgid "Manage Packages"
+msgstr ""
+
+#: View/StorePackages/admin_index.ctp:92
+msgid "No Packages"
+msgstr ""
+
+#: View/StorePayments/admin_create.ctp:10
+#: View/StorePayments/admin_index.ctp:11
+msgid "Manage Store Payments"
+msgstr ""
+
+#: View/StorePayments/admin_create.ctp:11;23
+msgid "Edit Store Payment"
+msgstr ""
+
+#: View/StorePayments/admin_index.ctp:20
+msgid "Manage Payments"
+msgstr ""
+
+#: View/StorePayments/admin_index.ctp:74
+msgid "No Payments"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:2
+msgid "Auto Approve Seller"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:3
+msgid "Auto Approve Product"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:4
+msgid "Product Per Page"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:5
+msgid "Currency position"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:6
+msgid "Wishlist item per page"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:7
+msgid "My Orders item per page"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:8
+msgid "Number of Most viewed products"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:9
+msgid "Number of Latest products"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:10
+msgid "Number of Related products"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:11
+msgid "Number of Sale products"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:12
+msgid "Order code prefix"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:13
+msgid "Site Profit"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:14
+msgid "Site profit percentage per order (for online transaction)"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:15
+msgid "Yes"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:16
+msgid "No"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:17
+msgid "Left"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:18
+msgid "Right"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:19
+msgid "Number of Featured products"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:20
+msgid "Number of Featured stores"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:21
+msgid "Show store list"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:22
+msgid "Allow to select seller to checkout separately at check out step"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:23
+msgid "Store Per Page"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:24
+msgid "Enable shipping"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:25
+msgid "Buy Featured Product"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:26
+msgid "Buy Featured Store"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:27
+msgid "By pass force login"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:28
+msgid "My files item per page"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:29
+msgid "Allow digital file extensions"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:30
+msgid "Separate by comma"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:31
+msgid "Allow video extensions"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:32
+msgid "Integrate credit for check-out process"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:33
+msgid "Show money type for product"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:37
+msgid "Normal value"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:38
+msgid "Credit value"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:39
+msgid "All values"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:40
+msgid "Video item per page"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:41
+msgid "Product review item per page"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:42
+msgid "Number of Same Product Images"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:43
+msgid "Number of Same Product Videos"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:44
+msgid "Paypal type"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:45
+msgid "PayPal Adaptive"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:46
+msgid "PayPal Express Checkout"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:47
+msgid "Only users who buy product can review"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:48
+msgid "Select 'No' if you want anyone can review product"
+msgstr ""
+
+#: View/StoreSettings/admin_index.ctp:52
+msgid "Settings Manager"
+msgstr ""
+
+#: View/StoreShippingMethods/admin_create.ctp:10
+#: View/StoreShippingMethods/admin_index.ctp:11
+msgid "Manage Store Shipping Methods"
+msgstr ""
+
+#: View/StoreShippingMethods/admin_create.ctp:11
+msgid "Edit Store Shipping Method"
+msgstr ""
+
+#: View/StoreShippingMethods/admin_create.ctp:23
+msgid "Edit Store Shipping"
+msgstr ""
+
+#: View/StoreShippingMethods/admin_index.ctp:20
+msgid "Manage Shipping Methods"
+msgstr ""
+
+#: View/StoreShippingMethods/admin_index.ctp:60
+msgid "No Shipping Methods"
+msgstr ""
+
+#: View/StoreShippingZones/manager_index.ctp:120
+msgid "Shipping Zone Listing"
+msgstr ""
+
+#: View/StoreShippingZones/manager_index.ctp:193
+msgid "No Shipping Zones"
+msgstr ""
+
+#: View/StoreShippings/manager_create.ctp:73
+msgid "Method"
+msgstr ""
+
+#: View/StoreShippings/manager_create.ctp:82
+msgid "Zone"
+msgstr ""
+
+#: View/StoreShippings/manager_create.ctp:90
+msgid "Click %s to create zone"
+msgstr ""
+
+#: View/StoreShippings/manager_create.ctp:102
+msgid "Weight(kg)"
+msgstr ""
+
+#: View/StoreShippings/manager_index.ctp:89
+msgid "Shipping Listing"
+msgstr ""
+
+#: View/StoreShippings/manager_index.ctp:153
+msgid "No Shipping"
+msgstr ""
+
+#: View/StoreTransactions/admin_index.ctp:11
+msgid "Manage Store Transactions"
+msgstr ""
+
+#: View/StoreTransactions/admin_index.ctp:50
+#: View/StoreTransactions/manager_index.ctp:64
+msgid "All packages"
+msgstr ""
+
+#: View/StoreTransactions/admin_index.ctp:74
+msgid "Item name"
+msgstr ""
+
+#: View/StoreTransactions/admin_index.ctp:77
+#: View/StoreTransactions/manager_index.ctp:89
+msgid "Package"
+msgstr ""
+
+#: View/StoreTransactions/admin_index.ctp:80
+#: View/StoreTransactions/manager_index.ctp:94
+msgid "Gateway"
+msgstr ""
+
+#: View/StoreTransactions/admin_index.ctp:89
+#: View/StoreTransactions/manager_index.ctp:104
+msgid "Expiration date"
+msgstr ""
+
+#: View/StoreTransactions/admin_index.ctp:167
+#: View/StoreTransactions/manager_index.ctp:193
+msgid "No Transactions"
+msgstr ""
+
+#: View/StoreTransactions/manager_index.ctp:122
+msgid "Transaction Listing"
+msgstr ""
+
+#: View/Stores/admin_index.ctp:8
+msgid "Sellers Manager"
+msgstr ""
+
+#: View/Stores/admin_index.ctp:33
+msgid "Manage Sellers"
+msgstr ""
+
+#: View/Stores/admin_index.ctp:94
+msgid "Author"
+msgstr ""
+
+#: View/Stores/admin_index.ctp:103
+msgid "Active"
+msgstr ""
+
+#: View/Stores/admin_index.ctp:179
+msgid "No Sellers"
+msgstr ""
+
+#: View/Stores/create.ctp:106
+msgid "Payment types accepted"
+msgstr ""
+
+#: View/Stores/create.ctp:136
+msgid "Note: Each order will be charged %s%% for online transaction."
+msgstr ""
+
+#: View/Stores/create.ctp:144
+#: View/Stores/manager_index.ctp:70
+msgid "Paypal Email"
+msgstr ""
+
+#: View/Stores/create.ctp:158
+msgid "Paypal First Name"
+msgstr ""
+
+#: View/Stores/create.ctp:172
+msgid "Paypal Last Name"
+msgstr ""
+
+#: View/Stores/create.ctp:186
+msgid "Return & Refund Policy"
+msgstr ""
+
+#: View/Stores/create.ctp:195
+msgid "Policies are shown on product detail page"
+msgstr ""
+
+#: View/Stores/manager_index.ctp:11
+msgid "This feature costs %s for %s day(s). If this store already set as featured, expiration date will be expanded. Are you sure you want to buy?"
+msgstr ""
+
+#: View/Stores/manager_index.ctp:20
+msgid "This seller is waiting for verification or currently unavailable. Please contact site admin for more information."
+msgstr ""
+
+#: View/Stores/manager_index.ctp:23
+msgid "Seller Information"
+msgstr ""
+
+#: View/Stores/manager_index.ctp:35
+msgid "Unlimited"
+msgstr ""
+
+#: View/Stores/my_orders.ctp:88
+msgid "Detail"
+msgstr ""
+
+#: View/Stores/my_wishlist.ctp:58
+msgid "Stock Status"
+msgstr ""
+
+#: View/Stores/product.ctp:46
+msgid "This product is currently disapproved."
+msgstr ""
+
+#: View/Stores/product.ctp:65
+msgid "You don't have permission to view this page"
+msgstr ""
+
+#: View/Stores/product.ctp:147
+msgid "Choose an option"
+msgstr ""
+
+#: View/Stores/product.ctp:240
+msgid "Ask seller"
+msgstr ""
+
+#: View/Stores/product.ctp:312
+#: View/Widgets/products/seller_info.ctp:3
+msgid "Seller Info"
+msgstr ""
+
+#: View/Stores/product_video_detail.ctp:12
+msgid "Show More"
+msgstr ""
+
+#: View/Stores/product_video_detail.ctp:12
+msgid "Show Less"
+msgstr ""
+
+#: View/Stores/products.ctp:66
+msgid "Grid"
+msgstr ""
+
+#: View/Stores/products.ctp:70
+msgid "List"
+msgstr ""
+
+#: View/Widgets/products/featured_products.ctp:11
+msgid "Featured Products"
+msgstr ""
+
+#: View/Widgets/products/featured_stores.ctp:11
+msgid "Featured Stores"
+msgstr ""
+
+#: View/Widgets/products/latest_products.ctp:11
+msgid "Latest Products"
+msgstr ""
+
+#: View/Widgets/products/most_viewed_products.ctp:11
+msgid "Most Viewed Products"
+msgstr ""
+
+#: View/Widgets/products/sale_products.ctp:11
+msgid "Sale Products"
+msgstr ""
+
+#: Model/Store.php:validation for field name
+#: Model/StoreAttribute.php:validation for field name
+#: Model/StorePackage.php:validation for field name
+#: Model/StorePayment.php:validation for field name
+#: Model/StoreProduct.php:validation for field name
+msgid "Please provide name"
+msgstr ""
+
+#: Model/Store.php:validation for field address
+msgid "Please provide address"
+msgstr ""
+
+#: Model/Store.php:validation for field phone
+msgid "Please provide phone"
+msgstr ""
+
+#: Model/Store.php:validation for field payments
+msgid "Please select at least a payment"
+msgstr ""
+
+#: Model/StoreCategory.php:validation for field name
+#: Model/StoreShippingMethod.php:validation for field name
+msgid "Please provide category name"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field billing_first_name
+msgid "Please provide billing first name"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field billing_last_name
+msgid "Please provide billing last name"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field billing_email
+msgid "Invalid billing email"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field billing_phone
+msgid "Please provide billing phone"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field billing_country_id
+msgid "Please select billing country"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field billing_address
+msgid "Please provide billing address"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field billing_city
+msgid "Please provide billing city"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field shipping_first_name
+msgid "Please provide shipping first name"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field shipping_last_name
+msgid "Please provide shipping last name"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field shipping_email
+msgid "Invalid shipping email"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field shipping_phone
+msgid "Please provide shipping phone"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field shipping_country_id
+msgid "Please select shipping country"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field shipping_address
+msgid "Please provide shipping address"
+msgstr ""
+
+#: Model/StoreOrder.php:validation for field shipping_city
+msgid "Please provide shipping city"
+msgstr ""
+
+#: Model/StorePackage.php:validation for field price
+msgid "Please provide price"
+msgstr ""
+
+#: Model/StorePackage.php:validation for field period
+msgid "Please provide period"
+msgstr ""
+
+#: Model/StorePayment.php:validation for field description
+msgid "Please provide description"
+msgstr ""
+
+#: Model/StoreProducer.php:validation for field name
+msgid "Please provide producer name"
+msgstr "Please provide manufacturer name"
+
+#: Model/StoreProduct.php:validation for field product_code
+msgid "Please provide product code"
+msgstr ""
+
+#: Model/StoreProduct.php:validation for field product_code
+msgid "This code is already exist"
+msgstr ""
+
+#: Model/StoreProduct.php:validation for field store_category_id
+msgid "Please select a category"
+msgstr ""
+
+#: Model/StoreProductComment.php:validation for field email
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: Model/StoreProductComment.php:validation for field comment
+msgid "Please provide comment"
+msgstr ""
+
+#: Model/StoreReview.php:validation for field rating
+msgid "Please select rating"
+msgstr ""
+
+#: Model/StoreReview.php:validation for field content
+msgid "Please input your review"
+msgstr ""
+
+#: Model/StoreShipping.php:validation for field store_shipping_method_id
+msgid "Please select method"
+msgstr ""
+
+#: Model/StoreShipping.php:validation for field store_shipping_zone_id
+msgid "Please select zone"
+msgstr ""
+
+#: Model/StoreShipping.php:validation for field price
+msgid "Please enter price"
+msgstr ""
+
+#: Model/StoreShippingZone.php:validation for field name
+msgid "Please provide shipping zone name"
+msgstr ""
+
+#: Model/StoreShippingZoneLocation.php:validation for field country_id
+msgid "Please select country"
+msgstr ""
+
+msgid "_EMAIL_STORE_ORDER_TITLE_"
+msgstr "Store order email"
+
+msgid "_EMAIL_STORE_ORDER_DESCRIPTION_"
+msgstr "This is store order email"
+
+msgid "_EMAIL_EMAIL_TO_FRIEND_TITLE_"
+msgstr "Store email to friend"
+
+msgid "_EMAIL_EMAIL_TO_FRIEND_DESCRIPTION_"
+msgstr "This is store email to friend"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_REMINDER_TITLE_"
+msgstr "Store email featured product expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_REMINDER_DESCRIPTION_"
+msgstr "This is email featured product expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_TITLE_"
+msgstr "Store email featured product expiration"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_DESCRIPTION_"
+msgstr "This is email featured product expiration"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_REMINDER_TITLE_"
+msgstr "Store email featured store expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_REMINDER_DESCRIPTION_"
+msgstr "This is email featured store expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_TITLE_"
+msgstr "Store email featured store expiration"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_DESCRIPTION_"
+msgstr "This is email featured store expiration"
+
+msgid "StoreProduct not found"
+msgstr ""
+
+msgid "Successfully set feature"
+msgstr ""
+
+msgid "Cannot set feature, please try again!"
+msgstr ""
+
+msgid "Day is required"
+msgstr ""
+
+msgid "Please select business page"
+msgstr ""
+
+msgid "Deny"
+msgstr ""
+
+msgid "Please create your business page first to be able to open seller account"
+msgstr ""
+
+msgid "Allow"
+msgstr ""
+
+msgid "This business page already linked to a store, please choose another business page"
+msgstr ""
+
+msgid "Open business page now"
+msgstr ""
+
+msgid "wrote a review"
+msgstr ""
+
+msgid "Set Feature"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "Verify"
+msgstr ""
+
+msgid "Unverify"
+msgstr ""
+
+msgid "Rating"
+msgstr ""
+
+msgid "Business"
+msgstr ""
+
+msgid "Feature"
+msgstr ""
+
+msgid "Buy Product"
+msgstr ""
+
+msgid "Sell Product"
+msgstr ""
+
+msgid "Store Profit"
+msgstr ""
+
+msgid "Integrate with business directory plugin"
+msgstr ""
+
+msgid "Edit Stores"
+msgstr ""
+
+msgid "Add New Stores"
+msgstr ""
+
+msgid "Select business"
+msgstr ""
+
+msgid "Products that you added into your store will also appear in the selected business page under 'Products' tab"
+msgstr ""
+
+msgid "Select business page"
+msgstr ""
+
+msgid "Business Page"
+msgstr ""
+

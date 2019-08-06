@@ -1,0 +1,1851 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "k0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ContestPlugin.php:651;657
+msgid "Default Category"
+msgstr "k0002 기본 카테고리"
+
+#: ContestPlugin.php:714
+#: View/Contests/admin_index.ctp:7;16
+msgid "Contests Manager"
+msgstr "k0003 콘테스트 관리자"
+
+#: ContestPlugin.php:715
+#: View/Contests/admin_entry.ctp:7;16
+msgid "Entries Manager"
+msgstr "k0004 항목 관리자"
+
+#: ContestPlugin.php:716
+#: View/ContestCategories/admin_index.ctp:10
+#: View/Widgets/contest/menu.ctp:13
+msgid "Categories"
+msgstr "k0005 카테고리"
+
+#: ContestPlugin.php:717
+#: View/ContestCategories/admin_create.ctp:68
+#: View/ContestSettings/admin_index.ctp:25
+msgid "Settings"
+msgstr "k0006 설정"
+
+#: Controller/ContestCategoriesController.php:26
+msgid "Categories Manager"
+msgstr "k0007 카테고리 관리자"
+
+#: Controller/ContestCategoriesController.php:74
+msgid "Category has been successfully saved"
+msgstr "k0008 카테고리가 저장되었습니다"
+
+#: Controller/ContestSettingsController.php:18
+#: View/ContestSettings/admin_index.ctp:15
+msgid "Contest Settings"
+msgstr "k0009 콘테스트 설정"
+
+#: Controller/ContestSettingsController.php:30
+msgid "Successfully updated"
+msgstr "k0010 업데이트 성공"
+
+#: Controller/ContestSettingsController.php:41
+#: View/ContestSettings/admin_credit_integration.ctp:10
+msgid "Credits Integration"
+msgstr "k0011 포인트 통합"
+
+#: Controller/ContestsController.php:63
+#: Lib/ContestListener.php:34;156;191
+#: View/ContestSettings/admin_index.ctp:4
+#: View/Contests/browse.ctp:5;10
+#: View/Elements/menu_profile.ctp:1
+#: View/Elements/ajax/profile_contest.ctp:3
+#: View/Themed/MooApp/Plugin/Contest/Contests/browse.ctp:5;10
+#: View/Themed/MooApp/Plugin/Contest/Elements/menu_profile.ctp:1
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/profile_contest.ctp:3
+#: View/Widgets/contest/browse.ctp:4
+msgid "Contests"
+msgstr "k0012 콘테스트"
+
+#: Controller/ContestsController.php:100
+#: View/Elements/ajax/contest_entries.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:38
+#: View/Elements/lists/contest_list_m.ctp:27
+#: View/Elements/lists/contests.ctp:52
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:127
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:35
+#: View/Widgets/contest/featured.ctp:47
+msgid "Entries"
+msgstr "k0013 항목"
+
+#: Controller/ContestsController.php:105
+msgid "Entry not found"
+msgstr "k0014 항목을 찾을 수 없습니다"
+
+#: Controller/ContestsController.php:109
+msgid "Successfully update entry status"
+msgstr "k0015 항목 상태를 업데이트하였습니다"
+
+#: Controller/ContestsController.php:121
+msgid "Entry has been deleted"
+msgstr "k0016 항목이 삭제되었습니다"
+
+msgid "Entry has been submitted successfully"
+msgstr "k0017 항목을 제출하였습니다"
+
+#: Controller/ContestsController.php:134
+msgid "Entries has been deleted"
+msgstr "k0018 항목이 삭제되었습니다"
+
+#: Controller/ContestsController.php:139;149;159;171
+msgid "Contest not found"
+msgstr "k0019 콘테스트를 찾을 수 없습니다"
+
+#: Controller/ContestsController.php:143
+msgid "Successfully change approve status"
+msgstr "k0020 승인 상태 변경을 완료하였습니다"
+
+#: Controller/ContestsController.php:153
+msgid "Successfully change contest status"
+msgstr "k0021 콘테스트 상태 변경을 완료하였습니다"
+
+#: Controller/ContestsController.php:163
+msgid "Successfully change category"
+msgstr "k0022 카테고리 변경을 완료하였습니다"
+
+#: Controller/ContestsController.php:177
+msgid "Contest has been featured"
+msgstr "k0023 콘테스트가 추천되었습니다"
+
+#: Controller/ContestsController.php:180
+msgid "Contest has been un-featured"
+msgstr "k0024 콘테스트가 추천 해제되었습니다"
+
+#: Controller/ContestsController.php:183
+msgid "Can not set feature contest! Please try again"
+msgstr "k0025 콘테스트를 추천할 수 없습니다. 다시 시도해주십시요"
+
+#: Controller/ContestsController.php:208;285
+msgid "Contest has been deleted"
+msgstr "k0026 콘테스트가 삭제되었습니다"
+
+#: Controller/ContestsController.php:241
+msgid "Request delete has been sent. Admin will review and delete this contest afterward"
+msgstr "k0027 삭제 요청을 전송했습니다. 관리자가 검토후 삭제할 것입니다"
+
+#: Controller/ContestsController.php:253
+msgid "Entry has been deleted successfully"
+msgstr "k0028 항목이 삭제되었습니다"
+
+#: Controller/ContestsController.php:263
+msgid "Entry has been approved successfully"
+msgstr "k0029 항목이 승인되었습니다"
+
+#: Controller/ContestsController.php:273
+msgid "Entry has been set to win successfully"
+msgstr "k0030 항목이 무조건 이기도록 설정되었습니다"
+
+#: Controller/ContestsController.php:355
+msgid "Contest has been published successfully"
+msgstr "k0031 콘테스트를 기재하였습니다"
+
+#: Controller/ContestsController.php:358
+msgid "Can not publish contest! Please check all information try again"
+msgstr "k0032 콘테스트를 기재할 수 없습니다. 모든 정보를 확인후 다시 시도해주십시요"
+
+#: Controller/ContestsController.php:381
+#: View/Contests/create.ctp:20
+#: View/Contests/view.ctp:129;132
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:51;54
+msgid "Edit Contest"
+msgstr "k0033 콘테스트 편집"
+
+#: Controller/ContestsController.php:387
+msgid "Create new contest"
+msgstr "k0034 새 콘테스트 생성"
+
+#: Controller/ContestsController.php:541
+msgid "Contest has been successfully added"
+msgstr "k0035 콘테스트를 추가하였습니다"
+
+#: Controller/ContestsController.php:544
+msgid "Contest has been successfully updated"
+msgstr "k0036 콘테스트를 업데이트하였습니다"
+
+#: Controller/ContestsController.php:569;792
+msgid "You do not have permission to view this contest"
+msgstr "k0037 해당 콘테스트를 열람하실 권한이 없습니다"
+
+#: Controller/ContestsController.php:633
+msgid "Approve"
+msgstr "k0038 승인"
+
+#: Controller/ContestsController.php:633;846
+#: View/Contests/admin_entry.ctp:136
+#: View/Contests/admin_index.ctp:169
+msgid "Delete"
+msgstr "k0039 삭제"
+
+#: Controller/ContestsController.php:633
+#: View/Helper/ContestHelper.php:364;369
+msgid "Win"
+msgstr "k0040 승리"
+
+#: Controller/ContestsController.php:641
+msgid "You have joined this contest successfully."
+msgstr "k0041 해당 콘테스트에 참여하였습니다"
+
+#: Controller/ContestsController.php:644;666
+msgid "Contest does not exist."
+msgstr "k0042 콘테스트가 존재하지 않습니다"
+
+#: Controller/ContestsController.php:663
+msgid "You have left this contest."
+msgstr "k0043 해당 콘테스트에서 나왔습니다"
+
+#: Controller/ContestsController.php:762
+msgid "Award is required."
+msgstr "k0044 보상은 필수입니다"
+
+#: Controller/ContestsController.php:771
+msgid "Terms & Conditions is required."
+msgstr "k0045 이용약관은 필수입니다"
+
+#: Controller/ContestsController.php:900;914;988
+msgid "Access denied"
+msgstr "k0046 접근 불가"
+
+#: Controller/ContestsController.php:1014
+msgid "Entries has been approved successfully"
+msgstr "k0047 항목이 승인되었습니다"
+
+#: Controller/ContestsController.php:1020
+msgid "Entries has been denied successfully"
+msgstr "k0048 항목이 거절되었습니다"
+
+#: Controller/ContestsController.php:1026
+msgid "Entries has been deleted successfully"
+msgstr "k0049 항목을 삭제하였습니다"
+
+#: Controller/ContestsController.php:1030
+msgid "Entries has been set to win successfully"
+msgstr "k0050 항목이 무조건 승리하기로 설정되었습니다"
+
+#: Controller/ContestsController.php:1051
+msgid "You do not have permission to view this entry"
+msgstr "k0051 해당 항목을 열람하실 권한이 없습니다"
+
+#: Controller/ContestsController.php:1090;1098;1137;1150;1167;1180
+msgid "Can not vote this entry"
+msgstr "k0052 해당 항목에는 투표할 수 없습니다"
+
+#: Controller/ContestsController.php:1095
+msgid "Voted Successfully."
+msgstr "k0053 투표 완료"
+
+#: Controller/ContestsController.php:1113;1121
+msgid "Can not un-vote this entry"
+msgstr "k0054 해당 항목에는 투표 취소를 할 수 없습니다"
+
+#: Controller/ContestsController.php:1118
+msgid "Un-voted Successfully."
+msgstr "k0055 투표 취소 완료"
+
+#: Controller/ContestsController.php:1198
+msgid "Contest is required"
+msgstr "k0056 콘테스트는 필수입니다"
+
+#: Controller/ContestsController.php:1203;1266
+msgid "Emails is required"
+msgstr "k0057 이메일은 필수입니다"
+
+#: Controller/ContestsController.php:1208
+msgid "Subject is required"
+msgstr "k0058 주재는 필수입니다"
+
+#: Controller/ContestsController.php:1213
+msgid "Message is required"
+msgstr "k0059 메세지는 필수입니다"
+
+#: Controller/ContestsController.php:1224
+msgid "Emails is invalid"
+msgstr "k0060 잘못된 이메일입니다"
+
+#: Controller/ContestsController.php:1296
+#: View/Elements/ajax/contest_award.ctp:53
+#: View/Elements/ajax/contest_candidate.ctp:19
+#: View/Elements/ajax/contest_entries.ctp:38
+#: View/Elements/ajax/contest_policy.ctp:53
+#: View/Elements/ajax/my_entries.ctp:36
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_award.ctp:53
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_candidate.ctp:19
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:40
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_policy.ctp:53
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:38
+msgid "Contest does not exist"
+msgstr "k0061 콘테스트가 존재하지 않습니다"
+
+#: Controller/ContestsController.php:1309
+msgid "Can not edit published or closed contest"
+msgstr "k0062 등록되거나 닫힌 콘테스트는 수정할 수 없습니다"
+
+#: Controller/ContestsController.php:1325;1338
+msgid "Invalid URL. Please try again"
+msgstr "k0063 잘못된 URL. 다시 시도해주십시요"
+
+#: Lib/ContestListener.php:274;291
+#: View/Contests/admin_entry.ctp:43
+msgid "Contest"
+msgstr "k0064 콘테스트"
+
+#: Lib/ContestListener.php:320
+msgid "Find Contest"
+msgstr "k0065 콘테스트 찾기"
+
+#: Lib/ContestListener.php:324
+#: View/Elements/ajax/entry_detail.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:5
+msgid "Posted by"
+msgstr "k0066 게시하였습니다"
+
+#: Lib/ContestListener.php:359
+msgid "sec"
+msgstr "k0067 초"
+
+#: Lib/ContestListener.php:360
+msgid "min"
+msgstr "k0068 분"
+
+#: Lib/ContestListener.php:361
+msgid "hrs"
+msgstr "k0069 시간"
+
+#: Lib/ContestListener.php:362
+msgid "days"
+msgstr "k0070 일"
+
+#: Lib/ContestListener.php:363
+msgid "weeks"
+msgstr "k0071 주"
+
+#: Lib/ContestListener.php:364
+msgid "Drag or click here to upload music"
+msgstr "k0072 드래그 또는 여기를 클릭하여 음악 업로드"
+
+#: Lib/ContestListener.php:365
+msgid "You can only approve Pending approval entries"
+msgstr "k0073 승인 대기중인 항목만 승인할 수 있습니다"
+
+#: Lib/ContestListener.php:366
+msgid "Please select entry to continue submission"
+msgstr "k0074 항목을 선택하여 제출하여주십시요"
+
+#: Lib/ContestListener.php:367
+msgid "Can not vote entry"
+msgstr "k0075 투표할 수 없습니다"
+
+#: Lib/ContestListener.php:368
+msgid "Can not un-vote entry"
+msgstr "k0076 투표를 취소할 수 없습니다"
+
+#: Lib/ContestListener.php:369
+msgid "Please select at least one list"
+msgstr "k0077 하나 이상의 목록을 선택해주십시요"
+
+#: Lib/ContestListener.php:370
+msgid "Are you sure you want to set entry to win? This contest will be closed."
+msgstr "k0078 해당 항목이 이기게 설정하시겠습니까? 해당 콘테스트는 닫힙니다"
+
+#: Lib/ContestListener.php:371
+msgid "Are you sure you want to deny this entry?"
+msgstr "k0079 해당 항목을 거절하시겠습니까?"
+
+#: Lib/ContestListener.php:372
+msgid "Are you sure you want to deny entries?"
+msgstr "k0080 항목을 거절하시겠습니까?"
+
+#: Lib/ContestListener.php:373
+#: View/Contests/admin_entry.ctp:136
+msgid "Are you sure you want to delete this entry?"
+msgstr "k0081 해당 항목을 삭제하시겠습니까?"
+
+#: Lib/ContestListener.php:374
+msgid "Are you sure you want to request delete this contest? Admin will review and delete this contest."
+msgstr "k0082 해당 콘테스트 삭제 요청을 하시겠습니까? 관리자가 검토후 삭제합니다"
+
+#: Lib/ContestListener.php:375
+msgid "Are you sure you want to delete entries?"
+msgstr "k0083 항목을 삭제하시겠습니까?"
+
+#: Lib/ContestListener.php:376
+msgid "Are you sure you want to approve this entry?"
+msgstr "k0084 해당 항목을 승인하시겠습니까?"
+
+#: Lib/ContestListener.php:377
+msgid "Are you sure you want to approve entries?"
+msgstr "k0085 항목을 승인하시겠습니까?"
+
+#: Lib/ContestListener.php:378
+msgid "Are you sure you want to set win for entries? This contest will be closed."
+msgstr "k0086 항목이 이기게 설정하시겠습니까? 콘테스트가 닫힙니다"
+
+#: Lib/ContestListener.php:379
+msgid "Are you sure you want to leave this contest? All submitted entry will be removed."
+msgstr "k0087 해당 콘테스트를 떠나시겠습니까? 제출한 모든 항목이 제거됩니다"
+
+#: Lib/ContestListener.php:380
+#: View/Contests/admin_index.ctp:169
+msgid "Are you sure you want to delete this contest?"
+msgstr "k0088 해당 콘테스트를 삭제하시겠습니까?"
+
+#: Lib/ContestListener.php:381
+#: Model/Contest.php:validation for field duration_start
+msgid "Contest Duration: Start date must be greater than current date"
+msgstr "k0089 콘테스트 기간: 시작일은 현재 날짜 이후여야 합니다"
+
+#: Lib/ContestListener.php:382
+#: Model/Contest.php:validation for field duration_end
+msgid "Contest Duration: End date must be greater than current date"
+msgstr "k0090 콘테스트 기간: 종료일은 현재 날짜 이후여야 합니다"
+
+#: Lib/ContestListener.php:383
+#: Model/Contest.php:validation for field duration_end
+msgid "Contest Duration: End date must be greater than Start date"
+msgstr "k0091 콘테스트 기간: 종료일은 시작일 이후여야 합니다"
+
+#: Lib/ContestListener.php:384
+#: Model/Contest.php:validation for field submission_start
+msgid "Submit Entries Duration: Start date must be greater than current date"
+msgstr "k0092 항목 제출 기간: 시작일은 현재 날짜 이후여야 합니다"
+
+#: Lib/ContestListener.php:385
+#: Model/Contest.php:validation for field submission_end
+msgid "Submit Entries Duration: End date must be greater than current date"
+msgstr "k0093 항목 제출 기간: 종료일은 현재 날짜 이후여야 합니다"
+
+#: Lib/ContestListener.php:386
+#: Model/Contest.php:validation for field submission_end
+msgid "Submit Entries Duration: End date must be greater than Start date"
+msgstr "k0094 항목 제출 기간: 종료일은 시작일 이후여야 합니다"
+
+#: Lib/ContestListener.php:387
+#: Model/Contest.php:validation for field voting_start
+msgid "Voting Duration: Start date must be greater than current date"
+msgstr "k0095 투표 기간: 시작일은 현재 날짜 이후여야 합니다"
+
+#: Lib/ContestListener.php:388
+#: Model/Contest.php:validation for field voting_end
+msgid "Voting Duration: End date must be greater than current date"
+msgstr "k0096 투표 기간: 종료일은 현재 날짜 이후여야 합니다"
+
+#: Lib/ContestListener.php:389
+#: Model/Contest.php:validation for field voting_end
+msgid "Voting Duration: End date must be greater than Start date"
+msgstr "k0097 투표 기간: 종료일은 시작일 이후여야 합니다"
+
+#: Lib/ContestListener.php:390
+msgid "Start of Submit Entries Duration must be greater than or equal to the Start of Contest Duration"
+msgstr "k0098 항목 제출 시작일은 콘테스트 시작일 이후여야 합니다"
+
+#: Lib/ContestListener.php:391
+#: Model/Contest.php:validation for field submission_end
+msgid "End of Contest Duration must be greater than or equal to the End of Submit Entries Duration"
+msgstr "k0099 콘테스트 종료는 제출 완료 시간보다 길거나 같아야합니다"
+
+#: Lib/ContestListener.php:392
+msgid "Start of Voting Duration must be greater than or equal to the Start of Submit Entries Duration"
+msgstr "k0100 투표 시작 시간은 제출 시간보다 길거나 같아야합니다"
+
+#: Lib/ContestListener.php:393
+#: Model/Contest.php:validation for field voting_end
+msgid "End of Voting Duration must be greater than or equal to the End of Submit Entries Duration"
+msgstr "k0101 투표 종료는 제추 마감 시간보다 길어야합니다"
+
+#: Lib/ContestListener.php:394
+msgid "When the contest is published, you can not edit any information. You should choose Save as Draft to make sure that all information are correct before publishing."
+msgstr "k0102 콘테스트가 게시되면 어떤 정보도 편집 할 수 없습니다. 게시하기 전에 모든 정보가 올바른지 확인하려면 임시저장을 하십시요"
+
+#: View/ContestCategories/admin_create.ctp:62
+msgid "Add New Category"
+msgstr "k0103 새 카테고리 추가"
+
+#: View/ContestCategories/admin_create.ctp:70
+#: View/ContestCategories/admin_index.ctp:63
+#: View/Contests/admin_index.ctp:83
+msgid "Name"
+msgstr "k0104 이름"
+
+#: View/ContestCategories/admin_create.ctp:72
+msgid "Enter text"
+msgstr "k0105 텍스트 입력"
+
+#: View/ContestCategories/admin_create.ctp:76
+msgid "You can add translation language after creating category"
+msgstr "k0106 카테고리 생성후 번역 언어를 추가할 수 있습니다"
+
+#: View/ContestCategories/admin_create.ctp:87;88
+msgid "Translation"
+msgstr "k0107 번역"
+
+#: View/ContestCategories/admin_create.ctp:99
+#: View/ContestCategories/admin_index.ctp:67
+msgid "Header"
+msgstr "k0108 머리글"
+
+#: View/ContestCategories/admin_create.ctp:105
+msgid "Category header is top level category<br />which does not allow items to be posted"
+msgstr "k0109 카테고리 머리글은 항목을 게시할 수 없습니다"
+
+#: View/ContestCategories/admin_create.ctp:112
+msgid "Parent Category"
+msgstr "k0110 상위 카테고리"
+
+#: View/ContestCategories/admin_create.ctp:119
+#: View/Contests/create.ctp:62
+#: View/Elements/ajax/contest_detail.ctp:44
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:51
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:44
+msgid "Description"
+msgstr "k0111 명세"
+
+#: View/ContestCategories/admin_create.ctp:126
+#: View/ContestCategories/admin_index.ctp:68
+msgid "Active"
+msgstr "k0112 활동중"
+
+#: View/ContestCategories/admin_create.ctp:137
+msgid "Post Permission"
+msgstr "k0113 게시 권한"
+
+#: View/ContestCategories/admin_create.ctp:145
+msgid "Close"
+msgstr "k0114 닫기"
+
+#: View/ContestCategories/admin_create.ctp:146
+#: View/Elements/ajax/contest_award.ctp:31
+#: View/Elements/ajax/contest_policy.ctp:31
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_award.ctp:31
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_policy.ctp:31
+msgid "Save"
+msgstr "k0115 저장"
+
+#: View/ContestCategories/admin_index.ctp:2
+#: View/ContestSettings/admin_credit_integration.ctp:2
+#: View/ContestSettings/admin_index.ctp:14
+#: View/Contests/admin_entry.ctp:6
+#: View/Contests/admin_index.ctp:6
+msgid "Plugins Manager"
+msgstr "k0116 플러그인 관리자"
+
+#: View/ContestCategories/admin_index.ctp:3
+msgid "Contest Categories"
+msgstr "k0117 콘테스트 카테고리"
+
+#: View/ContestCategories/admin_index.ctp:38
+msgid "Add New"
+msgstr "k0118 새로 추가"
+
+#: View/ContestCategories/admin_index.ctp:41
+msgid "Save order"
+msgstr "k0119 주문 저장"
+
+#: View/ContestCategories/admin_index.ctp:52
+msgid "You can enable Spam Challenge to force user to answer a challenge question in order to register."
+msgstr "k0120 Spam Challenge를 활성화하여 회원가입시 challenge 문제를 풀게합니다"
+
+#: View/ContestCategories/admin_index.ctp:53
+msgid "To enable this feature, click System Settings -> Security -> Enable Spam Challenge"
+msgstr "k0121 해당 기능을 활성화하려면 시스템 설정 -> 보안 -> Spam challenge 활성화를 클릭하십시요"
+
+#: View/ContestCategories/admin_index.ctp:62
+#: View/Contests/admin_entry.ctp:67
+#: View/Contests/admin_index.ctp:81
+msgid "ID"
+msgstr "k0122 아이디"
+
+#: View/ContestCategories/admin_index.ctp:64
+msgid "Order"
+msgstr "k0123 주문"
+
+#: View/ContestCategories/admin_index.ctp:65
+#: View/Contests/admin_index.ctp:82
+msgid "Type"
+msgstr "k0124 종류"
+
+#: View/ContestCategories/admin_index.ctp:66
+msgid "Parent"
+msgstr "k0125 상위"
+
+#: View/ContestCategories/admin_index.ctp:69
+msgid "Count"
+msgstr "k0126 개수"
+
+#: View/ContestCategories/admin_index.ctp:70
+msgid "Actions"
+msgstr "k0127 활동"
+
+#: View/ContestCategories/admin_index.ctp:97
+msgid "ROOT"
+msgstr "k0128 ROOT"
+
+#: View/ContestCategories/admin_index.ctp:98;99
+#: View/ContestSettings/admin_credit_integration.ctp:31
+#: View/Contests/admin_index.ctp:157
+msgid "Yes"
+msgstr "k0129 예"
+
+#: View/ContestCategories/admin_index.ctp:98;99
+#: View/ContestSettings/admin_credit_integration.ctp:31
+#: View/Contests/admin_index.ctp:157
+msgid "No"
+msgstr "k0130 아니요"
+
+#: View/ContestCategories/admin_index.ctp:102
+msgid "Are you sure you want to delete this category? All parent of sub-category it will also be changed to ROOT. This cannot be undone!"
+msgstr "k0131 해당 카테고리를 삭제하시겠습니까? 상위 카테고리는 ROOT로 변경됩니다. 되돌릴 수 없는 작업입니다."
+
+#: View/ContestCategories/admin_index.ctp:104
+msgid "Are you sure you want to delete this category? All the items within it will also be deleted. This cannot be undone!"
+msgstr "k0132 해당 카테고리를 삭제하시겠습니까 카테고리내의 모든 항목이 삭제됩니다. 되돌릴 수 없는 작업입니다"
+
+#: View/ContestSettings/admin_credit_integration.ctp:3
+msgid "Credit Integration"
+msgstr "k0133 크레딧 통합"
+
+#: View/ContestSettings/admin_credit_integration.ctp:20
+msgid "You need to install credit plugin first. Please purchase credits plugin at"
+msgstr "k0134 크레딧 플러그인을 먼저 설치해야합니다. 크레딧 플러그인을 구매해주십시요"
+
+#: View/ContestSettings/admin_credit_integration.ctp:27
+msgid "Integrate with credits system"
+msgstr "k0135 크레딧 시스템과 통합"
+
+#: View/ContestSettings/admin_credit_integration.ctp:38
+#: View/Contests/edit_entry.ctp:29
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:29
+msgid "Save Changes"
+msgstr "k0136 변경 저장"
+
+#: View/ContestSettings/admin_index.ctp:2
+msgid "Enable Contest Hashtag"
+msgstr "k0137 콘테스트 해쉬태그 활성화"
+
+#: View/ContestSettings/admin_index.ctp:3
+msgid "Auto Approved Contest"
+msgstr "k0138 자동 승인된 콘테스트"
+
+#: View/ContestSettings/admin_index.ctp:5;7
+msgid "Item per pages"
+msgstr "k0139 페이지당 항목"
+
+#: View/ContestSettings/admin_index.ctp:6
+msgid "The number of contests to display per page"
+msgstr "k0140 페이지당 표시할 콘테스트수"
+
+#: View/ContestSettings/admin_index.ctp:8
+msgid "Create/Edit Contest"
+msgstr "k0141 콘테스트 생성/편집"
+
+#: View/ContestSettings/admin_index.ctp:9
+#: View/Contests/edit_entry.ctp:10
+#: View/Contests/select_photos.ctp:25
+#: View/Contests/select_videos.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:10
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_photos.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_videos.ctp:25
+msgid "View Contest"
+msgstr "k0142 콘테스트 보기"
+
+#: View/Contests/admin_entry.ctp:24
+#: View/Contests/admin_index.ctp:24;32;40
+msgid "Are you sure?"
+msgstr "k0143 확신하십니까?"
+
+#: View/Contests/admin_entry.ctp:36
+msgid "Are you sure you want to delete selected entries"
+msgstr "k0144 선택된 항목을 삭제하시겠습니까?"
+
+#: View/Contests/admin_entry.ctp:47;71
+msgid "Status"
+msgstr "k0145 상태"
+
+#: View/Contests/admin_entry.ctp:56
+#: View/Contests/admin_index.ctp:73
+msgid "Search"
+msgstr "k0146 검색"
+
+#: View/Contests/admin_entry.ctp:68
+msgid "Entry"
+msgstr "k0147 항목"
+
+#: View/Contests/admin_entry.ctp:69
+#: View/Contests/admin_index.ctp:86
+msgid "Owner"
+msgstr "k0148 소유자"
+
+#: View/Contests/admin_entry.ctp:70
+#: View/Contests/create.ctp:53
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:46
+msgid "Contest Name"
+msgstr "k0149 콘테스트 이름"
+
+#: View/Contests/admin_entry.ctp:72
+msgid "Vote Count"
+msgstr "k0150 투표수"
+
+#: View/Contests/admin_entry.ctp:73
+#: View/Contests/admin_index.ctp:90
+msgid "Created date"
+msgstr "k0151 생성 날짜"
+
+#: View/Contests/admin_entry.ctp:74
+#: View/Contests/admin_index.ctp:91
+msgid "Action"
+msgstr "k0152 활동"
+
+#: View/Contests/admin_entry.ctp:143
+msgid "No entries found"
+msgstr "k0153 항목을 찾을 수 없습니다"
+
+#: View/Contests/admin_entry.ctp:152
+#: View/Contests/admin_index.ctp:177
+msgid "Prev"
+msgstr "k0154 이전의"
+
+#: View/Contests/admin_entry.ctp:154
+#: View/Contests/admin_index.ctp:179
+#: View/Widgets/contest/featured.ctp:80
+msgid "Next"
+msgstr "k0155 다음"
+
+#: View/Contests/admin_index.ctp:50
+msgid "Title"
+msgstr "k0156 제목"
+
+#: View/Contests/admin_index.ctp:54;87
+#: View/Contests/create.ctp:44
+msgid "Category"
+msgstr "k0157 카테고리"
+
+#: View/Contests/admin_index.ctp:63
+#: View/Elements/blocks/cover_menu.ctp:14
+#: View/Elements/lists/contest_list_m.ctp:8
+#: View/Elements/lists/contests.ctp:31
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:19
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:14
+msgid "Featured"
+msgstr "k0158 추천된"
+
+#: View/Contests/admin_index.ctp:64
+msgid "yes"
+msgstr "k0159 예"
+
+#: View/Contests/admin_index.ctp:64
+msgid "no"
+msgstr "k0160 아니요"
+
+#: View/Contests/admin_index.ctp:84
+msgid "Approve Status"
+msgstr "k0161 상태 승인"
+
+#: View/Contests/admin_index.ctp:85
+msgid "Contest Status"
+msgstr "k0162 콘테스트 상태"
+
+#: View/Contests/admin_index.ctp:88
+msgid "Auto Approve Entry"
+msgstr "k0163 항목 자동 승인"
+
+#: View/Contests/admin_index.ctp:89;163
+msgid "Feature"
+msgstr "k0164 추천"
+
+#: View/Contests/admin_index.ctp:108
+#: View/Helper/ContestHelper.php:344
+msgid "Approved"
+msgstr "k0165 승인됨"
+
+#: View/Contests/admin_index.ctp:109
+#: View/Helper/ContestHelper.php:362;369
+msgid "Pending"
+msgstr "k0166 대기중"
+
+#: View/Contests/admin_index.ctp:110
+#: View/Helper/ContestHelper.php:337;345
+msgid "Denied"
+msgstr "k0167 거절됨"
+
+#: View/Contests/admin_index.ctp:125;130
+#: View/Helper/ContestHelper.php:332;352
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:12
+#: View/Widgets/contest/featured.ctp:34
+msgid "Closed"
+msgstr "k0168 닫기"
+
+#: View/Contests/admin_index.ctp:128
+#: View/Helper/ContestHelper.php:329;353
+msgid "Draft"
+msgstr "k0169 임서저장"
+
+#: View/Contests/admin_index.ctp:129
+#: View/Helper/ContestHelper.php:354;363;369
+msgid "Published"
+msgstr "k0170 게시됨"
+
+#: View/Contests/admin_index.ctp:161
+msgid "Are you sure you want to un-feature this contest?"
+msgstr "k0171 해당 콘테스틀르 추천 해제하시겠습니까?"
+
+#: View/Contests/admin_index.ctp:161
+msgid "Un-feature"
+msgstr "k0172 추천 해제"
+
+#: View/Contests/admin_index.ctp:163
+msgid "Are you sure you want to set feature this contest?"
+msgstr "k0173 해당 콘테스트를 추천하시겠습니까?"
+
+#: View/Contests/admin_index.ctp:183
+msgid "No contest found"
+msgstr "k0174 콘테스를 찾을 수 없습니다"
+
+#: View/Contests/browse.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Contests/browse.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:33
+#: View/Widgets/contest/browse.ctp:6
+msgid "Create New Contest"
+msgstr "k0175 새 톤테스트 추가"
+
+#: View/Contests/browse.ctp:17
+#: View/Elements/ajax/winning_entries.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Contests/browse.ctp:17
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:45
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/winning_entries.ctp:21
+msgid "No more results found"
+msgstr "k0176 결과를 찾을 수 없습니다"
+
+#: View/Contests/create.ctp:4
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:4
+msgid "Drag or click here to upload photo"
+msgstr "k0177 드래그 또는 여기를 클릭하여 사진 업로드"
+
+#: View/Contests/create.ctp:22
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:22
+msgid "Add new Contest"
+msgstr "k0178 새 콘테스트 추가"
+
+#: View/Contests/create.ctp:35
+msgid "Contest Type"
+msgstr "k0179 콘테스트 종류"
+
+#: View/Contests/create.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:35
+msgid "Photo Contest"
+msgstr "k0180 사진 콘테스트"
+
+#: View/Contests/create.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:35
+msgid "Music Contest"
+msgstr "k0181 임악 콘테스트"
+
+#: View/Contests/create.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:35
+msgid "Video Contest"
+msgstr "k0182 동영상 콘테스트"
+
+#: View/Contests/create.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:35
+msgid "Select contest type"
+msgstr "k0183 콘테스트 종류를 선택하십시요"
+
+#: View/Contests/create.ctp:47
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:40
+msgid "Select category"
+msgstr "k0184 카테고리를 선택하십시요"
+
+#: View/Contests/create.ctp:71
+#: View/Elements/ajax/contest_award.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:55
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:57
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:154
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_award.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:52
+msgid "Award"
+msgstr "k0185 보상"
+
+#: View/Contests/create.ctp:80
+#: View/Elements/ajax/contest_policy.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:60
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:63
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:159
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_policy.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:57
+msgid "Terms & Conditions"
+msgstr "k0186 이용 약관"
+
+#: View/Contests/create.ctp:89
+#: View/Elements/ajax/aj_fetch.ctp:10
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/aj_fetch.ctp:10
+msgid "Thumbnail"
+msgstr "k0187 썸네일"
+
+#: View/Contests/create.ctp:104
+#: View/Elements/ajax/contest_detail.ctp:16
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:81
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:16
+#: View/Widgets/contest/countdown.ctp:14
+msgid "Contest Duration"
+msgstr "k0188 콘테스트 기간"
+
+#: View/Contests/create.ctp:108;143;178
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:87;124;161
+msgid "Start"
+msgstr "k0189 시작"
+
+#: View/Contests/create.ctp:112;128;147;163;182;198
+msgid "Select date"
+msgstr "k0190 날짜를 선택해주십시요"
+
+#: View/Contests/create.ctp:116;132;151;167;186;202
+msgid "Select time"
+msgstr "k0191 시간을 선택해주십시요"
+
+#: View/Contests/create.ctp:124;159;194
+#: View/Contests/view.ctp:27
+#: View/Elements/blocks/countdown.ctp:4
+#: View/Helper/ContestHelper.php:626;650;674
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:104;141;178
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:187
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:4
+msgid "End"
+msgstr "k0192 종료"
+
+#: View/Contests/create.ctp:139
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:118
+msgid "Submit Entries Duration"
+msgstr "k0193 항목 기간을 제출하십시요"
+
+#: View/Contests/create.ctp:174
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:155
+msgid "Voting Duration"
+msgstr "k0194 투표 기간"
+
+#: View/Contests/create.ctp:210
+msgid "Timezone"
+msgstr "k0195 시간대"
+
+#: View/Contests/create.ctp:223
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:200
+msgid "Allow other members to vote for an entry without joining the contest"
+msgstr "k0196 콘테스트를 참여하지 않은 맴버들도 항목에 투표할 수 있도록 허용합니다"
+
+#: View/Contests/create.ctp:233
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:207
+msgid "Set entries automatically approved"
+msgstr "k0197 항목 자동 승인하도록 설정합니다"
+
+#: View/Contests/create.ctp:239
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:214
+msgid "Maximum entries a participant can submit"
+msgstr "k0198 참가자가 제출할 수 있는 최대 항목수"
+
+msgid "Maximum entries"
+msgstr "k0199 최대 항목수"
+
+#: View/Contests/create.ctp:243
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:216
+msgid "Set 0 for unlimited entries"
+msgstr "k0200 무제한의 경우 0을 입력하십시요"
+
+#: View/Contests/create.ctp:250
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:223
+msgid "Submit Entry Fee(Credit)"
+msgstr "k0201 참가비 (크레딧)"
+
+#: View/Contests/create.ctp:254
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:225
+msgid "Set 0 for free"
+msgstr "k0202 무료일 경우 0을 입력하십시요"
+
+#: View/Contests/create.ctp:260
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:230
+msgid "% credit for winner"
+msgstr "k0203 우승자에 대한 % 크레딧"
+
+#: View/Contests/create.ctp:264
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:234
+msgid "Commission credit fee for admin is %s"
+msgstr "k0204 관리자 수수료는 %s 입니다"
+
+#: View/Contests/create.ctp:275
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:243
+msgid "Tags"
+msgstr "k0205 태그"
+
+#: View/Contests/create.ctp:275
+msgid "Separated by commas or space"
+msgstr "k0206 쉼표 또는 공백으로 분류하십시요"
+
+#: View/Contests/create.ctp:284
+msgid "Privacy"
+msgstr "k0207 개인 정보"
+
+#: View/Contests/create.ctp:289
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:250
+msgid "Everyone"
+msgstr "k0208 모두에게"
+
+#: View/Contests/create.ctp:290
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:251
+msgid "Friends Only"
+msgstr "k0209 친구에게만"
+
+#: View/Contests/create.ctp:291
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:252
+msgid "Only Me"
+msgstr "k0210 나에게만"
+
+#: View/Contests/create.ctp:310
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:269
+msgid "Save as Draft"
+msgstr "k0211 임시저장"
+
+#: View/Contests/create.ctp:311
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:270
+msgid "Publish"
+msgstr "k0212 기재"
+
+#: View/Contests/create.ctp:320
+#: View/Themed/MooApp/Plugin/Contest/Contests/create.ctp:279
+msgid "* is required fields"
+msgstr "k0213 *로 표시된 부분은 필수 입력 사항입니다"
+
+#: View/Contests/edit_entry.ctp:9
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:9
+msgid "Edit entry of %s"
+msgstr "k0214 %s의 항목 수정"
+
+#: View/Contests/edit_entry.ctp:20
+#: View/Contests/select_photos.ctp:44
+#: View/Contests/select_videos.ctp:34
+#: View/Elements/ajax/aj_fetch.ctp:21
+#: View/Elements/ajax/submit_entry_music.ctp:44;60
+#: View/Elements/ajax/submit_entry_photo.ctp:41;59
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_photos.ctp:44
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_videos.ctp:34
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/aj_fetch.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:44;60
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:41;59
+msgid "Caption"
+msgstr "k0215 캡션"
+
+#: View/Contests/edit_entry.ctp:30
+#: View/Themed/MooApp/Plugin/Contest/Contests/edit_entry.ctp:30
+msgid "Cancel"
+msgstr "k0216 취소"
+
+#: View/Contests/entry.ctp:20;26
+#: View/Elements/lists/entries_list.ctp:54;60
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:43
+msgid "Un-vote"
+msgstr "k0217 투표 취소"
+
+#: View/Contests/entry.ctp:21;25;58
+#: View/Elements/ajax/entry_detail.ctp:8
+#: View/Elements/lists/entries_list.ctp:38;55;59;66
+#: View/Elements/lists/entries_list_m.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:47
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:8
+msgid "Vote"
+msgstr "k0218 투표"
+
+#: View/Contests/entry.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:20
+msgid "Edit Entry"
+msgstr "k0219 항묵 수정"
+
+#: View/Contests/entry.ctp:41
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:23
+msgid "Delete Entry"
+msgstr "k0220 항목 삭제"
+
+#: View/Contests/entry.ctp:45
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:27
+msgid "Approve Entry"
+msgstr "k0221 항목 승인"
+
+#: View/Contests/entry.ctp:48
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:30
+msgid "Set to win"
+msgstr "k0222 승리로 설정"
+
+#: View/Contests/entry.ctp:51
+#: View/Themed/MooApp/Plugin/Contest/Contests/entry.ctp:33
+msgid "Report Entry"
+msgstr "k0223 항목 신고"
+
+#: View/Contests/invite.ctp:13
+#: View/Contests/view.ctp:117;118;124
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:13
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:39;40;46
+msgid "Invite"
+msgstr "k0224 초대"
+
+#: View/Contests/invite.ctp:17
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:17
+msgid "Enter your friends' emails below (separated by commas). Limit 10 email addresses per request"
+msgstr "k0225 아래에 친구 이메일을 입력하십시요 (쉼표로 구분하십시요). 요청당 10개의 이메일 주소 제한"
+
+#: View/Contests/invite.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:25
+msgid "Emails"
+msgstr "k0226 이메일"
+
+#: View/Contests/invite.ctp:34
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:34
+msgid "Subject"
+msgstr "k0227 제목"
+
+#: View/Contests/invite.ctp:43
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:43
+msgid "Message"
+msgstr "k0228 관리"
+
+#: View/Contests/invite.ctp:55
+#: View/Themed/MooApp/Plugin/Contest/Contests/invite.ctp:55
+msgid "Send Message"
+msgstr "k0229 메세지 보내기"
+
+#: View/Contests/select_photos.ctp:46
+#: View/Contests/select_videos.ctp:36
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_photos.ctp:46
+#: View/Themed/MooApp/Plugin/Contest/Contests/select_videos.ctp:36
+msgid "Add to contest"
+msgstr "k0230 콘테스트에 추가"
+
+#: View/Contests/view.ctp:27
+#: View/Elements/blocks/countdown.ctp:13;25;37
+#: View/Helper/ContestHelper.php:620;644;668
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:187
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:13;25;37
+msgid "Coming"
+msgstr "k0231 오는"
+
+#: View/Contests/view.ctp:29;37
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:189;197
+msgid "Duration"
+msgstr "k0232 기간"
+
+#: View/Contests/view.ctp:46
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:198
+msgid "Submission"
+msgstr "k0233 제출"
+
+#: View/Contests/view.ctp:53
+#: View/Elements/ajax/contest_detail.ctp:30
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:199
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:30
+#: View/Widgets/contest/countdown.ctp:30
+msgid "Voting"
+msgstr "k0234 투표"
+
+#: View/Contests/view.ctp:75
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:82
+msgid "Leave"
+msgstr "k0235 떠나기"
+
+#: View/Contests/view.ctp:79;86
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:88;97
+msgid "Join"
+msgstr "k0236 가입"
+
+#: View/Contests/view.ctp:100;101
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:113;114
+msgid "Submit Entry"
+msgstr "k0237 항목 제출"
+
+#: View/Contests/view.ctp:129
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:51
+msgid "Publish Contest"
+msgstr "k0238 콘테스트 게시"
+
+#: View/Contests/view.ctp:136;139;141
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:58;61;63
+msgid "Delete Contest"
+msgstr "k0239 콘테스트 삭제"
+
+#: View/Contests/view.ctp:146
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:68
+msgid "Report Contest"
+msgstr "k0240 콘테스트 신고"
+
+#: View/Contests/view.ctp:156;162
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:232;238
+msgid "Loading..."
+msgstr "k0241 로딩중..."
+
+#: View/Elements/menu_welcome.ctp:1
+#: View/Widgets/contest/menu.ctp:9
+msgid "My Contests"
+msgstr "k0242 나의 콘테스트"
+
+#: View/Elements/activity/content/contest_create_share.ctp:25
+#: View/Elements/activity/share/contest_create.ctp:13
+#: View/Elements/activity/text/contest_create.ctp:2
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/content/contest_create_share.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/share/contest_create.ctp:13
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_create.ctp:2
+msgid "posted a new contest"
+msgstr "k0243 새 콘테스트 게시함"
+
+#: View/Elements/activity/content/contest_entry_create_share.ctp:25
+#: View/Elements/activity/share/contest_entry_create.ctp:13
+#: View/Elements/activity/text/contest_entry_create.ctp:4
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/content/contest_entry_create_share.ctp:25
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/share/contest_entry_create.ctp:13
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_create.ctp:4
+msgid "submitted a entry to"
+msgstr "k0244 항목을 제출했습니다"
+
+#: View/Elements/activity/text/contest_create_share.ctp:6
+#: View/Elements/activity/text/contest_entry_create_share.ctp:6
+#: View/Elements/activity/text/contest_entry_item_detail_share.ctp:5
+#: View/Elements/activity/text/contest_item_detail_share.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_create_share.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_create_share.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_item_detail_share.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_item_detail_share.ctp:5
+msgid "shared"
+msgstr "k0245 공유"
+
+#: View/Elements/activity/text/contest_create_share.ctp:15
+#: View/Elements/activity/text/contest_entry_create_share.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_create_share.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_create_share.ctp:15
+msgid "post"
+msgstr "k0246 게시"
+
+#: View/Elements/activity/text/contest_entry_item_detail_share.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_entry_item_detail_share.ctp:6
+msgid "entry"
+msgstr "k0247 항목"
+
+#: View/Elements/activity/text/contest_item_detail_share.ctp:6
+#: View/Themed/MooApp/Plugin/Contest/Elements/activity/text/contest_item_detail_share.ctp:6
+msgid "contest"
+msgstr "k0248 콘테스트"
+
+#: View/Elements/ajax/aj_fetch.ctp:33
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/aj_fetch.ctp:33
+msgid "Submit Video"
+msgstr "k0249 동영상 제출"
+
+#: View/Elements/ajax/contest_award.ctp:17;48
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_award.ctp:17;48
+msgid "Edit Award"
+msgstr "k0250 보상 편집"
+
+#: View/Elements/ajax/contest_candidate.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:65
+#: View/Elements/lists/contest_list_m.ctp:23
+#: View/Elements/lists/contests.ctp:48
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:149
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_candidate.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:62
+#: View/Widgets/contest/featured.ctp:52
+msgid "Candidates"
+msgstr "k0251 후보자"
+
+#: View/Elements/ajax/contest_detail.ctp:2
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:2
+msgid "Contest Information"
+msgstr "k0252 콘테스트 정보"
+
+#: View/Elements/ajax/contest_detail.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:5
+msgid "Posted by %s"
+msgstr "k0253 %s 님이 게시하였습니다"
+
+#: View/Elements/ajax/contest_detail.ctp:18;25;32
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:18;25;32
+msgid "Start Date: %s"
+msgstr "k0254 시작일: %s"
+
+#: View/Elements/ajax/contest_detail.ctp:19;26;33
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:19;26;33
+msgid "End Date: %s"
+msgstr "k0255 종료일: %s"
+
+#: View/Elements/ajax/contest_detail.ctp:23
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:23
+#: View/Widgets/contest/countdown.ctp:22
+#: View/Widgets/contest/featured.ctp:57
+msgid "Submit Entries"
+msgstr "k0256 항목 제출"
+
+#: View/Elements/ajax/contest_detail.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:38
+msgid "Submit entry fee"
+msgstr "k0257 참가비 제출"
+
+#: View/Elements/ajax/contest_detail.ctp:38
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:38
+msgid "%s Credit"
+msgstr "k0258 %s 크레딧"
+
+#: View/Elements/ajax/contest_detail.ctp:40
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:40
+msgid "Maximum entries a candidate can submit"
+msgstr "k0259 후보자가 제출할 수 있는 최대 항목"
+
+#: View/Elements/ajax/contest_detail.ctp:40
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_detail.ctp:40
+msgid "Unlimited"
+msgstr "k0260 무제한"
+
+#: View/Elements/ajax/contest_entries.ctp:20
+#: View/Elements/ajax/my_entries.ctp:19
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:19
+msgid "Approved Entries"
+msgstr "k0261 승인된 항목"
+
+#: View/Elements/ajax/contest_entries.ctp:21
+#: View/Elements/ajax/my_entries.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:20
+msgid "Pending Entries"
+msgstr "k0262 대기중인 항목"
+
+#: View/Elements/ajax/contest_entries.ctp:33
+#: View/Elements/ajax/my_entries.ctp:31
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_entries.ctp:34
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:32
+msgid "With selected..."
+msgstr "k0263 선택된..."
+
+#: View/Elements/ajax/contest_policy.ctp:17;48
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/contest_policy.ctp:17;48
+msgid "Edit Terms & Conditions"
+msgstr "k0264 이용약관 편집"
+
+#: View/Elements/ajax/entry_detail.ctp:8
+#: View/Elements/lists/entries_list.ctp:38
+#: View/Elements/lists/entries_list_m.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:8
+msgid "People Who Vote This"
+msgstr "k0265 투표한 회원"
+
+#: View/Elements/ajax/entry_detail.ctp:8
+#: View/Elements/lists/entries_list.ctp:38
+#: View/Elements/lists/entries_list_m.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:8
+msgid "Votes"
+msgstr "k0266 투표"
+
+#: View/Elements/ajax/entry_detail.ctp:18;20
+#: View/Elements/lists/entries_list.ctp:41
+#: View/Elements/lists/entries_list_m.ctp:24
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:18;20
+msgid "Views"
+msgstr "k0267 조회수"
+
+#: View/Elements/ajax/entry_detail.ctp:18;20
+#: View/Elements/lists/entries_list.ctp:41
+#: View/Elements/lists/entries_list_m.ctp:24
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:18;20
+msgid "View"
+msgstr "k0268 보기"
+
+#: View/Elements/ajax/entry_detail.ctp:51;53
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:51;53
+msgid "Previous Entry"
+msgstr "k0269 이전 항목"
+
+#: View/Elements/ajax/entry_detail.ctp:56;58
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/entry_detail.ctp:56;58
+msgid "Next Entry"
+msgstr "k0270 다음 항목"
+
+#: View/Elements/ajax/home_contest.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/home_contest.ctp:15
+msgid "My Posted Contests"
+msgstr "k0271 내가 게시한 콘테스트"
+
+#: View/Elements/ajax/home_contest.ctp:16
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/home_contest.ctp:16
+#: View/Widgets/contest/menu.ctp:10
+msgid "My Joined Contests"
+msgstr "k0272 내가 참여한 콘테스트"
+
+#: View/Elements/ajax/my_entries.ctp:14
+#: View/Elements/blocks/cover_menu.ctp:44
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:133
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/my_entries.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:41
+msgid "My Entries"
+msgstr "k0273 나의 항목"
+
+#: View/Elements/ajax/profile_contest.ctp:5
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/profile_contest.ctp:5
+msgid "Create a new contest"
+msgstr "k0274 새 콘테스트 생성"
+
+#: View/Elements/ajax/submit_entry_music.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:15
+msgid "Music Submission"
+msgstr "k0275 음악 제출"
+
+#: View/Elements/ajax/submit_entry_music.ctp:22
+#: View/Elements/ajax/submit_entry_photo.ctp:22
+#: View/Elements/ajax/submit_entry_video.ctp:27
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:22
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:22
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:27
+msgid "Entry Submission Fee: %s credit(s)"
+msgstr "k0276 참가비: %s 크레딧"
+
+#: View/Elements/ajax/submit_entry_music.ctp:32
+#: View/Elements/ajax/submit_entry_photo.ctp:32
+#: View/Elements/ajax/submit_entry_video.ctp:37
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:32
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:32
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:37
+msgid "Your current credit balance: %s not enough to submit entry on this contest, please check your credits balance"
+msgstr "k0277 현재 크레딧 잔액: %s. 해당 콘테스트에 참가하기엔 부족합니다. 크레딧 잔액을 확인하십시요"
+
+#: View/Elements/ajax/submit_entry_music.ctp:45;61
+#: View/Elements/ajax/submit_entry_photo.ctp:42;60
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_music.ctp:45;61
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:42;60
+msgid "Continue"
+msgstr "k0278 계속하기"
+
+#: View/Elements/ajax/submit_entry_photo.ctp:15
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:15
+msgid "Photo Submission"
+msgstr "k0279 사진 제출"
+
+#: View/Elements/ajax/submit_entry_photo.ctp:47;65
+#: View/Elements/ajax/submit_entry_video.ctp:81;128
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:47;65
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:81;128
+msgid "Or"
+msgstr "k0280 또는"
+
+#: View/Elements/ajax/submit_entry_photo.ctp:47;65
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_photo.ctp:47;65
+msgid "Select your photos"
+msgstr "k0281 사진을 선택하십시요"
+
+#: View/Elements/ajax/submit_entry_video.ctp:19
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:19
+msgid "Video Submission"
+msgstr "k0282 동영상 제출"
+
+#: View/Elements/ajax/submit_entry_video.ctp:42;89
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:42;89
+msgid "Copy and paste the video url in the text field below"
+msgstr "k0283 아래 텍스트 입력란에 동영상 URL을 복사하여 붙여 넣으십시요"
+
+#: View/Elements/ajax/submit_entry_video.ctp:50;97
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:50;97
+msgid "YouTube"
+msgstr "k0284 유튜브"
+
+#: View/Elements/ajax/submit_entry_video.ctp:50;97
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:50;97
+msgid "Vimeo"
+msgstr "k0285 Vimeo"
+
+#: View/Elements/ajax/submit_entry_video.ctp:58;105
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:58;105
+msgid "URL"
+msgstr "k0286 URL"
+
+#: View/Elements/ajax/submit_entry_video.ctp:69;116
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:69;116
+msgid "Fetch Video"
+msgstr "k0287 동영상 가져오기"
+
+#: View/Elements/ajax/submit_entry_video.ctp:81;128
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/submit_entry_video.ctp:81;128
+msgid "Select your videos"
+msgstr "k0288 동영상을 선택하십시요"
+
+#: View/Elements/ajax/user_votes.ctp:18
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/user_votes.ctp:18
+msgid "%s Peoples Vote This"
+msgstr "k0289 %s 회원이 투표했습니다"
+
+#: View/Elements/ajax/user_votes.ctp:20
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/user_votes.ctp:20
+msgid "%s People Vote This"
+msgstr "k0290 %s 회원이 투표했습니다"
+
+#: View/Elements/ajax/winning_entries.ctp:14
+#: View/Themed/MooApp/Plugin/Contest/Elements/ajax/winning_entries.ctp:14
+msgid "Winning Etries"
+msgstr "k0291 우승 항목"
+
+#: View/Elements/blocks/countdown.ctp:16
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:16
+msgid "Contest will be started in"
+msgstr "k0292 콘테스트가 시작됩니다"
+
+#: View/Elements/blocks/countdown.ctp:18;30;42
+#: View/Helper/ContestHelper.php:623;647;671
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:18;30;42
+msgid "On Going"
+msgstr "k0293 계속해서"
+
+#: View/Elements/blocks/countdown.ctp:21
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:21
+msgid "Contest will be finished in"
+msgstr "k0294 콘테스트가 끝납니다"
+
+#: View/Elements/blocks/countdown.ctp:28
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:28
+msgid "Submission will be started in"
+msgstr "k0295 제출이 시작됩니다"
+
+#: View/Elements/blocks/countdown.ctp:33
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:33
+msgid "Submission will be finished in"
+msgstr "k0296 제출이 끝납니다"
+
+#: View/Elements/blocks/countdown.ctp:40
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:40
+msgid "Voting will be started in"
+msgstr "k0297 투표가 시작됩니다"
+
+#: View/Elements/blocks/countdown.ctp:45
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/countdown.ctp:45
+msgid "Voting will be finished in"
+msgstr "k0298 투표가 마감됩니다"
+
+#: View/Elements/blocks/cover_menu.ctp:50
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:139
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:47
+msgid "Detail"
+msgstr "k0299 명세"
+
+#: View/Elements/blocks/cover_menu.ctp:71
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:165
+#: View/Themed/MooApp/Plugin/Contest/Elements/blocks/cover_menu.ctp:68
+msgid "Winning Entries"
+msgstr "k0300 우승 항목"
+
+#: View/Elements/blocks/credit_highlight.ctp:4
+msgid "Join to win %s credits"
+msgstr "k0301 참가하여 %s 크레딧을 획득하십시요"
+
+#: View/Elements/blocks/music_player.ctp:34
+msgid "play"
+msgstr "k0302 진행"
+
+#: View/Elements/blocks/music_player.ctp:38
+msgid "mute"
+msgstr "k0303 음소거"
+
+#: View/Elements/blocks/music_player.ctp:39
+msgid "max volume"
+msgstr "k0304 최대 볼륨"
+
+#: View/Elements/blocks/music_player.ctp:50
+msgid "repeat"
+msgstr "k0305 반복"
+
+#: View/Elements/lists/candidate_list.ctp:23
+#: View/Elements/lists/contests.ctp:87
+#: View/Elements/lists/entries_list.ctp:78
+msgid "No results found"
+msgstr "k0306 결과를 찾을 수 없습니다"
+
+#: View/Elements/lists/contest_list_m.ctp:42
+#: View/Elements/lists/contests.ctp:65
+msgid "by"
+msgstr "k0307 으로"
+
+#: View/Elements/lists/entries_list.ctp:47
+msgid "By"
+msgstr "k0308 으로"
+
+#: View/Elements/log_text/contest.ctp:4
+msgid "deleted"
+msgstr "k0309 삭제되었습니다"
+
+#: View/Elements/log_text/contest.ctp:7
+msgid "Published contest %s"
+msgstr "k0310 게시된 콘테스트 %s"
+
+#: View/Elements/notification/approved.ctp:2
+msgid "congrats, your contest has been approved"
+msgstr "k0311 축하합니다. 회원님의 콘테스트가 승인되었습니다"
+
+#: View/Elements/notification/contest_join.ctp:4
+msgid "joined your contest"
+msgstr "k0312 회원님의 콘테스트에 참가하였습니다"
+
+#: View/Elements/notification/delete_entry.ctp:5
+msgid "delete your entry on contest"
+msgstr "k0313 콘테스트에 회원님의 항목을 삭제합니다"
+
+#: View/Elements/notification/entry_approved.ctp:2
+msgid "congrats, your submitted entry has been approved"
+msgstr "k0314 축하합니다. 제출하신 항목이 승인되었습니다"
+
+#: View/Elements/notification/entry_win.ctp:5
+msgid "congrats, you have won the"
+msgstr "k0315 축하합니다. 승리하였습니다"
+
+#: View/Elements/notification/owner_entry_win.ctp:2
+msgid "congrats, contest has been closed. Please review it."
+msgstr "k0316 축하합니다. 콘테스트가 닫혔습니다. 검토해주십시요"
+
+#: View/Elements/notification/pending.ctp:2
+msgid "Sorry, your contest has been pending"
+msgstr "k0317 죄송합니다. 회원님의 콘테스트는 승인 대기중입니다"
+
+#: View/Elements/notification/request_approve.ctp:2
+msgid "added a new contest. Please review and approve."
+msgstr "k0318 새 콘테스트를 추가하였습니다. 검토후 승인해주십시요"
+
+#: View/Elements/notification/request_approve_entry.ctp:2
+msgid "added a new entry. Please review and approve."
+msgstr "k0319 새 항목를 추가하였습니다. 검토후 승인해주십시요"
+
+#: View/Elements/notification/request_delete.ctp:2
+msgid "requested delete a contest. Please review and delete."
+msgstr "k0320 콘테스트 삭제 요청을 하였습니다. 검토후 삭제해주십시요"
+
+#: View/Elements/notification/submit_entry.ctp:5
+msgid "submitted a entry to contest"
+msgstr "k0321 콘테스트에 항목을 제출하였습니다"
+
+#: View/Helper/ContestHelper.php:335;346
+msgid "Pending approval"
+msgstr "k0322 승인 대기중"
+
+#: View/Helper/ContestHelper.php:704
+msgid "%s years left"
+msgstr "k0323 %s년 남음"
+
+#: View/Helper/ContestHelper.php:707
+msgid "%s months left"
+msgstr "k0324 %s개월 나음"
+
+#: View/Helper/ContestHelper.php:710
+msgid "%s days left"
+msgstr "k0325 %s일 남음"
+
+#: View/Helper/ContestHelper.php:713
+msgid "%s hours left"
+msgstr "k0326 %s시간 남음"
+
+#: View/Helper/ContestHelper.php:716
+msgid "%s minutes left"
+msgstr "k0327 %분 남음"
+
+#: View/Helper/ContestHelper.php:719
+msgid "%s seconds left"
+msgstr "k0328 %s초 남음"
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:10
+msgid "Ongoing"
+msgstr "k0329 계속해서"
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:11
+msgid "Upcoming"
+msgstr "k0330 다가오는"
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:14
+msgid "Posted Contests"
+msgstr "k0331 콘테스트를 게시하였습니다"
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:15
+msgid "Joined Contests"
+msgstr "k0332 콘테스트에 참여하였습니다"
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:23
+msgid "All Categories"
+msgstr "k0333 모든 카테고리"
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/index.ctp:38
+#: View/Widgets/contest/menu.ctp:43
+msgid "Enter keyword to search"
+msgstr "k0334 검색하려면 키워드를 입력하십시요"
+
+#: View/Themed/MooApp/Plugin/Contest/Contests/view.ctp:144
+msgid "More"
+msgstr "k0335 더보기"
+
+#: View/Widgets/contest/featured.ctp:37
+msgid "Start Contest On: %s"
+msgstr "k0336 콘테스트 시작: %s"
+
+#: View/Widgets/contest/featured.ctp:39
+msgid "End Contest On: %s"
+msgstr "k0337 콘테스트 종료: %s"
+
+#: View/Widgets/contest/featured.ctp:76
+msgid "Previous"
+msgstr "k0338 이전의"
+
+#: View/Widgets/contest/menu.ctp:4
+msgid "Ongoing Contests"
+msgstr "k0339 계속 진행되는 콘테스트"
+
+#: View/Widgets/contest/menu.ctp:5
+msgid "Upcoming Contests"
+msgstr "k0340 다가오는 콘테스트"
+
+#: View/Widgets/contest/menu.ctp:6
+msgid "Closed Contests"
+msgstr "k0341 종료한 콘테스트"
+
+#: View/Widgets/contest/winner.ctp:36
+msgid "No winning entries"
+msgstr "k0342 당첨자가 없습니다"
+
+#: Model/Contest.php:validation for field type
+msgid "Contest Type is required"
+msgstr "k0343 콘테스트 종류는 필수입니다"
+
+#: Model/Contest.php:validation for field category_id
+msgid "Category is required"
+msgstr "k0344 카테고리는 필수입니다"
+
+#: Model/Contest.php:validation for field name
+msgid "Contest Name is required"
+msgstr "k0345 콘테스트 이름은 필수입니다"
+
+#: Model/Contest.php:validation for field description
+msgid "Description is required"
+msgstr "k0346 명세는 필수입니다"
+
+#: Model/Contest.php:validation for field award
+msgid "Award is required"
+msgstr "k0347 보상은 필수입니다"
+
+#: Model/Contest.php:validation for field term_and_condition
+msgid "Terms & Conditions is required"
+msgstr "k0348 이용약관은 필수입니다"
+
+#: Model/Contest.php:validation for field from
+msgid "Contest Duration: Start is required"
+msgstr "k0349 콘테스트 기간: 시작일은 필수입니다"
+
+#: Model/Contest.php:validation for field from_time
+msgid "Contest Duration Start: Please select time"
+msgstr "k0350 콘테스트 기간 시작일: 시간을 선택하십시요"
+
+#: Model/Contest.php:validation for field duration_start;validation for field duration_end
+msgid "Contest Duration is required, Please select date and time."
+msgstr "k0351 콘테스트 기간은 필수입니다. 날짜와 시간을 선택하십시요"
+
+#: Model/Contest.php:validation for field to
+msgid "Contest Duration: End is required"
+msgstr "k0352 콘테스트 기간: 종료일은 필수입니다"
+
+#: Model/Contest.php:validation for field to_time
+msgid "Contest Duration End: Please select time"
+msgstr "k0353 콘테스트 기간 종료일: 시간을 선택하십시요"
+
+#: Model/Contest.php:validation for field s_from
+msgid "Submit Entries Duration: Start is required"
+msgstr "k0354 항목 제출 기간: 시작일은 필수입니다"
+
+#: Model/Contest.php:validation for field s_from_time
+msgid "Submit Entries Duration Start: Please select time"
+msgstr "k0355 항목 제출 기간 시작일: 시간을 선택하십시요"
+
+#: Model/Contest.php:validation for field submission_start
+msgid "Submit Entries Duration is required, Please select date and time."
+msgstr "k0356 항목 제출 기간은 필수입니다. 날짜와 시간을 선택해주십시요"
+
+#: Model/Contest.php:validation for field submission_start
+msgid "Start of Submit Entries Duration must be greater than or equal to the Start of Contest Duration."
+msgstr "k0357 항목 제출 시작일은 콘테스트 시작일과 같거나 이후여야 합니다"
+
+#: Model/Contest.php:validation for field s_to
+msgid "Submit Entries Duration: End is required"
+msgstr "k0358 항목 제출 기간: 종료일은 필수입니다"
+
+#: Model/Contest.php:validation for field s_to_time
+msgid "Submit Entries Duration End: Please select time"
+msgstr "k0359 항목 제출 종료일: 시간을 선택해주십시요"
+
+#: Model/Contest.php:validation for field submission_end
+msgid "Submit Entries Duration: End is required, Please select date and time."
+msgstr "k0360 항목 제출 기간: 종료일은 필수입낟. 날짜와 시간을 선택해주십시요"
+
+#: Model/Contest.php:validation for field v_from
+msgid "Voting Duration: Start is required"
+msgstr "k0361 투표 기간: 시작일은 필수입니다"
+
+#: Model/Contest.php:validation for field v_from_time
+msgid "Voting Duration Start: Please select time"
+msgstr "k0362 투표 기간 시작일: 시간을 선택해주십시요"
+
+#: Model/Contest.php:validation for field voting_start
+msgid "Voting Duration: Start is required, Please select date and time."
+msgstr "k0363 투표 기간: 시작일은 필수입니다. 날짜와 시간을 선택해주십시요"
+
+#: Model/Contest.php:validation for field voting_start
+msgid "Start of Voting Duration must be greater than or equal to the Start of Submit Entries Duration."
+msgstr "k0364 투표 시작 시간은 제출 시간보다 길거나 같아야합니다"
+
+#: Model/Contest.php:validation for field v_to
+msgid "Voting Duration: End is required"
+msgstr "k0365 투표 기간: 종료일은 필수입니다"
+
+#: Model/Contest.php:validation for field v_to_time
+msgid "Voting Duration End: Please select time"
+msgstr "k0366 투표 기간 종료일: 시간을 선택하십시요"
+
+#: Model/Contest.php:validation for field voting_end
+msgid "Voting Duration: End is required, Please select date and time."
+msgstr "k0367 투표 기간: 종료일은 필수입니다. 날짜와 시간을 선택하십시요"
+
+#: Model/Contest.php:validation for field maximum_entry
+msgid "Maximum entries a participant can submit is required"
+msgstr "k0368 참가자가 제출할 수 있는 최대 항목 수는 필수입니다"
+
+#: Model/Contest.php:validation for field submit_entry_fee
+msgid "Submit Entry Fee is required, Please enter decimal number."
+msgstr "k0369 참가비는 필수입니다. 소수점 숫자를 입력하십시요"
+
+#: Model/Contest.php:validation for field submit_entry_fee
+msgid "Submit Entry Fee is required"
+msgstr "k0370 참가비는 필수입니다"
+
+#: Model/Contest.php:validation for field win_percent
+msgid "% credit for winner is required, Please enter decimal number."
+msgstr "k0371 우승자에게는 % 크레딧이 필요합니다. 소수점 숫자를 입력하십시요"
+
+#: Model/Contest.php:validation for field win_percent
+msgid "% credit for winner is required"
+msgstr "k0372 우승자에게는 % 크레딧이 필요합니다"
+
+#: Model/Contest.php:validation for field tags
+msgid "No special characters ( /,?,#,%,...) allowed in Tags"
+msgstr "k0373 태그에는 특수문자를 사용할 수 없습니다 (/, ?, #, %, ...)"
+
+msgid "By pass force login"
+msgstr "k0374 강제로그인 우회"
+
+msgid "shared %s's contest"
+msgstr "k0375 %s의 콘테스트 공유"
+
+msgid "shared %s's entry"
+msgstr "k0376 %s의 항목 공유"

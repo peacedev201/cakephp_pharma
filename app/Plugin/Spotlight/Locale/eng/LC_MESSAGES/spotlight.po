@@ -1,0 +1,356 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: SpotlightPlugin.php:19
+#: View/Spotlights/admin_index.ctp:3;25
+msgid "Spotlight Users"
+msgstr ""
+
+#: SpotlightPlugin.php:20
+#: View/SpotlightAddUsers/admin_index.ctp:3;12
+msgid "Spotlight Add Users"
+msgstr ""
+
+#: SpotlightPlugin.php:21
+msgid "Settings"
+msgstr ""
+
+#: SpotlightPlugin.php:22
+#: View/SpotlightTransactions/admin_index.ctp:27
+msgid "Manage Transactions"
+msgstr ""
+
+#: Controller/SpotlightAddUsersController.php:27
+msgid "Spotlight Add User"
+msgstr ""
+
+#: Controller/SpotlightAddUsersController.php:63
+msgid "User has been successfully added to Spotlight"
+msgstr ""
+
+#: Controller/SpotlightSettingsController.php:32
+msgid "Spotlight Setting"
+msgstr ""
+
+#: Controller/SpotlightTransactionsController.php:72
+#: View/SpotlightTransactions/admin_index.ctp:38
+msgid "Credit"
+msgstr ""
+
+#: Controller/SpotlightTransactionsController.php:78
+msgid "Manage Spotlight Transactions"
+msgstr ""
+
+#: Controller/SpotlightsController.php:24
+msgid "Spotlight User"
+msgstr ""
+
+#: Controller/SpotlightsController.php:39;53
+msgid "This user does not exist"
+msgstr ""
+
+#: Controller/SpotlightsController.php:45
+msgid "Successfully updated"
+msgstr ""
+
+#: Controller/SpotlightsController.php:59
+msgid "Users has been successfully remove from Spotlight"
+msgstr ""
+
+#: Controller/SpotlightsController.php:75
+msgid "Users have been successfully removed from Spotlight"
+msgstr ""
+
+#: Controller/SpotlightsController.php:77
+msgid "Please select users you want to remove"
+msgstr ""
+
+#: Controller/SpotlightsController.php:97
+msgid "Order saved"
+msgstr ""
+
+#: Controller/SpotlightsController.php:204;291
+msgid "You has been joined spotlight"
+msgstr ""
+
+#: Controller/SpotlightsController.php:296
+msgid "Your payment has been canceled"
+msgstr ""
+
+#: Controller/SpotlightsController.php:424
+msgid "Buy successfully!"
+msgstr ""
+
+#: Controller/SpotlightsController.php:427
+msgid "Buy unsuccessful!"
+msgstr ""
+
+#: Model/SpotlightUser.php:78
+msgid "join spotlight"
+msgstr ""
+
+#: View/Elements/log_text/join_spotlight.ctp:2
+msgid "Joined spotlight"
+msgstr ""
+
+#: View/Elements/notification/join_spotlight.ctp:7
+msgid " congrats, now you're in the spotlight in %s day(s)"
+msgstr ""
+
+#: View/Helper/SpotlightHelper.php:21
+msgid "Payment spotlight"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:22
+#: View/Spotlights/admin_index.ctp:47
+msgid "Search by name or email"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:35
+#: View/Spotlights/admin_index.ctp:64
+msgid "ID"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:38
+#: View/Spotlights/admin_index.ctp:67
+msgid "Name"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:41
+#: View/Spotlights/admin_index.ctp:70
+msgid "Email"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:44
+#: View/Spotlights/admin_index.ctp:73
+msgid "Role"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:47
+#: View/Spotlights/admin_index.ctp:85
+msgid "Active"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:50
+#: View/Spotlights/admin_index.ctp:88
+msgid "Action"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:64
+#: View/SpotlightSettings/admin_credit_integration.ctp:32
+msgid "Yes"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:64
+#: View/SpotlightSettings/admin_credit_integration.ctp:32
+msgid "No"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:65
+msgid "You are sure you want to add user %s to Spotlight?"
+msgstr ""
+
+#: View/SpotlightAddUsers/admin_index.ctp:65
+msgid "Add"
+msgstr ""
+
+#: View/SpotlightSettings/admin_credit_integration.ctp:3;11
+msgid "Credits Integration"
+msgstr ""
+
+#: View/SpotlightSettings/admin_credit_integration.ctp:21
+msgid "You need to install credit plugin first. Please purchase credits plugin at"
+msgstr ""
+
+#: View/SpotlightSettings/admin_credit_integration.ctp:28
+msgid "Integrate with credits system"
+msgstr ""
+
+#: View/SpotlightSettings/admin_credit_integration.ctp:39
+msgid "Save Changes"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:6
+msgid "Transaction Manager"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:31;53
+msgid "User"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:34;54
+msgid "Type"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:37
+msgid "Paypal"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:40
+msgid "Date from"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:42
+msgid "Date to"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:46
+msgid "Search"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:55
+msgid "Status"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:56
+msgid "Date"
+msgstr ""
+
+#: View/SpotlightTransactions/admin_index.ctp:76
+msgid "No transaction found"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:32
+msgid "Are you sure you want to remove these users from Spotlight."
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:33
+msgid "Remove"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:38
+msgid "Save order"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:76
+msgid "Registry Time"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:79
+msgid "End Time"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:82
+msgid "Order"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:110
+msgid "You are sure inactive user %s ?"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:110
+msgid "Disable"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:112
+msgid "You are sure active user %s ?"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:112
+msgid "Enable"
+msgstr ""
+
+#: View/Spotlights/admin_index.ctp:115
+msgid "You are sure remove user %s from Spotlight?"
+msgstr ""
+
+#: View/Spotlights/cancel.ctp:3
+msgid "Spotlight payment has been canceled"
+msgstr ""
+
+#: View/Spotlights/credit_fail.ctp:3
+msgid "Spotlight payment has been failure, please check your credit point."
+msgstr ""
+
+#: View/Spotlights/credit_success.ctp:3
+msgid "Payment is completed. Please check profile on Spotlight."
+msgstr ""
+
+#: View/Spotlights/register_form.ctp:4
+msgid "Spotlight Register Form"
+msgstr ""
+
+#: View/Spotlights/register_form.ctp:10
+msgid "Your profile display in Spotlight %s days."
+msgstr ""
+
+#: View/Spotlights/register_form.ctp:17;35
+msgid "PayPal"
+msgstr ""
+
+#: View/Spotlights/register_form.ctp:18;36
+msgid "Payment spotlight - %s %s"
+msgstr ""
+
+#: View/Spotlights/register_form.ctp:22
+msgid "Pay with PayPal"
+msgstr ""
+
+#: View/Spotlights/register_form.ctp:26
+msgid "Join Spotlight"
+msgstr ""
+
+#: View/Spotlights/register_form.ctp:39
+msgid "Join Free"
+msgstr ""
+
+#: View/Spotlights/register_form.ctp:55
+msgid "Pay with %s"
+msgstr ""
+
+#: View/Spotlights/success.ctp:3
+msgid "Payment is processing. Please check profile on Spotlight."
+msgstr ""
+
+#: View/Widgets/spotlights/top.ctp:5
+msgid "Spotlight"
+msgstr ""
+
+#: View/Widgets/spotlights/top.ctp:23
+msgid "Put me here!"
+msgstr ""
+
+msgid "Spotlight Enable"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Period"
+msgstr ""
+
+msgid "Paypal Email"
+msgstr ""
+
+msgid "Test mode"
+msgstr ""
+
+msgid "How members will appear in Spotlight"
+msgstr ""
+
+msgid "First in - first out"
+msgstr ""
+
+msgid "Randomly"
+msgstr ""
+
+msgid "Can't make payment now, please contact admin for more details."
+msgstr ""
+
+msgid "How much does user pay for each Spotlight subscription ?"
+msgstr ""
+
+msgid "What is the duration of each Spotlight subscription (days) ?"
+msgstr ""

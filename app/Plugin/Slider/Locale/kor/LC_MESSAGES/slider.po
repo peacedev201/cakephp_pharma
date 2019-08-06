@@ -1,0 +1,578 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "W0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: SliderPlugin.php:10
+#: View/Slide/admin_create.ctp:20
+#: View/Slide/admin_index.ctp:14
+#: View/Sliders/admin_create.ctp:15
+#: View/Sliders/admin_index.ctp:11
+msgid "Slider"
+msgstr "W0002슬라이드 쇼"
+
+#: SliderPlugin.php:11
+#: View/SliderSettings/admin_index.ctp:10
+msgid "Settings"
+msgstr "W0003설정"
+
+#: Controller/SlideController.php:35
+msgid "Slideshows Manager"
+msgstr "W0004슬라이드쇼 관리자"
+
+#: Controller/SlideController.php:88
+msgid "Please upload image size %s x %s"
+msgstr "W0005사진 크기를 업로드해주십시요 %s x %s"
+
+#: Controller/SlideController.php:100
+msgid "Slide has been successfully saved"
+msgstr "W0006슬라이드가 저장되었습니다."
+
+#: Controller/SlideController.php:117
+msgid "Slide has been deleted"
+msgstr "W0007슬라이드가 삭제되었습니다."
+
+#: Controller/SliderSettingsController.php:17
+#: View/SliderSettings/admin_index.ctp:5
+msgid "Slideshows Settings"
+msgstr "W0008슬라이드쇼 설정"
+
+#: Controller/SlidersController.php:18
+#: View/Slide/admin_create.ctp:5
+#: View/Slide/admin_index.ctp:5
+#: View/Sliders/admin_create.ctp:5
+#: View/Sliders/admin_index.ctp:5
+msgid "Slider Manager"
+msgstr "W0009슬라이드쇼 관리자"
+
+#: Controller/SlidersController.php:32
+msgid "out-center-bottom"
+msgstr "W0010중앙 하단"
+
+#: Controller/SlidersController.php:33
+msgid "out-left-bottom"
+msgstr "W0011왼쪽 하단"
+
+#: Controller/SlidersController.php:34
+msgid "out-right-bottom"
+msgstr "W0012오른쪽 하단"
+
+#: Controller/SlidersController.php:35
+msgid "out-center-top"
+msgstr "W0013중앙 상단"
+
+#: Controller/SlidersController.php:36
+msgid "out-left-top"
+msgstr "W0014왼쪽 상단"
+
+#: Controller/SlidersController.php:37
+msgid "out-right-top"
+msgstr "W0015오른쪽 상단"
+
+#: Controller/SlidersController.php:38
+msgid "in-center-bottom"
+msgstr "W0016중앙 하단"
+
+#: Controller/SlidersController.php:39
+msgid "in-right-bottom"
+msgstr "W0017오른쪽 하단"
+
+#: Controller/SlidersController.php:40
+msgid "in-center-top"
+msgstr "W0018중앙 상단"
+
+#: Controller/SlidersController.php:41
+msgid "in-left-top"
+msgstr "W0019왼쪽 상단"
+
+#: Controller/SlidersController.php:42
+msgid "in-left-middle"
+msgstr "W0020왼쪽 중간"
+
+#: Controller/SlidersController.php:43
+msgid "in-right-middle"
+msgstr "W0021오른쪽 중간"
+
+#: Controller/SlidersController.php:46
+msgid "left-right"
+msgstr "W0022왼쪽-오른쪽"
+
+#: Controller/SlidersController.php:47
+msgid "top-center"
+msgstr "W0023중앙 상단"
+
+#: Controller/SlidersController.php:48
+msgid "bottom-center"
+msgstr "W0024중앙 하단"
+
+#: Controller/SlidersController.php:49
+msgid "top-left"
+msgstr "W0025왼쪽 상단"
+
+#: Controller/SlidersController.php:50
+msgid "top-right"
+msgstr "W0026오른쪽 상단"
+
+#: Controller/SlidersController.php:51
+msgid "bottom-left"
+msgstr "W0027왼쪽 하단"
+
+#: Controller/SlidersController.php:52
+msgid "bottom-right"
+msgstr "W0028오른쪽 하단"
+
+#: Controller/SlidersController.php:55
+msgid "number"
+msgstr "W0029숫자"
+
+#: Controller/SlidersController.php:56
+msgid "circle"
+msgstr "W0030원"
+
+#: Controller/SlidersController.php:57
+msgid "square"
+msgstr "W0031사각형"
+
+#: Controller/SlidersController.php:60
+msgid "random"
+msgstr "W0032무작위"
+
+#: Controller/SlidersController.php:61
+msgid "slide-left"
+msgstr "W0033왼쪽으로 이동"
+
+#: Controller/SlidersController.php:62
+msgid "slide-right"
+msgstr "W0034오른쪽으로 이동"
+
+#: Controller/SlidersController.php:63
+msgid "slide-top"
+msgstr "W0035위쪽으로 이동"
+
+#: Controller/SlidersController.php:64
+msgid "slide-bottom"
+msgstr "W0036아래쪽으로 이동"
+
+#: Controller/SlidersController.php:65
+msgid "fade"
+msgstr "W0037희미해지게"
+
+#: Controller/SlidersController.php:66
+msgid "split"
+msgstr "W0038쪼개다"
+
+#: Controller/SlidersController.php:67
+msgid "split3d"
+msgstr "W0039 3D로 쪼개다"
+
+#: Controller/SlidersController.php:68
+msgid "door"
+msgstr "W0040문"
+
+#: Controller/SlidersController.php:69
+msgid "wave-left"
+msgstr "W0041"
+
+#: Controller/SlidersController.php:70
+msgid "wave-right"
+msgstr "W0042wave-right"
+
+#: Controller/SlidersController.php:71
+msgid "wave-top"
+msgstr "W0043wave-top"
+
+#: Controller/SlidersController.php:72
+msgid "wave-bottom"
+msgstr "W0044wave-bottom"
+
+#: Controller/SlidersController.php:115
+msgid "Slider has been successfully saved"
+msgstr "W0045슬라이드쇼가 저장되었습니다."
+
+#: Controller/SlidersController.php:169
+msgid "Slider has been deleted"
+msgstr "W0046슬라이드쇼가 삭제되었습니다."
+
+#: View/Slide/admin_create.ctp:4
+#: View/Slide/admin_index.ctp:4
+#: View/SliderSettings/admin_index.ctp:4
+#: View/Sliders/admin_create.ctp:4
+#: View/Sliders/admin_index.ctp:4
+msgid "Plugins Manager"
+msgstr "W0047플러그인 관리자"
+
+#: View/Slide/admin_create.ctp:6;22
+msgid "Add New Slide"
+msgstr "W0048 새 슬라이드 추가"
+
+#: View/Slide/admin_create.ctp:32
+msgid "Slide caption heading"
+msgstr "W0049 슬라이드 캡션 제목"
+
+#: View/Slide/admin_create.ctp:34
+#: View/Sliders/admin_create.ctp:27;93;140;159;170;184;214
+msgid "Enter text"
+msgstr "W0050텍스트 입력"
+
+#: View/Slide/admin_create.ctp:38
+msgid "Caption heading font size"
+msgstr "W0051 캡션 제목 글꼴 크기"
+
+#: View/Slide/admin_create.ctp:40;67
+#: View/Sliders/admin_create.ctp:40;48;54;74;250
+msgid "Enter number"
+msgstr "W0052 숫자 입력"
+
+#: View/Slide/admin_create.ctp:44
+msgid "Caption heading color"
+msgstr "W0053캡션 제목 색상"
+
+#: View/Slide/admin_create.ctp:59
+msgid "Caption content"
+msgstr "W0054 캡션 내용"
+
+#: View/Slide/admin_create.ctp:65
+msgid "Caption content font size"
+msgstr "W0055 캡션 내용 글꼴 크기"
+
+#: View/Slide/admin_create.ctp:71
+msgid "Caption content color"
+msgstr "W0056캡션 내용 색상"
+
+#: View/Slide/admin_create.ctp:86
+msgid "Image Slide"
+msgstr "W0057사진 슬라이드"
+
+#: View/Slide/admin_create.ctp:97
+msgid "Link"
+msgstr "W0058 링크"
+
+#: View/Slide/admin_create.ctp:103
+msgid "New tab"
+msgstr "W0059 새 탭"
+
+#: View/Slide/admin_create.ctp:114
+#: View/Sliders/admin_create.ctp:259
+msgid "Save"
+msgstr "W0060 저장"
+
+#: View/Slide/admin_create.ctp:115
+#: View/Slide/admin_review.ctp:3
+#: View/Sliders/admin_index.ctp:52
+#: View/Sliders/admin_review.ctp:2
+msgid "Preview"
+msgstr "W0061 미리보기"
+
+#: View/Slide/admin_create.ctp:116
+#: View/Sliders/admin_create.ctp:260
+msgid "Close"
+msgstr "W0062 닫기"
+
+#: View/Slide/admin_create.ctp:153;155
+msgid "Can not upload file more than "
+msgstr "W0063 ~개 이상 파일을 업로드 할 수 없습니다."
+
+#: View/Slide/admin_create.ctp:163
+msgid "Drag or click here to upload photo"
+msgstr "W0064 드래그 또는 여기를 클릭하여 사진을 업로드"
+
+#: View/Slide/admin_create_text.ctp:52
+#: View/Slide/admin_edit_text.ctp:81
+#: View/Slide/admin_index.ctp:54
+msgid "Text"
+msgstr "W0065 텍스트"
+
+#: View/Slide/admin_create_text.ctp:58
+#: View/Slide/admin_edit_text.ctp:87
+msgid "Font size"
+msgstr "W0066 글꼴 크기"
+
+#: View/Slide/admin_create_text.ctp:64
+#: View/Slide/admin_edit_text.ctp:93
+msgid "Color"
+msgstr "W0067 색상"
+
+#: View/Slide/admin_create_text.ctp:73
+#: View/Slide/admin_edit_text.ctp:102
+msgid "Text Bg"
+msgstr "W0068 텍스트 Bg"
+
+#: View/Slide/admin_create_text.ctp:82
+#: View/Slide/admin_edit_text.ctp:111
+msgid "Transition"
+msgstr "W0069 전환"
+
+#: View/Slide/admin_create_text.ctp:88
+#: View/Slide/admin_edit_text.ctp:117
+msgid "Position From"
+msgstr "W0070 위치에서"
+
+#: View/Slide/admin_create_text.ctp:91;108
+#: View/Slide/admin_edit_text.ctp:120;137
+msgid "Top"
+msgstr "W0071 상단"
+
+#: View/Slide/admin_create_text.ctp:97;114
+#: View/Slide/admin_edit_text.ctp:126;143
+msgid "Left"
+msgstr "W0072 왼쪽"
+
+#: View/Slide/admin_create_text.ctp:105
+#: View/Slide/admin_edit_text.ctp:134
+msgid "Position To"
+msgstr "W0073 배치"
+
+#: View/Slide/admin_edit_text.ctp:64
+msgid "Edit Text"
+msgstr "W0074 텍스트 편집"
+
+#: View/Slide/admin_edit_text.ctp:66
+#: View/Slide/admin_index.ctp:34
+msgid "Add Text"
+msgstr "W0075 텍스트 추가"
+
+#: View/Slide/admin_edit_text.ctp:75
+msgid "Slide"
+msgstr "W0076 슬라이드"
+
+#: View/Slide/admin_index.ctp:29
+msgid "Add Slide"
+msgstr "W0077 슬라이드 추가"
+
+#: View/Slide/admin_index.ctp:41
+#: View/Sliders/admin_index.ctp:26
+msgid "Search by name"
+msgstr "W0078 이름으로 검색"
+
+#: View/Slide/admin_index.ctp:52
+#: View/Sliders/admin_index.ctp:37
+msgid "Name"
+msgstr "W0079 이름"
+
+#: View/Slide/admin_index.ctp:55
+#: View/Sliders/admin_index.ctp:38
+msgid "Actions"
+msgstr "W0080 기능"
+
+#: View/Slide/admin_index.ctp:70
+#: View/Sliders/admin_index.ctp:50
+msgid "edit"
+msgstr "W0081 편집"
+
+#: View/Slide/admin_index.ctp:72
+msgid "Are you sure you want to delete this slide? This cannot be undone!"
+msgstr "W0082 이 슬라이드를 삭제하시겠습니까? 복구할 수 없는 작업입니다!"
+
+#: View/Sliders/admin_create.ctp:6;18
+#: View/Sliders/admin_index.ctp:19
+msgid "Create New Slider"
+msgstr "W0083새 슬라이드쇼 생성"
+
+#: View/Sliders/admin_create.ctp:25
+msgid "Slideshow name"
+msgstr "W0084 슬라이드쇼 이름"
+
+#: View/Sliders/admin_create.ctp:34
+msgid "Duration"
+msgstr "W0085 지속기간"
+
+#: View/Sliders/admin_create.ctp:35
+msgid "Time in milliseconds that the slide stays."
+msgstr "W0086 슬라이드가 유지되는 시간 (1000분의 1초)."
+
+#: View/Sliders/admin_create.ctp:46
+msgid "Width"
+msgstr "W0087 폭"
+
+#: View/Sliders/admin_create.ctp:52
+msgid "Height"
+msgstr "W0088 높이"
+
+#: View/Sliders/admin_create.ctp:60
+msgid "Recommended size: left and right column (width: 295px), middle column (width: 590px)"
+msgstr "W0089 추천 크기: 왼쪽 및 오른쪽 열 (폭: 295px), 중앙 열 (폭: 590px)"
+
+#: View/Sliders/admin_create.ctp:68
+msgid "Transition Speed"
+msgstr "W0090 전환 속도"
+
+#: View/Sliders/admin_create.ctp:69
+msgid "Transition effect time between slides in milliseconds."
+msgstr "W0091 슬라이드간 전환 효과 시간 (1000분의 1초)."
+
+#: View/Sliders/admin_create.ctp:81
+msgid "Show navigation"
+msgstr "W0092 탐색 보기"
+
+#: View/Sliders/admin_create.ctp:82
+msgid "Show/Hide navigation."
+msgstr "W0093 탐색 보기/숨기기."
+
+#: View/Sliders/admin_create.ctp:91
+msgid "Navigation Color"
+msgstr "W0094 탐색 색상"
+
+#: View/Sliders/admin_create.ctp:102
+msgid "Navigation Hover Color"
+msgstr "W0095 탐색 Hover 색상"
+
+#: View/Sliders/admin_create.ctp:113
+msgid "Navigation Hightlight Color"
+msgstr "W0096 탐색 하이라이트 색상"
+
+#: View/Sliders/admin_create.ctp:125
+msgid "Position Navigation"
+msgstr "W0097 탐색 배치"
+
+#: View/Sliders/admin_create.ctp:126
+msgid "Positioning the navigation."
+msgstr "W0098 탐색 배치."
+
+#: View/Sliders/admin_create.ctp:136
+msgid "Navigation Type"
+msgstr "W0099 탐색 종류"
+
+#: View/Sliders/admin_create.ctp:137
+msgid "Navigation shape (number, circle, square)"
+msgstr "W0100 탐색 형태 (숫자, 원, 사각형)"
+
+#: View/Sliders/admin_create.ctp:147
+msgid "Show control"
+msgstr "W0101 제어장치 보기"
+
+#: View/Sliders/admin_create.ctp:148
+msgid "Show/Hide Previous-Next controls on hover."
+msgstr "W0102 이전-다음 컨트롤을 hover에 보기/숨기기."
+
+#: View/Sliders/admin_create.ctp:157
+msgid "Control color"
+msgstr "W0103 제어장치 색상"
+
+#: View/Sliders/admin_create.ctp:168
+msgid "Control background color"
+msgstr "W0104 제어장치 배경 색상"
+
+#: View/Sliders/admin_create.ctp:180
+msgid "Position Control"
+msgstr "W0105 제어장치 배치"
+
+#: View/Sliders/admin_create.ctp:181
+msgid "Positioning the control buttons."
+msgstr "W0106 제어장치 버튼 배치."
+
+#: View/Sliders/admin_create.ctp:190
+msgid "Transition Effect"
+msgstr "W0107 전환 효과"
+
+#: View/Sliders/admin_create.ctp:191
+msgid "(between slide)"
+msgstr "W0108 (슬라이드 간 사이)"
+
+#: View/Sliders/admin_create.ctp:192
+msgid "Transition effect between slides."
+msgstr "W0109슬라이드 간 전환 효과."
+
+#: View/Sliders/admin_create.ctp:202
+msgid "Show progress"
+msgstr "W0110 진행도 보기"
+
+#: View/Sliders/admin_create.ctp:203
+msgid "Show/Hide progress bar"
+msgstr "W0111 진행 표시줄 보기/숨기기"
+
+#: View/Sliders/admin_create.ctp:212
+msgid "Progress Color"
+msgstr "W0112 진행 표시줄 색상"
+
+#: View/Sliders/admin_create.ctp:224
+msgid "Pause on hover"
+msgstr "W0113 hover에서 멈춤"
+
+#: View/Sliders/admin_create.ctp:225
+msgid "Pause when the mouse is on the slide"
+msgstr "W0114 마우스가 슬라이드 위에 있을때 멈춤"
+
+#: View/Sliders/admin_create.ctp:234
+msgid "Background color of the captions"
+msgstr "W0115 캡션의 배경 색상"
+
+#: View/Sliders/admin_create.ctp:246
+msgid "Opacity"
+msgstr "W0116 불투명하"
+
+#: View/Sliders/admin_create.ctp:247
+msgid "transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent"
+msgstr "W0117 투명도 수준: 1은 투명하지 않음 , 0.5 는 50% , 1은 투명함"
+
+#: View/Sliders/admin_index.ctp:48
+msgid "Are you sure you want to delete this slider? All the items within it will also be deleted. This cannot be undone!"
+msgstr "W0118 이 슬라이드쇼를 삭제하시겠습니까? 해당 슬라이드 안의 모든 내용물은 삭제됩니다. 복구할 수 없는 작업이니다!"
+
+#: View/Sliders/admin_index.ctp:62
+msgid "Previous"
+msgstr "W0119 이전"
+
+#: View/Sliders/admin_index.ctp:64
+msgid "Next"
+msgstr "W0120 다음"
+
+#: Model/Slide.php:validation for field slide_name
+msgid "Slide name is required"
+msgstr "W0121 슬라이드 제목이 필요합니다."
+
+#: Model/Slider.php:validation for field slider_name
+msgid "Slider name is required"
+msgstr "W0122 슬라이드 제목이 필요합니다."
+
+#: Model/Slider.php:validation for field duration
+msgid "Duration is numbers"
+msgstr "W0123 지속시간은 숫자여야 합니다."
+
+#: Model/Slider.php:validation for field width
+msgid "Width is numbers"
+msgstr "W0124 폭은 숫자여야 합니다."
+
+#: Model/Slider.php:validation for field height
+msgid "Height is numbers"
+msgstr "W0125 높이는 숫자여야 합니다."
+
+#: Model/Slider.php:validation for field transition_speed
+msgid "Transition speed is numbers"
+msgstr "W0126 전환 속도는 숫자여야 합니다."
+
+msgid "Transition speed is numbers"
+msgstr "W0127 전환 속도는 숫자여야 합니다."
+
+msgid "Edit Slideshow"
+msgstr "W0128 슬라이드쇼 편집"
+
+msgid "Slideshows"
+msgstr "W0129 슬라이드쇼"
+
+msgid "Slide heading"
+msgstr "W0130 슬라이드 제목"
+
+msgid "Slide content"
+msgstr "W0131 슬라이드 내용"
+
+msgid "Manage Slides"
+msgstr "W0132 슬라이드 관리"
+
+msgid "You can add translation language after creating slide"
+msgstr "W0133 슬라이드 생성 후 변환 언어 추가 가능"
+
+msgid "Translation"
+msgstr "W0134 번역"
+
+msgid "Save Change"
+msgstr "W0135 변경 저장"

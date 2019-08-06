@@ -1,0 +1,1 @@
+<?php echo __d('forum', 'invited you to join "%s"', $notification['Notification']['params']);?>

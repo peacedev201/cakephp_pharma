@@ -1,0 +1,1 @@
+<li><a id="my-documents" data-url="<?php echo $this->request->base?>/documents/browse/home" rel="home-content" href="<?php echo $this->request->base?>/home/index/tab:my-documents"><i class="material-icons">book</i> <?php echo __d('document','My Documents')?> <span class="badge_counter"><?php echo $count;?></span></a></li>

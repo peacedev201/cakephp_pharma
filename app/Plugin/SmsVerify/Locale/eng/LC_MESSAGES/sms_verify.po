@@ -1,0 +1,195 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: SmsVerifyPlugin.php:28
+#: Controller/SmsVerifysController.php:24
+#: View/SmsVerifys/admin_index.ctp:6;13
+msgid "Users Manager"
+msgstr ""
+
+#: SmsVerifyPlugin.php:29
+#: View/SmsVerifyGateways/admin_index.ctp:22
+msgid "Gateways"
+msgstr ""
+
+#: SmsVerifyPlugin.php:30
+#: View/SmsVerifySettings/admin_index.ctp:22
+msgid "Settings"
+msgstr ""
+
+#: Controller/SmsVerifyGatewaysController.php:6
+#: View/SmsVerifyGateways/admin_index.ctp:9
+msgid "Sms Verify Gateways"
+msgstr ""
+
+#: Controller/SmsVerifyGatewaysController.php:20
+msgid "Gateway has been actived"
+msgstr ""
+
+#: Controller/SmsVerifyGatewaysController.php:39
+msgid "Gateway has been updated"
+msgstr ""
+
+#: Controller/SmsVerifySettingsController.php:7
+#: View/SmsVerifySettings/admin_index.ctp:12
+msgid "Sms Verify Settings"
+msgstr ""
+
+#: Controller/SmsVerifysController.php:32
+msgid "This user has been verified"
+msgstr ""
+
+#: Controller/SmsVerifysController.php:41
+msgid "This user has been unverified"
+msgstr ""
+
+#: Controller/SmsVerifysController.php:92
+msgid "Someone has already registered this phone number, please use another one."
+msgstr ""
+
+#: Controller/SmsVerifysController.php:101
+msgid "Your code"
+msgstr ""
+
+#: Controller/SmsVerifysController.php:123
+msgid "Code invalidate"
+msgstr ""
+
+#: Controller/SmsVerifysController.php:134
+msgid "You has been verified with sms"
+msgstr ""
+
+#: Lib/SmsVerifyListener.php:25
+msgid "Please confirm your phone number."
+msgstr ""
+
+#: Lib/SmsVerifyListener.php:77;106
+msgid "Please confirm your phone number"
+msgstr ""
+
+#: View/Elements/gateway/twilio.ctp:2
+msgid "From"
+msgstr ""
+
+#: View/Elements/gateway/twilio.ctp:8
+msgid "Sid"
+msgstr ""
+
+#: View/Elements/gateway/twilio.ctp:14
+msgid "Token"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_edit.ctp:25
+msgid "Edit gateway"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_edit.ctp:43
+msgid "Close"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_edit.ctp:44
+msgid "Save"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:2
+#: View/SmsVerifySettings/admin_index.ctp:2
+msgid "Enable Sms Verify"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:7
+#: View/SmsVerifySettings/admin_index.ctp:10
+#: View/SmsVerifys/admin_index.ctp:4
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:8
+#: View/SmsVerifySettings/admin_index.ctp:11
+#: View/SmsVerifys/admin_index.ctp:5
+msgid "Sms Verify"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:26
+msgid "Name"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:27
+#: View/SmsVerifys/admin_index.ctp:51
+msgid "Action"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:38
+msgid "Edit"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:40
+msgid "Activated"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:42
+msgid "Activate as Default"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:42
+msgid "Are you sure you want to active this gateway?"
+msgstr ""
+
+#: View/SmsVerifyGateways/admin_index.ctp:50
+msgid "No gateway found"
+msgstr ""
+
+#: View/SmsVerifySettings/admin_index.ctp:3;5
+msgid "Enable captcha"
+msgstr ""
+
+#: View/SmsVerifySettings/admin_index.ctp:4
+msgid "By pass sms verify for all existing members"
+msgstr ""
+
+#: View/SmsVerifys/admin_index.ctp:45
+msgid "Phone Number"
+msgstr ""
+
+#: View/SmsVerifys/admin_index.ctp:48
+msgid "Sms verified"
+msgstr ""
+
+#: View/SmsVerifys/admin_index.ctp:91
+msgid "Are you sure you want to unverify this user?"
+msgstr ""
+
+#: View/SmsVerifys/admin_index.ctp:91
+msgid "UnVerify"
+msgstr ""
+
+#: View/SmsVerifys/admin_index.ctp:93
+msgid "Are you sure you want to verify this user?"
+msgstr ""
+
+#: View/SmsVerifys/admin_index.ctp:93
+msgid "Verify"
+msgstr ""
+
+#: View/SmsVerifys/index.ctp:2
+msgid "Verify Phone Number"
+msgstr ""
+
+msgid "Area Code + Phone Number"
+msgstr ""
+
+msgid "Please check this option if you want all members who signed up before this plugin is installed can continue using site without go thru sms verification process"
+msgstr ""
+
+msgid "Please click the verify phone number"
+msgstr ""

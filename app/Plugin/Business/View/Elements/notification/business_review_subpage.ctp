@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('business', ' reviewed sub page %s'), $notification['Notification']['params']); ?>

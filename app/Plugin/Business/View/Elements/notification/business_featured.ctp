@@ -1,0 +1,1 @@
+<?php echo __d('business', ' featured your business %s', $notification['Notification']['params']); ?>

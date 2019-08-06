@@ -1,0 +1,77 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "R0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Plugins Manager"
+msgstr "R0002플러그인관리자"
+
+msgid "General"
+msgstr "R0003일반"
+
+msgid "Settings"
+msgstr "R0004설정"
+
+msgid "Reaction Settings"
+msgstr "R0005반응설정"
+
+msgid "Reaction"
+msgstr "R0006반응"
+
+msgid "Reactions"
+msgstr "R0007반응"
+
+msgid "Like"
+msgstr "R0008좋아요"
+
+msgid "Love"
+msgstr "R0009사랑해요"
+
+msgid "Haha"
+msgstr "R0010하하~"
+
+msgid "Wow"
+msgstr "R0011와우!"
+
+msgid "Sad"
+msgstr "R0012슬퍼요"
+
+msgid "Angry"
+msgstr "R0013화나요"
+
+msgid "Cool"
+msgstr "R0014멋져!"
+
+msgid "Confused"
+msgstr "R0015혼란상태~"
+
+msgid "reacted your status"
+msgstr "R0016회원님의 상태에 반응하였습니다."
+
+msgid "reacted your photo"
+msgstr "R0017회원님의 사진에 반응하였습니다."
+
+msgid "reacted \"%s\""
+msgstr "R0018반응하였습니다."
+
+msgid "All Likes"
+msgstr "R0019모든 좋아요수"
+
+msgid "All"
+msgstr "R0020모두"
+
+msgid "reacted a post you are mentioned in"
+msgstr "R0021회원님이 언급된 게시글에 반응하였습니다."
+
+msgid "reacted a comment you are mentioned in"
+msgstr "R0022회원님이 언급된 댓글에 반응하였습니다."

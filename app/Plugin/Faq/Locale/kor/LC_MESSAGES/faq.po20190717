@@ -1,0 +1,578 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "AF001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: FaqPlugin.php:506
+#: View/Faqs/admin_create.ctp:9
+#: View/Faqs/admin_index.ctp:8;54
+msgid "FAQ Manager"
+msgstr "AF002FAQ 관리자"
+
+#: FaqPlugin.php:507
+#: View/FaqSettings/admin_index.ctp:14;24
+msgid "FAQ Settings"
+msgstr "AF003FAQ 설정"
+
+#: FaqPlugin.php:508
+#: View/FaqCategories/admin_index.ctp:15
+msgid "FAQ Categories"
+msgstr "AF004FAQ 카테고리"
+
+#: FaqPlugin.php:509
+#: View/FaqHelpfulreports/admin_index.ctp:17
+msgid "Reports"
+msgstr "AF005신고"
+
+#: Controller/FaqCategoriesController.php:32
+msgid "F.A.Q Categories Manager"
+msgstr "AF006FAQ 카테고리 관리자"
+
+#: Controller/FaqCategoriesController.php:55
+#: Controller/FaqsController.php:107
+msgid "Order saved"
+msgstr "AF007주문 저장"
+
+#: Controller/FaqCategoriesController.php:110
+msgid "Name is required"
+msgstr "AF008이름이 필요합니다"
+
+#: Controller/FaqCategoriesController.php:149
+msgid "Something is wrong!"
+msgstr "AF009무언가 잘못되었습니다"
+
+#: Controller/FaqCategoriesController.php:217
+msgid "Cant not delete category ! Please delete faqs first !"
+msgstr "AF010카테고리를 삭제할 수 없습니다. FAQ를 먼저 삭제해주십시요"
+
+#: Controller/FaqCategoriesController.php:223
+msgid "Cant not delete this category. Please delete child categories first!"
+msgstr "AF011해당 카테고리를 삭제할 수 없습니다. 하위 카테고리를 먼저 삭제해주십시요"
+
+#: Controller/FaqCategoriesController.php:230
+msgid "Category is deleted!"
+msgstr "AF012카테고리가 삭제되었습니다"
+
+#: Controller/FaqHelpfulreportsController.php:32
+#: View/FaqHelpfulreports/admin_index.ctp:10
+msgid "F.A.Q Reports"
+msgstr "AF013FAQ 신고"
+
+#: Controller/FaqHelpfulreportsController.php:46;85
+msgid "You need to select reason !"
+msgstr "AF014사유를 선택해야합니다!"
+
+#: Controller/FaqHelpfulreportsController.php:107;200
+#: View/Faqs/view.ctp:57
+msgid "Thanks for your feedback!"
+msgstr "AF015피드백을 남겨주셔서 감사합니다!"
+
+#: Controller/FaqPluginsController.php:23
+#: Controller/FaqsController.php:204
+msgid "Faqs have been deleted"
+msgstr "AF016FAQ가 삭제되었습니다"
+
+#: Controller/FaqSettingsController.php:8
+msgid "F.A.Q Settings"
+msgstr "AF017FAQ 설정"
+
+#: Controller/FaqsController.php:33;91
+msgid "F.A.Q"
+msgstr "AF018FAQ"
+
+#: Controller/FaqsController.php:123
+msgid "Title is required"
+msgstr "AF019제목이 필요합니다"
+
+#: Controller/FaqsController.php:130
+msgid "Category is required"
+msgstr "AF020카테고리가 필요합니다"
+
+#: Controller/FaqsController.php:137
+#: View/Faqs/admin_create.ctp:71
+msgid "FAQ content is required"
+msgstr "AF021FAQ 내용이 필요합니다"
+
+#: Controller/FaqsController.php:173
+msgid "Faq has been saved!"
+msgstr "AF022FAQ가 저장되었습니다"
+
+#: Controller/FaqsController.php:211
+msgid "Faq Browse Pages"
+msgstr "AF023FAQ 검색 페이지"
+
+#: Controller/FaqsController.php:309;315
+msgid "FAQ not found"
+msgstr "AF024FAQ를 찾을 수 없습니다"
+
+#: Lib/FaqListener.php:39;40
+#: View/Elements/activity/text/faq_item_detail_share.ctp:9
+msgid "shared a faq"
+msgstr "AF025FAQ를 공유하였습니다"
+
+#: Lib/FaqListener.php:150;230;250
+msgid "Faqs"
+msgstr "AF026FAQ"
+
+#: Lib/FaqListener.php:274
+msgid "Find Faq"
+msgstr "AF027FAQ 찾기"
+
+#: Model/FaqHelpCategorie.php:139;149;198
+msgid "Home"
+msgstr "AF028홈"
+
+#: View/Elements/adminsetting/setting.ctp:2
+msgid "Can not upload file more than"
+msgstr "AF029이상의 파일을 업로드할 수 없습니다"
+
+#: View/Elements/adminsetting/setting.ctp:3;218
+#: View/FaqCategories/admin_create_category.ctp:7
+msgid "Click to upload"
+msgstr "AF030클릭하여 업로드"
+
+#: View/Elements/adminsetting/setting.ctp:4
+msgid "Number of categories at home page by default"
+msgstr "AF031홈페이지 카테고리 기본 갯수"
+
+#: View/Elements/adminsetting/setting.ctp:5
+msgid "Number of usefull faqs in each category at home page by default"
+msgstr "AF032홈페이지의 각 카테고리의 유용한 FAQ 갯수"
+
+#: View/Elements/adminsetting/setting.ctp:6
+msgid "Change background"
+msgstr "AF033백그라운드 변경"
+
+#: View/Elements/adminsetting/setting.ctp:219
+#: View/FaqCategories/admin_create_category.ctp:8
+#: View/Faqs/admin_create.ctp:104
+msgid "Can not upload file more than "
+msgstr "AF034이상의 파일을 업로드할 수 없습니다"
+
+#: View/Elements/lists/faqs.ctp:14;18;26
+#: View/Faqs/browse.ctp:7
+#: View/Faqs/browsefaq.ctp:7
+#: View/Widgets/faq/browse.ctp:24
+msgid "No more results found"
+msgstr "AF035결과를 더 이상 찾을 수 없습니다"
+
+#: View/Elements/lists/faqs_answer.ctp:17
+#: View/Faqs/view.ctp:44
+msgid "% users marked this FAQ as helpful. Is this FAQ helpful?"
+msgstr "AF036사용가 %s가 이 FAQ를 유용하다고 표시했습니다. 해당 FAQ가 도움이 되었습니까?"
+
+#: View/Elements/lists/faqs_answer.ctp:22
+#: View/Faqs/view.ctp:47
+msgid "Last update: %s - Total %s vote"
+msgstr "AF037마지막 업데이트: %s - 총 %s 투표"
+
+#: View/Elements/lists/faqs_answer.ctp:26;29
+#: View/Faqs/view.ctp:50;53
+msgid "Yes"
+msgstr "AF038예"
+
+#: View/Elements/lists/faqs_answer.ctp:27;30
+#: View/Faqs/view.ctp:51;54
+msgid "No"
+msgstr "AF039아니요"
+
+#: View/Elements/lists/faqs_answer.ctp:40
+#: View/Faqs/view.ctp:62
+msgid "Why not?"
+msgstr "AF040왜 안되나요?"
+
+#: View/Elements/lists/faqs_answer.ctp:44
+#: View/FaqHelpfulreports/admin_index.ctp:66
+#: View/Faqs/view.ctp:66
+msgid "The answer is incorrect"
+msgstr "AF041답변이 틀렸습니다"
+
+#: View/Elements/lists/faqs_answer.ctp:47
+#: View/FaqHelpfulreports/admin_index.ctp:67
+#: View/Faqs/view.ctp:69
+msgid "The answer is confusing"
+msgstr "AF042답변이을 이해할 수 없습니다"
+
+#: View/Elements/lists/faqs_answer.ctp:50
+#: View/FaqHelpfulreports/admin_index.ctp:68
+#: View/Faqs/view.ctp:72
+msgid "I don't like how this works"
+msgstr "AF043이런 방식은 싫습니다"
+
+#: View/Elements/lists/faqs_answer.ctp:53
+#: View/FaqHelpfulreports/admin_index.ctp:69
+#: View/Faqs/view.ctp:75
+msgid "Other"
+msgstr "AF044다른"
+
+#: View/Elements/lists/faqs_answer.ctp:64
+#: View/Faqs/view.ctp:80
+msgid "Submit"
+msgstr "AF045제출"
+
+#: View/Elements/lists/faqs_detail.ctp:23
+#: View/Faqs/view.ctp:40
+msgid "Share"
+msgstr "AF046공유"
+
+#: View/Elements/lists/faqs_detail.ctp:25
+msgid "View details"
+msgstr "AF047상세하게 보기"
+
+#: View/Elements/lists/faqs_detail.ctp:36
+msgid "View All"
+msgstr "AF048모두 보기"
+
+#: View/Elements/lists/faqs_search_list.ctp:36
+msgid "View all %s comments"
+msgstr "AF049%s의 모든 댓글 보기"
+
+#: View/Elements/lists/faqs_search_list.ctp:40
+msgid "View"
+msgstr "AF050보기"
+
+#: View/FaqCategories/admin_ajax_translate.ctp:26
+#: View/FaqCategories/admin_create_category.ctp:110
+msgid "Translation"
+msgstr "AF051번역"
+
+#: View/FaqCategories/admin_ajax_translate.ctp:53
+#: View/FaqCategories/admin_create_category.ctp:158
+msgid "Close"
+msgstr "AF052닫기"
+
+#: View/FaqCategories/admin_ajax_translate.ctp:54
+msgid "Save Changes"
+msgstr "AF053변경사항 저장"
+
+#: View/FaqCategories/admin_create_category.ctp:91
+#: View/FaqCategories/admin_index.ctp:72
+msgid "Add New Category"
+msgstr "AF054새 카테고리 추가"
+
+#: View/FaqCategories/admin_create_category.ctp:93
+msgid "Edit Category"
+msgstr "AF055카테고리 수정"
+
+#: View/FaqCategories/admin_create_category.ctp:101
+#: View/FaqCategories/admin_index.ctp:94
+#: View/FaqHelpfulreports/admin_index.ctp:41
+msgid "Name"
+msgstr "AF056이름"
+
+#: View/FaqCategories/admin_create_category.ctp:103
+msgid "Enter category name"
+msgstr "AF057카테고리 이름 입력"
+
+#: View/FaqCategories/admin_create_category.ctp:107
+msgid "You can add translation language after adding new category"
+msgstr "AF058새로운 카테고리를 추가하면 언어 번역을 추가할 수 있습니다"
+
+#: View/FaqCategories/admin_create_category.ctp:116
+#: View/FaqCategories/admin_index.ctp:93
+msgid "Icon"
+msgstr "AF059아이콘"
+
+#: View/FaqCategories/admin_create_category.ctp:131
+msgid "Parent Category"
+msgstr "AF060상위 카테고리"
+
+#: View/FaqCategories/admin_create_category.ctp:144
+#: View/Faqs/admin_create.ctp:237
+#: View/Faqs/admin_index.ctp:93
+msgid "Enable"
+msgstr "AF061활성화"
+
+#: View/FaqCategories/admin_create_category.ctp:159
+#: View/Faqs/admin_create.ctp:257
+msgid "Save"
+msgstr "AF062저장"
+
+#: View/FaqCategories/admin_index.ctp:6
+#: View/FaqHelpfulreports/admin_index.ctp:8
+#: View/FaqSettings/admin_index.ctp:12
+#: View/Faqs/admin_create.ctp:7
+#: View/Faqs/admin_index.ctp:6
+msgid "Plugins Manager"
+msgstr "AF063플러그인 관리자"
+
+#: View/FaqCategories/admin_index.ctp:7
+#: View/FaqHelpfulreports/admin_index.ctp:9
+#: View/FaqSettings/admin_index.ctp:13
+#: View/Faqs/admin_create.ctp:8
+#: View/Faqs/admin_index.ctp:7
+msgid "FAQ"
+msgstr "AF064FAQ"
+
+#: View/FaqCategories/admin_index.ctp:8
+msgid "FAQ Categories Manager"
+msgstr "AF065FAQ 카테고리 관리자"
+
+#: View/FaqCategories/admin_index.ctp:47;140
+#: View/Faqs/admin_index.ctp:31;120
+msgid "yes"
+msgstr "AF066예"
+
+#: View/FaqCategories/admin_index.ctp:52;144
+#: View/Faqs/admin_index.ctp:36;124
+msgid "no"
+msgstr "AF067아니요"
+
+#: View/FaqCategories/admin_index.ctp:75
+#: View/Faqs/admin_index.ctp:67
+msgid "Save order"
+msgstr "AF068주문 저장"
+
+#: View/FaqCategories/admin_index.ctp:80
+msgid "Back"
+msgstr "AF069뒤로"
+
+#: View/FaqCategories/admin_index.ctp:92
+#: View/FaqHelpfulreports/admin_index.ctp:40
+#: View/Faqs/admin_index.ctp:91
+msgid "ID"
+msgstr "AF070ID"
+
+#: View/FaqCategories/admin_index.ctp:95
+msgid "Parent"
+msgstr "AF071상위"
+
+#: View/FaqCategories/admin_index.ctp:96
+msgid "Active"
+msgstr "AF072활동중"
+
+#: View/FaqCategories/admin_index.ctp:97
+msgid "Count"
+msgstr "AF073수치"
+
+#: View/FaqCategories/admin_index.ctp:98
+#: View/Faqs/admin_index.ctp:97
+msgid "Order"
+msgstr "AF074주문"
+
+#: View/FaqCategories/admin_index.ctp:99
+msgid "Actions"
+msgstr "AF075기능"
+
+#: View/FaqCategories/admin_index.ctp:153
+msgid "Manage Sub"
+msgstr "AF076하위 기능 관리"
+
+#: View/FaqCategories/admin_index.ctp:155
+msgid "Are you sure you want to delete this category?"
+msgstr "AF077이 카테고리를 삭제하시겠습니까?"
+
+#: View/FaqCategories/admin_index.ctp:162
+msgid "There are no category found!"
+msgstr "AF078카테고리를 찾을 수 없습니다"
+
+#: View/FaqCategories/admin_index.ctp:169
+#: View/FaqHelpfulreports/admin_index.ctp:88
+msgid "First"
+msgstr "AF079처음"
+
+#: View/FaqCategories/admin_index.ctp:170
+#: View/FaqHelpfulreports/admin_index.ctp:89
+msgid "Prev"
+msgstr "AF080이전"
+
+#: View/FaqCategories/admin_index.ctp:172
+#: View/FaqHelpfulreports/admin_index.ctp:91
+#: View/Faqs/admin_index.ctp:180
+msgid "Next"
+msgstr "AF081다음"
+
+#: View/FaqCategories/admin_index.ctp:173
+#: View/FaqHelpfulreports/admin_index.ctp:92
+msgid "Last"
+msgstr "AF082마지막"
+
+#: View/FaqHelpfulreports/admin_index.ctp:21
+msgid "Helpful"
+msgstr "AF083도움이됨"
+
+#: View/FaqHelpfulreports/admin_index.ctp:21
+msgid "Not Helpful"
+msgstr "AF084도움되지 않았음"
+
+#: View/FaqHelpfulreports/admin_index.ctp:30
+msgid "Search FAQ"
+msgstr "AF085FAQ 찾기"
+
+#: View/FaqHelpfulreports/admin_index.ctp:42
+msgid "Questions"
+msgstr "AF086질문"
+
+#: View/FaqHelpfulreports/admin_index.ctp:44
+msgid "Reason"
+msgstr "AF087사유"
+
+#: View/FaqHelpfulreports/admin_index.ctp:46
+msgid "Date"
+msgstr "AF088날짜"
+
+#: View/FaqHelpfulreports/admin_index.ctp:47
+#: View/Faqs/admin_index.ctp:99
+msgid "Action"
+msgstr "AF089기능"
+
+#: View/FaqHelpfulreports/admin_index.ctp:74
+#: View/Faqs/admin_create.ctp:159
+msgid "Edit FAQ"
+msgstr "AF090FAQ 수정"
+
+#: View/FaqHelpfulreports/admin_index.ctp:80
+msgid "No report found"
+msgstr "AF091신고를 찾을 수 없습니다"
+
+#: View/FaqSettings/admin_index.ctp:2
+msgid "Create/Edit Faq"
+msgstr "AF092FAQ 생성/수정"
+
+#: View/FaqSettings/admin_index.ctp:3
+msgid "View Faq"
+msgstr "AF093FAQ 보기"
+
+#: View/FaqSettings/admin_index.ctp:4
+msgid "Faq Enabled"
+msgstr "AF094FAQ가 활성화됨"
+
+#: View/FaqSettings/admin_index.ctp:5;7
+msgid "Item per pages"
+msgstr "AF095페이지당 항목 수"
+
+#: View/FaqSettings/admin_index.ctp:6
+msgid "Allow users to create poll with option \"Allow voters to add new answer\""
+msgstr "AF096사용자가 \"Allow voters to add new answer\울 사용하여 투표를 생성할 수 있게 합니다"
+
+#: View/Faqs/admin_create.ctp:21
+msgid "Faq Manager"
+msgstr "AF097FAQ 관리자"
+
+#: View/Faqs/admin_create.ctp:63
+msgid "Please check at least one user role in the Permissions tab"
+msgstr "AF098허가 탭에서 하나 이상의 회원 등급을 선택해주십시요"
+
+#: View/Faqs/admin_create.ctp:103
+msgid "Toggle Attachments Uploader"
+msgstr "AF099첨부 파일 업로더 켜기"
+
+#: View/Faqs/admin_create.ctp:161
+msgid "Add New FAQ"
+msgstr "AF100새로운 FAQ 추가"
+
+#: View/Faqs/admin_create.ctp:170
+msgid "Language Pack"
+msgstr "AF101언어 팩"
+
+#: View/Faqs/admin_create.ctp:170
+msgid "Select a language to translate for page title and page content only"
+msgstr "AF102페이지 제목 및 내용에 대한 번역할 언어를 선택하십시요"
+
+#: View/Faqs/admin_create.ctp:177
+msgid "Faq Title"
+msgstr "AF103FAQ 제목"
+
+#: View/Faqs/admin_create.ctp:180
+msgid "Enter title"
+msgstr "AF104제목 입력"
+
+#: View/Faqs/admin_create.ctp:185
+#: View/Faqs/admin_index.ctp:96
+msgid "Category"
+msgstr "AF105카테고리"
+
+#: View/Faqs/admin_create.ctp:202;211
+msgid "Permissions"
+msgstr "AF106허가"
+
+#: View/Faqs/admin_create.ctp:218
+msgid "Content"
+msgstr "AF107내용"
+
+#: View/Faqs/admin_create.ctp:227
+msgid "Allow Comments"
+msgstr "AF108댓글 허용"
+
+#: View/Faqs/admin_index.ctp:60
+msgid "Add FAQ"
+msgstr "AF109FAQ 추가"
+
+#: View/Faqs/admin_index.ctp:63
+msgid "Are you sure you want to delete these faqs?"
+msgstr "AF110선택한 FAQ를 삭제하시겠습니까?"
+
+#: View/Faqs/admin_index.ctp:64;151;170
+msgid "Delete"
+msgstr "AF111삭제"
+
+#: View/Faqs/admin_index.ctp:75
+msgid "Search by title or category name"
+msgstr "AF112제목 또는 카테고리 이름으로 검색"
+
+#: View/Faqs/admin_index.ctp:92
+msgid "Title"
+msgstr "AF113제목"
+
+#: View/Faqs/admin_index.ctp:94
+msgid "Permisson"
+msgstr "AF114허가"
+
+#: View/Faqs/admin_index.ctp:95
+msgid "% Userful"
+msgstr "AF115% 유요한"
+
+#: View/Faqs/admin_index.ctp:98
+msgid "Updated date"
+msgstr "AF116업데이트된 날짜"
+
+#: View/Faqs/admin_index.ctp:150
+msgid "Edit"
+msgstr "AF117수정"
+
+#: View/Faqs/admin_index.ctp:151
+msgid "Are you sure you want to delete this faq?"
+msgstr "AF118이 FAQ를 삭제하시겠습니까?"
+
+#: View/Faqs/admin_index.ctp:157
+msgid "There are no faq found!"
+msgstr "AF119FAQ를 찾을 수 없습니다"
+
+#: View/Faqs/admin_index.ctp:169
+msgid "With selected..."
+msgstr "AF120선택한..."
+
+#: View/Faqs/admin_index.ctp:178
+msgid "Previous"
+msgstr "AF121이전의"
+
+#: View/Widgets/faq/browse.ctp:18
+msgid "We found %s results"
+msgstr "AF122%s 검색 결과를 찾았습니다"
+
+#: View/Widgets/faq/header.ctp:6
+msgid "Hi, How can we help?"
+msgstr "AF123안녕하세요. 무엇을 도와드릴까요?"
+
+#: View/Widgets/faq/menu.ctp:3
+msgid "Categories"
+msgstr "AF124카테고리"
+
+#: View/Widgets/faq/menu.ctp:8
+msgid "ALL"
+msgstr "AF125모두"
+
+#: View/Widgets/faq/similar.ctp:5
+msgid "Similar FAQ"
+msgstr "AF126비슷한 FAQ"
+

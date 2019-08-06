@@ -1,0 +1,23 @@
+.prc-error-message{
+    font-size: 14px;
+    margin: 0 5px;
+    text-align: center;
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid #eed3d7;
+    padding: 10px 12px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.prc-error-message-app{
+    font-size: 14px;
+    margin: 0 -8px;
+    text-align: center;
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid #eed3d7;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}

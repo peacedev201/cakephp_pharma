@@ -1,0 +1,1341 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "C_001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: CreditPlugin.php:417
+#: Controller/CreditsController.php:19
+#: View/Credits/admin_index.ctp:5;11
+#: View/Credits/admin_transaction.ctp:5
+msgid "List members"
+msgstr "C_002 목록 구성원"
+
+#: CreditPlugin.php:418
+#: View/CreditSettings/admin_index.ctp:15;31
+msgid "Settings"
+msgstr "C_003 설정"
+
+#: CreditPlugin.php:419
+#: View/CreditSettings/admin_settings.ctp:45
+msgid "Credit settings"
+msgstr "C_004 포인트 설정"
+
+#: CreditPlugin.php:420
+#: Controller/SellController.php:20
+#: View/Sell/admin_index.ctp:5;11
+msgid "Credit Packages"
+msgstr "C_005 포인트 패키지"
+
+#: CreditPlugin.php:421
+#: Controller/RanksController.php:46
+#: View/Ranks/admin_index.ctp:5;25
+msgid "Manage ranks"
+msgstr "C_006 등급 관리"
+
+#: CreditPlugin.php:422
+#: View/Transactions/admin_index.ctp:21
+msgid "Manage Transactions"
+msgstr "C_007 거래 내역 관리"
+
+#: CreditPlugin.php:423
+#: View/CreditFaqs/admin_create.ctp:7
+#: View/CreditFaqs/admin_index.ctp:17
+msgid "Manage FAQ"
+msgstr "C_008 FAQ 관리"
+
+#: CreditPlugin.php:424
+#: Controller/GivesController.php:11
+#: View/Gives/admin_index.ctp:3;90
+msgid "Give mass credits"
+msgstr "C_009 대규모 포인트 제공"
+
+#: Controller/CreditFaqsController.php:49;65
+#: View/CreditFaqs/admin_create.ctp:3
+#: View/CreditFaqs/admin_index.ctp:3
+msgid "FAQ Manager"
+msgstr "C_010 FAQ 관리"
+
+#: Controller/CreditFaqsController.php:83
+#: Controller/CreditsController.php:381
+msgid "FAQ has been successfully saved"
+msgstr "C_011 FAQ과 저장되었습니다"
+
+#: Controller/CreditFaqsController.php:92
+msgid "FAQ has been deleted"
+msgstr "C_012 FAQ가 삭제되었습니다"
+
+#: Controller/CreditSettingsController.php:32;171
+msgid "Credit Setting"
+msgstr "C_013 포인트 설정"
+
+#: Controller/CreditSettingsController.php:49
+msgid "Currency exchange is required."
+msgstr "C_014 환전이 필요합니다"
+
+#: Controller/CreditSettingsController.php:53
+msgid "Currency exchange is numeric."
+msgstr "C_015 환전은 숫자여야합니다"
+
+#: Controller/CreditSettingsController.php:225
+msgid "Saved successfully"
+msgstr "C_016 저장완료"
+
+#: Controller/CreditsController.php:53
+msgid "successfully changed"
+msgstr "C_017 변경완료"
+
+#: Controller/CreditsController.php:88
+#: View/CreditSettings/admin_settings.ctp:4;63
+#: View/Credits/admin_edit.ctp:12
+#: View/Elements/list/credit_actions.ctp:15
+#: View/Elements/list/credit_ranks.ctp:14
+#: View/Ranks/admin_create.ctp:20
+#: View/Ranks/admin_index.ctp:64
+#: View/Sell/admin_create.ctp:13
+#: View/Transactions/admin_index.ctp:39
+#: View/Widgets/credits/send.ctp:65
+msgid "Credit"
+msgstr "C_018 포인트"
+
+#: Controller/CreditsController.php:126
+#: View/Credits/admin_index.ctp:66
+#: View/Credits/my_credits.ctp:3
+msgid "Transactions"
+msgstr "C_019 거래 내역"
+
+#: Controller/CreditsController.php:131
+#: View/Credits/index.ctp:30
+#: View/Credits/tab_faqs.ctp:6
+msgid "FAQs"
+msgstr "C_020 FAQ"
+
+#: Controller/CreditsController.php:136
+#: View/Ranks/index.ctp:3
+msgid "Credit Ranks"
+msgstr "C_021 포인트 등급"
+
+#: Controller/CreditsController.php:149
+msgid "Withdrawal request form"
+msgstr "C_022 철회 요청 양식"
+
+#: Controller/CreditsController.php:154
+msgid "My withdrawal request"
+msgstr "C_023 나의 철회 요청"
+
+#: Controller/CreditsController.php:159
+#: View/Credits/index.ctp:33
+msgid "Action types and credits"
+msgstr "C_024 활동 유형별 포인트"
+
+#: Controller/CreditsController.php:166
+msgid "Top members"
+msgstr "C_025 최고의 맴버"
+
+#: Controller/CreditsController.php:398
+msgid "Your Friend is required"
+msgstr "C_026 회원님의 친구가 필요합니다"
+
+#: Controller/CreditsController.php:400
+#: Controller/GivesController.php:47
+#: Model/CreditRanks.php:validation for field credit
+#: Model/CreditSells.php:validation for field credit
+msgid "Credit is required"
+msgstr "C_027 포인트가 필요합니다"
+
+#: Controller/CreditsController.php:405
+#: Controller/GivesController.php:52
+msgid "Credit is invalid, please enter number"
+msgstr "C_028 포인트가 잘못되었습니다. 숫자를 입력하십시요"
+
+#: Controller/CreditsController.php:438
+#: Controller/GivesController.php:97
+msgid "Credits have been successfully sent."
+msgstr "C_029 포인트를 성공적으로 발송하였습니다"
+
+#: Controller/CreditsController.php:441
+msgid "Current balance credits not enough"
+msgstr "C_030 현재 잔여 포인트가 부족합니다."
+
+#: Controller/CreditsController.php:505
+msgid "Send withdraw request fail.Current balance credits not enough"
+msgstr "C_031 철회 요청 발송이 실패되었습니다. 현재 잔여 포인트가 부족합니다."
+
+#: Controller/CreditsController.php:521
+msgid "Your Withdrawal request has been sent. Your current usable balance is %s. We will contact you soon. Thank you!"
+msgstr "C_032 철회 요청이 발송되었습니다. 현재 사용 가능한 포인트는 %s입니다. 곧 연락드리겠습니다. 감사합니다."
+
+#: Controller/CreditsController.php:524
+msgid "Send withdraw request fail"
+msgstr "C_033 철회 요청 발송 실패"
+
+#: Controller/CreditsController.php:532;563
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:6
+msgid "Withdrawal request"
+msgstr "C_034 철회 요청"
+
+#: Controller/CreditsController.php:576
+#: Controller/WithdrawController.php:62
+msgid "Are you sure want to delete this request, requested amount will be added back to member current credit balance."
+msgstr "C_035 해당 요청을 삭제하시겠습니까? 현재 잔여 포인트에 요청하신만큼의 포인트가 추가됩니다"
+
+#: Controller/CreditsController.php:578
+#: Controller/WithdrawController.php:64
+msgid "Are you sure want to delete this request?  No credit will be returned to member credit balance as the transaction already done."
+msgstr "C_036 해당 요청을 삭제하시겠습니까? 거래가 이미 종료되었기때문에 포인트가 반려되지 않습니다"
+
+#: Controller/CreditsController.php:600
+#: Controller/WithdrawController.php:113
+msgid "Change status withdrawal request successfully"
+msgstr "C_037 철회 요청 상태 변경 완료"
+
+#: Controller/CreditsController.php:603
+#: Controller/WithdrawController.php:116
+msgid "Change status withdrawal request fail"
+msgstr "C_038 철회 요청 상태 변경 실패"
+
+#: Controller/GatewayController.php:14
+msgid "Please login or register"
+msgstr "C_039 로그인 또는 가입하십시요"
+
+#: Controller/GatewayController.php:64
+msgid "Payment is done! Your current credit balance: %s"
+msgstr "C_040 결제 완료! 현재 포인트는 %s입니다"
+
+#: Controller/GatewayController.php:77
+#: View/Credits/success.ctp:3
+msgid "Payment is done, please check your credits balance."
+msgstr "C_041 결제 완료. 포인트현황을 확인하십시요"
+
+#: Controller/GatewayController.php:79
+#: View/Credits/cancel.ctp:3
+msgid "Buy Credits unsuccessful!"
+msgstr "C_042 포인트 구매 실패"
+
+#: Controller/GivesController.php:45
+msgid "Select member is required"
+msgstr "C_043 맴버 선택은 필수입니다"
+
+#: Controller/RanksController.php:76
+msgid "Rank has been successfully saved"
+msgstr "C_044 등급이 저장되었습니다"
+
+#: Controller/RanksController.php:85
+msgid "Rank has been deleted"
+msgstr "C_045 등급이 삭제되었습니다"
+
+#: Controller/SellController.php:49
+msgid "Item has been successfully saved"
+msgstr "C_046 항목이 저장되었습니다"
+
+#: Controller/SellController.php:58
+msgid "Item has been deleted"
+msgstr "C_047 항목이 삭제되었습니다"
+
+#: Controller/TransactionsController.php:44
+msgid "Manage Credit Transactions"
+msgstr "C_048 포인트 내역 관리"
+
+#: Controller/WithdrawController.php:49
+#: View/Withdraw/admin_index.ctp:3;17
+msgid "Withdraw request"
+msgstr "C_049 철회 요청"
+
+#: Lib/CreditListener.php:47;74
+msgid "Your account is not enough credit to make transactions"
+msgstr "C_050 회원님의 계정에 포인트가 부족하여 거래를 완료할 수 없습니다"
+
+#: Lib/CreditListener.php:400
+msgid "Widthdraw amount must between Maximum and Minimum"
+msgstr "C_051 철회 금액은 최대값과 최소값 사이여야 합니다"
+
+#: Lib/CreditListener.php:401
+msgid "You do not have enough credit to post, please earn more credits to continue!"
+msgstr "C_052 포인트가 부족해 게시할 수 없습니다. 포인트를 추가확보하여 진행하십시요"
+
+#: View/CreditFaqs/admin_create.ctp:2
+#: View/CreditFaqs/admin_index.ctp:2
+#: View/CreditSettings/admin_index.ctp:14
+#: View/CreditSettings/admin_settings.ctp:39
+#: View/Credits/admin_index.ctp:4
+#: View/Credits/admin_transaction.ctp:4
+#: View/Gives/admin_index.ctp:2
+#: View/Ranks/admin_index.ctp:4
+#: View/Sell/admin_index.ctp:4
+#: View/Transactions/admin_index.ctp:2
+#: View/Withdraw/admin_index.ctp:2
+msgid "Plugins Manager"
+msgstr "C_053 플러그인 관리자"
+
+#: View/CreditFaqs/admin_create.ctp:12
+msgid "Edit Faqs"
+msgstr "C_054 FAQ 수정"
+
+#: View/CreditFaqs/admin_create.ctp:12
+msgid "Add Faqs"
+msgstr "C_055 FAQ 추가"
+
+#: View/CreditFaqs/admin_create.ctp:19
+#: View/CreditFaqs/admin_index.ctp:46
+#: View/Credits/add_faq.ctp:20
+msgid "Question"
+msgstr "C_056 질문"
+
+#: View/CreditFaqs/admin_create.ctp:25
+#: View/CreditFaqs/admin_index.ctp:47
+msgid "Answer"
+msgstr "C_057 답변"
+
+#: View/CreditFaqs/admin_create.ctp:31
+#: View/CreditFaqs/admin_index.ctp:49
+msgid "Active"
+msgstr "C_058 활동중"
+
+#: View/CreditFaqs/admin_create.ctp:44
+#: View/CreditSettings/admin_settings.ctp:115
+#: View/Credits/add_faq.ctp:29
+#: View/Ranks/admin_create.ctp:64
+#: View/Sell/admin_create.ctp:28
+msgid "Save"
+msgstr "C_059 저장"
+
+#: View/CreditFaqs/admin_create.ctp:45
+#: View/Credits/add_faq.ctp:28
+#: View/Credits/admin_edit.ctp:20
+#: View/Ranks/admin_create.ctp:63
+#: View/Sell/admin_create.ctp:27
+msgid "Close"
+msgstr "C_060 닫기"
+
+#: View/CreditFaqs/admin_create.ctp:77
+#: View/Ranks/admin_create.ctp:111
+#: View/Sell/admin_create.ctp:46
+msgid "Error"
+msgstr "C_061 오류"
+
+#: View/CreditFaqs/admin_index.ctp:23
+msgid "Add New FAQ"
+msgstr "C_062 새 FAQ 추가"
+
+#: View/CreditFaqs/admin_index.ctp:36
+#: View/Transactions/admin_index.ctp:28
+#: View/Withdraw/admin_index.ctp:39
+msgid "Search"
+msgstr "C_063 검색"
+
+#: View/CreditFaqs/admin_index.ctp:45
+#: View/CreditSettings/admin_settings.ctp:8
+#: View/Transactions/admin_index.ctp:35
+msgid "User"
+msgstr "C_064 사용자"
+
+#: View/CreditFaqs/admin_index.ctp:48
+#: View/Elements/list/my_withdraw_request.ctp:7
+#: View/Transactions/admin_index.ctp:37
+#: View/Withdraw/admin_index.ctp:51
+msgid "Date"
+msgstr "C_065 날짜"
+
+#: View/CreditFaqs/admin_index.ctp:50
+#: View/Ranks/admin_index.ctp:45
+#: View/Sell/admin_index.ctp:40
+#: View/Withdraw/admin_index.ctp:52
+msgid "Actions"
+msgstr "C_066 행동"
+
+#: View/CreditFaqs/admin_index.ctp:67
+#: View/Gives/admin_index.ctp:150
+msgid "Yes"
+msgstr "C_067 예"
+
+#: View/CreditFaqs/admin_index.ctp:67
+#: View/Gives/admin_index.ctp:150
+msgid "No"
+msgstr "C_068 아니요"
+
+#: View/CreditFaqs/admin_index.ctp:71
+msgid "Are you sure you want to delete this question?"
+msgstr "C_069 해당 질문을 삭제하시겠습니까?"
+
+#: View/CreditFaqs/admin_index.ctp:78
+msgid "No faq found"
+msgstr "C_070 FAQ를 찾을 수 없습니다"
+
+#: View/CreditSettings/admin_index.ctp:2
+msgid "Item per pages"
+msgstr "C_071 패이지당 항목"
+
+#: View/CreditSettings/admin_index.ctp:3
+msgid "Enable credits"
+msgstr "C_072 포인트 활성화"
+
+#: View/CreditSettings/admin_index.ctp:4
+msgid "Default sort by"
+msgstr "C_073 기본 정렬 기준"
+
+#: View/CreditSettings/admin_index.ctp:5
+#: View/Elements/list/top_members.ctp:23
+#: View/Widgets/credits/rank.ctp:23
+msgid "Total Earned Credits"
+msgstr "C_074 총 얻은 포인트"
+
+#: View/CreditSettings/admin_index.ctp:6
+msgid "Test mode"
+msgstr "C_075 테스트 모드"
+
+#: View/CreditSettings/admin_index.ctp:7
+msgid "Disable"
+msgstr "C_076 비활성화"
+
+#: View/CreditSettings/admin_index.ctp:8
+#: View/Ranks/admin_create.ctp:47
+msgid "Enable"
+msgstr "C_077 활성화"
+
+#: View/CreditSettings/admin_index.ctp:9
+#: View/Credits/ajax_sell.ctp:14
+#: View/Elements/list/top_members.ctp:20
+#: View/Widgets/credits/rank.ctp:19
+msgid "Current Balance"
+msgstr "C_078 현재 잔액"
+
+#: View/CreditSettings/admin_index.ctp:10
+msgid "Enable credits Plugin"
+msgstr "C_079 포인트 플러그인 활성화"
+
+#: View/CreditSettings/admin_index.ctp:11
+msgid "Currency exchange"
+msgstr "C_080 환전"
+
+#: View/CreditSettings/admin_index.ctp:12
+msgid "By pass force login"
+msgstr "C_081 강제 로그인 우회"
+
+#: View/CreditSettings/admin_index.ctp:13
+msgid "Member can send credits to"
+msgstr "C_082 맴버는 포인트를 발송할 수 있습니다: "
+
+#: View/CreditSettings/admin_index.ctp:14
+msgid "Everyone"
+msgstr "C_083 모두에게"
+
+#: View/CreditSettings/admin_index.ctp:15
+msgid "Friends only"
+msgstr "C_084 친구에게만"
+
+#: View/CreditSettings/admin_index.ctp:16
+#: View/Gateway/process.ctp:8
+msgid "credits"
+msgstr "C_085 포인트"
+
+#: View/CreditSettings/admin_index.ctp:11
+msgid "Paypal Email"
+msgstr "C_086 Paypal 이메일"
+
+#: View/CreditSettings/admin_settings.ctp:2
+msgid "Blog"
+msgstr "C_087 블로그"
+
+#: View/CreditSettings/admin_settings.ctp:3
+msgid "Core"
+msgstr "C_088 코어"
+
+#: View/CreditSettings/admin_settings.ctp:5
+msgid "Event"
+msgstr "C_089 이벤트"
+
+#: View/CreditSettings/admin_settings.ctp:6
+msgid "Group"
+msgstr "C_090 그룹"
+
+#: View/CreditSettings/admin_settings.ctp:7
+msgid "Topic"
+msgstr "C_091 토픽"
+
+#: View/CreditSettings/admin_settings.ctp:9
+msgid "Video"
+msgstr "C_092 동영상"
+
+#: View/CreditSettings/admin_settings.ctp:10
+msgid "Activity"
+msgstr "C_093 활동"
+
+#: View/CreditSettings/admin_settings.ctp:12
+msgid "Post news feed"
+msgstr "C_094 뉴스 피드에 게시하기"
+
+#: View/CreditSettings/admin_settings.ctp:13
+msgid "Friend Inviter"
+msgstr "C_095 친구 초대"
+
+#: View/CreditSettings/admin_settings.ctp:15
+msgid "Write new entry"
+msgstr "C_096 새 게시물 작성"
+
+#: View/CreditSettings/admin_settings.ctp:16
+msgid "Like"
+msgstr "C_097 좋아요"
+
+#: View/CreditSettings/admin_settings.ctp:17
+msgid "Comment"
+msgstr "C_098 댓글"
+
+#: View/CreditSettings/admin_settings.ctp:18
+msgid "Share"
+msgstr "C_099 공유"
+
+#: View/CreditSettings/admin_settings.ctp:19
+msgid "Comment status"
+msgstr "C_100 댓글 상태"
+
+#: View/CreditSettings/admin_settings.ctp:20
+msgid "Sending credits"
+msgstr "C_101 포인트를 보내는중입니다"
+
+#: View/CreditSettings/admin_settings.ctp:21
+msgid "Receiving credits"
+msgstr "C_102 포인트를 받는중입니다"
+
+#: View/CreditSettings/admin_settings.ctp:22
+msgid "Admin giving you credits"
+msgstr "C_103 관리자가 회원님에게 포인트를 보내고있습니다"
+
+#: View/CreditSettings/admin_settings.ctp:23
+#: View/Elements/log_text/set_credits.ctp:1
+msgid "Admin set your credits"
+msgstr "C_104 관리자가 회원님의 포인트를 설정했습니다"
+
+#: View/CreditSettings/admin_settings.ctp:24
+#: View/Elements/log_text/buy_credits.ctp:1
+msgid "Buying credits"
+msgstr "C_105 포인트를 구매중입니다"
+
+#: View/CreditSettings/admin_settings.ctp:25
+#: View/Elements/log_text/request-withdraw.ctp:1
+msgid "Admin approved your withdrawal request"
+msgstr "C_106 관리자가 회원님의 철회 요청을 수락하였습니다"
+
+#: View/CreditSettings/admin_settings.ctp:26
+msgid "Pay item with credit"
+msgstr "C_107 포인트로 항목 결제"
+
+#: View/CreditSettings/admin_settings.ctp:27
+msgid "Admin refunding you credits"
+msgstr "C_108 관리자가 회원님의 포인트를 환불하는중입니다"
+
+#: View/CreditSettings/admin_settings.ctp:28
+msgid "Create Event"
+msgstr "C_109 이벤트 생성"
+
+#: View/CreditSettings/admin_settings.ctp:29
+msgid "Create Group"
+msgstr "C_110 그룹 생성"
+
+#: View/CreditSettings/admin_settings.ctp:30
+msgid "Join Group"
+msgstr "C_111 그룹 참여"
+
+#: View/CreditSettings/admin_settings.ctp:31
+#: View/Widgets/credits/options.ctp:39
+msgid "Upload Photo"
+msgstr "C_112 사진 업로드"
+
+#: View/CreditSettings/admin_settings.ctp:32
+msgid "Create Topic"
+msgstr "C_113 토픽 생성"
+
+#: View/CreditSettings/admin_settings.ctp:33
+msgid "Add friends"
+msgstr "C_114 친구 추가"
+
+#: View/CreditSettings/admin_settings.ctp:34
+#: View/Elements/log_text/user.ctp:1
+msgid "Sign Up"
+msgstr "C_115 가입하기"
+
+#: View/CreditSettings/admin_settings.ctp:35
+msgid "Post Video"
+msgstr "C_116 동영상 게시하기"
+
+#: View/CreditSettings/admin_settings.ctp:40
+msgid "Credit Settings"
+msgstr "C_117 포인트 설정"
+
+#: View/CreditSettings/admin_settings.ctp:49
+#: View/Elements/list/credit_actions.ctp:2
+msgid "You can edit how many credits member can earn for each action within a specific period"
+msgstr "C_118 특정 기간 내에 각 작업에 대해 얻을 수 있는 포인트 수를 편집할 수 있습니다"
+
+#: View/CreditSettings/admin_settings.ctp:51
+msgid "Credit: number of credits can earn by doing this activity. \"0\" means that no credit will be be earned by doing this activity."
+msgstr "C_119 포인트: 활동을 통해 얻을 수 있는 포인트의 수입니다. \"0\"은 해당 활동을 수행하여도 포인트를 얻을 수 없음을 의미합니다"
+
+#: View/CreditSettings/admin_settings.ctp:53
+#: View/Elements/list/credit_actions.ctp:6
+msgid "Max: maximum credits member can earn by doing this activity within rollover period."
+msgstr "C_120 최대값: 롤오버 기간 내에 해당 활동을 수행하면 최대 포인트를 얻을 수 있습니다"
+
+#: View/CreditSettings/admin_settings.ctp:55
+#: View/Elements/list/credit_actions.ctp:8
+msgid "Rollover period: is a period within max number of credits restriction is applied. '0' means that you want to apply Max number of credits to forever, can't earn more credit if the max amount is reached."
+msgstr "C_121 롤오버 기간: 최대 포인트 제한이 적용되는 기간입니다. '0'은 최대 포인트 수를 영구히 적용하려는 경우, 최대 금액에 도달하면 더 많은 포인트를 얻을 수 없음을 의미합니다"
+
+#: View/CreditSettings/admin_settings.ctp:62
+#: View/Elements/list/credit_actions.ctp:14
+msgid "Action type"
+msgstr "C_122 활동 유형"
+
+#: View/CreditSettings/admin_settings.ctp:64
+#: View/Elements/list/credit_actions.ctp:16
+msgid "Max Credit"
+msgstr "C_123 최대 포인트"
+
+#: View/CreditSettings/admin_settings.ctp:65
+#: View/Elements/list/credit_actions.ctp:17
+msgid "Rollover Period"
+msgstr "C_124 롤오버 기간"
+
+#: View/CreditSettings/admin_settings.ctp:97
+#: View/Elements/list/credit_actions.ctp:44
+msgid "day(s)"
+msgstr "C_125 일"
+
+#: View/CreditSettings/admin_settings.ctp:106
+#: View/Credits/admin_index.ctp:73
+#: View/Credits/admin_transaction.ctp:63
+#: View/Elements/list/credit_actions.ctp:53
+#: View/Ranks/admin_index.ctp:77
+#: View/Sell/admin_index.ctp:65
+msgid "No item found"
+msgstr "C_126 항목을 찾을 수 없습니다"
+
+#: View/CreditSettings/admin_settings.ctp:139
+msgid "Credit must less than Max Credit"
+msgstr "C_127 최대 포인트보다 작아야합니다"
+
+#: View/Credits/add_faq.ctp:13
+msgid "Add new FAQs"
+msgstr "C_128 새 FAQ 추가"
+
+#: View/Credits/admin_edit.ctp:4
+msgid "Change Credit Balance"
+msgstr "C_129 포인트 잔액 변경"
+
+#: View/Credits/admin_edit.ctp:10
+msgid "You can enter '+' or '-' to change current balance. The transaction will also transaction list"
+msgstr "C_130 '+' 또는 "-"를 입력하여 현재 잔액을 변경할 수 있습니다. 거래 내역에 기록됩니다"
+
+#: View/Credits/admin_edit.ctp:21
+msgid "Change"
+msgstr "C_131 변경"
+
+#: View/Credits/admin_index.ctp:24
+msgid "Search by name"
+msgstr "C_132 이름으로 검색"
+
+#: View/Credits/admin_index.ctp:34
+msgid "ID"
+msgstr "C_133 ID"
+
+#: View/Credits/admin_index.ctp:35
+#: View/Ranks/admin_create.ctp:14
+msgid "Name"
+msgstr "C_134 이름"
+
+#: View/Credits/admin_index.ctp:36
+msgid "Credit Balance"
+msgstr "C_135 현재 잔액"
+
+#: View/Credits/admin_index.ctp:37
+msgid "Earned Credits"
+msgstr "C_136 얻은 포인트"
+
+#: View/Credits/admin_index.ctp:38
+msgid "Spent Credits"
+msgstr "C_137 사용한 포인트"
+
+#: View/Credits/admin_index.ctp:39
+msgid "Options"
+msgstr "C_138 옵션"
+
+#: View/Credits/admin_transaction.ctp:6
+msgid "Transaction"
+msgstr "C_139 거래"
+
+#: View/Credits/admin_transaction.ctp:21
+msgid "Transactions of"
+msgstr "C_140 의 거래"
+
+#: View/Credits/admin_transaction.ctp:29
+#: View/Credits/my_credits.ctp:8
+#: View/Elements/list/my_credits.ctp:4
+msgid "Action Date"
+msgstr "C_141 활동 날짜"
+
+#: View/Credits/admin_transaction.ctp:30
+#: View/Credits/my_credits.ctp:9
+#: View/Elements/list/my_credits.ctp:5
+msgid "Action Type"
+msgstr "C_142 호라동 유형"
+
+#: View/Credits/admin_transaction.ctp:31
+#: View/Credits/my_credits.ctp:10
+#: View/Elements/list/my_credits.ctp:6
+msgid "Credits"
+msgstr "C_143 포인트"
+
+#: View/Credits/admin_transaction.ctp:75
+msgid "Go back"
+msgstr "C_144 되돌아가기"
+
+#: View/Credits/ajax_sell.ctp:2;43;83
+#: View/Helper/CreditHelper.php:415
+#: View/Widgets/credits/buy.ctp:5;18
+msgid "Buy Credits"
+msgstr "C_145 포인트 구매"
+
+#: View/Credits/ajax_sell.ctp:24
+msgid "How many credits would you like to add to your account?"
+msgstr "C_146 회원님의 계정에 포인트를 얼마나 추가하시겠습니까?"
+
+#: View/Credits/ajax_sell.ctp:30;54
+#: View/Sell/admin_index.ctp:53
+msgid "Credits for"
+msgstr "C_147 에 대한 포인트"
+
+#: View/Credits/ajax_sell.ctp:34;58
+msgid "No more credit package found"
+msgstr "C_148 포인트 패키지를 찾을 수 없습니다"
+
+#: View/Credits/ajax_sell.ctp:38
+msgid "CONTINUE"
+msgstr "C_149 계속하기"
+
+#: View/Credits/ajax_sell.ctp:39
+msgid "Cancel"
+msgstr "C_150 취소"
+
+#: View/Credits/ajax_sell.ctp:66
+msgid "PayPal"
+msgstr "C_151 페이팔"
+
+#: View/Credits/ajax_sell.ctp:70
+msgid "Pay with PayPal"
+msgstr "C_152 페이팔로 결제"
+
+#: View/Credits/ajax_sell.ctp:110
+msgid "Can't make payment now, please contact admin for more details."
+msgstr "C_153 현재 결제할 수 없습니다. 자세한 내용은 관리자에게 문의하십시요"
+
+#: View/Credits/index.ctp:8
+msgid "Browse"
+msgstr "C_154 검색하기"
+
+#: View/Credits/index.ctp:13
+msgid "Top Members"
+msgstr "C_155 최고 맴버"
+
+#: View/Credits/index.ctp:17
+#: View/Widgets/credits/rank.ctp:31
+msgid "My Transactions"
+msgstr "C_156 나의 거래 내력" 
+
+#: View/Credits/index.ctp:23
+msgid "My withdraw request"
+msgstr "C_157 나의 철회 요청"
+
+#: View/Credits/index.ctp:27
+msgid "Credits Rank"
+msgstr "C_158 포인트 등급"
+
+#: View/Credits/my_credits.ctp:18
+#: View/Elements/list/my_credits.ctp:38
+#: View/Elements/list/my_withdraw_request.ctp:40
+msgid "Previous"
+msgstr "C_159 이전의"
+
+#: View/Credits/my_credits.ctp:20
+#: View/Elements/list/my_credits.ctp:40
+#: View/Elements/list/my_withdraw_request.ctp:42
+#: View/Ranks/admin_index.ctp:87
+#: View/Sell/admin_index.ctp:75
+msgid "Next"
+msgstr "C_160 다음의"
+
+#: View/Credits/withdraw_delete.ctp:3
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:24
+#: View/Withdraw/admin_index.ctp:63;68
+msgid "Delete request"
+msgstr "C_161 요청 삭제"
+
+#: View/Credits/withdraw_delete.ctp:9
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:30
+msgid "Ok"
+msgstr "C_162 Ok"
+
+#: View/Elements/withdraw_request.ctp:27
+msgid "Note: You are allowed to withdraw %s time(s) in a Month"
+msgstr "C_163 참고: 한 달 내에 %s 시간을 취소할 수 있습니다"
+
+#: View/Elements/withdraw_request.ctp:30
+msgid "Minimum withdrawal amount"
+msgstr "C_164 최소 철회 요금"
+
+#: View/Elements/withdraw_request.ctp:36
+msgid "Maximum withdrawal amount"
+msgstr "C_165 최대 철회 요금"
+
+#: View/Elements/withdraw_request.ctp:42
+msgid "Payment method *"
+msgstr "C_166 결제 방식"
+
+#: View/Elements/withdraw_request.ctp:44
+msgid "Select"
+msgstr "C_167 선택"
+
+#: View/Elements/withdraw_request.ctp:49
+msgid "Payment info *"
+msgstr "C_168 결제 정보"
+
+#: View/Elements/withdraw_request.ctp:56
+msgid "Enter withdraw amount"
+msgstr "C_169 철회 요금을 입력하십시요"
+
+#: View/Elements/withdraw_request.ctp:64
+msgid "Credit-conversion formula"
+msgstr "C_170 포인트 전환식"
+
+#: View/Elements/withdraw_request.ctp:69
+msgid "Your balance Earned Credits"
+msgstr "C_171 얻은 포인트 잔액"
+
+#: View/Elements/withdraw_request.ctp:76
+msgid "Submit"
+msgstr "C_172 제출"
+
+#: View/Elements/ajax/faqs_list.ctp:15
+#: View/Elements/list/credit_ranks.ctp:21
+#: View/Elements/list/faqs.ctp:16
+#: View/Elements/list/top_members.ctp:32
+msgid "No more results found"
+msgstr "C_173 결과를 찾을 수 없습니다"
+
+#: View/Elements/list/credit_actions.ctp:4
+msgid "Credit: number of credits can earn by doing this activity. '0' means that no credit will be be earned by doing this activity."
+msgstr "C_174 포인트: 활동을 통해 얻을 수 있는 포인트의 수입니다. \"0\"은 해당 활동을 수행하여도 포인트를 얻을 수 없음을 의마합니다"
+
+#: View/Elements/list/credit_ranks.ctp:15
+#: View/Ranks/admin_index.ctp:65
+msgid "Number of members at this rank"
+msgstr "C_175 해당 등급의 맴버 수"
+
+#: View/Elements/list/credit_ranks.ctp:16
+#: View/Ranks/admin_create.ctp:26
+#: View/Ranks/admin_index.ctp:66
+msgid "Description"
+msgstr "C_176 명세"
+
+#: View/Elements/list/my_withdraw_request.ctp:8
+#: View/Withdraw/admin_index.ctp:50
+msgid "Amount"
+msgstr "C_177 금액"
+
+#: View/Elements/list/my_withdraw_request.ctp:9
+#: View/Withdraw/admin_index.ctp:49
+msgid "Method"
+msgstr "C_178 방법"
+
+#: View/Elements/list/my_withdraw_request.ctp:10
+#: View/Transactions/admin_index.ctp:40
+msgid "Status"
+msgstr "C_179 상태"
+
+#: View/Elements/list/my_withdraw_request.ctp:11
+msgid "Action"
+msgstr "C_180 활동"
+
+#: View/Elements/list/my_withdraw_request.ctp:30
+msgid "Completed"
+msgstr "C_181 안료됨"
+
+#: View/Elements/list/my_withdraw_request.ctp:30
+msgid "Pending"
+msgstr "C_182 대기중"
+
+#: View/Elements/list/my_withdraw_request.ctp:33
+msgid "Delete"
+msgstr "C_183 삭제"
+
+#: View/Elements/list/top_members.ctp:25
+#: View/Widgets/credits/rank.ctp:27
+msgid "Total Spent Credits"
+msgstr "C_184 총 사용된 포인트"
+
+#: View/Elements/log_text/activity_comment.ctp:6
+msgid "Comment status - \"%s\""
+msgstr "C_185 댓글 상태 - \"%s\""
+
+#: View/Elements/log_text/blog.ctp:4
+#: View/Elements/log_text/event.ctp:4
+#: View/Elements/log_text/friend.ctp:12
+#: View/Elements/log_text/friend_inviter.ctp:12
+#: View/Elements/log_text/give_credits.ctp:12
+#: View/Elements/log_text/group.ctp:4
+#: View/Elements/log_text/group_user.ctp:4
+#: View/Elements/log_text/payment.ctp:10
+#: View/Elements/log_text/topic.ctp:4
+#: View/Elements/log_text/transfer_from.ctp:12
+#: View/Elements/log_text/transfer_to.ctp:12
+#: View/Elements/log_text/video.ctp:4
+#: View/Helper/CreditHelper.php:90;102;111;142;150;162;174;183;197;272
+msgid "deleted"
+msgstr "C_186 삭제되었씁니다"
+
+#: View/Elements/log_text/blog.ctp:7
+msgid "Writing %s blog entry"
+msgstr "C_187 %s님의 블로그 항목 작성중입니다"
+
+#: View/Elements/log_text/comment.ctp:6
+msgid "Commenting %s"
+msgstr "C_188 %s님에게 댓글을 남기는중입니다"
+
+#: View/Elements/log_text/delete_activity_comment.ctp:1
+msgid "Remove comment status"
+msgstr "C_189 댓글 상태 삭제"
+
+#: View/Elements/log_text/delete_blog.ctp:1
+msgid "Remove blog"
+msgstr "C_190 블로그 삭제"
+
+#: View/Elements/log_text/delete_comment.ctp:1
+msgid "Remove comment"
+msgstr "C_191 댓글 삭제"
+
+#: View/Elements/log_text/delete_event.ctp:1
+msgid "Remove event"
+msgstr "C_192 이벤트 삭제"
+
+#: View/Elements/log_text/delete_friend.ctp:1
+msgid "Remove friend"
+msgstr "C_193 친구 삭제"
+
+#: View/Elements/log_text/delete_group.ctp:1
+msgid "Remove group"
+msgstr "C_194 그룹 삭제"
+
+#: View/Elements/log_text/delete_group_user.ctp:1
+msgid "Leaved group "
+msgstr "C_195 그룹을 나갔습니다"
+
+#: View/Elements/log_text/delete_like.ctp:1
+msgid "Remove like"
+msgstr "C_196 좋아요 삭제"
+
+#: View/Elements/log_text/delete_photo.ctp:1
+msgid "Remove photo"
+msgstr "C_197 사진 삭제"
+
+#: View/Elements/log_text/delete_post_new_feed.ctp:1
+msgid "Delete new feed item"
+msgstr "C_198 새 피드 항목 삭제"
+
+#: View/Elements/log_text/delete_topic.ctp:1
+msgid "Remove topic"
+msgstr "C_199 토픽 삭제"
+
+#: View/Elements/log_text/delete_video.ctp:1
+msgid "Remove video"
+msgstr "C_200 동영상 삭제"
+
+#: View/Elements/log_text/event.ctp:7
+msgid "Creating %s event"
+msgstr "C_201 %s님의 이벤트를 생성중입니다"
+
+#: View/Elements/log_text/friend.ctp:15
+msgid "Adding a new friend %s"
+msgstr "C_202 새 친구의 %s를 추가중입니다"
+
+#: View/Elements/log_text/give_credits.ctp:15
+msgid "%s sent %s credits to you"
+msgstr "C_203 %s님이 %s 포인트를 회원님에게 보냈습니다"
+
+#: View/Elements/log_text/group.ctp:7
+msgid "Creating %s group"
+msgstr "C_204 %s님의 그룹을 생성중입니다"
+
+#: View/Elements/log_text/group_user.ctp:7
+msgid "joined group %s"
+msgstr "C_205 %s 그룹에 참여하였습니다"
+
+#: View/Elements/log_text/like.ctp:6
+msgid "Like %s"
+msgstr "C_206 %s를 좋아합니다"
+
+#: View/Elements/log_text/payment.ctp:3
+msgid "Upgrade membership using credit"
+msgstr "C_207 포인트를 사용하여 맴버쉽 얻그레이드"
+
+#: View/Elements/log_text/payment.ctp:13
+msgid "Pay %s with credit"
+msgstr "C_208 %s을 포인트로 결제합니다"
+
+#: View/Elements/log_text/photo.ctp:1
+msgid "Adding 1 photo"
+msgstr "C_209 사진 한 장을 추가합니다"
+
+#: View/Elements/log_text/post_new_feed.ctp:1
+msgid "Post new feed"
+msgstr "C_210 새 피드 게시하기"
+
+#: View/Elements/log_text/refund_credits.ctp:1
+msgid "admin refunded %s credits to you"
+msgstr "C_211 관리자가 회원님에게 %s 포인트를 환불하였습니다"
+
+#: View/Elements/log_text/share.ctp:13
+msgid "Share an item"
+msgstr "C_212 항목 공유"
+
+#: View/Elements/log_text/topic.ctp:7
+msgid "Creating %s topic"
+msgstr "C_213 %s 토픽을 생성중입니다"
+
+#: View/Elements/log_text/transfer_from.ctp:15
+msgid "Receiving credits from %s"
+msgstr "C_214 %s에게로부터 포인트를 받고있습니다"
+
+#: View/Elements/log_text/transfer_to.ctp:15
+msgid "Sending credits to %s"
+msgstr "C_215 %s에게 포인트를 보내는중입니다"
+
+#: View/Elements/log_text/video.ctp:7
+msgid "Posting %s video"
+msgstr "C_21 %s 동영상을 올리는중입니다6"
+
+#: View/Elements/notification/buy_credit.ctp:7
+msgid " sent %s %s to you"
+msgstr "C_21 %s %s을 회원님에게 보냈습니다7"
+
+#: View/Elements/notification/got_badge.ctp:6
+msgid "Congratulations! You've got %s badge."
+msgstr "C_218 축하합니다! %s 뱃지를 획득하셨습니다"
+
+#: View/Elements/notification/withdraw_request.ctp:6
+msgid "%s completed your Withdrawal Request"
+msgstr "C_219 %s이 회원님의 철회 요청을 완료하였습니다"
+
+#: View/Elements/notification/withdraw_request.ctp:8
+msgid "%s cancelled your Withdrawal Request"
+msgstr "C_220 %s이 회원님의 철회 요청을 취소하였습니다"
+
+#: View/Gateway/process.ctp:6
+msgid "Checkout"
+msgstr "C_221 체크아웃"
+
+#: View/Gateway/process.ctp:8
+msgid "credits"
+msgstr "C_222 포인트"
+
+#: View/Gateway/process.ctp:9
+msgid "Your current credit balance"
+msgstr "C_223 현재 포인트 잔액"
+
+#: View/Gateway/process.ctp:14
+msgid "Pay Now"
+msgstr "C_224 지금 결제"
+
+#: View/Gateway/process.ctp:19
+msgid "You don't have enough credit to finish payment process. Please earn more credit or select other payment method to continue"
+msgstr "C_225 포인트가 부족하여 결제를 진행할 수 없습니다. 더 많은 포인트를 얻으시거나 다른 결제 방법을 선택하십시요"
+
+#: View/Gateway/process.ctp:21
+msgid "Select other payment method"
+msgstr "C_226 다른 결제 방식을 선택하십시요"
+
+#: View/Gives/admin_index.ctp:25
+msgid "Enter a member's name"
+msgstr "C_227 맴버의 이름을 입력하십시요"
+
+#: View/Gives/admin_index.ctp:26
+msgid "No results"
+msgstr "C_228 결과를 찾을 수 없습니다"
+
+#: View/Gives/admin_index.ctp:106
+msgid "User groups"
+msgstr "C_229 사용자 그룹"
+
+#: View/Gives/admin_index.ctp:106
+msgid "Specific members"
+msgstr "C_230 특정 맴법"
+
+#: View/Gives/admin_index.ctp:133
+msgid "Select member"
+msgstr "C_231 맴버 선택"
+
+#: View/Gives/admin_index.ctp:139
+msgid "Number of credits"
+msgstr "C_232 포인트 수"
+
+#: View/Gives/admin_index.ctp:145
+msgid "Notify user"
+msgstr "C_233 사용자에게 알림을 보냅니다" 
+
+#: View/Gives/admin_index.ctp:158
+#: View/Widgets/credits/send.ctp:6;74
+msgid "Send Credits"
+msgstr "C_234 포인트 보내기"
+
+#: View/Helper/CreditHelper.php:93;165
+msgid "on feed"
+msgstr "C_235 피드에"
+
+#: View/Helper/CreditHelper.php:95;167
+msgid "comment"
+msgstr "C_236 댓글"
+
+#: View/Helper/CreditHelper.php:97;145;169;186
+msgid "photo"
+msgstr "C_237 사진"
+
+#: View/Helper/CreditHelper.php:292;294
+msgid "Leaved group"
+msgstr "C_238 그룹을 나갔습니다"
+
+#: View/Helper/CreditHelper.php:297
+msgid "Removed"
+msgstr "C_239 제거되었습니다"
+
+#: View/Helper/CreditHelper.php:474
+msgid "Member Name ?"
+msgstr "C_240 맴버의 이름은?"
+
+#: View/Ranks/admin_create.ctp:6
+#: View/Ranks/admin_index.ctp:32
+msgid "Add new rank"
+msgstr "C_241 새 등급 추가"
+
+#: View/Ranks/admin_create.ctp:16
+msgid "Enter text"
+msgstr "C_242 텍스트 입력"
+
+#: View/Ranks/admin_create.ctp:22
+#: View/Sell/admin_create.ctp:15;21
+msgid "Enter number"
+msgstr "C_243 숫자 입력"
+
+#: View/Ranks/admin_create.ctp:32
+msgid "Icon"
+msgstr "C_244 아이콘"
+
+#: View/Ranks/admin_create.ctp:56
+msgid "Notify the members who reached to this new rank"
+msgstr "C_245 해당 새 등급에 도달한 맴버에게 알림을 보냅니다"
+
+#: View/Ranks/admin_create.ctp:73;75
+msgid "Can not upload file more than "
+msgstr "C_246 다음보다 많은 파일을 업로드할 수 없습니다:"
+
+#: View/Ranks/admin_create.ctp:83
+msgid "Drag or click here to upload photo"
+msgstr "C_247 드래그 또는 여기를 클릭하여 사진을 업로드"
+
+#: View/Ranks/admin_index.ctp:43
+#: View/Sell/admin_index.ctp:38
+msgid "Id"
+msgstr "C_248 ID"
+
+#: View/Ranks/admin_index.ctp:44
+msgid "Ranks"
+msgstr "C_249 등급"
+
+#: View/Ranks/admin_index.ctp:70
+msgid "Are you sure you want to delete this rank?"
+msgstr "C_250 해당 등급을 삭제하시겠습니까?"
+
+#: View/Ranks/admin_index.ctp:84
+#: View/Sell/admin_index.ctp:72
+msgid "First"
+msgstr "C_251 처음의"
+
+#: View/Ranks/admin_index.ctp:85
+#: View/Sell/admin_index.ctp:73
+msgid "Prev"
+msgstr "C_252 이전의"
+
+#: View/Ranks/admin_index.ctp:88
+#: View/Sell/admin_index.ctp:76
+msgid "Last"
+msgstr "C_253 마지막"
+
+#: View/Sell/admin_create.ctp:5
+msgid "Edit"
+msgstr "C_254 수정"
+
+#: View/Sell/admin_create.ctp:5
+msgid "Add new"
+msgstr "C_255 새로 추가:"
+
+#: View/Sell/admin_create.ctp:19
+#: View/Transactions/admin_index.ctp:38
+msgid "Price"
+msgstr "C_256 가격"
+
+#: View/Sell/admin_index.ctp:27
+msgid "Add new package"
+msgstr "C_257 새 패키지 추가"
+
+#: View/Sell/admin_index.ctp:39
+msgid "Caption"
+msgstr "C_258 캡션"
+
+#: View/Sell/admin_index.ctp:58
+msgid "Are you sure you want to delete this package?"
+msgstr "C_259 해당 패키지를 삭제하시겠습니까?"
+
+#: View/Transactions/admin_index.ctp:3
+msgid "Transactions Manager"
+msgstr "C_260 거래 관리자"
+
+#: View/Transactions/admin_index.ctp:36
+msgid "Transaction ID"
+msgstr "C_261 거래 ID"
+
+#: View/Transactions/admin_index.ctp:41
+msgid "Gateways"
+msgstr "C_262 게이트웨이"
+
+#: View/Transactions/admin_index.ctp:74
+msgid "No transaction found"
+msgstr "C_263 거래 내역을 찾을 수 없습니다"
+
+#: View/Widgets/credits/badge.ctp:5
+msgid "Credit Rank"
+msgstr "C_264 포인트 등급"
+
+#: View/Widgets/credits/badge.ctp:30
+msgid "Next Rank"
+msgstr "C_265 다음 등급"
+
+#: View/Widgets/credits/buy.ctp:15
+msgid "You can buy credits using your PayPal account, just click on Buy Credits button"
+msgstr "C_266 회원님의 Paypal 계정으로 포인트를 살 수 있습니다. 포인트 구매 버튼을 클릭하십시요"
+
+#: View/Widgets/credits/options.ctp:3
+msgid "Earn Credits"
+msgstr "C_267 포인트 얻기"
+
+#: View/Widgets/credits/options.ctp:12
+msgid "You can earn credits by posting various interesting social media content below, for more information please check %s."
+msgstr "C_268 아래에 다양한 소셜 미디어 콘텐츠를 게시하면 포인트를 얻을 수 있으며 자세한 내용은 %s 을(를) 참조하십시요"
+
+#: View/Widgets/credits/options.ctp:12
+msgid "here"
+msgstr "C_269 여기"
+
+#: View/Widgets/credits/options.ctp:18
+msgid "Write New Entry"
+msgstr "C_270 새 게시글 작성"
+
+#: View/Widgets/credits/options.ctp:25
+msgid "Create New Group"
+msgstr "C_271 새 그룹 생성"
+
+#: View/Widgets/credits/options.ctp:32
+msgid "Create New Event"
+msgstr "C_272 새 이벤트 생성"
+
+#: View/Widgets/credits/options.ctp:46
+msgid "Share New Video"
+msgstr "C_273 새 동영상 공유"
+
+#: View/Widgets/credits/options.ctp:53
+msgid "Create New Topic"
+msgstr "C_274 새 토픽 생성"
+
+#: View/Widgets/credits/rank.ctp:5
+msgid "Credit Statistics"
+msgstr "C_275 포인트 통계"
+
+#: View/Widgets/credits/send.ctp:38
+msgid "Your Friend Name"
+msgstr "C_276 회원님의 친구 이름"
+
+#: View/Widgets/credits/send.ctp:40
+msgid "Member Name"
+msgstr "C_277 맴버 이름"
+
+#: View/Widgets/credits/withdraw.ctp:9
+msgid "You can send money withdrawal request to site admin by clicking on the below button"
+msgstr "C_278 아래 버튼을 클릭하여 사이트 관리자에게 비용 철회 요청을 할 수 있습니다"
+
+#: View/Widgets/credits/withdraw.ctp:12
+msgid "Withdrawal Request"
+msgstr "C_279 철회 요청"
+
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:11
+msgid "Enter your transaction ID"
+msgstr "C_280 회원님의 거래 ID를 입력하십시요"
+
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:17
+msgid "Complete"
+msgstr "C_281 완료"
+
+#: View/Withdraw/admin_index.ctp:30;66
+msgid "Pending request"
+msgstr "C_282 대기중인 요청"
+
+#: View/Withdraw/admin_index.ctp:31;62;67
+msgid "Completed request"
+msgstr "C_283 완료된 요청"
+
+#: View/Withdraw/admin_index.ctp:34
+msgid "Choose status"
+msgstr "C_284 상태 선택"
+
+#: View/Withdraw/admin_index.ctp:48
+msgid "Requester name"
+msgstr "C_285 요청자 이름"
+
+#: View/Withdraw/admin_index.ctp:53
+msgid "Completed date"
+msgstr "C_286 완료된 날짜"
+
+#: View/Withdraw/admin_index.ctp:109
+msgid "No withdraw request found"
+msgstr "C_287 철회 요청을 찾을 수 없습니다"
+
+#: Model/CreditBalances.php:validation for field credit
+#: Model/CreditSells.php:validation for field credit;validation for field price
+msgid "Only numbers allowed"
+msgstr "C_288 숫자만 입력할 수 있습니다"
+
+#: Model/CreditFaq.php:validation for field question
+msgid "Question is required"
+msgstr "C_289 질문이 필요합니다"
+
+#: Model/CreditRanks.php:validation for field name
+msgid "Name is required"
+msgstr "C_290 이름이 필요합니다"
+
+#: Model/CreditRanks.php:validation for field description
+msgid "Description is required"
+msgstr "C_291 서술이 필요합니다"
+
+#: Model/CreditSells.php:validation for field price
+msgid "Price is required"
+msgstr "C_292 가격이 필요합니다"
+
+#: View/CreditSettings/admin_settings.ctp:11
+msgid "Photo"
+msgstr "C_293 사진"
+
+msgid "Your payment is being processed! It will be processed within a few minutes"
+msgstr "C_294 결재가 진행중입니다. 몇 분 안에 처리될 것입니다"

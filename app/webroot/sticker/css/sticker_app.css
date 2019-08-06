@@ -1,0 +1,12 @@
+.sticker_button_comment{
+    right: 29px;
+}
+#stickerModal .mdl-js-button{
+    margin: 10px 0 0 10px;
+}
+.sticker_button_app i{
+    border-right: 0;
+}
+#page_conversations-view .sticker_button_comment{
+    top: 5px;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query>
+            <![CDATA[
+             ALTER TABLE `{PREFIX}users` ADD `sms_verify_phone` VARCHAR(128) NULL DEFAULT NULL AFTER `is_social`;
+			 ALTER TABLE `{PREFIX}users` ADD `sms_verify_checked` BOOLEAN NOT NULL DEFAULT FALSE AFTER `is_social`;
+			 INSERT INTO `{PREFIX}settings` (`group_id`, `label`, `name`, `field`, `value`, `is_hidden`, `version_id`, `type_id`, `value_actual`, `value_default`, `description`, `ordering`, `is_boot`) VALUES
+			 ((SELECT `id` FROM `{PREFIX}setting_groups` WHERE `module_id` = 'SmsVerify'), 'By pass sms verify for all existing members', 'sms_verify_pass_verify', NULL, '', 0, NULL, 'checkbox', '[{"name":"","value":"1","select":"1"}]', '[{"name":"","value":"1","select":"1"}]', 'Please check this option if you want all members who signed up before this plugin is installed can continue using site without go thru sms verification process', 3, 0);
+            ]]>
+            </query>
+        </queries>
+    </version>
+	<version>
+        <number>1.2</number>
+        <queries>
+            <query>
+            <![CDATA[
+             INSERT INTO `{PREFIX}sms_verify_gateways` (`id`, `name`, `element`, `params`, `enable`, `class`) VALUES (NULL, 'Clickatell', 'clickatell', '', 0, 'SmsClickatell');
+            ]]>
+            </query>
+        </queries>
+    </version>
+</versions>

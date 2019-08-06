@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Slider</name>
+    <key>Slider</key>
+    <version>1.31</version>
+    <description>Slider</description>
+    <author>mooSocial - Lich.BT</author>
+    <website>https://moosocial.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+<settings><setting><label>Slider</label><name>slider_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting></settings></info>

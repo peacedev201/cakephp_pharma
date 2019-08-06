@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query> <![CDATA[
+                   INSERT INTO `{PREFIX}tasks` (`title`, `plugin`, `timeout`, `processes`, `semaphore`, `started_last`, `started_count`, `completed_last`, `completed_count`, `failure_last`, `failure_count`, `success_last`, `success_count`, `enable`, `class`) VALUES
+                    ('Activity log clear', 'Activitylog', '86400', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', 'Activitylog_Task_Clear');
+                  ]]>
+            </query>
+        </queries>
+    </version>
+</versions>

@@ -1,0 +1,28 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: AvatarPlugin.php:10
+#: View/AvatarSettings/admin_index.ctp:6;11
+msgid "Settings"
+msgstr ""
+
+#: Controller/AvatarSettingsController.php:7
+msgid "Avatar Setting"
+msgstr ""
+
+#: View/AvatarSettings/admin_index.ctp:5
+msgid "Avatar"
+msgstr ""
+

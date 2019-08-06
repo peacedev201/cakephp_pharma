@@ -1,0 +1,44 @@
+#background_color_preview {
+    width: 50px;
+    height: 34px;
+    border: solid 1px #dddddd;
+}
+#category_icon_preview{
+    margin-top: 5px;
+}
+.sticker_category{
+    padding: 5px;
+    display: inline-block;
+    border-radius: 4px;
+    min-width: 120px;
+    text-align: left;
+}
+.sticker_category img{
+    bottom: 1px;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.sticker_category span{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.btn-up, .btn-up:hover {
+    background: transparent url("images/up.png") no-repeat scroll 0 0 !important;
+    height: 16px;
+    width: 16px;
+}
+.btn-down, .btn-down:hover {
+    background: transparent url("images/down.png") no-repeat scroll 0 0 !important;
+    height: 16px;
+    width: 16px;
+}
+.qq-drop-processing{
+    display: none;
+}
+.ui-tabs .ui-tabs-panel{
+    padding: 1em 0;
+}
+.sample_sticker{
+    text-align: center;
+}

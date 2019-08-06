@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Friend Inviter</name>
+    <key>FriendInviter</key>
+    <version>1.4.1</version>
+    <description>FriendInviter</description>
+    <author>mooSocial - Linh.LHD</author>
+    <website>https://moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>1</addtomenu>
+    <settings><setting><label>Windows Live Appid</label><name>windows_live_appid</name><description></description><type>text</type><values></values></setting><setting><label>Windows Live Secret</label><name>windows_live_secret</name><description></description><type>text</type><values></values></setting><setting><label>Web Account services</label><name>web_account_services</name><description>Select the web account services that you want to be available to users of your site for inviting their friends.</description><type>checkbox</type><values><value><name>Gmail</name><value>google</value><select>1</select></value><value><name>Yahoo</name><value>yahoo</value><select>1</select></value><value><name>Window Live</name><value>live</value><select>1</select></value></values></setting><setting><label>Yahoo Api Key</label><name>yahoo_app_key</name><description></description><type>text</type><values>213123</values></setting><setting><label>Yahoo Shared Secret</label><name>yahoo_shared_secret</name><description></description><type>text</type><values></values></setting><setting><label>Enable Friend Inviter Plugin</label><name>friendinviter_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Maximum selected emails for each invite time</label><name>maximum_emails</name><description></description><type>text</type><values>20</values></setting><setting><label>Automatic adding friends</label><name>friendinviter_automatic_addfriend</name><description>Automatic adding friends after successfully registering</description><type>radio</type><values><value><name>Enable</name><value>1</value><select>1</select></value><value><name>Disable</name><value>0</value><select>0</select></value></values></setting><setting><label>Enable referral code field</label><name>friendinviter_enable_referral_code_field</name><description>Enable referral code field at sign up form</description><type>radio</type><values><value><name>Enable</name><value>1</value><select>0</select></value><value><name>Disable</name><value>0</value><select>1</select></value></values></setting></settings>
+</info>

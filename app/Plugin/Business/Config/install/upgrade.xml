@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.3</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.4</number>
+        <queries>
+            <query>
+            	<![CDATA[  
+            	ALTER TABLE `{PREFIX}business_transactions` ADD `txn` VARCHAR(256) NULL DEFAULT NULL AFTER `admin`;
+            	]]>
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.5</number>
+        <queries>
+            <query>
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `user_id`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `business_location_id`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `claim_id`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `status`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `business_package_id`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `parent_id`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `is_claim`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `total_score`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `lat`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `lng`;
+                ALTER TABLE `{PREFIX}businesses` DROP INDEX `name`;
+                ALTER TABLE `{PREFIX}business_category_items` ADD INDEX (`business_id`);
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.6</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.7</number>
+        <queries>
+            <query>
+                <![CDATA[  
+                ALTER TABLE `{PREFIX}businesses` ADD `cover` VARCHAR(255) NULL DEFAULT NULL AFTER `logo`;
+                ALTER TABLE `{PREFIX}business_times` ADD `next_day` TINYINT(1) NOT NULL DEFAULT '0' AFTER `time_close`;
+                ]]>
+            </query>
+        </queries>
+    </version>
+</versions>

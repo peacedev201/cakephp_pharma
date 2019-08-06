@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('business', 'your verification request for %s is rejected by admin'), $notification['Notification']['params']); ?>

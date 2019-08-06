@@ -1,0 +1,922 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: QuizPlugin.php:65
+#: View/QuizPlugins/admin_index.ctp:29
+msgid "General"
+msgstr ""
+
+#: QuizPlugin.php:66
+#: View/QuizCategories/admin_create.ctp:84
+#: View/QuizSettings/admin_index.ctp:24
+msgid "Settings"
+msgstr ""
+
+#: QuizPlugin.php:67
+#: View/Elements/lists/categories_list.ctp:14
+#: View/QuizCategories/admin_index.ctp:21
+msgid "Categories"
+msgstr ""
+
+#: Controller/QuizCategoriesController.php:20
+msgid "Categories Manager"
+msgstr ""
+
+#: Controller/QuizCategoriesController.php:75
+msgid "Category has been successfully saved"
+msgstr ""
+
+#: Controller/QuizPluginsController.php:37
+#: View/QuizPlugins/admin_index.ctp:17
+msgid "Quizzes Manager"
+msgstr ""
+
+#: Controller/QuizPluginsController.php:49
+msgid "Quiz have been deleted"
+msgstr ""
+
+#: Controller/QuizPluginsController.php:53
+msgid "Quizzes have been deleted"
+msgstr ""
+
+#: Controller/QuizPluginsController.php:82
+msgid "Quiz is not publish, please publish it before approve"
+msgstr ""
+
+#: Controller/QuizQuestionsController.php:37
+#: Controller/QuizzesController.php:167;278
+msgid "Your quiz is pending for approval."
+msgstr ""
+
+#: Controller/QuizQuestionsController.php:143;166
+#: Controller/QuizzesController.php:248
+msgid "Error! Please try again."
+msgstr ""
+
+#: Controller/QuizQuestionsController.php:184
+#: Lib/QuizListener.php:124
+msgid "Are you sure you want to remove this question?"
+msgstr ""
+
+#: Controller/QuizQuestionsController.php:187
+msgid "The quiz needs at least %s questions to be visible to member. Delete this question will auto un-publish this quiz. Are you sure you want to go ahead?"
+msgstr ""
+
+#: Controller/QuizQuestionsController.php:223
+msgid "Entry has been deleted"
+msgstr ""
+
+#: Controller/QuizSettingsController.php:30
+msgid "Quizzes Setting"
+msgstr ""
+
+#: Controller/QuizzesController.php:164
+#: View/Quizzes/create.ctp:33
+msgid "Edit Quiz"
+msgstr ""
+
+#: Controller/QuizzesController.php:171
+#: View/Elements/ajax/home_quiz.ctp:15
+#: View/Elements/ajax/profile_quiz.ctp:21
+#: View/Elements/lists/quizzes_list.ctp:18
+#: View/Elements/lists/quizzes_list_m.ctp:17
+#: View/Quizzes/create.ctp:33
+msgid "Create New Quiz"
+msgstr ""
+
+#: Controller/QuizzesController.php:222
+msgid "Quiz has been added and is pending for admin's approval, then you can publish it."
+msgstr ""
+
+#: Controller/QuizzesController.php:604
+msgid "Please add questions into quiz."
+msgstr ""
+
+#: Controller/QuizzesController.php:618
+msgid "Quiz has been deleted"
+msgstr ""
+
+#: Lib/QuizListener.php:115
+msgid "hours"
+msgstr ""
+
+#: Lib/QuizListener.php:116
+msgid "minutes"
+msgstr ""
+
+#: Lib/QuizListener.php:117
+msgid "seconds"
+msgstr ""
+
+#: Lib/QuizListener.php:118
+msgid "Confirm"
+msgstr ""
+
+#: Lib/QuizListener.php:119
+#: View/Elements/ajax/question_delete.ctp:21
+#: View/Elements/ajax/take_privacy.ctp:42
+#: View/QuizQuestions/ajax_delete.ctp:21
+#: View/QuizQuestions/create.ctp:139
+#: View/Quizzes/create.ctp:162
+msgid "Cancel"
+msgstr ""
+
+#: Lib/QuizListener.php:120
+#: View/Elements/ajax/question_delete.ctp:14
+#: View/Elements/ajax/take_privacy.ctp:14
+#: View/QuizQuestions/ajax_delete.ctp:14
+msgid "Please Confirm"
+msgstr ""
+
+#: Lib/QuizListener.php:121
+msgid "Thank you for taking our quiz!"
+msgstr ""
+
+#: Lib/QuizListener.php:122
+msgid "Are you sure you want to remove this quiz?"
+msgstr ""
+
+#: Lib/QuizListener.php:123
+msgid "Are you sure you want to un-publish this quiz?"
+msgstr ""
+
+#: Lib/QuizListener.php:125
+msgid "You are not finished all questions. Are you sure you want to submit your answers?"
+msgstr ""
+
+#: Lib/QuizListener.php:173;224;242;310
+#: View/Elements/lists/quizzes_list.ctp:16
+#: View/Elements/lists/quizzes_list_m.ctp:15
+#: View/Elements/menu/profile.ctp:14
+msgid "Quizzes"
+msgstr ""
+
+#: Lib/QuizListener.php:271
+msgid "Quiz"
+msgstr ""
+
+#: Lib/QuizListener.php:279
+msgid "Find Quiz"
+msgstr ""
+
+#: Lib/QuizListener.php:291
+msgid "Posted by"
+msgstr ""
+
+#: Model/QuizQuestion.php:44
+msgid "Question must have at least %s answers"
+msgstr ""
+
+#: Model/QuizQuestion.php:49
+msgid "Answer title is required all"
+msgstr ""
+
+#: View/Elements/activity/content/quiz_create_share.ctp:16
+#: View/Elements/activity/share/quiz_create.ctp:9
+#: View/Elements/activity/text/quiz_create.ctp:1
+msgid "added new quizzes"
+msgstr ""
+
+#: View/Elements/activity/text/quiz_create_share.ctp:6
+msgid "shared %s's <a href='%s'>post</a>"
+msgstr ""
+
+#: View/Elements/activity/text/quiz_item_detail_share.ctp:5
+msgid "shared %s's <a href='%s'>quiz</a>"
+msgstr ""
+
+#: View/Elements/activity/text/quiz_take.ctp:1
+msgid "took a quiz"
+msgstr ""
+
+#: View/Elements/activity/text/quiz_take_share.ctp:6
+msgid "shared %s's <a href='%s'>took</a>"
+msgstr ""
+
+#: View/Elements/ajax/home_quiz.ctp:14
+#: View/Elements/ajax/profile_quiz.ctp:17;35
+#: View/Elements/menu/welcome.ctp:14
+#: View/Elements/sidebar/menu.ctp:6
+msgid "My Quizzes"
+msgstr ""
+
+#: View/Elements/ajax/home_quiz.ctp:22
+#: View/Elements/detail/view_participant.ctp:20
+#: View/Elements/lists/quizzes_list.ctp:26
+msgid "Sort by"
+msgstr ""
+
+#: View/Elements/ajax/home_quiz.ctp:28
+#: View/Elements/detail/view_participant.ctp:26
+#: View/Elements/lists/quizzes_list.ctp:32
+msgid "Latest"
+msgstr ""
+
+#: View/Elements/ajax/home_quiz.ctp:31
+#: View/Elements/lists/quizzes_list.ctp:35
+msgid "Taken"
+msgstr ""
+
+#: View/Elements/ajax/home_quiz.ctp:34
+#: View/Elements/lists/quizzes_list.ctp:38
+msgid "Like"
+msgstr ""
+
+#: View/Elements/ajax/profile_quiz.ctp:19;38
+#: View/Elements/sidebar/menu.ctp:7
+msgid "My Recent Taken Quizzes"
+msgstr ""
+
+#: View/Elements/ajax/profile_quiz.ctp:29
+msgid "View by"
+msgstr ""
+
+#: View/Elements/ajax/question_delete.ctp:20
+#: View/QuizQuestions/ajax_delete.ctp:20
+msgid "OK"
+msgstr ""
+
+#: View/Elements/ajax/take_privacy.ctp:23
+msgid "Please select view results privacy"
+msgstr ""
+
+#: View/Elements/ajax/take_privacy.ctp:30
+msgid "Show me in participant list and share results"
+msgstr ""
+
+#: View/Elements/ajax/take_privacy.ctp:31
+msgid "Show me in participant list but don't share results"
+msgstr ""
+
+#: View/Elements/ajax/take_privacy.ctp:32
+msgid "Do not show in participant list"
+msgstr ""
+
+#: View/Elements/ajax/take_privacy.ctp:41
+msgid "Start"
+msgstr ""
+
+#: View/Elements/ajax/take_privacy.ctp:52
+msgid "Importance!"
+msgstr ""
+
+#: View/QuizQuestions/index.ctp:22
+#: View/Quizzes/publish.ctp:40
+msgid "Important!"
+msgstr ""
+
+#: View/Elements/ajax/take_privacy.ctp:52
+msgid "You only can take quiz one time."
+msgstr ""
+
+#: View/Elements/detail/view_content.ctp:20
+#: View/Elements/lists/questions_list.ctp:30
+#: View/Elements/lists/quizzes_list.ctp:71
+#: View/Quizzes/review.ctp:47
+msgid "Edit"
+msgstr ""
+
+#: View/Elements/detail/view_content.ctp:21
+#: View/Elements/lists/questions_list.ctp:35;36
+#: View/Elements/lists/quizzes_list.ctp:72
+#: View/QuizPlugins/admin_index.ctp:48;101
+#: View/Quizzes/create.ctp:35
+#: View/Quizzes/review.ctp:48
+msgid "Delete"
+msgstr ""
+
+#: View/Elements/detail/view_content.ctp:34;35
+msgid "Report"
+msgstr ""
+
+#: View/Elements/detail/view_content.ctp:45
+#: View/Elements/lists/quizzes_list.ctp:78
+#: View/Quizzes/review.ctp:56
+msgid "Posted by %s"
+msgstr ""
+
+#: View/Elements/detail/view_detail.ctp:21
+#: View/Elements/lists/participants_list.ctp:36;37
+msgid "View Results"
+msgstr ""
+
+#: View/Elements/detail/view_detail.ctp:26;27
+msgid "Start Now"
+msgstr ""
+
+#: View/Elements/detail/view_detail.ctp:34
+msgid "Login or register to take quiz or view result"
+msgstr ""
+
+#: View/Elements/detail/view_finish.ctp:15
+msgid "Your score"
+msgstr ""
+
+#: View/Elements/detail/view_finish.ctp:17
+#: View/Elements/detail/view_result.ctp:19
+#: View/Elements/detail/view_taken.ctp:24
+#: View/Elements/detail/view_taken_content.ctp:16
+#: View/Elements/lists/participants_list.ctp:29
+#: View/Helper/QuizHelper.php:70
+msgid "Pass"
+msgstr ""
+
+#: View/Elements/detail/view_finish.ctp:19
+#: View/Elements/detail/view_result.ctp:21
+#: View/Elements/detail/view_taken.ctp:26
+#: View/Elements/detail/view_taken_content.ctp:18
+#: View/Elements/lists/participants_list.ctp:31
+#: View/Helper/QuizHelper.php:72
+msgid "Fail"
+msgstr ""
+
+#: View/Elements/detail/view_list.ctp:28
+msgid "%s take"
+msgid_plural "%s takes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: View/Elements/detail/view_list.ctp:29
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: View/Elements/detail/view_list.ctp:30
+msgid "%s like"
+msgid_plural "%s likes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: View/Elements/detail/view_participant.ctp:17
+#: View/Elements/sidebar/view.ctp:25
+msgid "Participant"
+msgstr ""
+
+#: View/Elements/detail/view_participant.ctp:29
+msgid "Score"
+msgstr ""
+
+#: View/Elements/detail/view_participant.ctp:41
+msgid "Please take quiz before can view list of participants."
+msgstr ""
+
+#: View/Elements/detail/view_participant.ctp:43
+msgid "Login or register to view participant"
+msgstr ""
+
+#: View/Elements/detail/view_result.ctp:17
+#: View/Elements/detail/view_taken.ctp:22
+#: View/Elements/detail/view_taken_content.ctp:14
+msgid "Quiz Results"
+msgstr ""
+
+#: View/Elements/detail/view_result.ctp:31
+#: View/QuizCategories/admin_create.ctp:144
+msgid "Close"
+msgstr ""
+
+#: View/Elements/detail/view_take.ctp:46
+msgid "Submit Your Answers"
+msgstr ""
+
+#: View/Elements/detail/view_take.ctp:47
+msgid "Reset"
+msgstr ""
+
+#: View/Elements/detail/view_taken.ctp:35
+#: View/Elements/detail/view_taken_content.ctp:40
+msgid "Share Your Result"
+msgstr ""
+
+#: View/Elements/lists/participants_list.ctp:21
+msgid "Taken date"
+msgstr ""
+
+#: View/Elements/lists/participants_list.ctp:25
+msgid "Results is private"
+msgstr ""
+
+#: View/Elements/lists/participants_list.ctp:48
+#: View/Elements/lists/quizzes_list.ctp:156
+msgid "No results found"
+msgstr ""
+
+#: View/Elements/lists/questions_list.ctp:53
+#: View/Elements/lists/result_list.ctp:24
+#: View/QuizQuestions/create.ctp:67;91;117
+msgid "Correct Answer"
+msgstr ""
+
+#: View/Elements/lists/questions_list.ctp:66
+#: View/Quizzes/review.ctp:106
+msgid "No questions found"
+msgstr ""
+
+#: View/Elements/lists/quizzes_list.ctp:84
+msgid "Shared with: Everyone"
+msgstr ""
+
+#: View/Elements/lists/quizzes_list.ctp:88
+msgid "Shared with: Friends Only"
+msgstr ""
+
+#: View/Elements/lists/quizzes_list.ctp:92
+msgid "Shared with: Only Me"
+msgstr ""
+
+#: View/Elements/lists/quizzes_list.ctp:101
+#: View/Quizzes/review.ctp:62
+msgid "Not Published"
+msgstr ""
+
+#: View/Elements/lists/quizzes_list.ctp:104
+#: View/Quizzes/review.ctp:65
+msgid "Not Approved"
+msgstr ""
+
+#: View/Elements/lists/quizzes_list.ctp:127
+msgid "People Who Like This"
+msgstr ""
+
+#: View/Elements/lists/quizzes_list.ctp:139
+msgid "People Who DisLike This"
+msgstr ""
+
+#: View/Elements/lists/result_list.ctp:21
+msgid "%s's Answer"
+msgstr ""
+
+#: View/Elements/sidebar/browse.ctp:32
+msgid "Basic"
+msgstr ""
+
+#: View/Elements/sidebar/browse.ctp:39
+msgid "Questions"
+msgstr ""
+
+#: View/Elements/sidebar/browse.ctp:46
+#: View/Quizzes/publish.ctp:47
+#: View/Quizzes/review.ctp:100
+msgid "Publish"
+msgstr ""
+
+#: View/Elements/sidebar/duration.ctp:13
+#: View/Quizzes/create.ctp:96
+msgid "Timer"
+msgstr ""
+
+#: View/Elements/sidebar/menu.ctp:3
+msgid "All Quizzes"
+msgstr ""
+
+#: View/Elements/sidebar/menu.ctp:8
+msgid "Friends' Quizzes"
+msgstr ""
+
+#: View/Elements/sidebar/search.ctp:4
+msgid "Enter keyword to search"
+msgstr ""
+
+#: View/Elements/sidebar/tag.ctp:14
+#: View/Quizzes/create.ctp:123
+msgid "Tags"
+msgstr ""
+
+#: View/Elements/sidebar/view.ctp:22
+#: View/Quizzes/review.ctp:25
+msgid "Detail"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:42
+msgid "Please check at least one user role in the Permissions tab"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:78
+#: View/QuizCategories/admin_index.ctp:61
+msgid "Add New"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:86
+#: View/QuizCategories/admin_index.ctp:80
+msgid "Name"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:88
+msgid "Enter text"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:90
+msgid "You can add translation language after creating category"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:93
+msgid "Translation"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:102
+#: View/QuizCategories/admin_index.ctp:83
+msgid "Header"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:108
+msgid "Category header is top level category which does not allow items to be posted"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:115
+msgid "Parent Category"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:121
+#: View/Quizzes/create.ctp:68
+msgid "Description"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:127
+#: View/QuizCategories/admin_index.ctp:84
+msgid "Active"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:137
+msgid "Post Permission"
+msgstr ""
+
+#: View/QuizCategories/admin_create.ctp:145
+#: View/QuizQuestions/create.ctp:138
+#: View/Quizzes/create.ctp:160
+msgid "Save"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:13
+#: View/QuizPlugins/admin_index.ctp:16
+#: View/QuizSettings/admin_index.ctp:13
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:14
+msgid "Quiz Categories"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:64
+#: View/QuizQuestions/index.ctp:34
+msgid "Save order"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:79
+#: View/QuizPlugins/admin_index.ctp:76
+msgid "ID"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:81
+msgid "Order"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:82
+msgid "Parent"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:85
+msgid "Count"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:86
+msgid "Actions"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:97
+msgid "ROOT"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:98;99
+#: View/QuizPlugins/admin_index.ctp:98;99
+msgid "Yes"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:98;99
+#: View/QuizPlugins/admin_index.ctp:98;99
+msgid "No"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:103
+msgid "Are you sure you want to delete this category? All the items within it will also be deleted. This cannot be undone!"
+msgstr ""
+
+#: View/QuizCategories/admin_index.ctp:105
+msgid "Are you sure you want to delete this category? All parent of sub-category it will also be changed to ROOT. This cannot be undone!!"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:39
+msgid "Pending"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:40;81
+msgid "Approved"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:41
+msgid "All"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:47
+msgid "Are you sure you want to delete these quizzes"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:56
+msgid "Search by title"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:77
+#: View/QuizQuestions/create.ctp:59;83;109
+#: View/Quizzes/create.ctp:48
+msgid "Title"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:78
+msgid "Author"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:79
+#: View/Quizzes/create.ctp:58
+msgid "Category"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:80
+msgid "Date"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:82
+msgid "Published"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:83
+msgid "Action"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:101
+msgid "Are you sure you want to delete this quiz?"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:103
+msgid "Approve"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:103
+msgid "Are you sure you want to approve this quiz?"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:117
+msgid "Previous"
+msgstr ""
+
+#: View/QuizPlugins/admin_index.ctp:119
+msgid "Next"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:13
+msgid "Quiz Enabled"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:14
+msgid "Questions Count"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:15
+msgid "Choose minimal count of questions which user should add into quiz"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:16
+msgid "Answers Count"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:17
+msgid "Choose minimal count of answers which user should add into question"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:18
+msgid "Item Per Pages"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:19
+msgid "How many quizzes will be shown per page?"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:20
+msgid "Enable Hashtag"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:21
+msgid "Auto Approval"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:22
+msgid "Auto-approve new submitted quiz"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:23
+msgid "Create/Edit Quiz"
+msgstr ""
+
+#: View/QuizPlugins/admin_phrase.ctp:24
+msgid "View Quiz"
+msgstr ""
+
+#: View/QuizQuestions/create.ctp:31
+#: View/QuizQuestions/index.ctp:36
+msgid "Create New Question"
+msgstr ""
+
+#: View/QuizQuestions/create.ctp:31
+msgid "Edit Question"
+msgstr ""
+
+#: View/QuizQuestions/create.ctp:38
+msgid "Question"
+msgstr ""
+
+#: View/QuizQuestions/create.ctp:48
+msgid "Answer"
+msgstr ""
+
+#: View/QuizQuestions/create.ctp:69;93;119
+msgid "Remove Answer"
+msgstr ""
+
+#: View/QuizQuestions/create.ctp:128
+msgid "Add New Answer"
+msgstr ""
+
+#: View/QuizQuestions/index.ctp:24
+#: View/Quizzes/publish.ctp:42
+msgid "All participants will be auto removed if you made any changes related to questions of this quiz and is pending for admin's approval again."
+msgstr ""
+
+#: View/QuizQuestions/index.ctp:26
+#: View/Quizzes/publish.ctp:44
+msgid "All participants will be auto removed if you made any changes related to questions of this quiz."
+msgstr ""
+
+#: View/QuizQuestions/index.ctp:32
+msgid "Quiz Questions"
+msgstr ""
+
+#: View/QuizQuestions/index.ctp:42
+msgid "You need to create at least %s questions to be able to publish this quiz"
+msgstr ""
+
+#: View/QuizSettings/admin_index.ctp:14
+msgid "Quiz Setting"
+msgstr ""
+
+#: View/Quizzes/create.ctp:37
+#: View/Quizzes/publish.ctp:26
+msgid "View"
+msgstr ""
+
+#: View/Quizzes/create.ctp:39
+#: View/Quizzes/publish.ctp:28
+msgid "Review"
+msgstr ""
+
+#: View/Quizzes/create.ctp:78
+msgid "Thumbnail"
+msgstr ""
+
+#: View/Quizzes/create.ctp:79
+msgid "Thumbnail only display on quiz listing and share quiz to facebook"
+msgstr ""
+
+#: View/Quizzes/create.ctp:97
+msgid "Timer format is minutes"
+msgstr ""
+
+#: View/Quizzes/create.ctp:103
+msgid "Or"
+msgstr ""
+
+#: View/Quizzes/create.ctp:105
+msgid "Unlimit Timer"
+msgstr ""
+
+#: View/Quizzes/create.ctp:112
+msgid "Pass Score"
+msgstr ""
+
+#: View/Quizzes/create.ctp:113
+msgid "Pass Score format is percent"
+msgstr ""
+
+#: View/Quizzes/create.ctp:124
+msgid "Separated by commas or space"
+msgstr ""
+
+#: View/Quizzes/create.ctp:134
+msgid "Participant Privacy"
+msgstr ""
+
+#: View/Quizzes/create.ctp:139
+msgid "Everyone"
+msgstr ""
+
+#: View/Quizzes/create.ctp:140
+msgid "Friends Only"
+msgstr ""
+
+#: View/Quizzes/create.ctp:141
+msgid "Only Me"
+msgstr ""
+
+#: View/Quizzes/create.ctp:154
+msgid "Upload Queued Files"
+msgstr ""
+
+#: View/Quizzes/create.ctp:157
+msgid "Toggle Attachments Uploader"
+msgstr ""
+
+#: View/Quizzes/index.ctp:15
+msgid "Browse"
+msgstr ""
+
+#: View/Quizzes/publish.ctp:24
+msgid "Quiz Publish"
+msgstr ""
+
+#: View/Quizzes/publish.ctp:35
+msgid "Click on `Un-Publish` button to un-publish this quiz."
+msgstr ""
+
+#: View/Quizzes/publish.ctp:36
+msgid "Un-Publish"
+msgstr ""
+
+#: View/Quizzes/publish.ctp:38
+msgid "Please click on `Publish` button to publish your quiz to all members."
+msgstr ""
+
+#: View/Quizzes/publish.ctp:50
+msgid "Please add questions to quiz before being able to publish it."
+msgstr ""
+
+#: View/Widgets/quizzes/mostTaken.ctp:16
+msgid "Most Taken Quizzes"
+msgstr ""
+
+#: View/Widgets/quizzes/popular.ctp:16
+msgid "Popular Quizzes"
+msgstr ""
+
+#: Model/Quiz.php:validation for field title
+msgid "Title is required"
+msgstr ""
+
+#: Model/Quiz.php:validation for field category_id
+msgid "Category is required"
+msgstr ""
+
+#: Model/Quiz.php:validation for field description
+msgid "Description is required"
+msgstr ""
+
+#: Model/Quiz.php:validation for field timer
+msgid "Enter a valid timer"
+msgstr ""
+
+#: Model/Quiz.php:validation for field pass_score
+msgid "Pass Score a number between 1 and 100"
+msgstr ""
+
+#: Model/Quiz.php:validation for field tags
+msgid "No special characters ( /,?,#,%,...) allowed in Tags"
+msgstr ""
+
+#: Model/QuizQuestion.php:validation for field title
+msgid "Question title is required"
+msgstr ""
+
+#: Model/QuizQuestion.php:validation for field answers
+msgid "checkAnswers"
+msgstr ""
+
+#: Model/QuizQuestion.php:validation for field answers
+msgid "Please choose correct answer"
+msgstr ""
+
+#: version 1.3
+msgid "Drag or click here to upload files"
+msgstr ""
+
+msgid "Result"
+msgstr ""
+

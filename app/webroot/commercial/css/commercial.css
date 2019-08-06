@@ -1,0 +1,216 @@
+#formAds > ul {
+    display: block;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#formAds > h1 {
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.view_all {
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 10px;
+}
+#ads_placement_id.form-control {
+    float: left;
+    width: 93%;
+}
+.col-md-1.age_and {
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+#createButton {
+    background: #5bb75b none repeat scroll 0 0;
+    color: #fff;
+}
+.ads_widgets ,
+[id^='ads_widgets_'] {
+    padding: 10px;
+}
+#center .ads_widgets ,
+#center [id^="ads_widgets_"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 0 7px 14px;
+}
+.ads_title .col-md-12 > a {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.col-md-12.ads_description > p {
+    height: 50px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.ads-placement h1 {
+    color: #3e3e3e;
+    font-size: 19px;
+    margin: 10px 0;
+    min-height: 45px;
+    padding: 0 35px 0 0;
+}
+.ads-placement-price {
+    color: #d0021b;
+    font-size: 17px;
+    font-weight: 500;
+}
+.ads-placement {
+    margin-bottom: 30px;
+}
+.commercial_item img ,
+.ads_image img {
+    max-width: none;
+}
+.header-wrapper .ads_image > a {
+    display: inline-block;
+}
+.header-wrapper .ads_title > div {
+    text-align: center;
+}
+.header-wrapper .ads_image {
+    text-align: center;
+}
+.header-wrapper .ads-background {
+    /*    padding: 0 !important;
+        width: 100% !important;*/
+}
+.header-wrapper .ads-background .commercial_wrapper{
+    margin: auto;
+}
+#center .row.commercial_item {
+    display: block;
+    text-align: center;
+}
+#center .row.commercial_item a {
+    display: block;
+    width: 100%;
+}
+#center .row.commercial_item a img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+.col-md-6.see_your_ads_here {
+    text-align: right;
+}
+.ads_report_from {
+    height: 34px;
+    line-height: 34px;
+}
+.ads_report_to{
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+}
+.ads-report-search {
+    border: 1px solid #ccc;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 20px;
+    padding: 0 10px !important;
+}
+.row.commercial_item + .row.commercial_item  {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+#center .row.commercial_item a {
+    display: inline-block;
+}
+.ads-background {
+    background: none !important;
+    border:none !important;
+}
+.background_block{
+    background: #fff none repeat scroll 0 0 !important;
+    overflow: hidden;
+}
+.commercial_wrapper {
+    margin: 0 auto;
+}
+.ads_placement .banner_title {
+    display: block;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.clear-left
+{
+    clear:left;
+}
+.ads-search.text-right {
+    overflow: hidden;
+    margin: 10px 0;
+}
+.btn-search-ads {
+    height: 34px;
+}
+.ads-image > img {
+    width: 150px;
+    float:left;
+    margin-right:15px;
+}
+.ads-info {
+    overflow: hidden;
+    display: block;
+}
+.ads_detail_content {
+    position: relative;
+    padding-right: 25px;
+}
+.ads-search-form {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ads-title-header {
+    overflow: hidden;
+    padding: 5px;
+}
+.ads-wrapper {
+    display: block;
+    clear: both;
+}
+.ads_detail_content {
+    padding-top: 10px;
+}
+.ads_detail_content .ads_message {
+    padding: 0 0 10px;
+}
+.ads_detail_content .ads-info .list_option {
+    top: 10px;
+}
+@media (min-width: 992px){}
+@media (max-width: 991px){
+    .header-wrapper .ads-background {
+        display: none;
+    }
+    .ads-image > img {
+        width: 100px;
+        float: left;
+        margin-right: 10px;
+        max-width: 100%;
+    }
+    .bar-content.ads-content {
+        background: #fff;
+    }
+    .ads_report_to {
+        text-align: left;
+    }
+    .ads-report-search {
+        margin-left: 0;
+    }
+    #adsModal .modal-dialog {
+        width: auto !important;
+    }
+    .report_data {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,199 @@
+.biz-review-mini > li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.biz-mini-info {
+    overflow: hidden;
+}
+.biz-review-mini .review_star {
+    display: block;
+    margin: 5px 0;
+}
+.review_star {
+    line-height: 1.5;
+    background-color: transparent;
+}
+.biz-review-text {
+    margin-left: 60px;
+    overflow: hidden;
+}
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.biz-review-mini .user_avatar_large {
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+}
+.biz-review-mini > li:last-child {
+    border: medium none;
+}
+.featured_business_item_photo {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    height: 165px;
+}
+.business-info {
+    padding: 10px 8px;
+}
+.business_name > a {
+    color: #246ea3;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.featured_busieness .business_category {
+    height: 33px;
+    overflow: hidden;
+}
+.flex-direction-nav a::before {
+    font-size: 16px !important;
+    opacity: 0.53 !important;
+}
+.flex-direction-nav .flex-prev:hover:not(.flex-disabled), .flex-direction-nav .flex-prev {
+    background: #ebebeb none repeat scroll 0 0;
+    height: 24px;
+    left: auto !important;
+    line-height: 27px;
+    opacity: 1 !important;
+    right: 50px;
+    text-align: center !important;
+    top: -30px;
+    width: 24px;
+    z-index: 1 !important;
+}
+.flex-direction-nav .flex-next:hover:not(.flex-disabled), .flex-direction-nav .flex-next {
+    background: #ebebeb none repeat scroll 0 0;
+    height: 24px;
+    left: auto !important;
+    line-height: 27px;
+    opacity: 1 !important;
+    right: 20px !important;
+    text-align: center !important;
+    top: -30px;
+    width: 24px;
+    z-index: 1 !important;
+}
+#leftnav .flex-direction-nav .flex-prev:hover:not(.flex-disabled),#leftnav .flex-direction-nav .flex-prev ,#leftnav .flex-direction-nav .flex-next:hover:not(.flex-disabled),#leftnav .flex-direction-nav .flex-next ,
+#right .flex-direction-nav .flex-prev:hover:not(.flex-disabled),#right .flex-direction-nav .flex-prev ,#right .flex-direction-nav .flex-next:hover:not(.flex-disabled),#right .flex-direction-nav .flex-next {
+    top:-13px;
+}
+.bussiness-list > li, .bussiness-list li.full_content.p_m_10 {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px;
+}
+.bussiness-list .img_wrapper2 {
+    height: 100px;
+    width: 100px;
+}
+.bussiness-list .bus_my_review_info, .bussiness-list .blog-info {
+    margin-left: 120px;
+    margin-right: 30px;
+}
+.feed_bus_review {
+    margin-top: 5px;
+}
+.bussiness-list .blog-description-truncate {
+    line-height: 1.5;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+.bussiness-list > li:last-child, .bussiness-list li.full_content.p_m_10:last-child {
+    border: medium none;
+}
+.bussiness-list .list_option {
+    top: 10px !important;
+}
+.review_star > span {
+    vertical-align: middle;
+}
+.star-rating {
+    vertical-align: middle;
+}
+.list_option button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #dfdfdf;
+    box-shadow: none;
+    color: #ccc;
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 3px;
+    text-align: center;
+}
+.list_option button i {
+    display: block;
+    font-size: 13px;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 0;
+}
+.featured_busieness_label {
+    color: #ff0000;
+    font-size: 14px;
+    text-transform: uppercase;
+    top: 0 !important;
+}
+#profile-content .profile_plg_menu {
+    display: none;
+}
+@media (max-width:991px) {
+    .bussiness-list .bus_my_review_info, .bussiness-list .blog-info {
+        margin-left: 70px;
+    }
+}
+.my-business-status {
+    color: #bd0000;
+    font-size: 17px;
+    margin: 0 0 10px;
+}
+.my-business-status.status-approved {
+    color: #247bba;
+}
+.my-business-status.status-pending {
+    color: #f5a623;
+}
+.feed_bus_review .review_star{
+    background: none;
+    width: 100%;
+    text-align: left;
+}
+.feed_bus_review .review_star .star-rating{
+    text-align: left;
+    /*    width: 100%;*/
+}
+.feed_bus_review .review_star span{
+    color: #000000;
+}
+.share-content .review_star ,
+.activity_feed_content_text .review_star{
+    display: block;
+    background: none;
+    width: auto;
+    text-align: left;
+}
+.biz-review-mini .review_star{
+    text-align: left;
+}
+.btn_show_map i{
+    vertical-align: middle;
+}
+#home-content .profile_plg_menu.menu-bus-main {
+    display: none;
+}
+@media (max-width: 767px){
+    /*.feed_bus_review .review_star .star-rating {
+        width: 100%;
+    }*/
+    .activity_feed_content_text .review_star {
+        display: block;
+        background: none;
+        height: auto;
+    }
+}

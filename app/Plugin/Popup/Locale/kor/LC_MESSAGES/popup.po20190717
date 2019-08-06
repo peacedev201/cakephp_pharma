@@ -1,0 +1,146 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "H0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin/Popup/Controller/PopupSettingsController.php:8
+#: Plugin/Popup/View/PopupSettings/admin_index.ctp:5
+msgid "Popup Setting"
+msgstr "H0002팝업설정"
+
+#: Plugin/Popup/Controller/PopupsController.php:18
+#: Plugin/Popup/View/Popups/admin_index.ctp:5
+msgid "Popups Manager"
+msgstr "H0003팝업관리자"
+
+#: Plugin/Popup/Controller/PopupsController.php:51
+#: Plugin/Popup/View/Popups/admin_create.ctp:7
+msgid "Edit Popup"
+msgstr "H0004팝업편집"
+
+#: Plugin/Popup/Controller/PopupsController.php:57
+#: Plugin/Popup/View/Popups/admin_create.ctp:10
+#: Plugin/Popup/View/Popups/admin_index.ctp:23
+msgid "Create New Popup"
+msgstr "H0005신규 팝업 생성"
+
+#: Plugin/Popup/Controller/PopupsController.php:112
+msgid "You have popup for all page. Please disable this popup to continue"
+msgstr "H0006회원님은 모든 페이지에서 팝업을 허용하셨습니다. 계속하시려면, 해당 팝업을 비활성화하십시요."
+
+#: Plugin/Popup/Controller/PopupsController.php:129
+msgid "Can't add more than two active popups into the selected page each time. Please disable one of them to continue."
+msgstr "H0007매번 특정 페이지에 팝업을 이중으로 만들수 없습니다. 계속하시려면, 하나를 불홠성화해 주십시요."
+
+#: Plugin/Popup/Controller/PopupsController.php:140
+msgid "You are having %s popup enable. Do you want disable all popup?"
+msgstr "H0008팝업 %s 건을 활성화하셨습니다. 전체 팝업을 불활성화하시겠습니까?"
+
+#: Plugin/Popup/Controller/PopupsController.php:202
+msgid "Popup has been successfully saved"
+msgstr "H0009팝업 저장이 완료되었습니다."
+
+#: Plugin/Popup/Controller/PopupsController.php:223
+msgid "Popups have been deleted"
+msgstr "H0010팝업이 삭제되었습니다."
+
+#: Plugin/Popup/Controller/PopupsController.php:242
+msgid "Disable Successfully! Click \"Save\" button again to save the new popup!"
+msgstr "H0011불활성화완료되었습니다! \"Save\" 버튼을 다시 클릭하시면 새 팝업이 저장됩니다.!"
+
+#: Plugin/Popup/View/Elements/popup.ctp:29
+msgid "I got it, do not show it again."
+msgstr "H0012파악완료, 다시 보지않음."
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:53
+msgid "Please check at least one user role in the Permissions tab"
+msgstr "H0013권한설정 탭에서 최소 Please check at least one user role in the Permissions tab"
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:57
+msgid "Popup title can not empty"
+msgstr "H0014팝업 제목은 필수 입력사항입니다."
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:68
+msgid "Popup content can not empty"
+msgstr "H0015팝업내용은 필수입력사하입니다."
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:203
+msgid "Popup Title"
+msgstr "H0016팝업제목"
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:209
+msgid "Appear at"
+msgstr "H0017노출시기"
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:216
+msgid "Popup Content"
+msgstr "H0018팝업내용"
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:242
+msgid "Appear one-time only"
+msgstr "H0019한번만 노출"
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:250
+msgid "Show option for member to select to hide it"
+msgstr "H0020숨김 기능을 맴버에서 보여줍니다."
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:258
+#: Plugin/Popup/View/Popups/admin_index.ctp:47
+msgid "Enable"
+msgstr "H0021활성화"
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:263
+msgid "User roles can view?"
+msgstr "H0022사용자 등급이 볼 수 있습니까"
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:17
+msgid "Are you sure you want to delete these popups"
+msgstr "H0023이 팝업들을 삭제하시겠습니까?"
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:18
+msgid "Delete"
+msgstr "H0024삭제"
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:30
+msgid "Search by title"
+msgstr "H0025제목으로 검색"
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:45
+msgid "Title"
+msgstr "H0026제목"
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:46
+msgid "Appear At"
+msgstr "H0027노출시기"
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:64
+msgid "Yes"
+msgstr "H0028예"
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:67
+msgid "No"
+msgstr "H0029아니오"
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:78
+msgid "Previous"
+msgstr "H0030이전"
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:80
+msgid "Next"
+msgstr "H0031다음"
+
+msgid "Close"
+msgstr "H0032닫기"
+
+msgid "Popup"
+msgstr "H0033팝업"

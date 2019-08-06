@@ -1,0 +1,324 @@
+.feedbacks_list_vote_button {
+    float: left;
+    margin-right: 8px;
+    overflow: hidden;
+    text-align: center;
+    width: 110px;
+}
+.feedback_votes_counts {
+    border: 1px solid #dbdbdb;
+    font-size: 16px;
+    height: 110px;
+    padding: 16px 0 0;
+    text-align: center;
+    text-transform: capitalize;
+    width: 110px;
+    position: relative;
+}
+.feedback_vote_button {
+    clear: none;
+    display: inline-block;
+    text-align: center;
+}
+.feedback_votes_counts p {
+    display: block;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.feedback_votes_counts p.feedback_pending{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.feedback_featured{
+    float: right;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.feedback_status_box {
+    background-color: transparent;
+    clear: both;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 0;
+}
+.feedback_category_box {
+    margin: 5px 0px 5px 0px;
+}
+.feedback_comment_box{
+    overflow: hidden;
+}
+.feedback_attached_img{
+    padding: 10px 0 10px 0;
+}
+.feedback_attached_img img{
+    max-width: 150px;
+}
+a.feedback_status {
+    color: #000;
+    font-weight: bold;
+    padding: 2px 3px;
+}
+.feedback_view_votes {
+    float: left;
+    height: 110px;
+    margin: 0 16px 0 0;
+    overflow: hidden;
+    text-align: center;
+    width: 110px;
+}
+.feedback_vote_button a:hover ,
+.feedback_vote_button a, .feedback_vote_button a:visited {
+    text-decoration: none;
+    background-color: #5bb75b;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 8px;
+    padding: 0;
+    width: 110px;
+}
+.feedback-button {
+    background-position: -3px 50% !important;
+    margin: -50px -6px 0 0;
+    background-position: 2px 50%;
+    background-repeat: no-repeat !important;
+}
+.feedback-button {
+    width: 39px;
+    height: 98px;
+    background-image: url(/moosocial-220/feedback/img/common/feedback_button1.png) !important;
+    text-indent: -9000px;
+    border: 1px solid #000;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    display: block;
+    z-index: 99;	
+}
+.feedback-right{
+    right: 0;
+}
+.feedback-left{
+    left: 0;
+}
+.comment.feedback-comment {
+    margin-left: 126px;
+}
+.comment.feedback-comment > a {
+    color: #257bba;
+    font-size: 18px;
+}
+.comment_message.feedback_comment_box {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+}
+.feedback-detail-wrapper {
+    margin-left: 126px;
+}
+.feedback-detail-wrapper .date a ,
+.feedback-detail-wrapper .date {
+    /*    color: rgba(0, 0, 0, 0.26);
+        font-size: 13px;*/
+    padding-top: 5px;
+    text-decoration: none;
+}
+.feedback-detail-wrapper .date {
+    width:100%;
+    display: block;
+}
+#center .feedback-detail-wrapper h1 {
+    color: #257bba;
+    font-size: 18px;
+    margin: 0;
+    widows: 80%;
+}
+.feedback-detail-wrapper .feedback_vote_button > a {
+    width: 110px;
+}
+.feedback-description {
+    /*    color: rgba(0, 0, 0, 0.54);
+        font-size: 14px;
+        line-height: 22px;*/
+    margin: 20px 0;
+}
+.feedback_attached_img > div {
+    margin-bottom: 8px;
+}
+.feedback_attached_img > div > .date {
+    color: rgba(0, 0, 0, 0.26);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.feedback_featured {
+    /*    background-image: url("../img/image/featured.png");
+        background-repeat: no-repeat;
+        background-size: 100% auto;*/
+    background: #e63c20 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 10px;
+    font-style: normal;
+    height: auto;
+    margin: 0;
+    padding: 2px 13px;
+    position: absolute;
+    right: -17px;
+    text-transform: uppercase;
+    top: 11px;
+    width: auto;
+
+    transform: rotate(43deg) ;
+    -webkit-transform: rotate(43deg) ;
+    -moz-transform: rotate(43deg) ;
+    -o-transform: rotate(43deg) ;
+    -ms-transform: rotate(43deg) ;
+}
+.comment.create-feedback-list > a {
+    color: #257bba;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.comment.create-feedback-list > .date + div {
+    margin: 8px 0;
+}
+.list-feedback.comment_wrapper > li + li {
+    border-top: medium none;
+    padding-top: 0;
+}
+.list-feedback #createButton.button.button-action {
+    background: transparent none repeat scroll 0 0;
+    color: rgba(0, 0, 0, 0.26);
+    font-size: 24px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 50px;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
+}
+.create_form_feedback label {
+    color: rgba(0, 0, 0, 0.54);
+    float: none;
+    font-size: 14px;
+    margin-bottom: 13px;
+    width: 100%;
+}
+.feedback-app label {
+    margin-bottom: 0 !important;
+}
+.create_form_feedback .list6 li {
+    margin-bottom: 18px;
+    padding: 0;
+    position: relative;
+}
+.button.button-action.post-feedback {
+    /*    background: #4a90e2 none repeat scroll 0 0;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: none;*/
+}
+.cancel-post-feedback {
+    /*    height: 32px;
+        line-height: 32px;
+        background: #e5e5e5;
+        border-radius: 4px;
+        color: #000;
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: none;*/
+}
+.create_form_feedback > p.create-desc {
+    color: #000;
+    font-size: 14px;
+}
+.feedback-detail-wrapper .list_option .btn.btn-action {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px !important;
+}
+.feedback-detail-wrapper .list_option .dropdown {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.feedback-detail-wrapper .list_option button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #dfdfdf;
+    box-shadow: none;
+    color: #ccc;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 3px;
+}
+.main-feedback-creator {
+    /*border: 1px solid #979797;*/
+    float: left;
+    height: 50px;
+    margin-right: 16px;
+    width: 50px;
+}
+.box2_feedback > .box_content {
+    padding: 16px;
+}
+.menu.box_content.feedback-creator-name {
+    height: 50px;
+    /*line-height: 50px;*/
+    overflow: hidden;
+    padding: 0;
+}
+.menu.box_content.feedback-creator-name > a {
+    /*color: rgba(0, 0, 0, 0.54);*/
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu.box_content.feedback-creator-name > a {
+    /*color: rgba(0, 0, 0, 0.54);*/
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.feedback_list_widget{
+    margin: 0;
+    padding: 0;
+}
+.feedback_list_widget li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+.feedback_list_widget li:last-child{
+    margin-bottom: 0;
+}
+.feedback_list_widget li:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.feedback_list_widget li .feedbacks_list_vote_button,
+.feedback_list_widget li .feedback_votes_counts{
+    width: 80px;
+    height: 80px;
+}
+.feedback_list_widget li .feedback_votes_counts p{
+    font-size: 23px;
+}
+.feedback_list_widget li .comment.feedback-comment{
+    margin-left: 96px;
+}

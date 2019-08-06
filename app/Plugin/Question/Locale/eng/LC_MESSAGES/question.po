@@ -1,0 +1,971 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: Plugin/Question/QuestionPlugin.php:1288
+#: Plugin/Question/View/Questions/admin_index.ctp:8;28
+msgid "Question Manager"
+msgstr ""
+
+#: Plugin/Question/QuestionPlugin.php:1289
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:32
+msgid "Settings"
+msgstr ""
+
+#: Plugin/Question/QuestionPlugin.php:1290
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:9
+#: Plugin/Question/View/Widgets/question/menu.ctp:16
+msgid "Categories"
+msgstr ""
+
+#: Plugin/Question/QuestionPlugin.php:1291
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:15
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:8
+#: Plugin/Question/View/Widgets/question/menu.ctp:10
+msgid "Badges"
+msgstr ""
+
+#: Plugin/Question/QuestionPlugin.php:1292
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:16
+#: Plugin/Question/View/Questions/create.ctp:102
+#: Plugin/Question/View/Widgets/question/browse_tags.ctp:5
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:76
+msgid "Tags"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionBadgesController.php:4
+msgid "Badge Manager"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionBadgesController.php:43
+msgid "Badge has been successfully saved"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionBadgesController.php:54
+msgid "Badge has been deleted"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionCategoriesController.php:14
+msgid "Categories Manager"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionCategoriesController.php:77
+msgid "Category has been successfully saved"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionCategoriesController.php:116
+msgid "Category has been deleted"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionSettingsController.php:7
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:22
+msgid "Question Settings"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionTagsController.php:6
+msgid "Tag Manager"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionTagsController.php:79
+msgid "Tag has been successfully saved"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionTagsController.php:90
+msgid "Tag has been deleted"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionTagsController.php:103
+msgid "Tag's status has been changed"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionsController.php:6
+#: Plugin/Question/Lib/QuestionListener.php:31;206;245
+#: Plugin/Question/View/Elements/menu_profile.ctp:1
+#: Plugin/Question/View/Questions/browse.ctp:5;10
+#: Plugin/Question/View/Widgets/question/profile_info.ctp:13
+#: View/Themed/MooApp/Plugin/Question/Elements/menu_profile.ctp:1
+#: View/Themed/MooApp/Plugin/Question/Questions/browse.ctp:5;10
+msgid "Questions"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionsController.php:71;1294
+msgid "Question has been deleted"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionsController.php:123
+msgid "Question has been approved"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionsController.php:375
+msgid "Answer has been successfully added"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionsController.php:1038
+#: Plugin/Question/View/Questions/browse.ctp:6
+#: Plugin/Question/View/Questions/create.ctp:18
+#: Plugin/Question/View/Widgets/question/browse.ctp:31
+#: View/Themed/MooApp/Plugin/Question/Questions/browse.ctp:6
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:18
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:31
+msgid "Create a new question"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionsController.php:1056
+#: Plugin/Question/View/Questions/create.ctp:18
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:18
+msgid "Edit question"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionsController.php:1269
+msgid "Question has been successfully added"
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionsController.php:1272
+msgid "Question has been successfully added and is pending for admin's approval."
+msgstr ""
+
+#: Plugin/Question/Controller/QuestionsController.php:1276
+msgid "Question has been successfully updated"
+msgstr ""
+
+#: Plugin/Question/Lib/QuestionListener.php:296
+#: Plugin/Question/View/Questions/admin_index.ctp:127
+msgid "Are you sure you want to delete this question?"
+msgstr ""
+
+#: Plugin/Question/Lib/QuestionListener.php:319;337;363
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:6
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:3
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:21
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:9
+#: Plugin/Question/View/Questions/admin_index.ctp:7
+msgid "Question"
+msgstr ""
+
+#: Plugin/Question/Lib/QuestionListener.php:378
+msgid "Find Question"
+msgstr ""
+
+#: Plugin/Question/Lib/QuestionListener.php:382
+msgid "Posted by"
+msgstr ""
+
+#: Plugin/Question/Model/QuestionContentHistory.php:40
+msgid "Edited"
+msgstr ""
+
+#: Plugin/Question/Model/QuestionTag.php:27
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:3
+msgid "Unapproved"
+msgstr ""
+
+#: Plugin/Question/Model/QuestionTag.php:29
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:4
+#: Plugin/Question/View/Questions/admin_index.ctp:74
+msgid "Approved"
+msgstr ""
+
+#: Plugin/Question/Model/QuestionTag.php:31
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:5
+msgid "Denied"
+msgstr ""
+
+#: Plugin/Question/View/Elements/comment.ctp:30
+#: Plugin/Question/View/Questions/view.ctp:156;260
+#: View/Themed/MooApp/Plugin/Question/Elements/comment.ctp:30
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:155;256
+msgid "Show edit history"
+msgstr ""
+
+#: Plugin/Question/View/Elements/comments.ctp:15
+#: View/Themed/MooApp/Plugin/Question/Elements/comments.ctp:15
+msgid "show %s more comments"
+msgstr ""
+
+#: Plugin/Question/View/Elements/comments.ctp:19
+#: Plugin/Question/View/Questions/view.ctp:91;105;194;208
+#: View/Themed/MooApp/Plugin/Question/Elements/comments.ctp:19
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:90;104;190;204
+msgid "You must be logged in to perform this action"
+msgstr ""
+
+#: Plugin/Question/View/Elements/comments.ctp:19
+#: View/Themed/MooApp/Plugin/Question/Elements/comments.ctp:19
+msgid "You do not have enough points to comment"
+msgstr ""
+
+#: Plugin/Question/View/Elements/comments.ctp:20
+#: View/Themed/MooApp/Plugin/Question/Elements/comments.ctp:20
+msgid "Add comment"
+msgstr ""
+
+#: Plugin/Question/View/Elements/menu_welcome.ctp:1
+#: Plugin/Question/View/Widgets/question/browse.ctp:16
+#: Plugin/Question/View/Widgets/question/menu.ctp:7
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:16
+msgid "My Questions"
+msgstr ""
+
+#: Plugin/Question/View/Elements/activity/content/question_create.ctp:16
+#: Plugin/Question/View/Elements/activity/content/question_create_share.ctp:37
+#: Plugin/Question/View/Elements/activity/content/question_item_detail_share.ctp:24
+#: Plugin/Question/View/Elements/activity/share/question_create.ctp:27
+#: Plugin/Question/View/Elements/activity/share/question_item_detail.ctp:15
+#: Plugin/Question/View/Elements/lists/block_questions.ctp:11
+#: Plugin/Question/View/Elements/lists/questions.ctp:27
+#: Plugin/Question/View/Questions/admin_index.ctp:41
+#: Plugin/Question/View/Widgets/question/browse.ctp:96
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:96
+msgid "Featured"
+msgstr ""
+
+#: Plugin/Question/View/Elements/activity/content/question_create_share.ctp:18
+#: Plugin/Question/View/Elements/activity/share/question_create.ctp:8
+#: Plugin/Question/View/Elements/activity/text/question_create.ctp:2
+msgid "created a new question"
+msgstr ""
+
+#: Plugin/Question/View/Elements/activity/text/answer_question.ctp:2
+msgid "answered %s's question: %s"
+msgstr ""
+
+#: Plugin/Question/View/Elements/activity/text/question_item_detail_share.ctp:5
+msgid "question"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:34
+#: Plugin/Question/View/Questions/admin_index.ctp:75
+msgid "Action"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:37
+#: Plugin/Question/View/Questions/view.ctp:39
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:38
+msgid "Edit Question"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:38
+#: Plugin/Question/View/Questions/view.ctp:40
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:39
+msgid "Delete Question"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:72
+msgid "Views"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:72
+msgid "View"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:75
+#: Plugin/Question/View/Widgets/question/profile_info.ctp:14
+msgid "Answers"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:75
+msgid "Answer"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:78
+#: Plugin/Question/View/Questions/view.ctp:176
+#: Plugin/Question/View/Widgets/question/browse.ctp:95
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:175
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:95
+msgid "Votes"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:78
+msgid "Vote"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:106
+#: Plugin/Question/View/Questions/view.ctp:161
+#: Plugin/Question/View/Widgets/question/browse.ctp:50;60
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:160
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:50;60
+msgid "in"
+msgstr ""
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:119
+#: Plugin/Question/View/Questions/browse.ctp:17;28
+#: Plugin/Question/View/Widgets/question/browse.ctp:104
+#: View/Themed/MooApp/Plugin/Question/Questions/browse.ctp:17;28
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:104
+msgid "No more results found"
+msgstr ""
+
+#: Plugin/Question/View/Elements/notification/answer_question.ctp:2
+msgid "answered your question"
+msgstr ""
+
+#: Plugin/Question/View/Elements/notification/best_answer_question.ctp:2
+msgid "your answer selected as the best answer by"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:8
+msgid "Create new tag"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:9
+msgid "Leave comment"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:10
+msgid "Vote up"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:11
+msgid "Vote down"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:179
+msgid "Ask a question"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:183
+msgid "Answer a question"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:187
+msgid "Question received a vote up"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:191
+msgid "Answer received a vote up"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:195
+msgid "Have your answer selected as the best answer"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:199
+msgid "Answer received a vote down"
+msgstr ""
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:203
+msgid "Question received a vote down"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:36
+msgid "Add a new Badge"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:43
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:40
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:68
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:63
+msgid "Name"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:45
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:70
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:33
+msgid "Enter text"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:49
+msgid "Background Color"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:55
+msgid "Text Color"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:61
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:42
+msgid "Point"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:67
+msgid "Permission"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:78
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:131
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:42
+#: Plugin/Question/View/Questions/view.ctp:328
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:324
+msgid "Close"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:79
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:132
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:43
+#: Plugin/Question/View/Questions/create.ctp:120
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:91
+msgid "Save"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:5
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:2
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:20
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:8
+#: Plugin/Question/View/Questions/admin_index.ctp:6
+msgid "Plugins Manager"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:7
+msgid "Question Badges"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:28
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:47
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:29
+msgid "Add New"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:39
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:62
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:55
+msgid "ID"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:41
+msgid "Color"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:43
+msgid "Permissions"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:44
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:69
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:58
+msgid "Actions"
+msgstr ""
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:68
+msgid "Are you sure to delete this badge"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:22
+msgid "Please check at least one user role in the Permissions tab"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:61
+msgid "Add a new Category"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:74
+msgid "You can add translation phrase after creating category"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:77
+msgid "Translation"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:85
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:66
+msgid "Header"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:91
+msgid "Category header is top level category<br />which does not allow items to be posted"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:105
+#: Plugin/Question/View/Questions/create.ctp:41
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:56
+msgid "Description"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:112
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:67
+#: Plugin/Question/View/Questions/view.ctp:175
+#: Plugin/Question/View/Widgets/question/browse.ctp:94
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:174
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:94
+msgid "Active"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:123
+msgid "Post Permission"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:4
+msgid "Question Categories"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:50
+msgid "Save order"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:64
+msgid "Order"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:65
+msgid "Parent"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:68
+msgid "Count"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:81;82
+msgid "Yes"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:81;82
+msgid "No"
+msgstr ""
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:84
+msgid "Are you sure to delete this category? All the items within it will also be deleted. This cannot be undone!"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:2
+msgid "Create/Edit Question"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:3
+msgid "View Question"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:4
+msgid "Enable question"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:5
+msgid "Limit number of tags per question"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:6
+msgid "File type allowed"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:7
+msgid "Item per page"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:8
+msgid "Enable hashtag for question"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:9
+msgid "Auto Approval When A Question Added"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:10
+msgid "Limit number of answers that a user can post per question"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:11
+msgid "Number point receive when user vote for an answer"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:12
+msgid "Number point receive when user vote for a question"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:13
+msgid "Number point receive when their answer has been marked as best answer"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:14
+msgid "Number point receive when user create a new question"
+msgstr ""
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:15
+msgid "Number point receive when user create a new answer"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:23
+msgid "Add a new Tag"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:31
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:56
+#: Plugin/Question/View/Questions/admin_index.ctp:33;68
+#: Plugin/Question/View/Questions/create.ctp:32
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:51
+msgid "Title"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:10
+msgid "Question Tags"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:40;57
+msgid "Status"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:49
+#: Plugin/Question/View/Questions/admin_index.ctp:62
+msgid "Search"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:73
+msgid "Are you sure you want to approve this tag?"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:73
+msgid "approve"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:73
+msgid "Are you sure you want to deny this tag?"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:73
+msgid "deny"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:75
+msgid "Are you sure you want to delete this tag?"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:84
+#: Plugin/Question/View/Questions/admin_index.ctp:143
+#: Plugin/Question/View/Questions/view.ctp:273
+#: Plugin/Question/View/Widgets/question/browse.ctp:110
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:34
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:269
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:110
+msgid "Prev"
+msgstr ""
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:86
+#: Plugin/Question/View/Questions/admin_index.ctp:145
+#: Plugin/Question/View/Questions/view.ctp:275
+#: Plugin/Question/View/Widgets/question/browse.ctp:112
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:36
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:271
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:112
+msgid "Next"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:37;71
+#: Plugin/Question/View/Questions/create.ctp:60
+msgid "Category"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:42;52;53;111;122;185
+msgid "yes"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:42;52;53;117;122;190
+msgid "no"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:51;73
+msgid "Visible"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:69
+msgid "Member"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:70
+msgid "Created date"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:72
+msgid "Feature"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:95;161
+msgid "feature"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:101;166
+msgid "unfeature"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:125
+msgid "Approve"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:125
+msgid "Are you sure you want to approve this question?"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:127
+msgid "Delete"
+msgstr ""
+
+#: Plugin/Question/View/Questions/admin_index.ctp:134
+msgid "No question found"
+msgstr ""
+
+#: Plugin/Question/View/Questions/ajax_show_user_favorite.ctp:3
+#: View/Themed/MooApp/Plugin/Question/Questions/ajax_show_user_favorite.ctp:3
+msgid "People who favorited this question"
+msgstr ""
+
+#: Plugin/Question/View/Questions/content_history.ctp:3
+#: View/Themed/MooApp/Plugin/Question/Questions/content_history.ctp:3
+msgid "Edit History"
+msgstr ""
+
+#: Plugin/Question/View/Questions/create.ctp:5
+#: Plugin/Question/View/Questions/view.ctp:20
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:5
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:19
+msgid "Drag or click here to upload files"
+msgstr ""
+
+#: Plugin/Question/View/Questions/create.ctp:6
+msgid "Drag or click here to upload photo"
+msgstr ""
+
+#: Plugin/Question/View/Questions/create.ctp:69
+msgid "Thumbnail"
+msgstr ""
+
+#: Plugin/Question/View/Questions/create.ctp:85
+msgid "Privacy"
+msgstr ""
+
+#: Plugin/Question/View/Questions/create.ctp:90
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:66
+msgid "Everyone"
+msgstr ""
+
+#: Plugin/Question/View/Questions/create.ctp:91
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:67
+msgid "Friends Only"
+msgstr ""
+
+#: Plugin/Question/View/Questions/create.ctp:92
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:68
+msgid "Only Me"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:18
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:17
+msgid "Are you sure to remove this comment?"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:19
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:18
+msgid "Are you sure to remove this answer?"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:55;56
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:54;55
+msgid "Report Question"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:70
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:69
+msgid "Share"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:81
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:80
+msgid "Question is pending admin's approval."
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:90;193
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:89;189
+msgid "This is useful."
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:91;194
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:90;190
+msgid "You do not have enough points to vote up"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:104;207
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:103;203
+msgid "This is not useful"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:105;208
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:104;204
+msgid "You do not have enough points to vote down"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:172
+#: Plugin/Question/View/Widgets/question/top_answer_users.ctp:14
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:171
+msgid "Answer(s)"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:177
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:176
+msgid "Oldest"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:216
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:212
+msgid "Mark as best answer"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:234
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:230
+msgid "Edit Answer"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:235
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:231
+msgid "Delete Answer"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:243
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:239
+msgid "Best answer"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:272
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:268
+msgid "First"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:276
+#: Plugin/Question/View/Widgets/question/browse.ctp:93
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:272
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:93
+msgid "Last"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:282
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:278
+msgid "Your Answer"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:296
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:292
+msgid "Post answer"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:312
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:308
+msgid "Edit answer"
+msgstr ""
+
+#: Plugin/Question/View/Questions/view.ctp:329
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:325
+msgid "Save changes"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:13
+#: Plugin/Question/View/Widgets/question/menu.ctp:6
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:13
+msgid "Friends' Questions"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:19
+#: Plugin/Question/View/Widgets/question/menu.ctp:8
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:19
+msgid "My Favorite Questions"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:22
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:22
+msgid "Browse Questions"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:47
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:47
+msgid "Search tag"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:57
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:57
+msgid "Search keyword"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:67
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:67
+msgid "Search category"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:78
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:78
+msgid "Enter keyword to search"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:84
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:84
+msgid "Select category"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:97
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:97
+msgid "Unanswered"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:11
+msgid "Points System"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:29
+msgid "Badges System"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:45
+msgid "Points require"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:50
+msgid "You can"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:4
+msgid "Ratings"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:20
+msgid "point(s)"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:22
+msgid "question(s)"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:24
+msgid "answer(s)"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/menu.ctp:4
+msgid "All Questions"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/menu.ctp:11
+msgid "Top Q&A Contributors"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/profile_info.ctp:12
+msgid "Total point"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/profile_info.ctp:15
+msgid "Best Answers"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/tags.ctp:17
+msgid "See more tags"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/top_point_users.ctp:14
+msgid "Point(s)"
+msgstr ""
+
+#: Plugin/Question/View/Widgets/question/top_users.ctp:14
+msgid "Question(s)"
+msgstr ""
+
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:43
+msgid "Upload Question Thumb"
+msgstr ""
+
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:44
+msgid "Click thumb to upload"
+msgstr ""
+
+msgid "By pass force login"
+msgstr ""

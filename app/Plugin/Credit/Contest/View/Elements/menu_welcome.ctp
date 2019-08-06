@@ -1,0 +1,1 @@
+<li><a id="my-contests" data-url="<?php echo $this->request->base?>/contests/browse/home" rel="home-content" href="<?php echo $this->request->base?>/home/index/tab:my-contests"><i class="material-icons">highlight</i> <?php echo __d('contest','My Contests')?> <span class="badge_counter"><?php echo $count;?></span></a></li>

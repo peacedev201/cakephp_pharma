@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `{PREFIX}feedback`;
+DROP TABLE IF EXISTS `{PREFIX}feedback_albums`;
+DROP TABLE IF EXISTS `{PREFIX}feedback_blockips`;
+DROP TABLE IF EXISTS `{PREFIX}feedback_blockusers`;
+DROP TABLE IF EXISTS `{PREFIX}feedback_categories`;
+DROP TABLE IF EXISTS `{PREFIX}feedback_images`;
+DROP TABLE IF EXISTS `{PREFIX}feedback_severities`;
+DROP TABLE IF EXISTS `{PREFIX}feedback_statuses`;
+DROP TABLE IF EXISTS `{PREFIX}feedback_votes`;
+DELETE FROM `{PREFIX}acos` WHERE `group` = 'feedback';

@@ -1,0 +1,1 @@
+<?php echo __d('credit','admin refunded %s credits to you',$item['CreditLogs']['credit']) ?>

@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('business', ' started following "%s"'), $notification['Notification']['params']); ?>

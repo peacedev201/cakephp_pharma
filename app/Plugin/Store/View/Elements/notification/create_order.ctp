@@ -1,0 +1,1 @@
+<?php echo __d('store', 'received a new order'); ?>

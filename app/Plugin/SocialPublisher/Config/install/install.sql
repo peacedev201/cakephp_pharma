@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `{PREFIX}sp_sharings` (
+    `id` INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    `user_id` INT(11) NOT NULL DEFAULT 0,
+    `facebook_sharing` TINYINT(1) NOT NULL DEFAULT 0,
+    `twitter_sharing` TINYINT(1) NOT NULL DEFAULT 0,
+    KEY USER_ID (user_id)
+)ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+

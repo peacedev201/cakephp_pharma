@@ -1,0 +1,18 @@
+div.content_popup ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+div.content_popup ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+div.content_popup ul ul, div.content_popup ol ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+div.content_popup ol ol, div.content_popup ul ol {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+    margin-left: 15px;
+}

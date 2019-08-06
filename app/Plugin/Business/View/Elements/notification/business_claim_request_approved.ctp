@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('business', ' approved your claim request for "%s"'), $notification['Notification']['params']); ?>

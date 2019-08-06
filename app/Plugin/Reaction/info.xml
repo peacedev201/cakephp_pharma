@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Reaction</name>
+    <key>Reaction</key>
+    <version>1.3</version>
+    <description>Reaction plugin for moosocial 3.0.2+</description>
+    <author>Trung.nd</author>
+    <website>socialloft</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+    <settings><setting><label>Reaction</label><name>reaction_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Love</label><name>reaction_love_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Haha</label><name>reaction_haha_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Wow</label><name>reaction_wow_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Sad</label><name>reaction_sad_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Angry</label><name>reaction_angry_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Cool</label><name>reaction_cool_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>1</select></value><value><name>Enable</name><value>1</value><select>0</select></value></values></setting><setting><label>Confused</label><name>reaction_confused_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>1</select></value><value><name>Enable</name><value>1</value><select>0</select></value></values></setting></settings></info>

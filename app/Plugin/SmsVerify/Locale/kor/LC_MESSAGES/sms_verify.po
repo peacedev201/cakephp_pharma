@@ -1,0 +1,195 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "X0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: SmsVerifyPlugin.php:28
+#: Controller/SmsVerifysController.php:24
+#: View/SmsVerifys/admin_index.ctp:6;13
+msgid "Users Manager"
+msgstr "X0002회원관리자"
+
+#: SmsVerifyPlugin.php:29
+#: View/SmsVerifyGateways/admin_index.ctp:22
+msgid "Gateways"
+msgstr "X0003게이트웨이"
+
+#: SmsVerifyPlugin.php:30
+#: View/SmsVerifySettings/admin_index.ctp:22
+msgid "Settings"
+msgstr "X0004설정"
+
+#: Controller/SmsVerifyGatewaysController.php:6
+#: View/SmsVerifyGateways/admin_index.ctp:9
+msgid "Sms Verify Gateways"
+msgstr "X0005 문자 인증 게이트웨이"
+
+#: Controller/SmsVerifyGatewaysController.php:20
+msgid "Gateway has been actived"
+msgstr "X0006 게이트웨이가 활성화 되었습니다."
+
+#: Controller/SmsVerifyGatewaysController.php:39
+msgid "Gateway has been updated"
+msgstr "X0007 게이트웨이가 업데이트 되었습니다."
+
+#: Controller/SmsVerifySettingsController.php:7
+#: View/SmsVerifySettings/admin_index.ctp:12
+msgid "Sms Verify Settings"
+msgstr "X0008 문자 인증 설정"
+
+#: Controller/SmsVerifysController.php:32
+msgid "This user has been verified"
+msgstr "X0009 이 사용자는 인증되었습니다."
+
+#: Controller/SmsVerifysController.php:41
+msgid "This user has been unverified"
+msgstr "X0010 이 사용자는 인증 해제 되었습니다."
+
+#: Controller/SmsVerifysController.php:92
+msgid "Someone has already registered this phone number, please use another one."
+msgstr "X0011 누군가 이 번호로 이미 등록하였습니다. 다른 번호를 사용해주십시요."
+
+#: Controller/SmsVerifysController.php:101
+msgid "Your code"
+msgstr "X0012 코드"
+
+#: Controller/SmsVerifysController.php:123
+msgid "Code invalidate"
+msgstr "X0013 잘못된 코드"
+
+#: Controller/SmsVerifysController.php:134
+msgid "You has been verified with sms"
+msgstr "X0014 문자 인증이 완료되었습니다."
+
+#: Lib/SmsVerifyListener.php:25
+msgid "Please confirm your phone number."
+msgstr "X0015 휴대폰 번호를 확인하여 주십시요."
+
+#: Lib/SmsVerifyListener.php:77;106
+msgid "Please confirm your phone number"
+msgstr "X0016 휴대폰 번호를 확인하여 주십시요."
+
+#: View/Elements/gateway/twilio.ctp:2
+msgid "From"
+msgstr "X0017 부터"
+
+#: View/Elements/gateway/twilio.ctp:8
+msgid "Sid"
+msgstr "X0018 Sid"
+
+#: View/Elements/gateway/twilio.ctp:14
+msgid "Token"
+msgstr "X0019 토큰"
+
+#: View/SmsVerifyGateways/admin_edit.ctp:25
+msgid "Edit gateway"
+msgstr "X0020 게이트웨이 편집"
+
+#: View/SmsVerifyGateways/admin_edit.ctp:43
+msgid "Close"
+msgstr "X0021 닫기"
+
+#: View/SmsVerifyGateways/admin_edit.ctp:44
+msgid "Save"
+msgstr "X0022 저장"
+
+#: View/SmsVerifyGateways/admin_index.ctp:2
+#: View/SmsVerifySettings/admin_index.ctp:2
+msgid "Enable Sms Verify"
+msgstr "X0023 문자 인증 활성화"
+
+#: View/SmsVerifyGateways/admin_index.ctp:7
+#: View/SmsVerifySettings/admin_index.ctp:10
+#: View/SmsVerifys/admin_index.ctp:4
+msgid "Plugins Manager"
+msgstr "X0024 플러그인 관리자"
+
+#: View/SmsVerifyGateways/admin_index.ctp:8
+#: View/SmsVerifySettings/admin_index.ctp:11
+#: View/SmsVerifys/admin_index.ctp:5
+msgid "Sms Verify"
+msgstr "X0025 문지 인증"
+
+#: View/SmsVerifyGateways/admin_index.ctp:26
+msgid "Name"
+msgstr "X0026 이름"
+
+#: View/SmsVerifyGateways/admin_index.ctp:27
+#: View/SmsVerifys/admin_index.ctp:51
+msgid "Action"
+msgstr "X0027 활동"
+
+#: View/SmsVerifyGateways/admin_index.ctp:38
+msgid "Edit"
+msgstr "X0028 편집"
+
+#: View/SmsVerifyGateways/admin_index.ctp:40
+msgid "Activated"
+msgstr "X0029 활성화됨"
+
+#: View/SmsVerifyGateways/admin_index.ctp:42
+msgid "Activate as Default"
+msgstr "X0030 기본값으로 활성화"
+
+#: View/SmsVerifyGateways/admin_index.ctp:42
+msgid "Are you sure you want to active this gateway?"
+msgstr "X0031 이 게이트웨이를 활성화 하시겠습니까?"
+
+#: View/SmsVerifyGateways/admin_index.ctp:50
+msgid "No gateway found"
+msgstr "X0032 게이트웨이를 찾지 못했습니다."
+
+#: View/SmsVerifySettings/admin_index.ctp:3;5
+msgid "Enable captcha"
+msgstr "X0033 captcha 활성화"
+
+#: View/SmsVerifySettings/admin_index.ctp:4
+msgid "By pass sms verify for all existing members"
+msgstr "X0034 모든 맴버의 문자 인증 우회"
+
+#: View/SmsVerifys/admin_index.ctp:45
+msgid "Phone Number"
+msgstr "X0035 전화번호"
+
+#: View/SmsVerifys/admin_index.ctp:48
+msgid "Sms verified"
+msgstr "X0036 문자 인증 완료"
+
+#: View/SmsVerifys/admin_index.ctp:91
+msgid "Are you sure you want to unverify this user?"
+msgstr "X0037 이 사용자를 인증 해제 하시겠습니까?"
+
+#: View/SmsVerifys/admin_index.ctp:91
+msgid "UnVerify"
+msgstr "X0038 인증 해제"
+
+#: View/SmsVerifys/admin_index.ctp:93
+msgid "Are you sure you want to verify this user?"
+msgstr "X0039 이 사용자를 인증 하시겠습니까?"
+
+#: View/SmsVerifys/admin_index.ctp:93
+msgid "Verify"
+msgstr "X0040 인증"
+
+#: View/SmsVerifys/index.ctp:2
+msgid "Verify Phone Number"
+msgstr "X0041 전화번호 인증"
+
+msgid "Area Code + Phone Number"
+msgstr "X0042 지역 번호 + 전화번호"
+
+msgid "Please check this option if you want all members who signed up before this plugin is installed can continue using site without go thru sms verification process"
+msgstr "X0043 이 플러그인을 설치하기 전에 등록한 모든 회원이 문자 인증 절차없이 사이트를 계속 사용할 수 있게 하려면 이 옵션을 선택하십시요."
+
+msgid "Please click the verify phone number"
+msgstr "X0044 전화번호 인증을 클릭하여 주십시요."

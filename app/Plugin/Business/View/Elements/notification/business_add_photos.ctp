@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('business', ' added photos on %s'), $notification['Notification']['params']); ?>

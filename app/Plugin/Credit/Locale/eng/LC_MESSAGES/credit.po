@@ -1,0 +1,1341 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: CreditPlugin.php:417
+#: Controller/CreditsController.php:19
+#: View/Credits/admin_index.ctp:5;11
+#: View/Credits/admin_transaction.ctp:5
+msgid "List members"
+msgstr ""
+
+#: CreditPlugin.php:418
+#: View/CreditSettings/admin_index.ctp:15;31
+msgid "Settings"
+msgstr ""
+
+#: CreditPlugin.php:419
+#: View/CreditSettings/admin_settings.ctp:45
+msgid "Credit settings"
+msgstr ""
+
+#: CreditPlugin.php:420
+#: Controller/SellController.php:20
+#: View/Sell/admin_index.ctp:5;11
+msgid "Credit Packages"
+msgstr ""
+
+#: CreditPlugin.php:421
+#: Controller/RanksController.php:46
+#: View/Ranks/admin_index.ctp:5;25
+msgid "Manage ranks"
+msgstr ""
+
+#: CreditPlugin.php:422
+#: View/Transactions/admin_index.ctp:21
+msgid "Manage Transactions"
+msgstr ""
+
+#: CreditPlugin.php:423
+#: View/CreditFaqs/admin_create.ctp:7
+#: View/CreditFaqs/admin_index.ctp:17
+msgid "Manage FAQ"
+msgstr ""
+
+#: CreditPlugin.php:424
+#: Controller/GivesController.php:11
+#: View/Gives/admin_index.ctp:3;90
+msgid "Give mass credits"
+msgstr ""
+
+#: Controller/CreditFaqsController.php:49;65
+#: View/CreditFaqs/admin_create.ctp:3
+#: View/CreditFaqs/admin_index.ctp:3
+msgid "FAQ Manager"
+msgstr ""
+
+#: Controller/CreditFaqsController.php:83
+#: Controller/CreditsController.php:381
+msgid "FAQ has been successfully saved"
+msgstr ""
+
+#: Controller/CreditFaqsController.php:92
+msgid "FAQ has been deleted"
+msgstr ""
+
+#: Controller/CreditSettingsController.php:32;171
+msgid "Credit Setting"
+msgstr ""
+
+#: Controller/CreditSettingsController.php:49
+msgid "Currency exchange is required."
+msgstr ""
+
+#: Controller/CreditSettingsController.php:53
+msgid "Currency exchange is numeric."
+msgstr ""
+
+#: Controller/CreditSettingsController.php:225
+msgid "Saved successfully"
+msgstr ""
+
+#: Controller/CreditsController.php:53
+msgid "successfully changed"
+msgstr ""
+
+#: Controller/CreditsController.php:88
+#: View/CreditSettings/admin_settings.ctp:4;63
+#: View/Credits/admin_edit.ctp:12
+#: View/Elements/list/credit_actions.ctp:15
+#: View/Elements/list/credit_ranks.ctp:14
+#: View/Ranks/admin_create.ctp:20
+#: View/Ranks/admin_index.ctp:64
+#: View/Sell/admin_create.ctp:13
+#: View/Transactions/admin_index.ctp:39
+#: View/Widgets/credits/send.ctp:65
+msgid "Credit"
+msgstr ""
+
+#: Controller/CreditsController.php:126
+#: View/Credits/admin_index.ctp:66
+#: View/Credits/my_credits.ctp:3
+msgid "Transactions"
+msgstr ""
+
+#: Controller/CreditsController.php:131
+#: View/Credits/index.ctp:30
+#: View/Credits/tab_faqs.ctp:6
+msgid "FAQs"
+msgstr ""
+
+#: Controller/CreditsController.php:136
+#: View/Ranks/index.ctp:3
+msgid "Credit Ranks"
+msgstr ""
+
+#: Controller/CreditsController.php:149
+msgid "Withdrawal request form"
+msgstr ""
+
+#: Controller/CreditsController.php:154
+msgid "My withdrawal request"
+msgstr ""
+
+#: Controller/CreditsController.php:159
+#: View/Credits/index.ctp:33
+msgid "Action types and credits"
+msgstr ""
+
+#: Controller/CreditsController.php:166
+msgid "Top members"
+msgstr ""
+
+#: Controller/CreditsController.php:398
+msgid "Your Friend is required"
+msgstr ""
+
+#: Controller/CreditsController.php:400
+#: Controller/GivesController.php:47
+#: Model/CreditRanks.php:validation for field credit
+#: Model/CreditSells.php:validation for field credit
+msgid "Credit is required"
+msgstr ""
+
+#: Controller/CreditsController.php:405
+#: Controller/GivesController.php:52
+msgid "Credit is invalid, please enter number"
+msgstr ""
+
+#: Controller/CreditsController.php:438
+#: Controller/GivesController.php:97
+msgid "Credits have been successfully sent."
+msgstr ""
+
+#: Controller/CreditsController.php:441
+msgid "Current balance credits not enough"
+msgstr ""
+
+#: Controller/CreditsController.php:505
+msgid "Send withdraw request fail.Current balance credits not enough"
+msgstr ""
+
+#: Controller/CreditsController.php:521
+msgid "Your Withdrawal request has been sent. Your current usable balance is %s. We will contact you soon. Thank you!"
+msgstr ""
+
+#: Controller/CreditsController.php:524
+msgid "Send withdraw request fail"
+msgstr ""
+
+#: Controller/CreditsController.php:532;563
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:6
+msgid "Withdrawal request"
+msgstr ""
+
+#: Controller/CreditsController.php:576
+#: Controller/WithdrawController.php:62
+msgid "Are you sure want to delete this request, requested amount will be added back to member current credit balance."
+msgstr ""
+
+#: Controller/CreditsController.php:578
+#: Controller/WithdrawController.php:64
+msgid "Are you sure want to delete this request?  No credit will be returned to member credit balance as the transaction already done."
+msgstr ""
+
+#: Controller/CreditsController.php:600
+#: Controller/WithdrawController.php:113
+msgid "Change status withdrawal request successfully"
+msgstr ""
+
+#: Controller/CreditsController.php:603
+#: Controller/WithdrawController.php:116
+msgid "Change status withdrawal request fail"
+msgstr ""
+
+#: Controller/GatewayController.php:14
+msgid "Please login or register"
+msgstr ""
+
+#: Controller/GatewayController.php:64
+msgid "Payment is done! Your current credit balance: %s"
+msgstr ""
+
+#: Controller/GatewayController.php:77
+#: View/Credits/success.ctp:3
+msgid "Payment is done, please check your credits balance."
+msgstr ""
+
+#: Controller/GatewayController.php:79
+#: View/Credits/cancel.ctp:3
+msgid "Buy Credits unsuccessful!"
+msgstr ""
+
+#: Controller/GivesController.php:45
+msgid "Select member is required"
+msgstr ""
+
+#: Controller/RanksController.php:76
+msgid "Rank has been successfully saved"
+msgstr ""
+
+#: Controller/RanksController.php:85
+msgid "Rank has been deleted"
+msgstr ""
+
+#: Controller/SellController.php:49
+msgid "Item has been successfully saved"
+msgstr ""
+
+#: Controller/SellController.php:58
+msgid "Item has been deleted"
+msgstr ""
+
+#: Controller/TransactionsController.php:44
+msgid "Manage Credit Transactions"
+msgstr ""
+
+#: Controller/WithdrawController.php:49
+#: View/Withdraw/admin_index.ctp:3;17
+msgid "Withdraw request"
+msgstr ""
+
+#: Lib/CreditListener.php:47;74
+msgid "Your account is not enough credit to make transactions"
+msgstr ""
+
+#: Lib/CreditListener.php:400
+msgid "Widthdraw amount must between Maximum and Minimum"
+msgstr ""
+
+#: Lib/CreditListener.php:401
+msgid "You do not have enough credit to post, please earn more credits to continue!"
+msgstr ""
+
+#: View/CreditFaqs/admin_create.ctp:2
+#: View/CreditFaqs/admin_index.ctp:2
+#: View/CreditSettings/admin_index.ctp:14
+#: View/CreditSettings/admin_settings.ctp:39
+#: View/Credits/admin_index.ctp:4
+#: View/Credits/admin_transaction.ctp:4
+#: View/Gives/admin_index.ctp:2
+#: View/Ranks/admin_index.ctp:4
+#: View/Sell/admin_index.ctp:4
+#: View/Transactions/admin_index.ctp:2
+#: View/Withdraw/admin_index.ctp:2
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/CreditFaqs/admin_create.ctp:12
+msgid "Edit Faqs"
+msgstr ""
+
+#: View/CreditFaqs/admin_create.ctp:12
+msgid "Add Faqs"
+msgstr ""
+
+#: View/CreditFaqs/admin_create.ctp:19
+#: View/CreditFaqs/admin_index.ctp:46
+#: View/Credits/add_faq.ctp:20
+msgid "Question"
+msgstr ""
+
+#: View/CreditFaqs/admin_create.ctp:25
+#: View/CreditFaqs/admin_index.ctp:47
+msgid "Answer"
+msgstr ""
+
+#: View/CreditFaqs/admin_create.ctp:31
+#: View/CreditFaqs/admin_index.ctp:49
+msgid "Active"
+msgstr ""
+
+#: View/CreditFaqs/admin_create.ctp:44
+#: View/CreditSettings/admin_settings.ctp:115
+#: View/Credits/add_faq.ctp:29
+#: View/Ranks/admin_create.ctp:64
+#: View/Sell/admin_create.ctp:28
+msgid "Save"
+msgstr ""
+
+#: View/CreditFaqs/admin_create.ctp:45
+#: View/Credits/add_faq.ctp:28
+#: View/Credits/admin_edit.ctp:20
+#: View/Ranks/admin_create.ctp:63
+#: View/Sell/admin_create.ctp:27
+msgid "Close"
+msgstr ""
+
+#: View/CreditFaqs/admin_create.ctp:77
+#: View/Ranks/admin_create.ctp:111
+#: View/Sell/admin_create.ctp:46
+msgid "Error"
+msgstr ""
+
+#: View/CreditFaqs/admin_index.ctp:23
+msgid "Add New FAQ"
+msgstr ""
+
+#: View/CreditFaqs/admin_index.ctp:36
+#: View/Transactions/admin_index.ctp:28
+#: View/Withdraw/admin_index.ctp:39
+msgid "Search"
+msgstr ""
+
+#: View/CreditFaqs/admin_index.ctp:45
+#: View/CreditSettings/admin_settings.ctp:8
+#: View/Transactions/admin_index.ctp:35
+msgid "User"
+msgstr ""
+
+#: View/CreditFaqs/admin_index.ctp:48
+#: View/Elements/list/my_withdraw_request.ctp:7
+#: View/Transactions/admin_index.ctp:37
+#: View/Withdraw/admin_index.ctp:51
+msgid "Date"
+msgstr ""
+
+#: View/CreditFaqs/admin_index.ctp:50
+#: View/Ranks/admin_index.ctp:45
+#: View/Sell/admin_index.ctp:40
+#: View/Withdraw/admin_index.ctp:52
+msgid "Actions"
+msgstr ""
+
+#: View/CreditFaqs/admin_index.ctp:67
+#: View/Gives/admin_index.ctp:150
+msgid "Yes"
+msgstr ""
+
+#: View/CreditFaqs/admin_index.ctp:67
+#: View/Gives/admin_index.ctp:150
+msgid "No"
+msgstr ""
+
+#: View/CreditFaqs/admin_index.ctp:71
+msgid "Are you sure you want to delete this question?"
+msgstr ""
+
+#: View/CreditFaqs/admin_index.ctp:78
+msgid "No faq found"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:2
+msgid "Item per pages"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:3
+msgid "Enable credits"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:4
+msgid "Default sort by"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:5
+#: View/Elements/list/top_members.ctp:23
+#: View/Widgets/credits/rank.ctp:23
+msgid "Total Earned Credits"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:6
+msgid "Test mode"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:7
+msgid "Disable"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:8
+#: View/Ranks/admin_create.ctp:47
+msgid "Enable"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:9
+#: View/Credits/ajax_sell.ctp:14
+#: View/Elements/list/top_members.ctp:20
+#: View/Widgets/credits/rank.ctp:19
+msgid "Current Balance"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:10
+msgid "Enable credits Plugin"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:11
+msgid "Currency exchange"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:12
+msgid "By pass force login"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:13
+msgid "Member can send credits to"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:14
+msgid "Everyone"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:15
+msgid "Friends only"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:16
+#: View/Gateway/process.ctp:8
+msgid "credits"
+msgstr ""
+
+#: View/CreditSettings/admin_index.ctp:11
+msgid "Paypal Email"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:2
+msgid "Blog"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:3
+msgid "Core"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:5
+msgid "Event"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:6
+msgid "Group"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:7
+msgid "Topic"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:9
+msgid "Video"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:10
+msgid "Activity"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:12
+msgid "Post news feed"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:13
+msgid "Friend Inviter"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:15
+msgid "Write new entry"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:16
+msgid "Like"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:17
+msgid "Comment"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:18
+msgid "Share"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:19
+msgid "Comment status"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:20
+msgid "Sending credits"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:21
+msgid "Receiving credits"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:22
+msgid "Admin giving you credits"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:23
+#: View/Elements/log_text/set_credits.ctp:1
+msgid "Admin set your credits"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:24
+#: View/Elements/log_text/buy_credits.ctp:1
+msgid "Buying credits"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:25
+#: View/Elements/log_text/request-withdraw.ctp:1
+msgid "Admin approved your withdrawal request"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:26
+msgid "Pay item with credit"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:27
+msgid "Admin refunding you credits"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:28
+msgid "Create Event"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:29
+msgid "Create Group"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:30
+msgid "Join Group"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:31
+#: View/Widgets/credits/options.ctp:39
+msgid "Upload Photo"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:32
+msgid "Create Topic"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:33
+msgid "Add friends"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:34
+#: View/Elements/log_text/user.ctp:1
+msgid "Sign Up"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:35
+msgid "Post Video"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:40
+msgid "Credit Settings"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:49
+#: View/Elements/list/credit_actions.ctp:2
+msgid "You can edit how many credits member can earn for each action within a specific period"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:51
+msgid "Credit: number of credits can earn by doing this activity. \"0\" means that no credit will be be earned by doing this activity."
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:53
+#: View/Elements/list/credit_actions.ctp:6
+msgid "Max: maximum credits member can earn by doing this activity within rollover period."
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:55
+#: View/Elements/list/credit_actions.ctp:8
+msgid "Rollover period: is a period within max number of credits restriction is applied. '0' means that you want to apply Max number of credits to forever, can't earn more credit if the max amount is reached."
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:62
+#: View/Elements/list/credit_actions.ctp:14
+msgid "Action type"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:64
+#: View/Elements/list/credit_actions.ctp:16
+msgid "Max Credit"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:65
+#: View/Elements/list/credit_actions.ctp:17
+msgid "Rollover Period"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:97
+#: View/Elements/list/credit_actions.ctp:44
+msgid "day(s)"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:106
+#: View/Credits/admin_index.ctp:73
+#: View/Credits/admin_transaction.ctp:63
+#: View/Elements/list/credit_actions.ctp:53
+#: View/Ranks/admin_index.ctp:77
+#: View/Sell/admin_index.ctp:65
+msgid "No item found"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:139
+msgid "Credit must less than Max Credit"
+msgstr ""
+
+#: View/Credits/add_faq.ctp:13
+msgid "Add new FAQs"
+msgstr ""
+
+#: View/Credits/admin_edit.ctp:4
+msgid "Change Credit Balance"
+msgstr ""
+
+#: View/Credits/admin_edit.ctp:10
+msgid "You can enter '+' or '-' to change current balance. The transaction will also transaction list"
+msgstr ""
+
+#: View/Credits/admin_edit.ctp:21
+msgid "Change"
+msgstr ""
+
+#: View/Credits/admin_index.ctp:24
+msgid "Search by name"
+msgstr ""
+
+#: View/Credits/admin_index.ctp:34
+msgid "ID"
+msgstr ""
+
+#: View/Credits/admin_index.ctp:35
+#: View/Ranks/admin_create.ctp:14
+msgid "Name"
+msgstr ""
+
+#: View/Credits/admin_index.ctp:36
+msgid "Credit Balance"
+msgstr ""
+
+#: View/Credits/admin_index.ctp:37
+msgid "Earned Credits"
+msgstr ""
+
+#: View/Credits/admin_index.ctp:38
+msgid "Spent Credits"
+msgstr ""
+
+#: View/Credits/admin_index.ctp:39
+msgid "Options"
+msgstr ""
+
+#: View/Credits/admin_transaction.ctp:6
+msgid "Transaction"
+msgstr ""
+
+#: View/Credits/admin_transaction.ctp:21
+msgid "Transactions of"
+msgstr ""
+
+#: View/Credits/admin_transaction.ctp:29
+#: View/Credits/my_credits.ctp:8
+#: View/Elements/list/my_credits.ctp:4
+msgid "Action Date"
+msgstr ""
+
+#: View/Credits/admin_transaction.ctp:30
+#: View/Credits/my_credits.ctp:9
+#: View/Elements/list/my_credits.ctp:5
+msgid "Action Type"
+msgstr ""
+
+#: View/Credits/admin_transaction.ctp:31
+#: View/Credits/my_credits.ctp:10
+#: View/Elements/list/my_credits.ctp:6
+msgid "Credits"
+msgstr ""
+
+#: View/Credits/admin_transaction.ctp:75
+msgid "Go back"
+msgstr ""
+
+#: View/Credits/ajax_sell.ctp:2;43;83
+#: View/Helper/CreditHelper.php:415
+#: View/Widgets/credits/buy.ctp:5;18
+msgid "Buy Credits"
+msgstr ""
+
+#: View/Credits/ajax_sell.ctp:24
+msgid "How many credits would you like to add to your account?"
+msgstr ""
+
+#: View/Credits/ajax_sell.ctp:30;54
+#: View/Sell/admin_index.ctp:53
+msgid "Credits for"
+msgstr ""
+
+#: View/Credits/ajax_sell.ctp:34;58
+msgid "No more credit package found"
+msgstr ""
+
+#: View/Credits/ajax_sell.ctp:38
+msgid "CONTINUE"
+msgstr ""
+
+#: View/Credits/ajax_sell.ctp:39
+msgid "Cancel"
+msgstr ""
+
+#: View/Credits/ajax_sell.ctp:66
+msgid "PayPal"
+msgstr ""
+
+#: View/Credits/ajax_sell.ctp:70
+msgid "Pay with PayPal"
+msgstr ""
+
+#: View/Credits/ajax_sell.ctp:110
+msgid "Can't make payment now, please contact admin for more details."
+msgstr ""
+
+#: View/Credits/index.ctp:8
+msgid "Browse"
+msgstr ""
+
+#: View/Credits/index.ctp:13
+msgid "Top Members"
+msgstr ""
+
+#: View/Credits/index.ctp:17
+#: View/Widgets/credits/rank.ctp:31
+msgid "My Transactions"
+msgstr ""
+
+#: View/Credits/index.ctp:23
+msgid "My withdraw request"
+msgstr ""
+
+#: View/Credits/index.ctp:27
+msgid "Credits Rank"
+msgstr ""
+
+#: View/Credits/my_credits.ctp:18
+#: View/Elements/list/my_credits.ctp:38
+#: View/Elements/list/my_withdraw_request.ctp:40
+msgid "Previous"
+msgstr ""
+
+#: View/Credits/my_credits.ctp:20
+#: View/Elements/list/my_credits.ctp:40
+#: View/Elements/list/my_withdraw_request.ctp:42
+#: View/Ranks/admin_index.ctp:87
+#: View/Sell/admin_index.ctp:75
+msgid "Next"
+msgstr ""
+
+#: View/Credits/withdraw_delete.ctp:3
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:24
+#: View/Withdraw/admin_index.ctp:63;68
+msgid "Delete request"
+msgstr ""
+
+#: View/Credits/withdraw_delete.ctp:9
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:30
+msgid "Ok"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:27
+msgid "Note: You are allowed to withdraw %s time(s) in a Month"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:30
+msgid "Minimum withdrawal amount"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:36
+msgid "Maximum withdrawal amount"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:42
+msgid "Payment method *"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:44
+msgid "Select"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:49
+msgid "Payment info *"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:56
+msgid "Enter withdraw amount"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:64
+msgid "Credit-conversion formula"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:69
+msgid "Your balance Earned Credits"
+msgstr ""
+
+#: View/Elements/withdraw_request.ctp:76
+msgid "Submit"
+msgstr ""
+
+#: View/Elements/ajax/faqs_list.ctp:15
+#: View/Elements/list/credit_ranks.ctp:21
+#: View/Elements/list/faqs.ctp:16
+#: View/Elements/list/top_members.ctp:32
+msgid "No more results found"
+msgstr ""
+
+#: View/Elements/list/credit_actions.ctp:4
+msgid "Credit: number of credits can earn by doing this activity. '0' means that no credit will be be earned by doing this activity."
+msgstr ""
+
+#: View/Elements/list/credit_ranks.ctp:15
+#: View/Ranks/admin_index.ctp:65
+msgid "Number of members at this rank"
+msgstr ""
+
+#: View/Elements/list/credit_ranks.ctp:16
+#: View/Ranks/admin_create.ctp:26
+#: View/Ranks/admin_index.ctp:66
+msgid "Description"
+msgstr ""
+
+#: View/Elements/list/my_withdraw_request.ctp:8
+#: View/Withdraw/admin_index.ctp:50
+msgid "Amount"
+msgstr ""
+
+#: View/Elements/list/my_withdraw_request.ctp:9
+#: View/Withdraw/admin_index.ctp:49
+msgid "Method"
+msgstr ""
+
+#: View/Elements/list/my_withdraw_request.ctp:10
+#: View/Transactions/admin_index.ctp:40
+msgid "Status"
+msgstr ""
+
+#: View/Elements/list/my_withdraw_request.ctp:11
+msgid "Action"
+msgstr ""
+
+#: View/Elements/list/my_withdraw_request.ctp:30
+msgid "Completed"
+msgstr ""
+
+#: View/Elements/list/my_withdraw_request.ctp:30
+msgid "Pending"
+msgstr ""
+
+#: View/Elements/list/my_withdraw_request.ctp:33
+msgid "Delete"
+msgstr ""
+
+#: View/Elements/list/top_members.ctp:25
+#: View/Widgets/credits/rank.ctp:27
+msgid "Total Spent Credits"
+msgstr ""
+
+#: View/Elements/log_text/activity_comment.ctp:6
+msgid "Comment status - \"%s\""
+msgstr ""
+
+#: View/Elements/log_text/blog.ctp:4
+#: View/Elements/log_text/event.ctp:4
+#: View/Elements/log_text/friend.ctp:12
+#: View/Elements/log_text/friend_inviter.ctp:12
+#: View/Elements/log_text/give_credits.ctp:12
+#: View/Elements/log_text/group.ctp:4
+#: View/Elements/log_text/group_user.ctp:4
+#: View/Elements/log_text/payment.ctp:10
+#: View/Elements/log_text/topic.ctp:4
+#: View/Elements/log_text/transfer_from.ctp:12
+#: View/Elements/log_text/transfer_to.ctp:12
+#: View/Elements/log_text/video.ctp:4
+#: View/Helper/CreditHelper.php:90;102;111;142;150;162;174;183;197;272
+msgid "deleted"
+msgstr ""
+
+#: View/Elements/log_text/blog.ctp:7
+msgid "Writing %s blog entry"
+msgstr ""
+
+#: View/Elements/log_text/comment.ctp:6
+msgid "Commenting %s"
+msgstr ""
+
+#: View/Elements/log_text/delete_activity_comment.ctp:1
+msgid "Remove comment status"
+msgstr ""
+
+#: View/Elements/log_text/delete_blog.ctp:1
+msgid "Remove blog"
+msgstr ""
+
+#: View/Elements/log_text/delete_comment.ctp:1
+msgid "Remove comment"
+msgstr ""
+
+#: View/Elements/log_text/delete_event.ctp:1
+msgid "Remove event"
+msgstr ""
+
+#: View/Elements/log_text/delete_friend.ctp:1
+msgid "Remove friend"
+msgstr ""
+
+#: View/Elements/log_text/delete_group.ctp:1
+msgid "Remove group"
+msgstr ""
+
+#: View/Elements/log_text/delete_group_user.ctp:1
+msgid "Leaved group "
+msgstr ""
+
+#: View/Elements/log_text/delete_like.ctp:1
+msgid "Remove like"
+msgstr ""
+
+#: View/Elements/log_text/delete_photo.ctp:1
+msgid "Remove photo"
+msgstr ""
+
+#: View/Elements/log_text/delete_post_new_feed.ctp:1
+msgid "Delete new feed item"
+msgstr ""
+
+#: View/Elements/log_text/delete_topic.ctp:1
+msgid "Remove topic"
+msgstr ""
+
+#: View/Elements/log_text/delete_video.ctp:1
+msgid "Remove video"
+msgstr ""
+
+#: View/Elements/log_text/event.ctp:7
+msgid "Creating %s event"
+msgstr ""
+
+#: View/Elements/log_text/friend.ctp:15
+msgid "Adding a new friend %s"
+msgstr ""
+
+#: View/Elements/log_text/give_credits.ctp:15
+msgid "%s sent %s credits to you"
+msgstr ""
+
+#: View/Elements/log_text/group.ctp:7
+msgid "Creating %s group"
+msgstr ""
+
+#: View/Elements/log_text/group_user.ctp:7
+msgid "joined group %s"
+msgstr ""
+
+#: View/Elements/log_text/like.ctp:6
+msgid "Like %s"
+msgstr ""
+
+#: View/Elements/log_text/payment.ctp:3
+msgid "Upgrade membership using credit"
+msgstr ""
+
+#: View/Elements/log_text/payment.ctp:13
+msgid "Pay %s with credit"
+msgstr ""
+
+#: View/Elements/log_text/photo.ctp:1
+msgid "Adding 1 photo"
+msgstr ""
+
+#: View/Elements/log_text/post_new_feed.ctp:1
+msgid "Post new feed"
+msgstr ""
+
+#: View/Elements/log_text/refund_credits.ctp:1
+msgid "admin refunded %s credits to you"
+msgstr ""
+
+#: View/Elements/log_text/share.ctp:13
+msgid "Share an item"
+msgstr ""
+
+#: View/Elements/log_text/topic.ctp:7
+msgid "Creating %s topic"
+msgstr ""
+
+#: View/Elements/log_text/transfer_from.ctp:15
+msgid "Receiving credits from %s"
+msgstr ""
+
+#: View/Elements/log_text/transfer_to.ctp:15
+msgid "Sending credits to %s"
+msgstr ""
+
+#: View/Elements/log_text/video.ctp:7
+msgid "Posting %s video"
+msgstr ""
+
+#: View/Elements/notification/buy_credit.ctp:7
+msgid " sent %s %s to you"
+msgstr ""
+
+#: View/Elements/notification/got_badge.ctp:6
+msgid "Congratulations! You've got %s badge."
+msgstr ""
+
+#: View/Elements/notification/withdraw_request.ctp:6
+msgid "%s completed your Withdrawal Request"
+msgstr ""
+
+#: View/Elements/notification/withdraw_request.ctp:8
+msgid "%s cancelled your Withdrawal Request"
+msgstr ""
+
+#: View/Gateway/process.ctp:6
+msgid "Checkout"
+msgstr ""
+
+#: View/Gateway/process.ctp:8
+msgid "credits"
+msgstr ""
+
+#: View/Gateway/process.ctp:9
+msgid "Your current credit balance"
+msgstr ""
+
+#: View/Gateway/process.ctp:14
+msgid "Pay Now"
+msgstr ""
+
+#: View/Gateway/process.ctp:19
+msgid "You don't have enough credit to finish payment process. Please earn more credit or select other payment method to continue"
+msgstr ""
+
+#: View/Gateway/process.ctp:21
+msgid "Select other payment method"
+msgstr ""
+
+#: View/Gives/admin_index.ctp:25
+msgid "Enter a member's name"
+msgstr ""
+
+#: View/Gives/admin_index.ctp:26
+msgid "No results"
+msgstr ""
+
+#: View/Gives/admin_index.ctp:106
+msgid "User groups"
+msgstr ""
+
+#: View/Gives/admin_index.ctp:106
+msgid "Specific members"
+msgstr ""
+
+#: View/Gives/admin_index.ctp:133
+msgid "Select member"
+msgstr ""
+
+#: View/Gives/admin_index.ctp:139
+msgid "Number of credits"
+msgstr ""
+
+#: View/Gives/admin_index.ctp:145
+msgid "Notify user"
+msgstr ""
+
+#: View/Gives/admin_index.ctp:158
+#: View/Widgets/credits/send.ctp:6;74
+msgid "Send Credits"
+msgstr ""
+
+#: View/Helper/CreditHelper.php:93;165
+msgid "on feed"
+msgstr ""
+
+#: View/Helper/CreditHelper.php:95;167
+msgid "comment"
+msgstr ""
+
+#: View/Helper/CreditHelper.php:97;145;169;186
+msgid "photo"
+msgstr ""
+
+#: View/Helper/CreditHelper.php:292;294
+msgid "Leaved group"
+msgstr ""
+
+#: View/Helper/CreditHelper.php:297
+msgid "Removed"
+msgstr ""
+
+#: View/Helper/CreditHelper.php:474
+msgid "Member Name ?"
+msgstr ""
+
+#: View/Ranks/admin_create.ctp:6
+#: View/Ranks/admin_index.ctp:32
+msgid "Add new rank"
+msgstr ""
+
+#: View/Ranks/admin_create.ctp:16
+msgid "Enter text"
+msgstr ""
+
+#: View/Ranks/admin_create.ctp:22
+#: View/Sell/admin_create.ctp:15;21
+msgid "Enter number"
+msgstr ""
+
+#: View/Ranks/admin_create.ctp:32
+msgid "Icon"
+msgstr ""
+
+#: View/Ranks/admin_create.ctp:56
+msgid "Notify the members who reached to this new rank"
+msgstr ""
+
+#: View/Ranks/admin_create.ctp:73;75
+msgid "Can not upload file more than "
+msgstr ""
+
+#: View/Ranks/admin_create.ctp:83
+msgid "Drag or click here to upload photo"
+msgstr ""
+
+#: View/Ranks/admin_index.ctp:43
+#: View/Sell/admin_index.ctp:38
+msgid "Id"
+msgstr ""
+
+#: View/Ranks/admin_index.ctp:44
+msgid "Ranks"
+msgstr ""
+
+#: View/Ranks/admin_index.ctp:70
+msgid "Are you sure you want to delete this rank?"
+msgstr ""
+
+#: View/Ranks/admin_index.ctp:84
+#: View/Sell/admin_index.ctp:72
+msgid "First"
+msgstr ""
+
+#: View/Ranks/admin_index.ctp:85
+#: View/Sell/admin_index.ctp:73
+msgid "Prev"
+msgstr ""
+
+#: View/Ranks/admin_index.ctp:88
+#: View/Sell/admin_index.ctp:76
+msgid "Last"
+msgstr ""
+
+#: View/Sell/admin_create.ctp:5
+msgid "Edit"
+msgstr ""
+
+#: View/Sell/admin_create.ctp:5
+msgid "Add new"
+msgstr ""
+
+#: View/Sell/admin_create.ctp:19
+#: View/Transactions/admin_index.ctp:38
+msgid "Price"
+msgstr ""
+
+#: View/Sell/admin_index.ctp:27
+msgid "Add new package"
+msgstr ""
+
+#: View/Sell/admin_index.ctp:39
+msgid "Caption"
+msgstr ""
+
+#: View/Sell/admin_index.ctp:58
+msgid "Are you sure you want to delete this package?"
+msgstr ""
+
+#: View/Transactions/admin_index.ctp:3
+msgid "Transactions Manager"
+msgstr ""
+
+#: View/Transactions/admin_index.ctp:36
+msgid "Transaction ID"
+msgstr ""
+
+#: View/Transactions/admin_index.ctp:41
+msgid "Gateways"
+msgstr ""
+
+#: View/Transactions/admin_index.ctp:74
+msgid "No transaction found"
+msgstr ""
+
+#: View/Widgets/credits/badge.ctp:5
+msgid "Credit Rank"
+msgstr ""
+
+#: View/Widgets/credits/badge.ctp:30
+msgid "Next Rank"
+msgstr ""
+
+#: View/Widgets/credits/buy.ctp:15
+msgid "You can buy credits using your PayPal account, just click on Buy Credits button"
+msgstr ""
+
+#: View/Widgets/credits/options.ctp:3
+msgid "Earn Credits"
+msgstr ""
+
+#: View/Widgets/credits/options.ctp:12
+msgid "You can earn credits by posting various interesting social media content below, for more information please check %s."
+msgstr ""
+
+#: View/Widgets/credits/options.ctp:12
+msgid "here"
+msgstr ""
+
+#: View/Widgets/credits/options.ctp:18
+msgid "Write New Entry"
+msgstr ""
+
+#: View/Widgets/credits/options.ctp:25
+msgid "Create New Group"
+msgstr ""
+
+#: View/Widgets/credits/options.ctp:32
+msgid "Create New Event"
+msgstr ""
+
+#: View/Widgets/credits/options.ctp:46
+msgid "Share New Video"
+msgstr ""
+
+#: View/Widgets/credits/options.ctp:53
+msgid "Create New Topic"
+msgstr ""
+
+#: View/Widgets/credits/rank.ctp:5
+msgid "Credit Statistics"
+msgstr ""
+
+#: View/Widgets/credits/send.ctp:38
+msgid "Your Friend Name"
+msgstr ""
+
+#: View/Widgets/credits/send.ctp:40
+msgid "Member Name"
+msgstr ""
+
+#: View/Widgets/credits/withdraw.ctp:9
+msgid "You can send money withdrawal request to site admin by clicking on the below button"
+msgstr ""
+
+#: View/Widgets/credits/withdraw.ctp:12
+msgid "Withdrawal Request"
+msgstr ""
+
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:11
+msgid "Enter your transaction ID"
+msgstr ""
+
+#: View/Withdraw/admin_ajax_change_status_withdraw.ctp:17
+msgid "Complete"
+msgstr ""
+
+#: View/Withdraw/admin_index.ctp:30;66
+msgid "Pending request"
+msgstr ""
+
+#: View/Withdraw/admin_index.ctp:31;62;67
+msgid "Completed request"
+msgstr ""
+
+#: View/Withdraw/admin_index.ctp:34
+msgid "Choose status"
+msgstr ""
+
+#: View/Withdraw/admin_index.ctp:48
+msgid "Requester name"
+msgstr ""
+
+#: View/Withdraw/admin_index.ctp:53
+msgid "Completed date"
+msgstr ""
+
+#: View/Withdraw/admin_index.ctp:109
+msgid "No withdraw request found"
+msgstr ""
+
+#: Model/CreditBalances.php:validation for field credit
+#: Model/CreditSells.php:validation for field credit;validation for field price
+msgid "Only numbers allowed"
+msgstr ""
+
+#: Model/CreditFaq.php:validation for field question
+msgid "Question is required"
+msgstr ""
+
+#: Model/CreditRanks.php:validation for field name
+msgid "Name is required"
+msgstr ""
+
+#: Model/CreditRanks.php:validation for field description
+msgid "Description is required"
+msgstr ""
+
+#: Model/CreditSells.php:validation for field price
+msgid "Price is required"
+msgstr ""
+
+#: View/CreditSettings/admin_settings.ctp:11
+msgid "Photo"
+msgstr ""
+
+msgid "Your payment is being processed! It will be processed within a few minutes"
+msgstr ""

@@ -1,0 +1,77 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Plugins Manager"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Reaction Settings"
+msgstr ""
+
+msgid "Reaction"
+msgstr ""
+
+msgid "Reactions"
+msgstr ""
+
+msgid "Like"
+msgstr ""
+
+msgid "Love"
+msgstr ""
+
+msgid "Haha"
+msgstr ""
+
+msgid "Wow"
+msgstr ""
+
+msgid "Sad"
+msgstr ""
+
+msgid "Angry"
+msgstr ""
+
+msgid "Cool"
+msgstr ""
+
+msgid "Confused"
+msgstr ""
+
+msgid "reacted your status"
+msgstr ""
+
+msgid "reacted your photo"
+msgstr ""
+
+msgid "reacted \"%s\""
+msgstr ""
+
+msgid "All Likes"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "reacted a post you are mentioned in"
+msgstr ""
+
+msgid "reacted a comment you are mentioned in"
+msgstr ""

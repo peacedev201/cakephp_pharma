@@ -1,0 +1,21 @@
+{
+  "name": "moo-server",
+  "version": "0.0.1",
+  "private": true,
+  "description": "moo-server",
+  "main": "mooServer.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "request": "^2.87.0",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.14.0",
+    "md5": "^2.2.1",
+    "mysql": "^2.10.2",
+    "node-cache": "^4.1.1",
+    "socket.io": "^2.0.3",
+    "uuid": "^3.2.1",
+    "winston": "^3.0.0"
+  },
+  "license": "SEE LICENSE IN https://moosocial.com/license/"
+}

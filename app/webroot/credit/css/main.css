@@ -1,0 +1,336 @@
+.notice_red {
+    color: red;
+}
+
+.credit-content-list {
+    list-style: outside none none;
+    padding: 0;
+    /*border-bottom: 1px solid #dfdfdf;*/
+}
+
+ul.credit-content-list li::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+ul.credit-content-list > li {
+    padding-bottom: 9px;
+    position: relative;
+}
+
+ul.credit-content-list > li {
+    border-bottom: 1px solid #dfdfdf;
+    padding-top: 9px;
+}
+
+ul.credit-content-list li > a > img {
+    width: 100%;
+}
+
+ul.credit-content-list li > a {
+    border: 1px solid #ccc;
+    float: left;
+    width: 102px;
+}
+
+.credit-info {
+    margin-left: 185px;
+    margin-right: 30px;
+}
+
+.credit-info .title {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.credit-race {
+    float: left;
+    font-size: 20pt;
+    margin-right: 15px;
+    text-align: center;
+    width: 50px;
+}
+
+.extra-info {
+    line-height: 1.5;
+    margin: 10px 0 0;
+    word-wrap: break-word;
+}
+
+.content_center_my_credits {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.credit-content-list .col-md-9 > h3 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.ranks-image {
+    float: left;
+    padding: 0 10px;
+}
+
+.badge-rank-next {
+    display: inline-block;
+    font-weight: bold;
+    height: 24px;
+    line-height: -moz-block-height;
+    padding-left: 2px;
+    text-align: center;
+    width: 100%;
+}
+
+.badge-info {
+    float: left;
+    padding-top: 20px;
+    width: 60%;
+}
+
+.badge-rank {
+    border: 1px solid;
+    float: left;
+    height: 25px;
+    width: 100%;
+}
+
+.badge-rank-now {
+    background-color: #ff5d5e;
+    float: left;
+    height: 23px;
+    line-height: -moz-block-height;
+    text-align: center;
+    font-weight: bold;
+    line-height: 23px;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.badge-info-next-rank {
+    padding-top: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#page_credits-index .full_content.p_m_10 img {
+    width: 100px;
+}
+
+.faq_list .panel-body {
+    padding: 10px 0;
+}
+
+.ranking-content {
+    background-image: url("../img/rank-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(0, 0, 0, 0.9);
+    display: inline-block;
+    font-size: 48px;
+    height: 65px;
+    line-height: 65px;
+    padding-left: 70px;
+    width: 100%;
+}
+
+.your-rank-content {
+    padding: 24px;
+}
+
+.rank-info > div {
+    border-top: 1px solid #d8d8d8;
+    height: 65px;
+    padding: 8px 0;
+}
+
+.rank-info p > em {
+    color: #000;
+    display: block;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.rank-info p {
+    color: #000;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0;
+}
+
+.current-balance-large {
+    background-image: url("../img/balance-large.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 50px;
+    margin-right: 24px;
+    width: 60px;
+    vertical-align: middle;
+}
+
+.current-balance {
+    background-image: url("../img/current-balance.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 40px;
+    margin-right: 24px;
+    width: 40px;
+}
+
+.total-earn-credit {
+    background-image: url("../img/add-balance.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 40px;
+    margin-right: 24px;
+    width: 40px;
+}
+
+.total-spent-credit {
+    background-image: url("../img/expense-balance.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 40px;
+    margin-right: 24px;
+    width: 40px;
+}
+
+.send_credit > .box_content,
+.buy_credit > .box_content {
+    padding: 16px !important;
+}
+
+.tbl_head {
+    background: #ededed none repeat scroll 0 0;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: transparent;
+}
+
+.tbl_head > th {
+    border: medium none !important;
+}
+
+.rank-info.buy-creadit > div {
+    border: medium none;
+    height: auto;
+    padding: 0;
+}
+
+.rank-info.buy-creadit p {
+    vertical-align: middle;
+}
+
+.rank-info.buy-creadit {
+    margin-bottom: 30px;
+}
+
+.rank-info.buy-creadit p > em {
+    font-size: 35px;
+}
+
+.buy-credit-ask {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.sell_item > input {
+    margin-right: 16px;
+}
+
+.sell_item {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 14px;
+}
+
+.buy-credit-btn {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 25px;
+    padding-top: 16px;
+    text-align: right;
+}
+
+.credit_suggest_friend .twitter-typeahead {
+    width: 100%;
+}
+
+.credit_suggest_friend .tag {
+    float: left;
+}
+.credit_suggest_friend span.text{
+    text-align: left !important;
+}
+.credit_badge .ranks-image, .credit_badge .badge-info {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 0px;
+}
+
+.btt_buy_credit {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.faq_list .full_content.p_m_10::before {
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #a1a1a1;
+    border-top: 6px solid transparent;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 0;
+}
+.faq_list .full_content.p_m_10 {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+.credit-info-table > tbody > tr > td.td_header
+{
+    text-align: center;text-transform: capitalize;background: #D7E7F0;font-weight: bold;
+}
+.paypal_content {
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 991px){
+    .badge-info-next-rank {
+        display: block;
+    }
+    .ranks-image + .col-md-9 {
+        margin-left: 120px;
+    }
+    .faq_list .full_content.p_m_10::before {
+        left: 5px;
+        top: 12px;
+    }
+}
+@media (max-width: 767px){
+    ul.credit-content-list li>a {
+        border: 1px solid #ccc;
+        float: left;
+        width: 40px;
+    }
+    #page_credits-index .full_content.p_m_10 img {
+        width: 40px;
+    }
+    .credit-info {
+        margin-left: 120px;
+        margin-right: 30px;
+    }
+}

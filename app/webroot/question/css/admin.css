@@ -1,0 +1,106 @@
+.feature
+{
+	background-image: url('../img/featured.png');
+	width: 16px;
+	height: 16px;
+  	display: block;
+  	cursor: pointer;
+}
+.unfeature
+{
+	background-image: url('../img/un_featured.png');
+	width: 16px;
+	height: 16px;
+  	display: block;
+  	cursor: pointer;
+}
+
+.question_yes
+{
+	background-image: url('../img/yes.png');
+	width: 16px;
+	height: 16px;
+  	display: block;
+  	cursor: pointer;
+}
+.question_no
+{
+	background-image: url('../img/no.png');
+	width: 16px;
+	height: 16px;
+  	display: block;
+  	cursor: pointer;
+}
+
+.col-md-7 .position
+{
+	float: left;
+	width: 127px;
+	text-align: center;
+}
+
+.col-md-7 .px
+{
+	width:60px;
+	display: inline-block;
+}
+.input_text
+{
+	width:200px;
+}
+.col-md-7 .color-picker
+{
+	width:200px;
+	display: inline-block;
+}
+
+.col-md-7 .style
+{
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
+
+.miniColors-triggerWrap { 
+	background: url(../img/miniColors/trigger.png) -22px 0 no-repeat;
+	
+}
+.miniColors-trigger {
+	vertical-align: middle;
+	outline: none;
+	background: url(../img/miniColors/trigger.png) 0 0 no-repeat;
+}
+
+.miniColors-opacity {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 20px;
+	height: 150px;
+	background: url(../img/miniColors/colors.png) -20px 0 no-repeat;
+	cursor: crosshair;
+}
+.miniColors-hues {
+	position: absolute;
+	top: 5px;
+	left: 160px;
+	width: 20px;
+	height: 150px;
+	background: url(../img/miniColors/colors.png) 0 0 no-repeat;
+	cursor: crosshair;
+}
+
+.miniColors-colors {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 150px;
+	height: 150px;
+	background: url(../img/miniColors/colors.png) -40px 0 no-repeat;
+	cursor: crosshair;
+}
+
+.form_create_badge .form-group .select .form-horizontal label
+{
+	padding-left: 4px;
+}

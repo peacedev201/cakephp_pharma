@@ -1,0 +1,945 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: FriendInviterPlugin.php:1288
+#: View/FriendInviters/admin_index.ctp:8;28
+msgid "Friend Inviter Settings"
+msgstr ""
+
+#: FriendInviterPlugin.php:1288
+#: View/FriendInviters/admin_index.ctp:8;28
+msgid "Plugins Manager"
+msgstr ""
+
+#: FriendInviterPlugin.php:1288
+#: View/FriendInviters/admin_index.ctp:8;28
+msgid "Friend Inviter"
+msgstr ""
+
+#: FriendInviterPlugin.php:1288
+#: View/FriendInviters/admin_index.ctp:8;28
+msgid "General"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Settings"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Global Settings"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Enable Friend Inviter Plugin"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Maximum selected emails for each invite time"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Disable"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Enable"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Provider Settings"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Yahoo Contact Importer Settings"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Getting Yahoo API Key :"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "About creating your application :"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "1) Go here to register your application:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "a) Write your application name. You can make this the same as your site name."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) In the 'Application Type' field, choose : 'Web Application'."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "c) Write a short description about your application/website."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "d) In the 'Home Page URL' field, write the URL of your site (example : http://www.mysite.com)."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Security &amp; Privacy:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Client ID"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "a) In the 'Callback Domain' field, write your site's domain (example : mysite.com)"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) In the 'API Permissions' field, select 'Contacts' option, then choose 'Read' option"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "a) In the 'Callback Domain' field, write your site's domain (example : mysite.com)"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) In the 'API Permissions' field, select 'Contacts' option, then choose 'Read' option"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "c) Now click on the 'Create App' button. After clicking on this button you will be redirected to a success page where you will get your 'Client ID' and 'Client Secret'. Copy them and paste these values in your site's Yahoo contact importer settings fields."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Guidelines"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "OK"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Client Secret"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Windows Live Contact Importer Settings"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Getting your Windows Live Application ID :"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "About configuring your application :"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "a) In Basic Information tab, you can add Application Logo, Terms of service URL, Privacy URL or leave these fields."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) Now click 'API Settings' tab (in the left menu) to set your API."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "c) In the 'Mobile or desktop client app', selecting 'Yes' will allow mobile clients to use this authentication flow."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "d) In the 'Target domain' field, write your site's domain (example : mysite.com)"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "e) In 'Redirect URLs' field, write the exact URL: [url_your_site]/friend_inviters/getcontacts/livedone (example : http://www.mysite.com/friend_inviters/getcontacts/livedone)"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "f) Click Save to saving your API Settings"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "g) Now click 'App Settings' you will get your 'Client ID' and 'Client Secret'. Copy them and paste these values in your site's Window Live contact importer settings fields."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Getting your Google API keys :"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "1) To see intructions and create your project, go here :"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "2) After creating your project successful, go to 'Overview' panel of your project."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "3) Now click on 'Contacts API' link."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "4) Click 'Enable' button to enable this api."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "5) Now Click 'Credentials' tab in the sidebar on the left"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "6) Click on the OAuth 2.0 client ID was created before"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "7) Adding the exact Authorized redirect URI: [url_your_site]/friend_inviters/getcontacts?hauth_done=Google (example : http://www.mysite.com/friend_inviters/getcontacts?hauth_done=Google)"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "8) Click 'Save' button to saving this Authorized redirect URI"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "9) Back to the OAuth 2.0 client ID, copy 'Client ID' and 'Client Secret' and paste these values in your site's Google contact importer settings fields."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Enable Providers"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Save Settings"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Google Contact Importer Setting"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) Now click on the 'I accept' button. After clicking on this button you will be redirected to a page where you will configure your app."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Invite your friends"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "You can use any of the tools on this page to find and connect with more friends."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Click on one of the above services to search from your Web Account."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "We will not store your account information."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Add Email Addresses"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Type email addresses above, separated by commas. Max 10 emails."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "More ways to invite contacts"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Copy link"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Share on Facebook"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Tweet on Twitter"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contact Inviter"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Upload a contact files from an email application like Outlook, Apple Mail and others."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contact file :"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Upload Queued Files"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Once you 've invited friends. You can %s"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "view the status of your referrals."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Sending Request"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Invitation sent"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Please continue to %s"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Ok, thanks!"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Your contacts"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "The following people are not joined yet, please select to send invitations."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Custom Message"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Send Selected"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Send"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "File format must be .csv."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Learn more"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "GMail"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Yahoo!"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Live/Hotmail"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "OR"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Microsoft Outlook"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Microsoft Outlook:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Outlook"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Go to File menu and select 'Import and Export'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. In the wizard window that appears, select 'Export to a file' and click 'Next'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select 'Comma separated values (Windows)' and click 'Next'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv) and click 'Next'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "6. Ensure that the checkbox next to 'Export..' is checked and click 'Finish'."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Microsoft Outlook Express"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Microsoft Outlook Express:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Outlook Express"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Go to File menu and select 'Export', and then click 'Address Book'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Select 'Text File (Comma Separated Values)', and then click 'Export'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv) and click 'Next'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Select the check boxes for the fields that you want to export (be sure to select the email address field), and then click 'Finish'."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Mozilla Thunderbird"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Mozilla Thunderbird:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Mozilla Thunderbird"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Go to Tools menu and select 'Address Book'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. In the 'Address Book' window that opens, select 'Export...' from the Tools menu"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select where you want to save the exported file, choose 'Comma Separated (*.CSV)' under the 'Save as type' dropdown list, choose a name for your file (example : mycontacts.csv) and click 'Save'."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from LinkedIn:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Sign into your LinkedIn account"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Visit the"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Select 'Microsoft Outlook (.CSV file)' under the 'Export to' dropdown list and click 'Export'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv)."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Address Book Export page"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Windows Address Book"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Windows Address Book:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Windows Address Book"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Go to the File menu, select 'Export', and then select 'Other Address Book...'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. In the 'Address Book Export Tool' dialog that opens, select 'Text File (Comma Separated Values)' and click 'Export'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv) and click 'Next'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Select the check boxes for the fields that you want to export (be sure to select the email address field), and then click 'Finish'."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "6. Click 'OK' and then click 'Close'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Mac OS X Address Book"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Mac OS X Address Book:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Download the free Mac Address Book exporter from"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Choose to export your Address Book in CSV format."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Save your exported address book in CSV format."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Palm Desktop:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Palm Desktop"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Click on the 'Addresses' icon on the lefthand side of the screen to display your contact list"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Go to the File menu, select 'Export'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. In the dialog box that opens, do the following:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Enter a name for the file you are creating in the 'File name:' field"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "6. Select 'Comma Separated' in the 'Export Type' pulldown menu"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "7. Be sure to select the 'All' radio button from the two 'Range:' radio buttons"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "8. In the second dialog box: 'Specify Export Fields' that opens, leave all of the checkboxes checked, and click 'OK'."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Windows Mail"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Windows Mail:"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Windows Mail"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Select: Tools | Windows Contacts... from the menu in Windows Mail"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Click 'Export' in the toolbar"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Make sure CSV (Comma Separated Values) is highlighted, then click 'Export'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv) and click 'Next'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "OK"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "6. Click 'Save' then click 'Next'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "7. Make sure all address book fields you want included are checked"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "8. Click 'Finish'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "9. Click 'OK' then click 'Close'"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "For Other"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Many email services, email applications, address book management applications allow contacts to be imported to a file. We support .CSV and .TXT types of contact files"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Close"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "LinkedIn"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Palm Desktop"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "here"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "The following users are already a member of our community"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Skip"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Pending Invites"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Back to Friend Inviter"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "You do not have any pending invitations at this time."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Total of invitations sent: %s"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Number of joined members: %s"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Delete"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Resend invitation"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Previous"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Next"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Please continue to  "
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Import Connection"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Name"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "E-mail"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "of "
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contacts"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contacts"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contacts"
+msgstr ""
+
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Email Addresses are required."
+msgstr ""
+
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Email addresses should be valid."
+msgstr ""
+
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Please select at least one friend to invite"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Gmail"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Yahoo"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Window Live"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "All your imported contacts are already members of"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Window Live"
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Can not send more than 10 email addresses."
+msgstr ""
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Drag or click here to upload a CSV file"
+msgstr ""
+
+msgid "Referral link"
+msgstr ""
+
+msgid "This is your referral link you can copy and send it to your friend"
+msgstr ""
+
+msgid "Automatic adding friends"
+msgstr ""
+
+msgid "Automatic adding friends after successfully registering"
+msgstr ""
+
+msgid "Invite Friends"
+msgstr ""
+
+msgid "Referral Code"
+msgstr ""
+
+msgid "Enter the referral code you got from your friend in this community to sign up"
+msgstr ""
+
+msgid "Referral Code is required"
+msgstr ""
+
+msgid "Enable referral code field"
+msgstr ""
+
+msgid "Enable referral code field at sign up form"
+msgstr ""
+
+msgid "Referral Code does not exist"
+msgstr ""
+

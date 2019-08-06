@@ -1,0 +1,1012 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "F0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: FeedbackPlugin.php:465
+#: Controller/FeedbacksController.php:54;122
+#: Lib/FeedbackListener.php:140;234;475
+#: View/Feedbacks/admin_index.ctp:3;11
+#: View/Feedbacks/index.ctp:28
+msgid "Feedback"
+msgstr "F0002사용후기"
+
+#: FeedbackPlugin.php:466
+#: Controller/FeedbackCategoriesController.php:31
+#: View/Elements/nav_feedback.ctp:11
+#: View/FeedbackCategories/admin_index.ctp:3;10
+#: View/Widgets/feedback/nav_feedback.ctp:11
+msgid "Categories"
+msgstr "F0003카테고리"
+
+#: FeedbackPlugin.php:467
+#: View/FeedbackSeverities/admin_index.ctp:3;10
+msgid "Severities"
+msgstr "F0004심각도"
+
+#: FeedbackPlugin.php:468
+#: View/FeedbackStatistics/admin_index.ctp:3
+#: View/FeedbackStatuses/admin_index.ctp:3;17
+msgid "Statuses"
+msgstr "F0005상태"
+
+#: FeedbackPlugin.php:469
+#: View/FeedbackBlockusers/admin_index.ctp:3;10
+msgid "Block Users"
+msgstr "F0006사용자차단"
+
+#: FeedbackPlugin.php:470
+#: View/FeedbackBlockips/admin_index.ctp:3;10
+msgid "Block IP Addresses"
+msgstr "F0007IP주소차단"
+
+#: FeedbackPlugin.php:471
+#: View/FeedbackStatistics/admin_index.ctp:10
+msgid "Statistics"
+msgstr "F0008통계"
+
+#: FeedbackPlugin.php:472
+#: View/FeedbackSettings/admin_index.ctp:29;44
+msgid "Settings"
+msgstr "F0009설정"
+
+#: Controller/FeedbackBlockipsController.php:33
+msgid "Feedback Block ips"
+msgstr "F0010Feedback Block ips"
+
+#: Controller/FeedbackBlockipsController.php:58
+#: Controller/FeedbackCategoriesController.php:66
+#: Controller/FeedbackSeveritiesController.php:75
+#: Controller/FeedbackStatusesController.php:67
+msgid "Successfully created"
+msgstr "F0011생성완료"
+
+#: Controller/FeedbackBlockipsController.php:64;89
+#: Controller/FeedbackBlockusersController.php:72
+#: Controller/FeedbackCategoriesController.php:71;89
+#: Controller/FeedbackSeveritiesController.php:81;100
+#: Controller/FeedbackStatusesController.php:73;92
+#: Controller/FeedbacksController.php:731;796;844
+msgid "Successfully updated"
+msgstr "F0012업데이트완료"
+
+#: Controller/FeedbackBlockipsController.php:85;99
+#: Controller/FeedbackCategoriesController.php:85;99
+#: Controller/FeedbackSeveritiesController.php:96;110
+#: Controller/FeedbackStatusesController.php:88;102
+#: Controller/FeedbacksController.php:679
+msgid "This category does not exist"
+msgstr "F0013이 카테고리는 존재하지 않습니다."
+
+#: Controller/FeedbackBlockipsController.php:102
+#: Controller/FeedbackCategoriesController.php:102
+#: Controller/FeedbackSeveritiesController.php:113
+#: Controller/FeedbackStatusesController.php:105
+#: Controller/FeedbacksController.php:595
+msgid "Successfully deleted"
+msgstr "F0014삭제완료"
+
+#: Controller/FeedbackBlockusersController.php:53
+msgid "Feedback Block Users"
+msgstr "F0015Feedback Block Users"
+
+#: Controller/FeedbackSettingsController.php:51
+msgid "Feedback Settings"
+msgstr "F0016사용후기 설정"
+
+#: Controller/FeedbackSeveritiesController.php:42
+msgid "Feedback Severities"
+msgstr "F0017사용후기 심각도"
+
+#: Controller/FeedbackStatisticsController.php:33
+msgid "Feedback Statistics"
+msgstr "F0018사용후기 통계"
+
+#: Controller/FeedbackStatusesController.php:33
+#: View/Elements/nav_feedback.ctp:21
+#: View/Feedbacks/admin_ajax_add_status.ctp:33
+#: View/Feedbacks/admin_index.ctp:57
+#: View/Feedbacks/ajax_add_status.ctp:68
+#: View/Widgets/feedback/nav_feedback.ctp:21
+msgid "Status"
+msgstr "F0019상황"
+
+#: Controller/FeedbackVotesController.php:14
+msgid "Please login to continue"
+msgstr "F0020로그인후 계속"
+
+#: Controller/FeedbackVotesController.php:33;50
+#: View/Elements/lists/categories_list.ctp:33
+#: View/Elements/lists/feedbacks_list.ctp:45
+#: View/Feedbacks/ajax_create.ctp:225
+#: View/Feedbacks/view.ctp:162
+msgid "Vote"
+msgstr "F0021투표"
+
+#: Controller/FeedbackVotesController.php:40
+#: View/Elements/lists/categories_list.ctp:31
+#: View/Elements/lists/feedbacks_list.ctp:43
+#: View/Feedbacks/ajax_create.ctp:223
+#: View/Feedbacks/view.ctp:160
+msgid "Unvote"
+msgstr "F0022투표취소"
+
+#: Controller/FeedbackVotesController.php:54
+#: View/Feedbacks/admin_index.ctp:58
+msgid "Votes"
+msgstr "F0023투표"
+
+#: Controller/FeedbacksController.php:61;169;424;768;887
+#: View/Feedbacks/admin_ajax_add_status.ctp:51
+#: View/Feedbacks/ajax_add_status.ctp:93
+#: View/Feedbacks/ajax_create.ctp:54
+msgid "You dont't have permission."
+msgstr "F0024권한이 없습니다."
+
+#: Controller/FeedbacksController.php:236
+msgid "This feedback does not exist"
+msgstr "F0025해당 사용후기자료는 없습니다"
+
+#: Controller/FeedbacksController.php:429
+msgid "You have reached limit for posting feedback"
+msgstr "F0026사용후기 게시한도에 도달했습니다."
+
+#: Controller/FeedbacksController.php:434
+msgid "Please wait %s for next post"
+msgstr "F0027다시 게시까지 대기시간: %s "
+
+#: Controller/FeedbacksController.php:472
+msgid "Invalid security code"
+msgstr "F0028유효하지 않은 보안코드"
+
+#: Controller/FeedbacksController.php:547
+msgid "Your Feedback was successfully posted. Please wait for publication approval from Admin"
+msgstr "F0029사용후기가 제출되었습니다. 관리자의 게시승인까지 기다려주시기 바랍니다."
+
+#: Controller/FeedbacksController.php:551
+msgid "Feedback has been successfully updated"
+msgstr "F0030사용후기가 업데이트되었습니다."
+
+#: Controller/FeedbacksController.php:562
+msgid "Something went wrong, please try again."
+msgstr "F0031오류가 발생했습니다. 재시도 바랍니다."
+
+#: Controller/FeedbacksController.php:571;613
+msgid "Please select Feedback to delete!"
+msgstr "F0032삭제대상 사용후기를 지정해주십시요."
+
+#: Controller/FeedbacksController.php:608;620
+msgid "You dont't have permission to delete this feedback."
+msgstr "F0033해당 사용후기에 대한 삭제권한이 없습니다."
+
+#: Controller/FeedbacksController.php:647
+msgid "Feedback has been deleted"
+msgstr "F0034사용후기가 삭제되었습니다"
+
+#: Controller/FeedbacksController.php:669
+msgid "You don't have permission to do this"
+msgstr "F0035해당 권한이 없습니다."
+
+#: Lib/FeedbackListener.php:157
+#: View/Feedbacks/edit.ctp:3
+#: View/Feedbacks/index.ctp:3
+#: View/Feedbacks/view.ctp:4
+msgid "Can not upload file more than "
+msgstr "F0036파일업로드 제한:"
+
+#: Lib/FeedbackListener.php:158
+#: View/Feedbacks/add_image.ctp:22
+#: View/Feedbacks/edit.ctp:4
+#: View/Feedbacks/index.ctp:4
+#: View/Feedbacks/view.ctp:5
+msgid "Drag or click here to upload photo"
+msgstr "F0037끌어 붙이거나,이곳을 클릭하여 사진업로드 "
+
+#: Lib/FeedbackListener.php:159
+#: View/Feedbacks/edit.ctp:5
+#: View/Feedbacks/index.ctp:5
+#: View/Feedbacks/view.ctp:6
+msgid "Click or Drap your file here"
+msgstr "F0038이곳으로 파일을 끌어붙이거나, 클릭"
+
+#: Lib/FeedbackListener.php:160
+#: View/Feedbacks/admin_index.ctp:134
+#: View/Feedbacks/view.ctp:105;107
+msgid "Are you sure you want to delete this feedback?"
+msgstr "F0039해당 사용후기를 삭제하시겠습니까?"
+
+#: Lib/FeedbackListener.php:161
+#: View/Feedbacks/admin_index.ctp:151
+msgid "Are you sure you want to delete these feedbacks?"
+msgstr "F0040해당 사용후기를 삭제하시겠습니까?"
+
+#: Lib/FeedbackListener.php:382;419
+msgid "Feedbacks"
+msgstr "F0041사용후기"
+
+#: Lib/FeedbackListener.php:497;498
+#: View/Elements/activity/text/feedback_create.ctp:1
+msgid "created a new feedback"
+msgstr "F0042새 사용후기 작성완료"
+
+#: Lib/FeedbackListener.php:529;530
+msgid "shared %s's feedback"
+msgstr "F0043%s의 사용후기 공유완료"
+
+#: Model/FeedbackBlockip.php:17
+msgid "IP address is required"
+msgstr "F0044IP주소를 입력해주십시요"
+
+#: View/Elements/nav_detail_feedback.ctp:2
+#: View/Widgets/feedback/nav_detail_feedback.ctp:2
+msgid "Feedback Creator"
+msgstr "F0045사용후기 생성기"
+
+#: View/Elements/nav_detail_feedback.ctp:15;16
+msgid "Cancel Request"
+msgstr "F0046요청취소"
+
+#: View/Elements/nav_detail_feedback.ctp:25
+#: View/Widgets/feedback/nav_detail_feedback.ctp:14
+msgid "Send %s a friend request"
+msgstr "F0047%s 친구신청 발송"
+
+#: View/Elements/nav_detail_feedback.ctp:25
+#: View/Widgets/feedback/nav_detail_feedback.ctp:14
+msgid "Add as Friend"
+msgstr "F0048친구추가"
+
+#: View/Elements/nav_detail_feedback.ctp:44
+#: View/Feedbacks/admin_ajax_edit.ctp:67;70
+#: View/Feedbacks/ajax_create.ctp:152;155
+#: View/Feedbacks/edit.ctp:44
+#: View/Widgets/feedback/nav_detail_feedback.ctp:30
+msgid "Tags"
+msgstr "F0049태그"
+
+#: View/Elements/nav_feedback.ctp:2
+#: View/Widgets/feedback/nav_feedback.ctp:2
+msgid "Browse"
+msgstr "F0050브라우즈"
+
+#: View/Elements/nav_feedback.ctp:5
+#: View/Widgets/feedback/nav_feedback.ctp:5
+msgid "All Feedback"
+msgstr "F0051전체 사용후기"
+
+#: View/Elements/nav_feedback.ctp:7
+#: View/Widgets/feedback/nav_feedback.ctp:7
+msgid "My Feedback"
+msgstr "F0052나의 사용후기"
+
+#: View/Elements/nav_feedback.ctp:8
+#: View/Widgets/feedback/nav_feedback.ctp:8
+msgid "Friends' Feedback"
+msgstr "F0053친구의 사용후기"
+
+#: View/Elements/nav_feedback.ctp:32
+#: View/Widgets/feedback/nav_feedback.ctp:32
+msgid "Enter keyword to search"
+msgstr "F0054검색키워드 입력"
+
+#: View/Elements/search_feedback_list.ctp:28
+#: View/Elements/activity/content/feedback_create.ctp:16
+#: View/Elements/activity/content/feedback_create_share.ctp:25
+#: View/Elements/activity/content/feedback_item_detail_share.ctp:17
+#: View/Elements/activity/share/feedback_create.ctp:21
+#: View/Elements/activity/share/feedback_item_detail.ctp:8
+#: View/Elements/lists/categories_list.ctp:18
+#: View/Elements/lists/feedbacks_list.ctp:22
+#: View/Feedbacks/ajax_create.ctp:209
+#: View/Feedbacks/view.ctp:40
+#: View/Widgets/feedback/most_voted_feedback.ctp:16
+msgid "votes"
+msgstr "F0055투표"
+
+#: View/Elements/search_feedback_list.ctp:28
+#: View/Elements/activity/content/feedback_create.ctp:16
+#: View/Elements/activity/content/feedback_create_share.ctp:25
+#: View/Elements/activity/content/feedback_item_detail_share.ctp:17
+#: View/Elements/activity/share/feedback_create.ctp:21
+#: View/Elements/activity/share/feedback_item_detail.ctp:8
+#: View/Elements/lists/categories_list.ctp:18
+#: View/Elements/lists/feedbacks_list.ctp:22
+#: View/Feedbacks/ajax_create.ctp:209
+#: View/Feedbacks/view.ctp:40
+#: View/Widgets/feedback/most_voted_feedback.ctp:16
+msgid "vote"
+msgstr "F0056투표"
+
+#: View/Elements/search_feedback_list.ctp:30
+#: View/Elements/lists/categories_list.ctp:20
+#: View/Elements/lists/feedbacks_list.ctp:24
+#: View/Feedbacks/admin_index.ctp:62
+#: View/Feedbacks/ajax_create.ctp:211
+#: View/Widgets/feedback/most_voted_feedback.ctp:18
+msgid "Featured"
+msgstr "F0057추천"
+
+#: View/Elements/search_feedback_list.ctp:40
+#: View/Elements/lists/categories_list.ctp:42
+msgid " views"
+msgstr "F0058보기"
+
+#: View/Elements/search_feedback_list.ctp:41
+#: View/Elements/lists/categories_list.ctp:43
+msgid " comments"
+msgstr "F0059 댓글"
+
+#: View/Elements/search_feedback_list.ctp:42
+#: View/Elements/lists/categories_list.ctp:44
+msgid " pictures"
+msgstr "F0060 사진"
+
+#: View/Elements/search_feedback_list.ctp:43
+#: View/Elements/lists/categories_list.ctp:45
+#: View/Elements/lists/feedbacks_list.ctp:56
+#: View/Feedbacks/ajax_create.ctp:235
+msgid "Posted by "
+msgstr "F0061게시자:"
+
+#: View/Elements/search_feedback_list.ctp:44
+#: View/Elements/lists/categories_list.ctp:46
+#: View/Elements/lists/feedbacks_list.ctp:57
+#: View/Feedbacks/ajax_create.ctp:236
+msgid "about "
+msgstr "F0062개요:"
+
+#: View/Elements/search_feedback_list.ctp:48
+#: View/Elements/lists/categories_list.ctp:50
+#: View/Elements/lists/feedbacks_list.ctp:80
+#: View/Feedbacks/ajax_create.ctp:259
+#: View/Widgets/feedback/most_voted_feedback.ctp:33
+msgid "Category: "
+msgstr "F0063카테고리:"
+
+#: View/Elements/search_feedback_list.ctp:56
+#: View/Elements/lists/categories_list.ctp:59
+#: View/Elements/lists/feedbacks_list.ctp:88
+#: View/Feedbacks/ajax_create.ctp:266
+#: View/Feedbacks/view.ctp:175
+msgid "Status: "
+msgstr "F0064상황:"
+
+#: View/Elements/search_feedback_list.ctp:79
+#: View/Elements/lists/categories_list.ctp:82
+msgid "Load More"
+msgstr "F0065더 보기"
+
+#: View/Elements/search_feedback_list.ctp:83
+#: View/Elements/lists/categories_list.ctp:77
+#: View/Elements/lists/feedbacks_list.ctp:157
+msgid "No more results found"
+msgstr "F0066더 이상 자료가 없습니다"
+
+#: View/Elements/activity/text/feedback_item_detail_share.ctp:5
+msgid "feedback"
+msgstr "F0067사용후기"
+
+#: View/Elements/lists/feedbacks_list.ctp:28
+#: View/Feedbacks/view.ctp:43
+msgid "Pending publication"
+msgstr "F0068계류중인 게시물"
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:24
+msgid "Add New Ip"
+msgstr "F0069IP추가"
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:32;34
+#: View/FeedbackBlockips/admin_index.ctp:37
+msgid "IP Address"
+msgstr "F0070IP주소"
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:38
+#: View/FeedbackBlockusers/admin_index.ctp:49
+msgid "Feedback Posting"
+msgstr "F0071사용후기 게시"
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:57
+#: View/FeedbackCategories/admin_ajax_create.ctp:78
+#: View/FeedbackSeverities/admin_ajax_create.ctp:72
+#: View/FeedbackStatuses/admin_ajax_create.ctp:92
+#: View/Feedbacks/admin_ajax_add_status.ctp:57
+#: View/Feedbacks/admin_ajax_edit.ctp:113
+#: View/Feedbacks/ajax_add_status.ctp:84
+#: View/Feedbacks/ajax_thanks.ctp:20
+msgid "Close"
+msgstr "F0072닫기"
+
+#: View/FeedbackBlockips/admin_ajax_create.ctp:58
+#: View/FeedbackCategories/admin_ajax_create.ctp:79
+#: View/FeedbackSeverities/admin_ajax_create.ctp:73
+#: View/FeedbackStatuses/admin_ajax_create.ctp:93
+#: View/Feedbacks/admin_ajax_add_status.ctp:58
+#: View/Feedbacks/admin_ajax_edit.ctp:114
+#: View/Feedbacks/ajax_add_status.ctp:83
+msgid "Save"
+msgstr "F0073저장"
+
+#: View/FeedbackBlockips/admin_index.ctp:2
+#: View/FeedbackBlockusers/admin_index.ctp:2
+#: View/FeedbackCategories/admin_index.ctp:2
+#: View/FeedbackSettings/admin_index.ctp:28
+#: View/FeedbackSeverities/admin_index.ctp:2
+#: View/FeedbackStatistics/admin_index.ctp:2
+#: View/FeedbackStatuses/admin_index.ctp:2
+#: View/Feedbacks/admin_index.ctp:2
+msgid "Plugins Manager"
+msgstr "F0074플러그인관리자"
+
+#: View/FeedbackBlockips/admin_index.ctp:28
+#: View/FeedbackCategories/admin_index.ctp:28
+#: View/FeedbackSeverities/admin_index.ctp:28
+#: View/FeedbackStatuses/admin_index.ctp:35
+msgid "Add New"
+msgstr "F0075신규추가"
+
+#: View/FeedbackBlockips/admin_index.ctp:38
+msgid "Option"
+msgstr "F0076선택사항"
+
+#: View/FeedbackBlockips/admin_index.ctp:47
+#: View/FeedbackCategories/admin_index.ctp:58
+#: View/FeedbackSeverities/admin_index.ctp:60
+#: View/FeedbackStatuses/admin_index.ctp:65
+#: View/Feedbacks/admin_index.ctp:131
+msgid "Edit"
+msgstr "F0077편집"
+
+#: View/FeedbackBlockips/admin_index.ctp:50
+#: View/FeedbackCategories/admin_index.ctp:61
+#: View/FeedbackSeverities/admin_index.ctp:63
+#: View/FeedbackStatuses/admin_index.ctp:68
+#: View/Feedbacks/admin_index.ctp:134;149
+#: View/Feedbacks/ajax_create.ctp:139
+#: View/Feedbacks/edit.ctp:97
+msgid "Delete"
+msgstr "F0078삭제"
+
+#: View/FeedbackBlockips/admin_index.ctp:50
+msgid "Are you sure you want to delete this ip?"
+msgstr "F0079이 IP를 삭제할까요?"
+
+#: View/FeedbackBlockips/admin_index.ctp:64
+msgid "No block ip addresses"
+msgstr "F0080차단된 IP주소 없슴"
+
+#: View/FeedbackBlockusers/admin_index.ctp:31
+#: View/Feedbacks/admin_index.ctp:32
+msgid "Search by title"
+msgstr "F0081주제로 검색"
+
+#: View/FeedbackBlockusers/admin_index.ctp:37
+#: View/Feedbacks/admin_index.ctp:38
+msgid "Search"
+msgstr "F0082검색"
+
+#: View/FeedbackBlockusers/admin_index.ctp:47
+#: View/FeedbackCategories/admin_index.ctp:37
+#: View/FeedbackSeverities/admin_index.ctp:37
+#: View/FeedbackStatuses/admin_index.ctp:44
+#: View/Feedbacks/admin_index.ctp:52
+msgid "ID"
+msgstr "F0083ID"
+
+#: View/FeedbackBlockusers/admin_index.ctp:48
+msgid "User Name"
+msgstr "F0084사용자별명"
+
+#: View/FeedbackBlockusers/admin_index.ctp:50
+#: View/Feedbacks/ajax_create.ctp:111
+msgid "Email"
+msgstr "F0085이메일"
+
+#: View/FeedbackBlockusers/admin_index.ctp:51
+msgid "Roles"
+msgstr "F0086역할"
+
+#: View/FeedbackBlockusers/admin_index.ctp:52
+msgid "Create"
+msgstr "F0087생성"
+
+#: View/FeedbackBlockusers/admin_index.ctp:67
+#: View/FeedbackCategories/admin_index.ctp:52
+#: View/FeedbackSettings/admin_index.ctp:6
+#: View/FeedbackSeverities/admin_index.ctp:54
+#: View/FeedbackStatuses/admin_index.ctp:59
+#: View/Feedbacks/admin_index.ctp:113;122
+msgid "Disable"
+msgstr "F0088사용안함"
+
+#: View/FeedbackBlockusers/admin_index.ctp:69
+#: View/FeedbackCategories/admin_index.ctp:54
+#: View/FeedbackSettings/admin_index.ctp:7
+#: View/FeedbackSeverities/admin_index.ctp:56
+#: View/FeedbackStatuses/admin_index.ctp:61
+#: View/Feedbacks/admin_index.ctp:115;124
+msgid "Enable"
+msgstr "F0089사용"
+
+#: View/FeedbackBlockusers/admin_index.ctp:86
+msgid "No block users"
+msgstr "F0090차단사용자 없슴"
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:24
+msgid "Add New Category"
+msgstr "F0091카테고리 추가"
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:32;34
+#: View/FeedbackCategories/admin_index.ctp:38
+#: View/FeedbackSeverities/admin_ajax_create.ctp:32;34
+#: View/FeedbackSeverities/admin_index.ctp:38
+#: View/FeedbackStatuses/admin_ajax_create.ctp:40;42
+#: View/FeedbackStatuses/admin_index.ctp:45
+msgid "Name"
+msgstr "F0092이름"
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:36
+#: View/FeedbackSeverities/admin_ajax_create.ctp:36
+#: View/FeedbackStatuses/admin_ajax_create.ctp:44
+msgid "You can add translation language after creating category"
+msgstr "F0093카테고리가 생성되면 번역을 추가할수 있습니다"
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:46;47
+#: View/FeedbackCategories/admin_ajax_translate.ctp:21
+#: View/FeedbackSeverities/admin_ajax_create.ctp:46;47
+#: View/FeedbackSeverities/admin_ajax_translate.ctp:21
+#: View/FeedbackStatuses/admin_ajax_create.ctp:54;55
+#: View/FeedbackStatuses/admin_ajax_translate.ctp:21
+msgid "Translation"
+msgstr "F0094번역"
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:55;57
+#: View/FeedbackCategories/admin_index.ctp:39
+#: View/Feedbacks/admin_ajax_edit.ctp:61;63
+#: View/Feedbacks/ajax_create.ctp:76
+#: View/Feedbacks/edit.ctp:38
+msgid "Description"
+msgstr "F0095세부내역"
+
+#: View/FeedbackCategories/admin_ajax_create.ctp:61
+#: View/FeedbackCategories/admin_index.ctp:40
+#: View/FeedbackSeverities/admin_ajax_create.ctp:55
+#: View/FeedbackSeverities/admin_index.ctp:41
+#: View/FeedbackStatuses/admin_ajax_create.ctp:75
+#: View/FeedbackStatuses/admin_index.ctp:47
+#: View/Feedbacks/admin_index.ctp:64
+msgid "Active"
+msgstr "F0096유효"
+
+#: View/FeedbackCategories/admin_index.ctp:41
+#: View/FeedbackSeverities/admin_index.ctp:42
+#: View/FeedbackStatuses/admin_index.ctp:48
+#: View/Feedbacks/admin_index.ctp:65
+msgid "Options"
+msgstr "F0097선택사항"
+
+#: View/FeedbackCategories/admin_index.ctp:61
+msgid "Are you sure you want to delete this category?"
+msgstr "F0098이 카테고리를 삭제할까요?"
+
+#: View/FeedbackCategories/admin_index.ctp:74
+msgid "No categories"
+msgstr "F0099카테고리없슴"
+
+#: View/FeedbackSettings/admin_index.ctp:2
+msgid "Customize feedback button position"
+msgstr "F0100사용후기버튼 위치"
+
+#: View/FeedbackSettings/admin_index.ctp:3
+msgid "Left side of screen"
+msgstr "F0101화면 왼쪽"
+
+#: View/FeedbackSettings/admin_index.ctp:4
+msgid "Right side of screen"
+msgstr "F0102화면 오른쪽"
+
+#: View/FeedbackSettings/admin_index.ctp:5
+msgid "Feedback enabled"
+msgstr "F0103사용후기 제출 활성화"
+
+#: View/FeedbackSettings/admin_index.ctp:8
+msgid "Enable feedback button on desktop"
+msgstr "F0104데스크탑에서 사용후기버튼 활성화"
+
+#: View/FeedbackSettings/admin_index.ctp:9
+msgid "Yes"
+msgstr "F0105예"
+
+#: View/FeedbackSettings/admin_index.ctp:10
+#: View/Feedbacks/admin_index.ctp:89;97
+msgid "No"
+msgstr "F0106아니오"
+
+#: View/FeedbackSettings/admin_index.ctp:11
+msgid "Send mail to emails"
+msgstr "F0107이메일로 송부"
+
+#: View/FeedbackSettings/admin_index.ctp:12
+msgid "Enable captcha"
+msgstr "F0108보안문자허용"
+
+#: View/FeedbackSettings/admin_index.ctp:13
+msgid "Enable Feedback Hashtag"
+msgstr "F0109사용자후기 해쉬태그 허용"
+
+#: View/FeedbackSettings/admin_index.ctp:14
+msgid "How many minutes should a user wait before they can submit another feedback?"
+msgstr "F0110사용자후기 추가제출 대기시간은 안내(분)"
+
+#: View/FeedbackSettings/admin_index.ctp:15
+msgid "Maximum feedback user can create"
+msgstr "F0111사용자당 최대 사용후기 수"
+
+#: View/FeedbackSettings/admin_index.ctp:16
+msgid "Feedback per pages"
+msgstr "F0112페이지당 사용후기"
+
+#: View/FeedbackSettings/admin_index.ctp:17
+msgid "The number of feedbacks to display per page"
+msgstr "F0113페이지장 사용후기 수"
+
+#: View/FeedbackSettings/admin_index.ctp:18
+msgid "Customize feedback button hover color"
+msgstr "F0114사용자후기버튼 주변색 지정"
+
+#: View/FeedbackSettings/admin_index.ctp:19
+msgid "Customize feedback button text color"
+msgstr "F0115사용후기버튼 글자색 지정"
+
+#: View/FeedbackSettings/admin_index.ctp:20
+msgid "Customize feedback button text hover color"
+msgstr "F0116사용후기버튼 글자주변색 지정"
+
+#: View/FeedbackSettings/admin_index.ctp:21
+msgid "Customize feedback button color"
+msgstr "F0117사용후기버튼색 지정"
+
+#: View/FeedbackSettings/admin_index.ctp:22
+msgid "By pass force login"
+msgstr "F0118By pass force login"
+
+#: View/FeedbackSettings/admin_index.ctp:23
+msgid "Enable feedback button on mobile"
+msgstr "F0119모바일에서 사용후기버튼 활성화"
+
+#: View/FeedbackSettings/admin_index.ctp:24
+msgid "Enable display activity feed"
+msgstr "F0120Enable display activity feed"
+
+#: View/FeedbackSeverities/admin_ajax_create.ctp:23
+msgid "Add New Severity"
+msgstr "F0121심각도 추가"
+
+#: View/FeedbackSeverities/admin_index.ctp:39
+#: View/Feedbacks/admin_index.ctp:54
+msgid "Creator"
+msgstr "F0122게시자"
+
+#: View/FeedbackSeverities/admin_index.ctp:40
+msgid "Number of Times Used"
+msgstr "F0123사용횟수"
+
+#: View/FeedbackSeverities/admin_index.ctp:63
+msgid "Are you sure you want to delete this severity?"
+msgstr "F0124이 심각도알림을 삭제하시겠습니까?"
+
+#: View/FeedbackSeverities/admin_index.ctp:76
+msgid "No serverities"
+msgstr "F0125심각도 누락"
+
+#: View/FeedbackStatistics/admin_index.ctp:13
+msgid "Below are some valuable statistics for the Feedback submitted on this site"
+msgstr "F0126제출된 사용후기 통계"
+
+#: View/FeedbackStatistics/admin_index.ctp:19
+msgid "Total Feedback"
+msgstr "F0127전체 사용후기"
+
+#: View/FeedbackStatistics/admin_index.ctp:23
+msgid "Total Member Feedback"
+msgstr "F0128전체 회원 사용후기"
+
+#: View/FeedbackStatistics/admin_index.ctp:27
+msgid "Total Anonymous Feedback"
+msgstr "F0129전체 무기명 사용후기"
+
+#: View/FeedbackStatistics/admin_index.ctp:31
+msgid "Total Comments"
+msgstr "F0130전체 댓글"
+
+#: View/FeedbackStatistics/admin_index.ctp:35
+msgid "Total Votes"
+msgstr "F0131전체 투표"
+
+#: View/FeedbackStatuses/admin_ajax_create.ctp:32
+msgid "Add New Status"
+msgstr "F0132상황추가"
+
+#: View/FeedbackStatuses/admin_ajax_create.ctp:63
+msgid "Pick a Color"
+msgstr "F0133색상지정"
+
+#: View/FeedbackStatuses/admin_ajax_create.ctp:65
+msgid "Color"
+msgstr "F0134색상"
+
+#: View/FeedbackStatuses/admin_ajax_create.ctp:69;71
+#: View/FeedbackStatuses/admin_index.ctp:46
+msgid "Default Comment"
+msgstr "F0135기본 댓글"
+
+#: View/FeedbackStatuses/admin_index.ctp:68
+msgid "Are you sure you want to delete this status?"
+msgstr "F0136이 상황알림을 삭제하시겠습니까?"
+
+#: View/FeedbackStatuses/admin_index.ctp:81
+msgid "No statuses"
+msgstr "F0137상황알림없음"
+
+#: View/Feedbacks/add_image.ctp:62
+msgid "Upload Photos"
+msgstr "F0138사진 업로드"
+
+#: View/Feedbacks/add_image.ctp:69
+#: View/Feedbacks/ajax_create.ctp:129
+msgid "Upload Queued Files"
+msgstr "F0139대기중인 파일 업로드"
+
+#: View/Feedbacks/add_image.ctp:72
+msgid "Go To Feedback"
+msgstr "F0140사용후기로 이동"
+
+#: View/Feedbacks/admin_ajax_add_status.ctp:24
+#: View/Feedbacks/admin_index.ctp:105
+#: View/Feedbacks/view.ctp:55
+msgid "Add Status"
+msgstr "F0141상황추가"
+
+#: View/Feedbacks/admin_ajax_add_status.ctp:39
+#: View/Feedbacks/ajax_add_status.ctp:73
+msgid "Comment"
+msgstr "F0142댓글"
+
+#: View/Feedbacks/admin_ajax_edit.ctp:48
+msgid "Edit feedback"
+msgstr "F0143사용후기편집"
+
+#: View/Feedbacks/admin_ajax_edit.ctp:55;57
+#: View/Feedbacks/admin_index.ctp:53
+#: View/Feedbacks/ajax_create.ctp:71;72
+#: View/Feedbacks/edit.ctp:33
+msgid "Title"
+msgstr "F0144제목"
+
+#: View/Feedbacks/admin_ajax_edit.ctp:78
+#: View/Feedbacks/admin_index.ctp:55
+#: View/Feedbacks/ajax_create.ctp:83
+#: View/Feedbacks/edit.ctp:51
+msgid "Category"
+msgstr "F0145카테고리"
+
+#: View/Feedbacks/admin_ajax_edit.ctp:86
+#: View/Feedbacks/admin_index.ctp:56
+#: View/Feedbacks/ajax_create.ctp:90
+#: View/Feedbacks/edit.ctp:58
+msgid "Severity"
+msgstr "F0146심각도"
+
+#: View/Feedbacks/admin_ajax_edit.ctp:93
+#: View/Feedbacks/ajax_create.ctp:97
+#: View/Feedbacks/edit.ctp:66
+msgid "Feedback Visibility"
+msgstr "F0147사용후기 공개설정"
+
+#: View/Feedbacks/admin_ajax_edit.ctp:96
+#: View/Feedbacks/ajax_create.ctp:100
+#: View/Feedbacks/edit.ctp:69
+msgid "Everyone"
+msgstr "F0148모두에게"
+
+#: View/Feedbacks/admin_ajax_edit.ctp:97
+#: View/Feedbacks/ajax_create.ctp:101
+#: View/Feedbacks/edit.ctp:70
+msgid "Friends Only"
+msgstr "F0149친구에게만"
+
+#: View/Feedbacks/admin_ajax_edit.ctp:98
+#: View/Feedbacks/ajax_create.ctp:102
+#: View/Feedbacks/edit.ctp:71
+msgid "Only Me"
+msgstr "F0150나에게만"
+
+#: View/Feedbacks/admin_index.ctp:60
+msgid "Published"
+msgstr "F0151게시완료"
+
+#: View/Feedbacks/admin_index.ctp:63
+msgid "Date"
+msgstr "F0152일시"
+
+#: View/Feedbacks/admin_index.ctp:148
+msgid "With selected..."
+msgstr "F0153선정된.."
+
+#: View/Feedbacks/admin_index.ctp:167
+msgid "No feedbacks"
+msgstr "F0154사용후기 없습"
+
+#: View/Feedbacks/ajax_add_status.ctp:58
+msgid "Add status"
+msgstr "F0155상황 추가"
+
+#: View/Feedbacks/ajax_create.ctp:3
+#: View/Feedbacks/index.ctp:6
+msgid "Drag or click here to upload files"
+msgstr "F0156이곳으로 끌어오시거나 클릭하여 파일업로드"
+
+#: View/Feedbacks/ajax_create.ctp:49
+#: View/Feedbacks/edit.ctp:27
+#: View/Feedbacks/view.ctp:98
+msgid "Edit Feedback"
+msgstr "F0157사용후기 편집"
+
+#: View/Feedbacks/ajax_create.ctp:49
+#: View/Feedbacks/browse.ctp:7
+#: View/Feedbacks/index.ctp:30
+msgid "Create New Feedback"
+msgstr "F0158사용후기 작성"
+
+#: View/Feedbacks/ajax_create.ctp:62
+msgid "To be able to display your Feedback publicly, please %s first"
+msgstr "F0159사용후기를 공개하시려면 먼저 %s 하여 주십시요"
+
+#: View/Feedbacks/ajax_create.ctp:62
+msgid "login"
+msgstr "F0160로그인"
+
+#: View/Feedbacks/ajax_create.ctp:66
+msgid "Share with us your ideas, questions, problems and feedback."
+msgstr "F0161아이디어나,질문,문제점 또는 사용후기를 저희와 공유해주십시요."
+
+#: View/Feedbacks/ajax_create.ctp:116
+msgid "Full name"
+msgstr "F0162이름"
+
+#: View/Feedbacks/ajax_create.ctp:123
+#: View/Feedbacks/edit.ctp:81
+msgid "Images"
+msgstr "F0163이미지"
+
+#: View/Feedbacks/ajax_create.ctp:185
+msgid "Save Feedback"
+msgstr "F0164사용후기 저장"
+
+#: View/Feedbacks/ajax_create.ctp:187
+#: View/Feedbacks/edit.ctp:112
+msgid "Post Feedback"
+msgstr "F0165사용후기 게시"
+
+#: View/Feedbacks/ajax_create.ctp:190
+msgid "or"
+msgstr "F0166또는"
+
+#: View/Feedbacks/ajax_create.ctp:192
+msgid "cancel"
+msgstr "F0167취소"
+
+#: View/Feedbacks/ajax_create.ctp:296
+msgid "Go to Feedback Forum"
+msgstr "F0168사용후기 포럼으로 이동"
+
+#: View/Feedbacks/ajax_thanks.ctp:2
+msgid "Thank you for your Feedback"
+msgstr "F0169사용후기제출에 감사드립니다."
+
+#: View/Feedbacks/ajax_thanks.ctp:7
+msgid "Your Feedback was successfully posted."
+msgstr "F0170회원님의 사용후기가 게시되었습니다."
+
+#: View/Feedbacks/ajax_thanks.ctp:9
+msgid "Please wait for publication approval from Admin."
+msgstr "F0171관리자의 게시승인 대기중입니다."
+
+#: View/Feedbacks/ajax_thanks.ctp:16
+msgid "View feedback"
+msgstr "F0172사용후기 보기"
+
+#: View/Feedbacks/view.ctp:68;70;81;83
+msgid "Are you sure you want to %s this feedback?"
+msgstr "F0173이 사용후기를 %s 하시겠습니까?"
+
+#: View/Feedbacks/view.ctp:68;70
+msgid "unapprove"
+msgstr "F0174승인취소"
+
+#: View/Feedbacks/view.ctp:68;70
+msgid "approve"
+msgstr "F0175승인"
+
+#: View/Feedbacks/view.ctp:73
+msgid "Unpublish Feedback"
+msgstr "F0176사용후기 게시취소"
+
+#: View/Feedbacks/view.ctp:75
+msgid "Publish Feedback"
+msgstr "F0177사용후기 게시"
+
+#: View/Feedbacks/view.ctp:81;83
+msgid "unfeature"
+msgstr "F0178추천취소"
+
+#: View/Feedbacks/view.ctp:81;83
+msgid "feature"
+msgstr "F0179추천"
+
+#: View/Feedbacks/view.ctp:86
+msgid "Unfeature Feedback"
+msgstr "F0180추천 사용후기"
+
+#: View/Feedbacks/view.ctp:88
+msgid "Feature Feedback"
+msgstr "F0181추천 사용후기"
+
+#: View/Feedbacks/view.ctp:109
+msgid "Delete Feedback"
+msgstr "F0182사용후기 삭제"
+
+#: View/Feedbacks/view.ctp:114
+msgid "Report Feedback"
+msgstr "F0183사용후기 관리자에게 제출"
+
+#: View/Feedbacks/view.ctp:122
+msgid "Posted in "
+msgstr "F0184Posted in "
+
+#: View/Feedbacks/view.ctp:127
+msgid "Posted "
+msgstr "F0185게시완료"
+
+#: View/Feedbacks/view.ctp:134
+msgid "Shared with: Everyone"
+msgstr "F0186공유대상 : 모두"
+
+#: View/Feedbacks/view.ctp:138
+msgid "Shared with: Friends Only"
+msgstr "F0187공유대상: 친구만"
+
+#: View/Feedbacks/view.ctp:142
+msgid "Shared with: Only Me"
+msgstr "F0188공유대상: 나에게만"
+
+#: View/Feedbacks/view.ctp:193
+msgid "Attached Images"
+msgstr "F0189이미지 첨부"
+
+#: View/Widgets/feedback/most_voted_feedback.ctp:4
+msgid "Most Voted Feedback"
+msgstr "F0190최고투표참여도 사용후기"
+
+#: View/Widgets/feedback/most_voted_feedback.ctp:28
+msgid "%s views"
+msgstr "F0191%s 보기"
+
+#: View/Widgets/feedback/most_voted_feedback.ctp:28
+msgid "%s view"
+msgstr "F0192%s 보기"
+
+msgid "Search Feedback"
+msgstr "F0193사용후기 검색"
+
+msgid "created a new feedback"
+msgstr "F0194새 사용후기가 생성되었습니다."

@@ -1,0 +1,291 @@
+.profile-review-header .mo_breadcrumb {
+    text-align: left;
+}
+
+.review_sort.list_option {
+    top: -2px;
+}
+
+.profile-review-header .dropdown-sort {
+    vertical-align: bottom;
+}
+
+.review-truncate {
+    max-height: 60px;
+    overflow: hidden;
+    line-height: 15px;
+    margin-right: 10px;
+}
+
+.review-tooltip-profile {
+    margin: 5px 0; 
+    height: 22px; 
+    line-height: 22px
+}
+
+.review-tooltip-profile .review-count {
+    vertical-align: sub;
+}
+
+.content-reply {
+    position: relative;
+}
+
+.review-content-list li .list-option-reply {
+    top: 7px;
+}
+
+.star-rating {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.review-content-list {
+    list-style: none;
+    padding: 0;
+}
+
+.review-content-list li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.review-content-list > li {
+    padding-bottom: 15px;
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 15px;
+}
+
+.review-content-list > li.not_style {
+    padding: 0;
+    border: none;
+}
+
+.review-content-list .list_option {
+    top: 15px;
+}
+
+.review-info .moocore_tooltip_link {
+    font-size: 16px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.review-info {
+    margin-left: 88px;
+}
+
+.review-content-list .review-time {
+    margin-bottom: 5px;
+}
+
+.review-content-list .review-star-rating {
+    margin-left: -2px;
+}
+
+.review-content-list li a img {
+    border: 1px solid #979797;
+    border-radius: 4px;
+    height: 77px;
+    width: 77px;
+}
+
+.review-detail-content .content {
+    padding: 10px 0;
+}
+
+.write-review-content .create_form {
+    text-align: left;
+}
+
+.write-review-content label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.write-review-content textarea#content {
+    padding: 5px 6px 6px 6px;
+    box-shadow: none;
+    overflow: hidden;
+    min-height: 0;
+}
+
+.write-review-content .rating-gly-star {
+    font-size: 40px;
+}
+
+.write-review-content .review_star {
+    background: none;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    line-height: normal;
+    color: #fff;
+}
+
+.write-review-content .photo-list .photoItem {
+    width: 20%;
+    float: left;
+}
+
+.delete-icons:hover {
+    color: #2a6496;
+}
+
+.delete-icons {
+    margin: 3px;
+    color: #A1A1A1;
+}
+
+.box2.review-rating-content .box_content {
+    padding: 15px 15px 15px 0;
+    overflow: hidden;
+}
+
+.review-rating-content .rating-container {
+    font-size: 20px;
+}
+
+.review-rating-score-count {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.review-star-count {
+    color: rgba(33, 99, 176, 0.87);
+    font-size: 14px;
+}
+
+.rating-ruler {
+    width: 100%;
+    height: 7px;
+    background-color: #D8D8D8;
+}
+
+.review-rating-score .rating-ruler .percentage {
+    height: 7px;
+    background-color: #F5A623;
+}
+
+.review-rating-score {
+    height: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 9px;
+    position: relative;
+}
+
+.review-rating-detail .rating-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.review-rating-detail .rating-right {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+
+.rating-left i {
+    color: #aaa;
+    font-size: 22px;
+}
+
+.review-rating-box-content .review-rating-detail {
+    border-left: 1px solid #efefef;
+    padding-left: 10px;
+}
+
+.start-number {
+    display: inline-block;
+    vertical-align: super;
+}
+
+.review-rating-action {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+    .review-content-list .list_option {
+        right: 10px;
+        top: 14px;
+    }
+    
+    .review-content-list li .list-option-reply {
+        top: 7px;
+        right: 0;
+    }
+    
+    .review_sort.list_option {
+        right: 10px;
+        top: 8px;
+    }
+}
+
+@media (max-width: 767px) {
+    .review-content-list .review-info {
+        margin-left: 70px;
+    }
+
+    .review-content-list .review-info.question-info {
+        margin-left: 45px;
+    }
+}
+
+.review-photo .close {
+    display: inline-block;
+}
+
+.review-photo .close span {
+    display: block;
+    padding-right: 20px;
+}
+
+.review-photo-detail img {
+    width: 100%;
+}
+
+.review-content-list .review-info .extra_info {
+    max-height: none;
+}
+
+/* APP */
+.mooApp-profile-review .profile-review-header {
+    position: relative;
+}
+
+.mooApp-profile-review .review_sort.list_option {
+    right: 0;
+    top: 12px;
+}
+
+.mooApp-profile-review .review-rating-box-content .review-rating-detail {
+    border: none;
+    padding: 0;
+}
+
+.mooApp-profile-review .review-content-list li .list-option-reply {
+    right: -10px;
+    top: 4px;
+}
+
+.mooApp-profile-review .review-content-list .list_option {
+    right: 0;
+}
+
+.mooApp-profile-review .review-status a{
+    margin-bottom: 10px;
+}
+
+.profile-review-header .dropdown-sort {
+    padding: 1px 3px;
+}

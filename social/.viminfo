@@ -1,0 +1,70 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 7.4.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Last Search Pattern:
+~MSle0~/yaodian
+
+# 명령 줄 히스토리 (새것부터 오래된 것 순):
+:q!
+:WQ!
+:wq!
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+?/yaodian
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+
+# 파일 마크:
+'0  1  0  /etc/apache2/sites-available/000-default.conf
+'1  1  0  /var/www/html/index.html
+'2  1002  0  /etc/apache2/sites-available/000-default.conf
+'3  2  10  ~/index.php
+
+# 점프목록 (새것이 먼저):
+-'  1  0  /etc/apache2/sites-available/000-default.conf
+-'  1  0  /var/www/html/index.html
+-'  1002  0  /etc/apache2/sites-available/000-default.conf
+-'  2  10  ~/index.php
+-'  1  0  ~/index.php
+-'  2  10  ~/index.php
+-'  1  0  ~/index.php
+-'  2  10  ~/index.php
+-'  1  0  ~/index.php
+-'  2  10  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /var/www/html/index.html
+-'  2  10  ~/index.php
+-'  1  0  ~/index.php
+-'  2  10  ~/index.php
+-'  1  0  ~/index.php
+-'  2  10  ~/index.php
+-'  1  0  ~/index.php
+-'  2  10  ~/index.php
+-'  1  0  ~/index.php
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> /etc/apache2/sites-available/000-default.conf
+	"	1	0
+
+> /var/www/html/index.html
+	"	1	0
+
+> ~/index.php
+	"	2	10
+	^	2	11
+	.	2	10
+	+	3	1
+	+	2	10

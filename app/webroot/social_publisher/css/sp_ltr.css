@@ -1,0 +1,7 @@
+.social-share-on .dropdown-menu input + span {
+    margin-left: 0;
+    margin-right: 21px;
+}
+.social-share-on .dropdown-menu input {
+    float: right;
+}

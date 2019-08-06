@@ -1,0 +1,206 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "M0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "_EMAIL_HEADER_TITLE_"
+msgstr "M0002머릿말(비회원용)"
+
+msgid "_EMAIL_HEADER_DESCRIPTION_"
+msgstr "M0003다른 이메일에, [header]로 표시하여 추가할 수 있습니다."
+
+msgid "_EMAIL_FOOTER_TITLE_"
+msgstr "M0004꼬리말(비회원용)"
+
+msgid "_EMAIL_FOOTER_DESCRIPTION_"
+msgstr "M0005다른 이메일에 [footer]로 표시하여 추가할 수 있습니다."
+
+msgid "_EMAIL_HEADER_MEMBER_TITLE_"
+msgstr "M0006머릿말(회원용)"
+
+msgid "_EMAIL_HEADER_MEMBER_DESCRIPTION_"
+msgstr "M0007다른 이메일에, [header]로 표시하여 추가할 수 있습니다."
+
+msgid "_EMAIL_FOOTER_MEMBER_TITLE_"
+msgstr "M0008꼬리말(회원용)"
+
+msgid "_EMAIL_FOOTER_MEMBER_DESCRIPTION_"
+msgstr "M0009다른 이메일에 [footer]로 표시하여 추가할 수 있습니다."
+
+msgid "_EMAIL_MAIL_CONTACT_TITLE_"
+msgstr "M0010문의양식 메일"
+
+msgid "_EMAIL_MAIL_CONTACT_DESCRIPTION_"
+msgstr "M0011문의페이지를 통해 접수된 메세지를 홈페이지 이메일주소로 보냅니다."
+
+msgid "_EMAIL_FRIEND_REQUEST_TITLE_"
+msgstr "M0012친구 신청"
+
+msgid "_EMAIL_FRIEND_REQUEST_DESCRIPTION_"
+msgstr "M0013다른 회원이 친구 신청시 회원에게 보내지는 메일입니다."
+
+msgid "_EMAIL_SITE_INVITE_TITLE_"
+msgstr "M0014초대"
+
+msgid "_EMAIL_SITE_INVITE_DESCRIPTION_"
+msgstr "M0015회원이 친구를 초대헀을 때 보내지는 메일입니다."
+
+msgid "_EMAIL_BULKMAIL_TITLE_"
+msgstr "M0016일괄메일"
+
+msgid "_EMAIL_BULKMAIL_DESCRIPTION_"
+msgstr "M0017관리자가 회원에게 일괄적으로 보내는 메일입니다."
+
+msgid "_EMAIL_WELCOME_USER_TITLE_"
+msgstr "M0018환영메일"
+
+msgid "_EMAIL_WELCOME_USER_DESCRIPTION_"
+msgstr "M0019신규회원 가입환영메일입니다."
+
+msgid "_EMAIL_WELCOME_USER_CONFIRM_TITLE_"
+msgstr "M0020인증 감사메일"
+
+msgid "_EMAIL_WELCOME_USER_CONFIRM_DESCRIPTION_"
+msgstr "M0021회원이 인증메일의 링크를 클릭했을때 보내는 메일입니다."
+
+msgid "_EMAIL_NEW_REGISTRATION_TITLE_"
+msgstr "M0022신규 등록"
+
+msgid "_EMAIL_NEW_REGISTRATION_DESCRIPTION_"
+msgstr "M0023신규회원등록시, 관리자에게 보내지는 메일입니다."
+
+msgid "_EMAIL_RESET_PASSWORD_TITLE_"
+msgstr "M0024비밀번호재설정"
+
+msgid "_EMAIL_RESET_PASSWORD_DESCRIPTION_"
+msgstr "M0025회원이 비밀번호를 재설정 할 때 보내지는 메일입니다."
+
+msgid "_EMAIL_ADMIN_CHANGE_PASSWORD_TITLE_"
+msgstr "M0026관리자변경 비밀번호"
+
+msgid "_EMAIL_ADMIN_CHANGE_PASSWORD_DESCRIPTION_"
+msgstr "M0027관리자가 회원이 비밀번호를 변경했을때 보내지는 메일입니다."
+
+msgid "_EMAIL_NOTIFICATIONS_SUMMARY_TITLE_"
+msgstr "M0028알림 요약"
+
+msgid "_EMAIL_NOTIFICATIONS_SUMMARY_DESCRIPTION_"
+msgstr "M0029알림 요약용 이메일입니다."
+
+msgid "_EMAIL_SHARED_ITEM_TITLE_"
+msgstr "M0030공유 아이템"
+
+msgid "_EMAIL_SHARED_ITEM_DESCRIPTION_"
+msgstr "M0031공유 아이템 안내용 메일입니다."
+
+msgid "_EMAIL_PRIVATE_MESSAGE_TITLE_"
+msgstr "M0032개인 메세지 보내기Send Private Message"
+
+msgid "_EMAIL_PRIVATE_MESSAGE_DESCRIPTION_"
+msgstr "M0033회원이 보낸 메세지 수신자에게 보내는 안내 이메일입니다."
+
+msgid "_EMAIL_EVENT_INVITE_NONE_MEMBER_TITLE_"
+msgstr "M0034이벤트 초대(비회원용)"
+
+msgid "_EMAIL_EVENT_INVITE_NONE_MEMBER_DESCRIPTION_"
+msgstr "M0035비회원용 초대이메일입니다."
+
+msgid "_EMAIL_GROUP_INVITE_NONE_MEMBER_TITLE_"
+msgstr "M0036비회원용 그룹초대장"
+
+msgid "_EMAIL_GROUP_INVITE_NONE_MEMBER_DESCRIPTION_"
+msgstr "M0037비회원용 초대 이메일입니다."
+
+msgid "_EMAIL_SUBSCRIPTION_ACTIVATED_TITLE_"
+msgstr "M0038구독 활성화"
+
+msgid "_EMAIL_SUBSCRIPTION_ACTIVATED_DESCRIPTION_"
+msgstr "M0039This is mail subscription active for member."
+
+msgid "_EMAIL_SUBSCRIPTION_PENDING_TITLE_"
+msgstr "M0040대기중인 신청"
+
+msgid "_EMAIL_SUBSCRIPTION_PENDING_DESCRIPTION_"
+msgstr "M0041대기중인 신청 안내메일입니다.(회원용)"
+
+msgid "_EMAIL_SUBSCRIPTION_EXPIRE_TITLE_"
+msgstr "M0042기간만료"
+
+msgid "_EMAIL_SUBSCRIPTION_EXPIRE_DESCRIPTION_"
+msgstr "M0043사용기간 만료 안내메일입니다."
+
+msgid "_EMAIL_SUBSCRIPTION_REMINDER_TITLE_"
+msgstr "M0044계약기간 신청/갱신 메일"
+
+msgid "_EMAIL_SUBSCRIPTION_REMINDER_DESCRIPTION_"
+msgstr "M0045계약기간 알림메일입니다."
+
+msgid "_EMAIL_SUBSCRIPTION_RECURRENCE_TITLE_"
+msgstr "M0046계약기간 갱신 안내메일"
+
+msgid "_EMAIL_SUBSCRIPTION_RECURRENCE_DESCRIPTION_"
+msgstr "M0047계약기간 갱신을 알리는 메일입니다."
+
+msgid "_EMAIL_SUBSCRIPTION_CANCEL_ADMIN_TITLE_"
+msgstr "M0048계약기간갱신 취소메일"
+
+msgid "_EMAIL_SUBSCRIPTION_CANCEL_ADMIN_DESCRIPTION_"
+msgstr "M0049계약기간 갱신취소시, 관리자에게 보내지는 메일입니다."
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_ADMIN_TITLE_"
+msgstr "M0050잔여 사용료 환불 요청 메일"
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_ADMIN_DESCRIPTION_"
+msgstr "M0051관리자에게 잔여기간 사용료를 환불요청하는 메일입니다."
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_DENY_TITLE_"
+msgstr "M0052사용계약 미완료 환불메일"
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_DENY_DESCRIPTION_"
+msgstr "M0053사용계약 미완료에 따른 회원안내 메일입니다."
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_ACCEPT_TITLE_"
+msgstr "M0054Subscription accept refund to member"
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_ACCEPT_DESCRIPTION_"
+msgstr "M0055This is mail subscription accept refund to member."
+
+msgid "_EMAIL_SUBSCRIPTION_CANCEL_TITLE_"
+msgstr "M0056사용계약 취소 안내 메일(회원)"
+
+msgid "_EMAIL_SUBSCRIPTION_CANCEL_DESCRIPTION_"
+msgstr "M0057회원에세 메일This is mail subscription cancel to member."
+
+msgid "_EMAIL_APPROVE_USER_TITLE_"
+msgstr "M0058허용된 사용자"
+
+msgid "_EMAIL_APPROVE_USER_DESCRIPTION_"
+msgstr "M0059This is mail approve to member."
+
+msgid "_EMAIL_UNAPPROVE_USER_TITLE_"
+msgstr "M0060허용되지 않은 사용자"
+
+msgid "_EMAIL_UNAPPROVE_USER_DESCRIPTION_"
+msgstr "M0061This is mail unapprove to member."
+
+msgid "_EMAIL_ACTIVE_USER_TITLE_"
+msgstr "M0062활동중인 사용자"
+
+msgid "_EMAIL_ACTIVE_USER_DESCRIPTION_"
+msgstr "M0063This is mail active to member."
+
+msgid "_EMAIL_INACTIVE_USER_TITLE_"
+msgstr "M0064활동중이지 않은 사용자"
+
+msgid "_EMAIL_INACTIVE_USER_DESCRIPTION_"
+msgstr "M0065This is mail inactive to member."

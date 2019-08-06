@@ -1,0 +1,22 @@
+.qq-upload-list{
+    display: none;
+}
+.qq-upload-drop-area, .qq-upload-button {
+    width: 100%;
+    height: 42px!important;
+    background: #E5E5E5;
+}
+.qq-upload-drop-area span, .upload-section {
+    padding: 5px;
+    display: block;
+    height: 42px;
+    line-height: 32px;
+    color: #333333;
+}
+.qq-upload-drop-area span i, .upload-section i {
+    font-size: 20px;
+    font-weight: bold;
+    color: #aaa;
+    vertical-align: middle;
+    margin-right: 7px;
+}

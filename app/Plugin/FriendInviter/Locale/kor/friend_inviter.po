@@ -1,0 +1,945 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "FR001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: FriendInviterPlugin.php:1288
+#: View/FriendInviters/admin_index.ctp:8;28
+msgid "Friend Inviter Settings"
+msgstr "FR002친구 초대 설정"
+
+#: FriendInviterPlugin.php:1288
+#: View/FriendInviters/admin_index.ctp:8;28
+msgid "Plugins Manager"
+msgstr "FR003플러그인 관리자"
+
+#: FriendInviterPlugin.php:1288
+#: View/FriendInviters/admin_index.ctp:8;28
+msgid "Friend Inviter"
+msgstr "FR004친구 초대"
+
+#: FriendInviterPlugin.php:1288
+#: View/FriendInviters/admin_index.ctp:8;28
+msgid "General"
+msgstr "FR005일반"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Settings"
+msgstr "FR006설정"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Global Settings"
+msgstr "FR007글로벌 설정"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Enable Friend Inviter Plugin"
+msgstr "FR008친구 초대 플러그인 활성화"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Maximum selected emails for each invite time"
+msgstr "FR009초대할때 최대로 선택 가능한 이메일 수"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Disable"
+msgstr "FR010비활성화"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Enable"
+msgstr "FR011활성화"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Provider Settings"
+msgstr "FR012공급자 설정"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Yahoo Contact Importer Settings"
+msgstr "FR013Yahoo 연락처 불러오기 설정"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Getting Yahoo API Key :"
+msgstr "FR014Yahoo API 키 가져오기:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "About creating your application :"
+msgstr "FR015회원님의 어플리케이션 생성에 대해:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "1) Go here to register your application:"
+msgstr "FR0161) 여기에 가서 회원님의 어플리케이션을 등록하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "a) Write your application name. You can make this the same as your site name."
+msgstr "FR017a) 어플리케이션 이름을 작성하십시요. 회원님의 사이트 이름과 동일하게 적을 수 있습니다."
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) In the 'Application Type' field, choose : 'Web Application'."
+msgstr "FR018b) '어플리케이션 종류'에서 'Web Application'을 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "c) Write a short description about your application/website."
+msgstr "FR019c) 회원님의 어플리케이션/웹사이트에 대해 간략히 적어주십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "d) In the 'Home Page URL' field, write the URL of your site (example : http://www.mysite.com)."
+msgstr "FR020d) '홈페이지 URL'에서 사이트의 URL을 적어주십시요 (예: https://www.mysite.com)"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Security &amp; Privacy:"
+msgstr "FR021보안 및 개인 정보"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Client ID"
+msgstr "FR022클라이언트 ID"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "a) In the 'Callback Domain' field, write your site's domain (example : mysite.com)"
+msgstr "FR023a) 'Callback 도메인'에서 회원님 사이트의 도메인을 적으십시요 (예: mysite.com)"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) In the 'API Permissions' field, select 'Contacts' option, then choose 'Read' option"
+msgstr "FR024b) 'API 허가'에서 먼저 '연락처'옵션을 선택하고 다음으로 '읽기'옵션을 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "a) In the 'Callback Domain' field, write your site's domain (example : mysite.com)"
+msgstr "FR025a) 'Callback 도메인'에서 회원님의 사이트 도메인을 적으십시요 (예: mysite.com)"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) In the 'API Permissions' field, select 'Contacts' option, then choose 'Read' option"
+msgstr "FR026b) 'API 허가'에서 먼저 '연락처'옵션을" 선택하고 다음으로 '읽기'옵션을 선택하십시요
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "c) Now click on the 'Create App' button. After clicking on this button you will be redirected to a success page where you will get your 'Client ID' and 'Client Secret'. Copy them and paste these values in your site's Yahoo contact importer settings fields."
+msgstr "FR027c) 이제 '앱 생성'버튼을 클릭하십시요. 이 버튼을 클릭하면 '클라이언트 ID'와 '클라이언트 시크릿'을 얻을 수 있는 페이지로 이동됩니다. 해당 값을 복사하여 Yahoo '연락처 가져오기 설정 필드'에 붙여넣기 하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Guidelines"
+msgstr "FR028가이드라인"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "OK"
+msgstr "FR029Ok"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Client Secret"
+msgstr "FR030클라이언트 시크릿"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Windows Live Contact Importer Settings"
+msgstr "FR031Windows Live 연락처 가져오기 설정"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Getting your Windows Live Application ID :"
+msgstr "FR032Windows Live 어플리케이션 ID 가져오기:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "About configuring your application :"
+msgstr "FR033회원님의 어플리케이션 구성에 대해:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "a) In Basic Information tab, you can add Application Logo, Terms of service URL, Privacy URL or leave these fields."
+msgstr "FR034a) 기본 정보 탭에서 어플리케이션 로고, 이용약관 URL, 개인정보 URL를 추가할 수 있으며 비어두셔도 됩니다."
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) Now click 'API Settings' tab (in the left menu) to set your API."
+msgstr "FR035b) 'API 설정' 탭(왼쪽 메뉴)을 클릭하여 API를 설정하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "c) In the 'Mobile or desktop client app', selecting 'Yes' will allow mobile clients to use this authentication flow."
+msgstr "FR036c) '모바일 또는 데스크탑 클라이언트 앱'에서 '예'를 선택하시면 모바일 클라이언트가 해당 인증을 사용하게 설정합니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "d) In the 'Target domain' field, write your site's domain (example : mysite.com)"
+msgstr "FR037d) '타겟 도메인'에 회원님 사이트의 도메인을 적으십시요 (예: mysite.com)"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "e) In 'Redirect URLs' field, write the exact URL: [url_your_site]/friend_inviters/getcontacts/livedone (example : http://www.mysite.com/friend_inviters/getcontacts/livedone)"
+msgstr "FR038e) '리디렉트 URL'에서 정확한 URL을 적으십시요: [url_your_site]/friend_inviters/getcontacts/livedone (예 : http://www.mysite.com/friend_inviters/getcontacts/livedone)"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "f) Click Save to saving your API Settings"
+msgstr "FR039f) '저장하기'를 눌러 API 설정을 저장하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "g) Now click 'App Settings' you will get your 'Client ID' and 'Client Secret'. Copy them and paste these values in your site's Window Live contact importer settings fields."
+msgstr "FR040g) '이제 '앱 생성'버튼을 클릭하십시요. 이 버튼을 클릭하면 '클라이언트 ID'와 '클라이언트 시크릿'을 얻을 수 있는 페이지로 이동됩니다. 해당 값을 복사하여 Window Live '연락처 가져오기 설정 필드'에 붙여넣기 하십시요 "
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Getting your Google API keys :"
+msgstr "FR041구글 API 키 가져오기:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "1) To see intructions and create your project, go here :"
+msgstr "FR042"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "2) After creating your project successful, go to 'Overview' panel of your project."
+msgstr "FR043"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "3) Now click on 'Contacts API' link."
+msgstr "FR044"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "4) Click 'Enable' button to enable this api."
+msgstr "FR045"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "5) Now Click 'Credentials' tab in the sidebar on the left"
+msgstr "FR046"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "6) Click on the OAuth 2.0 client ID was created before"
+msgstr "FR047"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "7) Adding the exact Authorized redirect URI: [url_your_site]/friend_inviters/getcontacts?hauth_done=Google (example : http://www.mysite.com/friend_inviters/getcontacts?hauth_done=Google)"
+msgstr "FR048"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "8) Click 'Save' button to saving this Authorized redirect URI"
+msgstr "FR049"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "9) Back to the OAuth 2.0 client ID, copy 'Client ID' and 'Client Secret' and paste these values in your site's Google contact importer settings fields."
+msgstr "FR050"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Enable Providers"
+msgstr "FR051공급자 활성화"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Save Settings"
+msgstr "FR052설정 저장"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "Google Contact Importer Setting"
+msgstr "FR053구글 연락처 가져오기 설정"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/admin_index.ctp:32
+msgid "b) Now click on the 'I accept' button. After clicking on this button you will be redirected to a page where you will configure your app."
+msgstr "FR054b) 이제 '동의함' 버튼을 클릭하십시요. 이 버튼을 클릭하면 앱을 구성할 페이지로 이동됩니다."
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Invite your friends"
+msgstr "FR055친구 초대"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "You can use any of the tools on this page to find and connect with more friends."
+msgstr "FR056이 페이지의 도구를 사용하여 더 많은 친구를 찾고 연결할 수 있습니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Click on one of the above services to search from your Web Account."
+msgstr "FR057웹 계정에서 검색하려면 위의 서비스 중 하나를 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "We will not store your account information."
+msgstr "FR058우리 사이트는 회원님의 계정 정보를 절대 저장하지 않습니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Add Email Addresses"
+msgstr "FR059이메일 주소 추가"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Type email addresses above, separated by commas. Max 10 emails."
+msgstr "FR060위의 이메일 주소를 쉼표로 구분하여 입력하십시요. 최대 10개의 이메일"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "More ways to invite contacts"
+msgstr "FR061연락처 초배 방법 추가"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Copy link"
+msgstr "FR062링크 복사"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Share on Facebook"
+msgstr "FR063페이스북에 공유"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Tweet on Twitter"
+msgstr "FR064트위터에 공유"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contact Inviter"
+msgstr "FR065연락처 초대"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Upload a contact files from an email application like Outlook, Apple Mail and others."
+msgstr "FR066Outlook, Apple Mail 등의 전자 메일 어플리케이션에서 연락처 파일 업로드"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contact file :"
+msgstr "FR067연락처 파일"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Upload Queued Files"
+msgstr "FR068대기열에 있는 파일 업로드"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Once you 've invited friends. You can %s"
+msgstr "FR069친구 초대를 완료하면 %s 할 수 있습니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "view the status of your referrals."
+msgstr "FR070추천인 상태 보기"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Sending Request"
+msgstr "FR071요청 발송중"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Invitation sent"
+msgstr "FR072초대 발송완료"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Please continue to %s"
+msgstr "FR073%s로 계속해주십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Ok, thanks!"
+msgstr "FR074예. 감사합니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Your contacts"
+msgstr "FR075회원님의 연락처"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "The following people are not joined yet, please select to send invitations."
+msgstr "FR076다음 사용자가 아직 가입하지 않았으므로 초대장을 보내도록 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Custom Message"
+msgstr "FR077사용자 지정 메세지"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Send Selected"
+msgstr "FR078선택된 항목 발송"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Send"
+msgstr "FR079발송"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "File format must be .csv."
+msgstr "FR080파일 형식은 무조건 csv여야 합니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Learn more"
+msgstr "FR081자세히 알아보기"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "GMail"
+msgstr "FR082Gmail"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Yahoo!"
+msgstr "FR083Yahoo"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Live/Hotmail"
+msgstr "FR084Live/Hotmail"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "OR"
+msgstr "FR085또는"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Microsoft Outlook"
+msgstr "FR086Microsoft Outlook"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Microsoft Outlook:"
+msgstr "FR087Microsoft Outlook에서 CSV 파일을 내보내려면:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Outlook"
+msgstr "FR0881. Outlook을 엽니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Go to File menu and select 'Import and Export'"
+msgstr "FR0892. 파일 메뉴로 이동하고 '가져오기 및 내보내기'를 선택합니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. In the wizard window that appears, select 'Export to a file' and click 'Next'"
+msgstr "FR0903. 창이 열리면 '파일 내보내기'를 선택하고 '다음'을 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select 'Comma separated values (Windows)' and click 'Next'"
+msgstr "FR0914. 'CSV (Windows)'를 선택하고 '다음'을 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv) and click 'Next'"
+msgstr "FR0925. CSV 파일을 저장할 위치를 선택하시고 파일 이름을 설정하세요 (예: mycontacts.csv). '다음'을 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "6. Ensure that the checkbox next to 'Export..' is checked and click 'Finish'."
+msgstr "FR0936. '내보내기...'를 선택하셨다면 '완료'를 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Microsoft Outlook Express"
+msgstr "FR094Microsoft Outlook Express"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Microsoft Outlook Express:"
+msgstr "FR095Microsoft Outlook Express에서 CSV 파일을 내보내려면:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Outlook Express"
+msgstr "FR0961. Outlook Express를 엽니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Go to File menu and select 'Export', and then click 'Address Book'"
+msgstr "FR0972. 파일 메뉴로 이동하고 '내보내기'를 선택하고 '주소록'을 클릭합니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Select 'Text File (Comma Separated Values)', and then click 'Export'"
+msgstr "FR0983. '텍스트 파일 (CSV)'을 선택하고 '내보내기'를 클릭합니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv) and click 'Next'"
+msgstr "FR0994. CSV 파일을 저장할 위치를 선택하시고 파일 이름을 설정하세요 (예: mycontacts.csv). '다음'을 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Select the check boxes for the fields that you want to export (be sure to select the email address field), and then click 'Finish'."
+msgstr "FR1005. 내보내려는 항목을 선택하시고 (이메일 주소를 선택하십시요) '완료'를 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Mozilla Thunderbird"
+msgstr "FR101Mozilla Thunderbird"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Mozilla Thunderbird:"
+msgstr "FR102Mozilla Thunderbird에서 파일을 내보내려면:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Mozilla Thunderbird"
+msgstr "FR1031. Mozilla Thunderbird를 엽니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Go to Tools menu and select 'Address Book'"
+msgstr "FR1042. 도구 메뉴로 이동 후 '주소록'을 선택합니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. In the 'Address Book' window that opens, select 'Export...' from the Tools menu"
+msgstr "FR1053. '주소록'창에서 '내보내기...'를 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select where you want to save the exported file, choose 'Comma Separated (*.CSV)' under the 'Save as type' dropdown list, choose a name for your file (example : mycontacts.csv) and click 'Save'."
+msgstr "FR1064. 내보내는 파일의 저장할 위치를 선택하시고 'CSV (*.CSV)'파일로 '다른 이름으로 저장'을 선택하시며 이름을 설정해주십시요 (예: mycontacts.csv). 완료되었다면 '저장'을 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from LinkedIn:"
+msgstr "FR107LinkedIn에서 CSV 파일을 내보내려면:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Sign into your LinkedIn account"
+msgstr "FR1081. LinkedIn 계정에 로그인하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Visit the"
+msgstr "FR1092. 방문하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Select 'Microsoft Outlook (.CSV file)' under the 'Export to' dropdown list and click 'Export'"
+msgstr "FR1103. '다음으로 내보내기'에서 'Microsoft Outlook (.CSV file)'을 선택하시고 '내보내기'를 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv)."
+msgstr "FR1114. 내보내는 CSV 파일의 저장 위치를 선택하시고 이름을 지정해주십시요 (예: mycontacts.csv)"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Address Book Export page"
+msgstr "FR112주소록 내보내기 페이지"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Windows Address Book"
+msgstr "FR113Windows 주소록"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Windows Address Book:"
+msgstr "FR114Windows 주소록에서 CSV 파일을 내보내려면:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Windows Address Book"
+msgstr "FR1151. Windows 주소록을 엽니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Go to the File menu, select 'Export', and then select 'Other Address Book...'"
+msgstr "FR1162. 파일 메뉴로 이동하고 '내보내기'를 선택하십시요. 그 다음 '다른 주소록...'을 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. In the 'Address Book Export Tool' dialog that opens, select 'Text File (Comma Separated Values)' and click 'Export'"
+msgstr "FR1173. '주소록 내보내기 도구'창이 열리게 되며 '텍스트 파일 (CSV)'를 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv) and click 'Next'"
+msgstr "FR1184. 내보내는 CSV 파일의 저장 위치를 선택하시고 이름을 지정해주십시요 (예: mycontacts.csv). 완료되었다면 '다음'을 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Select the check boxes for the fields that you want to export (be sure to select the email address field), and then click 'Finish'."
+msgstr "FR1195. 내보내려는 항목을 선택하시고 (이메일 주소를 선택하십시요) '완료'를 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "6. Click 'OK' and then click 'Close'"
+msgstr "FR1206. 'OK'를 클릭하신 다음 '닫기'를 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Mac OS X Address Book"
+msgstr "FR121Mac OS X 주소록"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Mac OS X Address Book:"
+msgstr "FR122Mac OS X 주소록에서 CSV 파일을 내보내려면:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Download the free Mac Address Book exporter from"
+msgstr "FR1231. 무료 Mac 주소록 내보내기 프로그램을 다운로드 하십시요:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Choose to export your Address Book in CSV format."
+msgstr "FR1242. 주소록을 CSV 형식으로 내보내기를 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Save your exported address book in CSV format."
+msgstr "FR1253. 내보낸 주소록을 CSV 형식으로 저장하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Palm Desktop:"
+msgstr "FR126Palm Desktop에서 CSV 파일을 내보내려면:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Palm Desktop"
+msgstr "FR1271. Palm Desktop을 엽니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Click on the 'Addresses' icon on the lefthand side of the screen to display your contact list"
+msgstr "FR1282. 연락처 목록을 표시하려면 화면 왼쪽에서 '주소' 아이콘을 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Go to the File menu, select 'Export'"
+msgstr "FR1293. 파일 메뉴로 이동하고 '내보내기'를 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. In the dialog box that opens, do the following:"
+msgstr "FR1304. 새로운 창이 열리면 다음과 같이 하십시요:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Enter a name for the file you are creating in the 'File name:' field"
+msgstr "FR1315. '파일 이름'에 생성 중인 파일의 이름을 입력하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "6. Select 'Comma Separated' in the 'Export Type' pulldown menu"
+msgstr "FR1326. '내보내기 유형'메뉴에서 'CSV'를 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "7. Be sure to select the 'All' radio button from the two 'Range:' radio buttons"
+msgstr "FR1337. Be sure to select the "all" radio button from the two 'range:' radio buttons"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "8. In the second dialog box: 'Specify Export Fields' that opens, leave all of the checkboxes checked, and click 'OK'."
+msgstr "FR1348. In the second dialog box: 'Specify Export Fields' that opens, leave all of the checkboxes checked, and click 'OK'"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Windows Mail"
+msgstr "FR135Windows Mail"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "To export a CSV file from Windows Mail:"
+msgstr "FR136Windows Mail에서 CSV 파일을 내보내기:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "1. Open Windows Mail"
+msgstr "FR1371. Windows Mail을 여십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "2. Select: Tools | Windows Contacts... from the menu in Windows Mail"
+msgstr "FR1382. 도구를 선택하고 Windows Conts를 Windows Mail 메뉴에서 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "3. Click 'Export' in the toolbar"
+msgstr "FR1393. 도구모음에서 '내보내기'를 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "4. Make sure CSV (Comma Separated Values) is highlighted, then click 'Export'"
+msgstr "FR1404. CVS(Comma Separated Values)가 하이라이트 되는지 확인 후 '내보내기'를 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "5. Select where you want to save the exported CSV file, choose a name for your file (example : mycontacts.csv) and click 'Next'"
+msgstr "FR1415. 내보내기한 CSV 파일을 저장할 위치를 선택하고 파일 이름(예: my contacts.cvs)을 선택한 후 '다음'을 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "OK"
+msgstr "FR142Ok"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "6. Click 'Save' then click 'Next'"
+msgstr "FR1436. '저장'을 클릭하신 다음 '다음'을 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "7. Make sure all address book fields you want included are checked"
+msgstr "FR1447. 포함할 모든 주소록 필드가 선택되었는지 확인하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "8. Click 'Finish'"
+msgstr "FR1458. '완료'를 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "9. Click 'OK' then click 'Close'"
+msgstr "FR1469. 'Ok'를 클릭한 다음 '닫기'를 클릭하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "For Other"
+msgstr "FR147기타를 위해"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Many email services, email applications, address book management applications allow contacts to be imported to a file. We support .CSV and .TXT types of contact files"
+msgstr "FR148많은 이메일 서비스, 이메일 애플리케이션, 주소록 관리 애플리케이션은 연락처를 파일로 가져올 수 있는 기능이 있습니다. 저희는 CSV와 TXT 타입에 연락처 파일을 지원합니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Close"
+msgstr "FR149닫기"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "LinkedIn"
+msgstr "FR150LinkedIn"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Palm Desktop"
+msgstr "FR151Palm Desktop"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "here"
+msgstr "FR152여기"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "The following users are already a member of our community"
+msgstr "FR153다음 사용자들은 이미 우리 커뮤니티의 맴버입니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Skip"
+msgstr "FR154건너뛰기"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Pending Invites"
+msgstr "FR155보류중인 초대"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Back to Friend Inviter"
+msgstr "FR156친구 초대로 돌아가기"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "You do not have any pending invitations at this time."
+msgstr "FR157현재 보류중인 초대가 없습니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Total of invitations sent: %s"
+msgstr "FR158발송된 초대장 수: %s"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Number of joined members: %s"
+msgstr "FR159가입한 맴버 수: %s"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Delete"
+msgstr "FR160삭제"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Resend invitation"
+msgstr "FR161초대 재발송"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Previous"
+msgstr "FR162이전"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Next"
+msgstr "FR163다음"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Please continue to  "
+msgstr "FR164계속 진행해주십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Import Connection"
+msgstr "FR165연결 가져오기"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Name"
+msgstr "FR166이름"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "E-mail"
+msgstr "FR167이메일"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "of "
+msgstr "FR168의"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contacts"
+msgstr "FR169연락처"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contacts"
+msgstr "FR170연락처"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Contacts"
+msgstr "FR171연락처"
+
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Email Addresses are required."
+msgstr "FR172이메일 주소가 필요합니다"
+
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Email addresses should be valid."
+msgstr "FR173이메일 주소는 유효해야합니다"
+
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Please select at least one friend to invite"
+msgstr "FR174초대할 친구를 한명 이상 선택하십시요"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Gmail"
+msgstr "FR175Gmail"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Yahoo"
+msgstr "FR176Yahoo"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Window Live"
+msgstr "FR177Window Live"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "All your imported contacts are already members of"
+msgstr "FR178가져온 모든 연락처가 이미 다음 항목에 회원입니다:"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Window Live"
+msgstr "FR179Window Live"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Can not send more than 10 email addresses."
+msgstr "FR18010개 이상의 이메일 주소에 발송할 수 없습니다"
+
+#: FriendInviterPlugin.php:1289
+#: View/FriendInviterSettings/index.ctp:32
+msgid "Drag or click here to upload a CSV file"
+msgstr "FR181드래그 또는 여기를 클릭하여 CSV 파일을 업로드"
+
+msgid "Referral link"
+msgstr "FR182추천인 링크"
+
+msgid "This is your referral link you can copy and send it to your friend"
+msgstr "FR183회원님이 친구에게 자유롭게 보낼 수 있는 추천인 링크입니다"
+
+msgid "Automatic adding friends"
+msgstr "FR184친구 자동 추가"
+
+msgid "Automatic adding friends after successfully registering"
+msgstr "FR185등록 후 친구 자동 추가"
+
+msgid "Invite Friends"
+msgstr "FR186친구 초대"
+
+msgid "Referral Code"
+msgstr "FR187추천인 코드"
+
+msgid "Enter the referral code you got from your friend in this community to sign up"
+msgstr "FR188이 커뮤니티에 있는 친구로부터 받은 추천인 코드를 입력하여 등록하십시요"
+
+msgid "Referral Code is required"
+msgstr "FR189추천인 코드가 필요합니다"
+
+msgid "Enable referral code field"
+msgstr "FR190추천인 코드 필드 활성화"
+
+msgid "Enable referral code field at sign up form"
+msgstr "FR191추천인 코드 필드를 회원가입 페이지에 활성화합니다"
+
+msgid "Referral Code does not exist"
+msgstr "FR192추천인 코드가 존재하지 않습니다"
+

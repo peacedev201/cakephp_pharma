@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Social Login</name>
+    <key>SocialLogin</key>
+    <version>1.1</version>
+    <description>This plugin that allows the visitors to login and register with Twitter and Linkedin</description>
+    <author>mooSocial - Linh.LHD</author>
+    <website>moosocial.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+    <settings><setting><label>Enable Social Login</label><name>social_login_enable</name><description></description><type>radio</type><values><value><name>Yes</name><value>1</value><select>1</select></value><value><name>No</name><value>0</value><select>0</select></value></values></setting></settings>
+</info>

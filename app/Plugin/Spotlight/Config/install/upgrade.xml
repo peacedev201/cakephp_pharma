@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query>
+                <![CDATA[
+                 ALTER TABLE `{PREFIX}spotlight_transactions` CHANGE `type` `type` VARCHAR(150) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT '';
+                  ]]>
+            </query>
+        </queries>
+    </version>
+</versions>

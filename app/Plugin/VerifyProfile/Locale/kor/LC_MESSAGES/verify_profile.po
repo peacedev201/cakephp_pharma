@@ -1,0 +1,648 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "VV001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: VerifyProfilePlugin.php:81
+#: View/VerifyProfilePlugins/admin_index.ctp:73
+msgid "General" 
+msgstr "VV002 일반"
+
+#: VerifyProfilePlugin.php:82
+#: View/VerifyProfileSettings/admin_index.ctp:89
+msgid "Settings"
+msgstr "VV003 설정"
+
+#: VerifyProfilePlugin.php:83
+#: View/VerifyProfileReasons/admin_index.ctp:34
+msgid "Reasons"
+msgstr "VV004 사유"
+
+#: Controller/VerifyProfilePluginsController.php:32
+#: View/VerifyProfilePlugins/admin_index.ctp:14
+msgid "Profile Verify Manager"
+msgstr "VV005 프로필 인증관리자"
+
+#: Controller/VerifyProfilePluginsController.php:47
+#: View/Elements/view/profile.ctp:17
+#: View/VerifyProfilePlugins/admin_index.ctp:168
+#: View/VerifyProfilePlugins/admin_view_document.ctp:157
+msgid "Deny"
+msgstr "VV006 거절"
+
+#: Controller/VerifyProfilePluginsController.php:49
+#: View/VerifyProfilePlugins/admin_index.ctp:207
+#: View/VerifyProfilePlugins/admin_view_document.ctp:159
+msgid "Unverify"
+msgstr "VV007 비인증"
+
+#: Controller/VerifyProfileReasonsController.php:24
+#: View/VerifyProfileReasons/admin_index.ctp:14
+msgid "Profile Verify Reasons"
+msgstr "VV008 프로필 인증사유"
+
+#: Controller/VerifyProfileReasonsController.php:47
+#: Controller/VerifyProfilesController.php:141;172
+msgid "Error"
+msgstr "VV009 오류"
+
+#: Controller/VerifyProfileReasonsController.php:50
+msgid "Reason has been successfully saved"
+msgstr "VV010 사유가 저장완료되었습니다."
+
+#: Controller/VerifyProfileReasonsController.php:62
+msgid "Reason has been deleted"
+msgstr "VV011 사유를 삭제하였습니다."
+
+#: Controller/VerifyProfileReasonsController.php:80
+msgid "Reasons have been deleted" 
+msgstr "VV012 사유를 삭제하였습니다."
+
+#: Controller/VerifyProfileSettingsController.php:51
+#: View/VerifyProfileSettings/admin_index.ctp:29
+msgid "Remove"
+msgstr "VV013 삭제"
+
+#: Controller/VerifyProfileSettingsController.php:58
+#: View/VerifyProfileSettings/admin_index.ctp:16
+msgid "Profile Verify Settings"
+msgstr "VV014 프로필인증설정"
+
+#: Controller/VerifyProfileSettingsController.php:67
+msgid "Min review: Only number is allowed!"
+msgstr "VV015 최소 리뷰:숫자로 입력하여주십시요"
+
+#: Controller/VerifyProfileSettingsController.php:75
+msgid "Average score: Only number is allowed!"
+msgstr "VV016 평균 점수: 숫자로 입력하여주십시요"
+
+#: Controller/VerifyProfileSettingsController.php:78;87
+msgid "Average score: Max is 5!"
+msgstr "VV017 평균점수: 최대 5"
+
+#: Controller/VerifyProfileSettingsController.php:95
+msgid "Number of Document: Only number is allowed!"
+msgstr "VV018 문서수: 숫자로 입력하여주십시요."
+
+#: Controller/VerifyProfileSettingsController.php:164
+msgid "Setting has been successfully saved"
+msgstr "VV019 설정이 저장완료되었습니다."
+
+#: Controller/VerifyProfileSettingsController.php:227
+msgid "Successfully updated"
+msgstr "VV020 업데이트가 완료되었습니다."
+
+#: Controller/VerifyProfilesController.php:29
+msgid "Your verification request has been successfully sent. We will review your request and will notify you once the review process is completed."
+msgstr "VV021 인증요청이 송부되었습니다. 요청내용을 검토완료되는대로 회신드리겠습니다."
+
+#: Controller/VerifyProfilesController.php:32
+msgid "Your account verified."
+msgstr "VV022 계정이 인증되었습니다."
+
+#: Controller/VerifyProfilesController.php:36
+msgid "Verification"
+msgstr "VV023 인증"
+
+#: Controller/VerifyProfilesController.php:49
+msgid "The required number of document for verification request is %s"
+msgstr "VV024 인증신청에 필요한 문서는 %s개입니다."
+
+#: Controller/VerifyProfilesController.php:162
+msgid "Please enter the reason"
+msgstr "VV025 사유를 입력하여주십시요."
+
+#: Controller/VerifyProfilesController.php:165
+msgid "Please select at least one reason"
+msgstr "VV026 최소 1개 이상의 사유를 선택하여주십시요."
+
+#: Controller/VerifyProfilesController.php:205
+#: View/VerifyProfileSettings/admin_index.ctp:314
+#: View/VerifyProfiles/index.ctp:38
+msgid "Passport's Sample Image"
+msgstr "VV027 여권 샘플이미지"
+
+#: Controller/VerifyProfilesController.php:208
+#: View/VerifyProfileSettings/admin_index.ctp:335
+#: View/VerifyProfiles/index.ctp:51
+msgid "Driver License's Sample Image"
+msgstr "VV028 운전면허증 샘플이미지"
+
+#: Controller/VerifyProfilesController.php:211
+#: View/VerifyProfileSettings/admin_index.ctp:356
+#: View/VerifyProfiles/index.ctp:64
+msgid "ID Card's Sample Image"
+msgstr "VV029 신분증 샘플 이미지"
+
+#: Controller/VerifyProfilesController.php:214
+#: View/VerifyProfileSettings/admin_index.ctp:377
+#: View/VerifyProfiles/index.ctp:77
+msgid "Deny Photo's Sample Image"
+msgstr "VV030 사진 샘플이미지 거절"
+
+#: Controller/VerifyProfilesController.php:257
+#: View/Elements/notification/verify_profile_request.ctp:11
+msgid "requested to verify profile!"
+msgstr "VV031 프로필인증 신청완료"
+
+#: Lib/VerifyProfileListener.php:43
+#: View/Elements/view/profile.ctp:40;53;58
+msgid "Not Verified"
+msgstr "VV032 인증되지않음"
+
+#: Lib/VerifyProfileListener.php:46
+#: View/Elements/view/profile.ctp:72
+#: View/VerifyProfilePlugins/admin_index.ctp:40;85
+msgid "Verified"
+msgstr "VV033 인증완료"
+
+#: Lib/VerifyProfileListener.php:85
+msgid "Your profile have been unverified by user reviews"
+msgstr "VV034 사용자 신고로 프로필이 비인증 처리되었습니다."
+
+#: Model/VerifyProfile.php:124
+msgid "Your profile has changed!"
+msgstr "VV035 프로필 변경이 완료되었습니다."
+
+#: View/Elements/activity/text/verify_profile_verified.ctp:11
+msgid "has been verified."
+msgstr "VV036 인증되었습니다."
+
+#: View/Elements/view/edit_profile.ctp:15
+#: View/VerifyProfilePlugins/admin_index.ctp:98
+#: View/VerifyProfilePlugins/admin_view_document.ctp:117
+#: View/VerifyProfileSettings/admin_index.ctp:229
+msgid "Birthday"
+msgstr "VV037 생일"
+
+#: View/Elements/view/edit_profile.ctp:18
+#: View/VerifyProfilePlugins/admin_index.ctp:101
+#: View/VerifyProfilePlugins/admin_view_document.ctp:125
+#: View/VerifyProfileSettings/admin_index.ctp:236
+msgid "Gender"
+msgstr "VV038 성별"
+
+#: View/Elements/view/edit_profile.ctp:21
+#: View/VerifyProfilePlugins/admin_view_document.ctp:101
+#: View/VerifyProfileSettings/admin_index.ctp:215
+msgid "Full Name"
+msgstr "VV039 이름"
+
+#: View/Elements/view/edit_profile.ctp:29
+#: View/Elements/view/profile_picture.ctp:16
+#: View/VerifyProfiles/ajax_avatar.ctp:26
+msgid "Confirm"
+msgstr "VV040 확인"
+
+#: View/Elements/view/edit_profile.ctp:30
+#: View/Elements/view/profile.ctp:19
+#: View/Elements/view/profile_picture.ctp:17
+#: View/VerifyProfilePlugins/admin_verify.ctp:26
+#: View/VerifyProfiles/ajax_avatar.ctp:19
+msgid "Please Confirm"
+msgstr "VV041 확인바랍니다."
+
+#: View/Elements/view/edit_profile.ctp:31
+#: View/Elements/view/profile_picture.ctp:18
+#: View/VerifyProfiles/ajax_avatar.ctp:23
+msgid "If you edit these verified information (%s), your account will become unverified."
+msgstr "VV042 만일 인증완료된 사항(%s)을 편집하시면, 회원님의 계정이 비인증 처리됩니다."
+
+#: View/Elements/view/profile.ctp:18
+#: View/VerifyProfilePlugins/admin_index.ctp:180
+#: View/VerifyProfilePlugins/admin_verify.ctp:38
+#: View/VerifyProfilePlugins/admin_view_document.ctp:156
+msgid "Verify"
+msgstr "VV043 인증"
+
+#: View/Elements/view/profile.ctp:20
+msgid "Verify By Admin"
+msgstr "VV044 관리자인증"
+
+#: View/Elements/view/profile.ctp:21;59
+msgid "Request Verification"
+msgstr "VV045 인증신청"
+
+#: View/Elements/view/profile.ctp:22;45;46;64;65
+msgid "Verification Pending"
+msgstr "VV046 인증보류"
+
+#: View/Elements/view/profile.ctp:23
+#: View/VerifyProfilePlugins/admin_verify.ctp:32
+msgid "Are you sure that you want to verify this profile?"
+msgstr "VV047 해당 프로필을 인증하시겠습니까?"
+
+#: View/Elements/view/profile.ctp:24
+msgid "Are you sure that you want to cancel and verify again?"
+msgstr "VV048 취소후 재인증을 원하십니까?"
+
+#: View/Elements/view/profile.ctp:25
+msgid "Are you sure that you want request verification? We will review your request and will notify you once the review process is completed."
+msgstr "VV049 인증신청하시겠습니까? 신청내용을 점검후 검토내용을 통보해드리겠습니다."
+
+#: View/Elements/view/profile.ctp:41;54
+#: View/VerifyProfiles/index.ctp:26
+msgid "Verify My Profile"
+msgstr "VV050 내 프로필 인증"
+
+#: View/Elements/view/search_user.ctp:13
+msgid "Verified Users"
+msgstr "VV051 인증회원"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:13
+#: View/VerifyProfileReasons/admin_index.ctp:13
+#: View/VerifyProfileSettings/admin_index.ctp:15
+msgid "Plugins Manager"
+msgstr "VV052 플러그인관리자"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:35;86
+msgid "All"
+msgstr "VV053 모두"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:36
+msgid "Male"
+msgstr "VV054 남성"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:37
+msgid "Female"
+msgstr "VV055 여성"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:38
+msgid "Unknown"
+msgstr "VV056 미확인"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:39;84
+msgid "Pending"
+msgstr "VV057 보류"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:41
+msgid "Unverified"
+msgstr "VV058 비인증"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:42
+msgid "_EMAIL_VERIFY_PROFILE_VERIFIED_TITLE_"
+msgstr "VV059 프로필 인증완료 이메일 제목"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:43
+msgid "_EMAIL_VERIFY_PROFILE_VERIFIED_DESCRIPTION_"
+msgstr "VV060 프로필 인증완료 이메일 명세."
+
+#: View/VerifyProfilePlugins/admin_index.ctp:44
+msgid "_EMAIL_VERIFY_PROFILE_UNVERIFIED_TITLE_"
+msgstr "VV061 프로필 비인증 이메일 제목"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:45
+msgid "_EMAIL_VERIFY_PROFILE_UNVERIFIED_DESCRIPTION_"
+msgstr "VV062 프로필 비인증 이메일 명세"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:95
+#: View/VerifyProfileReasons/admin_index.ctp:60
+msgid "ID"
+msgstr "VV063 아이디"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:96
+msgid "Name"
+msgstr "VV064 이름"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:104
+#: View/VerifyProfileSettings/admin_index.ctp:222
+msgid "Avatar"
+msgstr "VV065 아바타"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:106
+msgid "Documents"
+msgstr "VV066 문서"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:107
+msgid "Date Requested"
+msgstr "VV067 신청일"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:108
+msgid "Status"
+msgstr "VV068 상황"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:109
+#: View/VerifyProfileReasons/admin_index.ctp:62
+msgid "Actions"
+msgstr "VV069 실행"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:155;194
+#: View/VerifyProfilePlugins/admin_view_document.ctp:50
+msgid "View Document"
+msgstr "VV070 문서보기"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:219
+#: View/VerifyProfileReasons/admin_index.ctp:98
+msgid "Previous"
+msgstr "VV071 이전"
+
+#: View/VerifyProfilePlugins/admin_index.ctp:221
+#: View/VerifyProfileReasons/admin_index.ctp:100
+msgid "Next"
+msgstr "VV072 다음"
+
+#: View/VerifyProfilePlugins/admin_photo_document.ctp:20
+#: View/VerifyProfilePlugins/admin_unverify.ctp:99
+#: View/VerifyProfilePlugins/admin_verify.ctp:39
+#: View/VerifyProfilePlugins/admin_view_document.ctp:161
+#: View/VerifyProfileReasons/admin_create.ctp:56
+msgid "Close"
+msgstr "VV073 닫기"
+
+#: View/VerifyProfilePlugins/admin_unverify.ctp:62
+#: View/VerifyProfiles/ajax_unverify.ctp:19
+msgid "Please tell the user why you are %s this member?"
+msgstr "VV074 사용자에게 어떠한 사유로 해당 맴버를 %s 하는지 통보해주십시요"
+
+#: View/VerifyProfilePlugins/admin_unverify.ctp:81
+#: View/VerifyProfiles/ajax_unverify.ctp:38
+msgid "Other reason"
+msgstr "VV075 기타 사유"
+
+#: View/VerifyProfilePlugins/admin_unverify.ctp:98
+msgid "%s and send email"
+msgstr "VV076 %s 하고, 메일을 송부하십시요."
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:55
+msgid "Basic Information"
+msgstr "VV077 기본정보"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:61
+msgid "Registered Date"
+msgstr "VV078 등록일"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:69
+msgid "Last Online"
+msgstr "VV079 마지막 온라인"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:77
+msgid "Stats"
+msgstr "VV080 상황"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:80
+msgid "photos"
+msgstr "VV081 사진"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:81
+msgid "friends"
+msgstr "VV082 친구"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:82
+msgid "blogs"
+msgstr "VV083 블로그"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:83
+msgid "topics"
+msgstr "VV084 토픽"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:84
+msgid "groups"
+msgstr "VV085 그룹(커뮤니티)"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:85
+msgid "events"
+msgstr "VV086 이벤트"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:86
+msgid "videos"
+msgstr "VV087 비디오"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:91
+msgid "Role"
+msgstr "VV088 등급"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:99
+msgid "Required Information"
+msgstr "VV089 필요정보"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:109
+msgid "Email Address"
+msgstr "VV090 이메일주소"
+
+#: View/VerifyProfilePlugins/admin_view_document.ctp:138
+msgid "Verification Information"
+msgstr "VV091 인증정보"
+
+#: View/VerifyProfileReasons/admin_create.ctp:33
+msgid "Edit Reason"
+msgstr "VV092 사유편집"
+
+#: View/VerifyProfileReasons/admin_create.ctp:33
+msgid "Add New Reason"
+msgstr "VV093 추가사유입력"
+
+#: View/VerifyProfileReasons/admin_create.ctp:40
+#: View/VerifyProfileReasons/admin_index.ctp:61
+msgid "Description"
+msgstr "VV094 내용기록"
+
+#: View/VerifyProfileReasons/admin_create.ctp:55
+msgid "Save"
+msgstr "VV095 저장"
+
+#: View/VerifyProfileReasons/admin_index.ctp:40
+msgid "Are you sure you want to delete these reasons? This cannot be undone!"
+msgstr "VV096 해당 사유를 삭제하시겠습니까? 취소가 되지 않습니다!"
+
+#: View/VerifyProfileReasons/admin_index.ctp:41
+msgid "Delete"
+msgstr "VV097 삭제"
+
+#: View/VerifyProfileReasons/admin_index.ctp:46
+msgid "Add New"
+msgstr "VV098 신규추가"
+
+#: View/VerifyProfileReasons/admin_index.ctp:88
+msgid "Are you sure you want to delete this reason? This cannot be undone!"
+msgstr "VV099 해당 사유를 삭제하시겠습니까? 취소불능입니다."
+
+#: View/VerifyProfileSettings/admin_index.ctp:12
+msgid "Profile Verify"
+msgstr "VV100 프로필 인증"
+
+#: View/VerifyProfileSettings/admin_index.ctp:98
+msgid "Enable Profile Verify"
+msgstr "VV101 프로필인증 허용"
+
+#: View/VerifyProfileSettings/admin_index.ctp:105;120;175;201
+msgid "Enable?"
+msgstr "VV102 활성화?"
+
+#: View/VerifyProfileSettings/admin_index.ctp:113
+msgid "Enable auto verify based on user reviews"
+msgstr "VV103 사용자 리뷰에 따라 자동인증허용"
+
+#: View/VerifyProfileSettings/admin_index.ctp:133
+msgid "You need to install user review plug-in to enabled this option."
+msgstr "VV104 해당 옵션을 확성화시키시려면 사용자리뷰 플러그인을 설치하십시요."
+
+#: View/VerifyProfileSettings/admin_index.ctp:140
+msgid "Min review"
+msgstr "VV105 최소 리뷰"
+
+#: View/VerifyProfileSettings/admin_index.ctp:154
+msgid "Min average score (max is 5)"
+msgstr "VV106 최소 리뷰점수(최대 5)"
+
+#: View/VerifyProfileSettings/admin_index.ctp:168
+msgid "Enable auto unverified if verified member does not match above settings"
+msgstr "VV107 인증된 회원이 위의 설정과 일치하지 않을 경우 자동 비인증처리"
+
+#: View/VerifyProfileSettings/admin_index.ctp:185
+msgid "You need to enabled user review plug-in to enabled this option."
+msgstr "VV108" 이 옵션을 활성화시키려면, 사용자리뷰를 먼저 활성화시키십시요."
+
+#: View/VerifyProfileSettings/admin_index.ctp:194
+msgid "Enable Documents Requirement for Verification Request"
+msgstr "VV109 인증신청을 대비하여 문서요청을 활성화시키십시요"
+
+#: View/VerifyProfileSettings/admin_index.ctp:208
+msgid "Information Needed Verification"
+msgstr "VV110 정보 필요 인증"
+
+#: View/VerifyProfileSettings/admin_index.ctp:243
+msgid "The Badge Shows at"
+msgstr "VV111 인증신청에 대비하여 문서요건을 활성화시키십시요."
+
+#: View/VerifyProfileSettings/admin_index.ctp:250
+msgid "Activity Feed"
+msgstr "VV112 활동사항 피드"
+
+#: View/VerifyProfileSettings/admin_index.ctp:257
+msgid "Profile Page"
+msgstr "VV113 프로필 페이지"
+
+#: View/VerifyProfileSettings/admin_index.ctp:264
+msgid "Profile Popup"
+msgstr "VV114 프로필 팝업"
+
+#: View/VerifyProfileSettings/admin_index.ctp:271
+msgid "Verify Badge"
+msgstr "VV115 배지 인증"
+
+#: View/VerifyProfileSettings/admin_index.ctp:282
+msgid "Show Unverify Badge"
+msgstr "VV116 배지 비인증표시"
+
+#: View/VerifyProfileSettings/admin_index.ctp:286;308;329;350;371
+msgid "Yes"
+msgstr "VV117 예."
+
+#: View/VerifyProfileSettings/admin_index.ctp:286;308;329;350;371
+msgid "No"
+msgstr "VV118 아니오."
+
+#: View/VerifyProfileSettings/admin_index.ctp:292
+msgid "Unverify Badge Image"
+msgstr "VV119 배지 비인증처리 "
+
+#: View/VerifyProfileSettings/admin_index.ctp:304
+msgid "Enable Passport Option"
+msgstr "VV120 여권옵션 활성화"
+
+#: View/VerifyProfileSettings/admin_index.ctp:325
+msgid "Enable Driver License Option"
+msgstr "VV121 운전자보험 활성화"
+
+#: View/VerifyProfileSettings/admin_index.ctp:346
+msgid "Enable ID Card Option"
+msgstr "VV122 신분증 옵션 활성화"
+
+#: View/VerifyProfileSettings/admin_index.ctp:367
+msgid "Enable Deny Photo Option"
+msgstr "VV123 사진 거절 옵션 활성화"
+
+#: View/VerifyProfileSettings/admin_index.ctp:388
+msgid "Number of Document"
+msgstr "VV124 문서수"
+
+#: View/VerifyProfileSettings/admin_index.ctp:403
+msgid "User Group Mapping"
+msgstr "VV125 사용자 그룹 매핑"
+
+#: View/VerifyProfileSettings/admin_index.ctp:409
+msgid "Unverified User Group"
+msgstr "VV126비인증 사용자 그룹"
+
+#: View/VerifyProfileSettings/admin_index.ctp:410
+msgid "Verified User Group"
+msgstr "VV127 인증완료그룹"
+
+#: View/VerifyProfileSettings/admin_index.ctp:411
+msgid "Action"
+msgstr "VV128 작업"
+
+#: View/VerifyProfileSettings/admin_index.ctp:423
+msgid "Add"
+msgstr "VV129 추가"
+
+#: View/VerifyProfileSettings/admin_index.ctp:435
+msgid "Save Settings"
+msgstr "VV130 설정저장"
+
+#: View/VerifyProfileSettings/admin_index.ctp:436
+msgid "Are you sure you want to reset all setting?"
+msgstr "VV131 전체설정을 초기화하시겠습니까?"
+
+#: View/VerifyProfileSettings/admin_index.ctp:436
+msgid "Reset All"
+msgstr "VV132 전체 초기화"
+
+#: View/VerifyProfiles/ajax_avatar.ctp:27
+msgid "Cancel"
+msgstr "VV133 취소"
+
+#: View/VerifyProfiles/ajax_unverify.ctp:48
+msgid "Deny and send email"
+msgstr "VV134 거절 및 이메일송부"
+
+#: View/VerifyProfiles/index.ctp:15;91
+msgid "The number documents for verification request is %s"
+msgstr "VV135 인증 요청에 대한 문서수는 %s개입니다"
+
+#: View/VerifyProfiles/index.ctp:27
+msgid "WHY_VERIFY_MY_PROFILE"
+msgstr "VV136 제 프로필인증 사유를 알려주시겠습니까? 신청자의 신분을 알려주시고 프로필이 사실임을 공지바랍니다. 인증자료를 등록(업로드)하시어 \"Verified\" 배지를 프로필에 공지하십시요."
+
+#: View/VerifyProfiles/index.ctp:42;55;68
+msgid "Accepted"
+msgstr "VV137 접수완료"
+
+#: View/VerifyProfiles/index.ctp:81
+msgid "Declined"
+msgstr "VV138 접수거절"
+
+#: View/VerifyProfiles/index.ctp:94
+msgid "Upload Queued Files"
+msgstr "VV139 대기열에 있는 파일 업로드"
+
+#: View/VerifyProfiles/index.ctp:96
+msgid "Submit Documents"
+msgstr "VV140 문서 제출"
+
+#: View/VerifyProfiles/index.ctp:107
+msgid "Profile and page verification badges"
+msgstr "VV141 프로필 및 페이지 인증 배지"
+
+#: View/VerifyProfiles/index.ctp:108
+msgid "PROFILE_AND_PAGE_VERIFICATION_BADGES"
+msgstr "VV142 인증배지를 부착하므로써, 회원들에게 프로필이나 기타 정보에 대한 신뢰성을 공지할 수 있습니다.<br><br>인물사진이나, 회사 또는 상품정보에 병기된 인증배지는 해당 사항이 인증된 것임을 표시합니다.<br><br>프로필 또는 기타 정보가 회원님 또는 회원님의 사업을 사칭한 것으로 판단되시면 해당 프로필 또는 허위정보를 신고하여 주십시요<br><br>인증된 정보에 일부라도 수정사항이 입력되면, 인증상태가 재설정되에 새로 인증을 받아야합니다."
+
+#: Model/VerifyReason.php:validation for field description
+msgid "Description is required"
+msgstr "VV143 상세정보가 필요합니다."
+
+#: version 3.0.2
+msgid "has been denied."
+msgstr "VV144 거절되었습니다"
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Document</name>
+    <key>Document</key>
+    <version>1.6</version>
+    <description>Document</description>
+    <author>mooSocial - Tung.NV</author>
+    <website>https://moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+<settings><setting><label>Document Enable</label><name>document_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Item per pages</label><name>document_item_per_pages</name><description></description><type>text</type><values>10</values></setting><setting><label>Auto Approval When A Document Added</label><name>document_approval</name><description>Auto Approval When A Document Added</description><type>checkbox</type><values><value><name></name><value>1</value><select>1</select></value></values></setting><setting><label>Enable Document Hashtag</label><name>document_hashtag_enabled</name><description>Enable Document Hashtag</description><type>radio</type><values><value><name>Enable</name><value>1</value><select>1</select></value><value><name>Disable</name><value>0</value><select>0</select></value></values></setting><setting><label>By pass force login</label><name>document_consider_force</name><description>By pass force login</description><type>checkbox</type><values><value><name></name><value>1</value><select>0</select></value></values></setting></settings></info>

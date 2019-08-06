@@ -1,0 +1,645 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: GiftPlugin.php:379
+#: Controller/GiftCategoriesController.php:27
+#: View/GiftCategories/admin_index.ctp:3;10
+#: View/Widgets/gift/nav_gift.ctp:19;51
+msgid "Categories"
+msgstr ""
+
+#: GiftPlugin.php:380
+#: View/Gift/admin_create.ctp:24
+#: View/Gift/admin_index.ctp:4;11
+msgid "Manage Gifts"
+msgstr ""
+
+#: GiftPlugin.php:381
+#: Controller/GiftSettingsController.php:24
+#: View/GiftSettings/admin_index.ctp:16;23
+msgid "Settings"
+msgstr ""
+
+#: GiftPlugin.php:382
+#: Controller/GiftSettingsController.php:50
+#: View/GiftSettings/admin_credit_integration.ctp:3;10
+msgid "Credits Integration"
+msgstr ""
+
+#: Controller/GiftCategoriesController.php:54
+msgid "Successfully created"
+msgstr ""
+
+#: Controller/GiftCategoriesController.php:56;71
+#: Controller/GiftController.php:100
+#: Controller/GiftSettingsController.php:38
+msgid "Successfully updated"
+msgstr ""
+
+#: Controller/GiftCategoriesController.php:58
+#: Controller/GiftController.php:66;339;349;446;525
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: Controller/GiftCategoriesController.php:65;79
+msgid "This category does not exist"
+msgstr ""
+
+#: Controller/GiftCategoriesController.php:83
+msgid "There are gifts belong to this category. Please remove them first."
+msgstr ""
+
+#: Controller/GiftCategoriesController.php:88
+#: Controller/GiftController.php:86;440;444
+msgid "Successfully deleted"
+msgstr ""
+
+#: Controller/GiftController.php:64;344
+msgid "Successfully saved"
+msgstr ""
+
+#: Controller/GiftController.php:93
+msgid "This item does not exist"
+msgstr ""
+
+#: Controller/GiftController.php:228
+msgid "You don't have permission to create gift"
+msgstr ""
+
+#: Controller/GiftController.php:286;489
+msgid "Credit plugin is not enable. Can't send gift now, contact site admin for more details."
+msgstr ""
+
+#: Controller/GiftController.php:293;496
+msgid "Your current credit is %s. You do not have enough credits to send this gift."
+msgstr ""
+
+#: Controller/GiftController.php:332
+msgid "Successfully sent"
+msgstr ""
+
+#: Controller/GiftController.php:392;413;436;453;469
+msgid "Gift not found"
+msgstr ""
+
+#: Controller/GiftController.php:523
+msgid "Gift has been sent"
+msgstr ""
+
+#: Lib/GiftListener.php:283
+#: View/Gift/admin_index.ctp:136
+msgid "Are you sure you want to delete this gift?"
+msgstr ""
+
+#: Lib/GiftListener.php:284
+msgid "Are you sure you want to send this gift now?"
+msgstr ""
+
+#: View/Elements/search_gift_list.ctp:31
+#: View/Elements/lists/gifts_list.ctp:16
+#: View/Gift/create.ctp:118;123
+#: View/Gift/view.ctp:16
+#: View/Widgets/gift/popular.ctp:25
+msgid "Credits"
+msgstr ""
+
+#: View/Elements/search_gift_list.ctp:44
+#: View/Elements/lists/gifts_list.ctp:35
+#: View/Elements/lists/my_gifts_list.ctp:168
+msgid "No more results found"
+msgstr ""
+
+#: View/Elements/lists/gifts_list.ctp:18
+#: View/Gift/create.ctp:125
+#: View/Gift/preview.ctp:80
+#: View/Gift/view.ctp:18
+#: View/Widgets/gift/popular.ctp:27
+msgid "Free"
+msgstr ""
+
+#: View/Elements/lists/gifts_list.ctp:40
+#: View/Elements/lists/my_gifts_list.ctp:173
+msgid "Load More"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:3
+msgid "Ok"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:4
+#: View/Gift/admin_create.ctp:153
+#: View/Gift/ajax_send_gift_dialog.ctp:62
+#: View/Gift/create.ctp:188
+msgid "cancel"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:5
+msgid "Please Confirm"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:37
+msgid "Saved gifts"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:42
+msgid "Received gifts"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:47
+msgid "Sent gifts"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:72
+msgid "Created"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:74;142
+#: View/Gift/ajax_view.ctp:27
+#: View/Gift/preview.ctp:46
+msgid "Sent to"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:79;114;149
+#: View/Gift/ajax_send_gift_dialog.ctp:45
+#: View/Gift/ajax_view.ctp:33;43
+#: View/Gift/create.ctp:161;166
+#: View/Gift/preview.ctp:30;50
+msgid "Message"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:85
+#: View/Gift/create.ctp:178
+msgid "Send"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:89
+#: View/GiftCategories/admin_index.ctp:58
+msgid "Edit"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:92;125;160
+#: View/Gift/admin_index.ctp:136;152
+#: View/GiftCategories/admin_index.ctp:61
+msgid "Delete"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:107
+#: View/Gift/ajax_view.ctp:37
+#: View/Gift/preview.ctp:22
+msgid "Received"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:109
+#: View/Gift/ajax_view.ctp:40
+#: View/Gift/preview.ctp:26
+msgid "Sent by"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:119;154
+msgid "Send message"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:122;157
+#: View/Widgets/gift/detail_statistic.ctp:9
+msgid "View"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:140
+#: View/Gift/ajax_view.ctp:24
+#: View/Gift/preview.ctp:39
+#: View/Widgets/gift/detail_statistic.ctp:12
+msgid "Sent"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:144
+#: View/Gift/ajax_view.ctp:30
+#: View/Gift/preview.ctp:43
+msgid "Viewed"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:144
+#: View/Gift/ajax_view.ctp:30
+#: View/Gift/preview.ctp:43
+#: View/GiftSettings/admin_credit_integration.ctp:31
+msgid "Yes"
+msgstr ""
+
+#: View/Elements/lists/my_gifts_list.ctp:144
+#: View/Gift/ajax_view.ctp:30
+#: View/Gift/preview.ctp:43
+#: View/GiftSettings/admin_credit_integration.ctp:31
+msgid "No"
+msgstr ""
+
+#: View/Elements/log_text/send_gift.ctp:21
+msgid "sent gift to friend"
+msgstr ""
+
+#: View/Elements/notification/gift_receive.ctp:1
+msgid " sent you a gift"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:3
+#: View/Gift/create.ctp:6
+msgid "Can not upload file more than "
+msgstr ""
+
+#: View/Gift/admin_create.ctp:4
+#: View/Gift/create.ctp:7
+msgid "Click or Drap your photo here"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:5
+#: View/Gift/create.ctp:8
+msgid "Click or Drap your audio here"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:6
+#: View/Gift/create.ctp:9
+msgid "Click or Drap your video here"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:7
+#: View/Gift/create.ctp:10
+msgid "FFMPEG is not installed"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:23
+#: View/Gift/admin_index.ctp:3
+#: View/GiftCategories/admin_index.ctp:2
+#: View/GiftSettings/admin_credit_integration.ctp:2
+#: View/GiftSettings/admin_index.ctp:15
+msgid "Plugins Manager"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:25;34
+msgid "Create Gift"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:46;51
+#: View/Gift/admin_index.ctp:73
+#: View/Gift/create.ctp:74;79;105
+msgid "Title"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:59;63
+msgid "Credit (0 for free)"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:68
+msgid "Please integrate credit module if you want to set fee(cost) for this gift"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:75
+#: View/Gift/admin_index.ctp:79
+#: View/Widgets/gift/popular.ctp:18
+msgid "Category"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:80
+msgid "Select"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:88
+#: View/Gift/admin_index.ctp:76
+msgid "Type"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:93
+#: View/Gift/admin_index.ctp:70
+msgid "Photo"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:94
+msgid "Audio"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:95
+msgid "Video"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:118
+msgid "Thumb"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:140
+#: View/Gift/admin_index.ctp:133
+#: View/GiftCategories/admin_ajax_create.ctp:68
+#: View/GiftCategories/admin_index.ctp:40;54
+msgid "Enable"
+msgstr ""
+
+#: View/Gift/admin_create.ctp:150
+#: View/Gift/create.ctp:182
+#: View/GiftCategories/admin_ajax_create.ctp:86
+msgid "Save"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:37
+msgid "Keyword"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:43
+msgid "Search"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:46
+#: View/Gift/index.ctp:11;12
+msgid "Create New Gift"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:67
+#: View/GiftCategories/admin_index.ctp:37
+msgid "ID"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:82
+msgid "Cost"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:85
+msgid "Creation Date"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:88
+#: View/GiftCategories/admin_index.ctp:41
+msgid "Options"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:131
+#: View/GiftCategories/admin_index.ctp:52
+msgid "Disable"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:151
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: View/Gift/admin_index.ctp:175
+msgid "No Gifts"
+msgstr ""
+
+#: View/Gift/ajax_send_gift_dialog.ctp:3
+msgid "Send Gift"
+msgstr ""
+
+#: View/Gift/ajax_send_gift_dialog.ctp:22
+msgid "Selected gift"
+msgstr ""
+
+#: View/Gift/ajax_send_gift_dialog.ctp:33
+#: View/Gift/create.ctp:134;152
+msgid "Select a friend"
+msgstr ""
+
+#: View/Gift/ajax_send_gift_dialog.ctp:56
+msgid "Send now"
+msgstr ""
+
+#: View/Gift/ajax_send_gift_dialog.ctp:59
+#: View/Gift/create.ctp:185
+msgid "Preview"
+msgstr ""
+
+#: View/Gift/ajax_view.ctp:12
+msgid "View gift"
+msgstr ""
+
+#: View/Gift/create.ctp:22
+msgid "Edit gift"
+msgstr ""
+
+#: View/Gift/create.ctp:24
+msgid "Create your own gift and send it to your friends"
+msgstr ""
+
+#: View/Gift/create.ctp:40
+msgid "Please select type of your gift below, you can send a photo, audio or video gift to your friends:"
+msgstr ""
+
+#: View/Gift/create.ctp:44
+msgid "Send Photo-Gift"
+msgstr ""
+
+#: View/Gift/create.ctp:46;55;65
+msgid " credits"
+msgstr ""
+
+#: View/Gift/create.ctp:53
+msgid "Send Audio-Gift"
+msgstr ""
+
+#: View/Gift/create.ctp:63
+msgid "Send Video-Gift"
+msgstr ""
+
+#: View/Gift/create.ctp:86
+msgid "File"
+msgstr ""
+
+#: View/Gift/index.ctp:9
+msgid "Gifts"
+msgstr ""
+
+#: View/Gift/preview.ctp:3
+msgid "Gift Preview"
+msgstr ""
+
+#: View/Gift/preview.ctp:62
+msgid "Cost %s credits"
+msgstr ""
+
+#: View/Gift/preview.ctp:67
+msgid "Sent to friend"
+msgstr ""
+
+#: View/Gift/preview.ctp:78
+msgid "credits"
+msgstr ""
+
+#: View/Gift/preview.ctp:109
+msgid "Please upload a file"
+msgstr ""
+
+#: View/Gift/view.ctp:47
+msgid "Customize and Send this gift"
+msgstr ""
+
+#: View/GiftCategories/admin_ajax_create.ctp:26
+msgid "Edit Category"
+msgstr ""
+
+#: View/GiftCategories/admin_ajax_create.ctp:28
+msgid "Add Category"
+msgstr ""
+
+#: View/GiftCategories/admin_ajax_create.ctp:38;40
+#: View/GiftCategories/admin_index.ctp:38
+msgid "Name"
+msgstr ""
+
+#: View/GiftCategories/admin_ajax_create.ctp:43
+msgid "You can add translation language after creating category"
+msgstr ""
+
+#: View/GiftCategories/admin_ajax_create.ctp:62;64
+#: View/GiftCategories/admin_index.ctp:39
+msgid "Description"
+msgstr ""
+
+#: View/GiftCategories/admin_ajax_create.ctp:85
+msgid "Close"
+msgstr ""
+
+#: View/GiftCategories/admin_index.ctp:28
+msgid "Add New"
+msgstr ""
+
+#: View/GiftCategories/admin_index.ctp:74
+msgid "No categories"
+msgstr ""
+
+#: View/GiftSettings/admin_credit_integration.ctp:20
+msgid "You need to install credit plugin first. Please purchase credits plugin at"
+msgstr ""
+
+#: View/GiftSettings/admin_credit_integration.ctp:27
+msgid "Integrate with credits system"
+msgstr ""
+
+#: View/GiftSettings/admin_credit_integration.ctp:38
+msgid "Save Changes"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:2
+msgid "Gift"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:3
+msgid "Enable gift plugin"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:4
+msgid "Items per page"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:5
+msgid "Photo gift price in credits"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:6
+msgid "Audio gift price in credits"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:7
+msgid "Video gift price in credits"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:8
+msgid "Path to FFMPEG"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:9
+msgid "Popular items per page"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:10
+msgid "Please enter the full path to your FFMPEG installation. Contact your hosting provider to get the path to FFMPEG. Note, FFMPEG is required for sending video-gifts"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:11
+msgid "Can send gifts"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:12
+msgid "Allow photo gifts"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:13
+msgid "Allow audio gifts"
+msgstr ""
+
+#: View/GiftSettings/admin_index.ctp:14
+msgid "Allow video gifts"
+msgstr ""
+
+#: View/Widgets/gift/detail_statistic.ctp:5
+msgid "Statistic"
+msgstr ""
+
+#: View/Widgets/gift/detail_statistic.ctp:9
+msgid "Views"
+msgstr ""
+
+#: View/Widgets/gift/nav_gift.ctp:2
+msgid "Browse"
+msgstr ""
+
+#: View/Widgets/gift/nav_gift.ctp:8;40
+msgid "All Gifts"
+msgstr ""
+
+#: View/Widgets/gift/nav_gift.ctp:14;46
+msgid "My Gifts"
+msgstr ""
+
+#: View/Widgets/gift/nav_gift.ctp:34
+msgid "Enter keyword to search"
+msgstr ""
+
+#: View/Widgets/gift/popular.ctp:2
+msgid "Popular Gifts"
+msgstr ""
+
+#: Model/Gift.php:validation for field title
+msgid "Title is required"
+msgstr ""
+
+#: Model/Gift.php:validation for field gift_category_id
+msgid "Category is required"
+msgstr ""
+
+#: Model/Gift.php:validation for field filename
+msgid "File is required"
+msgstr ""
+
+#: Model/Gift.php:validation for field thumb
+msgid "Thumb is required"
+msgstr ""
+
+#: Model/Gift.php:validation for field friend_id
+msgid "Friend is required"
+msgstr ""
+
+msgid "Are you sure you want to delete this category?"
+msgstr ""
+
+msgid "Sents"
+msgstr ""
+
+msgid "First"
+msgstr ""
+
+msgid "Prev"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Last"
+msgstr ""
+
+msgid "Previous"
+msgstr ""

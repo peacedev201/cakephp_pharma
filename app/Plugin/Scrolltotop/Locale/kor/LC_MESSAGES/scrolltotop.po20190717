@@ -1,0 +1,110 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "S0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ScrolltotopPlugin.php:10
+#: View/ScrolltotopSettings/admin_index.ctp:19
+msgid "Settings"
+msgstr "S0002설정"
+
+#: Controller/ScrolltotopSettingsController.php:16
+msgid "Successfully updated"
+msgstr "S0003업데이트완료"
+
+#: View/ScrolltotopSettings/admin_index.ctp:5
+msgid "Scroll To Top Setting"
+msgstr "S0004상단으로 스크롤설정"
+
+#: View/ScrolltotopSettings/admin_index.ctp:28
+msgid "Enable Scroll To Top"
+msgstr "S0005상단으로 스크롤 활성화"
+
+#: View/ScrolltotopSettings/admin_index.ctp:42
+msgid "Display Position"
+msgstr "S0006위치표시"
+
+#: View/ScrolltotopSettings/admin_index.ctp:47
+msgid "Top Left"
+msgstr "S0007상단 왼쪽"
+
+#: View/ScrolltotopSettings/admin_index.ctp:52
+msgid "Top Right"
+msgstr "S0008상단 오른쪽"
+
+#: View/ScrolltotopSettings/admin_index.ctp:57
+msgid "Bottom Left"
+msgstr "S0009하단 왼쪽"
+
+#: View/ScrolltotopSettings/admin_index.ctp:62
+msgid "Bottom Right"
+msgstr "S0010하단 오른쪽"
+
+#: View/ScrolltotopSettings/admin_index.ctp:69
+msgid "Margin Top"
+msgstr "S0011상단 여백"
+
+#: View/ScrolltotopSettings/admin_index.ctp:79
+msgid "Margin Left"
+msgstr "S0012왼쪽 여백"
+
+#: View/ScrolltotopSettings/admin_index.ctp:89
+msgid "Margin Bottom"
+msgstr "S0013하단 여백"
+
+#: View/ScrolltotopSettings/admin_index.ctp:99
+msgid "Margin Right"
+msgstr "S0014오른쪽 여백"
+
+#: View/ScrolltotopSettings/admin_index.ctp:109
+msgid "Time Back to Top"
+msgstr "S0015맨 위로"
+
+#: View/ScrolltotopSettings/admin_index.ctp:119
+msgid "Show After"
+msgstr "S0016이후에 보기"
+
+#: View/ScrolltotopSettings/admin_index.ctp:129
+msgid "Choose Your Style"
+msgstr "S0017스타일 선택"
+
+#: View/ScrolltotopSettings/admin_index.ctp:164
+msgid "Background Color"
+msgstr "S0018배경색"
+
+#: View/ScrolltotopSettings/admin_index.ctp:174
+msgid "Background Hover Color"
+msgstr "S0019배경 hover 색"
+
+#: View/ScrolltotopSettings/admin_index.ctp:184
+msgid "Text Display"
+msgstr "S0020텍스트 표시"
+
+#: View/ScrolltotopSettings/admin_index.ctp:194
+msgid "Text Color"
+msgstr "S0021텍스트색"
+
+#: View/ScrolltotopSettings/admin_index.ctp:204
+msgid "Text Hover Color"
+msgstr "S0022텍스트 hover 색"
+
+#: View/ScrolltotopSettings/admin_index.ctp:215
+msgid "Save Settings"
+msgstr "S0023설정저장"
+
+#: View/ScrolltotopSettings/admin_index.ctp:221
+msgid "Test area"
+msgstr "S0024시험영역"
+
+msgid "Scroll To Top"
+msgstr "S0025상단으로 스크롤"

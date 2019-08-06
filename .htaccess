@@ -1,0 +1,15 @@
+<IfModule mod_headers.c>
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "GET, POST"
+
+</IfModule>
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+        # Uncomment if you have a .well-known directory in the root folder, e.g. for the Let's Encrypt challenge
+        # https://tools.ietf.org/html/rfc5785
+        #RewriteRule ^(\.well-known/.*)$ $1 [L]
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
+

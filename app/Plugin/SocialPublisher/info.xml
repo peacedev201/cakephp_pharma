@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Social Publisher</name>
+    <key>SocialPublisher</key>
+    <version>1.5</version>
+    <description>SocialPublisher</description>
+    <author>mooSocial - Linh.LHD</author>
+    <website>https://moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <settings>     
+        <setting>
+            <label>Publish Providers</label>
+            <name>publish_providers</name>
+            <description></description>
+            <type>checkbox</type>
+            <values>
+                <value>
+                    <name>Facebook</name>
+                    <value>facebook</value>
+                    <select>1</select>
+                </value>
+                <value>
+                    <name>Twitter</name>
+                    <value>twitter</value>
+                    <select>1</select>
+                </value>
+            </values>
+        </setting>
+        <setting>
+            <label>Actives</label>
+            <name>publish_social_active</name>
+            <description></description>
+            <type>radio</type>
+            <values>
+                <value>
+                    <name>Yes</name>
+                    <value>1</value>
+                    <select>1</select>
+                </value>
+                <value>
+                    <name>No</name>
+                    <value>0</value>
+                    <select>0</select>
+                </value>
+            </values>
+        </setting>
+    </settings>
+</info>

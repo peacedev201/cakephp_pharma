@@ -1,0 +1,1 @@
+<?php echo __d('business', ' just updated his business, please review.'); ?>

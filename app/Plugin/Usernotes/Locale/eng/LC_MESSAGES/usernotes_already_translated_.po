@@ -1,0 +1,294 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: UsernotesPlugin.php:215
+#: View/Usernotess/admin_index.ctp:10
+msgid "Notes manager"
+msgstr "{Notes manager}"
+
+#: UsernotesPlugin.php:216
+#: View/UsernotesSettings/admin_index.ctp:10
+msgid "Settings"
+msgstr "{Settings}"
+
+#: Controller/UsernotesSettingsController.php:8
+msgid "Usernotes Settings"
+msgstr "{Usernotes Settings}"
+
+#: Controller/UsernotessController.php:20
+msgid "Usernotes"
+msgstr "{Usernotes}"
+
+#: Controller/UsernotessController.php:210
+msgid "Delete successfully"
+msgstr "{Delete successfully}"
+
+#: Controller/UsernotessController.php:232
+msgid "Leaved note successfully"
+msgstr "{Leaved note successfully}"
+
+#: Lib/UsernotesListener.php:33
+msgid "Confirm"
+msgstr "{Confirm}"
+
+#: Lib/UsernotesListener.php:34
+#: View/Widgets/usernotes/notes.ctp:65
+msgid "Ok"
+msgstr "{Ok}"
+
+#: Lib/UsernotesListener.php:35
+#: View/Widgets/usernotes/notes.ctp:23;66
+msgid "Cancel"
+msgstr "{Cancel}"
+
+#: Lib/UsernotesListener.php:36
+msgid "Please Confirm"
+msgstr "{Please Confirm}"
+
+#: Lib/UsernotesListener.php:37
+#: View/Widgets/usernotes/notes.ctp:77
+msgid "Are you sure you want to remove this note?"
+msgstr "{Are you sure you want to remove this note?}"
+
+#: View/Elements/link_to_my_notes.ctp:3
+msgid "My Notes"
+msgstr "{My Notes}"
+
+#: View/Elements/note.ctp:6
+#: View/Widgets/usernotes/notes.ctp:5
+msgid "Notes"
+msgstr "{Notes}"
+
+#: View/Elements/note.ctp:15
+#: View/Usernotess/index.ctp:66
+#: View/Widgets/usernotes/notes.ctp:20
+msgid "Save"
+msgstr "{Save}"
+
+#: View/Elements/search_form.ctp:4;23
+#: View/Usernotess/admin_index.ctp:45
+msgid "Search"
+msgstr "{Search}"
+
+#: View/Elements/search_form.ctp:8
+#: View/Usernotess/admin_index.ctp:77
+msgid "Name"
+msgstr "{Name}"
+
+#: View/Elements/search_form.ctp:9
+#: View/Usernotess/admin_index.ctp:80
+msgid "Email"
+msgstr "{Email}"
+
+#: View/Elements/search_form.ctp:10
+msgid "Gender"
+msgstr "{Gender}"
+
+#: View/Elements/search_form.ctp:14
+msgid "Profile Picture"
+msgstr "{Profile Picture}"
+
+#: View/Elements/search_form.ctp:15
+msgid "Online Users"
+msgstr "{Online Users}"
+
+#: View/Elements/ajax/home_user.ctp:21
+msgid "Invite Friends"
+msgstr "{Invite Friends}"
+
+#: View/Elements/ajax/home_user.ctp:22
+msgid "Friends"
+msgstr "{Friends}"
+
+#: View/Elements/lists/users_list_bit.ctp:20
+msgid "Edit"
+msgstr "{Edit}"
+
+#: View/Elements/lists/users_list_bit.ctp:24;46
+#: View/Usernotess/admin_index.ctp:109;122
+msgid "Delete"
+msgstr "{Delete}"
+
+#: View/Elements/lists/users_list_bit.ctp:35
+msgid "Cancel a friend request"
+msgstr "{Cancel a friend request}"
+
+#: View/Elements/lists/users_list_bit.ctp:36
+msgid "Cancel Request"
+msgstr "{Cancel Request}"
+
+#: View/Elements/lists/users_list_bit.ctp:40;41
+msgid "Respond to Friend Request"
+msgstr "{Respond to Friend Request}"
+
+#: View/Elements/lists/users_list_bit.ctp:45
+msgid "Accept"
+msgstr "{Accept}"
+
+#: View/Elements/lists/users_list_bit.ctp:58;59
+msgid "Remove"
+msgstr "{Remove}"
+
+#: View/Elements/lists/users_list_bit.ctp:73
+msgid "Send %s a friend request"
+msgstr "{Send %s a friend request}"
+
+#: View/Elements/lists/users_list_bit.ctp:74
+msgid "Add"
+msgstr "{Add}"
+
+#: View/Elements/lists/users_list_bit.ctp:90;91
+msgid "Unblock"
+msgstr "{Unblock}"
+
+#: View/Elements/lists/users_list_bit.ctp:122
+msgid "friend"
+msgstr "{friend}"
+
+#: View/Elements/lists/users_list_bit.ctp:122
+msgid "friends"
+msgstr "{friends}"
+
+#: View/Elements/lists/users_list_bit.ctp:123
+msgid "photo"
+msgstr "{photo}"
+
+#: View/Elements/lists/users_list_bit.ctp:123
+msgid "photos"
+msgstr "{photos}"
+
+#: View/Elements/lists/users_list_bit.ctp:129
+msgid "Remove Member"
+msgstr "{Remove Member}"
+
+#: View/Elements/lists/users_list_bit.ctp:136
+msgid "Make Admin"
+msgstr "{Make Admin}"
+
+#: View/Elements/lists/users_list_bit.ctp:143
+msgid "Remove Admin"
+msgstr "{Remove Admin}"
+
+#: View/Elements/lists/users_list_bit.ctp:161
+msgid "No more results found"
+msgstr "{No more results found}"
+
+#: View/Elements/lists/users_list_m.ctp:5
+#: View/Usernotess/index.ctp:40
+msgid "My notes"
+msgstr "{My notes}"
+
+#: View/Elements/lists/users_list_m.ctp:11
+#: View/Usernotess/index.ctp:46
+msgid "Loading..."
+msgstr "{Loading...}"
+
+#: View/UsernotesSettings/admin_index.ctp:2
+#: View/Usernotess/admin_index.ctp:2
+msgid "Plugins Manager"
+msgstr "{Plugins Manager}"
+
+#: View/UsernotesSettings/admin_index.ctp:3
+msgid "Manage Settings"
+msgstr "{Manage Settings}"
+
+#: View/Usernotess/admin_index.ctp:3
+msgid "Note Manager"
+msgstr "{Note Manager}"
+
+#: View/Usernotess/admin_index.ctp:35
+msgid "Save Settings"
+msgstr "{Save Settings}"
+
+#: View/Usernotess/admin_index.ctp:36
+msgid "Home"
+msgstr "{Home}"
+
+#: View/Usernotess/admin_index.ctp:52
+msgid "Search by keyword"
+msgstr "{Search by keyword}"
+
+#: View/Usernotess/admin_index.ctp:74
+msgid "ID"
+msgstr "{ID}"
+
+#: View/Usernotess/admin_index.ctp:83
+msgid "Note"
+msgstr "{Note}"
+
+#: View/Usernotess/admin_index.ctp:86
+msgid "Created Date"
+msgstr "{Created Date}"
+
+#: View/Usernotess/admin_index.ctp:89
+msgid "Options"
+msgstr "{Options}"
+
+#: View/Usernotess/admin_index.ctp:108
+msgid "Leave note"
+msgstr "{Leave note}"
+
+#: View/Usernotess/admin_index.ctp:121
+msgid "Are you sure you want to delete?"
+msgstr "{Are you sure you want to delete?}"
+
+#: View/Usernotess/admin_index.ctp:134
+msgid "First"
+msgstr "{First}"
+
+#: View/Usernotess/admin_index.ctp:135
+msgid "Previous"
+msgstr "{Previous}"
+
+#: View/Usernotess/admin_index.ctp:137
+msgid "Next"
+msgstr "{Next}"
+
+#: View/Usernotess/admin_index.ctp:138
+msgid "Last"
+msgstr "{Last}"
+
+#: View/Usernotess/index.ctp:22
+msgid "Browse"
+msgstr "{Browse}"
+
+#: View/Usernotess/index.ctp:25
+msgid "Everyone"
+msgstr "{Everyone}"
+
+#: View/Usernotess/index.ctp:27
+msgid "My Friends"
+msgstr "{My Friends}"
+
+#: View/Usernotess/index.ctp:59
+msgid "Edit note"
+msgstr "{Edit note}"
+
+#: View/Usernotess/popup_delete_note.ctp:2
+msgid "Delete note"
+msgstr "{Delete note}"
+
+#: View/Usernotess/popup_delete_note.ctp:9
+msgid "You can send <b>%s</b> an optional message below"
+msgstr "{You can send <b>%s</b> an optional message below}"
+
+#: View/Usernotess/popup_delete_note.ctp:19
+msgid "Send Request"
+msgstr "{Send Request}"
+
+#: View/Widgets/usernotes/notes.ctp:76
+msgid "Please confirm"
+msgstr "{Please confirm}"
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query> <![CDATA[
+                    ALTER TABLE  `{PREFIX}contests` ADD  `type` ENUM('photo', 'music', 'video') NOT NULL DEFAULT  'photo' AFTER  `category_id` ;
+                    ALTER TABLE  `{PREFIX}contest_entries` ADD  `source_id` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL DEFAULT '0' AFTER  `user_id` ;
+                    ALTER TABLE  `{PREFIX}contest_entries` ADD  `source` ENUM('photo', 'music', 'youtube', 'vimeo', 'upload') NOT NULL DEFAULT  'photo' AFTER  `user_id` ;
+                  ]]>
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.3</number>
+        <queries>
+            <query> <![CDATA[
+                    INSERT INTO `{PREFIX}settings` (`group_id`, `label`, `name`, `field`, `value`, `is_hidden`, `version_id`, `type_id`, `value_actual`, `value_default`, `description`, `ordering`, `is_boot`) VALUES ('0', 'By pass force login', 'contest_by_pass_force_login', NULL, '', '0', NULL, 'radio', '[{"name":"Yes","value":"1","select":"0"},{"name":"No","value":"0","select":"1"}]', '[{"name":"Yes","value":"1","select":"0"},{"name":"No","value":"0","select":"1"}]', '', 1, 1);
+                    UPDATE `{PREFIX}settings` 
+                    SET `{PREFIX}settings`.`group_id` = (
+                        SELECT `{PREFIX}setting_groups`.id 
+                        FROM `{PREFIX}setting_groups`
+                        WHERE `{PREFIX}setting_groups`.`module_id` = 'Contest'
+                    )
+                    WHERE `{PREFIX}settings`.`name`= 'contest_by_pass_force_login';
+                  ]]>
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.4</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.5</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.6</number>
+        <queries>
+           <query> <![CDATA[
+                    ALTER TABLE  `{PREFIX}contests` CHANGE `award` `award` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
+                  ]]>
+            </query>
+        </queries>
+    </version>
+</versions>

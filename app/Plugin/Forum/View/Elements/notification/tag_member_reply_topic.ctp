@@ -1,0 +1,1 @@
+<?php echo __d('forum', 'mentioned you in reply of topic "%s"', $notification['Notification']['params']);?>

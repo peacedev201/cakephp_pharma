@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query>
+                RENAME TABLE `{PREFIX}attributes` TO `{PREFIX}store_attributes`;
+                RENAME TABLE `{PREFIX}order_details` TO `{PREFIX}store_order_details`;
+                RENAME TABLE `{PREFIX}orders` TO `{PREFIX}store_orders`;
+                RENAME TABLE `{PREFIX}producers` TO `{PREFIX}store_producers`;
+                RENAME TABLE `{PREFIX}product_attributes` TO `{PREFIX}store_product_attributes`;
+                RENAME TABLE `{PREFIX}product_images` TO `{PREFIX}store_product_images`;
+                RENAME TABLE `{PREFIX}product_wishlists` TO `{PREFIX}store_product_wishlists`;
+                RENAME TABLE `{PREFIX}products` TO `{PREFIX}store_products`;
+                RENAME TABLE `{PREFIX}product_comments` TO `{PREFIX}store_product_comments`;
+                RENAME TABLE `{PREFIX}product_reports` TO `{PREFIX}store_product_reports`;
+                ALTER TABLE `{PREFIX}store_products` MODIFY `rating` decimal(10,2) DEFAULT '0.00';
+                UPDATE `{PREFIX}core_contents` SET `name` = 'invisiblecontent', `core_block_id` = 1, `params` = '{"title":"Store Categories","maincontent":"1"}' WHERE `name` = 'products.categories_list';
+                UPDATE `{PREFIX}core_contents` SET `name` = 'invisiblecontent', `core_block_id` = 1, `params` = '{"title":"Store Search","maincontent":"1"}' WHERE `name` = 'products.search_form';
+                UPDATE `{PREFIX}core_blocks` SET `params` = '{"0":{"label":"Title","input":"text","value":"Store Products Most Viewed","name":"title"},"1":{"label":"plugin","input":"hidden","value":"Store","name":"plugin"}}' WHERE `path_view` = 'products.most_viewed_products';
+                UPDATE `{PREFIX}core_blocks` SET `params` = '{"0":{"label":"Title","input":"text","value":"Store Products Latest","name":"title"},"1":{"label":"plugin","input":"hidden","value":"Store","name":"plugin"}}' WHERE `path_view` = 'products.latest_products';
+                UPDATE `{PREFIX}core_blocks` SET `params` = '{"0":{"label":"Title","input":"text","value":"Store Products Sale","name":"title"},"1":{"label":"plugin","input":"hidden","value":"Store","name":"plugin"}}' WHERE `path_view` = 'products.sale_products';
+                DELETE FROM `{PREFIX}core_blocks` WHERE `path_view` IN('products.categories_list', 'products.search_form');
+                UPDATE `{PREFIX}activities` SET `item_type` = 'Store_Store_Product' WHERE `item_type` = 'Store_Product';
+                UPDATE `{PREFIX}likes` SET `type` = 'Store_Store_Product' WHERE `type` = 'Store_Product';
+                UPDATE `{PREFIX}comments` SET `type` = 'Store_Store_Product' WHERE `type` = 'Store_StoreProduct';
+                ALTER TABLE `{PREFIX}store_products` ADD `show_quanity` tinyint(1) DEFAULT '1';
+                ALTER TABLE `{PREFIX}store_product_attributes` ADD `plus` tinyint(1) DEFAULT '1';
+                ALTER TABLE `{PREFIX}store_product_attributes` ADD `attribute_price` decimal(10,2) DEFAULT '0.00';
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.3</number>
+        <queries>
+            <query>
+                CREATE TABLE `{PREFIX}store_payments` (
+                `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `name` varchar(255) NOT NULL,
+                `key_name` varchar(20) NOT NULL,
+                `description` text,
+                `information` text,
+                `is_online` tinyint(1) DEFAULT '0',
+                PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+                
+                CREATE TABLE `{PREFIX}store_transactions` (
+                `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `user_id` int(10) unsigned NOT NULL,
+                `store_id` int(11) unsigned NOT NULL,
+                `store_product_id` int(11) unsigned NOT NULL,
+                `store_package_id` int(11) NOT NULL,
+                `gateway_id` int(10) unsigned NOT NULL DEFAULT '0',
+                `item_name` varchar(255) NOT NULL,
+                `status` enum('initial','completed','pending','expired','refunded','failed','cancel','inactive') NOT NULL DEFAULT 'initial',
+                `amount` decimal(16,2) NOT NULL DEFAULT '0.00',
+                `currency` char(3) NOT NULL DEFAULT '',
+                `currency_symbol` char(3) NOT NULL DEFAULT '',
+                `period` int(11) DEFAULT NULL COMMENT 'days',
+                `expiration_date` datetime DEFAULT NULL,
+                `transaction_id` varbinary(255) DEFAULT NULL,
+                `callback_params` text,
+                `created` datetime DEFAULT NULL,
+                PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+                
+                CREATE TABLE `{PREFIX}store_packages` (
+                `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `name` varchar(255) NOT NULL,
+                `price` decimal(16,2) NOT NULL DEFAULT '0.00',
+                `period` int(11) NOT NULL DEFAULT 1,
+                `description` text,
+                `enable` tinyint(1) NOT NULL DEFAULT '0',
+                PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+                
+                insert  into `{PREFIX}store_packages`(`id`,`name`,`price`,`period`,`description`,`enable`) values (1,'Featured Product',0.00,0,'',1);
+                insert  into `{PREFIX}store_payments`(`id`,`name`,`key_name`,`description`,`information`,`is_online`) values (1,'Cash on delivery','cheque','Customer pays when goods are delivered.',NULL,0),(2,'Pay in Store','cheque_store','Customer pay in store when collecting goods.',NULL,0),(3,'PayPal','paypal','Customer pays online and goods get delivered.','',1),(4,'PayPal Collect','paypal_store','Customer pays online and collects goods from store.','',1);
+                ALTER TABLE `{PREFIX}stores` ADD `payments` varchar(255) DEFAULT NULL;
+                ALTER TABLE `{PREFIX}stores` ADD `paypal_email` varchar(255) DEFAULT NULL;
+                ALTER TABLE `{PREFIX}store_products` ADD `featured` tinyint(1) DEFAULT '0';
+                UPDATE `{PREFIX}likes` SET `type` = 'Store_Store_Product' WHERE `type` = 'Store_Product';
+                UPDATE `{PREFIX}comments` SET `type` = 'Store_Store_Product' WHERE `type` = 'Store_StoreProduct';
+                ALTER TABLE `{PREFIX}store_orders` ADD `store_payment_id` int(11) DEFAULT NULL;
+                UPDATE `{PREFIX}store_orders` SET `store_payment_id` = 1 WHERE `payment` = 'cheque';
+                UPDATE `{PREFIX}store_orders` SET `store_payment_id` = 3 WHERE `payment` = 'paypal';
+                ALTER TABLE `{PREFIX}store_orders` DROP COLUMN `payment`;
+                insert  into `{PREFIX}tasks`(`title`,`plugin`,`timeout`,`enable`,`class`) values ('Store Items Expiration','Store', '600', '1', 'Store_Task_Expiration');
+                ALTER TABLE `{PREFIX}store_orders` CHANGE `order_status` `order_status` enum('NEW','PENDING','CANCELLED','PROCESSING','REFUNDED','COMPLETED') DEFAULT 'NEW';
+                UPDATE `{PREFIX}store_orders` SET `order_status` = 'CANCELLED' WHERE `order_status` = 'CANCELED';
+                UPDATE `{PREFIX}stores` SET `payments` = '1,2';
+                ALTER TABLE `{PREFIX}store_orders` ADD `site_profit` decimal(10,2) NOT NULL;
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.4</number>
+        <queries>
+            <query>
+                ALTER TABLE `{PREFIX}store_payments` ADD `enable` tinyint(1) DEFAULT '1';
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.5</number>
+        <queries>
+            <query>
+                ALTER TABLE `{PREFIX}stores` ADD `paypal_first_name` varchar(255);
+                ALTER TABLE `{PREFIX}stores` ADD `paypal_last_name` varchar(255);
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.6</number>
+        <queries>
+            <query>
+                ALTER TABLE `{PREFIX}stores` ADD `image` varchar(255);
+                ALTER TABLE `{PREFIX}stores` ADD `featured` tinyint(1) DEFAULT '0';
+                
+                CREATE TABLE `{PREFIX}store_shipping_methods` (
+                    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                    `name` varchar(255) NOT NULL,
+                    `key_name` varchar(255) NOT NULL,
+                    `enabled` tinyint(1) NOT NULL DEFAULT '0',
+                    PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+                CREATE TABLE `{PREFIX}store_shippings` (
+                    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                    `store_id` int(11) NOT NULL,
+                    `name` varchar(255) NOT NULL,
+                    `store_shipping_zone_id` int(11) NOT NULL,
+                    `store_shipping_method_id` int(11) NOT NULL,
+                    `price` decimal(10,2) NOT NULL DEFAULT '0.00',
+                    `weight` decimal(10,2) DEFAULT '0.00',
+                    `enable` tinyint(1) NOT NULL DEFAULT '0',
+                    PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+                CREATE TABLE `{PREFIX}store_shipping_zones` (
+                    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                    `store_id` int(11) NOT NULL,
+                    `name` varchar(255) NOT NULL,
+                    `enable` tinyint(1) NOT NULL DEFAULT '0',
+                    PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+                CREATE TABLE `{PREFIX}store_shipping_zone_locations` (
+                    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                    `store_id` int(11) NOT NULL,
+                    `store_shipping_zone_id` int(11) NOT NULL,
+                    `country_id` int(11) NOT NULL,
+                    `enable` tinyint(1) DEFAULT '0',
+                    PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+                
+                CREATE TABLE `{PREFIX}store_shipping_details` (
+                    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                    `store_id` int(11) NOT NULL,
+                    `store_shipping_method_id` int(11) NOT NULL,
+                    `enable` tinyint(1) NOT NULL DEFAULT '0',
+                    PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+                
+                insert  into `{PREFIX}store_shipping_methods`(`id`,`name`,`key_name`,`enabled`) values (1,'Free Shipping','free_shipping',1),(2,'Per item Shipping Rate','per_item_shipping',1),(3,'Pickup From Store','pickup_from_store',1),(4,'Flat Shipping Rate','flat_shipping_rate',1),(5,'Weight Based Shipping','weight_based_shipping',1);                ALTER TABLE `{PREFIX}store_orders` ADD `billing_country_id` int(11) DEFAULT NULL;
+                insert  into `{PREFIX}store_packages`(`id`,`name`,`price`,`period`,`description`,`enable`) values (2,'Featured Store',0.00,0,'',1);
+                ALTER TABLE `{PREFIX}store_orders` ADD `shipping_country_id` int(11) DEFAULT NULL;
+                ALTER TABLE `{PREFIX}store_orders` ADD `store_shipping_id` int(11) DEFAULT NULL;
+                ALTER TABLE `{PREFIX}store_orders` ADD `shipping_fee` decimal(10,2) DEFAULT '0.00';
+                ALTER TABLE `{PREFIX}store_orders` ADD `shipping_description` varchar(255) DEFAULT NULL;
+                ALTER TABLE `{PREFIX}store_orders` DROP COLUMN `shipping`;
+                ALTER TABLE `{PREFIX}store_orders` DROP COLUMN `shipping_charge`;
+                ALTER TABLE `{PREFIX}store_products` ADD `weight` decimal(10,2) DEFAULT '0.00';
+                ALTER TABLE `{PREFIX}store_packages` ADD `reminder` int(11) NOT NULL DEFAULT 1;
+                ALTER TABLE `{PREFIX}store_products` ADD `feature_expiration_date` datetime DEFAULT NULL;
+                ALTER TABLE `{PREFIX}store_products` ADD `sent_expiration_email` tinyint(1) DEFAULT '0';
+                ALTER TABLE `{PREFIX}stores` ADD `feature_expiration_date` datetime DEFAULT NULL;
+                ALTER TABLE `{PREFIX}stores` ADD `sent_expiration_email` tinyint(1) DEFAULT '0';
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.9</number>
+        <queries>
+            <query>
+                CREATE TABLE `{PREFIX}store_digital_products` (
+                    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                    `user_id` int(11) NOT NULL,
+                    `store_product_id` int(11) NOT NULL,
+                    PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+                ALTER TABLE `{PREFIX}store_products` ADD `product_type` enum('regular','digital','link') NOT NULL DEFAULT 'regular';
+                ALTER TABLE `{PREFIX}store_products` ADD `digital_file` varchar(255) DEFAULT NULL;
+                ALTER TABLE `{PREFIX}store_products` ADD `product_link` varchar(255) DEFAULT NULL;
+                ALTER TABLE `{PREFIX}store_products` ADD `video` varchar(255) DEFAULT NULL;
+                insert  into `{PREFIX}store_payments`(`id`,`name`,`key_name`,`description`,`information`,`is_online`) values (5,'Credit','credits','Customer pays online by using credits.','',0);
+                ALTER TABLE `{PREFIX}store_orders` ADD `shipping_fee_credit` decimal(10,2) DEFAULT '0.00';
+                ALTER TABLE `{PREFIX}store_orders` ADD `site_profit_credit` decimal(10,2) DEFAULT '0.00';
+                ALTER TABLE `{PREFIX}store_orders` ADD `amount_credit` decimal(10,2) DEFAULT '0.00';
+                ALTER TABLE `{PREFIX}store_order_details` ADD `amount_credit` decimal(10,2) DEFAULT '0.00';
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>2.0</number>
+        <queries>
+            <query>
+                CREATE TABLE `{PREFIX}store_review_usefuls` (
+                    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                    `store_review_id` int(11) NOT NULL,
+                    `user_id` int(11) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+                CREATE TABLE `{PREFIX}store_reviews` (
+                    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                    `user_id` int(11) unsigned NOT NULL,
+                    `parent_id` int(10) unsigned NOT NULL DEFAULT '0',
+                    `store_product_id` int(11) NOT NULL,
+                    `lft` smallint(6) DEFAULT NULL,
+                    `rght` smallint(6) DEFAULT NULL,
+                    `content` text NOT NULL,
+                    `rating` decimal(10,2) NOT NULL DEFAULT '0.00',
+                    `useful_count` int(11) NOT NULL DEFAULT '0',
+                    `report_count` int(11) NOT NULL DEFAULT '0',
+                    `created` datetime NOT NULL,
+                    `updated` datetime NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+                CREATE TABLE IF NOT EXISTS `{PREFIX}store_product_videos` (
+                    `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+					`product_id` int(11) NOT NULL,
+                    `video_id` int(11) NOT NULL,
+                    `enable` int(1) DEFAULT '0',
+                    `ordering` int(11) DEFAULT NULL,
+                    `updated` datetime DEFAULT NULL,
+                    `created` datetime DEFAULT NULL,
+                    PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>2.1</number>
+        <queries>
+            <query>
+                ALTER TABLE `{PREFIX}store_products` ADD `allow_review` tinyint(1) DEFAULT '1';
+            </query>
+        </queries>
+    </version>
+	<version>
+        <number>2.2</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+	<version>
+        <number>2.3</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+	<version>
+        <number>2.4</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+	<version>
+        <number>2.5</number>
+        <queries>
+            <query>
+                ALTER TABLE `{PREFIX}stores` ADD `policy` text;
+            </query>
+        </queries>
+    </version>
+	<version>
+        <number>2.6</number>
+        <queries>
+            <query>
+                ALTER TABLE `{PREFIX}stores` ADD `business_id` INT(11) NOT NULL DEFAULT '0' AFTER `user_id`;
+                ALTER TABLE `{PREFIX}stores` ADD `unlimited_feature` tinyint(1) DEFAULT '0' AFTER `featured`;
+                ALTER TABLE `{PREFIX}store_products` ADD `unlimited_feature` tinyint(1) DEFAULT '0' AFTER `featured`;
+            </query>
+        </queries>
+    </version>
+</versions>

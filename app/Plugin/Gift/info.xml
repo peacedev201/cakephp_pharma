@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Gift</name>
+    <key>Gift</key>
+    <version>1.4</version>
+    <description>Gift</description>
+    <author>mooSocial</author>
+    <website>https://www.moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>1</addtomenu>
+    <settings><setting><label>Enable gift plugin</label><name>gift_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Items per page</label><name>gift_items_per_page</name><description></description><type>text</type><values>12</values></setting><setting><label>Photo gift price in credits</label><name>gift_photo_price</name><description></description><type>text</type><values>0</values></setting><setting><label>Audio gift price in credits</label><name>gift_audio_price</name><description></description><type>text</type><values>0</values></setting><setting><label>Video gift price in credits</label><name>gift_video_price</name><description></description><type>text</type><values>0</values></setting><setting><label>Path to FFMPEG</label><name>gift_path_to_ffmpeg</name><description>Please enter the full path to your FFMPEG installation. Contact your hosting provider to get the path to FFMPEG. Note, FFMPEG is required for sending video-gifts</description><type>text</type><values>/usr/bin/ffmpeg</values></setting><setting><label>Popular items per page</label><name>gift_popular_items_per_page</name><description></description><type>text</type><values>5</values></setting><setting><label>By pass force login</label><name>gift_consider_force</name><description>By pass force login</description><type>checkbox</type><values><value><name></name><value>1</value><select>1</select></value></values></setting></settings>
+</info>

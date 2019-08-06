@@ -1,0 +1,1 @@
+<?php echo __d('store', 'created a product'); ?>

@@ -1,0 +1,1 @@
+<?php echo $this->Element('widgets/payment_gateways');?>

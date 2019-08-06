@@ -1,0 +1,1 @@
+<?php echo sprintf(__d('business', ' added a new sub page on %s'), $notification['Notification']['params']); ?>

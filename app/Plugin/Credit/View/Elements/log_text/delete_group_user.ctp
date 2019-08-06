@@ -1,0 +1,1 @@
+<?php echo __d('credit','Leaved group ');?><?php if ($item_object) : ?> <a href="<?php echo $item_object['Group']['moo_href']; ?>"><?php echo $item_object['Group']['moo_title'] ?></a><?php endif; ?>

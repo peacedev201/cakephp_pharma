@@ -1,0 +1,156 @@
+.verified-tooltip-profile {
+    margin: 5px 0;
+}
+
+
+.verified-tooltip-profile img.icon-verification-tooltip {
+    height: 22px;
+}
+
+.verify-profile-header {
+    background: #fff none repeat scroll 0 0;
+    margin: 0 7px 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.verify-profile-header .box_content {
+    padding: 10px;
+}
+
+.verify-profile-header h1 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #3E3E3E;
+    padding: 0;
+}
+
+.body-verification {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.item-verification {
+    padding: 5px;
+}
+
+.item-verification-photo {
+    display: inline-block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 176px;
+    width: 100%;
+}
+
+.item-verification-photo img {
+    width: 100%;
+}
+
+.item-verification-photo-status {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.item-verification-accepted .item-verification-photo-status, .item-verification-accepted .item-verification-photo {
+    border: 3px solid #0F9D28;
+    color: #0F9D28;
+}
+
+.item-verification-declined .item-verification-photo-status, .item-verification-declined .item-verification-photo {
+    border: 3px solid #ff0000;
+    color: #ff0000;
+}
+
+.form-verification {
+    padding: 5px;
+}
+
+#otherReasonContent{
+    display: none;
+}
+
+#other_reason_content{
+    width: 100%;
+    overflow: hidden; 
+    min-height: 2em; 
+    height: 52px;
+}
+
+.verified_profile {
+    display: inline-block;
+}
+
+.activity_feed_content img.icon-verification-username-feed, 
+.feed_comment_info img.icon-verification-username-feed,
+.comment img.icon-verification-username-feed {
+    height: 14px;
+    cursor: pointer;
+    vertical-align: sub;
+}
+
+.verified_profile img.icon-verification {
+    height: 27px;
+}
+
+.button i.pending-verification {
+    margin-top: -5px;
+    font-size: 22px;
+}
+
+.reason-unverify span {
+    margin-left: 2px;
+}
+
+@media (max-width: 991px) {
+    .verified_profile {
+        height: 25.6px;
+        line-height: 26px;
+        vertical-align: middle;
+    }
+    
+    .item-verification-photo {
+        height: auto;
+    }
+    
+    .verify-profile-header {
+        margin: 0 0 15px;
+        border-radius: 0;
+    }
+    
+    .verified_profile img.icon-verification {
+        margin-top: -3px;
+        display: block;
+        height: 18px;
+    }
+}
+
+/* APP */
+
+#app-form-verification #uploadPhotoForm .action-verification{
+    margin-bottom: 5px;
+}
+
+.mooApp_pv_simple-modal-footer{
+    padding: 0 8px;
+}
+
+.mooApp_pv_simple-modal-footer a{
+    margin-right: 6px;
+}
+
+.mooApp_pv_simple-modal-body{
+    margin-bottom: 10px;
+}
+
+.mooApp_pv{
+    text-align: right;
+}
+
+.mooApp_pv .verified_profile .icon-verification {
+    height: 24px;
+    width: 24px;
+}

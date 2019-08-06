@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Sticker</name>
+    <key>Sticker</key>
+    <version>1.0</version>
+    <description>Sticker</description>
+    <author>mooSocial - Tuan.HM</author>
+    <website>http://socialloft.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+    <settings><setting><label>Enable plugin</label><name>sticker_enabled</name><description></description><type>radio</type><values><value><name>Yes</name><value>1</value><select>1</select></value><value><name>No</name><value>0</value><select>0</select></value></values></setting><setting><label>Animation interval</label><name>sticker_animation_interval</name><description>millisecond</description><type>text</type><values>100</values></setting></settings>
+</info>

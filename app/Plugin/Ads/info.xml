@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Ads</name>
+    <key>Ads</key>
+    <version>2.2</version>
+    <description>Ads</description>
+    <author>mooSocial</author>
+    <website>http://socialloft.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+    <addtomenu>0</addtomenu>
+    <settings><setting><label>Enable ads plugin</label><name>ads_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Paypal test</label><name>ads_paypal_test</name><description></description><type>checkbox</type><values><value><name></name><value>1</value><select>1</select></value></values></setting><setting><label>Paypal Email</label><name>ads_paypal_email</name><description></description><type>text</type><values></values></setting><setting><label>Ad refresh time (Second)</label><name>ad_refresh_time</name><description></description><type>text</type><values>60</values></setting><setting><label>Auto report will send</label><name>auto_report_will_send</name><description>How often the ad statistic report will send to advertisers</description><type>select</type><values><value><name>Weekly</name><value>weekly</value><select>1</select></value><value><name>Monthly</name><value>monthly</value><select>0</select></value></values></setting></settings>
+</info>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query><![CDATA[
+                ALTER TABLE `{PREFIX}reactions` ADD INDEX `target_id` (`target_id`, `type`);
+                  ]]>
+            </query>
+            <query><![CDATA[
+                ALTER TABLE `{PREFIX}reactions` CHANGE `id` `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+                  ]]>
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.3</number>
+        <queries>
+            <query><![CDATA[
+                ALTER TABLE `{PREFIX}reactions` ADD `cool_count` SMALLINT(5) NOT NULL DEFAULT '0' AFTER `angry_count`;
+                  ]]>
+            </query>
+            <query><![CDATA[
+                ALTER TABLE `{PREFIX}reactions` ADD `confused_count` SMALLINT(5) NOT NULL DEFAULT '0' AFTER `cool_count`;
+                  ]]>
+            </query>
+        </queries>
+    </version>
+</versions>

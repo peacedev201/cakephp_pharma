@@ -1,0 +1,1 @@
+<?php echo __d('business', ' sents a claim request. Please review.'); ?>

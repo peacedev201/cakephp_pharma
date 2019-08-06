@@ -1,0 +1,35 @@
+msgid "_EMAIL_STORE_ORDER_TITLE_"
+msgstr "Store order email"
+
+msgid "_EMAIL_STORE_ORDER_DESCRIPTION_"
+msgstr "This is store order email"
+
+msgid "_EMAIL_EMAIL_TO_FRIEND_TITLE_"
+msgstr "Store email to friend"
+
+msgid "_EMAIL_EMAIL_TO_FRIEND_DESCRIPTION_"
+msgstr "This is store email to friend"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_REMINDER_TITLE_"
+msgstr "Store email featured product expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_REMINDER_DESCRIPTION_"
+msgstr "This is email featured product expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_TITLE_"
+msgstr "Store email featured product expiration"
+
+msgid "_EMAIL_STORE_FEATURED_PRODUCT_EXPIRATION_DESCRIPTION_"
+msgstr "This is email featured product expiration"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_REMINDER_TITLE_"
+msgstr "Store email featured store expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_REMINDER_DESCRIPTION_"
+msgstr "This is email featured store expiration reminder"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_TITLE_"
+msgstr "Store email featured store expiration"
+
+msgid "_EMAIL_STORE_FEATURED_STORE_EXPIRATION_DESCRIPTION_"
+msgstr "This is email featured store expiration"

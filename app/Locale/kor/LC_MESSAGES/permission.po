@@ -1,0 +1,97 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "P0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "Activity"
+msgstr "P0002활동내역"
+
+msgid "View feed from all members"
+msgstr "P0003모든 회원의 피드 보기"
+
+msgid "User"
+msgstr "P0004회원"
+
+msgid "Select username"
+msgstr "P0005회원이름을 지정하십시요."
+
+msgid "Blog"
+msgstr "P0006블로그"
+
+msgid "View blog entry"
+msgstr "P0007블로그항목 보기"
+
+msgid "Create/Edit blog entry"
+msgstr "P0008블로그항목 만들기/편집"
+
+msgid "Album"
+msgstr "P0009앨범"
+
+msgid "Create/Edit photo album"
+msgstr "P0010사진앨범 만들기/편집"
+
+msgid "View photo album"
+msgstr "P0011앨범보기"
+
+msgid "Event"
+msgstr "P0012이벤트"
+
+msgid "Create/Edit event"
+msgstr "P0013이벤트 만들기/편집"
+
+msgid "View event"
+msgstr "P0014이벤트보기"
+
+msgid "Group"
+msgstr "P0015그룹"
+
+msgid "Create/Edit group"
+msgstr "P0016그룹 만들기/편집"
+
+msgid "View group"
+msgstr "P0017그룹 보기"
+
+msgid "Photo"
+msgstr "P0018사진"
+
+msgid "Upload photos"
+msgstr "P0019사진 업로드"
+
+msgid "View photo"
+msgstr "P0020사진 보기"
+
+msgid "Topic"
+msgstr "P0021토픽"
+
+msgid "Create/Edit topic"
+msgstr "P0022토픽 만들기/편집"
+
+msgid "View topic"
+msgstr "P0023토픽 보기"
+
+msgid "Video"
+msgstr "P0024동영상"
+
+msgid "Share video"
+msgstr "P0025동영상 공유"
+
+msgid "View video"
+msgstr "P0026동영상 보기"
+
+msgid "Attachment"
+msgstr "P0027첨부"
+
+msgid "Upload attachment"
+msgstr "P0028첨부 업로드"
+
+msgid "Download attachment"
+msgstr "P0029첨부 다운로드"
+

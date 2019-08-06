@@ -1,0 +1,357 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: View/Slide/admin_edit_text.ctp:156
+msgid "Close"
+msgstr "{Close}"
+
+#: View/Slide/admin_edit_text.ctp:157
+msgid "Save"
+msgstr "{Save}"
+
+#: View/Slide/admin_index.ctp:82
+msgid "Previous"
+msgstr "{Previous}"
+
+#: View/Slide/admin_index.ctp:84
+msgid "Next"
+msgstr "{Next}"
+
+#: Model/Category.php:validation for field name
+#: Model/CoreComponent.php:validation for field name
+#: Model/CorePage.php:validation for field name
+#: Model/Language.php:validation for field name
+#: Model/ProfileField.php:validation for field name
+#: Model/Role.php:validation for field name
+#: Model/Setting.php:validation for field name
+#: Model/SettingGroup.php:validation for field name
+#: Model/Theme.php:validation for field name
+#: Model/User.php:validation for field name
+#: Plugin/Billing/Model/Currency.php:validation for field name
+#: Plugin/Credit/Model/CreditRanks.php:validation for field name
+#: Plugin/Gift/Model/GiftCategory.php:validation for field name
+#: Plugin/Group/Model/Group.php:validation for field name
+#: Plugin/PaymentGateway/Model/Gateway.php:validation for field name
+#: Plugin/Subscription/Model/Subscribe.php:validation for field name
+#: Plugin/Subscription/Model/SubscriptionPackage.php:validation for field name
+msgid "Name is required"
+msgstr "{Name is required}"
+
+#: Model/Category.php:validation for field type
+#: Model/ProfileField.php:validation for field type
+msgid "Type is required"
+msgstr "{Type is required}"
+
+#: Model/Conversation.php:validation for field subject
+msgid "Subject is required"
+msgstr "{Subject is required}"
+
+#: Model/Conversation.php:validation for field message
+msgid "Message is required"
+msgstr "{Message is required}"
+
+#: Model/CoreComponent.php:validation for field path
+msgid "Path is required"
+msgstr "{Path is required}"
+
+#: Model/CorePage.php:validation for field displayname
+#: Plugin/Blog/Model/Blog.php:validation for field title
+#: Plugin/Event/Model/Event.php:validation for field title
+#: Plugin/Gift/Model/Gift.php:validation for field title
+#: Plugin/Page/Model/Page.php:validation for field title
+#: Plugin/Photo/Model/Album.php:validation for field title
+#: Plugin/Topic/Model/Topic.php:validation for field title
+#: Plugin/Video/Model/Video.php:validation for field title
+msgid "Title is required"
+msgstr "{Title is required}"
+
+#: Model/CorePage.php:validation for field theme_id
+msgid "Theme is required"
+msgstr "{Theme is required}"
+
+#: Model/Language.php:validation for field key
+#: Model/Theme.php:validation for field key
+msgid "Key must only contain letters and numbers"
+msgstr "{Key must only contain letters and numbers}"
+
+#: Model/Language.php:validation for field key
+#: Model/Theme.php:validation for field key
+msgid "Key already exists"
+msgstr "{Key already exists}"
+
+#: Model/MailQueue.php:validation for field email
+msgid "email"
+msgstr "{email}"
+
+#: Model/OauthAccessToken.php:validation for field access_token;validation for field user_id;validation for field expires
+#: Model/OauthRefreshToken.php:validation for field refresh_token
+#: Plugin/SocialIntegration/Model/SocialUser.php:validation for field provider;validation for field provider_uid
+msgid "notEmpty"
+msgstr "{notEmpty}"
+
+#: Model/Plugin.php:validation for field name
+msgid " Name is required"
+msgstr "{ Name is required}"
+
+#: Model/Plugin.php:validation for field key
+msgid " Key is required"
+msgstr "{ Key is required}"
+
+#: Model/Plugin.php:validation for field key
+msgid " Invalid Key"
+msgstr "{ Invalid Key}"
+
+#: Model/Plugin.php:validation for field version
+msgid " Version is required"
+msgstr "{ Version is required}"
+
+#: Model/Plugin.php:validation for field version
+msgid " Invalid Version"
+msgstr "{ Invalid Version}"
+
+#: Model/Plugin.php:validation for field description
+msgid " Description is required"
+msgstr "{ Description is required}"
+
+#: Model/Plugin.php:validation for field author
+msgid " Author is required"
+msgstr "{ Author is required}"
+
+#: Model/Plugin.php:validation for field website
+msgid " Website is required"
+msgstr "{ Website is required}"
+
+#: Model/Report.php:validation for field reason
+msgid "Reason is required"
+msgstr "{Reason is required}"
+
+#: Model/Setting.php:validation for field label
+msgid "Label is required"
+msgstr "{Label is required}"
+
+#: Model/Setting.php:validation for field name
+msgid "Name only contains letters, numbers and the underscore (_) with no space"
+msgstr "{Name only contains letters, numbers and the underscore (_) with no space}"
+
+#: Model/SpamChallenge.php:validation for field question
+#: Plugin/Credit/Model/CreditFaq.php:validation for field question
+msgid "Question is required"
+msgstr "{Question is required}"
+
+#: Model/SpamChallenge.php:validation for field answers
+msgid "Answers is required"
+msgstr "{Answers is required}"
+
+#: Model/User.php:validation for field email
+msgid "Email must be a valid email"
+msgstr "{Email must be a valid email}"
+
+#: Model/User.php:validation for field email
+msgid "Email already exists"
+msgstr "{Email already exists}"
+
+#: Model/User.php:validation for field email
+msgid "Email is required"
+msgstr "{Email is required}"
+
+#: Model/User.php:validation for field password
+msgid "Password must have at least 6 characters"
+msgstr "{Password must have at least 6 characters}"
+
+#: Model/User.php:validation for field password2
+msgid "Passwords do not match"
+msgstr "{Passwords do not match}"
+
+#: Model/User.php:validation for field birthday
+msgid "Birthday is required"
+msgstr "{Birthday is required}"
+
+#: Model/User.php:validation for field gender
+msgid "Gender is required"
+msgstr "{Gender is required}"
+
+#: Model/User.php:validation for field username
+msgid "Username must only contain letters and numbers"
+msgstr "{Username must only contain letters and numbers}"
+
+#: Model/User.php:validation for field username
+msgid "Username must be between 5 and 50 characters long."
+msgstr "{Username must be between 5 and 50 characters long.}"
+
+#: Model/User.php:validation for field username
+msgid "Username already exists"
+msgstr "{Username already exists}"
+
+#: Plugin/Billing/Model/Currency.php:validation for field currency_code
+msgid "Code is not valid"
+msgstr "{Code is not valid}"
+
+#: Plugin/Billing/Model/Currency.php:validation for field symbol
+msgid "Symbol is not valid"
+msgstr "{Symbol is not valid}"
+
+#: Plugin/Blog/Model/Blog.php:validation for field body
+#: Plugin/Topic/Model/Topic.php:validation for field body
+msgid "Body is required"
+msgstr "{Body is required}"
+
+#: Plugin/Blog/Model/Blog.php:validation for field tags
+#: Plugin/Photo/Model/Album.php:validation for field tags
+#: Plugin/Topic/Model/Topic.php:validation for field tags
+#: Plugin/Video/Model/Video.php:validation for field tags
+msgid "No special characters ( /,?,#,%,...) allowed in Tags"
+msgstr "{No special characters ( /,?,#,%,...) allowed in Tags}"
+
+#: Plugin/Credit/Model/CreditBalances.php:validation for field credit
+#: Plugin/Credit/Model/CreditRanks.php:validation for field credit
+#: Plugin/Credit/Model/CreditSells.php:validation for field credit;validation for field price
+msgid "Only numbers allowed"
+msgstr "{Only numbers allowed}"
+
+#: Plugin/Credit/Model/CreditRanks.php:validation for field description
+#: Plugin/Event/Model/Event.php:validation for field description
+#: Plugin/Group/Model/Group.php:validation for field description
+msgid "Description is required"
+msgstr "{Description is required}"
+
+#: Plugin/Event/Model/Event.php:validation for field category_id
+#: Plugin/Gift/Model/Gift.php:validation for field gift_category_id
+#: Plugin/Group/Model/Group.php:validation for field category_id
+#: Plugin/Photo/Model/Album.php:validation for field category_id
+#: Plugin/Topic/Model/Topic.php:validation for field category_id
+#: Plugin/Video/Model/Video.php:validation for field category_id
+msgid "Category is required"
+msgstr "{Category is required}"
+
+#: Plugin/Event/Model/Event.php:validation for field location
+msgid "Location is required"
+msgstr "{Location is required}"
+
+#: Plugin/Event/Model/Event.php:validation for field from
+msgid "From is not a valid date format (yyyy-mm-dd)"
+msgstr "{From is not a valid date format (yyyy-mm-dd)}"
+
+#: Plugin/Event/Model/Event.php:validation for field to
+msgid "To is not a valid date format (yyyy-mm-dd)"
+msgstr "{To is not a valid date format (yyyy-mm-dd)}"
+
+#: Plugin/Gift/Model/Gift.php:validation for field filename
+msgid "File is required"
+msgstr "{File is required}"
+
+#: Plugin/Gift/Model/Gift.php:validation for field thumb
+msgid "Thumb is required"
+msgstr "{Thumb is required}"
+
+#: Plugin/Gift/Model/Gift.php:validation for field friend_id
+msgid "Friend is required"
+msgstr "{Friend is required}"
+
+#: Plugin/Gift/Model/GiftSent.php:validation for field sender_id
+msgid "Sender is required"
+msgstr "{Sender is required}"
+
+#: Plugin/Gift/Model/GiftSent.php:validation for field receiver_id
+msgid "Please select friend"
+msgstr "{Please select friend}"
+
+#: Plugin/Gift/Model/GiftSent.php:validation for field gift_id
+msgid "Gift not found"
+msgstr "{Gift not found}"
+
+#: Plugin/Page/Model/Page.php:validation for field alias
+msgid "Alias is required"
+msgstr "{Alias is required}"
+
+#: Model/SlideText.php:validation for field text
+msgid "Text name is required"
+msgstr "{Text name is required}"
+
+#: Model/SlideText.php:validation for field slide_id
+msgid "Slide is required"
+msgstr "{Slide is required}"
+
+#: Plugin/SocialIntegration/Model/SocialProvider.php:validation for field client_api
+msgid "Provider Api must not be empty"
+msgstr "{Provider Api must not be empty}"
+
+#: Plugin/SocialIntegration/Model/SocialProvider.php:validation for field client_secret
+msgid "Provider Secret must not be empty"
+msgstr "{Provider Secret must not be empty}"
+
+#: Plugin/SocialIntegration/Model/SocialUser.php:validation for field id
+msgid "Unknow id"
+msgstr "{Unknow id}"
+
+#: Plugin/SocialIntegration/Model/SocialUser.php:validation for field id
+msgid "Id must be integer"
+msgstr "{Id must be integer}"
+
+#: Plugin/SocialIntegration/Model/SocialUser.php:validation for field user_id
+msgid "Must provide user id"
+msgstr "{Must provide user id}"
+
+#: Plugin/SocialIntegration/Model/SocialUser.php:validation for field user_id
+msgid "Must be a number"
+msgstr "{Must be a number}"
+
+#: Plugin/SocialIntegration/Model/SocialUser.php:validation for field provider_uid
+msgid "numeric"
+msgstr "{numeric}"
+
+#: Plugin/Subscription/Model/Subscribe.php:validation for field role_id
+msgid "Please select user role"
+msgstr "{Please select user role}"
+
+#: Plugin/Subscription/Model/Subscribe.php:validation for field price
+msgid "Price is not valid"
+msgstr "{Price is not valid}"
+
+#: Plugin/Subscription/Model/Subscribe.php:validation for field recurring_price
+msgid "Recurring price is not valid"
+msgstr "{Recurring price is not valid}"
+
+#: Plugin/Subscription/Model/Subscribe.php:validation for field recurring
+msgid "Recurring must be a valid interger greater than 0"
+msgstr "{Recurring must be a valid interger greater than 0}"
+
+#: Plugin/Subscription/Model/SubscriptionPackage.php:validation for field role_id
+msgid "Select user role"
+msgstr "{Select user role}"
+
+#: Plugin/Subscription/Model/SubscriptionPackage.php:validation for field ordering
+msgid "Order must be a valid integer greater than 0"
+msgstr "{Order must be a valid integer greater than 0}"
+
+#: Plugin/Subscription/Model/SubscriptionPackagePlan.php:validation for field price;validation for field trial_price
+msgid "rule"
+msgstr "{rule}"
+
+#: Plugin/Subscription/Model/SubscriptionPackagePlan.php:validation for field plan_duration
+msgid "Duration must be a valid integer greater than 0"
+msgstr "{Duration must be a valid integer greater than 0}"
+
+#: Plugin/Subscription/Model/SubscriptionPackagePlan.php:validation for field expiration_reminder
+msgid "Expiration reminder must be a valid integer greater than 0"
+msgstr "{Expiration reminder must be a valid integer greater than 0}"
+
+#: Plugin/Subscription/Model/SubscriptionPackagePlan.php:validation for field order
+msgid "Plan's order must be a valid integer greater than 0"
+msgstr "{Plan's order must be a valid integer greater than 0}"
+
+#: Plugin/Video/Model/Video.php:validation for field source
+msgid "Source is required"
+msgstr "{Source is required}"
+

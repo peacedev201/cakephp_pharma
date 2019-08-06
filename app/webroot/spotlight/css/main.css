@@ -1,0 +1,172 @@
+.btt_add_spotlight{
+    padding-right: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.spot_arr{
+
+}
+.btt_add_spotlight{
+    padding-right: 30px;
+}
+.btt_add_spotlight > a{
+    background: #246ea3 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  height: 151px;
+  line-height: normal;
+  padding: 0 10px;
+  position: relative;
+  text-decoration: none !important;
+  width: 96px;
+
+}
+.btt_add_spotlight > a:after {
+    /*    content: '';
+        display: block;
+        width: 0;
+        border-width: 25px;
+        border-style: solid;
+        border-color: transparent transparent rgba(212, 157, 157, 0) #246EA3;
+        position: absolute;
+        right: -50px;
+        top: 0;*/
+}
+.has_btn_join{
+    padding-left: 100px !important;
+    position: relative;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    min-height: 150px;
+}
+div#jsCarousel ul li {
+    list-style: none;
+    padding: 0;
+    float: left;
+}
+.slide_content{
+    position:relative;
+    padding:0 20px;
+}
+.jcarousel-control-prev, .jcarousel-control-next{
+    border: 1px solid #dfdfdf;
+    background:none;
+    border-radius: 0;
+    top: 30%;
+    bottom: 0;
+    margin: 0;
+    height: 50px;
+    width: 17px;
+    line-height: 50px;
+    left: 0;
+    color: #999;
+    text-shadow: none;
+}
+.jcarousel-control-next{
+    right: 0;
+    left: auto;
+}
+.slide_content > a:hover,.slide_content > a:active,.slide_content > a:focus{
+    text-decoration:none;
+}
+form#selectGateway > * {
+    display: block;
+    float: left;
+}
+form#selectGateway > input {
+    clear: both;
+    margin-right: 5px;
+}
+#selectGateway{
+    margin-top: 7px;
+}
+
+.picker__footer {
+    margin-bottom: 10px;
+}
+
+.paypal_content {
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#jsCarousel {
+
+}
+.jcarousel img {
+    height: 120px !important;
+    width: 120px;
+}
+.jcarousel {
+    padding: 15px !important;
+}
+#center > .box2.box_top_spotlight {
+    padding: 0;
+}
+div#jsCarousel ul li {
+    position: relative;
+}
+.online-stt {
+    position: absolute !important;
+}
+.add-me-here-btn > i {
+    display: block;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+.add-me-here-btn {
+    padding-top: 40px !important;
+}
+.spotlight_multiple .user_avatar_small {
+    transition: all .2s ease-in-out;
+}
+.spotlight_multiple .user_avatar_small.hover {
+    transform: scale(1.1);
+}
+#center > .box2.box_top_spotlight h3 {
+    padding-left: 10px;
+}
+#right .has_btn_join ,
+#leftnav .has_btn_join {
+    padding-left: 0 !important;
+}
+#right .btt_add_spotlight ,
+#leftnav .btt_add_spotlight {
+    display: block;
+    left: 0;
+    padding: 0 !important;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+#leftnav .btt_add_spotlight > a ,
+#right .btt_add_spotlight > a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 !important;
+    width: 100%;
+    text-align: center;
+}
+#leftnav .box_top_spotlight > div ,
+#right .box_top_spotlight > div {
+    padding:16px !important;
+}
+#right .add-me-here-btn > i ,
+#leftnav .add-me-here-btn > i {
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.spotlight_multiple {
+    position: relative;
+}
+
+#page_guest_home-index .user_register_holder {
+    overflow: hidden;
+}

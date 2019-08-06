@@ -1,0 +1,6 @@
+1649557086
+a:7:{s:2:"id";s:2:"12";s:4:"type";s:20:"welcome_user_confirm";s:7:"content";s:236:"<p>[header]</p>
+<p>Thank you for joining our social network. Please click the link below to validate your email:</p>
+<p><a href="[confirm_link]">[confirm_link]</a></p>
+<p>Email: [email]</p><p>Password: [password]</p>
+<p>[footer]</p>";s:6:"plugin";s:4:"Mail";s:4:"vars";s:80:"[recipient_title],[recipient_link],[site_name],[email],[confirm_link],[password]";s:7:"subject";s:22:"Welcome to [site_name]";s:6:"locale";s:3:"kor";}

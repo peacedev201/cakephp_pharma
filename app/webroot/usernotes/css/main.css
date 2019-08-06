@@ -1,0 +1,51 @@
+.users_list.usernotes-content .user-list-index{
+    width: 100% !important;
+    padding-top:15px;
+}
+.users_list.usernotes-content .list-content{
+    width: 15%;
+    float:left;
+
+}
+.users_list.usernotes-content .detail-note{
+    float:right;
+    width: 83%;
+    font-size: 16px;
+}
+.users_list.usernotes-content > li{
+    border-bottom: 2px #E4E4E4 solid;
+}
+.users_list.usernotes-content .user-list-info{
+    height: 50px !important;
+}
+@media (max-width: 480px){
+    .users_list.usernotes-content .list-content{
+        width: 30%;
+        float:left;
+
+    }
+    .users_list.usernotes-content .detail-note{
+        float:right;
+        width: 68%;
+        font-size: 16px;
+    }
+}
+@media (max-width: 767px){
+    .users_list.usernotes-content .list-content{
+        width: 30%;
+        float:left;
+
+    }
+    .users_list.usernotes-content .detail-note{
+        float:right;
+        width: 68%;
+        font-size: 16px;
+    }
+}
+.user-list-index .detail-note textarea:focus{
+
+    
+}
+#right .usernote-widget .button, #leftnav .usernote-widget .button {
+	margin: 0 5px;
+}

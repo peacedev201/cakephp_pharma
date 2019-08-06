@@ -1,0 +1,971 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr "f0001"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: Plugin/Question/QuestionPlugin.php:1288
+#: Plugin/Question/View/Questions/admin_index.ctp:8;28
+msgid "Question Manager"
+msgstr "f0002Q&A 관리자"
+
+#: Plugin/Question/QuestionPlugin.php:1289
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:32
+msgid "Settings"
+msgstr "f0003설정"
+
+#: Plugin/Question/QuestionPlugin.php:1290
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:9
+#: Plugin/Question/View/Widgets/question/menu.ctp:16
+msgid "Categories"
+msgstr "f0004카테고리"
+
+#: Plugin/Question/QuestionPlugin.php:1291
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:15
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:8
+#: Plugin/Question/View/Widgets/question/menu.ctp:10
+msgid "Badges"
+msgstr "f0005 배지"
+
+#: Plugin/Question/QuestionPlugin.php:1292
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:16
+#: Plugin/Question/View/Questions/create.ctp:102
+#: Plugin/Question/View/Widgets/question/browse_tags.ctp:5
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:76
+msgid "Tags"
+msgstr "f0006태그"
+
+#: Plugin/Question/Controller/QuestionBadgesController.php:4
+msgid "Badge Manager"
+msgstr "f0007뱃지관리자"
+
+#: Plugin/Question/Controller/QuestionBadgesController.php:43
+msgid "Badge has been successfully saved"
+msgstr "f0008뱃지가 등록되었습니다."
+
+#: Plugin/Question/Controller/QuestionBadgesController.php:54
+msgid "Badge has been deleted"
+msgstr "f0009뱃지를 삭제하였습니다."
+
+#: Plugin/Question/Controller/QuestionCategoriesController.php:14
+msgid "Categories Manager"
+msgstr "f0010카테고리관리자"
+
+#: Plugin/Question/Controller/QuestionCategoriesController.php:77
+msgid "Category has been successfully saved"
+msgstr "f0011카테고리를 등록하였습니다."
+
+#: Plugin/Question/Controller/QuestionCategoriesController.php:116
+msgid "Category has been deleted"
+msgstr "f0012카테고리를 삭제하였습니다."
+
+#: Plugin/Question/Controller/QuestionSettingsController.php:7
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:22
+msgid "Question Settings"
+msgstr "f0013질문 설정"
+
+#: Plugin/Question/Controller/QuestionTagsController.php:6
+msgid "Tag Manager"
+msgstr "f0014태그관리자"
+
+#: Plugin/Question/Controller/QuestionTagsController.php:79
+msgid "Tag has been successfully saved"
+msgstr "f0015태그를 등록하였습니다."
+
+#: Plugin/Question/Controller/QuestionTagsController.php:90
+msgid "Tag has been deleted"
+msgstr "f0016태그를 삭제하였습니다."
+
+#: Plugin/Question/Controller/QuestionTagsController.php:103
+msgid "Tag's status has been changed"
+msgstr "f0017태그 현황이 변경되었습니다."
+
+#: Plugin/Question/Controller/QuestionsController.php:6
+#: Plugin/Question/Lib/QuestionListener.php:31;206;245
+#: Plugin/Question/View/Elements/menu_profile.ctp:1
+#: Plugin/Question/View/Questions/browse.ctp:5;10
+#: Plugin/Question/View/Widgets/question/profile_info.ctp:13
+#: View/Themed/MooApp/Plugin/Question/Elements/menu_profile.ctp:1
+#: View/Themed/MooApp/Plugin/Question/Questions/browse.ctp:5;10
+msgid "Questions"
+msgstr "f0018질문"
+
+#: Plugin/Question/Controller/QuestionsController.php:71;1294
+msgid "Question has been deleted"
+msgstr "f0019질문"
+
+#: Plugin/Question/Controller/QuestionsController.php:123
+msgid "Question has been approved"
+msgstr "f0020질문이 등록되었습니다."
+
+#: Plugin/Question/Controller/QuestionsController.php:375
+msgid "Answer has been successfully added"
+msgstr "f0021답변이 추가되었습니다."
+
+#: Plugin/Question/Controller/QuestionsController.php:1038
+#: Plugin/Question/View/Questions/browse.ctp:6
+#: Plugin/Question/View/Questions/create.ctp:18
+#: Plugin/Question/View/Widgets/question/browse.ctp:31
+#: View/Themed/MooApp/Plugin/Question/Questions/browse.ctp:6
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:18
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:31
+msgid "Create a new question"
+msgstr "f0022신규 질문"
+
+#: Plugin/Question/Controller/QuestionsController.php:1056
+#: Plugin/Question/View/Questions/create.ctp:18
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:18
+msgid "Edit question"
+msgstr "f0023질문 편집"
+
+#: Plugin/Question/Controller/QuestionsController.php:1269
+msgid "Question has been successfully added"
+msgstr "f0024질문이 추가되었습니다."
+
+#: Plugin/Question/Controller/QuestionsController.php:1272
+msgid "Question has been successfully added and is pending for admin's approval."
+msgstr "f0025질문이 추가되어 관리자 승인대기중입니다."
+
+#: Plugin/Question/Controller/QuestionsController.php:1276
+msgid "Question has been successfully updated"
+msgstr "f0026질문이 "
+
+#: Plugin/Question/Lib/QuestionListener.php:296
+#: Plugin/Question/View/Questions/admin_index.ctp:127
+msgid "Are you sure you want to delete this question?"
+msgstr "f0027이 질문을 지우시겠습니까?"
+
+#: Plugin/Question/Lib/QuestionListener.php:319;337;363
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:6
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:3
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:21
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:9
+#: Plugin/Question/View/Questions/admin_index.ctp:7
+msgid "Question"
+msgstr "f0028질문"
+
+#: Plugin/Question/Lib/QuestionListener.php:378
+msgid "Find Question"
+msgstr "f0029질문 찾기"
+
+#: Plugin/Question/Lib/QuestionListener.php:382
+msgid "Posted by"
+msgstr "f0030게시자:"
+
+#: Plugin/Question/Model/QuestionContentHistory.php:40
+msgid "Edited"
+msgstr "f0031수정"
+
+#: Plugin/Question/Model/QuestionTag.php:27
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:3
+msgid "Unapproved"
+msgstr "f0032비승인"
+
+#: Plugin/Question/Model/QuestionTag.php:29
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:4
+#: Plugin/Question/View/Questions/admin_index.ctp:74
+msgid "Approved"
+msgstr "f0033승인"
+
+#: Plugin/Question/Model/QuestionTag.php:31
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:5
+msgid "Denied"
+msgstr "f0034거절"
+
+#: Plugin/Question/View/Elements/comment.ctp:30
+#: Plugin/Question/View/Questions/view.ctp:156;260
+#: View/Themed/MooApp/Plugin/Question/Elements/comment.ctp:30
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:155;256
+msgid "Show edit history"
+msgstr "f0035편집 기록 보기"
+
+#: Plugin/Question/View/Elements/comments.ctp:15
+#: View/Themed/MooApp/Plugin/Question/Elements/comments.ctp:15
+msgid "show %s more comments"
+msgstr "f0036%s 댓글 더 보기"
+
+#: Plugin/Question/View/Elements/comments.ctp:19
+#: Plugin/Question/View/Questions/view.ctp:91;105;194;208
+#: View/Themed/MooApp/Plugin/Question/Elements/comments.ctp:19
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:90;104;190;204
+msgid "You must be logged in to perform this action"
+msgstr "f0037이 작업을 수행하려면 로그인해야합니다."
+
+#: Plugin/Question/View/Elements/comments.ctp:19
+#: View/Themed/MooApp/Plugin/Question/Elements/comments.ctp:19
+msgid "You do not have enough points to comment"
+msgstr "f0038회원님은 포인트가 부족하여 댓글을 달 수 없습니다."
+
+#: Plugin/Question/View/Elements/comments.ctp:20
+#: View/Themed/MooApp/Plugin/Question/Elements/comments.ctp:20
+msgid "Add comment"
+msgstr "f0039댓글 추가"
+
+#: Plugin/Question/View/Elements/menu_welcome.ctp:1
+#: Plugin/Question/View/Widgets/question/browse.ctp:16
+#: Plugin/Question/View/Widgets/question/menu.ctp:7
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:16
+msgid "My Questions"
+msgstr "f0040 질문"
+
+#: Plugin/Question/View/Elements/activity/content/question_create.ctp:16
+#: Plugin/Question/View/Elements/activity/content/question_create_share.ctp:37
+#: Plugin/Question/View/Elements/activity/content/question_item_detail_share.ctp:24
+#: Plugin/Question/View/Elements/activity/share/question_create.ctp:27
+#: Plugin/Question/View/Elements/activity/share/question_item_detail.ctp:15
+#: Plugin/Question/View/Elements/lists/block_questions.ctp:11
+#: Plugin/Question/View/Elements/lists/questions.ctp:27
+#: Plugin/Question/View/Questions/admin_index.ctp:41
+#: Plugin/Question/View/Widgets/question/browse.ctp:96
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:96
+msgid "Featured"
+msgstr "f0041추천"
+
+#: Plugin/Question/View/Elements/activity/content/question_create_share.ctp:18
+#: Plugin/Question/View/Elements/activity/share/question_create.ctp:8
+#: Plugin/Question/View/Elements/activity/text/question_create.ctp:2
+msgid "created a new question"
+msgstr "f0042새 질문을 올렸습니다."
+
+#: Plugin/Question/View/Elements/activity/text/answer_question.ctp:2
+msgid "answered %s's question: %s"
+msgstr "%s 회원이 %s 질문에 답글을 달았습니다."
+
+#: Plugin/Question/View/Elements/activity/text/question_item_detail_share.ctp:5
+msgid "question"
+msgstr "f0044질문"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:34
+#: Plugin/Question/View/Questions/admin_index.ctp:75
+msgid "Action"
+msgstr "f0045작업"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:37
+#: Plugin/Question/View/Questions/view.ctp:39
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:38
+msgid "Edit Question"
+msgstr "f0046질문 수정"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:38
+#: Plugin/Question/View/Questions/view.ctp:40
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:39
+msgid "Delete Question"
+msgstr "f0047질문 삭제"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:72
+msgid "Views"
+msgstr "f0048조회수"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:72
+msgid "View"
+msgstr "f0049보기"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:75
+#: Plugin/Question/View/Widgets/question/profile_info.ctp:14
+msgid "Answers"
+msgstr "f0050답변"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:75
+msgid "Answer"
+msgstr "f0051답변"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:78
+#: Plugin/Question/View/Questions/view.ctp:176
+#: Plugin/Question/View/Widgets/question/browse.ctp:95
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:175
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:95
+msgid "Votes"
+msgstr "f0052투표수"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:78
+msgid "Vote"
+msgstr "f0053투표"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:106
+#: Plugin/Question/View/Questions/view.ctp:161
+#: Plugin/Question/View/Widgets/question/browse.ctp:50;60
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:160
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:50;60
+msgid "in"
+msgstr "f0054안에"
+
+#: Plugin/Question/View/Elements/lists/questions.ctp:119
+#: Plugin/Question/View/Questions/browse.ctp:17;28
+#: Plugin/Question/View/Widgets/question/browse.ctp:104
+#: View/Themed/MooApp/Plugin/Question/Questions/browse.ctp:17;28
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:104
+msgid "No more results found"
+msgstr "f0055더 이상 결과가 없습니다."
+
+#: Plugin/Question/View/Elements/notification/answer_question.ctp:2
+msgid "answered your question"
+msgstr "f0056회원님의 질문에 답변하였습니다."
+
+#: Plugin/Question/View/Elements/notification/best_answer_question.ctp:2
+msgid "your answer selected as the best answer by"
+msgstr "f0057회원님의 답변이 우수 답변으로 선택되었습니다: "
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:8
+msgid "Create new tag"
+msgstr "f0058새 태그 생성"
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:9
+msgid "Leave comment"
+msgstr "f0059댓글 남기기"
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:10
+msgid "Vote up"
+msgstr "f0060찬성하다"
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:11
+msgid "Vote down"
+msgstr "f0061반대하다"
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:179
+msgid "Ask a question"
+msgstr "f0062질문하기"
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:183
+msgid "Answer a question"
+msgstr "f0063질문답변"
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:187
+msgid "Question received a vote up"
+msgstr "f0064질문이 좋아요를 받았습니다"
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:191
+msgid "Answer received a vote up"
+msgstr "f0065답변이 좋아요를 받았습니다"
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:195
+msgid "Have your answer selected as the best answer"
+msgstr "f0066회원님의 답변이 최우수답변으로 선택되었습니다."
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:199
+msgid "Answer received a vote down"
+msgstr "f0067답변이 싫어요를 받았습니다"
+
+#: Plugin/Question/View/Helper/QuestionHelper.php:203
+msgid "Question received a vote down"
+msgstr "f0068질문이 싫어요를 받았습니다"
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:36
+msgid "Add a new Badge"
+msgstr "f0069새로운 뱃지 추가"
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:43
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:40
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:68
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:63
+msgid "Name"
+msgstr "f0070이름"
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:45
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:70
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:33
+msgid "Enter text"
+msgstr "f0071문장입력"
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:49
+msgid "Background Color"
+msgstr "f0072배경색"
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:55
+msgid "Text Color"
+msgstr "f0073텍스트색상"
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:61
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:42
+msgid "Point"
+msgstr "f0074포인트"
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:67
+msgid "Permission"
+msgstr "f0075게시권한"
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:78
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:131
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:42
+#: Plugin/Question/View/Questions/view.ctp:328
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:324
+msgid "Close"
+msgstr "f0076닫기"
+
+#: Plugin/Question/View/QuestionBadges/admin_create.ctp:79
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:132
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:43
+#: Plugin/Question/View/Questions/create.ctp:120
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:91
+msgid "Save"
+msgstr "f0077저장"
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:5
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:2
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:20
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:8
+#: Plugin/Question/View/Questions/admin_index.ctp:6
+msgid "Plugins Manager"
+msgstr "f0078플러그인 매니저"
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:7
+msgid "Question Badges"
+msgstr "f0079질문 뱃지"
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:28
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:47
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:29
+msgid "Add New"
+msgstr "f0080새로 추가"
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:39
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:62
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:55
+msgid "ID"
+msgstr "f0081ID"
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:41
+msgid "Color"
+msgstr "f0082색상"
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:43
+msgid "Permissions"
+msgstr "f0083권한"
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:44
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:69
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:58
+msgid "Actions"
+msgstr "f0084작업"
+
+#: Plugin/Question/View/QuestionBadges/admin_index.ctp:68
+msgid "Are you sure to delete this badge"
+msgstr "f0085이 뱃지를 삭제하시겠습니까?"
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:22
+msgid "Please check at least one user role in the Permissions tab"
+msgstr "f0086게시권한 탭에서 Please check at least one user role in the Permissions tab"
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:61
+msgid "Add a new Category"
+msgstr "f0087새 카테고리 등록"
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:74
+msgid "You can add translation phrase after creating category"
+msgstr "f0088카테고리 생성후에, 번역문구를 추가할 수 있습니다."
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:77
+msgid "Translation"
+msgstr "f0089번역"
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:85
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:66
+msgid "Header"
+msgstr "f0090헤더"
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:91
+msgid "Category header is top level category<br />which does not allow items to be posted"
+msgstr "f0091카테고리 헤드는 <br /> 아이템을 게시할 수 없는 최상위카테고리입니다."
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:105
+#: Plugin/Question/View/Questions/create.ctp:41
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:56
+msgid "Description"
+msgstr "f0092상세"
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:112
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:67
+#: Plugin/Question/View/Questions/view.ctp:175
+#: Plugin/Question/View/Widgets/question/browse.ctp:94
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:174
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:94
+msgid "Active"
+msgstr "f0093진행중인"
+
+#: Plugin/Question/View/QuestionCategories/admin_create.ctp:123
+msgid "Post Permission"
+msgstr "f0094게시권한"
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:4
+msgid "Question Categories"
+msgstr "f0095질문 카테고리"
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:50
+msgid "Save order"
+msgstr "f0096순서저장"
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:64
+msgid "Order"
+msgstr "f0097순서"
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:65
+msgid "Parent"
+msgstr "f0098상위"
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:68
+msgid "Count"
+msgstr "f0099계수"
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:81;82
+msgid "Yes"
+msgstr "f0100예"
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:81;82
+msgid "No"
+msgstr "f0101아니오"
+
+#: Plugin/Question/View/QuestionCategories/admin_index.ctp:84
+msgid "Are you sure to delete this category? All the items within it will also be deleted. This cannot be undone!"
+msgstr "f0102이 카테고리를 삭제하시겠습니까? 해당 카테고리에 포함된 아이템이 모두 삭제되며, 취소도 불가능합니다.!"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:2
+msgid "Create/Edit Question"
+msgstr "f0103답변 등록/편집"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:3
+msgid "View Question"
+msgstr "f0104질문보기"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:4
+msgid "Enable question"
+msgstr "f0105질문활성화"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:5
+msgid "Limit number of tags per question"
+msgstr "f0106질문당 태그 허용횟수"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:6
+msgid "File type allowed"
+msgstr "f0107허용 필드 형태"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:7
+msgid "Item per page"
+msgstr "f0108페이지당 아이템수"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:8
+msgid "Enable hashtag for question"
+msgstr "f0109질문에 대핸 해시태그 허용"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:9
+msgid "Auto Approval When A Question Added"
+msgstr "f0110질문 추가시 자동승인"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:10
+msgid "Limit number of answers that a user can post per question"
+msgstr "f0111특정회원이 질문당 답변 가능 상한 횟수"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:11
+msgid "Number point receive when user vote for an answer"
+msgstr "f0112회원이 답변에 대한 투표 참여시 받는 포인트"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:12
+msgid "Number point receive when user vote for a question"
+msgstr "f0113회원이 질문에 대한 투표 참여시 받는 포인트"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:13
+msgid "Number point receive when their answer has been marked as best answer"
+msgstr "f0114답변내용으 가장 우수답변으로 선정시 받는 포인트"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:14
+msgid "Number point receive when user create a new question"
+msgstr "f0115회원이 새 질문을 등록할 때 받는 포인트"
+
+#: Plugin/Question/View/QuestionSettings/admin_index.ctp:15
+msgid "Number point receive when user create a new answer"
+msgstr "f0116회원이 새 답변을 등록할 때 받는 포인트"
+
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:23
+msgid "Add a new Tag"
+msgstr "f0117새 태그 부착"
+
+#: Plugin/Question/View/QuestionTags/admin_create.ctp:31
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:56
+#: Plugin/Question/View/Questions/admin_index.ctp:33;68
+#: Plugin/Question/View/Questions/create.ctp:32
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:51
+msgid "Title"
+msgstr "f0118제목"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:10
+msgid "Question Tags"
+msgstr "f0119질문 태그"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:40;57
+msgid "Status"
+msgstr "f0120상황"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:49
+#: Plugin/Question/View/Questions/admin_index.ctp:62
+msgid "Search"
+msgstr "f0121검색"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:73
+msgid "Are you sure you want to approve this tag?"
+msgstr "f0122이 태그를 승인하시겠습니까?"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:73
+msgid "approve"
+msgstr "f0123승인"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:73
+msgid "Are you sure you want to deny this tag?"
+msgstr "f0124이 태그를 사양하시겠습니까??"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:73
+msgid "deny"
+msgstr "f0125사양"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:75
+msgid "Are you sure you want to delete this tag?"
+msgstr "f0126이 태그를 삭제하시겠습니까?"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:84
+#: Plugin/Question/View/Questions/admin_index.ctp:143
+#: Plugin/Question/View/Questions/view.ctp:273
+#: Plugin/Question/View/Widgets/question/browse.ctp:110
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:34
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:269
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:110
+msgid "Prev"
+msgstr "f0127이전"
+
+#: Plugin/Question/View/QuestionTags/admin_index.ctp:86
+#: Plugin/Question/View/Questions/admin_index.ctp:145
+#: Plugin/Question/View/Questions/view.ctp:275
+#: Plugin/Question/View/Widgets/question/browse.ctp:112
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:36
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:271
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:112
+msgid "Next"
+msgstr "f0128다음"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:37;71
+#: Plugin/Question/View/Questions/create.ctp:60
+msgid "Category"
+msgstr "f0129카테고리"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:42;52;53;111;122;185
+msgid "yes"
+msgstr "f0130예"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:42;52;53;117;122;190
+msgid "no"
+msgstr "f0131아니오"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:51;73
+msgid "Visible"
+msgstr "f0132보이기"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:69
+msgid "Member"
+msgstr "f0133회원"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:70
+msgid "Created date"
+msgstr "f0134날짜생성"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:72
+msgid "Feature"
+msgstr "f0135추천"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:95;161
+msgid "feature"
+msgstr "f0136추천"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:101;166
+msgid "unfeature"
+msgstr "f0137추천종료"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:125
+msgid "Approve"
+msgstr "f0138승인"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:125
+msgid "Are you sure you want to approve this question?"
+msgstr "f0139이 질문을 승인하시겠습니까?"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:127
+msgid "Delete"
+msgstr "f0140삭제"
+
+#: Plugin/Question/View/Questions/admin_index.ctp:134
+msgid "No question found"
+msgstr "f0141질문사항이 없습니다."
+
+#: Plugin/Question/View/Questions/ajax_show_user_favorite.ctp:3
+#: View/Themed/MooApp/Plugin/Question/Questions/ajax_show_user_favorite.ctp:3
+msgid "People who favorited this question"
+msgstr "f0142이 질문을 선호하는 회원"
+
+#: Plugin/Question/View/Questions/content_history.ctp:3
+#: View/Themed/MooApp/Plugin/Question/Questions/content_history.ctp:3
+msgid "Edit History"
+msgstr "f0143이력 편집"
+
+#: Plugin/Question/View/Questions/create.ctp:5
+#: Plugin/Question/View/Questions/view.ctp:20
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:5
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:19
+msgid "Drag or click here to upload files"
+msgstr "f0144파일을 업로드하시려면 끌어 붙이거나, 이곳을 클릭하십시요."
+
+#: Plugin/Question/View/Questions/create.ctp:6
+msgid "Drag or click here to upload photo"
+msgstr "f0145사진을 업로드하시려면 끌어 붙이거나, 이곳을 클릭하십시요."
+
+#: Plugin/Question/View/Questions/create.ctp:69
+msgid "Thumbnail"
+msgstr "f0146썸네일"
+
+#: Plugin/Question/View/Questions/create.ctp:85
+msgid "Privacy"
+msgstr "f0147공개범위"
+
+#: Plugin/Question/View/Questions/create.ctp:90
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:66
+msgid "Everyone"
+msgstr "f0148전체 회원"
+
+#: Plugin/Question/View/Questions/create.ctp:91
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:67
+msgid "Friends Only"
+msgstr "f0149친구에게만"
+
+#: Plugin/Question/View/Questions/create.ctp:92
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:68
+msgid "Only Me"
+msgstr "f0150나에게만"
+
+#: Plugin/Question/View/Questions/view.ctp:18
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:17
+msgid "Are you sure to remove this comment?"
+msgstr "f0151이 댓글을 삭제하시겠습니까?"
+
+#: Plugin/Question/View/Questions/view.ctp:19
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:18
+msgid "Are you sure to remove this answer?"
+msgstr "f0152해당 답변을 삭제하시겠습니까?"
+
+#: Plugin/Question/View/Questions/view.ctp:55;56
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:54;55
+msgid "Report Question"
+msgstr "f0153관리자에게 질문 점검요청"
+
+#: Plugin/Question/View/Questions/view.ctp:70
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:69
+msgid "Share"
+msgstr "f0154공유"
+
+#: Plugin/Question/View/Questions/view.ctp:81
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:80
+msgid "Question is pending admin's approval."
+msgstr "f0155답변이 관리자승인 대기중입니다."
+
+#: Plugin/Question/View/Questions/view.ctp:90;193
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:89;189
+msgid "This is useful."
+msgstr "f0156유용합니다."
+
+#: Plugin/Question/View/Questions/view.ctp:91;194
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:90;190
+msgid "You do not have enough points to vote up"
+msgstr "f0157투표참여포인트가 부족합니다."
+
+#: Plugin/Question/View/Questions/view.ctp:104;207
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:103;203
+msgid "This is not useful"
+msgstr "f0158유용하지 않습니다."
+
+#: Plugin/Question/View/Questions/view.ctp:105;208
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:104;204
+msgid "You do not have enough points to vote down"
+msgstr "f0159투표참여 포인트가 부족합니다."
+
+#: Plugin/Question/View/Questions/view.ctp:172
+#: Plugin/Question/View/Widgets/question/top_answer_users.ctp:14
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:171
+msgid "Answer(s)"
+msgstr "f0160답변"
+
+#: Plugin/Question/View/Questions/view.ctp:177
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:176
+msgid "Oldest"
+msgstr "f0161가장 이전"
+
+#: Plugin/Question/View/Questions/view.ctp:216
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:212
+msgid "Mark as best answer"
+msgstr "f0162최우수답변 채택"
+
+#: Plugin/Question/View/Questions/view.ctp:234
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:230
+msgid "Edit Answer"
+msgstr "f0163답변편집"
+
+#: Plugin/Question/View/Questions/view.ctp:235
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:231
+msgid "Delete Answer"
+msgstr "f0164답변삭제"
+
+#: Plugin/Question/View/Questions/view.ctp:243
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:239
+msgid "Best answer"
+msgstr "f0165최우수답변"
+
+#: Plugin/Question/View/Questions/view.ctp:272
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:268
+msgid "First"
+msgstr "f0166처음"
+
+#: Plugin/Question/View/Questions/view.ctp:276
+#: Plugin/Question/View/Widgets/question/browse.ctp:93
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:272
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:93
+msgid "Last"
+msgstr "f0167최근"
+
+#: Plugin/Question/View/Questions/view.ctp:282
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:278
+msgid "Your Answer"
+msgstr "f0168회원님의 질문"
+
+#: Plugin/Question/View/Questions/view.ctp:296
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:292
+msgid "Post answer"
+msgstr "f0169답변게시"
+
+#: Plugin/Question/View/Questions/view.ctp:312
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:308
+msgid "Edit answer"
+msgstr "f0170질문편집"
+
+#: Plugin/Question/View/Questions/view.ctp:329
+#: View/Themed/MooApp/Plugin/Question/Questions/view.ctp:325
+msgid "Save changes"
+msgstr "f0171변경사항저장"
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:13
+#: Plugin/Question/View/Widgets/question/menu.ctp:6
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:13
+msgid "Friends' Questions"
+msgstr "f0172친구의 질문"
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:19
+#: Plugin/Question/View/Widgets/question/menu.ctp:8
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:19
+msgid "My Favorite Questions"
+msgstr "f0173내가 가장 좋아하는 질문"
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:22
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:22
+msgid "Browse Questions"
+msgstr "f0174질문열람"
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:47
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:47
+msgid "Search tag"
+msgstr "f0175태그 검색"
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:57
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:57
+msgid "Search keyword"
+msgstr "f0176키워드검색"
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:67
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:67
+msgid "Search category"
+msgstr "f0177카테고리 검색"
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:78
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:78
+msgid "Enter keyword to search"
+msgstr "f0178검색키워드입력"
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:84
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:84
+msgid "Select category"
+msgstr "f0179카테고리지정"
+
+#: Plugin/Question/View/Widgets/question/browse.ctp:97
+#: View/Themed/MooApp/Plugin/Question/Widgets/question/browse.ctp:97
+msgid "Unanswered"
+msgstr "f0180미답변"
+
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:11
+msgid "Points System"
+msgstr "f0181포인트시스템"
+
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:29
+msgid "Badges System"
+msgstr "f0182뱃지 시스템"
+
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:45
+msgid "Points require"
+msgstr "f0183필요포인트"
+
+#: Plugin/Question/View/Widgets/question/browse_badges.ctp:50
+msgid "You can"
+msgstr "f0184할 수 있습니다."
+
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:4
+msgid "Ratings"
+msgstr "f0185등급"
+
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:20
+msgid "point(s)"
+msgstr "f0186포인트"
+
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:22
+msgid "question(s)"
+msgstr "f0187질문"
+
+#: Plugin/Question/View/Widgets/question/browse_ratings.ctp:24
+msgid "answer(s)"
+msgstr "f0188답변"
+
+#: Plugin/Question/View/Widgets/question/menu.ctp:4
+msgid "All Questions"
+msgstr "f0189전체 질문"
+
+#: Plugin/Question/View/Widgets/question/menu.ctp:11
+msgid "Top Q&A Contributors"
+msgstr "f0190Q&A 최고기여자"
+
+#: Plugin/Question/View/Widgets/question/profile_info.ctp:12
+msgid "Total point"
+msgstr "f0191전체 포인트"
+
+#: Plugin/Question/View/Widgets/question/profile_info.ctp:15
+msgid "Best Answers"
+msgstr "f0192최우수 답변"
+
+#: Plugin/Question/View/Widgets/question/tags.ctp:17
+msgid "See more tags"
+msgstr "f0193태그 더 보기"
+
+#: Plugin/Question/View/Widgets/question/top_point_users.ctp:14
+msgid "Point(s)"
+msgstr "f0194포인트"
+
+#: Plugin/Question/View/Widgets/question/top_users.ctp:14
+msgid "Question(s)"
+msgstr "f0195질문"
+
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:43
+msgid "Upload Question Thumb"
+msgstr "f0196질문 썸네일 업로드"
+
+#: View/Themed/MooApp/Plugin/Question/Questions/create.ctp:44
+msgid "Click thumb to upload"
+msgstr "f0197썸네일 클릭/업로드"
+
+msgid "By pass force login"
+msgstr "f0198강제로그인 By pass"

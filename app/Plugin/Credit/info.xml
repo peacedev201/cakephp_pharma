@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+   <name>Credit</name>
+   <key>Credit</key>
+   <version>1.8</version>
+   <description>Credits</description>
+   <author>Socialloft</author>
+   <website>moosocial.com</website>
+   <bootstrap>1</bootstrap>
+   <routes>1</routes>
+   <addtomenu>1</addtomenu>
+   <settings>
+      <setting>
+         <label>Item per pages</label>
+         <name>credit_item_per_pages</name>
+         <description />
+         <type>text</type>
+         <values>20</values>
+      </setting>
+      <setting>
+         <label>Enable credits Plugin</label>
+         <name>credit_enabled</name>
+         <description />
+         <type>radio</type>
+         <values>
+            <value>
+               <name>Disable</name>
+               <value>0</value>
+               <select>0</select>
+            </value>
+            <value>
+               <name>Enable</name>
+               <value>1</value>
+               <select>1</select>
+            </value>
+         </values>
+      </setting>
+      <setting>
+         <label>Default sort by</label>
+         <name>credit_default_sort_by</name>
+         <description />
+         <type>radio</type>
+         <values>
+            <value>
+               <name>Total Earned Credits</name>
+               <value>earned_credit</value>
+               <select>1</select>
+            </value>
+            <value>
+               <name>Current Balance</name>
+               <value>current_credit</value>
+               <select>0</select>
+            </value>
+         </values>
+      </setting>
+      <setting>
+         <label>Paypal Email</label>
+         <name>credit_paypal_email</name>
+         <description />
+         <type>text</type>
+         <values></values>
+      </setting>
+      <setting>
+         <label>Test mode</label>
+         <name>credit_test_mode</name>
+         <description />
+         <type>checkbox</type>
+         <values>
+            <value>
+               <name />
+               <value>1</value>
+               <select>1</select>
+            </value>
+         </values>
+      </setting>
+      <setting>
+         <label>Currency exchange</label>
+         <name>credit_currency_exchange</name>
+         <description />
+         <type>text</type>
+         <values>1</values>
+      </setting>
+      <setting>
+         <label>By pass force login</label>
+         <name>credit_consider_force</name>
+         <description>By pass force login</description>
+         <type>checkbox</type>
+         <values>
+            <value>
+               <name />
+               <value>1</value>
+               <select>0</select>
+            </value>
+         </values>
+      </setting>
+      <setting>
+         <label>Member can send credits to</label>
+         <name>member_can_send_credit</name>
+         <description />
+         <type>radio</type>
+         <values>
+            <value>
+               <name>Everyone</name>
+               <value>send_everyone</value>
+               <select>1</select>
+            </value>
+            <value>
+               <name>Friends only</name>
+               <value>send_friend_only</value>
+               <select>0</select>
+            </value>
+         </values>
+      </setting>
+   </settings>
+</info>

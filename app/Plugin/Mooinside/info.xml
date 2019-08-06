@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Mooinside</name>
+    <key>Mooinside</key>
+    <version>1.0</version>
+    <description>Mooinside plugin</description>
+    <author>socialloft</author>
+    <website>socialloft.com</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+<settings><setting><label>Show Popular Topics Widget</label><name>show_popular_topics_widget</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Show Show Latest topic of the first category Widget</label><name>show_latest_topic_of_the_first_category</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Show Top Videos Widget</label><name>show_top_videos_widget</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Show Photos of the popular album Widget</label><name>show_photos_of_popular_album_widget</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Show Latest topics Widget</label><name>show_latest_topics_widget</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Mooinside</label><name>mooinside_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting></settings></info>

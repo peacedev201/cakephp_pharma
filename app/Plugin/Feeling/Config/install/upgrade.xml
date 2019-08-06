@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query><![CDATA[
+                CREATE TABLE IF NOT EXISTS `{PREFIX}feeling_activities` (
+                  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                  `activity_id` int(11) unsigned NOT NULL,
+                  `feeling_id` int(11) unsigned NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1;
+                  ]]>
+            </query>
+            <query><![CDATA[
+                INSERT INTO `{PREFIX}feeling_activities` (activity_id,feeling_id) SELECT id,feeling_id FROM `{PREFIX}activities` WHERE feeling_id != 0;
+                  ]]>
+            </query>
+            <query><![CDATA[
+                ALTER TABLE `{PREFIX}activities` DROP `feeling_id`;
+                  ]]>
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.3</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+</versions>

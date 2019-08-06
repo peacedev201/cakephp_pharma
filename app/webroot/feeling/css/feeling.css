@@ -1,0 +1,386 @@
+.felling-wall{
+    min-height: 43px;
+    padding: 5px;
+    /*border-top: 1px solid #cccccc;*/
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.feeling-button{
+    display: inline-block;
+    padding: 10px 5px;
+    border: 1px solid #cccccc;
+    height: 32px;
+    line-height: 12px;
+    background-color: #ffffff;
+    color: #999999;
+    float: left;
+
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+
+    position: relative;
+    z-index: 10;
+}
+.feeling-button:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.feeling-button i {
+    float: left;
+    font-size: 20px;
+    margin-top: -4px;
+}
+#feelingResult{
+    line-height: 16px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: none;
+    z-index: 10;
+    float: left;
+}
+
+#feelingResult .feeling-icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: -3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+}
+
+
+.feeling-table-select{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5px;
+
+    word-wrap: break-word;
+    text-align: left;
+    display: none;
+}
+.feeling-table-select tr{
+    display: flex;
+}
+.feeling-table-select td{
+    white-space: nowrap;
+    text-align: left;
+    position: relative;
+}
+.feeling-table-select td input{
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    z-index: 11;
+}
+
+td.feeling-lvl-1{
+    width: 100%;
+}
+td.feeling-lvl-1 #feelingLvl1{
+    display: block;
+}
+td.feeling-lvl-1 #feelingLvl1Text{
+    display: none;
+}
+
+td.feeling-lvl-1.choose{
+    width: auto;
+    background: #ECF5FF;
+    border-right: 1px dotted #dddfe2;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 6px 6px 8px;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+    cursor: pointer;
+}
+td.feeling-lvl-1.choose #feelingLvl1{
+    display: none;
+}
+td.feeling-lvl-1.choose #feelingLvl1Text{
+    display: block;
+}
+
+
+
+
+
+
+
+
+td.feeling-lvl-2{
+    width: 100%;
+    display: none;
+}
+td.feeling-lvl-2 #feelingLvl2{
+    display: block;
+}
+td.feeling-lvl-2 #feelingLvl2Text{
+    display: none;
+}
+
+.feeling-remove{
+    position: absolute;
+    top: 6px;
+    /*right: 3px;*/
+    display: none;
+}
+
+.feeling-remove i{
+    font-size: 20px;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+}
+
+td.feeling-lvl-2.choose{
+
+    background: #ECF5FF;
+    border-right: 1px dotted #dddfe2;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 6px 6px 8px;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+    cursor: pointer;
+}
+td.feeling-lvl-2.choose #feelingLvl2{
+    display: none;
+}
+td.feeling-lvl-2.choose #feelingLvl2Text{
+    display: block;
+}
+
+td.feeling-lvl-2.choose .feeling-remove{
+    display: block;
+}
+td.feeling-lvl-2.active{
+    display: block;
+}
+
+
+
+
+.feeling-popup{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    z-index: 12;
+    display: none;
+
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.feeling-popup ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.feeling-popup ul li{
+    position: relative;
+}
+.feeling-popup ul li.feeling-arrow:after{
+    display: inline-block;
+    content: '';
+    width: 0;
+    height: 0;
+    /*border-left: 6px solid #757575;
+    border-bottom: 6px solid transparent;
+    border-right: 0;
+    border-top: 6px solid transparent;*/
+    position: absolute;
+    top: 50%;
+    /*right: 10px;*/
+    margin-top: -6px;
+}
+.feeling-popup ul li:hover:after{
+    border-left-color: #ffffff;
+}
+.feeling-popup ul li a{
+    display: block;
+    /*padding: 5px 15px 5px 42px;*/
+    line-height: 40px;
+    color: #757575;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.feeling-popup ul li a:hover,
+.feeling-popup ul li a.active {
+    background: #257BBA;
+    color: #ffffff;
+}
+.feeling-popup ul li .feeling-icon{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.feeling-overview{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 11;
+    background-color: rgba(0,0,0, 0);
+    display: none;
+}
+.feeling-result-overview{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 12;
+    background-color: rgba(23,54,0, 0);
+    display: none;
+}
+.edit td.feeling-lvl-1.choose,
+.edit td.feeling-lvl-2.choose{
+    z-index: 14;
+}
+
+
+.feed-feeling{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.feed-feeling a{
+    text-decoration: none;
+}
+.feed-feeling .feeling-icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid transparent;
+    margin-top: -3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+}
+
+.wall-status-background .felling-wall{
+    border-top: none!important;
+    position: relative;
+    min-height: 0;
+    padding: 0;
+}
+
+.wall-status-background .feeling-button{
+    position: absolute;
+    /*top: -36px;
+    left: 44px;*/
+}
+.wall-status-background.status-thumb-disable .feeling-button{
+    top: -36px;
+    /*left: 3px;*/
+}
+
+.wall-status-background #feelingResult {
+    margin-top: -28px;
+    /*margin-left: 130px;*/
+}
+.wall-status-background.status-thumb-disable #feelingResult {
+    margin-top: -28px;
+    /*margin-left: 90px;*/
+}
+
+.wall-status-background .feeling-table-select{
+    margin-top: 0;
+}
+
+
+.wall-status-background.status-thumb-open .felling-wall,
+.wall-status-background.status-background-active .felling-wall{
+    min-height: 43px;
+    padding: 5px;
+}
+
+.wall-status-background.status-thumb-open .feeling-button,
+.wall-status-background.status-background-active .feeling-button{
+    position: relative;
+    top: inherit;
+    left: inherit;
+}
+.wall-status-background.status-thumb-open #feelingResult{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.wall-status-background.status-background-active #feelingResult{
+    margin-top: 7px;
+    /*margin-left: 5px;*/
+}
+.wall-status-background.status-thumb-open .feeling-table-select,
+.wall-status-background.status-background-active .feeling-table-select{
+    margin-top: 5px;
+}
+
+#feelingLvl1Text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 150px;
+}
+#feelingLvl2Text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 200px;
+}
+
+@media (max-width: 767px) {
+    .wall-status-background #feelingResult {
+        margin-top: 0;
+        margin-left: 0;
+        padding-left: 5px;
+    }
+}
+
+@media (min-width: 1100px) {
+    #feelingLvl2Text{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 320px;
+    }
+}
+
+@media (min-width: 381px) and (max-width: 414px) {
+    #feelingLvl1Text{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 90px;
+    }
+    #feelingLvl2Text{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 200px;
+    }
+}
+@media (max-width: 380px) {
+    #feelingLvl1Text{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 90px;
+    }
+    #feelingLvl2Text{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 150px;
+    }
+}

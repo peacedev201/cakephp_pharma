@@ -1,0 +1,37 @@
+/*.ui-widget-content {
+    background: #ffffff url("images/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50%;
+    border: 1px solid #aaaaaa;
+    color: #222222;
+}
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+}
+.ui-menu {
+    display: block;
+    list-style: outside none none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+}
+.ui-autocomplete {
+    cursor: default;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 100000;
+}
+.ui-menu .ui-menu-item {
+    cursor: pointer;
+    list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+    margin: 0;
+    min-height: 0;
+    padding: 3px 1em 3px 0.4em;
+    position: relative;
+}
+.ui-menu .ui-menu-item:hover, .ui-menu .ui-menu-item.selected{
+    background-color: gray;
+}*/
+.ui-helper-hidden-accessible{
+    display: none !important;
+}

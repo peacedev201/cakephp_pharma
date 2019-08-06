@@ -1,0 +1,992 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: AdsPlugin.php:186
+#: View/AdsPlacement/admin_create.ctp:3;100
+#: View/AdsPlacement/admin_index.ctp:3;50
+msgid "Manage Placements"
+msgstr "배정위치 관리"
+
+#: AdsPlugin.php:187
+#: View/Ads/admin_create.ctp:28
+#: View/Ads/admin_index.ctp:5;12
+msgid "Manage Ad Campaigns"
+msgstr "광고 관리"
+
+#: AdsPlugin.php:188
+#: View/AdsSettings/admin_index.ctp:3;19
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: AdsPlugin.php:189
+#: View/AdsTransaction/admin_index.ctp:3;14
+msgid "Transactions"
+msgstr "거래상황"
+
+#: Controller/AdsController.php:41;78
+msgid "Ad Campaigns"
+msgstr "광고"
+
+#: Controller/AdsController.php:55;202
+msgid "Male"
+msgstr "남성"
+
+#: Controller/AdsController.php:55;202
+msgid "Female"
+msgstr "여성"
+
+#: Controller/AdsController.php:97;282
+msgid "Ads Placement has reached to limit, you cannot create new campaign."
+msgstr "광고물 위치배정이 허용한계에 도달했습니다. 더 이상 추가가 어렵습니다."
+
+#: Controller/AdsController.php:111;300
+msgid "Thanks for advertising on %s ! We're reviewing your ad and will get back to you soon."
+msgstr " %s 에 대한 광고요청에 감사드립니다! 회원님의 광고에 대해 검토후 연락드리겠습니다."
+
+#: Controller/AdsController.php:115
+msgid "Successfully saved."
+msgstr "저장완료"
+
+#: Controller/AdsController.php:120;304
+msgid "Something went wrong, please try again"
+msgstr "오류가 발생했습니다. 재시도 바랍니다."
+
+#: Controller/AdsController.php:127;381
+msgid "Campaign not found"
+msgstr "캠페인을 찾을수 없습니다."
+
+#: Controller/AdsController.php:129
+msgid "Invalid action"
+msgstr "Invalid action"
+
+#: Controller/AdsController.php:135;140;522;526
+msgid "Successfully updated"
+msgstr "업데이트완료"
+
+#: Controller/AdsController.php:145;190;517
+msgid "Successfully deleted"
+msgstr "삭제완료"
+
+#: Controller/AdsController.php:173
+msgid "Successfully sent payment request"
+msgstr "지불요청이 발송되었습니다."
+
+#: Controller/AdsController.php:177
+msgid "This action does not exist"
+msgstr "This action does not exist"
+
+#: Controller/AdsController.php:251
+msgid "Email already exist"
+msgstr "이미 등록된 이메일입니다."
+
+#: Controller/AdsController.php:348
+msgid "Verification code does not exist"
+msgstr "존재하지 않는 인증코드입니다."
+
+#: Controller/AdsController.php:350
+msgid "No gateway config, please contact with admin for more info."
+msgstr "게이트웨이 설정이 되어 있지 않습니다. 관리자에게 문의하십니요."
+
+#: Controller/AdsController.php:371
+msgid "You have just canceled transaction"
+msgstr "transaction을 취소하셨습니다."
+
+#: Controller/AdsController.php:375
+msgid "Thank you for your payment, your ad is on process"
+msgstr "지불해주셔서 감사합니다. 회원님의 광고가 진행되고 있습니다."
+
+#: Controller/AdsController.php:459
+#: View/Ads/admin_index.ctp:171
+msgid "No"
+msgstr "아니오"
+
+#: Controller/AdsController.php:459
+#: View/Ads/admin_index.ctp:171
+msgid "Yes"
+msgstr "예"
+
+#: Controller/AdsController.php:460;486
+#: View/Ads/load_my_ads.ctp:143
+#: View/Elements/myAds/load_more_ads.ctp:32;38
+msgid "Show"
+msgstr "보기"
+
+#: Controller/AdsController.php:460;486
+#: View/Ads/load_my_ads.ctp:151
+#: View/Elements/myAds/load_more_ads.ctp:33;37
+msgid "Hide"
+msgstr "감추기"
+
+#: Controller/AdsController.php:534
+msgid "Action was not successfull"
+msgstr "작동되지 않았습니다."
+
+#: Controller/AdsController.php:629
+msgid "Thank you for your payment, your ad was activated"
+msgstr "지불에 감사드리며, 회원님의 광고가 시작되었습니다"
+
+#: Controller/AdsController.php:634
+msgid "Your payment has been canceled"
+msgstr "지불이 취소되었습니다."
+
+#: Controller/AdsPlacementController.php:10;127
+msgid "Ad Placements"
+msgstr "광고 배치"
+
+#: Controller/AdsPlacementController.php:38;39
+#: View/Ads/ads_gateways.ctp:8;9
+#: View/Elements/AdsPlacement/placement_info.ctp:17
+#: View/Elements/AdsPlacement/placement_info_detail.ctp:15
+msgid "Unlimited"
+msgstr "무제한"
+
+#: Controller/AdsPlacementController.php:40
+msgid "views"
+msgstr "노출"
+
+#: Controller/AdsPlacementController.php:40
+msgid "clicks"
+msgstr "클릭"
+
+#: Controller/AdsPlacementController.php:44
+msgid "required size"
+msgstr "필요사양(크기)"
+
+#: Controller/AdsPlacementController.php:44
+msgid "allow extensions"
+msgstr "allow extensions"
+
+#: Controller/AdsPlacementController.php:78
+msgid "Status have been updated"
+msgstr "현황에 반영완료"
+
+#: Controller/AdsPlacementController.php:89
+msgid "Ads have been deleted"
+msgstr "광고가 삭제되었습니다."
+
+#: Controller/AdsPlacementController.php:103
+msgid "Html"
+msgstr "Html"
+
+#: Controller/AdsPlacementController.php:103
+msgid "Image"
+msgstr "이미지"
+
+#: Controller/AdsPlacementController.php:103
+msgid "Feed"
+msgstr "피드"
+
+#: Controller/AdsPlacementController.php:104
+#: View/AdsPlacement/admin_index.ctp:116
+msgid "Enable"
+msgstr "활성화"
+
+#: Controller/AdsPlacementController.php:104
+#: Model/AdsCampaign.php:186
+#: View/Ads/admin_index.ctp:31;42
+#: View/AdsPlacement/admin_index.ctp:116;136
+#: View/Elements/myAds/load_more_ads.ctp:5
+msgid "Disable"
+msgstr "불활성화"
+
+#: Controller/AdsPlacementController.php:168
+msgid "Successfully saved"
+msgstr "저장완료"
+
+#: Controller/AdsSettingsController.php:18
+msgid "Ad Settings"
+msgstr "광고 설정"
+
+#: Controller/AdsTransactionController.php:25
+msgid "Ad Transactions"
+msgstr "광고 횟수(Transactions)"
+
+#: Lib/AdsListener.php:38;41
+msgid "We've detected that you have an ad blocker enabled! Please disable and refresh this page!"
+msgstr "배너차단으로 설정되어 있습니다. 차단을 해제하시고, 리프레시하여 주시기 바랍니다."
+
+#: Model/AdsCampaign.php:184
+#: View/Ads/admin_index.ctp:29;40
+#: View/Elements/myAds/load_more_ads.ctp:3
+msgid "Pending"
+msgstr "계류중"
+
+#: Model/AdsCampaign.php:185
+#: View/Ads/admin_index.ctp:30;41
+#: View/AdsPlacement/admin_index.ctp:110;136
+#: View/Elements/myAds/load_more_ads.ctp:4
+msgid "Active"
+msgstr "Active"
+
+#: Model/AdsCampaign.php:187
+msgid "Send Payment Request"
+msgstr "지불요청 발송"
+
+#: Model/AdsCampaign.php:188
+#: View/Ads/admin_index.ctp:201
+#: View/Elements/myAds/load_more_ads.ctp:26
+msgid "Delete"
+msgstr "삭제"
+
+#: Model/AdsPlacement.php:235
+msgid "some placements cannot  delete"
+msgstr "일부 배치는 삭제할 수 없습니다."
+
+#: Model/AdsPlacement.php:237
+msgid "Cannot  delete this placement"
+msgstr "이 위치는 삭제할 수 없습니다."
+
+#: View/Ads/admin_create.ctp:14
+#: View/Ads/admin_index.ctp:4
+#: View/AdsPlacement/admin_create.ctp:2
+#: View/AdsPlacement/admin_index.ctp:2
+#: View/AdsSettings/admin_index.ctp:2
+#: View/AdsTransaction/admin_index.ctp:2
+msgid "Plugins Manager"
+msgstr "플러그인관리자"
+
+#: View/Ads/admin_create.ctp:15
+msgid "Manage Campaigns"
+msgstr "캠페인관리"
+
+#: View/Ads/admin_create.ctp:18;33
+msgid "Edit Campaign"
+msgstr "캠페인편집"
+
+#: View/Ads/admin_create.ctp:22;35
+#: View/Ads/admin_index.ctp:64
+#: View/Ads/create.ctp:24
+msgid "Create Campaign"
+msgstr "새 캠페인"
+
+#: View/Ads/admin_create.ctp:52
+#: View/Ads/create.ctp:33
+msgid "Client Info"
+msgstr "광고주정보"
+
+#: View/Ads/admin_create.ctp:55
+#: View/Ads/create.ctp:37
+msgid "Client Name"
+msgstr "광고주이름"
+
+#: View/Ads/admin_create.ctp:67
+#: View/Ads/create.ctp:51
+#: View/AdsTransaction/admin_index.ctp:62
+msgid "Email"
+msgstr "이메일"
+
+#: View/Ads/admin_create.ctp:79
+#: View/Ads/create.ctp:65
+msgid "Note"
+msgstr "노트"
+
+#: View/Ads/admin_create.ctp:90
+#: View/Ads/create.ctp:77
+#: View/AdsTransaction/admin_index.ctp:65
+msgid "Campaign"
+msgstr "캠페인"
+
+#: View/Ads/admin_create.ctp:93
+#: View/Ads/create.ctp:81
+msgid "Campaign Name"
+msgstr "캠페인명"
+
+#: View/Ads/admin_create.ctp:105
+#: View/Ads/admin_index.ctp:91
+#: View/Ads/create.ctp:94
+#: View/AdsPlacement/admin_create.ctp:230
+#: View/AdsPlacement/admin_index.ctp:102
+#: View/AdsTransaction/admin_index.ctp:68
+#: View/Elements/myAds/load_more_ads.ctp:54
+msgid "Placement"
+msgstr "배치"
+
+#: View/Ads/admin_create.ctp:112
+#: View/Ads/create.ctp:101
+msgid "Select position"
+msgstr "위치선정"
+
+#: View/Ads/admin_create.ctp:116
+#: View/Ads/create.ctp:106
+msgid "View all"
+msgstr "모두 보기"
+
+#: View/Ads/admin_create.ctp:121
+#: View/Ads/create.ctp:111
+msgid "Placement position"
+msgstr "배정위치"
+
+#: View/Ads/admin_create.ctp:129
+#: View/Ads/create.ctp:119
+msgid "Planned start date"
+msgstr "시작예정일"
+
+#: View/Ads/admin_create.ctp:131;171;179;198
+#: View/Ads/create.ctp:122;160;170;188
+#: Model/AdsCampaign.php:validation for field ads_placement_id
+msgid "Please select placement"
+msgstr "배치를 선정해주십시요."
+
+#: View/Ads/admin_create.ctp:143
+#: View/Ads/create.ctp:133
+msgid "at"
+msgstr "시점"
+
+#: View/Ads/admin_create.ctp:153
+#: View/Ads/create.ctp:142
+msgid "Hours"
+msgstr "시간"
+
+#: View/Ads/admin_create.ctp:163
+#: View/Ads/create.ctp:150
+msgid "Minutes"
+msgstr "분"
+
+#: View/Ads/admin_create.ctp:169
+#: View/Ads/create.ctp:157
+msgid "Estimated end date"
+msgstr "종료예정일"
+
+#: View/Ads/admin_create.ctp:177
+#: View/Ads/admin_index.ctp:106
+#: View/Ads/create.ctp:167
+msgid "Timezone"
+msgstr "시간대"
+
+#: View/Ads/admin_create.ctp:188
+#: View/Ads/create.ctp:178
+msgid "This is just planned start date. This date will change depends on the day you made payment. If you made payment before planned start date, ad will active and visible to target users at this planned date. If you made payment after planned date, ad will active right after the payment is made."
+msgstr "이 사항은 시작요청일이며, 실제 시작일은 지불상황에 따라 변동될 수 있습니다. 시작 요청하신 일자 이전에 지불이 완료되면, 광고계획이 활성화되며, 대상회원들에게 노출됩니다. 실제 지불일이 해당 신청일 이후인 경우에는, 지불 즉시활성화됩니다."
+
+#: View/Ads/admin_create.ctp:194
+#: View/Ads/create.ctp:184
+msgid "Banner"
+msgstr "배너"
+
+#: View/Ads/admin_create.ctp:204
+#: View/Ads/create.ctp:196
+msgid "Ads Title"
+msgstr "광고제목"
+
+#: View/Ads/admin_create.ctp:214;251
+#: View/Ads/create.ctp:207;250
+msgid "You have %s characters remaining"
+msgstr "허용 글자수가 %s 글자 남았습니다."
+
+#: View/Ads/admin_create.ctp:219
+#: View/Ads/create.ctp:214
+msgid "Banner Image"
+msgstr "배너이미지"
+
+#: View/Ads/admin_create.ctp:228
+#: View/Ads/create.ctp:225
+msgid "Banner Link"
+msgstr "배너연결링크"
+
+#: View/Ads/admin_create.ctp:240
+#: View/Ads/create.ctp:238
+#: View/AdsPlacement/admin_create.ctp:127
+msgid "Description"
+msgstr "명세"
+
+#: View/Ads/admin_create.ctp:260
+#: View/Ads/create.ctp:259
+msgid "Preview"
+msgstr "미리보기"
+
+#: View/Ads/admin_create.ctp:278
+#: View/Ads/create.ctp:277
+msgid "Audience"
+msgstr "광고대상층"
+
+#: View/Ads/admin_create.ctp:280
+#: View/Ads/create.ctp:281
+msgid "User Group"
+msgstr "User Group"
+
+#: View/Ads/admin_create.ctp:295
+#: View/Ads/create.ctp:290
+msgid "Age Between"
+msgstr "대상 연령:"
+
+#: View/Ads/admin_create.ctp:305
+#: View/Ads/create.ctp:300
+msgid "and"
+msgstr "and"
+
+#: View/Ads/admin_create.ctp:318
+#: View/Ads/create.ctp:313
+msgid "Gender"
+msgstr "성별"
+
+#: View/Ads/admin_create.ctp:325
+#: View/Ads/admin_index.ctp:44
+#: View/Ads/create.ctp:320
+msgid "All"
+msgstr "All"
+
+#: View/Ads/admin_create.ctp:327
+#: View/Ads/create.ctp:326
+#: View/Elements/ads/permissions.ctp:34
+msgid "Note: Guest user will not be affected by age and gender setting"
+msgstr "주의사항: 비회원은 연령 또는 성별설정이 적용되지 않습니다."
+
+#: View/Ads/admin_create.ctp:336
+msgid "Save"
+msgstr "저장"
+
+#: View/Ads/admin_create.ctp:339
+#: View/Ads/create.ctp:335
+msgid "Cancel"
+msgstr "취소"
+
+#: View/Ads/admin_create.ctp:359
+#: View/Ads/create.ctp:7
+msgid "Click to upload"
+msgstr "클릭하여 업로드"
+
+#: View/Ads/admin_create.ctp:360
+msgid "Can not upload file more than "
+msgstr "허용파일수"
+
+#: View/Ads/admin_index.ctp:2
+msgid "Ads"
+msgstr "광고"
+
+#: View/Ads/admin_index.ctp:55
+#: View/AdsPlacement/admin_index.ctp:69
+#: View/AdsTransaction/admin_index.ctp:40
+msgid "Keyword"
+msgstr "키워드"
+
+#: View/Ads/admin_index.ctp:61
+#: View/Ads/load_my_ads.ctp:48
+#: View/Ads/report.ctp:53
+#: View/AdsPlacement/admin_index.ctp:77
+#: View/AdsTransaction/admin_index.ctp:46
+msgid "Search"
+msgstr "검색"
+
+#: View/Ads/admin_index.ctp:85
+#: View/AdsTransaction/admin_index.ctp:59
+msgid "ID"
+msgstr "ID"
+
+#: View/Ads/admin_index.ctp:88
+msgid "Name"
+msgstr "이름"
+
+#: View/Ads/admin_index.ctp:94
+msgid "Views"
+msgstr "노출"
+
+#: View/Ads/admin_index.ctp:97
+msgid "Clicks"
+msgstr "클릭"
+
+#: View/Ads/admin_index.ctp:100
+msgid "Start Date"
+msgstr "시작일"
+
+#: View/Ads/admin_index.ctp:103
+msgid "End Date"
+msgstr "종료일"
+
+#: View/Ads/admin_index.ctp:109
+#: View/Elements/myAds/load_more_ads.ctp:59
+msgid "Payment Status"
+msgstr "지불상황"
+
+#: View/Ads/admin_index.ctp:112
+msgid "Created by"
+msgstr "작성일"
+
+#: View/Ads/admin_index.ctp:115
+#: View/AdsPlacement/admin_create.ctp:203
+#: View/AdsPlacement/admin_index.ctp:109
+#: View/AdsTransaction/admin_index.ctp:71
+msgid "Status"
+msgstr "상황"
+
+#: View/Ads/admin_index.ctp:183
+msgid "Select"
+msgstr "선택"
+
+#: View/Ads/admin_index.ctp:200
+msgid "Are you sure you want to delete?"
+msgstr "삭제할까요?"
+
+#: View/Ads/admin_index.ctp:224
+msgid "No Campaigns"
+msgstr "No Campaigns"
+
+#: View/Ads/ads_gateways.ctp:5
+msgid "Placement name: %s"
+msgstr "Placement name: %s"
+
+#: View/Ads/ads_gateways.ctp:6
+msgid "Client name: %s"
+msgstr "광고주: %s"
+
+#: View/Ads/ads_gateways.ctp:7
+msgid "Email: %s"
+msgstr "이메일: %s"
+
+#: View/Ads/ads_gateways.ctp:8
+msgid "Click limit: "
+msgstr "클릭횟수제한: "
+
+#: View/Ads/ads_gateways.ctp:9
+msgid "View limit: "
+msgstr "노출수 제한: "
+
+#: View/Ads/ads_gateways.ctp:10
+msgid "Price: %s %s"
+msgstr "가격: %s %s"
+
+#: View/Ads/ads_gateways.ctp:13
+msgid "Paypal"
+msgstr "페이팔"
+
+#: View/Ads/ads_gateways.ctp:14
+msgid "Pay with paypal"
+msgstr "페이팔로 결제"
+
+#: View/Ads/ads_gateways.ctp:27
+msgid "Pay with %s"
+msgstr "%s 로 지불"
+
+#: View/Ads/create.ctp:332
+msgid "Submit"
+msgstr "제출"
+
+#: View/Ads/load_my_ads.ctp:24
+#: View/Elements/myAds/my_ads.ctp:3
+msgid "My Ads"
+msgstr "나의 광고"
+
+#: View/Ads/load_my_ads.ctp:25
+msgid "Create New Ad"
+msgstr "신규 광고하기"
+
+#: View/Ads/load_my_ads.ctp:42
+msgid "Enter a name"
+msgstr "이름입력"
+
+#: View/Ads/load_my_ads.ctp:55
+msgid "No result found"
+msgstr "찾을수 없습니다."
+
+#: View/Ads/load_my_ads.ctp:59
+msgid "LOAD MORE"
+msgstr "더 보기"
+
+#: View/Ads/load_my_ads.ctp:65
+msgid "There is no ads"
+msgstr "광고물이 없습니다"
+
+#: View/Ads/load_my_ads.ctp:113
+msgid "Do you really want to delete this ad ?"
+msgstr "이 광고를 정말 삭제하시겠습니까?"
+
+#: View/Ads/report.ctp:16
+msgid "Here is detailed report of %s from %s to %s"
+msgstr "%s 에 대한 상세보고입니다.(%s 부터 %s 까지)"
+
+#: View/Ads/report.ctp:18
+msgid "Here is detailed report of %s"
+msgstr "%s 에 대한 상세보고입니다."
+
+#: View/Ads/report.ctp:28
+msgid "From"
+msgstr "시작:"
+
+#: View/Ads/report.ctp:39
+msgid "to"
+msgstr "종료:"
+
+#: View/AdsPlacement/admin_create.ctp:29;39
+#: View/AdsPlacement/admin_index.ctp:119
+#: View/Elements/myAds/load_more_ads.ctp:53
+#: View/Helper/AdsHelper.php:12
+msgid "day"
+msgstr "일"
+
+#: View/AdsPlacement/admin_create.ctp:31;41;150
+#: View/AdsPlacement/admin_index.ctp:119
+#: View/Elements/myAds/load_more_ads.ctp:53
+#: View/Helper/AdsHelper.php:14
+msgid "days"
+msgstr "일"
+
+#: View/AdsPlacement/admin_create.ctp:105
+msgid "Placement type"
+msgstr "배치유형"
+
+#: View/AdsPlacement/admin_create.ctp:120
+msgid "Placement name"
+msgstr "배치명"
+
+#: View/AdsPlacement/admin_create.ctp:134
+msgid "Dimension"
+msgstr "규격"
+
+#: View/AdsPlacement/admin_create.ctp:136
+msgid "width"
+msgstr "폭"
+
+#: View/AdsPlacement/admin_create.ctp:137
+msgid "Ads dimension are in pixel"
+msgstr "광고 규격은 픽셀기준입니다."
+
+#: View/AdsPlacement/admin_create.ctp:140
+msgid "height"
+msgstr "높이"
+
+#: View/AdsPlacement/admin_create.ctp:145
+#: View/AdsPlacement/admin_index.ctp:103
+#: View/Elements/myAds/load_more_ads.ctp:58
+msgid "Price"
+msgstr "가격"
+
+#: View/AdsPlacement/admin_create.ctp:155
+msgid "Total Views Allowed"
+msgstr "노출횟수목표(상한)"
+
+#: View/AdsPlacement/admin_create.ctp:156
+msgid "The campaign will end when this number of views is reached. Enter '0' for unlimited views."
+msgstr "입력하신 노출횟수목표에 도달하면 광고가 종료됩니다. 노출횟수에 제한을 두지 않으시려면 '0'으로 입력하십시요."
+
+#: View/AdsPlacement/admin_create.ctp:169
+msgid "Total Clicks Allowed"
+msgstr "클릭횟수목표"
+
+#: View/AdsPlacement/admin_create.ctp:170
+msgid "The campaign will end when this number of clicks is reached. Enter '0' for unlimited clicks."
+msgstr "해당 클릭수에 도달하면 광고가 종료됩니다. 클릭수에 제한을 ㅈ두지 않으시려면 '0' 을 입력하십시요."
+
+#: View/AdsPlacement/admin_create.ctp:184
+msgid "Ads appears"
+msgstr "Ads appears"
+
+#: View/AdsPlacement/admin_create.ctp:185
+msgid "Maximum ads can be placed at this placement at a time. Ex: '1' mean that only one advertiser can purchase this place. Others can purchase until the ad at this place is expired or reached limitation (views/clicks)"
+msgstr "Maximum ads can be placed at this placement at a time. Ex: '1' mean that only one advertiser can purchase this place. Others can purchase until the ad at this place is expired or reached limitation (views/clicks)"
+
+#: View/AdsPlacement/admin_create.ctp:193
+msgid "Number of ads"
+msgstr "Number of ads"
+
+#: View/AdsPlacement/admin_create.ctp:194
+msgid "Number of ads will appear at the same time in this placement."
+msgstr "Number of ads will appear at the same time in this placement."
+
+#: View/AdsPlacement/admin_create.ctp:213
+msgid "Where the placement will appear on each feed page on home feed"
+msgstr "Where the placement will appear on each feed page on home feed"
+
+#: View/AdsPlacement/admin_create.ctp:214
+msgid "If you selected 3 for example, the ad will appear after activity number 3 on each feed page after loading more"
+msgstr "If you selected 3 for example, the ad will appear after activity number 3 on each feed page after loading more"
+
+#: View/AdsPlacement/admin_create.ctp:231
+msgid "Sample Position"
+msgstr "동일 위치"
+
+#: View/AdsPlacement/admin_create.ctp:232
+msgid "Sample position where the ad in this placement will appear with target users. Note that the ad widget does not added into the selected position auto after the placement is created. You need to drag and drop it at Layout Editor section after creating the placement.Do no need to drag and drop ads widgets into layout editer if the placement type is feed"
+msgstr "Sample position where the ad in this placement will appear with target users. Note that the ad widget does not added into the selected position auto after the placement is created. You need to drag and drop it at Layout Editor section after creating the placement.Do no need to drag and drop ads widgets into layout editer if the placement type is feed"
+
+#: View/AdsPlacement/admin_index.ctp:56
+msgid "Are you sure you want to delete ad placements?"
+msgstr "Are you sure you want to delete ad placements?"
+
+#: View/AdsPlacement/admin_index.ctp:57
+msgid "Delete Selected"
+msgstr "선택사항 삭제"
+
+#: View/AdsPlacement/admin_index.ctp:81
+msgid "Create Placement"
+msgstr "Create Placement"
+
+#: View/AdsPlacement/admin_index.ctp:104
+msgid "Views Limit"
+msgstr "노출횟수목표"
+
+#: View/AdsPlacement/admin_index.ctp:105
+msgid "Clicks Limit"
+msgstr "클릭횟수목표"
+
+#: View/AdsPlacement/admin_index.ctp:106
+msgid "No of Ads"
+msgstr "No of Ads"
+
+#: View/AdsPlacement/admin_index.ctp:107
+msgid "Ads appear"
+msgstr "Ads appear"
+
+#: View/AdsPlacement/admin_index.ctp:108
+msgid "Active ads"
+msgstr "Active ads"
+
+#: View/AdsPlacement/admin_index.ctp:133
+msgid "View"
+msgstr "노출"
+
+#: View/AdsSettings/admin_index.ctp:9
+msgid "How often the ad statistic report will send to advertisers"
+msgstr "광고보고서(통계)송부 주기"
+
+#: View/AdsSettings/admin_index.ctp:10
+msgid "Weekly"
+msgstr "매주"
+
+#: View/AdsSettings/admin_index.ctp:11
+msgid "Monthly"
+msgstr "매월"
+
+#: View/AdsSettings/admin_index.ctp:12
+msgid "Paypal test"
+msgstr "페이팔 시험"
+
+#: View/AdsSettings/admin_index.ctp:13
+msgid "Enable ads plugin"
+msgstr "광고플러그인 활성화"
+
+#: View/AdsSettings/admin_index.ctp:14
+msgid "Ad refresh time (Second)"
+msgstr "배너광고 리프레쉬간격(초)"
+
+#: View/AdsSettings/admin_index.ctp:15
+msgid "Auto report will send"
+msgstr "Auto report will send"
+
+#: View/AdsSettings/admin_index.ctp:16
+msgid "Paypal Email"
+msgstr "페이팔이메일"
+
+#: View/AdsSettings/admin_index.ctp:17
+msgid "Save Settings"
+msgstr "설장저장"
+
+#: View/AdsTransaction/admin_index.ctp:9
+msgid "pending"
+msgstr "계류중"
+
+#: View/AdsTransaction/admin_index.ctp:10
+msgid "failed"
+msgstr "실패"
+
+#: View/AdsTransaction/admin_index.ctp:11
+msgid "canceled"
+msgstr "취소완료"
+
+#: View/AdsTransaction/admin_index.ctp:12
+msgid "completed"
+msgstr "완료"
+
+#: View/AdsTransaction/admin_index.ctp:74
+msgid "Transaction Id"
+msgstr "거래번호(ID)"
+
+#: View/AdsTransaction/admin_index.ctp:77
+msgid "Type"
+msgstr "유형"
+
+#: View/AdsTransaction/admin_index.ctp:80
+msgid "Date"
+msgstr "일자"
+
+#: View/AdsTransaction/admin_index.ctp:146
+msgid "No Transactions"
+msgstr "거래내용없슴"
+
+#: View/Elements/report_detail.ctp:7
+msgid "Number of views: "
+msgstr "노출횟수"
+
+#: View/Elements/report_detail.ctp:9
+msgid "Number of clicks "
+msgstr "클릭횟수"
+
+#: View/Elements/report_detail.ctp:11
+msgid "male"
+msgstr "남성"
+
+#: View/Elements/report_detail.ctp:12
+msgid "female"
+msgstr "여성"
+
+#: View/Elements/report_detail.ctp:15
+msgid "user role "
+msgstr "user role "
+
+#: View/Elements/report_detail.ctp:18
+msgid "under 20"
+msgstr "20 미만"
+
+#: View/Elements/report_detail.ctp:19
+msgid "from 20 - 50"
+msgstr " 20 부터~ 50"
+
+#: View/Elements/report_detail.ctp:20
+msgid "above 50"
+msgstr " 50 초과"
+
+#: View/Elements/report_detail.ctp:23
+msgid "No reports"
+msgstr "보고서 없슴"
+
+#: View/Elements/AdsPlacement/placement_info.ctp:2
+#: View/Elements/AdsPlacement/placement_info_detail.ctp:2
+msgid "Placement info"
+msgstr "배치정보"
+
+#: View/Elements/AdsPlacement/placement_info.ctp:17
+#: View/Elements/AdsPlacement/placement_info_detail.ctp:15
+msgid "%s views or %s clicks"
+msgstr "%s 노출 또는 %s 클릭"
+
+#: View/Elements/myAds/load_more_ads.ctp:55
+msgid "Current Click"
+msgstr "현 클릭횟수"
+
+#: View/Elements/myAds/load_more_ads.ctp:56
+msgid "Current View"
+msgstr "현 노출횟수"
+
+#: View/Elements/myAds/load_more_ads.ctp:57
+msgid "Ad Status"
+msgstr "광고 상황"
+
+#: View/Elements/myAds/load_more_ads.ctp:64
+msgid "View details report"
+msgstr "보고서 보기"
+
+#: View/Helper/AdsHelper.php:60
+msgid "System Time"
+msgstr "시스템시간"
+
+#: View/Helper/AdsHelper.php:91
+msgid "Payment ads"
+msgstr "유료광고"
+
+#: View/Widgets/ads/advertisement.ctp:43
+msgid "See Your Ad Here"
+msgstr "See Your Ad Here"
+
+#: Model/AdsCampaign.php:validation for field client_name
+msgid "Please provide client name"
+msgstr "광고주를 입력하여 주십시요."
+
+#: Model/AdsCampaign.php:validation for field email
+msgid "Invalid email"
+msgstr "이메일오류"
+
+#: Model/AdsCampaign.php:validation for field name
+msgid "Please provide campaign name"
+msgstr "캠페인명을 입력하여 주십시요."
+
+#: Model/AdsCampaign.php:validation for field start_date
+msgid "Please provide planned start date"
+msgstr "광고시작요청일을 입력하여 주십시요."
+
+#: Model/AdsCampaign.php:validation for field ads_image
+msgid "Please upload banner or banner dimension is not valid"
+msgstr "Please upload banner or banner dimension is not valid"
+
+#: Model/AdsCampaign.php:validation for field link
+msgid "Please provide banner link"
+msgstr "배너링크를 입력하여 주십시요."
+
+#: Model/AdsPlacement.php:validation for field name
+msgid "Name is required"
+msgstr "성명을 입력하여 주십시요."
+
+#: Model/AdsPlacement.php:validation for field dimension_width
+msgid "Width is required"
+msgstr "넓이를 입력하여 주십시요."
+
+#: Model/AdsPlacement.php:validation for field dimension_width
+msgid "Width should be numeric"
+msgstr "넓이는 숫자만이 허용됩니다."
+
+#: Model/AdsPlacement.php:validation for field dimension_width
+msgid "The minimum width for feed type placement is 800px"
+msgstr "피드유형의 광고는 최소 800핏셀입니다."
+
+#: Model/AdsPlacement.php:validation for field dimension_height
+msgid "Height is required"
+msgstr "높이를 입력하여 주십시요"
+
+#: Model/AdsPlacement.php:validation for field dimension_height
+msgid "Height should be numeric"
+msgstr "높이는 숫자만이 허용됩니다."
+
+#: Model/AdsPlacement.php:validation for field price
+msgid "Price is required"
+msgstr "가격을 입력하여 주십시요."
+
+#: Model/AdsPlacement.php:validation for field price
+msgid "Price should be numeric"
+msgstr "가격은 숫자만이 허용됩니다."
+
+#: Model/AdsPlacement.php:validation for field period
+msgid "Day is required"
+msgstr "날짜를 입력하여 주십시요"
+
+#: Model/AdsPlacement.php:validation for field period
+msgid "Invalid day"
+msgstr "날짜입력에 오류가 있습니다."
+
+#: Model/AdsPlacement.php:validation for field view_limit
+msgid "View limit is required"
+msgstr "노출횟수목표를 입력하여 주십시요."
+
+#: Model/AdsPlacement.php:validation for field view_limit
+msgid "View limit should be numeric"
+msgstr "노출횟수목표는 수자만이 허용됩니다."
+
+#: Model/AdsPlacement.php:validation for field click_limit
+msgid "Click limit  is required"
+msgstr "클릭횟수목표가 필요합니다."
+
+#: Model/AdsPlacement.php:validation for field click_limit
+msgid "Click limit should be numeric"
+msgstr "클릭횟수목표는 숫자만이 허용됩니다."
+
+#: Model/AdsPlacement.php:validation for field total_ads
+msgid "Ads apprears is required"
+msgstr "Ads apprears is required"
+
+#: Model/AdsPlacement.php:validation for field total_ads
+msgid "Ads apprears should be numeric"
+msgstr "Ads apprears should be numeric"
+
+#: Model/AdsPlacement.php:validation for field number_of_ads
+msgid "Number of ads  is required"
+msgstr "Number of ads  is required"
+
+#: Model/AdsPlacement.php:validation for field number_of_ads
+msgid "Number of ads should be numeric"
+msgstr "Number of ads should be numeric"
+
+#: Model/AdsPlacement.php:validation for field number_of_ads
+msgid "Number of ads should be numeric"
+msgstr "Number of ads should be numeric"
+
+msgid "Access Denied"
+msgstr "접근제한"
+

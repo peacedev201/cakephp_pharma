@@ -1,0 +1,471 @@
+.sp_provider {
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-right: 10px;
+    background: #fff;
+    width: 48%;
+    float: left;
+    border-color: #bbb;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sp_provider span {
+    display: inline-block;
+    float: none;
+    font-size: 12px;
+    padding: 0 0 0 4px;
+    position: relative;
+    top: 3px;
+    width: 77%;
+}
+
+.sp_quick {
+    width: 32px;
+    padding-left: 0;
+}
+
+.sp_logo{
+    width: 16px;
+    float: right;
+}
+
+/* social share */
+.social-share-container .social-share-on{
+    position: absolute;
+    left: 90px
+}
+
+.pb-iconfb{
+    background:url(../img/social-icons.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pb-icontwitter{
+    background:url(../img/social-icons.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: -23px 0px;
+}
+.social-share-on .dropdown-menu > div {
+    padding: 5px 10px;
+}
+.social-share-on .dropdown {
+    display:inline-block;
+    vertical-align: middle;
+}
+.social-share-on .dropdown > button{
+    background: none;
+    border: none;
+    font-size: 29px;
+    color: #ccc;
+    padding: 0;
+
+}
+.social-share-on > span {
+    font-size: 15px;
+    color: #333;
+}
+.social-share-on .open>.dropdown-menu{
+    right: 0;
+    left: auto;
+    border-radius: 0;
+}
+.social-share-on > div i{
+    margin-right:5px;
+}
+.social-share-on .dropdown-menu input {
+    float: left;
+    margin-top: 2px;
+}
+.social-share-on .dropdown-menu input + span{
+    display: block;
+    white-space: nowrap;
+    margin-left: 21px;
+    font-size: 12px;
+}
+#social_photo_url{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.simple-modal-body #sharing_message{
+    min-height: 50px;
+    resize: none;
+    width:100%;
+}
+.more_share_option{
+    margin-top:10px;
+}
+.share_on_user{
+    border-bottom:1px solid #dfdfdf;
+    padding: 10px 0 20px;
+    margin-bottom: 20px;
+    overflow:hidden;
+    font-size: 14px;
+}
+.main-share{
+    position: relative;
+    padding-left: 60px;
+}
+.share_on_user > div{
+    float:left;
+    width:50%;
+}
+
+.invite_loading{
+    background: url("../img/loadings.gif") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+    height: 10px;
+    width: 100px;
+}
+
+/*friend inviter*/
+.provider_list{
+    display: block;
+    text-align: center;
+/*    align-items: center;
+    justify-content: center;*/
+    min-height: 138px;
+}
+.provider_list a.logo_item{
+    display: block;
+    border: 1px solid #CCC;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+}
+.provider_list span.title {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+.provider_list > div {
+    padding: 10px;
+    display: inline-block;
+}
+.sub-txt{
+    float: none;
+    text-align: center;
+    font-size: 14px!important;
+    font-weight: 300;
+}
+h4.new_section{
+    text-align: center;
+    font-weight: 300;
+    padding-top: 30px;
+    clear: both;
+    padding-bottom: 10px;
+    border: none;
+}
+#id_manualcontacts{
+    padding: 0 70px;
+    width: auto;
+    float: none;
+}
+#id_manualcontacts > form{
+    position: relative;
+    padding-right: 100px;
+    margin-bottom: 0px;
+}
+#id_manualcontacts > form textarea{
+    width: 100%;
+    height: 33px!important;
+    box-shadow: none;
+    resize: none;
+}
+#id_manualcontacts > form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 33px;
+    width: 90px;
+}
+.emaild_address_note{
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 40px;
+    margin-top:10px;
+}
+.sub-title{
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 43px;
+    clear: both;
+    padding-top: 40px;
+    border-top: 1px solid #dfdfdf;
+    margin-bottom: 30px;
+    color: #000;
+}
+.share_copy_link{
+    border: 1px solid #dfdfdf;
+   /* width: 304px; */
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+    height: 41px;
+    border-radius: 4px;
+    float: none;
+    vertical-align: top;
+}
+#page_friend_inviters-index #share_button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 39px;
+    border-radius: 4px 0 0 4px;
+    background: url(../img/kakaotalk.png) no-repeat 0px 0;
+    width: 40px;
+}
+#page_friend_inviters-index .kakao-text{
+    margin-left: -40px;
+}
+.share_copy_link input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 39px;
+    border: none;
+    box-shadow: none;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.share-on-social a {
+    display: block;
+    display: inline-block;
+    color: #fff;
+    height: 41px;
+    border-radius: 4px;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 45px;
+}
+#id_socialcontact .share_form{
+    text-align: center;
+}
+.share-on-social {
+    display: inline-block;
+    vertical-align: top;
+}
+.share-on-social > div{
+    display: inline-block;
+    vertical-align: top;
+}
+.share-on-social a#facebook_share {
+    background: #3a559f url(../img/fb-icon.png) no-repeat 5px 0;
+    margin: 0 10px;
+}
+.share-on-social a#twitter_tweet {
+    background: #17c5ff url(../img/tw-icon.png) no-repeat 5px 0;
+}
+#id_csvcontacts .sub-title span {
+    display: block;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#id_csvcontacts .sub-title {
+    float: none;
+    text-align: center;
+    font-size: 14px!important;
+    font-weight: 300;
+    padding: 0;
+}
+.upload-contact-file{
+    width: 50%;
+    margin: 0 auto;
+}
+.upload-contact-file .op-cat{
+    margin-bottom: 10px;
+}
+#id_footercontacts .sub-title {
+    clear: both;
+    float: none;
+    margin-top: 21px;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+#message-element textarea{
+    width:100%;
+}
+.thTableSelectRow{
+    background:#f1f1f1;
+}
+.thTableSelectRow td {
+    padding: 5px 0;
+}
+div#show_nonsitefriends .title {
+    margin-bottom: 10px;
+}
+.user_contacts_list td {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 5px;
+}
+.list_invited{
+    margin-top:10px;
+}
+.profile_action_date td {
+    padding: 5px;
+    border-bottom: 1px solid #dfdfdf;
+}
+textarea#custom_message {
+    margin-bottom: 10px;
+}
+.profile_action_date {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 10px 0;
+}
+.profile_action_date > div {
+    display: inline-block;
+}
+.invite-name {
+    width: 40%;
+}
+.invite-date {
+    width: 30%;
+    text-align: right;
+}
+.invite-action {
+    text-align: right;
+    width: 29%;
+}
+.clear {
+    border: medium none !important;
+    clear: both;
+}
+#myid {
+    padding: 10px;
+}
+.suggestion-help-popup > ul {
+    margin: 0;
+    padding: 0;
+}
+.suggestion-help-popup li {
+    list-style: outside none none;
+    padding: 10px 0;
+}
+.suggestion-help-popup {
+    margin-bottom: 20px;
+}
+.admin-guide > a {
+    word-wrap: break-word;
+}
+ul#contactimporter_page_list li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+}
+ul#contactimporter_page_list {
+    padding: 0;
+    margin: 0;
+}
+.fi_referral_link {
+    padding-top: 40px;
+    text-align: center;
+    border-top: 1px solid #dfdfdf;
+    margin-top: 40px;
+}
+.referral_link_title {
+    display: block;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media (max-width: 991px){
+    .invite-name > div {
+        white-space: nowrap;
+    }
+    .profile_action_date > div {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .invite-name {
+        width: 53%;
+    }
+    .invite-date {
+        width: 45%;
+    }
+    .invite-action {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .upload-contact-file{
+        width:100%;
+    }
+    .share_copy_link{
+        margin-bottom: 10px;
+    }
+    #id_manualcontacts{
+        padding:10px;
+    }
+    .provider_list{
+        display: block;
+        text-align: center;
+    }
+    .provider_list > div{
+        display: inline-block;
+    }
+    .share-on-social > div{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 767px){
+    .thTable{
+       overflow-x: auto;
+    }
+    .profile_action_date td {
+        border: none;
+        text-align: left;
+    }
+    .profile_action_date tr {
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .profile_action_date > div {
+        float: none!important;
+    }
+    .share_copy_link{
+        width: 100% !important;
+    }
+    #page_friend_inviters-index #share_button{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .share_copy_link input{
+        padding-left: 10px;
+    }
+    .dropdown-menu{
+        min-width: auto !important;
+    }
+    .sub-title{
+        margin-top: 0;
+    }
+    #id_csvcontacts{
+        margin-top: 30px
+    }
+    #id_csvcontacts .sub-title span{
+        margin-top: 40px;
+    }
+    .dropdown-menu>li>a {
+        padding: 3px 12px;
+    }
+}
+.contactimporter_contactlist{
+    overflow-x: auto;
+}
+.suggestion_inviter h1{
+    text-align: center;
+}

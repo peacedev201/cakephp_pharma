@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+    <version>
+        <number>1.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.1</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.2</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.3</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+    <version>
+        <number>1.4</number>
+        <queries>
+            <query>CREATE TABLE IF NOT EXISTS `{PREFIX}ads_placement_feeds` (
+                `id` int(11) NOT NULL AUTO_INCREMENT,
+                `ads_placement_id` int(11) NOT NULL,
+                `feed_position` int(11) NOT NULL, 
+                PRIMARY KEY(`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            </query>
+            <query>
+                INSERT INTO `{PREFIX}ads_positions` (`id`, `name`, `image`, `ordering`) VALUES (NULL, 'feed', 'feed.png', '13');
+            </query>
+            <query>
+                ALTER TABLE `{PREFIX}ads_placements` CHANGE `placement_type` `placement_type` ENUM('html','image','feed')  NOT NULL;
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.5</number>
+        <queries>
+            <query>
+                ALTER TABLE `{PREFIX}ads_transactions` ADD `type` VARCHAR(255) NULL DEFAULT NULL AFTER `updated`;
+            </query>
+            <query>
+                ALTER TABLE `{PREFIX}ads_placements` CHANGE `placement_type` `placement_type` ENUM('html','image','feed')  NOT NULL;
+            </query>
+        </queries>
+    </version>
+    <version>
+        <number>1.6</number>
+        <queries>
+            <query>
+                INSERT INTO `{PREFIX}acos` (`group`, `key`, `description`) VALUES('ads', 'can_add_ads', 'Can add ads');
+            </query>
+            <query>
+               INSERT INTO `{PREFIX}acos` (`group`, `key`, `description`) VALUES('ads', 'hide_all_ads', 'Hide all ads');
+            </query>
+        </queries>
+    </version>
+	<version>
+        <number>1.7</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+		<version>
+        <number>1.8</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+	<version>
+        <number>2.0</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+	<version>
+        <number>2.1</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+	<version>
+        <number>2.2</number>
+        <queries>
+            <query></query>
+        </queries>
+    </version>
+</versions>

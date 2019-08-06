@@ -1,0 +1,146 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin/Popup/Controller/PopupSettingsController.php:8
+#: Plugin/Popup/View/PopupSettings/admin_index.ctp:5
+msgid "Popup Setting"
+msgstr ""
+
+#: Plugin/Popup/Controller/PopupsController.php:18
+#: Plugin/Popup/View/Popups/admin_index.ctp:5
+msgid "Popups Manager"
+msgstr ""
+
+#: Plugin/Popup/Controller/PopupsController.php:51
+#: Plugin/Popup/View/Popups/admin_create.ctp:7
+msgid "Edit Popup"
+msgstr ""
+
+#: Plugin/Popup/Controller/PopupsController.php:57
+#: Plugin/Popup/View/Popups/admin_create.ctp:10
+#: Plugin/Popup/View/Popups/admin_index.ctp:23
+msgid "Create New Popup"
+msgstr ""
+
+#: Plugin/Popup/Controller/PopupsController.php:112
+msgid "You have popup for all page. Please disable this popup to continue"
+msgstr ""
+
+#: Plugin/Popup/Controller/PopupsController.php:129
+msgid "Can't add more than two active popups into the selected page each time. Please disable one of them to continue."
+msgstr ""
+
+#: Plugin/Popup/Controller/PopupsController.php:140
+msgid "You are having %s popup enable. Do you want disable all popup?"
+msgstr ""
+
+#: Plugin/Popup/Controller/PopupsController.php:202
+msgid "Popup has been successfully saved"
+msgstr ""
+
+#: Plugin/Popup/Controller/PopupsController.php:223
+msgid "Popups have been deleted"
+msgstr ""
+
+#: Plugin/Popup/Controller/PopupsController.php:242
+msgid "Disable Successfully! Click \"Save\" button again to save the new popup!"
+msgstr ""
+
+#: Plugin/Popup/View/Elements/popup.ctp:29
+msgid "I got it, do not show it again."
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:53
+msgid "Please check at least one user role in the Permissions tab"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:57
+msgid "Popup title can not empty"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:68
+msgid "Popup content can not empty"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:203
+msgid "Popup Title"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:209
+msgid "Appear at"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:216
+msgid "Popup Content"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:242
+msgid "Appear one-time only"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:250
+msgid "Show option for member to select to hide it"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:258
+#: Plugin/Popup/View/Popups/admin_index.ctp:47
+msgid "Enable"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_create.ctp:263
+msgid "User roles can view?"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:17
+msgid "Are you sure you want to delete these popups"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:18
+msgid "Delete"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:30
+msgid "Search by title"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:45
+msgid "Title"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:46
+msgid "Appear At"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:64
+msgid "Yes"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:67
+msgid "No"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:78
+msgid "Previous"
+msgstr ""
+
+#: Plugin/Popup/View/Popups/admin_index.ctp:80
+msgid "Next"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Popup"
+msgstr ""
